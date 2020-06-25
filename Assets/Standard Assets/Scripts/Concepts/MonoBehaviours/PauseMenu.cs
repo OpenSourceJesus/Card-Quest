@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-namespace GridGame
+namespace MatchingCardGame
 {
 	public class PauseMenu : SingletonMonoBehaviour<PauseMenu>
 	{

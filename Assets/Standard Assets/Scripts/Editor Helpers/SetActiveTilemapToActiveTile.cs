@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Tilemaps;
 using Extensions;
-using GridGame;
+using MatchingCardGame;
 
 public class SetActiveTilemapToActiveTile : MonoBehaviour
 {

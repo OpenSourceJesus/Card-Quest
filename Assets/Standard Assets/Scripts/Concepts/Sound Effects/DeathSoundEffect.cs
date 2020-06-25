@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using Extensions;
 
-namespace GridGame
+namespace MatchingCardGame
 {
 	public class DeathSoundEffect : SoundEffect
 	{

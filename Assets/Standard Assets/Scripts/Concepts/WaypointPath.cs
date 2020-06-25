@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-namespace GridGame
+namespace MatchingCardGame
 {
 	public class WaypointPath : MonoBehaviour
 	{

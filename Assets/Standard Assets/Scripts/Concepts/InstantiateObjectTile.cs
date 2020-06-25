@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Tilemaps;
 
-namespace GridGame
+namespace MatchingCardGame
 {
 	[CreateAssetMenu]
 	public class InstantiateObjectTile : Tile

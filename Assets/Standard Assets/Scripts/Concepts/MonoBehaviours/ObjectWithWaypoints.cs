@@ -7,7 +7,7 @@ using Extensions;
 using UnityEditor;
 #endif
 
-namespace GridGame
+namespace MatchingCardGame
 {
 	[ExecuteInEditMode]
 	public class ObjectWithWaypoints : MonoBehaviour, ICopyable

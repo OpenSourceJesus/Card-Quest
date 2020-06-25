@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace GridGame
+namespace MatchingCardGame
 {
 	public class DestroyRenderer : MonoBehaviour
 	{

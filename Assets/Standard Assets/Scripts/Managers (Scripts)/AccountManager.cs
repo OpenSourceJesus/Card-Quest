@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using Extensions;
 
-namespace GridGame
+namespace MatchingCardGame
 {
 	//[ExecuteInEditMode]
 	public class AccountManager : MonoBehaviour

@@ -1,7 +1,7 @@
 #if UNITY_EDITOR
 using UnityEngine;
 using UnityEditor;
-using GridGame;
+using MatchingCardGame;
 
 public class ReplaceWithPrefabs : EditorScript
 {

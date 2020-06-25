@@ -7,7 +7,7 @@ using System.Collections.Generic;
 using System.Collections;
 using System;
 
-namespace GridGame
+namespace MatchingCardGame
 {
 	//[ExecuteInEditMode]
 	public class World : EditorScript
@@ -23,7 +23,7 @@ namespace GridGame
 }
 #endif
 #if !UNITY_EDITOR
-namespace GridGame
+namespace MatchingCardGame
 {
 	public class World : EditorScript
 	{

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using GridGame;
+using MatchingCardGame;
 
 [RequireComponent(typeof(Canvas))]
 public class _Canvas : MonoBehaviour

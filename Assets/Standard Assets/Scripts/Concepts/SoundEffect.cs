@@ -4,7 +4,7 @@ using UnityEngine;
 using Extensions;
 using System;
 
-namespace GridGame
+namespace MatchingCardGame
 {
 	[RequireComponent(typeof(AudioSource))]
 	public class SoundEffect : Spawnable

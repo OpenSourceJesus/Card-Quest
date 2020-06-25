@@ -3,7 +3,7 @@ using System.Collections;
 using System;
 using Extensions;
 
-namespace GridGame
+namespace MatchingCardGame
 {
 	[Serializable]
 	public class TemporaryActiveGameObject

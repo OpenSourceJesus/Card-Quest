@@ -13,7 +13,7 @@ using UnityEngine.InputSystem;
 using UnityEngine.UI;
 using UnityEngine.Tilemaps;
 
-namespace GridGame
+namespace MatchingCardGame
 {
 	//[ExecuteInEditMode]
 	public class GameManager : SingletonMonoBehaviour<GameManager>, ISaveableAndLoadable

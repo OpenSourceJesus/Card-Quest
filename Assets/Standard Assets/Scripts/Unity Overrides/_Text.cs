@@ -8,7 +8,7 @@ using TMPro;
 using UnityEditor;
 #endif
 
-namespace GridGame
+namespace MatchingCardGame
 {
 	//[ExecuteInEditMode]
 	[RequireComponent(typeof(TMP_Text))]

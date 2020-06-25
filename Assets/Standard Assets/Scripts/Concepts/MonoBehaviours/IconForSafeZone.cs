@@ -3,7 +3,7 @@ using UnityEngine.UI;
 using Extensions;
 using System.Collections.Generic;
 
-namespace GridGame
+namespace MatchingCardGame
 {
 	public class IconForSafeZone : MonoBehaviour
 	{
