@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using System.Reflection;
 using System;
-using SaveEntry = GridGame.SaveAndLoadManager.SaveEntry;
+using SaveEntry = MatchingCardGame.SaveAndLoadManager.SaveEntry;
 using Extensions;
 
 public class SaveAndLoadObject : MonoBehaviour

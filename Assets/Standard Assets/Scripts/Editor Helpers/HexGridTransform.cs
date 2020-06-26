@@ -1,6 +1,6 @@
 #if UNITY_EDITOR
 using UnityEngine;
-using GridGame;
+using MatchingCardGame;
 
 public class HexGridTransform : EditorScript
 {

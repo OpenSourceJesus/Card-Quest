@@ -5,7 +5,7 @@ using UnityEngine;
 using Extensions;
 using UnityEditor;
 using UnityEditor.SceneManagement;
-using GridGame;
+using MatchingCardGame;
 
 namespace Extensions
 {

@@ -5,7 +5,7 @@ using UnityEngine.UI;
 using UnityEngine.Events;
 using Extensions;
 
-namespace GridGame
+namespace MatchingCardGame
 {
 	[ExecuteInEditMode]
 	public class DraggableWindow : MonoBehaviour, IUpdatable

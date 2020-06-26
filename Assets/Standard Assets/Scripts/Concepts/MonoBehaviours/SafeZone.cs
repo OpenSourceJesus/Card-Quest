@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace GridGame
+namespace MatchingCardGame
 {
 	[RequireComponent(typeof(SpriteRenderer))]
 	public class SafeZone : MonoBehaviour

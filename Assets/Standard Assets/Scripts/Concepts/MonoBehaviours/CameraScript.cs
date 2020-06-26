@@ -6,7 +6,7 @@ using Extensions;
 using UnityEditor;
 #endif
 
-namespace GridGame
+namespace MatchingCardGame
 {
 	//[ExecuteInEditMode]
 	[RequireComponent(typeof(Camera))]
@@ -41,6 +41,7 @@ namespace GridGame
 			viewRect.size = viewSize;
 			HandlePosition ();
 			HandleViewSize ();
+			camera.Render();
 		}
 
 		public virtual void OnEnable ()

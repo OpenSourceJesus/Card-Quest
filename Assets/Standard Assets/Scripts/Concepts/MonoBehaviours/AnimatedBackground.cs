@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using Extensions;
 using UnityEngine.UI;
 
-namespace GridGame
+namespace MatchingCardGame
 {
 	[RequireComponent(typeof(RawImage))]
 	// [RequireComponent(typeof(Image))]

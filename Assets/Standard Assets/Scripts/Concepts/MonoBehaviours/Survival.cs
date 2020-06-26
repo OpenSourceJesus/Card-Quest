@@ -4,7 +4,7 @@ using UnityEngine;
 using System;
 using Random = UnityEngine.Random;
 
-namespace GridGame
+namespace MatchingCardGame
 {
 	public class Survival : MonoBehaviour
 	{

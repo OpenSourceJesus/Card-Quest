@@ -3,7 +3,7 @@ using UnityEngine;
 using UnityEditor;
 #endif
 
-namespace GridGame
+namespace MatchingCardGame
 {
 	[ExecuteInEditMode]
 	public class AttackPointGroup : MonoBehaviour

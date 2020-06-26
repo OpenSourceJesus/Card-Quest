@@ -5,7 +5,7 @@ using UnityEngine.InputSystem.Controls;
 using TouchPhase = UnityEngine.InputSystem.TouchPhase;
 using UnityEngine.UI;
 
-namespace GridGame
+namespace MatchingCardGame
 {
 	public class Player : Entity, ISaveableAndLoadable
 	{

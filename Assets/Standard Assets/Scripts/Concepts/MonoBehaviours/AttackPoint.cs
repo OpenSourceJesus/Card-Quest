@@ -1,7 +1,7 @@
 using UnityEngine;
 using System.Collections.Generic;
 
-namespace GridGame
+namespace MatchingCardGame
 {
 	public class AttackPoint : Spawnable
 	{

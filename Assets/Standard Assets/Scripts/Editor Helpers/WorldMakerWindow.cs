@@ -7,7 +7,7 @@ using Extensions;
 using UnityEditor.SceneManagement;
 using System;
 
-namespace GridGame
+namespace MatchingCardGame
 {
 	public class WorldMakerWindow : EditorWindow
 	{

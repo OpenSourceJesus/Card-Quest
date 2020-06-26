@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 using Extensions;
-using GridGame;
+using MatchingCardGame;
 
 [Serializable]
 public class Circle2D

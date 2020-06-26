@@ -5,7 +5,7 @@ using System;
 using Extensions;
 using Object = UnityEngine.Object;
 
-namespace GridGame
+namespace MatchingCardGame
 {
 	public class ObjectPool : MonoBehaviour
 	{

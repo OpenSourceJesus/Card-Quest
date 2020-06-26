@@ -1,7 +1,7 @@
 using UnityEngine;
 using Extensions;
 
-namespace GridGame
+namespace MatchingCardGame
 {
 	public class SpeederBot : Enemy
 	{

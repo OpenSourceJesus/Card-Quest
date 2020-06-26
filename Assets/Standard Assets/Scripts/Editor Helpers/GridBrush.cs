@@ -2,7 +2,7 @@
 using UnityEngine;
 using UnityEngine.Tilemaps;
 using UnityEditor;
-using GridGame;
+using MatchingCardGame;
 
 [CustomGridBrush(true, false, false, "Default")]
 public class GridBrush : GridBrushBase

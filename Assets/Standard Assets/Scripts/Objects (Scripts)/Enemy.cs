@@ -2,7 +2,7 @@ using UnityEngine;
 using Extensions;
 using System.Collections.Generic;
 
-namespace GridGame
+namespace MatchingCardGame
 {
 	public class Enemy : Entity, IResetable
 	{

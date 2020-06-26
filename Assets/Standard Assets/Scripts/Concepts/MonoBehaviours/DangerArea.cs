@@ -2,7 +2,7 @@ using UnityEngine;
 using System.Collections.Generic;
 using Extensions;
 
-namespace GridGame
+namespace MatchingCardGame
 {
 	public class DangerArea : MonoBehaviour, ISaveableAndLoadable
 	{

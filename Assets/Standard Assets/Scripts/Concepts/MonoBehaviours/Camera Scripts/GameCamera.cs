@@ -1,6 +1,6 @@
 using Extensions;
 
-namespace GridGame
+namespace MatchingCardGame
 {
 	public class GameCamera : CameraScript
 	{

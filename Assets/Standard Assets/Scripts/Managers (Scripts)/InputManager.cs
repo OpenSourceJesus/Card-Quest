@@ -2,7 +2,7 @@
 using Extensions;
 using UnityEngine.InputSystem;
 
-namespace GridGame
+namespace MatchingCardGame
 {
 	public class InputManager : MonoBehaviour
 	{

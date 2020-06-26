@@ -9,7 +9,7 @@ using System.IO;
 // using OdinSerializer;
 using FullSerializer;
 
-namespace GridGame
+namespace MatchingCardGame
 {
 	//[ExecuteInEditMode]
 	public class SaveAndLoadManager : SingletonMonoBehaviour<SaveAndLoadManager>

@@ -4,7 +4,7 @@ using System;
 using UnityEngine.UI;
 using TMPro;
 
-namespace GridGame
+namespace MatchingCardGame
 {
 	[Serializable]
 	public class TemporaryActiveText : TemporaryActiveGameObject

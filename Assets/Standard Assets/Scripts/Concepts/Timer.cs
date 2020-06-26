@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using System;
-using GridGame;
+using MatchingCardGame;
 using Extensions;
 
 [Serializable]

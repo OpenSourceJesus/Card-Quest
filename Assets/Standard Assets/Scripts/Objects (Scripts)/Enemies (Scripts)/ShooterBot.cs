@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace GridGame
+namespace MatchingCardGame
 {
 	public class ShooterBot : Android, ITurnTaker
 	{

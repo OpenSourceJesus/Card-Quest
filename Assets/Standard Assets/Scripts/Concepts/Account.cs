@@ -2,7 +2,7 @@ using System;
 using Extensions;
 using UnityEngine;
 
-namespace GridGame
+namespace MatchingCardGame
 {
 	[Serializable]
 	public class Account : IDefaultable<Account>//, ISaveableAndLoadable
