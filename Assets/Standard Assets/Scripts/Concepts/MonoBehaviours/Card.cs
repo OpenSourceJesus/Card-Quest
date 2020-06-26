@@ -8,10 +8,6 @@ namespace MatchingCardGame
 	{
 		public Transform trs;
 		public SpriteRenderer spriteRenderer;
-
-		void Start ()
-		{
-			
-		}
+		public CardGroup[] groupsIAmPartOf = new CardGroup[0];
 	}
 }

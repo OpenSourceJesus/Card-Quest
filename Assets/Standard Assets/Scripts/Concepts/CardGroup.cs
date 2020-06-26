@@ -6,6 +6,6 @@ namespace MatchingCardGame
 {
 	public class CardGroup : MonoBehaviour
 	{
-        public Card[] cards;
+		public Card[] cards;
 	}
 }
