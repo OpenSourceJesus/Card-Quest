@@ -188,7 +188,7 @@ namespace MatchingCardGame
 			AccountManager.lastUsedAccountIndex = 0;
 			if (SceneManager.GetActiveScene().name == "Init")
 				LoadGameScenes ();
-			else if (GetSingleton<GameCamera>() != null)
+			else if (GetSingleton<CameraScript>() != null)
 				StartCoroutine(OnGameSceneLoadedRoutine ());
 			lowPassFilterFactor = accelerometerUpdateInterval / lowPassKernelWidthInSeconds;
 			shakeDetectionThreshold *= shakeDetectionThreshold;
@@ -197,7 +197,7 @@ namespace MatchingCardGame
 
 		void Init ()
 		{
-			GetSingleton<Player>().OnMove ();
+			// GetSingleton<Player>().OnMove ();
 			initialized = true;
 		}
 		public IEnumerator OnGameSceneLoadedRoutine ()
@@ -244,12 +244,12 @@ namespace MatchingCardGame
 				foreach (IUpdatable updatable in updatables)
 					updatable.DoUpdate ();
 				Physics2D.Simulate(Time.deltaTime);
-				GetSingleton<ObjectPool>().DoUpdate ();
-				GetSingleton<GameCamera>().DoUpdate ();
-				acceleration = InputManager.Acceleration;
-				lowPassValue = Vector3.Lerp(lowPassValue, acceleration, lowPassFilterFactor);
-				if ((acceleration - lowPassValue).sqrMagnitude >= shakeDetectionThreshold || Input.GetKeyDown(KeyCode.Escape))
-					GetSingleton<PauseMenu>().Open ();
+				// GetSingleton<ObjectPool>().DoUpdate ();
+				// GetSingleton<GameCamera>().DoUpdate ();
+				// acceleration = InputManager.Acceleration;
+				// lowPassValue = Vector3.Lerp(lowPassValue, acceleration, lowPassFilterFactor);
+				// if ((acceleration - lowPassValue).sqrMagnitude >= shakeDetectionThreshold || Input.GetKeyDown(KeyCode.Escape))
+					// GetSingleton<PauseMenu>().Open ();
 				framesSinceLoadedScene ++;
 				previousMousePosition = InputManager.MousePosition;
 			// }

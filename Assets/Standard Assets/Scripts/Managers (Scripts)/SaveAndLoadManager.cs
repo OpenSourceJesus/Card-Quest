@@ -151,7 +151,7 @@ namespace MatchingCardGame
 			GameManager.GetSingleton<GameManager>().SetGosActive ();
 			// GameManager.GetSingleton<AudioManager>().Awake ();
 			// GameManager.GetSingleton<Player>().trs.position = GameManager.GetSingleton<Player>().SpawnPosition;
-			GameManager.GetSingleton<GameCamera>().Awake ();
+			// GameManager.GetSingleton<GameCamera>().Awake ();
 			// GameManager.GetSingleton<World>().Init ();
 			// GameManager.GetSingleton<WorldMap>().Init ();
 			// AccountSelectMenu.Init ();

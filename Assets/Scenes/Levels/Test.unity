@@ -121,6 +121,18 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!114 &187656178 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1667915620425343373, guid: 73949be1f9136484ea2a1e3979d3e608,
+    type: 3}
+  m_PrefabInstance: {fileID: 1962933241}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bac9754a2bf9a174087c0aeb047b8d65, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &203843457
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -132,6 +144,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Card
+      objectReference: {fileID: 0}
+    - target: {fileID: 6752409008668591623, guid: 73949be1f9136484ea2a1e3979d3e608,
+        type: 3}
+      propertyPath: m_Icon
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 7859252935065293232, guid: 73949be1f9136484ea2a1e3979d3e608,
         type: 3}
@@ -190,6 +207,66 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 73949be1f9136484ea2a1e3979d3e608, type: 3}
+--- !u!1 &260747110
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 260747112}
+  - component: {fileID: 260747111}
+  m_Layer: 0
+  m_Name: Level
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &260747111
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 260747110}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d236e34e13c10104d8f4c2705bca54ca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cards:
+  - {fileID: 411696598}
+  - {fileID: 1221183386}
+  - {fileID: 938445229}
+  - {fileID: 1161530404}
+  - {fileID: 1633604160}
+  - {fileID: 1312846210}
+  - {fileID: 1307162547}
+  - {fileID: 829259567}
+  - {fileID: 980405156}
+  - {fileID: 187656178}
+  - {fileID: 647891381}
+  - {fileID: 1248278902}
+  cardGroups:
+  - {fileID: 1032283117}
+  - {fileID: 1561554303}
+  selectedCard: {fileID: 0}
+--- !u!4 &260747112
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 260747110}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &399992479
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -201,6 +278,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Sun Over Water (2) Card (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1494213333863493207, guid: f3ef091306da1b2418d57e6ba9bb00e4,
+        type: 3}
+      propertyPath: m_Icon
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 2600916524390709728, guid: f3ef091306da1b2418d57e6ba9bb00e4,
         type: 3}
@@ -259,6 +341,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f3ef091306da1b2418d57e6ba9bb00e4, type: 3}
+--- !u!114 &411696598 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1667915620425343373, guid: 73949be1f9136484ea2a1e3979d3e608,
+    type: 3}
+  m_PrefabInstance: {fileID: 203843457}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bac9754a2bf9a174087c0aeb047b8d65, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &568967399
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -270,6 +364,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Card (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6752409008668591623, guid: 73949be1f9136484ea2a1e3979d3e608,
+        type: 3}
+      propertyPath: m_Icon
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 7859252935065293232, guid: 73949be1f9136484ea2a1e3979d3e608,
         type: 3}
@@ -328,6 +427,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 73949be1f9136484ea2a1e3979d3e608, type: 3}
+--- !u!114 &647891381 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6785872682887154141, guid: f3ef091306da1b2418d57e6ba9bb00e4,
+    type: 3}
+  m_PrefabInstance: {fileID: 399992479}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bac9754a2bf9a174087c0aeb047b8d65, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &658483139
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -339,6 +450,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Card
+      objectReference: {fileID: 0}
+    - target: {fileID: 6752409008668591623, guid: 73949be1f9136484ea2a1e3979d3e608,
+        type: 3}
+      propertyPath: m_Icon
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 7859252935065293232, guid: 73949be1f9136484ea2a1e3979d3e608,
         type: 3}
@@ -409,6 +525,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sun Over Water (2) Card (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1494213333863493207, guid: f3ef091306da1b2418d57e6ba9bb00e4,
+        type: 3}
+      propertyPath: m_Icon
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 2600916524390709728, guid: f3ef091306da1b2418d57e6ba9bb00e4,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -466,6 +587,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f3ef091306da1b2418d57e6ba9bb00e4, type: 3}
+--- !u!114 &829259567 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6785872682887154141, guid: ca543cb40b2ed404e92752f16ae135a5,
+    type: 3}
+  m_PrefabInstance: {fileID: 1889240757}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bac9754a2bf9a174087c0aeb047b8d65, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &900245737
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -477,6 +610,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Morning Tropical Volcano Card (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1494213333863493207, guid: ca543cb40b2ed404e92752f16ae135a5,
+        type: 3}
+      propertyPath: m_Icon
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 2600916524390709728, guid: ca543cb40b2ed404e92752f16ae135a5,
         type: 3}
@@ -547,6 +685,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Morning Tropical Volcano Card (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1494213333863493207, guid: ca543cb40b2ed404e92752f16ae135a5,
+        type: 3}
+      propertyPath: m_Icon
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 2600916524390709728, guid: ca543cb40b2ed404e92752f16ae135a5,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -604,6 +747,42 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ca543cb40b2ed404e92752f16ae135a5, type: 3}
+--- !u!114 &938445229 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6785872682887154141, guid: f3ef091306da1b2418d57e6ba9bb00e4,
+    type: 3}
+  m_PrefabInstance: {fileID: 1981407149}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bac9754a2bf9a174087c0aeb047b8d65, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &980405156 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6785872682887154141, guid: f3ef091306da1b2418d57e6ba9bb00e4,
+    type: 3}
+  m_PrefabInstance: {fileID: 2020655743}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bac9754a2bf9a174087c0aeb047b8d65, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1032283117 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2224628887772639164, guid: c892ed4a00c7c9f41bc8aa8bc45690ec,
+    type: 3}
+  m_PrefabInstance: {fileID: 1122107992}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 666c96d8c82efee4297e1c0cc6c32c07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1122107992
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -611,6 +790,41 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2224628887772639164, guid: c892ed4a00c7c9f41bc8aa8bc45690ec,
+        type: 3}
+      propertyPath: cards.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2224628887772639164, guid: c892ed4a00c7c9f41bc8aa8bc45690ec,
+        type: 3}
+      propertyPath: cards.Array.data[0]
+      value: 
+      objectReference: {fileID: 411696598}
+    - target: {fileID: 2224628887772639164, guid: c892ed4a00c7c9f41bc8aa8bc45690ec,
+        type: 3}
+      propertyPath: cards.Array.data[1]
+      value: 
+      objectReference: {fileID: 1221183386}
+    - target: {fileID: 2224628887772639164, guid: c892ed4a00c7c9f41bc8aa8bc45690ec,
+        type: 3}
+      propertyPath: cards.Array.data[2]
+      value: 
+      objectReference: {fileID: 938445229}
+    - target: {fileID: 2224628887772639164, guid: c892ed4a00c7c9f41bc8aa8bc45690ec,
+        type: 3}
+      propertyPath: cards.Array.data[3]
+      value: 
+      objectReference: {fileID: 1161530404}
+    - target: {fileID: 2224628887772639164, guid: c892ed4a00c7c9f41bc8aa8bc45690ec,
+        type: 3}
+      propertyPath: cards.Array.data[4]
+      value: 
+      objectReference: {fileID: 1633604160}
+    - target: {fileID: 2224628887772639164, guid: c892ed4a00c7c9f41bc8aa8bc45690ec,
+        type: 3}
+      propertyPath: cards.Array.data[5]
+      value: 
+      objectReference: {fileID: 1312846210}
     - target: {fileID: 8507307149221292365, guid: c892ed4a00c7c9f41bc8aa8bc45690ec,
         type: 3}
       propertyPath: m_Name
@@ -654,7 +868,7 @@ PrefabInstance:
     - target: {fileID: 8507307149221292402, guid: c892ed4a00c7c9f41bc8aa8bc45690ec,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8507307149221292402, guid: c892ed4a00c7c9f41bc8aa8bc45690ec,
         type: 3}
@@ -679,6 +893,90 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1122107992}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1161530404 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1667915620425343373, guid: 73949be1f9136484ea2a1e3979d3e608,
+    type: 3}
+  m_PrefabInstance: {fileID: 568967399}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bac9754a2bf9a174087c0aeb047b8d65, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1221183386 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6785872682887154141, guid: ca543cb40b2ed404e92752f16ae135a5,
+    type: 3}
+  m_PrefabInstance: {fileID: 2031421065}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bac9754a2bf9a174087c0aeb047b8d65, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1248278902 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6785872682887154141, guid: ca543cb40b2ed404e92752f16ae135a5,
+    type: 3}
+  m_PrefabInstance: {fileID: 900245737}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bac9754a2bf9a174087c0aeb047b8d65, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1307162547 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1667915620425343373, guid: 73949be1f9136484ea2a1e3979d3e608,
+    type: 3}
+  m_PrefabInstance: {fileID: 658483139}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bac9754a2bf9a174087c0aeb047b8d65, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1312846210 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6785872682887154141, guid: ca543cb40b2ed404e92752f16ae135a5,
+    type: 3}
+  m_PrefabInstance: {fileID: 912440522}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bac9754a2bf9a174087c0aeb047b8d65, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1561554303 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2224628887772639164, guid: c892ed4a00c7c9f41bc8aa8bc45690ec,
+    type: 3}
+  m_PrefabInstance: {fileID: 1956809328}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 666c96d8c82efee4297e1c0cc6c32c07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1633604160 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6785872682887154141, guid: f3ef091306da1b2418d57e6ba9bb00e4,
+    type: 3}
+  m_PrefabInstance: {fileID: 758924081}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bac9754a2bf9a174087c0aeb047b8d65, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1889240757
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -690,6 +988,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Morning Tropical Volcano Card
+      objectReference: {fileID: 0}
+    - target: {fileID: 1494213333863493207, guid: ca543cb40b2ed404e92752f16ae135a5,
+        type: 3}
+      propertyPath: m_Icon
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 2600916524390709728, guid: ca543cb40b2ed404e92752f16ae135a5,
         type: 3}
@@ -755,6 +1058,41 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2224628887772639164, guid: c892ed4a00c7c9f41bc8aa8bc45690ec,
+        type: 3}
+      propertyPath: cards.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2224628887772639164, guid: c892ed4a00c7c9f41bc8aa8bc45690ec,
+        type: 3}
+      propertyPath: cards.Array.data[0]
+      value: 
+      objectReference: {fileID: 1307162547}
+    - target: {fileID: 2224628887772639164, guid: c892ed4a00c7c9f41bc8aa8bc45690ec,
+        type: 3}
+      propertyPath: cards.Array.data[1]
+      value: 
+      objectReference: {fileID: 829259567}
+    - target: {fileID: 2224628887772639164, guid: c892ed4a00c7c9f41bc8aa8bc45690ec,
+        type: 3}
+      propertyPath: cards.Array.data[2]
+      value: 
+      objectReference: {fileID: 980405156}
+    - target: {fileID: 2224628887772639164, guid: c892ed4a00c7c9f41bc8aa8bc45690ec,
+        type: 3}
+      propertyPath: cards.Array.data[3]
+      value: 
+      objectReference: {fileID: 187656178}
+    - target: {fileID: 2224628887772639164, guid: c892ed4a00c7c9f41bc8aa8bc45690ec,
+        type: 3}
+      propertyPath: cards.Array.data[4]
+      value: 
+      objectReference: {fileID: 647891381}
+    - target: {fileID: 2224628887772639164, guid: c892ed4a00c7c9f41bc8aa8bc45690ec,
+        type: 3}
+      propertyPath: cards.Array.data[5]
+      value: 
+      objectReference: {fileID: 1248278902}
     - target: {fileID: 8507307149221292365, guid: c892ed4a00c7c9f41bc8aa8bc45690ec,
         type: 3}
       propertyPath: m_Name
@@ -798,7 +1136,7 @@ PrefabInstance:
     - target: {fileID: 8507307149221292402, guid: c892ed4a00c7c9f41bc8aa8bc45690ec,
         type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 8507307149221292402, guid: c892ed4a00c7c9f41bc8aa8bc45690ec,
         type: 3}
@@ -834,6 +1172,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Card (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6752409008668591623, guid: 73949be1f9136484ea2a1e3979d3e608,
+        type: 3}
+      propertyPath: m_Icon
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 7859252935065293232, guid: 73949be1f9136484ea2a1e3979d3e608,
         type: 3}
@@ -904,6 +1247,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sun Over Water (2) Card
       objectReference: {fileID: 0}
+    - target: {fileID: 1494213333863493207, guid: f3ef091306da1b2418d57e6ba9bb00e4,
+        type: 3}
+      propertyPath: m_Icon
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 2600916524390709728, guid: f3ef091306da1b2418d57e6ba9bb00e4,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -973,6 +1321,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sun Over Water (2) Card
       objectReference: {fileID: 0}
+    - target: {fileID: 1494213333863493207, guid: f3ef091306da1b2418d57e6ba9bb00e4,
+        type: 3}
+      propertyPath: m_Icon
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 2600916524390709728, guid: f3ef091306da1b2418d57e6ba9bb00e4,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1041,6 +1394,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Morning Tropical Volcano Card
+      objectReference: {fileID: 0}
+    - target: {fileID: 1494213333863493207, guid: ca543cb40b2ed404e92752f16ae135a5,
+        type: 3}
+      propertyPath: m_Icon
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 2600916524390709728, guid: ca543cb40b2ed404e92752f16ae135a5,
         type: 3}
@@ -1220,10 +1578,10 @@ Camera:
   m_FocalLength: 50
   m_NormalizedViewPortRect:
     serializedVersion: 2
-    x: -0.6182159
-    y: 0.2764296
-    width: 2.2364318
-    height: 0.44714084
+    x: -0.621959
+    y: 0.27717543
+    width: 2.243918
+    height: 0.44564912
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
@@ -1293,3 +1651,72 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   update: 0
+--- !u!1001 &8070838706285858899
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8070838706112381533, guid: 784f0ed6315e68140b62b114112dad69,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8070838706112381533, guid: 784f0ed6315e68140b62b114112dad69,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8070838706112381533, guid: 784f0ed6315e68140b62b114112dad69,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8070838706112381533, guid: 784f0ed6315e68140b62b114112dad69,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8070838706112381533, guid: 784f0ed6315e68140b62b114112dad69,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8070838706112381533, guid: 784f0ed6315e68140b62b114112dad69,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8070838706112381533, guid: 784f0ed6315e68140b62b114112dad69,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8070838706112381533, guid: 784f0ed6315e68140b62b114112dad69,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8070838706112381533, guid: 784f0ed6315e68140b62b114112dad69,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8070838706112381533, guid: 784f0ed6315e68140b62b114112dad69,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8070838706112381533, guid: 784f0ed6315e68140b62b114112dad69,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8070838706112381534, guid: 784f0ed6315e68140b62b114112dad69,
+        type: 3}
+      propertyPath: m_Name
+      value: Game Manager
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 784f0ed6315e68140b62b114112dad69, type: 3}
