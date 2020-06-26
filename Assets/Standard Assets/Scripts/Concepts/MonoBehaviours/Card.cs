@@ -9,5 +9,7 @@ namespace MatchingCardGame
 		public Transform trs;
 		public SpriteRenderer spriteRenderer;
 		public CardGroup[] groupsIAmPartOf = new CardGroup[0];
+		public Vector2Int position;
+		public string type;
 	}
 }

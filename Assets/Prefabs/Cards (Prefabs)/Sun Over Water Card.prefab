@@ -7,6 +7,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1667915620425343373, guid: 73949be1f9136484ea2a1e3979d3e608,
+        type: 3}
+      propertyPath: type
+      value: Sun Over Water
+      objectReference: {fileID: 0}
     - target: {fileID: 5854280874292825420, guid: 73949be1f9136484ea2a1e3979d3e608,
         type: 3}
       propertyPath: m_Sprite
