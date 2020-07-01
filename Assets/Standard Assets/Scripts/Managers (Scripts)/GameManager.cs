@@ -29,7 +29,6 @@ namespace MatchingCardGame
 				name = value;
 			}
 		}
-		public int uniqueId;
 		public int UniqueId
 		{
 			get
@@ -41,19 +40,6 @@ namespace MatchingCardGame
 				uniqueId = value;
 			}
 		}
-		public static bool paused;
-		public GameObject[] registeredGos = new GameObject[0];
-		[SaveAndLoadValue(false)]
-		public static string enabledGosString = "";
-		[SaveAndLoadValue(false)]
-		public static string disabledGosString = "";
-		public const string STRING_SEPERATOR = "|";
-		public float timeScale;
-		public Team[] teams;
-		public static IUpdatable[] updatables = new IUpdatable[0];
-		public static IUpdatable[] pausedUpdatables = new IUpdatable[0];
-		public static Dictionary<Type, object> singletons = new Dictionary<Type, object>();
-		public const char UNIQUE_ID_SEPERATOR = ',';
 #if UNITY_EDITOR
 		public static int[] UniqueIds
 		{
@@ -77,10 +63,7 @@ namespace MatchingCardGame
 				EditorPrefs.SetString("Unique ids", uniqueIdString);
 			}
 		}
-		public bool doEditorUpdates;
 #endif
-		public static int framesSinceLoadedScene;
-		public const int LAG_FRAMES_AFTER_LOAD_SCENE = 2;
 		public static float UnscaledDeltaTime
 		{
 			get
@@ -91,23 +74,6 @@ namespace MatchingCardGame
 					return Time.unscaledDeltaTime;
 			}
 		}
-		public Animator screenEffectAnimator;
-		public CursorEntry[] cursorEntries;
-		public static Dictionary<string, CursorEntry> cursorEntriesDict = new Dictionary<string, CursorEntry>();
-		public static CursorEntry activeCursorEntry;
-		public RectTransform cursorCanvas;
-		public GameModifier[] gameModifiers;
-		public static Dictionary<string, GameModifier> gameModifierDict = new Dictionary<string, GameModifier>();
-		public Timer hideCursorTimer;
-		public GameScene[] gameScenes;
-		public Canvas[] canvases = new Canvas[0];
-		Vector2 moveInput;
-		public static Vector2 previousMousePosition;
-		public delegate void OnGameScenesLoaded();
-		public static event OnGameScenesLoaded onGameScenesLoaded;
-		public GameObject emptyGoPrefab;
-		public TemporaryActiveText notificationText;
-		public static bool initialized;
 		public static bool HasPlayedBefore
 		{
 			get
@@ -119,36 +85,70 @@ namespace MatchingCardGame
 				PlayerPrefs.SetInt("Has played before ", value.GetHashCode());
 			}
 		}
-		// public static int GameplaySession
-		// {
-		// 	get
-		// 	{
-		// 		return PlayerPrefs.GetInt("Gameplay session", 0);
-		// 	}
-		// 	set
-		// 	{
-		// 		PlayerPrefs.SetInt("Gameplay session", value);
-		// 	}
-		// }
+		public static bool paused;
+		[SaveAndLoadValue(false)]
+		public static string enabledGosString = "";
+		[SaveAndLoadValue(false)]
+		public static string disabledGosString = "";
+		public const string STRING_SEPERATOR = "|";
+		public const float WORLD_SCALE = .866f;
+		public const float WORLD_SCALE_SQR = WORLD_SCALE * WORLD_SCALE;
+		public const char UNIQUE_ID_SEPERATOR = ',';
+		public const int LAG_FRAMES_AFTER_LOAD_SCENE = 2;
+		public static IUpdatable[] updatables = new IUpdatable[0];
+		public static IUpdatable[] pausedUpdatables = new IUpdatable[0];
+		public static Dictionary<Type, object> singletons = new Dictionary<Type, object>();
 		public static bool isFocused;
+		static float lowPassFilterFactor;
+		public static int framesSinceLoadedScene;
+		public static event OnGameScenesLoaded onGameScenesLoaded;
+		public static bool initialized;
+		static Vector3 lowPassValue;
+		public static Vector2 previousMousePosition;
+		public delegate void OnGameScenesLoaded();
+		public static Dictionary<string, CursorEntry> cursorEntriesDict = new Dictionary<string, CursorEntry>();
+		public static CursorEntry activeCursorEntry;
+		public static Dictionary<string, GameModifier> gameModifierDict = new Dictionary<string, GameModifier>();
+		public GameObject[] registeredGos = new GameObject[0];
+		public Animator screenEffectAnimator;
+		public CursorEntry[] cursorEntries;
+		public RectTransform cursorCanvas;
+		public GameModifier[] gameModifiers;
+		public Timer hideCursorTimer;
+		public GameScene[] gameScenes;
+		public Canvas[] canvases = new Canvas[0];
+		public GameObject emptyGoPrefab;
+		public TemporaryActiveText notificationText;
 		public Vector2[] possibleMoves = new Vector2[0];
 		public Grid grid;
 		public Tilemap[] tilemaps = new Tilemap[0];
 		public Tilemap zonesTilemap;
 		public Tilemap unexploredTilemap;
-		public const float WORLD_SCALE = .866f;
-		public const float WORLD_SCALE_SQR = WORLD_SCALE * WORLD_SCALE;
 		public LayerMask whatIsEnemy;
 		public LayerMask whatIsTrap;
 		public LayerMask whatIsRedDoor;
 		public float accelerometerUpdateInterval = 1.0f / 60.0f;
 		public float lowPassKernelWidthInSeconds = 1.0f;
 		public float shakeDetectionThreshold = 2.0f;
-		static float lowPassFilterFactor;
-		static Vector3 lowPassValue;
-		Vector3 acceleration;
 		public GameObject textPanelGo;
 		public _Text textPanelText;
+		public IslandsLevel islandsLevelPrefab;
+		public Island islandPrefab;
+		public Card[] islandsLevelCardPrefabs = new Card[0];
+		public CardSlot cardSlotPrefab;
+		public float timeScale;
+		public Team[] teams;
+		public int uniqueId;
+		public int cardCount = 4;
+		public int cardTypeCount = 1;
+		public int cardSlotBorderWidth = 1;
+		public int islandCount = 2;
+		public int moveCount = 1;
+#if UNITY_EDITOR
+		public bool doEditorUpdates;
+#endif
+		Vector3 acceleration;
+		Vector2 moveInput;
 
 		public override void Awake ()
 		{
@@ -193,6 +193,7 @@ namespace MatchingCardGame
 			lowPassFilterFactor = accelerometerUpdateInterval / lowPassKernelWidthInSeconds;
 			shakeDetectionThreshold *= shakeDetectionThreshold;
 			lowPassValue = InputManager.Acceleration;
+			IslandsLevel.MakeLevel (cardCount, cardTypeCount, cardSlotBorderWidth, islandCount, moveCount);
 		}
 
 		void Init ()
@@ -244,6 +245,8 @@ namespace MatchingCardGame
 				foreach (IUpdatable updatable in updatables)
 					updatable.DoUpdate ();
 				Physics2D.Simulate(Time.deltaTime);
+				if (Input.GetKeyDown(KeyCode.R))
+					ReloadActiveScene ();
 				// GetSingleton<ObjectPool>().DoUpdate ();
 				// GetSingleton<GameCamera>().DoUpdate ();
 				// acceleration = InputManager.Acceleration;

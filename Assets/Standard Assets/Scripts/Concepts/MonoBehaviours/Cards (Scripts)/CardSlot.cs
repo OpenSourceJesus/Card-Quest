@@ -6,5 +6,6 @@ namespace MatchingCardGame
 {
 	public class CardSlot : Card
 	{
+		public Card cardAboveMe;
 	}
 }

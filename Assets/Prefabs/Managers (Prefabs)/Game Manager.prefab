@@ -46,11 +46,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   handleMultipleInstances: 2
   persistant: 1
-  uniqueId: 0
   registeredGos: []
-  timeScale: 1
-  teams: []
-  doEditorUpdates: 0
   screenEffectAnimator: {fileID: 0}
   cursorEntries: []
   cursorCanvas: {fileID: 0}
@@ -93,6 +89,28 @@ MonoBehaviour:
   shakeDetectionThreshold: 2
   textPanelGo: {fileID: 0}
   textPanelText: {fileID: 0}
+  islandsLevelPrefab: {fileID: 2334464654224258897, guid: 6a79e83f3d205414e88412bf472155ab,
+    type: 3}
+  islandPrefab: {fileID: 6163722291081109389, guid: 23775587fefc28d418edc9b4ea5a00c5,
+    type: 3}
+  islandsLevelCardPrefabs:
+  - {fileID: 6785872682887154141, guid: ca543cb40b2ed404e92752f16ae135a5, type: 3}
+  - {fileID: 753998910081918112, guid: 4e16fdb68c58df54884a523d786a5140, type: 3}
+  - {fileID: 6785872682887154141, guid: f3ef091306da1b2418d57e6ba9bb00e4, type: 3}
+  - {fileID: 753998910081918112, guid: 268d22c3d46eff347b102f8cbf9fee83, type: 3}
+  - {fileID: 753998910081918112, guid: 76f82e55783fb37439817b608b22534b, type: 3}
+  - {fileID: 753998910081918112, guid: 05acd37301310db4d8bb8ea4262909d9, type: 3}
+  cardSlotPrefab: {fileID: 4352613662721567470, guid: c00f46325e98a5740881e8aa43944692,
+    type: 3}
+  timeScale: 1
+  teams: []
+  uniqueId: 0
+  cardCount: 4
+  cardTypeCount: 1
+  cardSlotBorderWidth: 1
+  islandCount: 2
+  moveCount: 1
+  doEditorUpdates: 0
 --- !u!1001 &4588316220052625618
 PrefabInstance:
   m_ObjectHideFlags: 0

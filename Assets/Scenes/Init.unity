@@ -128,6 +128,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 8070838706112381532, guid: 784f0ed6315e68140b62b114112dad69,
+        type: 3}
+      propertyPath: islandCount
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8070838706112381532, guid: 784f0ed6315e68140b62b114112dad69,
+        type: 3}
+      propertyPath: cardCount
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 8070838706112381533, guid: 784f0ed6315e68140b62b114112dad69,
         type: 3}
       propertyPath: m_LocalPosition.x

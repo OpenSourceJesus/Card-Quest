@@ -31,9 +31,9 @@ namespace Extensions
 			return new Vector2(v1.x * v2.x, v1.y * v2.y);
 		}
 
-		public static Vector2Int Multiply (this Vector2Int v1, Vector2 v2)
+		public static Vector2 Multiply (this Vector2Int v1, Vector2 v2)
 		{
-			return v1.ToVec2().Multiply(v2).ToVec2Int();
+			return v1.ToVec2().Multiply(v2);
 		}
 
 		public static float Cross (this Vector2 v1, Vector2 v2)

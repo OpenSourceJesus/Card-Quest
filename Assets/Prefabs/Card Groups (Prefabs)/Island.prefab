@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cards: []
   cardSlots: []
+  trs: {fileID: 672733559935438470}
 --- !u!1001 &9171019188319709172
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -87,6 +88,12 @@ PrefabInstance:
 --- !u!1 &672733559935438521 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8507307149221292365, guid: c892ed4a00c7c9f41bc8aa8bc45690ec,
+    type: 3}
+  m_PrefabInstance: {fileID: 9171019188319709172}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &672733559935438470 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8507307149221292402, guid: c892ed4a00c7c9f41bc8aa8bc45690ec,
     type: 3}
   m_PrefabInstance: {fileID: 9171019188319709172}
   m_PrefabAsset: {fileID: 0}

@@ -11,5 +11,6 @@ namespace MatchingCardGame
 		public CardGroup[] groupsIAmPartOf = new CardGroup[0];
 		public Vector2Int position;
 		public string type;
+		public CardSlot cardSlotUnderMe;
 	}
 }
