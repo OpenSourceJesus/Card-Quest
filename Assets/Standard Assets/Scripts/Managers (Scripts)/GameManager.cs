@@ -15,7 +15,6 @@ using UnityEngine.Tilemaps;
 
 namespace MatchingCardGame
 {
-	//[ExecuteInEditMode]
 	public class GameManager : SingletonMonoBehaviour<GameManager>, ISaveableAndLoadable
 	{
 		public string Name
