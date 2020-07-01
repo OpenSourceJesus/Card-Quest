@@ -10,13 +10,15 @@ namespace MatchingCardGame
 		public Card highlightedCard;
 		public Transform selectedCardIndicatorTrs;
 		public Transform highlightedCardIndicatorTrs;
-		bool previousLeftMouseButtonInput;
-		bool leftMouseButtonInput;
+		public Transform trs;
+		public static int currentTry;
+		const int MAX_RETRY_COUNT = 7;
 		static Vector2 cardSize;
 		static IslandsLevel islandsLevel;
 		static Vector2Int minCardSlotPosition;
 		static Vector2Int maxCardSlotPosition;
-		public Transform trs;
+		bool previousLeftMouseButtonInput;
+		bool leftMouseButtonInput;
 
 		public override void DoUpdate ()
 		{
@@ -158,6 +160,12 @@ namespace MatchingCardGame
 			if (moves < moveCount)
 			{
 				Destroy(islandsLevel.gameObject);
+				currentTry ++;
+				if (currentTry > MAX_RETRY_COUNT)
+				{
+					print("The level generator tried " + MAX_RETRY_COUNT + " times but couldn't make the level you requested");
+					return null;
+				}
 				return MakeLevel (cardCount, cardTypeCount, cardSlotBorderWidth, islandCount, moveCount);
 			}
 			islandsLevel.selectedCard = null;
@@ -189,7 +197,7 @@ namespace MatchingCardGame
 			for (int i = 0; i < cardTypeCount; i ++)
 			{
 				int notUsedIslandCardPrefabIndex = Random.Range(0, notUsedIslandCardPrefabs.Count);
-				for (int i2 = 0; i2 < (int) (cardCount / cardTypeCount); i2 ++)
+				for (int i2 = 0; i2 < Mathf.RoundToInt(cardCount / cardTypeCount); i2 ++)
 				{
 					Card card = Instantiate(notUsedIslandCardPrefabs[notUsedIslandCardPrefabIndex], island.trs);
 					int indexOfCardPosition = Random.Range(0, possibleNextCardPositions.Count);

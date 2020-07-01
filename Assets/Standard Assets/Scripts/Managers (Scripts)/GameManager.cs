@@ -192,6 +192,7 @@ namespace MatchingCardGame
 			lowPassFilterFactor = accelerometerUpdateInterval / lowPassKernelWidthInSeconds;
 			shakeDetectionThreshold *= shakeDetectionThreshold;
 			lowPassValue = InputManager.Acceleration;
+			IslandsLevel.currentTry = 0;
 			IslandsLevel.MakeLevel (cardCount, cardTypeCount, cardSlotBorderWidth, islandCount, moveCount);
 		}
 
