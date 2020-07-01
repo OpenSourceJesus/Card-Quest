@@ -38,7 +38,10 @@ namespace MatchingCardGame
 				if (leftMouseButtonInput && !previousLeftMouseButtonInput)
 				{
 					if (selectedCard != null)
+					{
 						TryToMoveSelectedCardToHighlightedPosition ();
+						print("Level complete: " + IsLevelCompleted ());
+					}
 					selectedCard = highlightedCard;
 					selectedCardIndicatorTrs.SetParent(selectedCard.trs);
 					selectedCardIndicatorTrs.localPosition = Vector3.zero;
@@ -54,6 +57,35 @@ namespace MatchingCardGame
 					selectedCardIndicatorTrs.gameObject.SetActive(false);
 				}
 			}
+		}
+
+		bool IsLevelCompleted ()
+		{
+			Dictionary<Vector2Int, string> cardTypePositions = new Dictionary<Vector2Int, string>();
+			for (int i = 0; i < cardGroups.Length; i ++)
+			{
+				Island island = (Island) cardGroups[i];
+				foreach (CardSlot cardSlot in island.cardSlots)
+				{
+					if (cardSlot.cardAboveMe != null)
+					{
+						if (i == 0)
+							cardTypePositions.Add(cardSlot.position, cardSlot.cardAboveMe.type);
+						else
+						{
+							string cardType;
+							if (cardTypePositions.TryGetValue(cardSlot.position, out cardType) && cardType == cardSlot.cardAboveMe.type)
+							{
+							}
+							else
+								return false;
+						}
+					}
+					else if (i > 0 && cardTypePositions.ContainsKey(cardSlot.position))
+						return false;
+				}
+			}
+			return true;
 		}
 
 		bool TryToMoveSelectedCardToHighlightedPosition ()
