@@ -48,6 +48,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   trs: {fileID: 7859252935065293232}
   spriteRenderer: {fileID: 5854280874292825420}
+  groupsIAmPartOf: []
+  position: {x: 0, y: 0}
+  type: 
+  cardSlotUnderMe: {fileID: 0}
 --- !u!212 &5854280874292825420
 SpriteRenderer:
   m_ObjectHideFlags: 0

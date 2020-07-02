@@ -12,7 +12,7 @@ namespace MatchingCardGame
 		public Transform highlightedCardIndicatorTrs;
 		public Transform trs;
 		public static int currentTry;
-		const int MAX_RETRY_COUNT = 7;
+		const int MAX_RETRY_COUNT = 10;
 		static Vector2 cardSize;
 		static IslandsLevel islandsLevel;
 		static Vector2Int minCardSlotPosition;
@@ -127,13 +127,13 @@ namespace MatchingCardGame
 
 		void MoveSelectedCardToHighlightedPosition ()
 		{
-			CardGroup highlighedCardIsland = highlightedCard.groupsIAmPartOf[0];
-			CardGroup selectedCardIsland = selectedCard.groupsIAmPartOf[0];
+			CardGroup highlighedIsland = highlightedCard.groupsIAmPartOf[0];
+			CardGroup selectedIsland = selectedCard.groupsIAmPartOf[0];
 			selectedCard.trs.position = highlightedCard.trs.position.SetZ(0);
 			selectedCard.position = highlightedCard.position;
-			highlighedCardIsland.cards = highlighedCardIsland.cards.Add(selectedCard);
-			selectedCard.groupsIAmPartOf = new CardGroup[1] { highlighedCardIsland };
-			selectedCardIsland.cards = selectedCardIsland.cards.Remove(selectedCard);
+			highlighedIsland.cards = highlighedIsland.cards.Add(selectedCard);
+			selectedCard.groupsIAmPartOf = new CardGroup[1] { highlighedIsland };
+			selectedIsland.cards = selectedIsland.cards.Remove(selectedCard);
 			CardSlot highlightedCardSlot = (CardSlot) highlightedCard;
 			highlightedCardSlot.cardAboveMe = selectedCard;
 			selectedCard.cardSlotUnderMe.cardAboveMe = null;
@@ -156,17 +156,18 @@ namespace MatchingCardGame
 				else
 					island.trs.position -= (Vector3) (maxCardSlotPosition - minCardSlotPosition + new Vector2Int(2, 3)).Multiply(cardSize);
 			}
-			int moves = MakeMoves (moveCount);
+			int moves = MakeMoves(moveCount);
 			if (moves < moveCount)
 			{
-				Destroy(islandsLevel.gameObject);
+				// DestroyImmediate(islandsLevel.gameObject);
+				islandsLevel.gameObject.SetActive(false);
 				currentTry ++;
-				if (currentTry > MAX_RETRY_COUNT)
+				if (currentTry > moveCount * 2)
 				{
-					print("The level generator tried " + MAX_RETRY_COUNT + " times but couldn't make the level you requested");
+					print("The level generator tried " + (moveCount * 2) + " times but couldn't make the level you requested");
 					return null;
 				}
-				return MakeLevel (cardCount, cardTypeCount, cardSlotBorderWidth, islandCount, moveCount);
+				return MakeLevel(cardCount, cardTypeCount, cardSlotBorderWidth, islandCount, moveCount);
 			}
 			islandsLevel.selectedCard = null;
 			islandsLevel.highlightedCard = null;
@@ -197,7 +198,7 @@ namespace MatchingCardGame
 			for (int i = 0; i < cardTypeCount; i ++)
 			{
 				int notUsedIslandCardPrefabIndex = Random.Range(0, notUsedIslandCardPrefabs.Count);
-				for (int i2 = 0; i2 < Mathf.RoundToInt(cardCount / cardTypeCount); i2 ++)
+				for (int i2 = 0; i2 < cardCount / cardTypeCount; i2 ++)
 				{
 					Card card = Instantiate(notUsedIslandCardPrefabs[notUsedIslandCardPrefabIndex], island.trs);
 					int indexOfCardPosition = Random.Range(0, possibleNextCardPositions.Count);

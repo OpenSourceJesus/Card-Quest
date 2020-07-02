@@ -105,11 +105,11 @@ MonoBehaviour:
   timeScale: 1
   teams: []
   uniqueId: 0
-  cardCount: 4
+  cardCount: 6
   cardTypeCount: 1
   cardSlotBorderWidth: 1
   islandCount: 2
-  moveCount: 1
+  moveCount: 10
   doEditorUpdates: 0
 --- !u!1001 &4588316220052625618
 PrefabInstance:
