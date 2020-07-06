@@ -138,11 +138,6 @@ namespace MatchingCardGame
 		public float timeScale;
 		public Team[] teams;
 		public int uniqueId;
-		public int cardCount = 4;
-		public int cardTypeCount = 1;
-		public int cardSlotBorderWidth = 1;
-		public int islandCount = 2;
-		public int moveCount = 1;
 #if UNITY_EDITOR
 		public bool doEditorUpdates;
 #endif
@@ -192,8 +187,6 @@ namespace MatchingCardGame
 			lowPassFilterFactor = accelerometerUpdateInterval / lowPassKernelWidthInSeconds;
 			shakeDetectionThreshold *= shakeDetectionThreshold;
 			lowPassValue = InputManager.Acceleration;
-			IslandsLevel.currentTry = 0;
-			IslandsLevel.MakeLevel (cardCount, cardTypeCount, cardSlotBorderWidth, islandCount, moveCount);
 		}
 
 		void Init ()
@@ -245,8 +238,6 @@ namespace MatchingCardGame
 				foreach (IUpdatable updatable in updatables)
 					updatable.DoUpdate ();
 				Physics2D.Simulate(Time.deltaTime);
-				if (Input.GetKeyDown(KeyCode.R))
-					ReloadActiveScene ();
 				// GetSingleton<ObjectPool>().DoUpdate ();
 				// GetSingleton<GameCamera>().DoUpdate ();
 				// acceleration = InputManager.Acceleration;

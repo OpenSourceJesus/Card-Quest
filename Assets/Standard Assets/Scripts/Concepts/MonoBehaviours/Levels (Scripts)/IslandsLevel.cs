@@ -96,6 +96,17 @@ namespace MatchingCardGame
 			Island selectedCardIsland = (Island) selectedCard.groupsIAmPartOf[0];
 			if (highlighedCardIsland == selectedCardIsland)
 				return false;
+			bool isCardSlotMousedOver = false;
+			foreach (Card cardSlot in highlighedCardIsland.cardSlots)
+			{
+				if (cardSlot.position == highlightedCard.position)
+				{
+					isCardSlotMousedOver = true;
+					break;
+				}
+			}
+			if (!isCardSlotMousedOver)
+				return false;
 			// highlightedCardIsland.cardSlotPositionsDict[highlightedCard.position];
 			bool isNextToSameType = false;
 			foreach (Card card in highlighedCardIsland.cards)
@@ -152,21 +163,21 @@ namespace MatchingCardGame
 				currentTry ++;
 				if (currentTry > moveCount * MAX_RETRY_COUNT_MULTIPLIER)
 				{
-					print("The level generator tried " + (moveCount * MAX_RETRY_COUNT_MULTIPLIER) + " times but couldn't make the level you requested");
+					Debug.LogWarning("The level generator tried " + (moveCount * MAX_RETRY_COUNT_MULTIPLIER) + " times but couldn't make the level you requested");
 					return null;
 				}
 				return MakeLevel(cardCount, cardTypeCount, cardSlotBorderWidth, islandCount, moveCount);
 			}
 			islandsLevel.selectedCard = null;
 			islandsLevel.highlightedCard = null;
-			Card[] cards = FindObjectsOfType<Card>();
-			List<Rect> cardRects = new List<Rect>();
-			foreach (Card card in cards)
-				cardRects.Add(card.spriteRenderer.bounds.ToRect());
-			GameManager.GetSingleton<CameraScript>().viewRect = RectExtensions.Combine(cardRects.ToArray());
-			GameManager.GetSingleton<CameraScript>().trs.position = GameManager.GetSingleton<CameraScript>().viewRect.center.SetZ(GameManager.GetSingleton<CameraScript>().trs.position.z);
-			GameManager.GetSingleton<CameraScript>().viewSize = GameManager.GetSingleton<CameraScript>().viewRect.size;
-			GameManager.GetSingleton<CameraScript>().HandleViewSize ();
+			// Card[] cards = FindObjectsOfType<Card>();
+			// List<Rect> cardRects = new List<Rect>();
+			// foreach (Card card in cards)
+			// 	cardRects.Add(card.spriteRenderer.bounds.ToRect());
+			// GameManager.GetSingleton<CameraScript>().viewRect = RectExtensions.Combine(cardRects.ToArray());
+			// GameManager.GetSingleton<CameraScript>().trs.position = GameManager.GetSingleton<CameraScript>().viewRect.center.SetZ(GameManager.GetSingleton<CameraScript>().trs.position.z);
+			// GameManager.GetSingleton<CameraScript>().viewSize = GameManager.GetSingleton<CameraScript>().viewRect.size;
+			// GameManager.GetSingleton<CameraScript>().HandleViewSize ();
 			return islandsLevel;
 		}
 
@@ -279,10 +290,19 @@ namespace MatchingCardGame
 					possibleCardSlotsToMoveTo.Remove(card.cardSlotUnderMe);
 				int indexOfCardSlotToMoveTo = Random.Range(0, possibleCardSlotsToMoveTo.Count);
 				CardSlot cardSlotToMoveTo = possibleCardSlotsToMoveTo[indexOfCardSlotToMoveTo];
-				CardSlot cardSlotToMoveFrom = cardToMove.cardSlotUnderMe;
 				islandsLevel.selectedCard = cardToMove;
 				islandsLevel.highlightedCard = cardSlotToMoveTo;
-				islandsLevel.MoveSelectedCardToHighlightedPosition ();
+				if ((cardSlotToMoveTo as CardSlot) == null || cardToMove == null || cardToMove.cardSlotUnderMe == null)
+					return false;
+				islandsLevel.MoveSelectedCardToHighlightedPosition();
+				foreach (CardGroup cardGroup in islandsLevel.cardGroups)
+				{
+					foreach (Card card in cardGroup.cards)
+					{
+						if (card.cardSlotUnderMe == null)
+							return false;
+					}
+				}
 			}
 			return true;
 		}
