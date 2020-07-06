@@ -175,9 +175,50 @@ MonoBehaviour:
     cardSlotBorderWidth: 1
     islandCount: 2
     moveCount: 2
+  - cardCount: 6
+    cardTypeCount: 1
+    cardSlotBorderWidth: 1
+    islandCount: 3
+    moveCount: 1
+  - cardCount: 6
+    cardTypeCount: 1
+    cardSlotBorderWidth: 1
+    islandCount: 3
+    moveCount: 2
+  - cardCount: 6
+    cardTypeCount: 1
+    cardSlotBorderWidth: 1
+    islandCount: 2
+    moveCount: 3
+  - cardCount: 6
+    cardTypeCount: 1
+    cardSlotBorderWidth: 1
+    islandCount: 2
+    moveCount: 4
+  - cardCount: 6
+    cardTypeCount: 1
+    cardSlotBorderWidth: 1
+    islandCount: 3
+    moveCount: 3
+  - cardCount: 6
+    cardTypeCount: 1
+    cardSlotBorderWidth: 1
+    islandCount: 2
+    moveCount: 5
+  - cardCount: 6
+    cardTypeCount: 1
+    cardSlotBorderWidth: 1
+    islandCount: 3
+    moveCount: 4
+  - cardCount: 6
+    cardTypeCount: 1
+    cardSlotBorderWidth: 2
+    islandCount: 2
+    moveCount: 6
   levelAreaPrefab: {fileID: 226970806455820297, guid: 383306eee7858b34b9a0d7d456ce9738,
     type: 3}
   levelSeperation: 3
+  levelRepeatCount: 2
 --- !u!20 &7591894831704654464
 Camera:
   m_ObjectHideFlags: 0

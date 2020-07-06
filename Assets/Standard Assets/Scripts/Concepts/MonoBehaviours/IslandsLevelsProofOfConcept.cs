@@ -17,6 +17,7 @@ namespace MatchingCardGame
 		public IslandsLevelEntry[] islandsLevelEntries = new IslandsLevelEntry[0];
 		public Transform levelAreaPrefab;
 		public float levelSeperation;
+		public int levelRepeatCount = 1;
 
 		public virtual void Awake ()
 		{
@@ -26,22 +27,25 @@ namespace MatchingCardGame
 			List<Rect> islandsLevelBoundsRects = new List<Rect>();
 			foreach (IslandsLevelEntry islandsLevelEntry in islandsLevelEntries)
 			{
-				IslandsLevel islandsLevel = islandsLevelEntry.MakeLevel();
-				List<Rect> cardSlotRects = new List<Rect>();
-				foreach (CardGroup cardGroup in islandsLevel.cardGroups)
+				for (int i = 0; i < levelRepeatCount; i ++)
 				{
-					Island island = (Island) cardGroup;
-					foreach (CardSlot cardSlot in island.cardSlots)
-						cardSlotRects.Add(cardSlot.spriteRenderer.bounds.ToRect());
+					IslandsLevel islandsLevel = islandsLevelEntry.MakeLevel();
+					List<Rect> cardSlotRects = new List<Rect>();
+					foreach (CardGroup cardGroup in islandsLevel.cardGroups)
+					{
+						Island island = (Island) cardGroup;
+						foreach (CardSlot cardSlot in island.cardSlots)
+							cardSlotRects.Add(cardSlot.spriteRenderer.bounds.ToRect());
+					}
+					islandsLevelBoundsRect = RectExtensions.Combine(cardSlotRects.ToArray());
+					if (previousIslandsLevelPosition != (Vector2) VectorExtensions.NULL)
+						islandsLevel.trs.position = previousIslandsLevelPosition + (Vector2.right * (previousIslandsLevelBoundsRect.size.x / 2 + islandsLevelBoundsRect.size.x / 2 + levelSeperation));
+					previousIslandsLevelBoundsRect = islandsLevelBoundsRect;
+					previousIslandsLevelPosition = islandsLevel.trs.position;
+					islandsLevelBoundsRects.Add(islandsLevelBoundsRect);
+					Transform levelArea = Instantiate(levelAreaPrefab, islandsLevel.trs.position + (Vector3) islandsLevelBoundsRect.center, default(Quaternion));
+					levelArea.localScale = islandsLevelBoundsRect.size;
 				}
-				islandsLevelBoundsRect = RectExtensions.Combine(cardSlotRects.ToArray());
-				if (previousIslandsLevelPosition != (Vector2) VectorExtensions.NULL)
-					islandsLevel.trs.position = previousIslandsLevelPosition + (Vector2.right * (previousIslandsLevelBoundsRect.size.x / 2 + islandsLevelBoundsRect.size.x / 2 + levelSeperation));
-				previousIslandsLevelBoundsRect = islandsLevelBoundsRect;
-				previousIslandsLevelPosition = islandsLevel.trs.position;
-				islandsLevelBoundsRects.Add(islandsLevelBoundsRect);
-				Transform levelArea = Instantiate(levelAreaPrefab, islandsLevel.trs.position + (Vector3) islandsLevelBoundsRect.center, default(Quaternion));
-				levelArea.localScale = islandsLevelBoundsRect.size;
 			}
 			Card[] cards = FindObjectsOfType<Card>();
 			List<Rect> cardRects = new List<Rect>();
@@ -68,7 +72,7 @@ namespace MatchingCardGame
 		[Serializable]
 		public class IslandsLevelEntry
 		{
-			public int cardCount = 4;
+			public int cardCount = 6;
 			public int cardTypeCount = 1;
 			public int cardSlotBorderWidth = 1;
 			public int islandCount = 2;
