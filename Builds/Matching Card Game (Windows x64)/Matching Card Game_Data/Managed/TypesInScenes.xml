@@ -42,6 +42,7 @@
 		<type fullname="MatchingCardGame.GameManager" preserve="nothing"/>
 		<type fullname="MatchingCardGame.Island" preserve="nothing"/>
 		<type fullname="MatchingCardGame.IslandsLevel" preserve="nothing"/>
+		<type fullname="MatchingCardGame.IslandsLevelsProofOfConcept" preserve="nothing"/>
 		<type fullname="MatchingCardGame.SaveAndLoadManager" preserve="nothing"/>
 		<type fullname="SnapPosition" preserve="nothing"/>
 	</assembly>

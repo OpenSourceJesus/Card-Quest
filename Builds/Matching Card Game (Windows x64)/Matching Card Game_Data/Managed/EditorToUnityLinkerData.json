@@ -463,6 +463,13 @@
         {
             "managedAssemblyName": "Assembly-CSharp-firstpass.dll",
             "nativeClass": "",
+            "fullManagedTypeName": "MatchingCardGame.IslandsLevelsProofOfConcept",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp-firstpass.dll",
+            "nativeClass": "",
             "fullManagedTypeName": "MatchingCardGame.SaveAndLoadManager",
             "moduleName": "",
             "usedInScenes": []

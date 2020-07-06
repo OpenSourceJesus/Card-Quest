@@ -15,7 +15,7 @@ namespace MatchingCardGame
 			}
 		}
 		public IslandsLevelEntry[] islandsLevelEntries = new IslandsLevelEntry[0];
-		public Transform levelSeparatorPrefab;
+		public Transform levelAreaPrefab;
 		public float levelSeperation;
 
 		public virtual void Awake ()
@@ -40,8 +40,8 @@ namespace MatchingCardGame
 				previousIslandsLevelBoundsRect = islandsLevelBoundsRect;
 				previousIslandsLevelPosition = islandsLevel.trs.position;
 				islandsLevelBoundsRects.Add(islandsLevelBoundsRect);
-				Transform levelSeparator = Instantiate(levelSeparatorPrefab, islandsLevel.trs.position + (Vector3) islandsLevelBoundsRect.center, default(Quaternion));
-				levelSeparator.localScale = islandsLevelBoundsRect.size;
+				Transform levelArea = Instantiate(levelAreaPrefab, islandsLevel.trs.position + (Vector3) islandsLevelBoundsRect.center, default(Quaternion));
+				levelArea.localScale = islandsLevelBoundsRect.size;
 			}
 			Card[] cards = FindObjectsOfType<Card>();
 			List<Rect> cardRects = new List<Rect>();

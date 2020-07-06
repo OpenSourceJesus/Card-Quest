@@ -175,7 +175,7 @@ MonoBehaviour:
     cardSlotBorderWidth: 1
     islandCount: 2
     moveCount: 2
-  levelSeparatorPrefab: {fileID: 226970806455820297, guid: 383306eee7858b34b9a0d7d456ce9738,
+  levelAreaPrefab: {fileID: 226970806455820297, guid: 383306eee7858b34b9a0d7d456ce9738,
     type: 3}
   levelSeperation: 3
 --- !u!20 &7591894831704654464
