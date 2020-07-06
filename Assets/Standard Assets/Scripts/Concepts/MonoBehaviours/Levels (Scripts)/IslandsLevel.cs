@@ -12,7 +12,7 @@ namespace MatchingCardGame
 		public Transform highlightedCardIndicatorTrs;
 		public Transform trs;
 		public static int currentTry;
-		const int MAX_RETRY_COUNT = 10;
+		const int MAX_RETRY_COUNT_MULTIPLIER = 100;
 		static Vector2 cardSize;
 		static IslandsLevel islandsLevel;
 		static Vector2Int minCardSlotPosition;
@@ -96,17 +96,7 @@ namespace MatchingCardGame
 			Island selectedCardIsland = (Island) selectedCard.groupsIAmPartOf[0];
 			if (highlighedCardIsland == selectedCardIsland)
 				return false;
-			bool isCardSlotMousedOver = false;
-			foreach (Card cardSlot in highlighedCardIsland.cardSlots)
-			{
-				if (cardSlot.position == highlightedCard.position)
-				{
-					isCardSlotMousedOver = true;
-					break;
-				}
-			}
-			if (!isCardSlotMousedOver)
-				return false;
+			// highlightedCardIsland.cardSlotPositionsDict[highlightedCard.position];
 			bool isNextToSameType = false;
 			foreach (Card card in highlighedCardIsland.cards)
 			{
@@ -156,15 +146,13 @@ namespace MatchingCardGame
 				else
 					island.trs.position -= (Vector3) (maxCardSlotPosition - minCardSlotPosition + new Vector2Int(2, 3)).Multiply(cardSize);
 			}
-			int moves = MakeMoves(moveCount);
-			if (moves < moveCount)
+			if (!MakeMoves(moveCount))
 			{
-				// DestroyImmediate(islandsLevel.gameObject);
-				islandsLevel.gameObject.SetActive(false);
+				DestroyImmediate(islandsLevel.gameObject);
 				currentTry ++;
-				if (currentTry > moveCount * 2)
+				if (currentTry > moveCount * MAX_RETRY_COUNT_MULTIPLIER)
 				{
-					print("The level generator tried " + (moveCount * 2) + " times but couldn't make the level you requested");
+					print("The level generator tried " + (moveCount * MAX_RETRY_COUNT_MULTIPLIER) + " times but couldn't make the level you requested");
 					return null;
 				}
 				return MakeLevel(cardCount, cardTypeCount, cardSlotBorderWidth, islandCount, moveCount);
@@ -250,9 +238,8 @@ namespace MatchingCardGame
 			return island;
 		}
 
-		static int MakeMoves (int moveCount = 1)
+		static bool MakeMoves (int moveCount = 1)
 		{
-			List<KeyValuePair<Vector2Int, Vector2Int>> moves = new List<KeyValuePair<Vector2Int, Vector2Int>>();
 			for (int i = 0; i < moveCount; i ++)
 			{
 				Card cardToMove;
@@ -273,7 +260,7 @@ namespace MatchingCardGame
 					else if (possibleCardsToMove.Count == 0)
 					{
 						if (remainingCardGroups.Count == 0)
-							return moves.Count;
+							return false;
 						selectedIslandIndex = Random.Range(0, remainingCardGroups.Count);
 						selectedIsland = (Island) remainingCardGroups[selectedIslandIndex];
 						remainingCardGroups.RemoveAt(selectedIslandIndex);
@@ -296,9 +283,8 @@ namespace MatchingCardGame
 				islandsLevel.selectedCard = cardToMove;
 				islandsLevel.highlightedCard = cardSlotToMoveTo;
 				islandsLevel.MoveSelectedCardToHighlightedPosition ();
-				moves.Add(new KeyValuePair<Vector2Int, Vector2Int>(cardSlotToMoveFrom.position, cardSlotToMoveTo.position));
 			}
-			return moves.Count;
+			return true;
 		}
 
 		static bool IsCardNextToSameType (Card card)

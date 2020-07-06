@@ -109,7 +109,7 @@ MonoBehaviour:
   cardTypeCount: 1
   cardSlotBorderWidth: 1
   islandCount: 2
-  moveCount: 10
+  moveCount: 1
   doEditorUpdates: 0
 --- !u!1001 &4588316220052625618
 PrefabInstance:
