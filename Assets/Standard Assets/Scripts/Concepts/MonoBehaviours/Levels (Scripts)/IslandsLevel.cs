@@ -155,7 +155,7 @@ namespace MatchingCardGame
 				if (i % 2 == 1)
 					island.trs.position += (Vector3.right * (maxCardSlotPosition.x - minCardSlotPosition.x + 2)).Multiply(cardSize);
 				else
-					island.trs.position -= (Vector3) (maxCardSlotPosition - minCardSlotPosition + new Vector2Int(2, 3)).Multiply(cardSize);
+					island.trs.position -= (Vector3) (maxCardSlotPosition - minCardSlotPosition + new Vector2Int(2, 5)).Multiply(cardSize);
 			}
 			if (!MakeMoves(moveCount))
 			{
