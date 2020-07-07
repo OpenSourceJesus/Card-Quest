@@ -17,17 +17,20 @@ namespace MatchingCardGame
 		public IslandsLevelEntry[] islandsLevelEntries = new IslandsLevelEntry[0];
 		public Transform levelAreaPrefab;
 		public float levelSeperation;
-		public int levelRepeatCount = 1;
+		public int levelEntryRepeatCount = 1;
+		IslandsLevel[] islandsLevels = new IslandsLevel[0];
+		int currentLevelIndex;
 
-		public virtual void Awake ()
+		void Awake ()
 		{
 			Rect islandsLevelBoundsRect;
 			Rect previousIslandsLevelBoundsRect = RectExtensions.NULL;
 			Vector2 previousIslandsLevelPosition = VectorExtensions.NULL;
 			List<Rect> islandsLevelBoundsRects = new List<Rect>();
+			islandsLevels = new IslandsLevel[islandsLevelEntries.Length * levelEntryRepeatCount];
 			foreach (IslandsLevelEntry islandsLevelEntry in islandsLevelEntries)
 			{
-				for (int i = 0; i < levelRepeatCount; i ++)
+				for (int i = 0; i < levelEntryRepeatCount; i ++)
 				{
 					IslandsLevel islandsLevel = islandsLevelEntry.MakeLevel();
 					List<Rect> cardSlotRects = new List<Rect>();
@@ -45,16 +48,13 @@ namespace MatchingCardGame
 					islandsLevelBoundsRects.Add(islandsLevelBoundsRect);
 					Transform levelArea = Instantiate(levelAreaPrefab, islandsLevel.trs.position + (Vector3) islandsLevelBoundsRect.center, default(Quaternion));
 					levelArea.localScale = islandsLevelBoundsRect.size;
+					islandsLevelEntry.cardSlotBorderWidth ++;
+					islandsLevels[currentLevelIndex] = islandsLevel;
+					currentLevelIndex ++;
 				}
 			}
-			Card[] cards = FindObjectsOfType<Card>();
-			List<Rect> cardRects = new List<Rect>();
-			foreach (Card card in cards)
-				cardRects.Add(card.spriteRenderer.bounds.ToRect());
-			GameManager.GetSingleton<CameraScript>().viewRect = RectExtensions.Combine(cardRects.ToArray());
-			GameManager.GetSingleton<CameraScript>().trs.position = GameManager.GetSingleton<CameraScript>().viewRect.center.SetZ(GameManager.GetSingleton<CameraScript>().trs.position.z);
-			GameManager.GetSingleton<CameraScript>().viewSize = GameManager.GetSingleton<CameraScript>().viewRect.size;
-			GameManager.GetSingleton<CameraScript>().HandleViewSize ();
+			ShowAllLevels ();
+			currentLevelIndex = 0;
 			GameManager.updatables = GameManager.updatables.Add(this);
 		}
 
@@ -62,9 +62,54 @@ namespace MatchingCardGame
 		{
 			if (Input.GetKeyDown(KeyCode.R))
 				GameManager.GetSingleton<GameManager>().ReloadActiveScene ();
+			else if (Input.GetKeyDown(KeyCode.LeftArrow))
+			{
+				currentLevelIndex --;
+				if (currentLevelIndex == -1)
+					currentLevelIndex = islandsLevels.Length - 1;
+				GoToLevel (islandsLevels[currentLevelIndex]);
+			}
+			else if (Input.GetKeyDown(KeyCode.RightArrow))
+			{
+				currentLevelIndex ++;
+				if (currentLevelIndex == islandsLevels.Length)
+					currentLevelIndex = 0;
+				GoToLevel (islandsLevels[currentLevelIndex]);
+			}
+			else if (Input.GetKeyDown(KeyCode.UpArrow))
+				ShowAllLevels ();
+			else if (Input.GetKeyDown(KeyCode.DownArrow))
+				GoToLevel (islandsLevels[currentLevelIndex]);
 		}
 
-		public virtual void OnDestroy ()
+		void ShowAllLevels ()
+		{
+			CardSlot[] cardSlots = FindObjectsOfType<CardSlot>();
+			List<Rect> cardSlotRects = new List<Rect>();
+			foreach (CardSlot cardSlot in cardSlots)
+				cardSlotRects.Add(cardSlot.spriteRenderer.bounds.ToRect());
+			GameManager.GetSingleton<CameraScript>().viewRect = RectExtensions.Combine(cardSlotRects.ToArray());
+			GameManager.GetSingleton<CameraScript>().trs.position = GameManager.GetSingleton<CameraScript>().viewRect.center.SetZ(GameManager.GetSingleton<CameraScript>().trs.position.z);
+			GameManager.GetSingleton<CameraScript>().viewSize = GameManager.GetSingleton<CameraScript>().viewRect.size;
+			GameManager.GetSingleton<CameraScript>().HandleViewSize ();
+		}
+
+		void GoToLevel (IslandsLevel level)
+		{
+			List<Rect> cardSlotRects = new List<Rect>();
+			foreach (CardGroup cardGroup in level.cardGroups)
+			{
+				Island island = (Island) cardGroup;
+				foreach (CardSlot cardSlot in island.cardSlots)
+					cardSlotRects.Add(cardSlot.spriteRenderer.bounds.ToRect());
+			}
+			GameManager.GetSingleton<CameraScript>().viewRect = RectExtensions.Combine(cardSlotRects.ToArray());
+			GameManager.GetSingleton<CameraScript>().trs.position = GameManager.GetSingleton<CameraScript>().viewRect.center.SetZ(GameManager.GetSingleton<CameraScript>().trs.position.z);
+			GameManager.GetSingleton<CameraScript>().viewSize = GameManager.GetSingleton<CameraScript>().viewRect.size;
+			GameManager.GetSingleton<CameraScript>().HandleViewSize ();
+		}
+
+		void OnDestroy ()
 		{
 			GameManager.updatables = GameManager.updatables.Remove(this);
 		}
