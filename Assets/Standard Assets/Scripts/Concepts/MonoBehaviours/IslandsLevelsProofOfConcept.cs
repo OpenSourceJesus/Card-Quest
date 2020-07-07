@@ -117,6 +117,7 @@ namespace MatchingCardGame
 		[Serializable]
 		public class IslandsLevelEntry
 		{
+			public int levelNumber;
 			public int cardCount = 6;
 			public int cardTypeCount = 1;
 			public int cardSlotBorderWidth = 1;
