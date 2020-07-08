@@ -48,7 +48,7 @@ namespace MatchingCardGame
 					islandsLevelBoundsRects.Add(islandsLevelBoundsRect);
 					Transform levelArea = Instantiate(levelAreaPrefab, islandsLevel.trs.position + (Vector3) islandsLevelBoundsRect.center, default(Quaternion));
 					levelArea.localScale = islandsLevelBoundsRect.size;
-					islandsLevelEntry.cardSlotBorderWidth ++;
+					// islandsLevelEntry.cardSlotBorderWidth ++;
 					islandsLevels[currentLevelIndex] = islandsLevel;
 					currentLevelIndex ++;
 				}
