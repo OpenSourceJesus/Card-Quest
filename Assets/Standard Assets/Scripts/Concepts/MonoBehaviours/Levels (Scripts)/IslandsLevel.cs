@@ -39,7 +39,7 @@ namespace MatchingCardGame
 				highlightedCardIndicatorTrs.gameObject.SetActive(true);
 				if (leftMouseButtonInput && !previousLeftMouseButtonInput)
 				{
-					if (selectedCard != null)
+					if (selectedCard != null && highlightedCard is CardSlot)
 					{
 						TryToMoveSelectedCardToHighlightedPosition ();
 						print("Level complete: " + IsLevelCompleted ());
@@ -233,7 +233,7 @@ namespace MatchingCardGame
 					cardSlot.trs.localPosition = cardSlot.position.Multiply(cardSize).SetZ(1);
 					cardSlot.groupsIAmPartOf = new CardGroup[1] { island };
 					cardSlots.Add(cardSlot);
-					island.cardSlotPositionsDict.Add(cardSlot.position, cardSlot);
+					// island.cardSlotPositionsDict.Add(cardSlot.position, cardSlot);
 					foreach (Card card in island.cards)
 					{
 						if (card.position == cardSlot.position)
@@ -304,7 +304,7 @@ namespace MatchingCardGame
 					}
 				}
 			}
-			return true;
+			return !islandsLevel.IsLevelCompleted();
 		}
 
 		static bool IsCardNextToSameType (Card card)
