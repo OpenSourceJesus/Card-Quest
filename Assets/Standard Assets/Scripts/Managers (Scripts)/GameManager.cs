@@ -208,9 +208,9 @@ namespace MatchingCardGame
 				// GetSingleton<AccountSelectMenu>().gameObject.SetActive(false);
 				PauseGame (false);
 			}
-			canvases = FindObjectsOfType<Canvas>();
-			foreach (Canvas canvas in canvases)
-				canvas.worldCamera = GetSingleton<GameCamera>().camera;
+			// canvases = FindObjectsOfType<Canvas>();
+			// foreach (Canvas canvas in canvases)
+			// 	canvas.worldCamera = GetSingleton<GameCamera>().camera;
 			if (onGameScenesLoaded != null)
 			{
 				onGameScenesLoaded ();

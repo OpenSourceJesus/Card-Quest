@@ -12,5 +12,6 @@ namespace MatchingCardGame
 		public Vector2Int position;
 		public string type;
 		public CardSlot cardSlotUnderMe;
+		public CardModifier[] cardModifiers = new CardModifier[0];
 	}
 }

@@ -17,7 +17,7 @@ namespace MatchingCardGame
 		public IslandsLevelEntry[] islandsLevelEntries = new IslandsLevelEntry[0];
 		public Transform levelAreaPrefab;
 		public float levelSeperation;
-		public int levelEntryRepeatCount = 1;
+		public GameObject nextLevelButtonGo;
 		IslandsLevel[] islandsLevels = new IslandsLevel[0];
 		int currentLevelIndex;
 
@@ -27,34 +27,32 @@ namespace MatchingCardGame
 			Rect previousIslandsLevelBoundsRect = RectExtensions.NULL;
 			Vector2 previousIslandsLevelPosition = VectorExtensions.NULL;
 			List<Rect> islandsLevelBoundsRects = new List<Rect>();
-			islandsLevels = new IslandsLevel[islandsLevelEntries.Length * levelEntryRepeatCount];
+			islandsLevels = new IslandsLevel[islandsLevelEntries.Length];
 			foreach (IslandsLevelEntry islandsLevelEntry in islandsLevelEntries)
 			{
-				for (int i = 0; i < levelEntryRepeatCount; i ++)
+				IslandsLevel islandsLevel = islandsLevelEntry.MakeLevel();
+				List<Rect> cardSlotRects = new List<Rect>();
+				foreach (CardGroup cardGroup in islandsLevel.cardGroups)
 				{
-					IslandsLevel islandsLevel = islandsLevelEntry.MakeLevel();
-					List<Rect> cardSlotRects = new List<Rect>();
-					foreach (CardGroup cardGroup in islandsLevel.cardGroups)
-					{
-						Island island = (Island) cardGroup;
-						foreach (CardSlot cardSlot in island.cardSlots)
-							cardSlotRects.Add(cardSlot.spriteRenderer.bounds.ToRect());
-					}
-					islandsLevelBoundsRect = RectExtensions.Combine(cardSlotRects.ToArray());
-					if (previousIslandsLevelPosition != (Vector2) VectorExtensions.NULL)
-						islandsLevel.trs.position = previousIslandsLevelPosition + (Vector2.right * (previousIslandsLevelBoundsRect.size.x / 2 + islandsLevelBoundsRect.size.x / 2 + levelSeperation));
-					previousIslandsLevelBoundsRect = islandsLevelBoundsRect;
-					previousIslandsLevelPosition = islandsLevel.trs.position;
-					islandsLevelBoundsRects.Add(islandsLevelBoundsRect);
-					Transform levelArea = Instantiate(levelAreaPrefab, islandsLevel.trs.position + (Vector3) islandsLevelBoundsRect.center, default(Quaternion));
-					levelArea.localScale = islandsLevelBoundsRect.size;
-					// islandsLevelEntry.cardSlotBorderWidth ++;
-					islandsLevels[currentLevelIndex] = islandsLevel;
-					currentLevelIndex ++;
+					Island island = (Island) cardGroup;
+					foreach (CardSlot cardSlot in island.cardSlots)
+						cardSlotRects.Add(cardSlot.spriteRenderer.bounds.ToRect());
 				}
+				islandsLevelBoundsRect = RectExtensions.Combine(cardSlotRects.ToArray());
+				if (previousIslandsLevelPosition != (Vector2) VectorExtensions.NULL)
+					islandsLevel.trs.position = previousIslandsLevelPosition + (Vector2.right * (previousIslandsLevelBoundsRect.size.x / 2 + islandsLevelBoundsRect.size.x / 2 + levelSeperation));
+				previousIslandsLevelBoundsRect = islandsLevelBoundsRect;
+				previousIslandsLevelPosition = islandsLevel.trs.position;
+				islandsLevelBoundsRects.Add(islandsLevelBoundsRect);
+				Transform levelArea = Instantiate(levelAreaPrefab, islandsLevel.trs.position + (Vector3) islandsLevelBoundsRect.center, default(Quaternion));
+				levelArea.localScale = islandsLevelBoundsRect.size;
+				// islandsLevelEntry.cardSlotBorderWidth ++;
+				islandsLevels[currentLevelIndex] = islandsLevel;
+				currentLevelIndex ++;
 			}
-			ShowAllLevels ();
+			// ShowAllLevels ();
 			currentLevelIndex = 0;
+			GoToLevel (islandsLevels[currentLevelIndex]);
 			GameManager.updatables = GameManager.updatables.Add(this);
 		}
 
@@ -80,6 +78,14 @@ namespace MatchingCardGame
 				ShowAllLevels ();
 			else if (Input.GetKeyDown(KeyCode.DownArrow))
 				GoToLevel (islandsLevels[currentLevelIndex]);
+		}
+
+		public void GoToNextLevel ()
+		{
+			currentLevelIndex ++;
+			if (currentLevelIndex == islandsLevels.Length)
+				currentLevelIndex = 0;
+			GoToLevel (islandsLevels[currentLevelIndex]);
 		}
 
 		void ShowAllLevels ()
@@ -118,16 +124,16 @@ namespace MatchingCardGame
 		public class IslandsLevelEntry
 		{
 			public int levelNumber;
+			public Vector2Int dimensions;
 			public int cardCount = 6;
 			public int cardTypeCount = 1;
-			public int cardSlotBorderWidth = 1;
 			public int islandCount = 2;
 			public int moveCount = 1;
 
 			public virtual IslandsLevel MakeLevel ()
 			{
 				IslandsLevel.currentTry = 0;
-				return IslandsLevel.MakeLevel(cardCount, cardTypeCount, cardSlotBorderWidth, islandCount, moveCount);
+				return IslandsLevel.MakeLevel(dimensions, cardCount, cardTypeCount, islandCount, moveCount);
 			}
 		}
 	}
