@@ -2,6 +2,8 @@ using UnityEngine;
 using Extensions;
 using System.Collections.Generic;
 using System;
+using System.Collections;
+using UnityEngine.UI;
 
 namespace MatchingCardGame
 {
@@ -17,46 +19,67 @@ namespace MatchingCardGame
 		public IslandsLevelEntry[] islandsLevelEntries = new IslandsLevelEntry[0];
 		public Transform levelAreaPrefab;
 		public float levelSeperation;
-		public GameObject nextLevelButtonGo;
+		public Button nextLevelButton;
 		IslandsLevel[] islandsLevels = new IslandsLevel[0];
-		int currentLevelIndex;
+		int currentLevelIndex = -1;
+		Rect previousIslandsLevelBoundsRect = RectExtensions.NULL;
+		Vector2 previousIslandsLevelPosition = VectorExtensions.NULL;
+		int latestLevelIndex = 0;
+		int lastCompletedLevel = -1;
 
-		void Awake ()
+		IEnumerator Start ()
 		{
-			Rect islandsLevelBoundsRect;
-			Rect previousIslandsLevelBoundsRect = RectExtensions.NULL;
-			Vector2 previousIslandsLevelPosition = VectorExtensions.NULL;
-			List<Rect> islandsLevelBoundsRects = new List<Rect>();
-			islandsLevels = new IslandsLevel[islandsLevelEntries.Length];
-			foreach (IslandsLevelEntry islandsLevelEntry in islandsLevelEntries)
-			{
-				IslandsLevel islandsLevel = islandsLevelEntry.MakeLevel();
-				List<Rect> cardSlotRects = new List<Rect>();
-				foreach (CardGroup cardGroup in islandsLevel.cardGroups)
-				{
-					Island island = (Island) cardGroup;
-					foreach (CardSlot cardSlot in island.cardSlots)
-						cardSlotRects.Add(cardSlot.spriteRenderer.bounds.ToRect());
-				}
-				islandsLevelBoundsRect = RectExtensions.Combine(cardSlotRects.ToArray());
-				if (previousIslandsLevelPosition != (Vector2) VectorExtensions.NULL)
-					islandsLevel.trs.position = previousIslandsLevelPosition + (Vector2.right * (previousIslandsLevelBoundsRect.size.x / 2 + islandsLevelBoundsRect.size.x / 2 + levelSeperation));
-				previousIslandsLevelBoundsRect = islandsLevelBoundsRect;
-				previousIslandsLevelPosition = islandsLevel.trs.position;
-				islandsLevelBoundsRects.Add(islandsLevelBoundsRect);
-				Transform levelArea = Instantiate(levelAreaPrefab, islandsLevel.trs.position + (Vector3) islandsLevelBoundsRect.center, default(Quaternion));
-				levelArea.localScale = islandsLevelBoundsRect.size;
-				// islandsLevelEntry.cardSlotBorderWidth ++;
-				islandsLevels[currentLevelIndex] = islandsLevel;
-				currentLevelIndex ++;
-			}
+			// Rect islandsLevelBoundsRect;
+			// Rect previousIslandsLevelBoundsRect = RectExtensions.NULL;
+			// Vector2 previousIslandsLevelPosition = VectorExtensions.NULL;
+			// List<Rect> islandsLevelBoundsRects = new List<Rect>();
+			// islandsLevels = new IslandsLevel[islandsLevelEntries.Length];
+			// foreach (IslandsLevelEntry islandsLevelEntry in islandsLevelEntries)
+			// {
+			// 	IslandsLevel islandsLevel;
+			// 	do
+			// 	{
+			// 		islandsLevel = islandsLevelEntry.MakeLevel();
+			// 	} while (islandsLevel == null);
+			// 	List<Rect> cardSlotRects = new List<Rect>();
+			// 	foreach (CardGroup cardGroup in islandsLevel.cardGroups)
+			// 	{
+			// 		Island island = (Island) cardGroup;
+			// 		foreach (CardSlot cardSlot in island.cardSlots)
+			// 			cardSlotRects.Add(cardSlot.spriteRenderer.bounds.ToRect());
+			// 	}
+			// 	islandsLevelBoundsRect = RectExtensions.Combine(cardSlotRects.ToArray());
+			// 	if (previousIslandsLevelPosition != (Vector2) VectorExtensions.NULL)
+			// 		islandsLevel.trs.position = previousIslandsLevelPosition + (Vector2.right * (previousIslandsLevelBoundsRect.size.x / 2 + islandsLevelBoundsRect.size.x / 2 + levelSeperation));
+			// 	previousIslandsLevelBoundsRect = islandsLevelBoundsRect;
+			// 	previousIslandsLevelPosition = islandsLevel.trs.position;
+			// 	islandsLevelBoundsRects.Add(islandsLevelBoundsRect);
+			// 	Transform levelArea = Instantiate(levelAreaPrefab, islandsLevel.trs.position + (Vector3) islandsLevelBoundsRect.center, default(Quaternion));
+			// 	levelArea.localScale = islandsLevelBoundsRect.size;
+			// 	islandsLevels[currentLevelIndex] = islandsLevel;
+			// 	currentLevelIndex ++;
+			// }
 			// ShowAllLevels ();
-			currentLevelIndex = 0;
-			GoToLevel (islandsLevels[currentLevelIndex]);
+			// currentLevelIndex = 0;
+			// for (int i = 0; i < islandsLevelEntries.Length; i ++)
+			// {
+			// 	IslandsLevelEntry islandsLevelEntry = islandsLevelEntries[i];
+			// 	if (islandsLevelEntry.name.Contains("Urban"))
+			// 		islandsLevelEntry.moveCount -= 5;
+			// 	else if (islandsLevelEntry.name.Contains("Desert"))
+			// 		islandsLevelEntry.moveCount -= 10;
+			// 	else if (islandsLevelEntry.name.Contains("Fortress"))
+			// 		islandsLevelEntry.moveCount -= 15;
+			// 	islandsLevelEntries[i] = islandsLevelEntry;
+			// }
+			islandsLevels = new IslandsLevel[islandsLevelEntries.Length];
+			yield return StartCoroutine(MakeNextLevelRoutine (islandsLevelEntries[0]));
+			GoToNextLevel ();
+			StartCoroutine(MakeLevelsRoutine ());
 			GameManager.updatables = GameManager.updatables.Add(this);
 		}
 
-		public virtual void DoUpdate ()
+		public void DoUpdate ()
 		{
 			if (Input.GetKeyDown(KeyCode.R))
 				GameManager.GetSingleton<GameManager>().ReloadActiveScene ();
@@ -64,13 +87,13 @@ namespace MatchingCardGame
 			{
 				currentLevelIndex --;
 				if (currentLevelIndex == -1)
-					currentLevelIndex = islandsLevels.Length - 1;
+					currentLevelIndex = lastCompletedLevel;
 				GoToLevel (islandsLevels[currentLevelIndex]);
 			}
 			else if (Input.GetKeyDown(KeyCode.RightArrow))
 			{
 				currentLevelIndex ++;
-				if (currentLevelIndex == islandsLevels.Length)
+				if (currentLevelIndex >= lastCompletedLevel)
 					currentLevelIndex = 0;
 				GoToLevel (islandsLevels[currentLevelIndex]);
 			}
@@ -82,10 +105,56 @@ namespace MatchingCardGame
 
 		public void GoToNextLevel ()
 		{
-			currentLevelIndex ++;
-			if (currentLevelIndex == islandsLevels.Length)
-				currentLevelIndex = 0;
+			if (currentLevelIndex == lastCompletedLevel)
+				lastCompletedLevel ++;
+			if (latestLevelIndex == lastCompletedLevel)
+				nextLevelButton.interactable = false;
+			if (currentLevelIndex != -1)
+				islandsLevels[currentLevelIndex].enabled = false;
+			currentLevelIndex = lastCompletedLevel;
 			GoToLevel (islandsLevels[currentLevelIndex]);
+		}
+
+		IEnumerator MakeLevelsRoutine ()
+		{
+			for (int i = 1; i < islandsLevelEntries.Length; i ++)
+				yield return StartCoroutine(MakeNextLevelRoutine (islandsLevelEntries[i]));
+		}
+
+		IEnumerator MakeNextLevelRoutine (IslandsLevelEntry islandsLevelEntry)
+		{
+			Rect islandsLevelBoundsRect;
+			List<Rect> islandsLevelBoundsRects = new List<Rect>();
+			IslandsLevel islandsLevel;
+			do
+			{
+				islandsLevel = islandsLevelEntry.MakeLevel();
+				yield return new WaitForEndOfFrame();
+			} while (islandsLevel == null);
+			List<Rect> cardSlotRects = new List<Rect>();
+			foreach (CardGroup cardGroup in islandsLevel.cardGroups)
+			{
+				Island island = (Island) cardGroup;
+				foreach (Card card in island.cards)
+					card.gameObject.layer = 0;
+				foreach (CardSlot cardSlot in island.cardSlots)
+				{
+					cardSlot.gameObject.layer = 0;
+					cardSlotRects.Add(cardSlot.spriteRenderer.bounds.ToRect());
+				}
+			}
+			islandsLevelBoundsRect = RectExtensions.Combine(cardSlotRects.ToArray());
+			if (previousIslandsLevelPosition != (Vector2) VectorExtensions.NULL)
+				islandsLevel.trs.position = previousIslandsLevelPosition + (Vector2.right * (previousIslandsLevelBoundsRect.size.x / 2 + islandsLevelBoundsRect.size.x / 2 + levelSeperation));
+			previousIslandsLevelBoundsRect = islandsLevelBoundsRect;
+			previousIslandsLevelPosition = islandsLevel.trs.position;
+			islandsLevelBoundsRects.Add(islandsLevelBoundsRect);
+			Transform levelArea = Instantiate(levelAreaPrefab, islandsLevel.trs.position + (Vector3) islandsLevelBoundsRect.center, default(Quaternion));
+			levelArea.localScale = islandsLevelBoundsRect.size;
+			islandsLevels[latestLevelIndex] = islandsLevel;
+			print(islandsLevelEntries[latestLevelIndex].name);
+			latestLevelIndex ++;
+			nextLevelButton.interactable = true;
 		}
 
 		void ShowAllLevels ()
@@ -94,10 +163,7 @@ namespace MatchingCardGame
 			List<Rect> cardSlotRects = new List<Rect>();
 			foreach (CardSlot cardSlot in cardSlots)
 				cardSlotRects.Add(cardSlot.spriteRenderer.bounds.ToRect());
-			GameManager.GetSingleton<CameraScript>().viewRect = RectExtensions.Combine(cardSlotRects.ToArray());
-			GameManager.GetSingleton<CameraScript>().trs.position = GameManager.GetSingleton<CameraScript>().viewRect.center.SetZ(GameManager.GetSingleton<CameraScript>().trs.position.z);
-			GameManager.GetSingleton<CameraScript>().viewSize = GameManager.GetSingleton<CameraScript>().viewRect.size;
-			GameManager.GetSingleton<CameraScript>().HandleViewSize ();
+			SetViewRect (RectExtensions.Combine(cardSlotRects.ToArray()));
 		}
 
 		void GoToLevel (IslandsLevel level)
@@ -109,7 +175,12 @@ namespace MatchingCardGame
 				foreach (CardSlot cardSlot in island.cardSlots)
 					cardSlotRects.Add(cardSlot.spriteRenderer.bounds.ToRect());
 			}
-			GameManager.GetSingleton<CameraScript>().viewRect = RectExtensions.Combine(cardSlotRects.ToArray());
+			SetViewRect (RectExtensions.Combine(cardSlotRects.ToArray()));
+		}
+
+		void SetViewRect (Rect rect)
+		{
+			GameManager.GetSingleton<CameraScript>().viewRect = rect;
 			GameManager.GetSingleton<CameraScript>().trs.position = GameManager.GetSingleton<CameraScript>().viewRect.center.SetZ(GameManager.GetSingleton<CameraScript>().trs.position.z);
 			GameManager.GetSingleton<CameraScript>().viewSize = GameManager.GetSingleton<CameraScript>().viewRect.size;
 			GameManager.GetSingleton<CameraScript>().HandleViewSize ();
@@ -123,7 +194,7 @@ namespace MatchingCardGame
 		[Serializable]
 		public class IslandsLevelEntry
 		{
-			public int levelNumber;
+			public string name;
 			public Vector2Int dimensions;
 			public int cardCount = 6;
 			public int cardTypeCount = 1;
@@ -132,7 +203,7 @@ namespace MatchingCardGame
 
 			public virtual IslandsLevel MakeLevel ()
 			{
-				IslandsLevel.currentTry = 0;
+				// IslandsLevel.currentTry = 0;
 				return IslandsLevel.MakeLevel(dimensions, cardCount, cardTypeCount, islandCount, moveCount);
 			}
 		}

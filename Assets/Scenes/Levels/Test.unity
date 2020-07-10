@@ -300,7 +300,7 @@ PrefabInstance:
     - target: {fileID: 7213918602578096182, guid: 47353e76929c88e40af1c59e5aeaed5c,
         type: 3}
       propertyPath: m_Name
-      value: UI Button
+      value: Next Level Button
       objectReference: {fileID: 0}
     - target: {fileID: 7213918602578096182, guid: 47353e76929c88e40af1c59e5aeaed5c,
         type: 3}
@@ -1111,6 +1111,18 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 722413327}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1450757179 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7213918602578096180, guid: 47353e76929c88e40af1c59e5aeaed5c,
+    type: 3}
+  m_PrefabInstance: {fileID: 722413327}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1450757178}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1551481972
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1379,58 +1391,430 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   islandsLevelEntries:
-  - levelNumber: 1
+  - name: Beach 1
     dimensions: {x: 2, y: 3}
     cardCount: 4
     cardTypeCount: 1
     islandCount: 2
     moveCount: 1
-  - levelNumber: 2
+  - name: Beach 2
+    dimensions: {x: 2, y: 3}
+    cardCount: 4
+    cardTypeCount: 1
+    islandCount: 2
+    moveCount: 2
+  - name: Beach 3
     dimensions: {x: 2, y: 3}
     cardCount: 4
     cardTypeCount: 1
     islandCount: 2
     moveCount: 3
-  - levelNumber: 3
-    dimensions: {x: 3, y: 3}
-    cardCount: 8
-    cardTypeCount: 2
-    islandCount: 2
-    moveCount: 2
-  - levelNumber: 4
-    dimensions: {x: 3, y: 3}
-    cardCount: 8
-    cardTypeCount: 2
+  - name: Beach 4
+    dimensions: {x: 2, y: 3}
+    cardCount: 4
+    cardTypeCount: 1
     islandCount: 2
     moveCount: 4
-  - levelNumber: 5
-    dimensions: {x: 3, y: 4}
-    cardCount: 12
-    cardTypeCount: 3
-    islandCount: 2
-    moveCount: 3
-  - levelNumber: 6
-    dimensions: {x: 3, y: 4}
-    cardCount: 12
-    cardTypeCount: 3
+  - name: Beach 5
+    dimensions: {x: 2, y: 3}
+    cardCount: 4
+    cardTypeCount: 1
     islandCount: 2
     moveCount: 5
-  - levelNumber: 7
-    dimensions: {x: 3, y: 5}
-    cardCount: 16
-    cardTypeCount: 4
-    islandCount: 2
-    moveCount: 4
-  - levelNumber: 8
-    dimensions: {x: 3, y: 5}
-    cardCount: 16
-    cardTypeCount: 4
+  - name: Beach 6
+    dimensions: {x: 2, y: 3}
+    cardCount: 4
+    cardTypeCount: 1
     islandCount: 2
     moveCount: 6
+  - name: Beach 7
+    dimensions: {x: 2, y: 3}
+    cardCount: 4
+    cardTypeCount: 1
+    islandCount: 2
+    moveCount: 7
+  - name: Beach 8
+    dimensions: {x: 2, y: 3}
+    cardCount: 4
+    cardTypeCount: 1
+    islandCount: 2
+    moveCount: 8
+  - name: Beach 9
+    dimensions: {x: 2, y: 3}
+    cardCount: 4
+    cardTypeCount: 1
+    islandCount: 2
+    moveCount: 9
+  - name: Beach 10
+    dimensions: {x: 2, y: 3}
+    cardCount: 4
+    cardTypeCount: 1
+    islandCount: 2
+    moveCount: 10
+  - name: Urban 1
+    dimensions: {x: 3, y: 3}
+    cardCount: 8
+    cardTypeCount: 2
+    islandCount: 2
+    moveCount: 6
+  - name: Urban 2
+    dimensions: {x: 3, y: 3}
+    cardCount: 8
+    cardTypeCount: 2
+    islandCount: 2
+    moveCount: 7
+  - name: Urban 3
+    dimensions: {x: 3, y: 3}
+    cardCount: 8
+    cardTypeCount: 2
+    islandCount: 2
+    moveCount: 8
+  - name: Urban 4
+    dimensions: {x: 3, y: 3}
+    cardCount: 8
+    cardTypeCount: 2
+    islandCount: 2
+    moveCount: 9
+  - name: Urban 5
+    dimensions: {x: 3, y: 3}
+    cardCount: 8
+    cardTypeCount: 2
+    islandCount: 2
+    moveCount: 10
+  - name: Urban 6
+    dimensions: {x: 3, y: 3}
+    cardCount: 8
+    cardTypeCount: 2
+    islandCount: 2
+    moveCount: 11
+  - name: Urban 7
+    dimensions: {x: 3, y: 3}
+    cardCount: 8
+    cardTypeCount: 2
+    islandCount: 2
+    moveCount: 12
+  - name: Urban 8
+    dimensions: {x: 3, y: 3}
+    cardCount: 8
+    cardTypeCount: 2
+    islandCount: 2
+    moveCount: 13
+  - name: Urban 9
+    dimensions: {x: 3, y: 3}
+    cardCount: 8
+    cardTypeCount: 2
+    islandCount: 2
+    moveCount: 14
+  - name: Urban 10
+    dimensions: {x: 3, y: 3}
+    cardCount: 8
+    cardTypeCount: 2
+    islandCount: 2
+    moveCount: 15
+  - name: Urban 11
+    dimensions: {x: 3, y: 3}
+    cardCount: 8
+    cardTypeCount: 2
+    islandCount: 2
+    moveCount: 16
+  - name: Urban 12
+    dimensions: {x: 3, y: 3}
+    cardCount: 8
+    cardTypeCount: 2
+    islandCount: 2
+    moveCount: 17
+  - name: Urban 13
+    dimensions: {x: 3, y: 3}
+    cardCount: 8
+    cardTypeCount: 2
+    islandCount: 2
+    moveCount: 18
+  - name: Urban 14
+    dimensions: {x: 3, y: 3}
+    cardCount: 8
+    cardTypeCount: 2
+    islandCount: 2
+    moveCount: 19
+  - name: Urban 15
+    dimensions: {x: 3, y: 3}
+    cardCount: 8
+    cardTypeCount: 2
+    islandCount: 2
+    moveCount: 20
+  - name: Desert 1
+    dimensions: {x: 3, y: 4}
+    cardCount: 12
+    cardTypeCount: 3
+    islandCount: 2
+    moveCount: 11
+  - name: Desert 2
+    dimensions: {x: 3, y: 4}
+    cardCount: 12
+    cardTypeCount: 3
+    islandCount: 2
+    moveCount: 12
+  - name: Desert 3
+    dimensions: {x: 3, y: 4}
+    cardCount: 12
+    cardTypeCount: 3
+    islandCount: 2
+    moveCount: 13
+  - name: Desert 4
+    dimensions: {x: 3, y: 4}
+    cardCount: 12
+    cardTypeCount: 3
+    islandCount: 2
+    moveCount: 14
+  - name: Desert 5
+    dimensions: {x: 3, y: 4}
+    cardCount: 12
+    cardTypeCount: 3
+    islandCount: 2
+    moveCount: 15
+  - name: Desert 6
+    dimensions: {x: 3, y: 4}
+    cardCount: 12
+    cardTypeCount: 3
+    islandCount: 2
+    moveCount: 16
+  - name: Desert 7
+    dimensions: {x: 3, y: 4}
+    cardCount: 12
+    cardTypeCount: 3
+    islandCount: 2
+    moveCount: 17
+  - name: Desert 8
+    dimensions: {x: 3, y: 4}
+    cardCount: 12
+    cardTypeCount: 3
+    islandCount: 2
+    moveCount: 18
+  - name: Desert 9
+    dimensions: {x: 3, y: 4}
+    cardCount: 12
+    cardTypeCount: 3
+    islandCount: 2
+    moveCount: 19
+  - name: Desert 10
+    dimensions: {x: 3, y: 4}
+    cardCount: 12
+    cardTypeCount: 3
+    islandCount: 2
+    moveCount: 20
+  - name: Desert 11
+    dimensions: {x: 3, y: 4}
+    cardCount: 12
+    cardTypeCount: 3
+    islandCount: 2
+    moveCount: 21
+  - name: Desert 12
+    dimensions: {x: 3, y: 4}
+    cardCount: 12
+    cardTypeCount: 3
+    islandCount: 2
+    moveCount: 22
+  - name: Desert 13
+    dimensions: {x: 3, y: 4}
+    cardCount: 12
+    cardTypeCount: 3
+    islandCount: 2
+    moveCount: 23
+  - name: Desert 14
+    dimensions: {x: 3, y: 4}
+    cardCount: 12
+    cardTypeCount: 3
+    islandCount: 2
+    moveCount: 24
+  - name: Desert 15
+    dimensions: {x: 3, y: 4}
+    cardCount: 12
+    cardTypeCount: 3
+    islandCount: 2
+    moveCount: 25
+  - name: Desert 16
+    dimensions: {x: 3, y: 4}
+    cardCount: 12
+    cardTypeCount: 3
+    islandCount: 2
+    moveCount: 26
+  - name: Desert 17
+    dimensions: {x: 3, y: 4}
+    cardCount: 12
+    cardTypeCount: 3
+    islandCount: 2
+    moveCount: 27
+  - name: Desert 18
+    dimensions: {x: 3, y: 4}
+    cardCount: 12
+    cardTypeCount: 3
+    islandCount: 2
+    moveCount: 28
+  - name: Desert 19
+    dimensions: {x: 3, y: 4}
+    cardCount: 12
+    cardTypeCount: 3
+    islandCount: 2
+    moveCount: 29
+  - name: Desert 20
+    dimensions: {x: 3, y: 4}
+    cardCount: 12
+    cardTypeCount: 3
+    islandCount: 2
+    moveCount: 30
+  - name: Fortress 1
+    dimensions: {x: 3, y: 5}
+    cardCount: 16
+    cardTypeCount: 4
+    islandCount: 2
+    moveCount: 16
+  - name: Fortress 2
+    dimensions: {x: 3, y: 5}
+    cardCount: 16
+    cardTypeCount: 4
+    islandCount: 2
+    moveCount: 17
+  - name: Fortress 3
+    dimensions: {x: 3, y: 5}
+    cardCount: 16
+    cardTypeCount: 4
+    islandCount: 2
+    moveCount: 18
+  - name: Fortress 4
+    dimensions: {x: 3, y: 5}
+    cardCount: 16
+    cardTypeCount: 4
+    islandCount: 2
+    moveCount: 19
+  - name: Fortress 5
+    dimensions: {x: 3, y: 5}
+    cardCount: 16
+    cardTypeCount: 4
+    islandCount: 2
+    moveCount: 20
+  - name: Fortress 6
+    dimensions: {x: 3, y: 5}
+    cardCount: 16
+    cardTypeCount: 4
+    islandCount: 2
+    moveCount: 21
+  - name: Fortress 7
+    dimensions: {x: 3, y: 5}
+    cardCount: 16
+    cardTypeCount: 4
+    islandCount: 2
+    moveCount: 22
+  - name: Fortress 8
+    dimensions: {x: 3, y: 5}
+    cardCount: 16
+    cardTypeCount: 4
+    islandCount: 2
+    moveCount: 23
+  - name: Fortress 9
+    dimensions: {x: 3, y: 5}
+    cardCount: 16
+    cardTypeCount: 4
+    islandCount: 2
+    moveCount: 24
+  - name: Fortress 10
+    dimensions: {x: 3, y: 5}
+    cardCount: 16
+    cardTypeCount: 4
+    islandCount: 2
+    moveCount: 25
+  - name: Fortress 11
+    dimensions: {x: 3, y: 5}
+    cardCount: 16
+    cardTypeCount: 4
+    islandCount: 2
+    moveCount: 26
+  - name: Fortress 12
+    dimensions: {x: 3, y: 5}
+    cardCount: 16
+    cardTypeCount: 4
+    islandCount: 2
+    moveCount: 27
+  - name: Fortress 13
+    dimensions: {x: 3, y: 5}
+    cardCount: 16
+    cardTypeCount: 4
+    islandCount: 2
+    moveCount: 28
+  - name: Fortress 14
+    dimensions: {x: 3, y: 5}
+    cardCount: 16
+    cardTypeCount: 4
+    islandCount: 2
+    moveCount: 29
+  - name: Fortress 15
+    dimensions: {x: 3, y: 5}
+    cardCount: 16
+    cardTypeCount: 4
+    islandCount: 2
+    moveCount: 30
+  - name: Fortress 16
+    dimensions: {x: 3, y: 5}
+    cardCount: 16
+    cardTypeCount: 4
+    islandCount: 2
+    moveCount: 31
+  - name: Fortress 17
+    dimensions: {x: 3, y: 5}
+    cardCount: 16
+    cardTypeCount: 4
+    islandCount: 2
+    moveCount: 32
+  - name: Fortress 18
+    dimensions: {x: 3, y: 5}
+    cardCount: 16
+    cardTypeCount: 4
+    islandCount: 2
+    moveCount: 33
+  - name: Fortress 19
+    dimensions: {x: 3, y: 5}
+    cardCount: 16
+    cardTypeCount: 4
+    islandCount: 2
+    moveCount: 34
+  - name: Fortress 20
+    dimensions: {x: 3, y: 5}
+    cardCount: 16
+    cardTypeCount: 4
+    islandCount: 2
+    moveCount: 35
+  - name: Fortress 21
+    dimensions: {x: 3, y: 5}
+    cardCount: 16
+    cardTypeCount: 4
+    islandCount: 2
+    moveCount: 36
+  - name: Fortress 22
+    dimensions: {x: 3, y: 5}
+    cardCount: 16
+    cardTypeCount: 4
+    islandCount: 2
+    moveCount: 37
+  - name: Fortress 23
+    dimensions: {x: 3, y: 5}
+    cardCount: 16
+    cardTypeCount: 4
+    islandCount: 2
+    moveCount: 38
+  - name: Fortress 24
+    dimensions: {x: 3, y: 5}
+    cardCount: 16
+    cardTypeCount: 4
+    islandCount: 2
+    moveCount: 39
+  - name: Fortress 25
+    dimensions: {x: 3, y: 5}
+    cardCount: 16
+    cardTypeCount: 4
+    islandCount: 2
+    moveCount: 40
   levelAreaPrefab: {fileID: 226970806455820297, guid: 383306eee7858b34b9a0d7d456ce9738,
     type: 3}
   levelSeperation: 3
-  nextLevelButtonGo: {fileID: 1450757178}
+  nextLevelButton: {fileID: 1450757179}
 --- !u!4 &2144318788
 Transform:
   m_ObjectHideFlags: 0
@@ -1646,7 +2030,7 @@ Camera:
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 821
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0

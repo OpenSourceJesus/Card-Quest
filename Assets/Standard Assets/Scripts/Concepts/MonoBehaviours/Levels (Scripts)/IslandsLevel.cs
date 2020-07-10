@@ -11,8 +11,8 @@ namespace MatchingCardGame
 		public Transform selectedCardIndicatorTrs;
 		public Transform highlightedCardIndicatorTrs;
 		public Transform trs;
-		public static int currentTry;
-		const int MAX_RETRY_COUNT_MULTIPLIER = 100;
+		// public static int currentTry;
+		// const int MAX_RETRY_COUNT_MULTIPLIER = 50;
 		static Vector2 cardSize;
 		static IslandsLevel islandsLevel;
 		CardModifier[] cardModifiers = new CardModifier[0];
@@ -42,7 +42,7 @@ namespace MatchingCardGame
 					{
 						TryToMoveSelectedCardToHighlightedPosition ();
 						if (IsLevelCompleted())
-							GameManager.GetSingleton<IslandsLevelsProofOfConcept>().nextLevelButtonGo.SetActive(true);
+							GameManager.GetSingleton<IslandsLevelsProofOfConcept>().nextLevelButton.gameObject.SetActive(true);
 					}
 					selectedCard = highlightedCard;
 					selectedCardIndicatorTrs.SetParent(selectedCard.trs);
@@ -162,13 +162,13 @@ namespace MatchingCardGame
 			if (!MakeMoves(moveCount))
 			{
 				DestroyImmediate(islandsLevel.gameObject);
-				currentTry ++;
-				if (currentTry > moveCount * MAX_RETRY_COUNT_MULTIPLIER)
-				{
-					Debug.LogWarning("The level generator tried " + (moveCount * MAX_RETRY_COUNT_MULTIPLIER) + " times but couldn't make the level you requested");
+				// currentTry ++;
+				// if (currentTry > moveCount * MAX_RETRY_COUNT_MULTIPLIER)
+				// {
+					// Debug.LogWarning("The level generator tried " + (moveCount * MAX_RETRY_COUNT_MULTIPLIER) + " times but couldn't make the level you requested");
 					return null;
-				}
-				return MakeLevel(dimensions, cardCount, cardTypeCount, islandCount, moveCount);
+				// }
+				// return MakeLevel(dimensions, cardCount, cardTypeCount, islandCount, moveCount);
 			}
 			islandsLevel.selectedCard = null;
 			islandsLevel.highlightedCard = null;

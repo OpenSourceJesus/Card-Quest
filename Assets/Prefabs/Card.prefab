@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 5854280874292825420}
   - component: {fileID: 1280174754}
   - component: {fileID: 4067640272080653948}
-  m_Layer: 0
+  m_Layer: 1
   m_Name: Card
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -52,6 +52,7 @@ MonoBehaviour:
   position: {x: 0, y: 0}
   type: 
   cardSlotUnderMe: {fileID: 0}
+  cardModifiers: []
 --- !u!212 &5854280874292825420
 SpriteRenderer:
   m_ObjectHideFlags: 0
