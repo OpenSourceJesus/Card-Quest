@@ -129,6 +129,12 @@ namespace MatchingCardGame
 			do
 			{
 				islandsLevel = islandsLevelEntry.MakeLevel();
+				if (islandsLevel != null)
+				{
+					islandsLevels[latestLevelIndex] = islandsLevel;
+					if (HasEquivalentLevel(latestLevelIndex))
+						DestroyImmediate(islandsLevel.gameObject);
+				}
 				yield return new WaitForEndOfFrame();
 			} while (islandsLevel == null);
 			List<Rect> cardSlotRects = new List<Rect>();
@@ -151,10 +157,23 @@ namespace MatchingCardGame
 			islandsLevelBoundsRects.Add(islandsLevelBoundsRect);
 			Transform levelArea = Instantiate(levelAreaPrefab, islandsLevel.trs.position + (Vector3) islandsLevelBoundsRect.center, default(Quaternion));
 			levelArea.localScale = islandsLevelBoundsRect.size;
-			islandsLevels[latestLevelIndex] = islandsLevel;
-			print(islandsLevelEntries[latestLevelIndex].name);
 			latestLevelIndex ++;
 			nextLevelButton.interactable = true;
+		}
+
+		bool HasEquivalentLevel (int levelIndex)
+		{
+			IslandsLevel level = islandsLevels[levelIndex];
+			for (int i = 0; i < latestLevelIndex; i ++)
+			{
+				if (i != levelIndex)
+				{
+					IslandsLevel otherLevel = islandsLevels[i];
+					if (level.IsEquivalent(otherLevel))
+						return true;
+				}
+			}
+			return false;
 		}
 
 		void ShowAllLevels ()

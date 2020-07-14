@@ -142,6 +142,51 @@ namespace MatchingCardGame
 			foreach (CardModifier cardModifier in cardModifiers)
 				cardModifier.ApplyEffect ();
 		}
+
+		public bool IsEquivalent (IslandsLevel otherLevel)
+		{
+			Dictionary<string, List<Vector2Int>> cardTypePositionsDict = new Dictionary<string, List<Vector2Int>>();
+			foreach (CardGroup cardGroup in cardGroups)
+			{
+				foreach (Card card in cardGroup.cards)
+				{
+					if (!cardTypePositionsDict.ContainsKey(card.type))
+					{
+						List<Vector2Int> cardPositions = new List<Vector2Int>();
+						cardPositions.Add(card.position);
+						cardTypePositionsDict.Add(card.type, cardPositions);
+					}
+					else
+						cardTypePositionsDict[card.type].Add(card.position);
+				}
+			}
+			Dictionary<string, List<Vector2Int>> otherCardTypePositionsDict = new Dictionary<string, List<Vector2Int>>();
+			foreach (CardGroup cardGroup in otherLevel.cardGroups)
+			{
+				foreach (Card card in cardGroup.cards)
+				{
+					if (!otherCardTypePositionsDict.ContainsKey(card.type))
+					{
+						List<Vector2Int> cardPositions = new List<Vector2Int>();
+						cardPositions.Add(card.position);
+						otherCardTypePositionsDict.Add(card.type, cardPositions);
+					}
+					else
+						otherCardTypePositionsDict[card.type].Add(card.position);
+				}
+			}
+			if (cardTypePositionsDict.Count != otherCardTypePositionsDict.Count)
+				return false;
+			List<Vector2Int>[] _cardTypePositions = new List<Vector2Int>[cardTypePositionsDict.Count];
+			cardTypePositionsDict.Values.CopyTo(_cardTypePositions, 0);
+			List<List<Vector2Int>> cardTypePositions = new List<List<Vector2Int>>();
+			cardTypePositions = _cardTypePositions.ToList();
+			List<Vector2Int>[] _otherCardTypePositions = new List<Vector2Int>[otherCardTypePositionsDict.Count];
+			otherCardTypePositionsDict.Values.CopyTo(_otherCardTypePositions, 0);
+			List<List<Vector2Int>> otherCardTypePositions = new List<List<Vector2Int>>();
+			otherCardTypePositions = _otherCardTypePositions.ToList();
+			return false;
+		}
 		
 		public static IslandsLevel MakeLevel (Vector2Int dimensions, int cardCount = 4, int cardTypeCount = 1, int islandCount = 2, int moveCount = 1)
 		{
