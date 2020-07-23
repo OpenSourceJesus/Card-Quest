@@ -35,10 +35,7 @@ namespace MatchingCardGame
 		[SaveAndLoadValue(false)]
 		public bool mute;
 		public SoundEffect soundEffectPrefab;
-		public DeathSoundEffect deathSoundEffectPrefab;
 		public static List<SoundEffect> soundEffects = new List<SoundEffect>();
-		public AudioClip[] deathSounds = new AudioClip[0];
-		public AudioClip[] deathResponses = new AudioClip[0];
 
 		void Awake ()
 		{

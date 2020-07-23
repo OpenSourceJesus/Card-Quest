@@ -1,6 +1,8 @@
 using UnityEngine;
 using Extensions;
 using System.Collections.Generic;
+using System;
+using Random = UnityEngine.Random;
 
 namespace MatchingCardGame
 {
@@ -11,13 +13,12 @@ namespace MatchingCardGame
 		public Transform selectedCardIndicatorTrs;
 		public Transform highlightedCardIndicatorTrs;
 		public Transform trs;
-		// public static int currentTry;
-		// const int MAX_RETRY_COUNT_MULTIPLIER = 50;
 		static Vector2 cardSize;
 		static IslandsLevel islandsLevel;
 		CardModifier[] cardModifiers = new CardModifier[0];
 		bool previousLeftMouseButtonInput;
 		bool leftMouseButtonInput;
+		int moveCount;
 
 		public override void DoUpdate ()
 		{
@@ -40,14 +41,29 @@ namespace MatchingCardGame
 				{
 					if (selectedCard != null && highlightedCard is CardSlot)
 					{
-						TryToMoveSelectedCardToHighlightedPosition ();
+						if (TryToMoveSelectedCardToHighlightedPosition ())
+						{
+							selectedCardIndicatorTrs.gameObject.SetActive(false);
+							moveCount ++;
+							GameManager.GetSingleton<IslandsLevelsMinigame>().movesText.text.text = "Moves Taken: " + moveCount;
+						}
+						else
+						{
+							selectedCard = highlightedCard;
+							selectedCardIndicatorTrs.SetParent(selectedCard.trs);
+							selectedCardIndicatorTrs.localPosition = Vector3.zero;
+							selectedCardIndicatorTrs.gameObject.SetActive(true);
+						}
 						if (IsLevelCompleted())
-							GameManager.GetSingleton<IslandsLevelsProofOfConcept>().nextLevelButton.gameObject.SetActive(true);
+							GameManager.GetSingleton<IslandsLevelsMinigame>().nextLevelButton.gameObject.SetActive(true);
 					}
-					selectedCard = highlightedCard;
-					selectedCardIndicatorTrs.SetParent(selectedCard.trs);
-					selectedCardIndicatorTrs.localPosition = Vector3.zero;
-					selectedCardIndicatorTrs.gameObject.SetActive(true);
+					else
+					{
+						selectedCard = highlightedCard;
+						selectedCardIndicatorTrs.SetParent(selectedCard.trs);
+						selectedCardIndicatorTrs.localPosition = Vector3.zero;
+						selectedCardIndicatorTrs.gameObject.SetActive(true);
+					}
 				}
 			}
 			else
@@ -92,6 +108,7 @@ namespace MatchingCardGame
 
 		bool TryToMoveSelectedCardToHighlightedPosition ()
 		{
+			selectedCardIndicatorTrs.gameObject.SetActive(false);
 			Island highlighedCardIsland = (Island) highlightedCard.groupsIAmPartOf[0];
 			Island selectedCardIsland = (Island) selectedCard.groupsIAmPartOf[0];
 			if (highlighedCardIsland == selectedCardIsland)
@@ -128,7 +145,7 @@ namespace MatchingCardGame
 
 		void MoveSelectedCardToHighlightedPosition ()
 		{
-			CardGroup highlighedIsland = highlightedCard.groupsIAmPartOf[0];
+			Island highlighedIsland = (Island) highlightedCard.groupsIAmPartOf[0];
 			CardGroup selectedIsland = selectedCard.groupsIAmPartOf[0];
 			selectedCard.trs.position = highlightedCard.trs.position.SetZ(0);
 			selectedCard.position = highlightedCard.position;
@@ -139,6 +156,7 @@ namespace MatchingCardGame
 			highlightedCardSlot.cardAboveMe = selectedCard;
 			selectedCard.cardSlotUnderMe.cardAboveMe = null;
 			selectedCard.cardSlotUnderMe = highlightedCardSlot;
+			selectedCard.trs.SetParent(highlighedIsland.trs);
 			foreach (CardModifier cardModifier in cardModifiers)
 				cardModifier.ApplyEffect ();
 		}
@@ -188,7 +206,7 @@ namespace MatchingCardGame
 			return false;
 		}
 		
-		public static IslandsLevel MakeLevel (Vector2Int dimensions, int cardCount = 4, int cardTypeCount = 1, int islandCount = 2, int moveCount = 1)
+		public static IslandsLevel MakeLevel (Vector2Int dimensions, int cardCount = 4, int cardTypeCount = 1, int islandCount = 2, int moveCount = 1, CardModifierEntry[] cardModifierEntries = null)
 		{
 			islandsLevel = Instantiate(GameManager.GetSingleton<GameManager>().islandsLevelPrefab);
 			int cardsPerIsland = cardCount / islandCount;
@@ -207,20 +225,14 @@ namespace MatchingCardGame
 			if (!MakeMoves(moveCount))
 			{
 				DestroyImmediate(islandsLevel.gameObject);
-				// currentTry ++;
-				// if (currentTry > moveCount * MAX_RETRY_COUNT_MULTIPLIER)
-				// {
-					// Debug.LogWarning("The level generator tried " + (moveCount * MAX_RETRY_COUNT_MULTIPLIER) + " times but couldn't make the level you requested");
-					return null;
-				// }
-				// return MakeLevel(dimensions, cardCount, cardTypeCount, islandCount, moveCount);
+				return null;
 			}
 			islandsLevel.selectedCard = null;
 			islandsLevel.highlightedCard = null;
 			return islandsLevel;
 		}
 
-		static Island MakeIsland (Vector2Int dimensions, int cardCount = 2, int cardTypeCount = 1)
+		static Island MakeIsland (Vector2Int dimensions, int cardCount = 2, int cardTypeCount = 1, CardModifierEntry[] cardModifierEntries = null)
 		{
 			Island island = Instantiate(GameManager.GetSingleton<GameManager>().islandPrefab, islandsLevel.trs);
 			List<Card> notUsedIslandCardPrefabs = new List<Card>();
@@ -231,32 +243,6 @@ namespace MatchingCardGame
 			possibleNextCardPositions.Add(Vector2Int.zero);
 			List<Card> cards = new List<Card>();
 			List<CardSlot> cardSlots = new List<CardSlot>();
-			// for (int i = 0; i < cardTypeCount; i ++)
-			// {
-			// 	int notUsedIslandCardPrefabIndex = Random.Range(0, notUsedIslandCardPrefabs.Count);
-			// 	for (int i2 = 0; i2 < cardCount / cardTypeCount; i2 ++)
-			// 	{
-			// 		Card card = Instantiate(notUsedIslandCardPrefabs[notUsedIslandCardPrefabIndex], island.trs);
-			// 		int indexOfCardPosition = Random.Range(0, possibleNextCardPositions.Count);
-			// 		Vector2Int cardPosition = possibleNextCardPositions[indexOfCardPosition];
-			// 		possibleNextCardPositions.RemoveAt(indexOfCardPosition);
-			// 		card.trs.localPosition = cardPosition.Multiply(cardSize);
-			// 		card.position = cardPosition;
-			// 		card.groupsIAmPartOf = new CardGroup[1] { island };
-			// 		if (!cardPositions.Contains(cardPosition + Vector2Int.left))
-			// 			possibleNextCardPositions.Add(cardPosition + Vector2Int.left);
-			// 		if (!cardPositions.Contains(cardPosition + Vector2Int.right))
-			// 			possibleNextCardPositions.Add(cardPosition + Vector2Int.right);
-			// 		if (!cardPositions.Contains(cardPosition + Vector2Int.down))
-			// 			possibleNextCardPositions.Add(cardPosition + Vector2Int.down);
-			// 		if (!cardPositions.Contains(cardPosition + Vector2Int.up))
-			// 			possibleNextCardPositions.Add(cardPosition + Vector2Int.up);
-			// 		cardPositions.Add(cardPosition);
-			// 		cards.Add(card);
-			// 	}
-			// 	notUsedIslandCardPrefabs.RemoveAt(notUsedIslandCardPrefabIndex);
-			// }
-			// island.cards = cards.ToArray();
 			for (int x = 0; x < dimensions.x; x ++)
 			{
 				for (int y = 0; y < dimensions.y; y ++)
@@ -371,6 +357,13 @@ namespace MatchingCardGame
 					return true;
 			}
 			return false;
+		}
+
+		[Serializable]
+		public class CardModifierEntry
+		{
+			public CardModifier cardModifierPrefab;
+			public int[] cardTypesToApplyModifiers = new int[0];
 		}
 	}
 }
