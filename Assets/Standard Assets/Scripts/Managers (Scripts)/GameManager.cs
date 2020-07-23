@@ -90,8 +90,6 @@ namespace MatchingCardGame
 		[SaveAndLoadValue(false)]
 		public static string disabledGosString = "";
 		public const string STRING_SEPERATOR = "|";
-		public const float WORLD_SCALE = .866f;
-		public const float WORLD_SCALE_SQR = WORLD_SCALE * WORLD_SCALE;
 		public const char UNIQUE_ID_SEPERATOR = ',';
 		public const int LAG_FRAMES_AFTER_LOAD_SCENE = 2;
 		public static IUpdatable[] updatables = new IUpdatable[0];
@@ -118,7 +116,6 @@ namespace MatchingCardGame
 		public Canvas[] canvases = new Canvas[0];
 		public GameObject emptyGoPrefab;
 		public TemporaryActiveText notificationText;
-		public Vector2[] possibleMoves = new Vector2[0];
 		public Grid grid;
 		public Tilemap[] tilemaps = new Tilemap[0];
 		public Tilemap zonesTilemap;
@@ -265,13 +262,6 @@ namespace MatchingCardGame
 		public virtual IEnumerator LoadRoutine ()
 		{
 			yield return new WaitForEndOfFrame();
-			possibleMoves = new Vector2[6];
-			int i = 0;
-			for (float angle = 0; angle < 360; angle += 360f / 6)
-			{
-				possibleMoves[i] = VectorExtensions.FromFacingAngle(angle) * WORLD_SCALE;
-				i ++;
-			}
 			GetSingleton<SaveAndLoadManager>().Setup ();
 			if (!HasPlayedBefore)
 			{

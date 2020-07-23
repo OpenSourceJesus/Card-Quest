@@ -28,11 +28,11 @@ namespace Extensions
 					{
 						if (point.x < localRect.xMin)
 							localRect.xMin = point.x;
-						if (point.x > localRect.xMax)
+						else if (point.x > localRect.xMax)
 							localRect.xMax = point.x;
 						if (point.y < localRect.yMin)
 							localRect.yMin = point.y;
-						if (point.y > localRect.yMax)
+						else if (point.y > localRect.yMax)
 							localRect.yMax = point.y;
 					}
 					output = Rect.MinMaxRect(trs.position.x + polygonCollider.offset.x * trs.lossyScale.x - localRect.size.x / 2 * trs.lossyScale.x, trs.position.y + polygonCollider.offset.y * trs.lossyScale.y - localRect.size.y / 2 * trs.lossyScale.y, trs.position.x + polygonCollider.offset.x * trs.lossyScale.x + localRect.size.x / 2 * trs.lossyScale.x, trs.position.y + polygonCollider.offset.y * trs.lossyScale.y + localRect.size.y / 2 * trs.lossyScale.y);

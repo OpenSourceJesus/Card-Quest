@@ -44,24 +44,6 @@ namespace MatchingCardGame
 			camera.Render();
 		}
 
-		public virtual void OnEnable ()
-		{
-#if UNITY_EDITOR
-			if (!Application.isPlaying)
-				return;
-#endif
-			GameManager.singletons[typeof(CameraScript)] = this;
-		}
-
-// 		public virtual void OnDisable ()
-// 		{
-// #if UNITY_EDITOR
-// 			if (!Application.isPlaying)
-// 				return;
-// #endif
-// 			GameManager.singletons[typeof(CameraScript)] = Camera.allCameras[0].GetComponent<CameraScript>();
-// 		}
-
 #if UNITY_EDITOR
 		public virtual void DoEditorUpdate ()
 		{
