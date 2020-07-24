@@ -13,7 +13,7 @@ namespace MatchingCardGame
 		public Transform selectedCardIndicatorTrs;
 		public Transform highlightedCardIndicatorTrs;
 		public Transform trs;
-		static Vector2 cardSize;
+		public static Vector2 cardSize;
 		static IslandsLevel islandsLevel;
 		CardModifier[] cardModifiers = new CardModifier[0];
 		bool previousLeftMouseButtonInput;

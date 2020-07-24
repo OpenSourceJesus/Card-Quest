@@ -190,6 +190,38 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c00f46325e98a5740881e8aa43944692, type: 3}
+--- !u!1 &154954255
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 154954256}
+  m_Layer: 0
+  m_Name: Urban
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &154954256
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 154954255}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.48, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 403737354}
+  - {fileID: 1472353584}
+  m_Father: {fileID: 2144318788}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &358125745
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -406,6 +438,63 @@ MonoBehaviour:
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
   m_LayoutPriority: 1
+--- !u!1 &403737353
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 403737354}
+  - component: {fileID: 403737355}
+  m_Layer: 0
+  m_Name: Island 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &403737354
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 403737353}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 154954256}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &403737355
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 403737353}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -2.177884, y: -0.4169091}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 2.8417768, y: 2.8445857}
+  m_EdgeRadius: 0
 --- !u!1001 &631390404
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1599,15 +1688,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2014546635921226899, guid: a1a91a1d801076c5c96a58a2d537f973,
         type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 90e57e9332b4032f884160338ad12ed4,
-        type: 3}
-    - target: {fileID: 2014546635921226899, guid: a1a91a1d801076c5c96a58a2d537f973,
-        type: 3}
       propertyPath: m_PreserveAspect
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2014546635921226899, guid: a1a91a1d801076c5c96a58a2d537f973,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: b0516fe45a62fee34a1d84d38348a106,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a1a91a1d801076c5c96a58a2d537f973, type: 3}
 --- !u!224 &963592621 stripped
@@ -2066,6 +2155,38 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d3a7aa4a3942184397ba58f9e0faa7a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1162830379
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1162830380}
+  m_Layer: 0
+  m_Name: Beach
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1162830380
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1162830379}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -0.1, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2087640661}
+  - {fileID: 1969229512}
+  m_Father: {fileID: 2144318788}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1246251462
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2741,6 +2862,63 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1472353583
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1472353584}
+  - component: {fileID: 1472353585}
+  m_Layer: 0
+  m_Name: Island 2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1472353584
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1472353583}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 154954256}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1472353585
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1472353583}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 2.1619892, y: -0.35135734}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 2.8464773, y: 2.8422806}
+  m_EdgeRadius: 0
 --- !u!1001 &1531400358
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2951,6 +3129,63 @@ MonoBehaviour:
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
   m_LayoutPriority: 1
+--- !u!1 &1549950696
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1549950697}
+  - component: {fileID: 1549950698}
+  m_Layer: 0
+  m_Name: Island 2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1549950697
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1549950696}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1678527059}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1549950698
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1549950696}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 2.1611433, y: 0.001742959}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 2.9258509, y: 2.9321167}
+  m_EdgeRadius: 0
 --- !u!1001 &1551481972
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3336,6 +3571,209 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!1 &1671082755
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1671082756}
+  - component: {fileID: 1671082757}
+  m_Layer: 0
+  m_Name: Island 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1671082756
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1671082755}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1678527059}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1671082757
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1671082755}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -2.1101987, y: 0.016596437}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 2.9394536, y: 2.905988}
+  m_EdgeRadius: 0
+--- !u!1 &1678527058
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1678527059}
+  m_Layer: 0
+  m_Name: Fortress
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1678527059
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1678527058}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.49, y: -0.62, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1671082756}
+  - {fileID: 1549950697}
+  m_Father: {fileID: 2144318788}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1708259219
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1708259220}
+  - component: {fileID: 1708259221}
+  m_Layer: 0
+  m_Name: Island 2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1708259220
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1708259219}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2122341232}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1708259221
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1708259219}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 2.2567322, y: -0.20035994}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.09518, y: 3.08506}
+  m_EdgeRadius: 0
+--- !u!1 &1768622136
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1768622137}
+  - component: {fileID: 1768622138}
+  m_Layer: 0
+  m_Name: Island 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1768622137
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1768622136}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2122341232}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1768622138
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1768622136}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -2.4004083, y: -0.1259166}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.1156511, y: 3.1184614}
+  m_EdgeRadius: 0
 --- !u!1001 &1815587479
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3651,6 +4089,63 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1856547809}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1969229511
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1969229512}
+  - component: {fileID: 1969229513}
+  m_Layer: 0
+  m_Name: Island 2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1969229512
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1969229511}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1162830380}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1969229513
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1969229511}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 2.2263694, y: -0.19646561}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.0797641, y: 2.8655803}
+  m_EdgeRadius: 0
 --- !u!1001 &2069622581
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3720,6 +4215,95 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c00f46325e98a5740881e8aa43944692, type: 3}
+--- !u!1 &2087640660
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2087640661}
+  - component: {fileID: 2087640662}
+  m_Layer: 0
+  m_Name: Island 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2087640661
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2087640660}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1162830380}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &2087640662
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2087640660}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -2.0869074, y: -0.19646561}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.0797157, y: 2.8655803}
+  m_EdgeRadius: 0
+--- !u!1 &2122341231
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2122341232}
+  m_Layer: 0
+  m_Name: Desert
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2122341232
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2122341231}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.52, y: -0.373, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1768622137}
+  - {fileID: 1708259220}
+  m_Father: {fileID: 2144318788}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2144318786
 GameObject:
   m_ObjectHideFlags: 0
@@ -3760,9 +4344,10 @@ MonoBehaviour:
       cardModifierEntries: []
       backgroundSprite: {fileID: 21300000, guid: 90e57e9332b4032f884160338ad12ed4,
         type: 3}
-      levelBorder: {x: 5, y: 5}
-      islandsOffset: 2.5
-    levelCount: 10
+      islandOrientationColliders:
+      - {fileID: 2087640662}
+      - {fileID: 1969229513}
+    levelCount: 0
   - firstLevelEntry:
       name: Urban
       dimensions: {x: 3, y: 3}
@@ -3773,9 +4358,10 @@ MonoBehaviour:
       cardModifierEntries: []
       backgroundSprite: {fileID: 21300000, guid: 35e0b3c51869f1fb7a64476e09856007,
         type: 3}
-      levelBorder: {x: 5, y: 5}
-      islandsOffset: 1.75
-    levelCount: 15
+      islandOrientationColliders:
+      - {fileID: 403737355}
+      - {fileID: 1472353585}
+    levelCount: 0
   - firstLevelEntry:
       name: Desert
       dimensions: {x: 3, y: 4}
@@ -3786,9 +4372,10 @@ MonoBehaviour:
       cardModifierEntries: []
       backgroundSprite: {fileID: 21300000, guid: d7b9abe910c5729d0b57f92af9e10161,
         type: 3}
-      levelBorder: {x: 5, y: 5}
-      islandsOffset: 3
-    levelCount: 20
+      islandOrientationColliders:
+      - {fileID: 1768622138}
+      - {fileID: 1708259221}
+    levelCount: 0
   - firstLevelEntry:
       name: Fortress
       dimensions: {x: 3, y: 5}
@@ -3799,460 +4386,11 @@ MonoBehaviour:
       cardModifierEntries: []
       backgroundSprite: {fileID: 21300000, guid: b0516fe45a62fee34a1d84d38348a106,
         type: 3}
-      levelBorder: {x: 5, y: 5}
-      islandsOffset: 2.5
+      islandOrientationColliders:
+      - {fileID: 1671082757}
+      - {fileID: 1549950698}
     levelCount: 25
   islandsLevelEntries:
-  - name: Beach 1
-    dimensions: {x: 2, y: 3}
-    cardCount: 4
-    cardTypeCount: 1
-    islandCount: 2
-    moveCount: 1
-    cardModifierEntries: []
-    backgroundSprite: {fileID: 21300000, guid: 90e57e9332b4032f884160338ad12ed4, type: 3}
-    levelBorder: {x: 5, y: 5}
-    islandsOffset: 2.5
-  - name: Beach 2
-    dimensions: {x: 2, y: 3}
-    cardCount: 4
-    cardTypeCount: 1
-    islandCount: 2
-    moveCount: 2
-    cardModifierEntries: []
-    backgroundSprite: {fileID: 21300000, guid: 90e57e9332b4032f884160338ad12ed4, type: 3}
-    levelBorder: {x: 5, y: 5}
-    islandsOffset: 2.5
-  - name: Beach 3
-    dimensions: {x: 2, y: 3}
-    cardCount: 4
-    cardTypeCount: 1
-    islandCount: 2
-    moveCount: 3
-    cardModifierEntries: []
-    backgroundSprite: {fileID: 21300000, guid: 90e57e9332b4032f884160338ad12ed4, type: 3}
-    levelBorder: {x: 5, y: 5}
-    islandsOffset: 2.5
-  - name: Beach 4
-    dimensions: {x: 2, y: 3}
-    cardCount: 4
-    cardTypeCount: 1
-    islandCount: 2
-    moveCount: 4
-    cardModifierEntries: []
-    backgroundSprite: {fileID: 21300000, guid: 90e57e9332b4032f884160338ad12ed4, type: 3}
-    levelBorder: {x: 5, y: 5}
-    islandsOffset: 2.5
-  - name: Beach 5
-    dimensions: {x: 2, y: 3}
-    cardCount: 4
-    cardTypeCount: 1
-    islandCount: 2
-    moveCount: 5
-    cardModifierEntries: []
-    backgroundSprite: {fileID: 21300000, guid: 90e57e9332b4032f884160338ad12ed4, type: 3}
-    levelBorder: {x: 5, y: 5}
-    islandsOffset: 2.5
-  - name: Beach 6
-    dimensions: {x: 2, y: 3}
-    cardCount: 4
-    cardTypeCount: 1
-    islandCount: 2
-    moveCount: 6
-    cardModifierEntries: []
-    backgroundSprite: {fileID: 21300000, guid: 90e57e9332b4032f884160338ad12ed4, type: 3}
-    levelBorder: {x: 5, y: 5}
-    islandsOffset: 2.5
-  - name: Beach 7
-    dimensions: {x: 2, y: 3}
-    cardCount: 4
-    cardTypeCount: 1
-    islandCount: 2
-    moveCount: 7
-    cardModifierEntries: []
-    backgroundSprite: {fileID: 21300000, guid: 90e57e9332b4032f884160338ad12ed4, type: 3}
-    levelBorder: {x: 5, y: 5}
-    islandsOffset: 2.5
-  - name: Beach 8
-    dimensions: {x: 2, y: 3}
-    cardCount: 4
-    cardTypeCount: 1
-    islandCount: 2
-    moveCount: 8
-    cardModifierEntries: []
-    backgroundSprite: {fileID: 21300000, guid: 90e57e9332b4032f884160338ad12ed4, type: 3}
-    levelBorder: {x: 5, y: 5}
-    islandsOffset: 2.5
-  - name: Beach 9
-    dimensions: {x: 2, y: 3}
-    cardCount: 4
-    cardTypeCount: 1
-    islandCount: 2
-    moveCount: 9
-    cardModifierEntries: []
-    backgroundSprite: {fileID: 21300000, guid: 90e57e9332b4032f884160338ad12ed4, type: 3}
-    levelBorder: {x: 5, y: 5}
-    islandsOffset: 2.5
-  - name: Beach 10
-    dimensions: {x: 2, y: 3}
-    cardCount: 4
-    cardTypeCount: 1
-    islandCount: 2
-    moveCount: 10
-    cardModifierEntries: []
-    backgroundSprite: {fileID: 21300000, guid: 90e57e9332b4032f884160338ad12ed4, type: 3}
-    levelBorder: {x: 5, y: 5}
-    islandsOffset: 2.5
-  - name: Urban 1
-    dimensions: {x: 3, y: 3}
-    cardCount: 6
-    cardTypeCount: 1
-    islandCount: 2
-    moveCount: 5
-    cardModifierEntries: []
-    backgroundSprite: {fileID: 21300000, guid: 35e0b3c51869f1fb7a64476e09856007, type: 3}
-    levelBorder: {x: 5, y: 5}
-    islandsOffset: 1.75
-  - name: Urban 2
-    dimensions: {x: 3, y: 3}
-    cardCount: 6
-    cardTypeCount: 1
-    islandCount: 2
-    moveCount: 6
-    cardModifierEntries: []
-    backgroundSprite: {fileID: 21300000, guid: 35e0b3c51869f1fb7a64476e09856007, type: 3}
-    levelBorder: {x: 5, y: 5}
-    islandsOffset: 1.75
-  - name: Urban 3
-    dimensions: {x: 3, y: 3}
-    cardCount: 6
-    cardTypeCount: 1
-    islandCount: 2
-    moveCount: 7
-    cardModifierEntries: []
-    backgroundSprite: {fileID: 21300000, guid: 35e0b3c51869f1fb7a64476e09856007, type: 3}
-    levelBorder: {x: 5, y: 5}
-    islandsOffset: 1.75
-  - name: Urban 4
-    dimensions: {x: 3, y: 3}
-    cardCount: 6
-    cardTypeCount: 1
-    islandCount: 2
-    moveCount: 8
-    cardModifierEntries: []
-    backgroundSprite: {fileID: 21300000, guid: 35e0b3c51869f1fb7a64476e09856007, type: 3}
-    levelBorder: {x: 5, y: 5}
-    islandsOffset: 1.75
-  - name: Urban 5
-    dimensions: {x: 3, y: 3}
-    cardCount: 6
-    cardTypeCount: 1
-    islandCount: 2
-    moveCount: 9
-    cardModifierEntries: []
-    backgroundSprite: {fileID: 21300000, guid: 35e0b3c51869f1fb7a64476e09856007, type: 3}
-    levelBorder: {x: 5, y: 5}
-    islandsOffset: 1.75
-  - name: Urban 6
-    dimensions: {x: 3, y: 3}
-    cardCount: 6
-    cardTypeCount: 1
-    islandCount: 2
-    moveCount: 10
-    cardModifierEntries: []
-    backgroundSprite: {fileID: 21300000, guid: 35e0b3c51869f1fb7a64476e09856007, type: 3}
-    levelBorder: {x: 5, y: 5}
-    islandsOffset: 1.75
-  - name: Urban 7
-    dimensions: {x: 3, y: 3}
-    cardCount: 6
-    cardTypeCount: 1
-    islandCount: 2
-    moveCount: 11
-    cardModifierEntries: []
-    backgroundSprite: {fileID: 21300000, guid: 35e0b3c51869f1fb7a64476e09856007, type: 3}
-    levelBorder: {x: 5, y: 5}
-    islandsOffset: 1.75
-  - name: Urban 8
-    dimensions: {x: 3, y: 3}
-    cardCount: 6
-    cardTypeCount: 1
-    islandCount: 2
-    moveCount: 12
-    cardModifierEntries: []
-    backgroundSprite: {fileID: 21300000, guid: 35e0b3c51869f1fb7a64476e09856007, type: 3}
-    levelBorder: {x: 5, y: 5}
-    islandsOffset: 1.75
-  - name: Urban 9
-    dimensions: {x: 3, y: 3}
-    cardCount: 6
-    cardTypeCount: 1
-    islandCount: 2
-    moveCount: 13
-    cardModifierEntries: []
-    backgroundSprite: {fileID: 21300000, guid: 35e0b3c51869f1fb7a64476e09856007, type: 3}
-    levelBorder: {x: 5, y: 5}
-    islandsOffset: 1.75
-  - name: Urban 10
-    dimensions: {x: 3, y: 3}
-    cardCount: 6
-    cardTypeCount: 1
-    islandCount: 2
-    moveCount: 14
-    cardModifierEntries: []
-    backgroundSprite: {fileID: 21300000, guid: 35e0b3c51869f1fb7a64476e09856007, type: 3}
-    levelBorder: {x: 5, y: 5}
-    islandsOffset: 1.75
-  - name: Urban 11
-    dimensions: {x: 3, y: 3}
-    cardCount: 6
-    cardTypeCount: 1
-    islandCount: 2
-    moveCount: 15
-    cardModifierEntries: []
-    backgroundSprite: {fileID: 21300000, guid: 35e0b3c51869f1fb7a64476e09856007, type: 3}
-    levelBorder: {x: 5, y: 5}
-    islandsOffset: 1.75
-  - name: Urban 12
-    dimensions: {x: 3, y: 3}
-    cardCount: 6
-    cardTypeCount: 1
-    islandCount: 2
-    moveCount: 16
-    cardModifierEntries: []
-    backgroundSprite: {fileID: 21300000, guid: 35e0b3c51869f1fb7a64476e09856007, type: 3}
-    levelBorder: {x: 5, y: 5}
-    islandsOffset: 1.75
-  - name: Urban 13
-    dimensions: {x: 3, y: 3}
-    cardCount: 6
-    cardTypeCount: 1
-    islandCount: 2
-    moveCount: 17
-    cardModifierEntries: []
-    backgroundSprite: {fileID: 21300000, guid: 35e0b3c51869f1fb7a64476e09856007, type: 3}
-    levelBorder: {x: 5, y: 5}
-    islandsOffset: 1.75
-  - name: Urban 14
-    dimensions: {x: 3, y: 3}
-    cardCount: 6
-    cardTypeCount: 1
-    islandCount: 2
-    moveCount: 18
-    cardModifierEntries: []
-    backgroundSprite: {fileID: 21300000, guid: 35e0b3c51869f1fb7a64476e09856007, type: 3}
-    levelBorder: {x: 5, y: 5}
-    islandsOffset: 1.75
-  - name: Urban 15
-    dimensions: {x: 3, y: 3}
-    cardCount: 6
-    cardTypeCount: 1
-    islandCount: 2
-    moveCount: 19
-    cardModifierEntries: []
-    backgroundSprite: {fileID: 21300000, guid: 35e0b3c51869f1fb7a64476e09856007, type: 3}
-    levelBorder: {x: 5, y: 5}
-    islandsOffset: 1.75
-  - name: Desert 1
-    dimensions: {x: 3, y: 4}
-    cardCount: 12
-    cardTypeCount: 2
-    islandCount: 2
-    moveCount: 10
-    cardModifierEntries: []
-    backgroundSprite: {fileID: 21300000, guid: d7b9abe910c5729d0b57f92af9e10161, type: 3}
-    levelBorder: {x: 5, y: 5}
-    islandsOffset: 3
-  - name: Desert 2
-    dimensions: {x: 3, y: 4}
-    cardCount: 12
-    cardTypeCount: 2
-    islandCount: 2
-    moveCount: 11
-    cardModifierEntries: []
-    backgroundSprite: {fileID: 21300000, guid: d7b9abe910c5729d0b57f92af9e10161, type: 3}
-    levelBorder: {x: 5, y: 5}
-    islandsOffset: 3
-  - name: Desert 3
-    dimensions: {x: 3, y: 4}
-    cardCount: 12
-    cardTypeCount: 2
-    islandCount: 2
-    moveCount: 12
-    cardModifierEntries: []
-    backgroundSprite: {fileID: 21300000, guid: d7b9abe910c5729d0b57f92af9e10161, type: 3}
-    levelBorder: {x: 5, y: 5}
-    islandsOffset: 3
-  - name: Desert 4
-    dimensions: {x: 3, y: 4}
-    cardCount: 12
-    cardTypeCount: 2
-    islandCount: 2
-    moveCount: 13
-    cardModifierEntries: []
-    backgroundSprite: {fileID: 21300000, guid: d7b9abe910c5729d0b57f92af9e10161, type: 3}
-    levelBorder: {x: 5, y: 5}
-    islandsOffset: 3
-  - name: Desert 5
-    dimensions: {x: 3, y: 4}
-    cardCount: 12
-    cardTypeCount: 2
-    islandCount: 2
-    moveCount: 14
-    cardModifierEntries: []
-    backgroundSprite: {fileID: 21300000, guid: d7b9abe910c5729d0b57f92af9e10161, type: 3}
-    levelBorder: {x: 5, y: 5}
-    islandsOffset: 3
-  - name: Desert 6
-    dimensions: {x: 3, y: 4}
-    cardCount: 12
-    cardTypeCount: 2
-    islandCount: 2
-    moveCount: 15
-    cardModifierEntries: []
-    backgroundSprite: {fileID: 21300000, guid: d7b9abe910c5729d0b57f92af9e10161, type: 3}
-    levelBorder: {x: 5, y: 5}
-    islandsOffset: 3
-  - name: Desert 7
-    dimensions: {x: 3, y: 4}
-    cardCount: 12
-    cardTypeCount: 2
-    islandCount: 2
-    moveCount: 16
-    cardModifierEntries: []
-    backgroundSprite: {fileID: 21300000, guid: d7b9abe910c5729d0b57f92af9e10161, type: 3}
-    levelBorder: {x: 5, y: 5}
-    islandsOffset: 3
-  - name: Desert 8
-    dimensions: {x: 3, y: 4}
-    cardCount: 12
-    cardTypeCount: 2
-    islandCount: 2
-    moveCount: 17
-    cardModifierEntries: []
-    backgroundSprite: {fileID: 21300000, guid: d7b9abe910c5729d0b57f92af9e10161, type: 3}
-    levelBorder: {x: 5, y: 5}
-    islandsOffset: 3
-  - name: Desert 9
-    dimensions: {x: 3, y: 4}
-    cardCount: 12
-    cardTypeCount: 2
-    islandCount: 2
-    moveCount: 18
-    cardModifierEntries: []
-    backgroundSprite: {fileID: 21300000, guid: d7b9abe910c5729d0b57f92af9e10161, type: 3}
-    levelBorder: {x: 5, y: 5}
-    islandsOffset: 3
-  - name: Desert 10
-    dimensions: {x: 3, y: 4}
-    cardCount: 12
-    cardTypeCount: 2
-    islandCount: 2
-    moveCount: 19
-    cardModifierEntries: []
-    backgroundSprite: {fileID: 21300000, guid: d7b9abe910c5729d0b57f92af9e10161, type: 3}
-    levelBorder: {x: 5, y: 5}
-    islandsOffset: 3
-  - name: Desert 11
-    dimensions: {x: 3, y: 4}
-    cardCount: 12
-    cardTypeCount: 2
-    islandCount: 2
-    moveCount: 20
-    cardModifierEntries: []
-    backgroundSprite: {fileID: 21300000, guid: d7b9abe910c5729d0b57f92af9e10161, type: 3}
-    levelBorder: {x: 5, y: 5}
-    islandsOffset: 3
-  - name: Desert 12
-    dimensions: {x: 3, y: 4}
-    cardCount: 12
-    cardTypeCount: 2
-    islandCount: 2
-    moveCount: 21
-    cardModifierEntries: []
-    backgroundSprite: {fileID: 21300000, guid: d7b9abe910c5729d0b57f92af9e10161, type: 3}
-    levelBorder: {x: 5, y: 5}
-    islandsOffset: 3
-  - name: Desert 13
-    dimensions: {x: 3, y: 4}
-    cardCount: 12
-    cardTypeCount: 2
-    islandCount: 2
-    moveCount: 22
-    cardModifierEntries: []
-    backgroundSprite: {fileID: 21300000, guid: d7b9abe910c5729d0b57f92af9e10161, type: 3}
-    levelBorder: {x: 5, y: 5}
-    islandsOffset: 3
-  - name: Desert 14
-    dimensions: {x: 3, y: 4}
-    cardCount: 12
-    cardTypeCount: 2
-    islandCount: 2
-    moveCount: 23
-    cardModifierEntries: []
-    backgroundSprite: {fileID: 21300000, guid: d7b9abe910c5729d0b57f92af9e10161, type: 3}
-    levelBorder: {x: 5, y: 5}
-    islandsOffset: 3
-  - name: Desert 15
-    dimensions: {x: 3, y: 4}
-    cardCount: 12
-    cardTypeCount: 2
-    islandCount: 2
-    moveCount: 24
-    cardModifierEntries: []
-    backgroundSprite: {fileID: 21300000, guid: d7b9abe910c5729d0b57f92af9e10161, type: 3}
-    levelBorder: {x: 5, y: 5}
-    islandsOffset: 3
-  - name: Desert 16
-    dimensions: {x: 3, y: 4}
-    cardCount: 12
-    cardTypeCount: 2
-    islandCount: 2
-    moveCount: 25
-    cardModifierEntries: []
-    backgroundSprite: {fileID: 21300000, guid: d7b9abe910c5729d0b57f92af9e10161, type: 3}
-    levelBorder: {x: 5, y: 5}
-    islandsOffset: 3
-  - name: Desert 17
-    dimensions: {x: 3, y: 4}
-    cardCount: 12
-    cardTypeCount: 2
-    islandCount: 2
-    moveCount: 26
-    cardModifierEntries: []
-    backgroundSprite: {fileID: 21300000, guid: d7b9abe910c5729d0b57f92af9e10161, type: 3}
-    levelBorder: {x: 5, y: 5}
-    islandsOffset: 3
-  - name: Desert 18
-    dimensions: {x: 3, y: 4}
-    cardCount: 12
-    cardTypeCount: 2
-    islandCount: 2
-    moveCount: 27
-    cardModifierEntries: []
-    backgroundSprite: {fileID: 21300000, guid: d7b9abe910c5729d0b57f92af9e10161, type: 3}
-    levelBorder: {x: 5, y: 5}
-    islandsOffset: 3
-  - name: Desert 19
-    dimensions: {x: 3, y: 4}
-    cardCount: 12
-    cardTypeCount: 2
-    islandCount: 2
-    moveCount: 28
-    cardModifierEntries: []
-    backgroundSprite: {fileID: 21300000, guid: d7b9abe910c5729d0b57f92af9e10161, type: 3}
-    levelBorder: {x: 5, y: 5}
-    islandsOffset: 3
-  - name: Desert 20
-    dimensions: {x: 3, y: 4}
-    cardCount: 12
-    cardTypeCount: 2
-    islandCount: 2
-    moveCount: 29
-    cardModifierEntries: []
-    backgroundSprite: {fileID: 21300000, guid: d7b9abe910c5729d0b57f92af9e10161, type: 3}
-    levelBorder: {x: 5, y: 5}
-    islandsOffset: 3
   - name: Fortress 1
     dimensions: {x: 3, y: 5}
     cardCount: 16
@@ -4261,8 +4399,9 @@ MonoBehaviour:
     moveCount: 15
     cardModifierEntries: []
     backgroundSprite: {fileID: 21300000, guid: b0516fe45a62fee34a1d84d38348a106, type: 3}
-    levelBorder: {x: 5, y: 5}
-    islandsOffset: 2.5
+    islandOrientationColliders:
+    - {fileID: 1671082757}
+    - {fileID: 1549950698}
   - name: Fortress 2
     dimensions: {x: 3, y: 5}
     cardCount: 16
@@ -4271,8 +4410,9 @@ MonoBehaviour:
     moveCount: 16
     cardModifierEntries: []
     backgroundSprite: {fileID: 21300000, guid: b0516fe45a62fee34a1d84d38348a106, type: 3}
-    levelBorder: {x: 5, y: 5}
-    islandsOffset: 2.5
+    islandOrientationColliders:
+    - {fileID: 1671082757}
+    - {fileID: 1549950698}
   - name: Fortress 3
     dimensions: {x: 3, y: 5}
     cardCount: 16
@@ -4281,8 +4421,9 @@ MonoBehaviour:
     moveCount: 17
     cardModifierEntries: []
     backgroundSprite: {fileID: 21300000, guid: b0516fe45a62fee34a1d84d38348a106, type: 3}
-    levelBorder: {x: 5, y: 5}
-    islandsOffset: 2.5
+    islandOrientationColliders:
+    - {fileID: 1671082757}
+    - {fileID: 1549950698}
   - name: Fortress 4
     dimensions: {x: 3, y: 5}
     cardCount: 16
@@ -4291,8 +4432,9 @@ MonoBehaviour:
     moveCount: 18
     cardModifierEntries: []
     backgroundSprite: {fileID: 21300000, guid: b0516fe45a62fee34a1d84d38348a106, type: 3}
-    levelBorder: {x: 5, y: 5}
-    islandsOffset: 2.5
+    islandOrientationColliders:
+    - {fileID: 1671082757}
+    - {fileID: 1549950698}
   - name: Fortress 5
     dimensions: {x: 3, y: 5}
     cardCount: 16
@@ -4301,8 +4443,9 @@ MonoBehaviour:
     moveCount: 19
     cardModifierEntries: []
     backgroundSprite: {fileID: 21300000, guid: b0516fe45a62fee34a1d84d38348a106, type: 3}
-    levelBorder: {x: 5, y: 5}
-    islandsOffset: 2.5
+    islandOrientationColliders:
+    - {fileID: 1671082757}
+    - {fileID: 1549950698}
   - name: Fortress 6
     dimensions: {x: 3, y: 5}
     cardCount: 16
@@ -4311,8 +4454,9 @@ MonoBehaviour:
     moveCount: 20
     cardModifierEntries: []
     backgroundSprite: {fileID: 21300000, guid: b0516fe45a62fee34a1d84d38348a106, type: 3}
-    levelBorder: {x: 5, y: 5}
-    islandsOffset: 2.5
+    islandOrientationColliders:
+    - {fileID: 1671082757}
+    - {fileID: 1549950698}
   - name: Fortress 7
     dimensions: {x: 3, y: 5}
     cardCount: 16
@@ -4321,8 +4465,9 @@ MonoBehaviour:
     moveCount: 21
     cardModifierEntries: []
     backgroundSprite: {fileID: 21300000, guid: b0516fe45a62fee34a1d84d38348a106, type: 3}
-    levelBorder: {x: 5, y: 5}
-    islandsOffset: 2.5
+    islandOrientationColliders:
+    - {fileID: 1671082757}
+    - {fileID: 1549950698}
   - name: Fortress 8
     dimensions: {x: 3, y: 5}
     cardCount: 16
@@ -4331,8 +4476,9 @@ MonoBehaviour:
     moveCount: 22
     cardModifierEntries: []
     backgroundSprite: {fileID: 21300000, guid: b0516fe45a62fee34a1d84d38348a106, type: 3}
-    levelBorder: {x: 5, y: 5}
-    islandsOffset: 2.5
+    islandOrientationColliders:
+    - {fileID: 1671082757}
+    - {fileID: 1549950698}
   - name: Fortress 9
     dimensions: {x: 3, y: 5}
     cardCount: 16
@@ -4341,8 +4487,9 @@ MonoBehaviour:
     moveCount: 23
     cardModifierEntries: []
     backgroundSprite: {fileID: 21300000, guid: b0516fe45a62fee34a1d84d38348a106, type: 3}
-    levelBorder: {x: 5, y: 5}
-    islandsOffset: 2.5
+    islandOrientationColliders:
+    - {fileID: 1671082757}
+    - {fileID: 1549950698}
   - name: Fortress 10
     dimensions: {x: 3, y: 5}
     cardCount: 16
@@ -4351,8 +4498,9 @@ MonoBehaviour:
     moveCount: 24
     cardModifierEntries: []
     backgroundSprite: {fileID: 21300000, guid: b0516fe45a62fee34a1d84d38348a106, type: 3}
-    levelBorder: {x: 5, y: 5}
-    islandsOffset: 2.5
+    islandOrientationColliders:
+    - {fileID: 1671082757}
+    - {fileID: 1549950698}
   - name: Fortress 11
     dimensions: {x: 3, y: 5}
     cardCount: 16
@@ -4361,8 +4509,9 @@ MonoBehaviour:
     moveCount: 25
     cardModifierEntries: []
     backgroundSprite: {fileID: 21300000, guid: b0516fe45a62fee34a1d84d38348a106, type: 3}
-    levelBorder: {x: 5, y: 5}
-    islandsOffset: 2.5
+    islandOrientationColliders:
+    - {fileID: 1671082757}
+    - {fileID: 1549950698}
   - name: Fortress 12
     dimensions: {x: 3, y: 5}
     cardCount: 16
@@ -4371,8 +4520,9 @@ MonoBehaviour:
     moveCount: 26
     cardModifierEntries: []
     backgroundSprite: {fileID: 21300000, guid: b0516fe45a62fee34a1d84d38348a106, type: 3}
-    levelBorder: {x: 5, y: 5}
-    islandsOffset: 2.5
+    islandOrientationColliders:
+    - {fileID: 1671082757}
+    - {fileID: 1549950698}
   - name: Fortress 13
     dimensions: {x: 3, y: 5}
     cardCount: 16
@@ -4381,8 +4531,9 @@ MonoBehaviour:
     moveCount: 27
     cardModifierEntries: []
     backgroundSprite: {fileID: 21300000, guid: b0516fe45a62fee34a1d84d38348a106, type: 3}
-    levelBorder: {x: 5, y: 5}
-    islandsOffset: 2.5
+    islandOrientationColliders:
+    - {fileID: 1671082757}
+    - {fileID: 1549950698}
   - name: Fortress 14
     dimensions: {x: 3, y: 5}
     cardCount: 16
@@ -4391,8 +4542,9 @@ MonoBehaviour:
     moveCount: 28
     cardModifierEntries: []
     backgroundSprite: {fileID: 21300000, guid: b0516fe45a62fee34a1d84d38348a106, type: 3}
-    levelBorder: {x: 5, y: 5}
-    islandsOffset: 2.5
+    islandOrientationColliders:
+    - {fileID: 1671082757}
+    - {fileID: 1549950698}
   - name: Fortress 15
     dimensions: {x: 3, y: 5}
     cardCount: 16
@@ -4401,8 +4553,9 @@ MonoBehaviour:
     moveCount: 29
     cardModifierEntries: []
     backgroundSprite: {fileID: 21300000, guid: b0516fe45a62fee34a1d84d38348a106, type: 3}
-    levelBorder: {x: 5, y: 5}
-    islandsOffset: 2.5
+    islandOrientationColliders:
+    - {fileID: 1671082757}
+    - {fileID: 1549950698}
   - name: Fortress 16
     dimensions: {x: 3, y: 5}
     cardCount: 16
@@ -4411,8 +4564,9 @@ MonoBehaviour:
     moveCount: 30
     cardModifierEntries: []
     backgroundSprite: {fileID: 21300000, guid: b0516fe45a62fee34a1d84d38348a106, type: 3}
-    levelBorder: {x: 5, y: 5}
-    islandsOffset: 2.5
+    islandOrientationColliders:
+    - {fileID: 1671082757}
+    - {fileID: 1549950698}
   - name: Fortress 17
     dimensions: {x: 3, y: 5}
     cardCount: 16
@@ -4421,8 +4575,9 @@ MonoBehaviour:
     moveCount: 31
     cardModifierEntries: []
     backgroundSprite: {fileID: 21300000, guid: b0516fe45a62fee34a1d84d38348a106, type: 3}
-    levelBorder: {x: 5, y: 5}
-    islandsOffset: 2.5
+    islandOrientationColliders:
+    - {fileID: 1671082757}
+    - {fileID: 1549950698}
   - name: Fortress 18
     dimensions: {x: 3, y: 5}
     cardCount: 16
@@ -4431,8 +4586,9 @@ MonoBehaviour:
     moveCount: 32
     cardModifierEntries: []
     backgroundSprite: {fileID: 21300000, guid: b0516fe45a62fee34a1d84d38348a106, type: 3}
-    levelBorder: {x: 5, y: 5}
-    islandsOffset: 2.5
+    islandOrientationColliders:
+    - {fileID: 1671082757}
+    - {fileID: 1549950698}
   - name: Fortress 19
     dimensions: {x: 3, y: 5}
     cardCount: 16
@@ -4441,8 +4597,9 @@ MonoBehaviour:
     moveCount: 33
     cardModifierEntries: []
     backgroundSprite: {fileID: 21300000, guid: b0516fe45a62fee34a1d84d38348a106, type: 3}
-    levelBorder: {x: 5, y: 5}
-    islandsOffset: 2.5
+    islandOrientationColliders:
+    - {fileID: 1671082757}
+    - {fileID: 1549950698}
   - name: Fortress 20
     dimensions: {x: 3, y: 5}
     cardCount: 16
@@ -4451,8 +4608,9 @@ MonoBehaviour:
     moveCount: 34
     cardModifierEntries: []
     backgroundSprite: {fileID: 21300000, guid: b0516fe45a62fee34a1d84d38348a106, type: 3}
-    levelBorder: {x: 5, y: 5}
-    islandsOffset: 2.5
+    islandOrientationColliders:
+    - {fileID: 1671082757}
+    - {fileID: 1549950698}
   - name: Fortress 21
     dimensions: {x: 3, y: 5}
     cardCount: 16
@@ -4461,8 +4619,9 @@ MonoBehaviour:
     moveCount: 35
     cardModifierEntries: []
     backgroundSprite: {fileID: 21300000, guid: b0516fe45a62fee34a1d84d38348a106, type: 3}
-    levelBorder: {x: 5, y: 5}
-    islandsOffset: 2.5
+    islandOrientationColliders:
+    - {fileID: 1671082757}
+    - {fileID: 1549950698}
   - name: Fortress 22
     dimensions: {x: 3, y: 5}
     cardCount: 16
@@ -4471,8 +4630,9 @@ MonoBehaviour:
     moveCount: 36
     cardModifierEntries: []
     backgroundSprite: {fileID: 21300000, guid: b0516fe45a62fee34a1d84d38348a106, type: 3}
-    levelBorder: {x: 5, y: 5}
-    islandsOffset: 2.5
+    islandOrientationColliders:
+    - {fileID: 1671082757}
+    - {fileID: 1549950698}
   - name: Fortress 23
     dimensions: {x: 3, y: 5}
     cardCount: 16
@@ -4481,8 +4641,9 @@ MonoBehaviour:
     moveCount: 37
     cardModifierEntries: []
     backgroundSprite: {fileID: 21300000, guid: b0516fe45a62fee34a1d84d38348a106, type: 3}
-    levelBorder: {x: 5, y: 5}
-    islandsOffset: 2.5
+    islandOrientationColliders:
+    - {fileID: 1671082757}
+    - {fileID: 1549950698}
   - name: Fortress 24
     dimensions: {x: 3, y: 5}
     cardCount: 16
@@ -4491,8 +4652,9 @@ MonoBehaviour:
     moveCount: 38
     cardModifierEntries: []
     backgroundSprite: {fileID: 21300000, guid: b0516fe45a62fee34a1d84d38348a106, type: 3}
-    levelBorder: {x: 5, y: 5}
-    islandsOffset: 2.5
+    islandOrientationColliders:
+    - {fileID: 1671082757}
+    - {fileID: 1549950698}
   - name: Fortress 25
     dimensions: {x: 3, y: 5}
     cardCount: 16
@@ -4501,8 +4663,9 @@ MonoBehaviour:
     moveCount: 39
     cardModifierEntries: []
     backgroundSprite: {fileID: 21300000, guid: b0516fe45a62fee34a1d84d38348a106, type: 3}
-    levelBorder: {x: 5, y: 5}
-    islandsOffset: 2.5
+    islandOrientationColliders:
+    - {fileID: 1671082757}
+    - {fileID: 1549950698}
   levelAreaPrefab: {fileID: 226970806455820297, guid: 383306eee7858b34b9a0d7d456ce9738,
     type: 3}
   levelSeperation: 5
@@ -4520,7 +4683,11 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 1162830380}
+  - {fileID: 154954256}
+  - {fileID: 2122341232}
+  - {fileID: 1678527059}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -4713,15 +4880,15 @@ Camera:
   m_FocalLength: 50
   m_NormalizedViewPortRect:
     serializedVersion: 2
-    x: -0.621959
-    y: 0.27717543
-    width: 2.243918
-    height: 0.44564912
+    x: -0.25
+    y: 0.16666666
+    width: 1.5
+    height: 0.6666667
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 0.8437499
+  orthographic size: 2.5
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -4771,8 +4938,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: -1.5
     y: -0.28125
-    width: 5
-    height: 1.6874998
+    width: 10
+    height: 5
 --- !u!1001 &8070838706285858899
 PrefabInstance:
   m_ObjectHideFlags: 0

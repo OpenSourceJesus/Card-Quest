@@ -1129,7 +1129,7 @@ GameObject:
   - component: {fileID: 260698451707633807}
   - component: {fileID: 260698451707633805}
   m_Layer: 0
-  m_Name: Game Camera
+  m_Name: Camera
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1149,7 +1149,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   trs: {fileID: 260698451707633801}
   camera: {fileID: 260698451707633806}
-  viewSize: {x: 22, y: 11}
+  viewSize: {x: 19.2, y: 10.8}
   viewRect:
     serializedVersion: 2
     x: 0

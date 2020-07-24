@@ -50,6 +50,11 @@ namespace MatchingCardGame
 			// HandleViewSize ();
 		}
 
+		public virtual void OnValidate ()
+		{
+			HandleViewSize ();
+		}
+
 		public virtual void OnDestroy ()
 		{
 			if (Application.isPlaying)

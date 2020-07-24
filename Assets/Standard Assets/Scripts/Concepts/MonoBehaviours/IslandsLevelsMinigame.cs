@@ -45,9 +45,6 @@ namespace MatchingCardGame
 					IslandsLevelEntry islandsLevelEntry = new IslandsLevelEntry(levelZone.firstLevelEntry);
 					islandsLevelEntry.moveCount += levelIndex;
 					islandsLevelEntry.name += " " + (levelIndex + 1);
-					islandsLevelEntry.levelBorder = levelZone.firstLevelEntry.levelBorder;
-					islandsLevelEntry.islandsOffset = levelZone.firstLevelEntry.islandsOffset;
-					islandsLevelEntry.backgroundSprite = levelZone.firstLevelEntry.backgroundSprite;
 					_islandsLevelEntries.Add(islandsLevelEntry);
 				}
 			}
@@ -174,34 +171,16 @@ namespace MatchingCardGame
 			foreach (CardSlot cardSlot in cardSlots)
 				cardSlotRects.Add(cardSlot.spriteRenderer.bounds.ToRect());
 			backgroundImage.enabled = false;
-			SetViewRect (RectExtensions.Combine(cardSlotRects.ToArray()));
 		}
 
 		void GoToLevel (int levelIndex)
 		{
 			IslandsLevel level = islandsLevels[levelIndex];
+			level.enabled = true;
 			IslandsLevelEntry levelEntry = islandsLevelEntries[levelIndex];
 			backgroundImage.sprite = levelEntry.backgroundSprite;
 			backgroundImage.enabled = true;
-			List<Rect> cardSlotRects = new List<Rect>();
-			foreach (CardGroup cardGroup in level.cardGroups)
-			{
-				Island island = (Island) cardGroup;
-				foreach (CardSlot cardSlot in island.cardSlots)
-					cardSlotRects.Add(cardSlot.spriteRenderer.bounds.ToRect());
-			}
 			levelNameText.text.text = level.name;
-			Rect rect = RectExtensions.Combine(cardSlotRects.ToArray());
-			rect = rect.Expand(levelEntry.levelBorder);
-			SetViewRect (rect);
-		}
-
-		void SetViewRect (Rect rect)
-		{
-			GameManager.GetSingleton<CameraScript>().viewRect = rect;
-			GameManager.GetSingleton<CameraScript>().trs.position = GameManager.GetSingleton<CameraScript>().viewRect.center.SetZ(GameManager.GetSingleton<CameraScript>().trs.position.z);
-			GameManager.GetSingleton<CameraScript>().viewSize = GameManager.GetSingleton<CameraScript>().viewRect.size;
-			GameManager.GetSingleton<CameraScript>().HandleViewSize ();
 		}
 
 		void OnDestroy ()
@@ -220,8 +199,7 @@ namespace MatchingCardGame
 			public int moveCount = 1;
 			public IslandsLevel.CardModifierEntry[] cardModifierEntries = new IslandsLevel.CardModifierEntry[0];
 			public Sprite backgroundSprite;
-			public Vector2 levelBorder;
-			public float islandsOffset;
+			public BoxCollider2D[] islandOrientationColliders = new BoxCollider2D[0];
 
 			public IslandsLevelEntry (IslandsLevelEntry islandsLevelEntry)
 			{
@@ -230,6 +208,8 @@ namespace MatchingCardGame
 				cardCount = islandsLevelEntry.cardCount;
 				cardTypeCount = islandsLevelEntry.cardTypeCount;
 				moveCount = islandsLevelEntry.moveCount;
+				backgroundSprite = islandsLevelEntry.backgroundSprite;
+				islandOrientationColliders = islandsLevelEntry.islandOrientationColliders;
 				islandsLevelEntry.cardModifierEntries.CopyTo(cardModifierEntries, 0);
 			}
 
@@ -238,10 +218,22 @@ namespace MatchingCardGame
 				IslandsLevel level = IslandsLevel.MakeLevel(dimensions, cardCount, cardTypeCount, islandCount, moveCount, cardModifierEntries);
 				if (level != null)
 				{
-					foreach (CardGroup cardGroup in level.cardGroups)
+					level.enabled = false;
+					for (int i = 0; i < level.cardGroups.Length; i ++)
 					{
+						CardGroup cardGroup = level.cardGroups[i];
 						Island island = (Island) cardGroup;
-						island.trs.position = island.trs.position.normalized * (island.trs.position.magnitude + islandsOffset);
+						Collider2D islandOrientationCollider = islandOrientationColliders[i]; 
+						Vector2 islandSize = islandOrientationCollider.GetSize().Divide(dimensions.Multiply(IslandsLevel.cardSize));
+						if (islandSize.x > islandSize.y)
+							islandSize.x = islandSize.y;
+						else
+							islandSize.y = islandSize.x;
+						Vector2 islandPosition = islandOrientationCollider.GetCenter() - islandSize / 2;
+						island.trs.position = islandPosition;
+						island.trs.localScale = islandSize;
+						level.selectedCardIndicatorTrs.localScale = islandSize;
+						level.highlightedCardIndicatorTrs.localScale = islandSize;
 					}
 				}
 				return level;
