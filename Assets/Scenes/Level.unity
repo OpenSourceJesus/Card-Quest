@@ -4347,7 +4347,7 @@ MonoBehaviour:
       islandOrientationColliders:
       - {fileID: 2087640662}
       - {fileID: 1969229513}
-    levelCount: 0
+    levelCount: 10
   - firstLevelEntry:
       name: Urban
       dimensions: {x: 3, y: 3}
@@ -4361,7 +4361,7 @@ MonoBehaviour:
       islandOrientationColliders:
       - {fileID: 403737355}
       - {fileID: 1472353585}
-    levelCount: 0
+    levelCount: 15
   - firstLevelEntry:
       name: Desert
       dimensions: {x: 3, y: 4}
@@ -4375,7 +4375,7 @@ MonoBehaviour:
       islandOrientationColliders:
       - {fileID: 1768622138}
       - {fileID: 1708259221}
-    levelCount: 0
+    levelCount: 20
   - firstLevelEntry:
       name: Fortress
       dimensions: {x: 3, y: 5}
@@ -4391,6 +4391,501 @@ MonoBehaviour:
       - {fileID: 1549950698}
     levelCount: 25
   islandsLevelEntries:
+  - name: Beach 1
+    dimensions: {x: 2, y: 3}
+    cardCount: 4
+    cardTypeCount: 1
+    islandCount: 2
+    moveCount: 1
+    cardModifierEntries: []
+    backgroundSprite: {fileID: 21300000, guid: 90e57e9332b4032f884160338ad12ed4, type: 3}
+    islandOrientationColliders:
+    - {fileID: 2087640662}
+    - {fileID: 1969229513}
+  - name: Beach 2
+    dimensions: {x: 2, y: 3}
+    cardCount: 4
+    cardTypeCount: 1
+    islandCount: 2
+    moveCount: 2
+    cardModifierEntries: []
+    backgroundSprite: {fileID: 21300000, guid: 90e57e9332b4032f884160338ad12ed4, type: 3}
+    islandOrientationColliders:
+    - {fileID: 2087640662}
+    - {fileID: 1969229513}
+  - name: Beach 3
+    dimensions: {x: 2, y: 3}
+    cardCount: 4
+    cardTypeCount: 1
+    islandCount: 2
+    moveCount: 3
+    cardModifierEntries: []
+    backgroundSprite: {fileID: 21300000, guid: 90e57e9332b4032f884160338ad12ed4, type: 3}
+    islandOrientationColliders:
+    - {fileID: 2087640662}
+    - {fileID: 1969229513}
+  - name: Beach 4
+    dimensions: {x: 2, y: 3}
+    cardCount: 4
+    cardTypeCount: 1
+    islandCount: 2
+    moveCount: 4
+    cardModifierEntries: []
+    backgroundSprite: {fileID: 21300000, guid: 90e57e9332b4032f884160338ad12ed4, type: 3}
+    islandOrientationColliders:
+    - {fileID: 2087640662}
+    - {fileID: 1969229513}
+  - name: Beach 5
+    dimensions: {x: 2, y: 3}
+    cardCount: 4
+    cardTypeCount: 1
+    islandCount: 2
+    moveCount: 5
+    cardModifierEntries: []
+    backgroundSprite: {fileID: 21300000, guid: 90e57e9332b4032f884160338ad12ed4, type: 3}
+    islandOrientationColliders:
+    - {fileID: 2087640662}
+    - {fileID: 1969229513}
+  - name: Beach 6
+    dimensions: {x: 2, y: 3}
+    cardCount: 4
+    cardTypeCount: 1
+    islandCount: 2
+    moveCount: 6
+    cardModifierEntries: []
+    backgroundSprite: {fileID: 21300000, guid: 90e57e9332b4032f884160338ad12ed4, type: 3}
+    islandOrientationColliders:
+    - {fileID: 2087640662}
+    - {fileID: 1969229513}
+  - name: Beach 7
+    dimensions: {x: 2, y: 3}
+    cardCount: 4
+    cardTypeCount: 1
+    islandCount: 2
+    moveCount: 7
+    cardModifierEntries: []
+    backgroundSprite: {fileID: 21300000, guid: 90e57e9332b4032f884160338ad12ed4, type: 3}
+    islandOrientationColliders:
+    - {fileID: 2087640662}
+    - {fileID: 1969229513}
+  - name: Beach 8
+    dimensions: {x: 2, y: 3}
+    cardCount: 4
+    cardTypeCount: 1
+    islandCount: 2
+    moveCount: 8
+    cardModifierEntries: []
+    backgroundSprite: {fileID: 21300000, guid: 90e57e9332b4032f884160338ad12ed4, type: 3}
+    islandOrientationColliders:
+    - {fileID: 2087640662}
+    - {fileID: 1969229513}
+  - name: Beach 9
+    dimensions: {x: 2, y: 3}
+    cardCount: 4
+    cardTypeCount: 1
+    islandCount: 2
+    moveCount: 9
+    cardModifierEntries: []
+    backgroundSprite: {fileID: 21300000, guid: 90e57e9332b4032f884160338ad12ed4, type: 3}
+    islandOrientationColliders:
+    - {fileID: 2087640662}
+    - {fileID: 1969229513}
+  - name: Beach 10
+    dimensions: {x: 2, y: 3}
+    cardCount: 4
+    cardTypeCount: 1
+    islandCount: 2
+    moveCount: 10
+    cardModifierEntries: []
+    backgroundSprite: {fileID: 21300000, guid: 90e57e9332b4032f884160338ad12ed4, type: 3}
+    islandOrientationColliders:
+    - {fileID: 2087640662}
+    - {fileID: 1969229513}
+  - name: Urban 1
+    dimensions: {x: 3, y: 3}
+    cardCount: 6
+    cardTypeCount: 1
+    islandCount: 2
+    moveCount: 5
+    cardModifierEntries: []
+    backgroundSprite: {fileID: 21300000, guid: 35e0b3c51869f1fb7a64476e09856007, type: 3}
+    islandOrientationColliders:
+    - {fileID: 403737355}
+    - {fileID: 1472353585}
+  - name: Urban 2
+    dimensions: {x: 3, y: 3}
+    cardCount: 6
+    cardTypeCount: 1
+    islandCount: 2
+    moveCount: 6
+    cardModifierEntries: []
+    backgroundSprite: {fileID: 21300000, guid: 35e0b3c51869f1fb7a64476e09856007, type: 3}
+    islandOrientationColliders:
+    - {fileID: 403737355}
+    - {fileID: 1472353585}
+  - name: Urban 3
+    dimensions: {x: 3, y: 3}
+    cardCount: 6
+    cardTypeCount: 1
+    islandCount: 2
+    moveCount: 7
+    cardModifierEntries: []
+    backgroundSprite: {fileID: 21300000, guid: 35e0b3c51869f1fb7a64476e09856007, type: 3}
+    islandOrientationColliders:
+    - {fileID: 403737355}
+    - {fileID: 1472353585}
+  - name: Urban 4
+    dimensions: {x: 3, y: 3}
+    cardCount: 6
+    cardTypeCount: 1
+    islandCount: 2
+    moveCount: 8
+    cardModifierEntries: []
+    backgroundSprite: {fileID: 21300000, guid: 35e0b3c51869f1fb7a64476e09856007, type: 3}
+    islandOrientationColliders:
+    - {fileID: 403737355}
+    - {fileID: 1472353585}
+  - name: Urban 5
+    dimensions: {x: 3, y: 3}
+    cardCount: 6
+    cardTypeCount: 1
+    islandCount: 2
+    moveCount: 9
+    cardModifierEntries: []
+    backgroundSprite: {fileID: 21300000, guid: 35e0b3c51869f1fb7a64476e09856007, type: 3}
+    islandOrientationColliders:
+    - {fileID: 403737355}
+    - {fileID: 1472353585}
+  - name: Urban 6
+    dimensions: {x: 3, y: 3}
+    cardCount: 6
+    cardTypeCount: 1
+    islandCount: 2
+    moveCount: 10
+    cardModifierEntries: []
+    backgroundSprite: {fileID: 21300000, guid: 35e0b3c51869f1fb7a64476e09856007, type: 3}
+    islandOrientationColliders:
+    - {fileID: 403737355}
+    - {fileID: 1472353585}
+  - name: Urban 7
+    dimensions: {x: 3, y: 3}
+    cardCount: 6
+    cardTypeCount: 1
+    islandCount: 2
+    moveCount: 11
+    cardModifierEntries: []
+    backgroundSprite: {fileID: 21300000, guid: 35e0b3c51869f1fb7a64476e09856007, type: 3}
+    islandOrientationColliders:
+    - {fileID: 403737355}
+    - {fileID: 1472353585}
+  - name: Urban 8
+    dimensions: {x: 3, y: 3}
+    cardCount: 6
+    cardTypeCount: 1
+    islandCount: 2
+    moveCount: 12
+    cardModifierEntries: []
+    backgroundSprite: {fileID: 21300000, guid: 35e0b3c51869f1fb7a64476e09856007, type: 3}
+    islandOrientationColliders:
+    - {fileID: 403737355}
+    - {fileID: 1472353585}
+  - name: Urban 9
+    dimensions: {x: 3, y: 3}
+    cardCount: 6
+    cardTypeCount: 1
+    islandCount: 2
+    moveCount: 13
+    cardModifierEntries: []
+    backgroundSprite: {fileID: 21300000, guid: 35e0b3c51869f1fb7a64476e09856007, type: 3}
+    islandOrientationColliders:
+    - {fileID: 403737355}
+    - {fileID: 1472353585}
+  - name: Urban 10
+    dimensions: {x: 3, y: 3}
+    cardCount: 6
+    cardTypeCount: 1
+    islandCount: 2
+    moveCount: 14
+    cardModifierEntries: []
+    backgroundSprite: {fileID: 21300000, guid: 35e0b3c51869f1fb7a64476e09856007, type: 3}
+    islandOrientationColliders:
+    - {fileID: 403737355}
+    - {fileID: 1472353585}
+  - name: Urban 11
+    dimensions: {x: 3, y: 3}
+    cardCount: 6
+    cardTypeCount: 1
+    islandCount: 2
+    moveCount: 15
+    cardModifierEntries: []
+    backgroundSprite: {fileID: 21300000, guid: 35e0b3c51869f1fb7a64476e09856007, type: 3}
+    islandOrientationColliders:
+    - {fileID: 403737355}
+    - {fileID: 1472353585}
+  - name: Urban 12
+    dimensions: {x: 3, y: 3}
+    cardCount: 6
+    cardTypeCount: 1
+    islandCount: 2
+    moveCount: 16
+    cardModifierEntries: []
+    backgroundSprite: {fileID: 21300000, guid: 35e0b3c51869f1fb7a64476e09856007, type: 3}
+    islandOrientationColliders:
+    - {fileID: 403737355}
+    - {fileID: 1472353585}
+  - name: Urban 13
+    dimensions: {x: 3, y: 3}
+    cardCount: 6
+    cardTypeCount: 1
+    islandCount: 2
+    moveCount: 17
+    cardModifierEntries: []
+    backgroundSprite: {fileID: 21300000, guid: 35e0b3c51869f1fb7a64476e09856007, type: 3}
+    islandOrientationColliders:
+    - {fileID: 403737355}
+    - {fileID: 1472353585}
+  - name: Urban 14
+    dimensions: {x: 3, y: 3}
+    cardCount: 6
+    cardTypeCount: 1
+    islandCount: 2
+    moveCount: 18
+    cardModifierEntries: []
+    backgroundSprite: {fileID: 21300000, guid: 35e0b3c51869f1fb7a64476e09856007, type: 3}
+    islandOrientationColliders:
+    - {fileID: 403737355}
+    - {fileID: 1472353585}
+  - name: Urban 15
+    dimensions: {x: 3, y: 3}
+    cardCount: 6
+    cardTypeCount: 1
+    islandCount: 2
+    moveCount: 19
+    cardModifierEntries: []
+    backgroundSprite: {fileID: 21300000, guid: 35e0b3c51869f1fb7a64476e09856007, type: 3}
+    islandOrientationColliders:
+    - {fileID: 403737355}
+    - {fileID: 1472353585}
+  - name: Desert 1
+    dimensions: {x: 3, y: 4}
+    cardCount: 12
+    cardTypeCount: 2
+    islandCount: 2
+    moveCount: 10
+    cardModifierEntries: []
+    backgroundSprite: {fileID: 21300000, guid: d7b9abe910c5729d0b57f92af9e10161, type: 3}
+    islandOrientationColliders:
+    - {fileID: 1768622138}
+    - {fileID: 1708259221}
+  - name: Desert 2
+    dimensions: {x: 3, y: 4}
+    cardCount: 12
+    cardTypeCount: 2
+    islandCount: 2
+    moveCount: 11
+    cardModifierEntries: []
+    backgroundSprite: {fileID: 21300000, guid: d7b9abe910c5729d0b57f92af9e10161, type: 3}
+    islandOrientationColliders:
+    - {fileID: 1768622138}
+    - {fileID: 1708259221}
+  - name: Desert 3
+    dimensions: {x: 3, y: 4}
+    cardCount: 12
+    cardTypeCount: 2
+    islandCount: 2
+    moveCount: 12
+    cardModifierEntries: []
+    backgroundSprite: {fileID: 21300000, guid: d7b9abe910c5729d0b57f92af9e10161, type: 3}
+    islandOrientationColliders:
+    - {fileID: 1768622138}
+    - {fileID: 1708259221}
+  - name: Desert 4
+    dimensions: {x: 3, y: 4}
+    cardCount: 12
+    cardTypeCount: 2
+    islandCount: 2
+    moveCount: 13
+    cardModifierEntries: []
+    backgroundSprite: {fileID: 21300000, guid: d7b9abe910c5729d0b57f92af9e10161, type: 3}
+    islandOrientationColliders:
+    - {fileID: 1768622138}
+    - {fileID: 1708259221}
+  - name: Desert 5
+    dimensions: {x: 3, y: 4}
+    cardCount: 12
+    cardTypeCount: 2
+    islandCount: 2
+    moveCount: 14
+    cardModifierEntries: []
+    backgroundSprite: {fileID: 21300000, guid: d7b9abe910c5729d0b57f92af9e10161, type: 3}
+    islandOrientationColliders:
+    - {fileID: 1768622138}
+    - {fileID: 1708259221}
+  - name: Desert 6
+    dimensions: {x: 3, y: 4}
+    cardCount: 12
+    cardTypeCount: 2
+    islandCount: 2
+    moveCount: 15
+    cardModifierEntries: []
+    backgroundSprite: {fileID: 21300000, guid: d7b9abe910c5729d0b57f92af9e10161, type: 3}
+    islandOrientationColliders:
+    - {fileID: 1768622138}
+    - {fileID: 1708259221}
+  - name: Desert 7
+    dimensions: {x: 3, y: 4}
+    cardCount: 12
+    cardTypeCount: 2
+    islandCount: 2
+    moveCount: 16
+    cardModifierEntries: []
+    backgroundSprite: {fileID: 21300000, guid: d7b9abe910c5729d0b57f92af9e10161, type: 3}
+    islandOrientationColliders:
+    - {fileID: 1768622138}
+    - {fileID: 1708259221}
+  - name: Desert 8
+    dimensions: {x: 3, y: 4}
+    cardCount: 12
+    cardTypeCount: 2
+    islandCount: 2
+    moveCount: 17
+    cardModifierEntries: []
+    backgroundSprite: {fileID: 21300000, guid: d7b9abe910c5729d0b57f92af9e10161, type: 3}
+    islandOrientationColliders:
+    - {fileID: 1768622138}
+    - {fileID: 1708259221}
+  - name: Desert 9
+    dimensions: {x: 3, y: 4}
+    cardCount: 12
+    cardTypeCount: 2
+    islandCount: 2
+    moveCount: 18
+    cardModifierEntries: []
+    backgroundSprite: {fileID: 21300000, guid: d7b9abe910c5729d0b57f92af9e10161, type: 3}
+    islandOrientationColliders:
+    - {fileID: 1768622138}
+    - {fileID: 1708259221}
+  - name: Desert 10
+    dimensions: {x: 3, y: 4}
+    cardCount: 12
+    cardTypeCount: 2
+    islandCount: 2
+    moveCount: 19
+    cardModifierEntries: []
+    backgroundSprite: {fileID: 21300000, guid: d7b9abe910c5729d0b57f92af9e10161, type: 3}
+    islandOrientationColliders:
+    - {fileID: 1768622138}
+    - {fileID: 1708259221}
+  - name: Desert 11
+    dimensions: {x: 3, y: 4}
+    cardCount: 12
+    cardTypeCount: 2
+    islandCount: 2
+    moveCount: 20
+    cardModifierEntries: []
+    backgroundSprite: {fileID: 21300000, guid: d7b9abe910c5729d0b57f92af9e10161, type: 3}
+    islandOrientationColliders:
+    - {fileID: 1768622138}
+    - {fileID: 1708259221}
+  - name: Desert 12
+    dimensions: {x: 3, y: 4}
+    cardCount: 12
+    cardTypeCount: 2
+    islandCount: 2
+    moveCount: 21
+    cardModifierEntries: []
+    backgroundSprite: {fileID: 21300000, guid: d7b9abe910c5729d0b57f92af9e10161, type: 3}
+    islandOrientationColliders:
+    - {fileID: 1768622138}
+    - {fileID: 1708259221}
+  - name: Desert 13
+    dimensions: {x: 3, y: 4}
+    cardCount: 12
+    cardTypeCount: 2
+    islandCount: 2
+    moveCount: 22
+    cardModifierEntries: []
+    backgroundSprite: {fileID: 21300000, guid: d7b9abe910c5729d0b57f92af9e10161, type: 3}
+    islandOrientationColliders:
+    - {fileID: 1768622138}
+    - {fileID: 1708259221}
+  - name: Desert 14
+    dimensions: {x: 3, y: 4}
+    cardCount: 12
+    cardTypeCount: 2
+    islandCount: 2
+    moveCount: 23
+    cardModifierEntries: []
+    backgroundSprite: {fileID: 21300000, guid: d7b9abe910c5729d0b57f92af9e10161, type: 3}
+    islandOrientationColliders:
+    - {fileID: 1768622138}
+    - {fileID: 1708259221}
+  - name: Desert 15
+    dimensions: {x: 3, y: 4}
+    cardCount: 12
+    cardTypeCount: 2
+    islandCount: 2
+    moveCount: 24
+    cardModifierEntries: []
+    backgroundSprite: {fileID: 21300000, guid: d7b9abe910c5729d0b57f92af9e10161, type: 3}
+    islandOrientationColliders:
+    - {fileID: 1768622138}
+    - {fileID: 1708259221}
+  - name: Desert 16
+    dimensions: {x: 3, y: 4}
+    cardCount: 12
+    cardTypeCount: 2
+    islandCount: 2
+    moveCount: 25
+    cardModifierEntries: []
+    backgroundSprite: {fileID: 21300000, guid: d7b9abe910c5729d0b57f92af9e10161, type: 3}
+    islandOrientationColliders:
+    - {fileID: 1768622138}
+    - {fileID: 1708259221}
+  - name: Desert 17
+    dimensions: {x: 3, y: 4}
+    cardCount: 12
+    cardTypeCount: 2
+    islandCount: 2
+    moveCount: 26
+    cardModifierEntries: []
+    backgroundSprite: {fileID: 21300000, guid: d7b9abe910c5729d0b57f92af9e10161, type: 3}
+    islandOrientationColliders:
+    - {fileID: 1768622138}
+    - {fileID: 1708259221}
+  - name: Desert 18
+    dimensions: {x: 3, y: 4}
+    cardCount: 12
+    cardTypeCount: 2
+    islandCount: 2
+    moveCount: 27
+    cardModifierEntries: []
+    backgroundSprite: {fileID: 21300000, guid: d7b9abe910c5729d0b57f92af9e10161, type: 3}
+    islandOrientationColliders:
+    - {fileID: 1768622138}
+    - {fileID: 1708259221}
+  - name: Desert 19
+    dimensions: {x: 3, y: 4}
+    cardCount: 12
+    cardTypeCount: 2
+    islandCount: 2
+    moveCount: 28
+    cardModifierEntries: []
+    backgroundSprite: {fileID: 21300000, guid: d7b9abe910c5729d0b57f92af9e10161, type: 3}
+    islandOrientationColliders:
+    - {fileID: 1768622138}
+    - {fileID: 1708259221}
+  - name: Desert 20
+    dimensions: {x: 3, y: 4}
+    cardCount: 12
+    cardTypeCount: 2
+    islandCount: 2
+    moveCount: 29
+    cardModifierEntries: []
+    backgroundSprite: {fileID: 21300000, guid: d7b9abe910c5729d0b57f92af9e10161, type: 3}
+    islandOrientationColliders:
+    - {fileID: 1768622138}
+    - {fileID: 1708259221}
   - name: Fortress 1
     dimensions: {x: 3, y: 5}
     cardCount: 16
