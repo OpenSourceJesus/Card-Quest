@@ -397,14 +397,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5dc3524a02ec4e991947129aeac9da5d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  islandsLevelsData: {fileID: 11400000, guid: 31290e9d5b7379a41a60022024dbd6ff, type: 2}
   zones:
-  - lineRenderer: {fileID: 1199103269}
+  - trs: {fileID: 1199103268}
+    lineRenderer: {fileID: 1199103269}
     polygonCollider: {fileID: 1199103267}
-  - lineRenderer: {fileID: 309726449}
+  - trs: {fileID: 309726448}
+    lineRenderer: {fileID: 309726449}
     polygonCollider: {fileID: 309726451}
-  - lineRenderer: {fileID: 615116468}
+  - trs: {fileID: 615116470}
+    lineRenderer: {fileID: 615116468}
     polygonCollider: {fileID: 615116469}
-  - lineRenderer: {fileID: 1246716860}
+  - trs: {fileID: 1246716862}
+    lineRenderer: {fileID: 1246716860}
     polygonCollider: {fileID: 1246716861}
 --- !u!1 &615116467
 GameObject:
@@ -1154,8 +1159,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 0
-    height: 0
+    width: 19.2
+    height: 10.8
 --- !u!20 &260698451707633806
 Camera:
   m_ObjectHideFlags: 0
@@ -1175,15 +1180,15 @@ Camera:
   m_FocalLength: 50
   m_NormalizedViewPortRect:
     serializedVersion: 2
-    x: 0
-    y: 0
-    width: 1
-    height: 1
+    x: -2.0748394
+    y: 0.40290657
+    width: 5.1496787
+    height: 0.19418687
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 5.4
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
