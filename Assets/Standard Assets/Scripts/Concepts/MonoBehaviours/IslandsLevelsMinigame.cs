@@ -38,8 +38,8 @@ namespace MatchingCardGame
 		void OnEnable ()
 		{
 #if UNITY_EDITOR
-			// if (!Application.isPlaying)
-			// {
+			if (!Application.isPlaying)
+			{
 				List<IslandsLevelEntry> _islandsLevelEntries = new List<IslandsLevelEntry>();
 				foreach (IslandsLevelZone levelZone in islandsLevelsData.levelZones)
 				{
@@ -60,7 +60,7 @@ namespace MatchingCardGame
 				}
 				islandsLevelsData.islandsLevelEntries = _islandsLevelEntries.ToArray();
 				return;
-			// }
+			}
 #endif
 			GameManager.updatables = GameManager.updatables.Add(this);
 		}
