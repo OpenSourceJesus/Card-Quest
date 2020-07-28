@@ -1,7 +1,6 @@
 using UnityEngine;
 using Extensions;
 using System.Collections.Generic;
-using System;
 using System.Collections;
 using UnityEngine.UI;
 using IslandsLevelEntry = MatchingCardGame.IslandsLevelsData.IslandsLevelEntry;
@@ -10,22 +9,23 @@ using IslandsLevelZone = MatchingCardGame.IslandsLevelsData.IslandsLevelZone;
 namespace MatchingCardGame
 {
 	[ExecuteInEditMode]
-	public class IslandsLevelsMinigame : MonoBehaviour//, IUpdatable
+	public class IslandsLevelsMinigame : MonoBehaviour, IUpdatable
 	{
-		// public bool PauseWhileUnfocused
-		// {
-		// 	get
-		// 	{
-		// 		return true;
-		// 	}
-		// }
+		public bool PauseWhileUnfocused
+		{
+			get
+			{
+				return true;
+			}
+		}
 		public static int startingLevelIndex = 0;
 		public IslandsLevelsData islandsLevelsData;
 		public Transform levelAreaPrefab;
 		public float levelSeperation;
 		public Button nextLevelButton;
-		public _Text movesText;
 		public _Text levelNameText;
+		public _Text timeText;
+		public _Text movesText;
 		public Image backgroundImage;
 		IslandsLevel[] islandsLevels = new IslandsLevel[0];
 		Rect previousIslandsLevelBoundsRect = RectExtensions.NULL;
@@ -33,33 +33,37 @@ namespace MatchingCardGame
 		int currentLevelIndex = -1;
 		int latestLevelIndex = 0;
 		int lastCompletedLevel = -1;
+		float levelStartTime;
 
-#if UNITY_EDITOR
 		void OnEnable ()
 		{
-			if (Application.isPlaying)
-				return;
-			List<IslandsLevelEntry> _islandsLevelEntries = new List<IslandsLevelEntry>();
-			foreach (IslandsLevelZone levelZone in islandsLevelsData.levelZones)
+#if UNITY_EDITOR
+			if (!Application.isPlaying)
 			{
-				if (levelZone.firstLevelEntry.islandOrientationColliders.Length > 0)
+				List<IslandsLevelEntry> _islandsLevelEntries = new List<IslandsLevelEntry>();
+				foreach (IslandsLevelZone levelZone in islandsLevelsData.levelZones)
 				{
-					levelZone.firstLevelEntry.islandRects = new Rect[levelZone.firstLevelEntry.islandOrientationColliders.Length];
-					for (int i = 0; i < levelZone.firstLevelEntry.islandOrientationColliders.Length; i ++)
-						levelZone.firstLevelEntry.islandRects[i] = levelZone.firstLevelEntry.islandOrientationColliders[i].GetRect();
-					levelZone.firstLevelEntry.islandOrientationColliders = new BoxCollider2D[0];
+					if (levelZone.firstLevelEntry.islandOrientationColliders.Length > 0)
+					{
+						levelZone.firstLevelEntry.islandRects = new Rect[levelZone.firstLevelEntry.islandOrientationColliders.Length];
+						for (int i = 0; i < levelZone.firstLevelEntry.islandOrientationColliders.Length; i ++)
+							levelZone.firstLevelEntry.islandRects[i] = levelZone.firstLevelEntry.islandOrientationColliders[i].GetRect();
+						levelZone.firstLevelEntry.islandOrientationColliders = new BoxCollider2D[0];
+					}
+					for (int levelIndex = 0; levelIndex < levelZone.levelCount; levelIndex ++)
+					{
+						IslandsLevelEntry islandsLevelEntry = new IslandsLevelEntry(levelZone.firstLevelEntry);
+						islandsLevelEntry.moveCount += levelIndex;
+						islandsLevelEntry.name += " " + (levelIndex + 1);
+						_islandsLevelEntries.Add(islandsLevelEntry);
+					}
 				}
-				for (int levelIndex = 0; levelIndex < levelZone.levelCount; levelIndex ++)
-				{
-					IslandsLevelEntry islandsLevelEntry = new IslandsLevelEntry(levelZone.firstLevelEntry);
-					islandsLevelEntry.moveCount += levelIndex;
-					islandsLevelEntry.name += " " + (levelIndex + 1);
-					_islandsLevelEntries.Add(islandsLevelEntry);
-				}
+				islandsLevelsData.islandsLevelEntries = _islandsLevelEntries.ToArray();
+				return;
 			}
-			islandsLevelsData.islandsLevelEntries = _islandsLevelEntries.ToArray();
-		}
 #endif
+			GameManager.updatables = GameManager.updatables.Add(this);
+		}
 
 		IEnumerator Start ()
 		{
@@ -74,11 +78,11 @@ namespace MatchingCardGame
 			yield return StartCoroutine(MakeNextLevelRoutine (islandsLevelsData.islandsLevelEntries[startingLevelIndex]));
 			GoToNextLevel ();
 			StartCoroutine(MakeLevelsRoutine ());
-			// GameManager.updatables = GameManager.updatables.Add(this);
 		}
 
-		// public void DoUpdate ()
-		// {
+		public void DoUpdate ()
+		{
+			timeText.text.text = (Time.timeSinceLevelLoad - levelStartTime).ToString("F1");
 		// 	if (Input.GetKeyDown(KeyCode.R))
 		// 		GameManager.GetSingleton<GameManager>().ReloadActiveScene ();
 		// 	else if (Input.GetKeyDown(KeyCode.LeftArrow))
@@ -99,7 +103,7 @@ namespace MatchingCardGame
 		// 		ShowAllLevels ();
 		// 	else if (Input.GetKeyDown(KeyCode.DownArrow))
 		// 		GoToLevel (currentLevelIndex);
-		// }
+		}
 
 		public void GoToNextLevel ()
 		{
@@ -175,14 +179,24 @@ namespace MatchingCardGame
 			return false;
 		}
 
-		// void ShowAllLevels ()
-		// {
-		// 	CardSlot[] cardSlots = FindObjectsOfType<CardSlot>();
-		// 	List<Rect> cardSlotRects = new List<Rect>();
-		// 	foreach (CardSlot cardSlot in cardSlots)
-		// 		cardSlotRects.Add(cardSlot.spriteRenderer.bounds.ToRect());
-		// 	backgroundImage.enabled = false;
-		// }
+		void ShowLevel (int levelIndex)
+		{
+			ShowLevel (islandsLevels[levelIndex]);
+		}
+
+		void ShowLevel (IslandsLevel islandsLevel)
+		{
+			List<Rect> cardSlotRects = new List<Rect>();
+			foreach (CardGroup cardGroup in islandsLevel.cardGroups)
+			{
+				Island island = (Island) cardGroup;
+				foreach (CardSlot cardSlot in island.cardSlots)
+					cardSlotRects.Add(cardSlot.spriteRenderer.bounds.ToRect());
+			}
+			Rect viewRect = RectExtensions.Combine(cardSlotRects.ToArray());
+			GameManager.GetSingleton<CameraScript>().trs.position = viewRect.center.SetZ(GameManager.GetSingleton<CameraScript>().trs.position.z);
+			GameManager.GetSingleton<CameraScript>().viewSize = viewRect.size;
+		}
 
 		void GoToLevel (int levelIndex)
 		{
@@ -191,13 +205,22 @@ namespace MatchingCardGame
 			IslandsLevelEntry levelEntry = islandsLevelsData.islandsLevelEntries[levelIndex];
 			backgroundImage.sprite = levelEntry.backgroundSprite;
 			backgroundImage.enabled = true;
-			movesText.text.text = "Moves Taken: 0";
+			movesText.text.text = "0";
 			levelNameText.text.text = level.name;
+			levelStartTime = Time.timeSinceLevelLoad;
+			ShowLevel (level);
+			enabled = true;
 		}
 
-		// void OnDisable ()
-		// {
-		// 	GameManager.updatables = GameManager.updatables.Remove(this);
-		// }
+		void OnDisable ()
+		{
+			GameManager.updatables = GameManager.updatables.Remove(this);
+		}
+
+		public void OnLevelComplete ()
+		{
+			enabled = false;
+			nextLevelButton.gameObject.SetActive(true);
+		}
 	}
 }

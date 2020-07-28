@@ -39,6 +39,8 @@
 		<type fullname="UnityEngine.CanvasRenderer" preserve="nothing"/>
 		<type fullname="UnityEngine.AudioClip" preserve="nothing"/>
 		<type fullname="UnityEngine.RenderSettings" preserve="nothing"/>
+		<type fullname="UnityEngine.LineRenderer" preserve="nothing"/>
+		<type fullname="UnityEngine.PolygonCollider2D" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="Assembly-CSharp-firstpass">
 		<type fullname="GridBrush" preserve="nothing"/>
@@ -49,10 +51,12 @@
 		<type fullname="MatchingCardGame.HollowBrush" preserve="nothing"/>
 		<type fullname="MatchingCardGame.Island" preserve="nothing"/>
 		<type fullname="MatchingCardGame.IslandsLevel" preserve="nothing"/>
+		<type fullname="MatchingCardGame.IslandsLevelsData" preserve="nothing"/>
 		<type fullname="MatchingCardGame.IslandsLevelsMinigame" preserve="nothing"/>
 		<type fullname="MatchingCardGame.LineBrush" preserve="nothing"/>
 		<type fullname="MatchingCardGame.MirrorBrush" preserve="nothing"/>
 		<type fullname="MatchingCardGame.SaveAndLoadManager" preserve="nothing"/>
+		<type fullname="MatchingCardGame.WorldMap" preserve="nothing"/>
 		<type fullname="MatchingCardGame._Text" preserve="nothing"/>
 		<type fullname="SnapPosition" preserve="nothing"/>
 	</assembly>

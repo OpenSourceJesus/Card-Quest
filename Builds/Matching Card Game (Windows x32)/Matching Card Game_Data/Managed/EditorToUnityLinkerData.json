@@ -7,7 +7,8 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/Init.unity",
-                "Assets/Scenes/Levels/Test.unity"
+                "Assets/Scenes/World.unity",
+                "Assets/Scenes/Level.unity"
             ]
         },
         {
@@ -17,7 +18,8 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/Init.unity",
-                "Assets/Scenes/Levels/Test.unity"
+                "Assets/Scenes/World.unity",
+                "Assets/Scenes/Level.unity"
             ]
         },
         {
@@ -27,7 +29,8 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/Init.unity",
-                "Assets/Scenes/Levels/Test.unity"
+                "Assets/Scenes/World.unity",
+                "Assets/Scenes/Level.unity"
             ]
         },
         {
@@ -37,7 +40,8 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/Init.unity",
-                "Assets/Scenes/Levels/Test.unity"
+                "Assets/Scenes/World.unity",
+                "Assets/Scenes/Level.unity"
             ]
         },
         {
@@ -47,7 +51,8 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/Init.unity",
-                "Assets/Scenes/Levels/Test.unity"
+                "Assets/Scenes/World.unity",
+                "Assets/Scenes/Level.unity"
             ]
         },
         {
@@ -57,7 +62,8 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/Init.unity",
-                "Assets/Scenes/Levels/Test.unity"
+                "Assets/Scenes/World.unity",
+                "Assets/Scenes/Level.unity"
             ]
         },
         {
@@ -67,7 +73,8 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/Init.unity",
-                "Assets/Scenes/Levels/Test.unity"
+                "Assets/Scenes/World.unity",
+                "Assets/Scenes/Level.unity"
             ]
         },
         {
@@ -77,7 +84,8 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/Init.unity",
-                "Assets/Scenes/Levels/Test.unity"
+                "Assets/Scenes/World.unity",
+                "Assets/Scenes/Level.unity"
             ]
         },
         {
@@ -101,7 +109,8 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/Init.unity",
-                "Assets/Scenes/Levels/Test.unity"
+                "Assets/Scenes/World.unity",
+                "Assets/Scenes/Level.unity"
             ]
         },
         {
@@ -118,7 +127,8 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/Init.unity",
-                "Assets/Scenes/Levels/Test.unity"
+                "Assets/Scenes/World.unity",
+                "Assets/Scenes/Level.unity"
             ]
         },
         {
@@ -149,7 +159,8 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/Init.unity",
-                "Assets/Scenes/Levels/Test.unity"
+                "Assets/Scenes/World.unity",
+                "Assets/Scenes/Level.unity"
             ]
         },
         {
@@ -250,7 +261,8 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/Init.unity",
-                "Assets/Scenes/Levels/Test.unity"
+                "Assets/Scenes/World.unity",
+                "Assets/Scenes/Level.unity"
             ]
         },
         {
@@ -260,7 +272,8 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/Init.unity",
-                "Assets/Scenes/Levels/Test.unity"
+                "Assets/Scenes/World.unity",
+                "Assets/Scenes/Level.unity"
             ]
         },
         {
@@ -270,7 +283,8 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/Init.unity",
-                "Assets/Scenes/Levels/Test.unity"
+                "Assets/Scenes/World.unity",
+                "Assets/Scenes/Level.unity"
             ]
         },
         {
@@ -280,7 +294,8 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/Init.unity",
-                "Assets/Scenes/Levels/Test.unity"
+                "Assets/Scenes/World.unity",
+                "Assets/Scenes/Level.unity"
             ]
         },
         {
@@ -299,7 +314,8 @@
             "moduleName": "Audio",
             "usedInScenes": [
                 "Assets/Scenes/Init.unity",
-                "Assets/Scenes/Levels/Test.unity"
+                "Assets/Scenes/World.unity",
+                "Assets/Scenes/Level.unity"
             ]
         },
         {
@@ -309,7 +325,8 @@
             "moduleName": "Audio",
             "usedInScenes": [
                 "Assets/Scenes/Init.unity",
-                "Assets/Scenes/Levels/Test.unity"
+                "Assets/Scenes/World.unity",
+                "Assets/Scenes/Level.unity"
             ]
         },
         {
@@ -319,7 +336,8 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/Init.unity",
-                "Assets/Scenes/Levels/Test.unity"
+                "Assets/Scenes/World.unity",
+                "Assets/Scenes/Level.unity"
             ]
         },
         {
@@ -329,7 +347,8 @@
             "moduleName": "Physics2D",
             "usedInScenes": [
                 "Assets/Scenes/Init.unity",
-                "Assets/Scenes/Levels/Test.unity"
+                "Assets/Scenes/World.unity",
+                "Assets/Scenes/Level.unity"
             ]
         },
         {
@@ -339,7 +358,8 @@
             "moduleName": "Physics2D",
             "usedInScenes": [
                 "Assets/Scenes/Init.unity",
-                "Assets/Scenes/Levels/Test.unity"
+                "Assets/Scenes/World.unity",
+                "Assets/Scenes/Level.unity"
             ]
         },
         {
@@ -349,7 +369,7 @@
             "moduleName": "UI",
             "usedInScenes": [
                 "Assets/Scenes/Init.unity",
-                "Assets/Scenes/Levels/Test.unity"
+                "Assets/Scenes/Level.unity"
             ]
         },
         {
@@ -359,7 +379,7 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/Init.unity",
-                "Assets/Scenes/Levels/Test.unity"
+                "Assets/Scenes/Level.unity"
             ]
         },
         {
@@ -369,7 +389,8 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/Init.unity",
-                "Assets/Scenes/Levels/Test.unity"
+                "Assets/Scenes/World.unity",
+                "Assets/Scenes/Level.unity"
             ]
         },
         {
@@ -379,7 +400,8 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/Init.unity",
-                "Assets/Scenes/Levels/Test.unity"
+                "Assets/Scenes/World.unity",
+                "Assets/Scenes/Level.unity"
             ]
         },
         {
@@ -389,7 +411,7 @@
             "moduleName": "TextRendering",
             "usedInScenes": [
                 "Assets/Scenes/Init.unity",
-                "Assets/Scenes/Levels/Test.unity"
+                "Assets/Scenes/Level.unity"
             ]
         },
         {
@@ -399,7 +421,8 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/Init.unity",
-                "Assets/Scenes/Levels/Test.unity"
+                "Assets/Scenes/World.unity",
+                "Assets/Scenes/Level.unity"
             ]
         },
         {
@@ -409,7 +432,8 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/Init.unity",
-                "Assets/Scenes/Levels/Test.unity"
+                "Assets/Scenes/World.unity",
+                "Assets/Scenes/Level.unity"
             ]
         },
         {
@@ -419,7 +443,7 @@
             "moduleName": "UI",
             "usedInScenes": [
                 "Assets/Scenes/Init.unity",
-                "Assets/Scenes/Levels/Test.unity"
+                "Assets/Scenes/Level.unity"
             ]
         },
         {
@@ -447,7 +471,8 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/Init.unity",
-                "Assets/Scenes/Levels/Test.unity"
+                "Assets/Scenes/World.unity",
+                "Assets/Scenes/Level.unity"
             ]
         },
         {
@@ -466,7 +491,8 @@
             "moduleName": "AI",
             "usedInScenes": [
                 "Assets/Scenes/Init.unity",
-                "Assets/Scenes/Levels/Test.unity"
+                "Assets/Scenes/World.unity",
+                "Assets/Scenes/Level.unity"
             ]
         },
         {
@@ -476,7 +502,26 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/Init.unity",
-                "Assets/Scenes/Levels/Test.unity"
+                "Assets/Scenes/World.unity",
+                "Assets/Scenes/Level.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "LineRenderer",
+            "fullManagedTypeName": "UnityEngine.LineRenderer",
+            "moduleName": "Core",
+            "usedInScenes": [
+                "Assets/Scenes/World.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "PolygonCollider2D",
+            "fullManagedTypeName": "UnityEngine.PolygonCollider2D",
+            "moduleName": "Physics2D",
+            "usedInScenes": [
+                "Assets/Scenes/World.unity"
             ]
         },
         {
@@ -538,6 +583,13 @@
         {
             "managedAssemblyName": "Assembly-CSharp-firstpass.dll",
             "nativeClass": "",
+            "fullManagedTypeName": "MatchingCardGame.IslandsLevelsData",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp-firstpass.dll",
+            "nativeClass": "",
             "fullManagedTypeName": "MatchingCardGame.IslandsLevelsMinigame",
             "moduleName": "",
             "usedInScenes": []
@@ -560,6 +612,13 @@
             "managedAssemblyName": "Assembly-CSharp-firstpass.dll",
             "nativeClass": "",
             "fullManagedTypeName": "MatchingCardGame.SaveAndLoadManager",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp-firstpass.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "MatchingCardGame.WorldMap",
             "moduleName": "",
             "usedInScenes": []
         },

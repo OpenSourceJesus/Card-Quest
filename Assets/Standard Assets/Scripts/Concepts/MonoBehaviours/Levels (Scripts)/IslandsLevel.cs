@@ -45,7 +45,7 @@ namespace MatchingCardGame
 						{
 							selectedCardIndicatorTrs.gameObject.SetActive(false);
 							moveCount ++;
-							GameManager.GetSingleton<IslandsLevelsMinigame>().movesText.text.text = "Moves Taken: " + moveCount;
+							GameManager.GetSingleton<IslandsLevelsMinigame>().movesText.text.text = "" + moveCount;
 						}
 						else
 						{
@@ -55,7 +55,7 @@ namespace MatchingCardGame
 							selectedCardIndicatorTrs.gameObject.SetActive(true);
 						}
 						if (IsLevelCompleted())
-							GameManager.GetSingleton<IslandsLevelsMinigame>().nextLevelButton.gameObject.SetActive(true);
+							GameManager.GetSingleton<IslandsLevelsMinigame>().OnLevelComplete ();
 					}
 					else
 					{
