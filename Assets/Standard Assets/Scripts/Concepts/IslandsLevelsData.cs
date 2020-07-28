@@ -23,6 +23,7 @@ namespace MatchingCardGame
 			public Sprite backgroundSprite;
 			public BoxCollider2D[] islandOrientationColliders = new BoxCollider2D[0];
 			public Rect[] islandRects = new Rect[0];
+			public Vector2 cameraOffset;
 
 			public IslandsLevelEntry (IslandsLevelEntry islandsLevelEntry)
 			{
@@ -34,6 +35,7 @@ namespace MatchingCardGame
 				backgroundSprite = islandsLevelEntry.backgroundSprite;
 				islandOrientationColliders = islandsLevelEntry.islandOrientationColliders;
 				islandRects = islandsLevelEntry.islandRects;
+				cameraOffset = islandsLevelEntry.cameraOffset;
 				islandsLevelEntry.cardModifierEntries.CopyTo(cardModifierEntries, 0);
 			}
 

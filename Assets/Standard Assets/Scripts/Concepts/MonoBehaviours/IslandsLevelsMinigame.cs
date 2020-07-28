@@ -38,8 +38,8 @@ namespace MatchingCardGame
 		void OnEnable ()
 		{
 #if UNITY_EDITOR
-			if (!Application.isPlaying)
-			{
+			// if (!Application.isPlaying)
+			// {
 				List<IslandsLevelEntry> _islandsLevelEntries = new List<IslandsLevelEntry>();
 				foreach (IslandsLevelZone levelZone in islandsLevelsData.levelZones)
 				{
@@ -60,7 +60,7 @@ namespace MatchingCardGame
 				}
 				islandsLevelsData.islandsLevelEntries = _islandsLevelEntries.ToArray();
 				return;
-			}
+			// }
 #endif
 			GameManager.updatables = GameManager.updatables.Add(this);
 		}
@@ -83,26 +83,6 @@ namespace MatchingCardGame
 		public void DoUpdate ()
 		{
 			timeText.text.text = (Time.timeSinceLevelLoad - levelStartTime).ToString("F1");
-		// 	if (Input.GetKeyDown(KeyCode.R))
-		// 		GameManager.GetSingleton<GameManager>().ReloadActiveScene ();
-		// 	else if (Input.GetKeyDown(KeyCode.LeftArrow))
-		// 	{
-		// 		currentLevelIndex --;
-		// 		if (currentLevelIndex == -1)
-		// 			currentLevelIndex = lastCompletedLevel;
-		// 		GoToLevel (currentLevelIndex);
-		// 	}
-		// 	else if (Input.GetKeyDown(KeyCode.RightArrow))
-		// 	{
-		// 		currentLevelIndex ++;
-		// 		if (currentLevelIndex >= lastCompletedLevel)
-		// 			currentLevelIndex = 0;
-		// 		GoToLevel (currentLevelIndex);
-		// 	}
-		// 	else if (Input.GetKeyDown(KeyCode.UpArrow))
-		// 		ShowAllLevels ();
-		// 	else if (Input.GetKeyDown(KeyCode.DownArrow))
-		// 		GoToLevel (currentLevelIndex);
 		}
 
 		public void GoToNextLevel ()
@@ -119,7 +99,7 @@ namespace MatchingCardGame
 
 		IEnumerator MakeLevelsRoutine ()
 		{
-			for (int i = 1; i < islandsLevelsData.islandsLevelEntries.Length; i ++)
+			for (int i = startingLevelIndex + 1; i < islandsLevelsData.islandsLevelEntries.Length; i ++)
 				yield return StartCoroutine(MakeNextLevelRoutine (islandsLevelsData.islandsLevelEntries[i]));
 		}
 
@@ -181,10 +161,10 @@ namespace MatchingCardGame
 
 		void ShowLevel (int levelIndex)
 		{
-			ShowLevel (islandsLevels[levelIndex]);
+			ShowLevel (islandsLevels[levelIndex], islandsLevelsData.islandsLevelEntries[levelIndex]);
 		}
 
-		void ShowLevel (IslandsLevel islandsLevel)
+		void ShowLevel (IslandsLevel islandsLevel, IslandsLevelEntry islandsLevelEntry)
 		{
 			List<Rect> cardSlotRects = new List<Rect>();
 			foreach (CardGroup cardGroup in islandsLevel.cardGroups)
@@ -194,8 +174,7 @@ namespace MatchingCardGame
 					cardSlotRects.Add(cardSlot.spriteRenderer.bounds.ToRect());
 			}
 			Rect viewRect = RectExtensions.Combine(cardSlotRects.ToArray());
-			GameManager.GetSingleton<CameraScript>().trs.position = viewRect.center.SetZ(GameManager.GetSingleton<CameraScript>().trs.position.z);
-			GameManager.GetSingleton<CameraScript>().viewSize = viewRect.size;
+			GameManager.GetSingleton<CameraScript>().trs.position = (viewRect.center + islandsLevelEntry.cameraOffset).SetZ(GameManager.GetSingleton<CameraScript>().trs.position.z);
 		}
 
 		void GoToLevel (int levelIndex)
@@ -208,7 +187,7 @@ namespace MatchingCardGame
 			movesText.text.text = "0";
 			levelNameText.text.text = level.name;
 			levelStartTime = Time.timeSinceLevelLoad;
-			ShowLevel (level);
+			ShowLevel (level, levelEntry);
 			enabled = true;
 		}
 

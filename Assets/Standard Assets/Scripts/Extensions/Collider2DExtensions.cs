@@ -24,7 +24,7 @@ namespace Extensions
 				Rect output = new Rect();
 				BoxCollider2D boxCollider = collider as BoxCollider2D;
 				if (boxCollider != null)
-					output = Rect.MinMaxRect(trs.position.x + (boxCollider.offset.x * trs.lossyScale.x) - (boxCollider.size.x / 2 + boxCollider.edgeRadius) * trs.lossyScale.x, trs.position.y + (boxCollider.offset.y * trs.lossyScale.y) - (boxCollider.size.y / 2 + boxCollider.edgeRadius) * trs.lossyScale.y, trs.position.x + (boxCollider.offset.x * trs.lossyScale.x) + (boxCollider.size.x / 2 + boxCollider.edgeRadius) * trs.lossyScale.x, trs.position.y + (boxCollider.offset.y * trs.lossyScale.y) + (boxCollider.size.y / 2 + boxCollider.edgeRadius) * trs.lossyScale.y);
+					output = Rect.MinMaxRect(trs.position.x + boxCollider.offset.x * trs.lossyScale.x - boxCollider.size.x / 2 * trs.lossyScale.x - boxCollider.edgeRadius * trs.lossyScale.x, trs.position.y + boxCollider.offset.y * trs.lossyScale.y - boxCollider.size.y / 2 * trs.lossyScale.y - boxCollider.edgeRadius * trs.lossyScale.y, trs.position.x + boxCollider.offset.x * trs.lossyScale.x + boxCollider.size.x / 2 * trs.lossyScale.x + boxCollider.edgeRadius * trs.lossyScale.x, trs.position.y + boxCollider.offset.y * trs.lossyScale.y + boxCollider.size.y / 2 * trs.lossyScale.y + boxCollider.edgeRadius * trs.lossyScale.y);
 				else
 				{
 					PolygonCollider2D polygonCollider = collider as PolygonCollider2D;

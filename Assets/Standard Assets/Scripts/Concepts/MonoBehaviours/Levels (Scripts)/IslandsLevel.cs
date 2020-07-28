@@ -35,6 +35,7 @@ namespace MatchingCardGame
 			{
 				highlightedCard = hitCollider.GetComponent<Card>();
 				highlightedCardIndicatorTrs.SetParent(highlightedCard.trs);
+				highlightedCardIndicatorTrs.localScale = Vector3.one;
 				highlightedCardIndicatorTrs.localPosition = Vector3.zero;
 				highlightedCardIndicatorTrs.gameObject.SetActive(true);
 				if (leftMouseButtonInput && !previousLeftMouseButtonInput)
@@ -51,6 +52,7 @@ namespace MatchingCardGame
 						{
 							selectedCard = highlightedCard;
 							selectedCardIndicatorTrs.SetParent(selectedCard.trs);
+							selectedCardIndicatorTrs.localScale = Vector3.one;
 							selectedCardIndicatorTrs.localPosition = Vector3.zero;
 							selectedCardIndicatorTrs.gameObject.SetActive(true);
 						}
@@ -61,6 +63,7 @@ namespace MatchingCardGame
 					{
 						selectedCard = highlightedCard;
 						selectedCardIndicatorTrs.SetParent(selectedCard.trs);
+						selectedCardIndicatorTrs.localScale = Vector3.one;
 						selectedCardIndicatorTrs.localPosition = Vector3.zero;
 						selectedCardIndicatorTrs.gameObject.SetActive(true);
 					}

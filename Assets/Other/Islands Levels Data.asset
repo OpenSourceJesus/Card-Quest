@@ -35,6 +35,7 @@ MonoBehaviour:
         y: -1.7292558
         width: 3.0797644
         height: 2.8655803
+      cameraOffset: {x: -0.06, y: 0.2}
     levelCount: 10
   - firstLevelEntry:
       name: Urban
@@ -58,6 +59,7 @@ MonoBehaviour:
         y: -1.7724977
         width: 2.8464773
         height: 2.8422806
+      cameraOffset: {x: 0.01, y: 0.35}
     levelCount: 15
   - firstLevelEntry:
       name: Desert
@@ -81,6 +83,7 @@ MonoBehaviour:
         y: -2.1158898
         width: 3.09518
         height: 3.0850596
+      cameraOffset: {x: 0.08, y: 0.14}
     levelCount: 20
   - firstLevelEntry:
       name: Fortress
@@ -104,6 +107,7 @@ MonoBehaviour:
         y: -2.0843153
         width: 2.9258509
         height: 2.9321165
+      cameraOffset: {x: 0, y: 0}
     levelCount: 25
   islandsLevelEntries:
   - name: Beach 1
@@ -126,6 +130,7 @@ MonoBehaviour:
       y: -1.7292558
       width: 3.0797644
       height: 2.8655803
+    cameraOffset: {x: -0.06, y: 0.2}
   - name: Beach 2
     dimensions: {x: 2, y: 3}
     cardCount: 4
@@ -146,6 +151,7 @@ MonoBehaviour:
       y: -1.7292558
       width: 3.0797644
       height: 2.8655803
+    cameraOffset: {x: -0.06, y: 0.2}
   - name: Beach 3
     dimensions: {x: 2, y: 3}
     cardCount: 4
@@ -166,6 +172,7 @@ MonoBehaviour:
       y: -1.7292558
       width: 3.0797644
       height: 2.8655803
+    cameraOffset: {x: -0.06, y: 0.2}
   - name: Beach 4
     dimensions: {x: 2, y: 3}
     cardCount: 4
@@ -186,6 +193,7 @@ MonoBehaviour:
       y: -1.7292558
       width: 3.0797644
       height: 2.8655803
+    cameraOffset: {x: -0.06, y: 0.2}
   - name: Beach 5
     dimensions: {x: 2, y: 3}
     cardCount: 4
@@ -206,6 +214,7 @@ MonoBehaviour:
       y: -1.7292558
       width: 3.0797644
       height: 2.8655803
+    cameraOffset: {x: -0.06, y: 0.2}
   - name: Beach 6
     dimensions: {x: 2, y: 3}
     cardCount: 4
@@ -226,6 +235,7 @@ MonoBehaviour:
       y: -1.7292558
       width: 3.0797644
       height: 2.8655803
+    cameraOffset: {x: -0.06, y: 0.2}
   - name: Beach 7
     dimensions: {x: 2, y: 3}
     cardCount: 4
@@ -246,6 +256,7 @@ MonoBehaviour:
       y: -1.7292558
       width: 3.0797644
       height: 2.8655803
+    cameraOffset: {x: -0.06, y: 0.2}
   - name: Beach 8
     dimensions: {x: 2, y: 3}
     cardCount: 4
@@ -266,6 +277,7 @@ MonoBehaviour:
       y: -1.7292558
       width: 3.0797644
       height: 2.8655803
+    cameraOffset: {x: -0.06, y: 0.2}
   - name: Beach 9
     dimensions: {x: 2, y: 3}
     cardCount: 4
@@ -286,6 +298,7 @@ MonoBehaviour:
       y: -1.7292558
       width: 3.0797644
       height: 2.8655803
+    cameraOffset: {x: -0.06, y: 0.2}
   - name: Beach 10
     dimensions: {x: 2, y: 3}
     cardCount: 4
@@ -306,6 +319,7 @@ MonoBehaviour:
       y: -1.7292558
       width: 3.0797644
       height: 2.8655803
+    cameraOffset: {x: -0.06, y: 0.2}
   - name: Urban 1
     dimensions: {x: 3, y: 3}
     cardCount: 6
@@ -326,6 +340,7 @@ MonoBehaviour:
       y: -1.7724977
       width: 2.8464773
       height: 2.8422806
+    cameraOffset: {x: 0.01, y: 0.35}
   - name: Urban 2
     dimensions: {x: 3, y: 3}
     cardCount: 6
@@ -346,6 +361,7 @@ MonoBehaviour:
       y: -1.7724977
       width: 2.8464773
       height: 2.8422806
+    cameraOffset: {x: 0.01, y: 0.35}
   - name: Urban 3
     dimensions: {x: 3, y: 3}
     cardCount: 6
@@ -366,6 +382,7 @@ MonoBehaviour:
       y: -1.7724977
       width: 2.8464773
       height: 2.8422806
+    cameraOffset: {x: 0.01, y: 0.35}
   - name: Urban 4
     dimensions: {x: 3, y: 3}
     cardCount: 6
@@ -386,6 +403,7 @@ MonoBehaviour:
       y: -1.7724977
       width: 2.8464773
       height: 2.8422806
+    cameraOffset: {x: 0.01, y: 0.35}
   - name: Urban 5
     dimensions: {x: 3, y: 3}
     cardCount: 6
@@ -406,6 +424,7 @@ MonoBehaviour:
       y: -1.7724977
       width: 2.8464773
       height: 2.8422806
+    cameraOffset: {x: 0.01, y: 0.35}
   - name: Urban 6
     dimensions: {x: 3, y: 3}
     cardCount: 6
@@ -426,6 +445,7 @@ MonoBehaviour:
       y: -1.7724977
       width: 2.8464773
       height: 2.8422806
+    cameraOffset: {x: 0.01, y: 0.35}
   - name: Urban 7
     dimensions: {x: 3, y: 3}
     cardCount: 6
@@ -446,6 +466,7 @@ MonoBehaviour:
       y: -1.7724977
       width: 2.8464773
       height: 2.8422806
+    cameraOffset: {x: 0.01, y: 0.35}
   - name: Urban 8
     dimensions: {x: 3, y: 3}
     cardCount: 6
@@ -466,6 +487,7 @@ MonoBehaviour:
       y: -1.7724977
       width: 2.8464773
       height: 2.8422806
+    cameraOffset: {x: 0.01, y: 0.35}
   - name: Urban 9
     dimensions: {x: 3, y: 3}
     cardCount: 6
@@ -486,6 +508,7 @@ MonoBehaviour:
       y: -1.7724977
       width: 2.8464773
       height: 2.8422806
+    cameraOffset: {x: 0.01, y: 0.35}
   - name: Urban 10
     dimensions: {x: 3, y: 3}
     cardCount: 6
@@ -506,6 +529,7 @@ MonoBehaviour:
       y: -1.7724977
       width: 2.8464773
       height: 2.8422806
+    cameraOffset: {x: 0.01, y: 0.35}
   - name: Urban 11
     dimensions: {x: 3, y: 3}
     cardCount: 6
@@ -526,6 +550,7 @@ MonoBehaviour:
       y: -1.7724977
       width: 2.8464773
       height: 2.8422806
+    cameraOffset: {x: 0.01, y: 0.35}
   - name: Urban 12
     dimensions: {x: 3, y: 3}
     cardCount: 6
@@ -546,6 +571,7 @@ MonoBehaviour:
       y: -1.7724977
       width: 2.8464773
       height: 2.8422806
+    cameraOffset: {x: 0.01, y: 0.35}
   - name: Urban 13
     dimensions: {x: 3, y: 3}
     cardCount: 6
@@ -566,6 +592,7 @@ MonoBehaviour:
       y: -1.7724977
       width: 2.8464773
       height: 2.8422806
+    cameraOffset: {x: 0.01, y: 0.35}
   - name: Urban 14
     dimensions: {x: 3, y: 3}
     cardCount: 6
@@ -586,6 +613,7 @@ MonoBehaviour:
       y: -1.7724977
       width: 2.8464773
       height: 2.8422806
+    cameraOffset: {x: 0.01, y: 0.35}
   - name: Urban 15
     dimensions: {x: 3, y: 3}
     cardCount: 6
@@ -606,6 +634,7 @@ MonoBehaviour:
       y: -1.7724977
       width: 2.8464773
       height: 2.8422806
+    cameraOffset: {x: 0.01, y: 0.35}
   - name: Desert 1
     dimensions: {x: 3, y: 4}
     cardCount: 12
@@ -626,6 +655,7 @@ MonoBehaviour:
       y: -2.1158898
       width: 3.09518
       height: 3.0850596
+    cameraOffset: {x: 0.08, y: 0.14}
   - name: Desert 2
     dimensions: {x: 3, y: 4}
     cardCount: 12
@@ -646,6 +676,7 @@ MonoBehaviour:
       y: -2.1158898
       width: 3.09518
       height: 3.0850596
+    cameraOffset: {x: 0.08, y: 0.14}
   - name: Desert 3
     dimensions: {x: 3, y: 4}
     cardCount: 12
@@ -666,6 +697,7 @@ MonoBehaviour:
       y: -2.1158898
       width: 3.09518
       height: 3.0850596
+    cameraOffset: {x: 0.08, y: 0.14}
   - name: Desert 4
     dimensions: {x: 3, y: 4}
     cardCount: 12
@@ -686,6 +718,7 @@ MonoBehaviour:
       y: -2.1158898
       width: 3.09518
       height: 3.0850596
+    cameraOffset: {x: 0.08, y: 0.14}
   - name: Desert 5
     dimensions: {x: 3, y: 4}
     cardCount: 12
@@ -706,6 +739,7 @@ MonoBehaviour:
       y: -2.1158898
       width: 3.09518
       height: 3.0850596
+    cameraOffset: {x: 0.08, y: 0.14}
   - name: Desert 6
     dimensions: {x: 3, y: 4}
     cardCount: 12
@@ -726,6 +760,7 @@ MonoBehaviour:
       y: -2.1158898
       width: 3.09518
       height: 3.0850596
+    cameraOffset: {x: 0.08, y: 0.14}
   - name: Desert 7
     dimensions: {x: 3, y: 4}
     cardCount: 12
@@ -746,6 +781,7 @@ MonoBehaviour:
       y: -2.1158898
       width: 3.09518
       height: 3.0850596
+    cameraOffset: {x: 0.08, y: 0.14}
   - name: Desert 8
     dimensions: {x: 3, y: 4}
     cardCount: 12
@@ -766,6 +802,7 @@ MonoBehaviour:
       y: -2.1158898
       width: 3.09518
       height: 3.0850596
+    cameraOffset: {x: 0.08, y: 0.14}
   - name: Desert 9
     dimensions: {x: 3, y: 4}
     cardCount: 12
@@ -786,6 +823,7 @@ MonoBehaviour:
       y: -2.1158898
       width: 3.09518
       height: 3.0850596
+    cameraOffset: {x: 0.08, y: 0.14}
   - name: Desert 10
     dimensions: {x: 3, y: 4}
     cardCount: 12
@@ -806,6 +844,7 @@ MonoBehaviour:
       y: -2.1158898
       width: 3.09518
       height: 3.0850596
+    cameraOffset: {x: 0.08, y: 0.14}
   - name: Desert 11
     dimensions: {x: 3, y: 4}
     cardCount: 12
@@ -826,6 +865,7 @@ MonoBehaviour:
       y: -2.1158898
       width: 3.09518
       height: 3.0850596
+    cameraOffset: {x: 0.08, y: 0.14}
   - name: Desert 12
     dimensions: {x: 3, y: 4}
     cardCount: 12
@@ -846,6 +886,7 @@ MonoBehaviour:
       y: -2.1158898
       width: 3.09518
       height: 3.0850596
+    cameraOffset: {x: 0.08, y: 0.14}
   - name: Desert 13
     dimensions: {x: 3, y: 4}
     cardCount: 12
@@ -866,6 +907,7 @@ MonoBehaviour:
       y: -2.1158898
       width: 3.09518
       height: 3.0850596
+    cameraOffset: {x: 0.08, y: 0.14}
   - name: Desert 14
     dimensions: {x: 3, y: 4}
     cardCount: 12
@@ -886,6 +928,7 @@ MonoBehaviour:
       y: -2.1158898
       width: 3.09518
       height: 3.0850596
+    cameraOffset: {x: 0.08, y: 0.14}
   - name: Desert 15
     dimensions: {x: 3, y: 4}
     cardCount: 12
@@ -906,6 +949,7 @@ MonoBehaviour:
       y: -2.1158898
       width: 3.09518
       height: 3.0850596
+    cameraOffset: {x: 0.08, y: 0.14}
   - name: Desert 16
     dimensions: {x: 3, y: 4}
     cardCount: 12
@@ -926,6 +970,7 @@ MonoBehaviour:
       y: -2.1158898
       width: 3.09518
       height: 3.0850596
+    cameraOffset: {x: 0.08, y: 0.14}
   - name: Desert 17
     dimensions: {x: 3, y: 4}
     cardCount: 12
@@ -946,6 +991,7 @@ MonoBehaviour:
       y: -2.1158898
       width: 3.09518
       height: 3.0850596
+    cameraOffset: {x: 0.08, y: 0.14}
   - name: Desert 18
     dimensions: {x: 3, y: 4}
     cardCount: 12
@@ -966,6 +1012,7 @@ MonoBehaviour:
       y: -2.1158898
       width: 3.09518
       height: 3.0850596
+    cameraOffset: {x: 0.08, y: 0.14}
   - name: Desert 19
     dimensions: {x: 3, y: 4}
     cardCount: 12
@@ -986,6 +1033,7 @@ MonoBehaviour:
       y: -2.1158898
       width: 3.09518
       height: 3.0850596
+    cameraOffset: {x: 0.08, y: 0.14}
   - name: Desert 20
     dimensions: {x: 3, y: 4}
     cardCount: 12
@@ -1006,6 +1054,7 @@ MonoBehaviour:
       y: -2.1158898
       width: 3.09518
       height: 3.0850596
+    cameraOffset: {x: 0.08, y: 0.14}
   - name: Fortress 1
     dimensions: {x: 3, y: 5}
     cardCount: 16
@@ -1026,6 +1075,7 @@ MonoBehaviour:
       y: -2.0843153
       width: 2.9258509
       height: 2.9321165
+    cameraOffset: {x: 0, y: 0}
   - name: Fortress 2
     dimensions: {x: 3, y: 5}
     cardCount: 16
@@ -1046,6 +1096,7 @@ MonoBehaviour:
       y: -2.0843153
       width: 2.9258509
       height: 2.9321165
+    cameraOffset: {x: 0, y: 0}
   - name: Fortress 3
     dimensions: {x: 3, y: 5}
     cardCount: 16
@@ -1066,6 +1117,7 @@ MonoBehaviour:
       y: -2.0843153
       width: 2.9258509
       height: 2.9321165
+    cameraOffset: {x: 0, y: 0}
   - name: Fortress 4
     dimensions: {x: 3, y: 5}
     cardCount: 16
@@ -1086,6 +1138,7 @@ MonoBehaviour:
       y: -2.0843153
       width: 2.9258509
       height: 2.9321165
+    cameraOffset: {x: 0, y: 0}
   - name: Fortress 5
     dimensions: {x: 3, y: 5}
     cardCount: 16
@@ -1106,6 +1159,7 @@ MonoBehaviour:
       y: -2.0843153
       width: 2.9258509
       height: 2.9321165
+    cameraOffset: {x: 0, y: 0}
   - name: Fortress 6
     dimensions: {x: 3, y: 5}
     cardCount: 16
@@ -1126,6 +1180,7 @@ MonoBehaviour:
       y: -2.0843153
       width: 2.9258509
       height: 2.9321165
+    cameraOffset: {x: 0, y: 0}
   - name: Fortress 7
     dimensions: {x: 3, y: 5}
     cardCount: 16
@@ -1146,6 +1201,7 @@ MonoBehaviour:
       y: -2.0843153
       width: 2.9258509
       height: 2.9321165
+    cameraOffset: {x: 0, y: 0}
   - name: Fortress 8
     dimensions: {x: 3, y: 5}
     cardCount: 16
@@ -1166,6 +1222,7 @@ MonoBehaviour:
       y: -2.0843153
       width: 2.9258509
       height: 2.9321165
+    cameraOffset: {x: 0, y: 0}
   - name: Fortress 9
     dimensions: {x: 3, y: 5}
     cardCount: 16
@@ -1186,6 +1243,7 @@ MonoBehaviour:
       y: -2.0843153
       width: 2.9258509
       height: 2.9321165
+    cameraOffset: {x: 0, y: 0}
   - name: Fortress 10
     dimensions: {x: 3, y: 5}
     cardCount: 16
@@ -1206,6 +1264,7 @@ MonoBehaviour:
       y: -2.0843153
       width: 2.9258509
       height: 2.9321165
+    cameraOffset: {x: 0, y: 0}
   - name: Fortress 11
     dimensions: {x: 3, y: 5}
     cardCount: 16
@@ -1226,6 +1285,7 @@ MonoBehaviour:
       y: -2.0843153
       width: 2.9258509
       height: 2.9321165
+    cameraOffset: {x: 0, y: 0}
   - name: Fortress 12
     dimensions: {x: 3, y: 5}
     cardCount: 16
@@ -1246,6 +1306,7 @@ MonoBehaviour:
       y: -2.0843153
       width: 2.9258509
       height: 2.9321165
+    cameraOffset: {x: 0, y: 0}
   - name: Fortress 13
     dimensions: {x: 3, y: 5}
     cardCount: 16
@@ -1266,6 +1327,7 @@ MonoBehaviour:
       y: -2.0843153
       width: 2.9258509
       height: 2.9321165
+    cameraOffset: {x: 0, y: 0}
   - name: Fortress 14
     dimensions: {x: 3, y: 5}
     cardCount: 16
@@ -1286,6 +1348,7 @@ MonoBehaviour:
       y: -2.0843153
       width: 2.9258509
       height: 2.9321165
+    cameraOffset: {x: 0, y: 0}
   - name: Fortress 15
     dimensions: {x: 3, y: 5}
     cardCount: 16
@@ -1306,6 +1369,7 @@ MonoBehaviour:
       y: -2.0843153
       width: 2.9258509
       height: 2.9321165
+    cameraOffset: {x: 0, y: 0}
   - name: Fortress 16
     dimensions: {x: 3, y: 5}
     cardCount: 16
@@ -1326,6 +1390,7 @@ MonoBehaviour:
       y: -2.0843153
       width: 2.9258509
       height: 2.9321165
+    cameraOffset: {x: 0, y: 0}
   - name: Fortress 17
     dimensions: {x: 3, y: 5}
     cardCount: 16
@@ -1346,6 +1411,7 @@ MonoBehaviour:
       y: -2.0843153
       width: 2.9258509
       height: 2.9321165
+    cameraOffset: {x: 0, y: 0}
   - name: Fortress 18
     dimensions: {x: 3, y: 5}
     cardCount: 16
@@ -1366,6 +1432,7 @@ MonoBehaviour:
       y: -2.0843153
       width: 2.9258509
       height: 2.9321165
+    cameraOffset: {x: 0, y: 0}
   - name: Fortress 19
     dimensions: {x: 3, y: 5}
     cardCount: 16
@@ -1386,6 +1453,7 @@ MonoBehaviour:
       y: -2.0843153
       width: 2.9258509
       height: 2.9321165
+    cameraOffset: {x: 0, y: 0}
   - name: Fortress 20
     dimensions: {x: 3, y: 5}
     cardCount: 16
@@ -1406,6 +1474,7 @@ MonoBehaviour:
       y: -2.0843153
       width: 2.9258509
       height: 2.9321165
+    cameraOffset: {x: 0, y: 0}
   - name: Fortress 21
     dimensions: {x: 3, y: 5}
     cardCount: 16
@@ -1426,6 +1495,7 @@ MonoBehaviour:
       y: -2.0843153
       width: 2.9258509
       height: 2.9321165
+    cameraOffset: {x: 0, y: 0}
   - name: Fortress 22
     dimensions: {x: 3, y: 5}
     cardCount: 16
@@ -1446,6 +1516,7 @@ MonoBehaviour:
       y: -2.0843153
       width: 2.9258509
       height: 2.9321165
+    cameraOffset: {x: 0, y: 0}
   - name: Fortress 23
     dimensions: {x: 3, y: 5}
     cardCount: 16
@@ -1466,6 +1537,7 @@ MonoBehaviour:
       y: -2.0843153
       width: 2.9258509
       height: 2.9321165
+    cameraOffset: {x: 0, y: 0}
   - name: Fortress 24
     dimensions: {x: 3, y: 5}
     cardCount: 16
@@ -1486,6 +1558,7 @@ MonoBehaviour:
       y: -2.0843153
       width: 2.9258509
       height: 2.9321165
+    cameraOffset: {x: 0, y: 0}
   - name: Fortress 25
     dimensions: {x: 3, y: 5}
     cardCount: 16
@@ -1506,3 +1579,4 @@ MonoBehaviour:
       y: -2.0843153
       width: 2.9258509
       height: 2.9321165
+    cameraOffset: {x: 0, y: 0}
