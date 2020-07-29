@@ -44,7 +44,6 @@ namespace MatchingCardGame
 					{
 						if (TryToMoveSelectedCardToHighlightedPosition ())
 						{
-							selectedCardIndicatorTrs.gameObject.SetActive(false);
 							moveCount ++;
 							GameManager.GetSingleton<IslandsLevelsMinigame>().movesText.text.text = "" + moveCount;
 						}
@@ -111,7 +110,6 @@ namespace MatchingCardGame
 
 		bool TryToMoveSelectedCardToHighlightedPosition ()
 		{
-			selectedCardIndicatorTrs.gameObject.SetActive(false);
 			Island highlighedCardIsland = (Island) highlightedCard.groupsIAmPartOf[0];
 			Island selectedCardIsland = (Island) selectedCard.groupsIAmPartOf[0];
 			if (highlighedCardIsland == selectedCardIsland)
@@ -238,6 +236,7 @@ namespace MatchingCardGame
 		static Island MakeIsland (Vector2Int dimensions, int cardCount = 2, int cardTypeCount = 1, CardModifierEntry[] cardModifierEntries = null)
 		{
 			Island island = Instantiate(GameManager.GetSingleton<GameManager>().islandPrefab, islandsLevel.trs);
+			// island.trs.localScale = island.trs.localScale.SetZ(1);
 			List<Card> notUsedIslandCardPrefabs = new List<Card>();
 			notUsedIslandCardPrefabs.AddRange(GameManager.GetSingleton<GameManager>().islandsLevelCardPrefabs);
 			cardSize = notUsedIslandCardPrefabs[0].spriteRenderer.bounds.ToRect().size;

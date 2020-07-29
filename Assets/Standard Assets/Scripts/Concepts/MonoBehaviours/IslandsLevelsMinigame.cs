@@ -20,7 +20,6 @@ namespace MatchingCardGame
 		}
 		public static int startingLevelIndex = 0;
 		public IslandsLevelsData islandsLevelsData;
-		public Transform levelAreaPrefab;
 		public float levelSeperation;
 		public Button nextLevelButton;
 		public _Text levelNameText;
@@ -106,7 +105,6 @@ namespace MatchingCardGame
 		IEnumerator MakeNextLevelRoutine (IslandsLevelEntry islandsLevelEntry)
 		{
 			Rect islandsLevelBoundsRect;
-			List<Rect> islandsLevelBoundsRects = new List<Rect>();
 			IslandsLevel islandsLevel;
 			do
 			{
@@ -123,6 +121,7 @@ namespace MatchingCardGame
 			foreach (CardGroup cardGroup in islandsLevel.cardGroups)
 			{
 				Island island = (Island) cardGroup;
+				island.trs.localScale = island.trs.localScale.SetZ(1);
 				foreach (Card card in island.cards)
 					card.gameObject.layer = 0;
 				foreach (CardSlot cardSlot in island.cardSlots)
@@ -136,9 +135,6 @@ namespace MatchingCardGame
 				islandsLevel.trs.position = previousIslandsLevelPosition + (Vector2.right * (previousIslandsLevelBoundsRect.size.x / 2 + islandsLevelBoundsRect.size.x / 2 + levelSeperation));
 			previousIslandsLevelBoundsRect = islandsLevelBoundsRect;
 			previousIslandsLevelPosition = islandsLevel.trs.position;
-			islandsLevelBoundsRects.Add(islandsLevelBoundsRect);
-			Transform levelArea = Instantiate(levelAreaPrefab, islandsLevel.trs.position + (Vector3) islandsLevelBoundsRect.center, default(Quaternion));
-			levelArea.localScale = islandsLevelBoundsRect.size;
 			islandsLevel.name = islandsLevelEntry.name;
 			latestLevelIndex ++;
 			nextLevelButton.interactable = true;
