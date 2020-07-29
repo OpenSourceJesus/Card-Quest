@@ -9,8 +9,20 @@ using IslandsLevelZone = MatchingCardGame.IslandsLevelsData.IslandsLevelZone;
 namespace MatchingCardGame
 {
 	[ExecuteInEditMode]
-	public class WorldMap : MonoBehaviour, IUpdatable
+	public class WorldMap : MonoBehaviour, IUpdatable, ISaveableAndLoadable
 	{
+		public int uniqueId;
+		public int UniqueId
+		{
+			get
+			{
+				return uniqueId;
+			}
+			set
+			{
+				uniqueId = value;
+			}
+		}
 		public bool PauseWhileUnfocused
 		{
 			get
@@ -38,10 +50,13 @@ namespace MatchingCardGame
 				return;
 			}
 #endif
-			foreach (Zone zone in zones)
+			Zone previousZone = zones[0];
+			for (int i = 1; i < zones.Length; i ++)
 			{
-				if (zonesCompleted.Contains(zone.trs.name))
+				Zone zone = zones[i];
+				if (zonesCompleted.Contains(previousZone.trs.name))
 					zone.lockGo.SetActive(false);
+				previousZone = zone;
 			}
 			selectedZone = null;
 			GameManager.updatables = GameManager.updatables.Add(this);

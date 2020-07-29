@@ -87,13 +87,17 @@ namespace MatchingCardGame
 
 		public void GoToNextLevel ()
 		{
-			if (currentLevelIndex == zoneEndLevelIndex)
+			if (currentLevelIndex == zoneEndLevelIndex - 1)
 			{
 				IslandsLevel level = islandsLevels[currentLevelIndex];
-				string zoneName = level.name.Remove(level.name.LastIndexOf(" "));
+				string zoneName = level.name.Remove(level.name.IndexOf(" "));
 				if (!WorldMap.zonesCompleted.Contains(zoneName))
+				{
+					print(zoneName);
 					WorldMap.zonesCompleted.Add(zoneName);
+				}
 				GameManager.GetSingleton<GameManager>().LoadScene ("World");
+				return;
 			}
 			if (currentLevelIndex == lastCompletedLevel)
 				lastCompletedLevel ++;

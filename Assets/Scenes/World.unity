@@ -133,7 +133,7 @@ GameObject:
   - component: {fileID: 309726451}
   - component: {fileID: 309726449}
   m_Layer: 0
-  m_Name: Urban Zone
+  m_Name: Urban
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -392,6 +392,7 @@ GameObject:
   - component: {fileID: 580158779}
   - component: {fileID: 580158778}
   - component: {fileID: 580158780}
+  - component: {fileID: 580158781}
   m_Layer: 0
   m_Name: World Map
   m_TagString: Untagged
@@ -479,6 +480,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5dc3524a02ec4e991947129aeac9da5d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  uniqueId: 1
   islandsLevelsData: {fileID: 11400000, guid: 31290e9d5b7379a41a60022024dbd6ff, type: 2}
   zones:
   - trs: {fileID: 1199103268}
@@ -497,6 +499,19 @@ MonoBehaviour:
     lockGo: {fileID: 911478976}
     lineRenderer: {fileID: 1246716860}
     polygonCollider: {fileID: 1246716861}
+--- !u!114 &580158781
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 580158777}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 677e7dbf7c4ff6a47935abce0120a9b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  uniqueId: 1
 --- !u!1 &615116467
 GameObject:
   m_ObjectHideFlags: 0
@@ -509,7 +524,7 @@ GameObject:
   - component: {fileID: 615116469}
   - component: {fileID: 615116468}
   m_Layer: 0
-  m_Name: Desert Zone
+  m_Name: Desert
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -939,7 +954,7 @@ GameObject:
   - component: {fileID: 1199103267}
   - component: {fileID: 1199103269}
   m_Layer: 0
-  m_Name: Beach Zone
+  m_Name: Beach
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1116,7 +1131,7 @@ GameObject:
   - component: {fileID: 1246716861}
   - component: {fileID: 1246716860}
   m_Layer: 0
-  m_Name: Fortress Zone
+  m_Name: Fortress
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1512,10 +1527,10 @@ Camera:
   m_FocalLength: 50
   m_NormalizedViewPortRect:
     serializedVersion: 2
-    x: -0.16666663
-    y: 0.125
-    width: 1.3333333
-    height: 0.75
+    x: -2.0748394
+    y: 0.40290657
+    width: 5.1496787
+    height: 0.19418687
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60

@@ -368,7 +368,7 @@ namespace MatchingCardGame
 			if (AccountManager.lastUsedAccountIndex == -1)
 				return;
 			AccountManager.CurrentlyPlaying.PlayTime += Time.time;
-			// GetSingleton<SaveAndLoadManager>().Save ();
+			GetSingleton<SaveAndLoadManager>().Save ();
 		}
 
 		public virtual void OnApplicationFocus (bool isFocused)
