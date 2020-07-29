@@ -18,9 +18,8 @@ namespace MatchingCardGame
 				return true;
 			}
 		}
-		public static int zoneStartLevelIndex = 0;
+		public static int startingLevelIndex = 0;
 		public static int zoneEndLevelIndex = 10;
-		public static int currentLevelZone = 0;
 		public IslandsLevelsData islandsLevelsData;
 		public float levelSeperation;
 		public Button nextLevelButton;
@@ -73,10 +72,10 @@ namespace MatchingCardGame
 				yield break;
 #endif
 			islandsLevels = new IslandsLevel[islandsLevelsData.islandsLevelEntries.Length];
-			currentLevelIndex = zoneStartLevelIndex - 1;
-			lastCompletedLevel = zoneStartLevelIndex - 1;
-			latestLevelIndex = zoneStartLevelIndex;
-			yield return StartCoroutine(MakeNextLevelRoutine (islandsLevelsData.islandsLevelEntries[zoneStartLevelIndex]));
+			currentLevelIndex = startingLevelIndex - 1;
+			lastCompletedLevel = startingLevelIndex - 1;
+			latestLevelIndex = startingLevelIndex;
+			yield return StartCoroutine(MakeNextLevelRoutine (islandsLevelsData.islandsLevelEntries[startingLevelIndex]));
 			GoToNextLevel ();
 			StartCoroutine(MakeLevelsRoutine ());
 		}
@@ -100,7 +99,7 @@ namespace MatchingCardGame
 				lastCompletedLevel ++;
 			if (latestLevelIndex == lastCompletedLevel)
 				nextLevelButton.interactable = false;
-			if (currentLevelIndex >= zoneStartLevelIndex)
+			if (currentLevelIndex >= startingLevelIndex)
 				islandsLevels[currentLevelIndex].enabled = false;
 			currentLevelIndex = lastCompletedLevel;
 			GoToLevel (currentLevelIndex);
@@ -108,7 +107,7 @@ namespace MatchingCardGame
 
 		IEnumerator MakeLevelsRoutine ()
 		{
-			for (int i = zoneStartLevelIndex + 1; i < zoneEndLevelIndex; i ++)
+			for (int i = startingLevelIndex + 1; i < zoneEndLevelIndex; i ++)
 				yield return StartCoroutine(MakeNextLevelRoutine (islandsLevelsData.islandsLevelEntries[i]));
 		}
 
@@ -152,7 +151,7 @@ namespace MatchingCardGame
 		bool HasEquivalentLevel (int levelIndex)
 		{
 			IslandsLevel level = islandsLevels[levelIndex];
-			for (int i = zoneStartLevelIndex; i < latestLevelIndex; i ++)
+			for (int i = startingLevelIndex; i < latestLevelIndex; i ++)
 			{
 				if (i != levelIndex)
 				{
@@ -213,6 +212,12 @@ namespace MatchingCardGame
 		{
 			enabled = false;
 			nextLevelButton.gameObject.SetActive(true);
+		}
+
+		public void Restart ()
+		{
+			startingLevelIndex = currentLevelIndex;
+			GameManager.GetSingleton<GameManager>().ReloadActiveScene ();
 		}
 	}
 }

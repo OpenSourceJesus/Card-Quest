@@ -62,11 +62,11 @@ namespace MatchingCardGame
 					}
 					if (InputManager.LeftClickInput && !zone.lockGo.activeSelf)
 					{
-						IslandsLevelsMinigame.zoneStartLevelIndex = 0;
+						IslandsLevelsMinigame.startingLevelIndex = 0;
 						IslandsLevelsMinigame.zoneEndLevelIndex = 0;
 						for (int i = 0; i < zone.trs.GetSiblingIndex(); i ++)
 						{
-							IslandsLevelsMinigame.zoneStartLevelIndex += islandsLevelsData.levelZones[i].levelCount;
+							IslandsLevelsMinigame.startingLevelIndex += islandsLevelsData.levelZones[i].levelCount;
 							IslandsLevelsMinigame.zoneEndLevelIndex += islandsLevelsData.levelZones[i].levelCount;
 						}
 						IslandsLevelsMinigame.zoneEndLevelIndex += islandsLevelsData.levelZones[zone.trs.GetSiblingIndex()].levelCount;

@@ -4587,12 +4587,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 8070838706112381532, guid: 784f0ed6315e68140b62b114112dad69,
-        type: 3}
+      objectReference: {fileID: 2144318787}
     - target: {fileID: 7213918602578096180, guid: 47353e76929c88e40af1c59e5aeaed5c,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: ReloadActiveScene
+      value: Restart
       objectReference: {fileID: 0}
     - target: {fileID: 7213918602578096180, guid: 47353e76929c88e40af1c59e5aeaed5c,
         type: 3}
@@ -5951,8 +5950,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   islandsLevelsData: {fileID: 11400000, guid: 31290e9d5b7379a41a60022024dbd6ff, type: 2}
-  levelAreaPrefab: {fileID: 226970806455820297, guid: 383306eee7858b34b9a0d7d456ce9738,
-    type: 3}
   levelSeperation: 5
   nextLevelButton: {fileID: 1450757179}
   levelNameText: {fileID: 1270085058}
@@ -6166,10 +6163,10 @@ Camera:
   m_FocalLength: 50
   m_NormalizedViewPortRect:
     serializedVersion: 2
-    x: 0.027604163
-    y: 0
-    width: 0.9447917
-    height: 1
+    x: -0.25
+    y: 0.16666666
+    width: 1.5
+    height: 0.6666667
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
