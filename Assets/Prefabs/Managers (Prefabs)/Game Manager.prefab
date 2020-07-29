@@ -70,7 +70,6 @@ MonoBehaviour:
     realtime: 0
     text: {fileID: 0}
     durationPerCharacter: 0
-  possibleMoves: []
   grid: {fileID: 0}
   tilemaps: []
   zonesTilemap: {fileID: 0}

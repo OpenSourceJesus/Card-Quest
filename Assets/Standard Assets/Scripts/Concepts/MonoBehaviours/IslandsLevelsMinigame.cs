@@ -63,6 +63,7 @@ namespace MatchingCardGame
 				return;
 			}
 #endif
+			GameManager.updatables = GameManager.updatables.Add(this);
 		}
 
 		IEnumerator Start ()
@@ -78,7 +79,6 @@ namespace MatchingCardGame
 			yield return StartCoroutine(MakeNextLevelRoutine (islandsLevelsData.islandsLevelEntries[zoneStartLevelIndex]));
 			GoToNextLevel ();
 			StartCoroutine(MakeLevelsRoutine ());
-			GameManager.updatables = GameManager.updatables.Add(this);
 		}
 
 		public void DoUpdate ()
