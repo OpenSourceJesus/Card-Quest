@@ -19,6 +19,17 @@ namespace MatchingCardGame
 		bool previousLeftMouseButtonInput;
 		bool leftMouseButtonInput;
 		int moveCount;
+		public bool Completed
+		{
+			get
+			{
+				return PlayerPrefs.GetInt(name + " completed") == 1;
+			}
+			set
+			{
+				PlayerPrefs.SetInt(name + " completed", value.GetHashCode());
+			}
+		}
 
 		public override void DoUpdate ()
 		{
@@ -56,7 +67,10 @@ namespace MatchingCardGame
 							selectedCardIndicatorTrs.gameObject.SetActive(true);
 						}
 						if (IsLevelCompleted())
-							GameManager.GetSingleton<IslandsLevelsMinigame>().OnLevelComplete ();
+						{
+							Completed = true;
+							GameManager.GetSingleton<IslandsLevelsMinigame>().OnLevelComplete (this);
+						}
 					}
 					else
 					{
@@ -236,7 +250,6 @@ namespace MatchingCardGame
 		static Island MakeIsland (Vector2Int dimensions, int cardCount = 2, int cardTypeCount = 1, CardModifierEntry[] cardModifierEntries = null)
 		{
 			Island island = Instantiate(GameManager.GetSingleton<GameManager>().islandPrefab, islandsLevel.trs);
-			// island.trs.localScale = island.trs.localScale.SetZ(1);
 			List<Card> notUsedIslandCardPrefabs = new List<Card>();
 			notUsedIslandCardPrefabs.AddRange(GameManager.GetSingleton<GameManager>().islandsLevelCardPrefabs);
 			cardSize = notUsedIslandCardPrefabs[0].spriteRenderer.bounds.ToRect().size;

@@ -18,7 +18,9 @@ namespace MatchingCardGame
 				return true;
 			}
 		}
-		public static int startingLevelIndex = 0;
+		public static int zoneStartLevelIndex = 0;
+		public static int zoneEndLevelIndex = 10;
+		public static int currentLevelZone = 0;
 		public IslandsLevelsData islandsLevelsData;
 		public float levelSeperation;
 		public Button nextLevelButton;
@@ -70,10 +72,10 @@ namespace MatchingCardGame
 				yield break;
 #endif
 			islandsLevels = new IslandsLevel[islandsLevelsData.islandsLevelEntries.Length];
-			currentLevelIndex = startingLevelIndex - 1;
-			lastCompletedLevel = startingLevelIndex - 1;
-			latestLevelIndex = startingLevelIndex;
-			yield return StartCoroutine(MakeNextLevelRoutine (islandsLevelsData.islandsLevelEntries[startingLevelIndex]));
+			currentLevelIndex = zoneStartLevelIndex - 1;
+			lastCompletedLevel = zoneStartLevelIndex - 1;
+			latestLevelIndex = zoneStartLevelIndex;
+			yield return StartCoroutine(MakeNextLevelRoutine (islandsLevelsData.islandsLevelEntries[zoneStartLevelIndex]));
 			GoToNextLevel ();
 			StartCoroutine(MakeLevelsRoutine ());
 			GameManager.updatables = GameManager.updatables.Add(this);
@@ -86,11 +88,19 @@ namespace MatchingCardGame
 
 		public void GoToNextLevel ()
 		{
+			if (currentLevelIndex == zoneEndLevelIndex)
+			{
+				IslandsLevel level = islandsLevels[currentLevelIndex];
+				string zoneName = level.name.Remove(level.name.LastIndexOf(" "));
+				if (!WorldMap.zonesCompleted.Contains(zoneName))
+					WorldMap.zonesCompleted.Add(zoneName);
+				GameManager.GetSingleton<GameManager>().LoadScene ("World");
+			}
 			if (currentLevelIndex == lastCompletedLevel)
 				lastCompletedLevel ++;
 			if (latestLevelIndex == lastCompletedLevel)
 				nextLevelButton.interactable = false;
-			if (currentLevelIndex >= startingLevelIndex)
+			if (currentLevelIndex >= zoneStartLevelIndex)
 				islandsLevels[currentLevelIndex].enabled = false;
 			currentLevelIndex = lastCompletedLevel;
 			GoToLevel (currentLevelIndex);
@@ -98,7 +108,7 @@ namespace MatchingCardGame
 
 		IEnumerator MakeLevelsRoutine ()
 		{
-			for (int i = startingLevelIndex + 1; i < islandsLevelsData.islandsLevelEntries.Length; i ++)
+			for (int i = zoneStartLevelIndex + 1; i < zoneEndLevelIndex; i ++)
 				yield return StartCoroutine(MakeNextLevelRoutine (islandsLevelsData.islandsLevelEntries[i]));
 		}
 
@@ -121,7 +131,6 @@ namespace MatchingCardGame
 			foreach (CardGroup cardGroup in islandsLevel.cardGroups)
 			{
 				Island island = (Island) cardGroup;
-				island.trs.localScale = island.trs.localScale.SetZ(1);
 				foreach (Card card in island.cards)
 					card.gameObject.layer = 0;
 				foreach (CardSlot cardSlot in island.cardSlots)
@@ -143,7 +152,7 @@ namespace MatchingCardGame
 		bool HasEquivalentLevel (int levelIndex)
 		{
 			IslandsLevel level = islandsLevels[levelIndex];
-			for (int i = startingLevelIndex; i < latestLevelIndex; i ++)
+			for (int i = zoneStartLevelIndex; i < latestLevelIndex; i ++)
 			{
 				if (i != levelIndex)
 				{
@@ -200,7 +209,7 @@ namespace MatchingCardGame
 			GameManager.updatables = GameManager.updatables.Remove(this);
 		}
 
-		public void OnLevelComplete ()
+		public void OnLevelComplete (IslandsLevel level)
 		{
 			enabled = false;
 			nextLevelButton.gameObject.SetActive(true);

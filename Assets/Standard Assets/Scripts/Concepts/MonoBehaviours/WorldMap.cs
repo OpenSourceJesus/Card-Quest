@@ -21,6 +21,8 @@ namespace MatchingCardGame
 		public static Zone selectedZone;
 		public IslandsLevelsData islandsLevelsData;
 		public Zone[] zones = new Zone[0];
+		[SaveAndLoadValue(false)]
+		public static List<string> zonesCompleted = new List<string>();
 
 		void OnEnable ()
 		{
@@ -36,6 +38,11 @@ namespace MatchingCardGame
 				return;
 			}
 #endif
+			foreach (Zone zone in zones)
+			{
+				if (zonesCompleted.Contains(zone.trs.name))
+					zone.lockGo.SetActive(false);
+			}
 			selectedZone = null;
 			GameManager.updatables = GameManager.updatables.Add(this);
 		}
@@ -53,11 +60,16 @@ namespace MatchingCardGame
 							selectedZone.lineRenderer.enabled = false;
 						selectedZone = zone;
 					}
-					if (InputManager.LeftClickInput)
+					if (InputManager.LeftClickInput && !zone.lockGo.activeSelf)
 					{
-						IslandsLevelsMinigame.startingLevelIndex = 0;
-                        for (int i = 0; i < zone.trs.GetSiblingIndex(); i ++)
-                            IslandsLevelsMinigame.startingLevelIndex += islandsLevelsData.levelZones[i].levelCount;
+						IslandsLevelsMinigame.zoneStartLevelIndex = 0;
+						IslandsLevelsMinigame.zoneEndLevelIndex = 0;
+						for (int i = 0; i < zone.trs.GetSiblingIndex(); i ++)
+						{
+							IslandsLevelsMinigame.zoneStartLevelIndex += islandsLevelsData.levelZones[i].levelCount;
+							IslandsLevelsMinigame.zoneEndLevelIndex += islandsLevelsData.levelZones[i].levelCount;
+						}
+						IslandsLevelsMinigame.zoneEndLevelIndex += islandsLevelsData.levelZones[zone.trs.GetSiblingIndex()].levelCount;
 						GameManager.GetSingleton<GameManager>().LoadScene ("Level");
 					}
 					break;
@@ -74,6 +86,7 @@ namespace MatchingCardGame
 		public class Zone
 		{
 			public Transform trs;
+			public GameObject lockGo;
 			public LineRenderer lineRenderer;
 			public PolygonCollider2D polygonCollider;
 		} 

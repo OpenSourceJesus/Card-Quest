@@ -106,6 +106,8 @@ namespace MatchingCardGame
 		public static Dictionary<string, CursorEntry> cursorEntriesDict = new Dictionary<string, CursorEntry>();
 		public static CursorEntry activeCursorEntry;
 		public static Dictionary<string, GameModifier> gameModifierDict = new Dictionary<string, GameModifier>();
+		[SaveAndLoadValue(false)]
+		public static int stars;
 		public GameObject[] registeredGos = new GameObject[0];
 		public Animator screenEffectAnimator;
 		public CursorEntry[] cursorEntries;

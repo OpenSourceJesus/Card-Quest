@@ -57,7 +57,7 @@ namespace MatchingCardGame
 							islandSize.y = islandSize.x;
 						Vector2 islandPosition = islandRect.center - islandSize / 2;
 						island.trs.position = islandPosition;
-						island.trs.localScale = islandSize;
+						island.trs.localScale = islandSize.SetZ(1);
 						level.selectedCardIndicatorTrs.localScale = islandSize;
 						level.highlightedCardIndicatorTrs.localScale = islandSize;
 					}
