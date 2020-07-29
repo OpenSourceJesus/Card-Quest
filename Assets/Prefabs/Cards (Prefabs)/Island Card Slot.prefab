@@ -18,6 +18,8 @@ MonoBehaviour:
   position: {x: 0, y: 0}
   type: 
   cardSlotUnderMe: {fileID: 0}
+  cardModifiers: []
+  collider: {fileID: 1197622811265085582}
   cardAboveMe: {fileID: 0}
 --- !u!1001 &2949267166570807026
 PrefabInstance:
@@ -26,6 +28,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4067640272080653948, guid: 73949be1f9136484ea2a1e3979d3e608,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5854280874292825420, guid: 73949be1f9136484ea2a1e3979d3e608,
         type: 3}
       propertyPath: m_SortingOrder
@@ -114,6 +121,12 @@ Transform:
 --- !u!212 &8778487284010496958 stripped
 SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 5854280874292825420, guid: 73949be1f9136484ea2a1e3979d3e608,
+    type: 3}
+  m_PrefabInstance: {fileID: 2949267166570807026}
+  m_PrefabAsset: {fileID: 0}
+--- !u!61 &1197622811265085582 stripped
+BoxCollider2D:
+  m_CorrespondingSourceObject: {fileID: 4067640272080653948, guid: 73949be1f9136484ea2a1e3979d3e608,
     type: 3}
   m_PrefabInstance: {fileID: 2949267166570807026}
   m_PrefabAsset: {fileID: 0}

@@ -62,7 +62,6 @@ namespace MatchingCardGame
 				return;
 			}
 #endif
-			GameManager.updatables = GameManager.updatables.Add(this);
 		}
 
 		IEnumerator Start ()
@@ -78,6 +77,7 @@ namespace MatchingCardGame
 			yield return StartCoroutine(MakeNextLevelRoutine (islandsLevelsData.islandsLevelEntries[startingLevelIndex]));
 			GoToNextLevel ();
 			StartCoroutine(MakeLevelsRoutine ());
+			GameManager.updatables = GameManager.updatables.Add(this);
 		}
 
 		public void DoUpdate ()
@@ -186,8 +186,16 @@ namespace MatchingCardGame
 			backgroundImage.enabled = true;
 			movesText.text.text = "0";
 			levelNameText.text.text = level.name;
-			levelStartTime = Time.timeSinceLevelLoad;
+			foreach (CardGroup cardGroup in level.cardGroups)
+			{
+				Island island = (Island) cardGroup;
+				foreach (CardSlot cardSlot in island.cardSlots)
+					cardSlot.collider.isTrigger = false;
+				foreach (Card card in island.cards)
+					card.collider.isTrigger = false;
+			}
 			ShowLevel (level, levelEntry);
+			levelStartTime = Time.timeSinceLevelLoad;
 			enabled = true;
 		}
 

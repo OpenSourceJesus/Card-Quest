@@ -13,5 +13,6 @@ namespace MatchingCardGame
 		public string type;
 		public CardSlot cardSlotUnderMe;
 		public CardModifier[] cardModifiers = new CardModifier[0];
+		public Collider2D collider;
 	}
 }
