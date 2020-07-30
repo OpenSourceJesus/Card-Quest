@@ -8,6 +8,28 @@ namespace MatchingCardGame
 {
 	public class IslandsLevel : Level
 	{
+		public bool Completed
+		{
+			get
+			{
+				return PlayerPrefs.GetInt(name + " completed", 0) == 1;
+			}
+			set
+			{
+				PlayerPrefs.SetInt(name + " completed", value.GetHashCode());
+			}
+		}
+		public int Stars
+		{
+			get
+			{
+				return PlayerPrefs.GetInt(name + " stars", 0);
+			}
+			set
+			{
+				PlayerPrefs.SetInt(name + " stars", value);
+			}
+		}
 		public Card selectedCard;
 		public Card highlightedCard;
 		public Transform selectedCardIndicatorTrs;
@@ -19,17 +41,6 @@ namespace MatchingCardGame
 		bool previousLeftMouseButtonInput;
 		bool leftMouseButtonInput;
 		int moveCount;
-		public bool Completed
-		{
-			get
-			{
-				return PlayerPrefs.GetInt(name + " completed") == 1;
-			}
-			set
-			{
-				PlayerPrefs.SetInt(name + " completed", value.GetHashCode());
-			}
-		}
 
 		public override void DoUpdate ()
 		{

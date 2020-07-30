@@ -26,5 +26,18 @@ namespace Extensions
 			Vector2 outputMax = canvasRect.ToNormalizedPosition(output.max);
 			return Rect.MinMaxRect(outputMin.x, outputMin.y, outputMax.x, outputMax.y);
 		}
+
+		public static void SetAnchorsToRect (this RectTransform rectTrs)
+		{
+			Rect parentRect = ((RectTransform) rectTrs.parent).GetWorldRect();
+			Rect rect = rectTrs.GetWorldRect();
+			Vector2 previousLocalPosition = rectTrs.localPosition;
+			Vector2 previousSizeDelta = rectTrs.sizeDelta;
+			rectTrs.anchorMin = parentRect.ToNormalizedPosition(rect.min);
+			rectTrs.anchorMax = parentRect.ToNormalizedPosition(rect.max);
+			rectTrs.SetSizeWithCurrentAnchors(RectTransform.Axis.Horizontal, previousSizeDelta.x);
+			rectTrs.SetSizeWithCurrentAnchors(RectTransform.Axis.Vertical, previousSizeDelta.y);
+			rectTrs.localPosition = previousLocalPosition;
+		}
 	}
 }
