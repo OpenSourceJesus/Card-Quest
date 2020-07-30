@@ -91,8 +91,8 @@ namespace MatchingCardGame
 			{
 				IslandsLevel level = islandsLevels[currentLevelIndex];
 				string zoneName = level.name.Remove(level.name.IndexOf(" "));
-				if (!WorldMap.completedZoneNames.Contains(zoneName))
-					WorldMap.completedZoneNames.Add(zoneName);
+				if (!GameManager.completedZoneNames.Contains(zoneName))
+					GameManager.completedZoneNames.Add(zoneName);
 				GameManager.GetSingleton<GameManager>().LoadScene ("World");
 				return;
 			}

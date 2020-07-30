@@ -108,6 +108,8 @@ namespace MatchingCardGame
 		public static Dictionary<string, GameModifier> gameModifierDict = new Dictionary<string, GameModifier>();
 		[SaveAndLoadValue(false)]
 		public static int stars;
+		[SaveAndLoadValue(false)]
+		public static List<string> completedZoneNames = new List<string>();
 		public GameObject[] registeredGos = new GameObject[0];
 		public Animator screenEffectAnimator;
 		public CursorEntry[] cursorEntries;
@@ -364,10 +366,8 @@ namespace MatchingCardGame
 
 		public virtual void OnApplicationQuit ()
 		{
-			PauseGame (true);
-			if (AccountManager.lastUsedAccountIndex == -1)
-				return;
-			AccountManager.CurrentlyPlaying.PlayTime += Time.time;
+			if (AccountManager.lastUsedAccountIndex != -1)
+				AccountManager.CurrentlyPlaying.PlayTime += Time.time;
 			GetSingleton<SaveAndLoadManager>().Save ();
 		}
 

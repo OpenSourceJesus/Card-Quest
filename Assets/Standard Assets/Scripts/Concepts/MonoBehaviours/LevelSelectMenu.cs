@@ -5,20 +5,8 @@ using IslandsLevelZone = MatchingCardGame.IslandsLevelsData.IslandsLevelZone;
 
 namespace MatchingCardGame
 {
-	public class LevelSelectMenu : MonoBehaviour, ISaveableAndLoadable
+	public class LevelSelectMenu : MonoBehaviour
 	{
-		public int uniqueId;
-		public int UniqueId
-		{
-			get
-			{
-				return uniqueId;
-			}
-			set
-			{
-				uniqueId = value;
-			}
-		}
 		public static int currentZoneIndex;
 		public IslandsLevelsData islandsLevelsData;
 		public LevelButton levelButtonPrefab;
