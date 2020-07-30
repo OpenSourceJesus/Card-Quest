@@ -33,11 +33,11 @@ namespace MatchingCardGame
 			{
 				LevelButton levelButton = Instantiate(levelButtonPrefab, levelButtonsParent);
 				levelButton.text.text.text = currentLevelZone.firstLevelEntry.name + " " + (i + 1);
-				levelButton.button.onClick.AddListener(delegate { OnLevelButtonPressed (levelButton.trs.GetSiblingIndex()); });
+				levelButton.button.onClick.AddListener(delegate { OnLevelButtonPressed (levelButton); });
 			}
 		}
 
-		void OnLevelButtonPressed (int index)
+		void OnLevelButtonPressed (LevelButton levelButton)
 		{
 			IslandsLevelsMinigame.startingLevelIndex = 0;
 			IslandsLevelsMinigame.zoneEndLevelIndex = 0;
@@ -47,7 +47,7 @@ namespace MatchingCardGame
 				IslandsLevelsMinigame.startingLevelIndex += levelZone.levelCount;
 				IslandsLevelsMinigame.zoneEndLevelIndex += levelZone.levelCount;
 			}
-			IslandsLevelsMinigame.startingLevelIndex += index;
+			IslandsLevelsMinigame.startingLevelIndex += levelButton.trs.GetSiblingIndex();
 			IslandsLevelsMinigame.zoneEndLevelIndex += islandsLevelsData.levelZones[currentZoneIndex].levelCount;
 			GameManager.GetSingleton<GameManager>().LoadScene ("Level");
 		}

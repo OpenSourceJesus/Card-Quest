@@ -152,6 +152,174 @@ MonoBehaviour:
       width: 3.0797644
       height: 2.8655803
     cameraOffset: {x: -0.06, y: 0.2}
+  - name: Beach 3
+    dimensions: {x: 2, y: 3}
+    cardCount: 4
+    cardTypeCount: 1
+    islandCount: 2
+    moveCount: 3
+    cardModifierEntries: []
+    backgroundSprite: {fileID: 21300000, guid: 90e57e9332b4032f884160338ad12ed4, type: 3}
+    islandOrientationColliders: []
+    islandRects:
+    - serializedVersion: 2
+      x: -3.6267653
+      y: -1.7292558
+      width: 3.0797157
+      height: 2.8655803
+    - serializedVersion: 2
+      x: 0.6864872
+      y: -1.7292558
+      width: 3.0797644
+      height: 2.8655803
+    cameraOffset: {x: -0.06, y: 0.2}
+  - name: Beach 4
+    dimensions: {x: 2, y: 3}
+    cardCount: 4
+    cardTypeCount: 1
+    islandCount: 2
+    moveCount: 4
+    cardModifierEntries: []
+    backgroundSprite: {fileID: 21300000, guid: 90e57e9332b4032f884160338ad12ed4, type: 3}
+    islandOrientationColliders: []
+    islandRects:
+    - serializedVersion: 2
+      x: -3.6267653
+      y: -1.7292558
+      width: 3.0797157
+      height: 2.8655803
+    - serializedVersion: 2
+      x: 0.6864872
+      y: -1.7292558
+      width: 3.0797644
+      height: 2.8655803
+    cameraOffset: {x: -0.06, y: 0.2}
+  - name: Beach 5
+    dimensions: {x: 2, y: 3}
+    cardCount: 4
+    cardTypeCount: 1
+    islandCount: 2
+    moveCount: 5
+    cardModifierEntries: []
+    backgroundSprite: {fileID: 21300000, guid: 90e57e9332b4032f884160338ad12ed4, type: 3}
+    islandOrientationColliders: []
+    islandRects:
+    - serializedVersion: 2
+      x: -3.6267653
+      y: -1.7292558
+      width: 3.0797157
+      height: 2.8655803
+    - serializedVersion: 2
+      x: 0.6864872
+      y: -1.7292558
+      width: 3.0797644
+      height: 2.8655803
+    cameraOffset: {x: -0.06, y: 0.2}
+  - name: Beach 6
+    dimensions: {x: 2, y: 3}
+    cardCount: 4
+    cardTypeCount: 1
+    islandCount: 2
+    moveCount: 6
+    cardModifierEntries: []
+    backgroundSprite: {fileID: 21300000, guid: 90e57e9332b4032f884160338ad12ed4, type: 3}
+    islandOrientationColliders: []
+    islandRects:
+    - serializedVersion: 2
+      x: -3.6267653
+      y: -1.7292558
+      width: 3.0797157
+      height: 2.8655803
+    - serializedVersion: 2
+      x: 0.6864872
+      y: -1.7292558
+      width: 3.0797644
+      height: 2.8655803
+    cameraOffset: {x: -0.06, y: 0.2}
+  - name: Beach 7
+    dimensions: {x: 2, y: 3}
+    cardCount: 4
+    cardTypeCount: 1
+    islandCount: 2
+    moveCount: 7
+    cardModifierEntries: []
+    backgroundSprite: {fileID: 21300000, guid: 90e57e9332b4032f884160338ad12ed4, type: 3}
+    islandOrientationColliders: []
+    islandRects:
+    - serializedVersion: 2
+      x: -3.6267653
+      y: -1.7292558
+      width: 3.0797157
+      height: 2.8655803
+    - serializedVersion: 2
+      x: 0.6864872
+      y: -1.7292558
+      width: 3.0797644
+      height: 2.8655803
+    cameraOffset: {x: -0.06, y: 0.2}
+  - name: Beach 8
+    dimensions: {x: 2, y: 3}
+    cardCount: 4
+    cardTypeCount: 1
+    islandCount: 2
+    moveCount: 8
+    cardModifierEntries: []
+    backgroundSprite: {fileID: 21300000, guid: 90e57e9332b4032f884160338ad12ed4, type: 3}
+    islandOrientationColliders: []
+    islandRects:
+    - serializedVersion: 2
+      x: -3.6267653
+      y: -1.7292558
+      width: 3.0797157
+      height: 2.8655803
+    - serializedVersion: 2
+      x: 0.6864872
+      y: -1.7292558
+      width: 3.0797644
+      height: 2.8655803
+    cameraOffset: {x: -0.06, y: 0.2}
+  - name: Beach 9
+    dimensions: {x: 2, y: 3}
+    cardCount: 4
+    cardTypeCount: 1
+    islandCount: 2
+    moveCount: 9
+    cardModifierEntries: []
+    backgroundSprite: {fileID: 21300000, guid: 90e57e9332b4032f884160338ad12ed4, type: 3}
+    islandOrientationColliders: []
+    islandRects:
+    - serializedVersion: 2
+      x: -3.6267653
+      y: -1.7292558
+      width: 3.0797157
+      height: 2.8655803
+    - serializedVersion: 2
+      x: 0.6864872
+      y: -1.7292558
+      width: 3.0797644
+      height: 2.8655803
+    cameraOffset: {x: -0.06, y: 0.2}
+  - name: Beach 10
+    dimensions: {x: 2, y: 3}
+    cardCount: 4
+    cardTypeCount: 1
+    islandCount: 2
+    moveCount: 10
+    cardModifierEntries: []
+    backgroundSprite: {fileID: 21300000, guid: 90e57e9332b4032f884160338ad12ed4, type: 3}
+    islandOrientationColliders: []
+    islandRects:
+    - serializedVersion: 2
+      x: -3.6267653
+      y: -1.7292558
+      width: 3.0797157
+      height: 2.8655803
+    - serializedVersion: 2
+      x: 0.6864872
+      y: -1.7292558
+      width: 3.0797644
+      height: 2.8655803
+    cameraOffset: {x: -0.06, y: 0.2}
   - name: Urban 1
     dimensions: {x: 3, y: 3}
     cardCount: 6
