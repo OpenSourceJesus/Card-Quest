@@ -50,6 +50,7 @@ namespace MatchingCardGame
 				return;
 			}
 #endif
+			GameManager.GetSingleton<SaveAndLoadManager>().LoadMostRecent ();
 			Zone previousZone = zones[0];
 			for (int i = 1; i < zones.Length; i ++)
 			{
