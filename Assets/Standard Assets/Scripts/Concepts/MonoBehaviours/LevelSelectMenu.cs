@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.UI;
 using IslandsLevelEntry = MatchingCardGame.IslandsLevelsData.IslandsLevelEntry;
 using IslandsLevelZone = MatchingCardGame.IslandsLevelsData.IslandsLevelZone;
 
@@ -22,10 +23,12 @@ namespace MatchingCardGame
 		public IslandsLevelsData islandsLevelsData;
 		public LevelButton levelButtonPrefab;
 		public Transform levelButtonsParent;
+		public Image backgroundImage;
 
 		void OnEnable ()
 		{
 			IslandsLevelZone currentLevelZone = islandsLevelsData.levelZones[currentZoneIndex];
+			backgroundImage.sprite = currentLevelZone.firstLevelEntry.backgroundSprite;
 			for (int i = 0; i < currentLevelZone.levelCount; i ++)
 			{
 				LevelButton levelButton = Instantiate(levelButtonPrefab, levelButtonsParent);
