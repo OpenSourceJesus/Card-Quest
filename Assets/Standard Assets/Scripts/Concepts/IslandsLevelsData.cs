@@ -24,6 +24,7 @@ namespace MatchingCardGame
 			public BoxCollider2D[] islandOrientationColliders = new BoxCollider2D[0];
 			public Rect[] islandRects = new Rect[0];
 			public Vector2 cameraOffset;
+			public float timePerMove;
 
 			public IslandsLevelEntry (IslandsLevelEntry islandsLevelEntry)
 			{
@@ -36,6 +37,7 @@ namespace MatchingCardGame
 				islandOrientationColliders = islandsLevelEntry.islandOrientationColliders;
 				islandRects = islandsLevelEntry.islandRects;
 				cameraOffset = islandsLevelEntry.cameraOffset;
+				timePerMove = islandsLevelEntry.timePerMove;
 				islandsLevelEntry.cardModifierEntries.CopyTo(cardModifierEntries, 0);
 			}
 
@@ -70,6 +72,7 @@ namespace MatchingCardGame
 		public class IslandsLevelZone
 		{
 			public IslandsLevelEntry firstLevelEntry;
+			public int starsRequiredToUnlockMe;
 			public int levelCount = 10;
 		}
 	}

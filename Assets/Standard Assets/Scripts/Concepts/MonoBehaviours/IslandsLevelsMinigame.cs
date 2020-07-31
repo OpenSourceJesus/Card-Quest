@@ -27,6 +27,10 @@ namespace MatchingCardGame
 		public _Text timeText;
 		public _Text movesText;
 		public Image backgroundImage;
+		public GameObject[] statusMenuStarIconGos = new GameObject[0];
+		public GameObject[] nextLevelScreenStarIconGos = new GameObject[0];
+		bool isOverParTime;
+		bool isOverMoveCount;
 		IslandsLevel[] islandsLevels = new IslandsLevel[0];
 		Rect previousIslandsLevelBoundsRect = RectExtensions.NULL;
 		Vector2 previousIslandsLevelPosition = VectorExtensions.NULL;
@@ -34,7 +38,11 @@ namespace MatchingCardGame
 		int latestLevelIndex = 0;
 		int lastCompletedLevel = -1;
 		float levelStartTime;
-
+		float levelTime;
+		IslandsLevelEntry currentLevelEntry;
+		int moveCount;
+		int indexOfNextStarToLose;
+		
 		void OnEnable ()
 		{
 #if UNITY_EDITOR
@@ -82,28 +90,17 @@ namespace MatchingCardGame
 
 		public void DoUpdate ()
 		{
-			timeText.text.text = (Time.timeSinceLevelLoad - levelStartTime).ToString("F1");
-		}
-
-		public void GoToNextLevel ()
-		{
-			if (currentLevelIndex == zoneEndLevelIndex - 1)
-			{
-				IslandsLevel level = islandsLevels[currentLevelIndex];
-				string zoneName = level.name.Remove(level.name.IndexOf(" "));
-				if (!GameManager.completedZoneNames.Contains(zoneName))
-					GameManager.completedZoneNames.Add(zoneName);
-				GameManager.GetSingleton<GameManager>().LoadScene ("World");
+			levelTime = Time.timeSinceLevelLoad - levelStartTime;
+			timeText.text.text = levelTime.ToString("F1");
+			if (currentLevelEntry == null)
 				return;
+			if (!isOverParTime && levelTime > currentLevelEntry.timePerMove * currentLevelEntry.moveCount)
+			{
+				isOverParTime = true;
+				statusMenuStarIconGos[indexOfNextStarToLose].SetActive(false);
+				nextLevelScreenStarIconGos[indexOfNextStarToLose].SetActive(false);
+				indexOfNextStarToLose ++;
 			}
-			if (currentLevelIndex == lastCompletedLevel)
-				lastCompletedLevel ++;
-			if (latestLevelIndex == lastCompletedLevel)
-				nextLevelButton.interactable = false;
-			if (currentLevelIndex >= startingLevelIndex)
-				islandsLevels[currentLevelIndex].enabled = false;
-			currentLevelIndex = lastCompletedLevel;
-			GoToLevel (currentLevelIndex);
 		}
 
 		IEnumerator MakeLevelsRoutine ()
@@ -164,6 +161,53 @@ namespace MatchingCardGame
 			return false;
 		}
 
+		public void GoToNextLevel ()
+		{
+			if (currentLevelIndex == zoneEndLevelIndex - 1)
+			{
+				IslandsLevel level = islandsLevels[currentLevelIndex];
+				string zoneName = level.name.Remove(level.name.IndexOf(" "));
+				if (!GameManager.completedZoneNames.Contains(zoneName))
+					GameManager.completedZoneNames.Add(zoneName);
+				GameManager.GetSingleton<GameManager>().LoadScene ("World");
+				return;
+			}
+			if (currentLevelIndex == lastCompletedLevel)
+				lastCompletedLevel ++;
+			if (latestLevelIndex == lastCompletedLevel)
+				nextLevelButton.interactable = false;
+			if (currentLevelIndex >= startingLevelIndex)
+				islandsLevels[currentLevelIndex].enabled = false;
+			currentLevelIndex = lastCompletedLevel;
+			GoToLevel (currentLevelIndex);
+		}
+
+		void GoToLevel (int levelIndex)
+		{
+			IslandsLevel currentLevel = islandsLevels[levelIndex];
+			currentLevel.enabled = true;
+			currentLevelEntry = islandsLevelsData.islandsLevelEntries[levelIndex];
+			backgroundImage.sprite = currentLevelEntry.backgroundSprite;
+			backgroundImage.enabled = true;
+			movesText.text.text = "0";
+			levelNameText.text.text = currentLevel.name;
+			foreach (CardGroup cardGroup in currentLevel.cardGroups)
+			{
+				Island island = (Island) cardGroup;
+				foreach (CardSlot cardSlot in island.cardSlots)
+					cardSlot.collider.isTrigger = false;
+				foreach (Card card in island.cards)
+					card.collider.isTrigger = false;
+			}
+			foreach (GameObject starIconGo in statusMenuStarIconGos)
+				starIconGo.SetActive(true);
+			foreach (GameObject starIconGo in nextLevelScreenStarIconGos)
+				starIconGo.SetActive(true);
+			ShowLevel (currentLevel, currentLevelEntry);
+			levelStartTime = Time.timeSinceLevelLoad;
+			enabled = true;
+		}
+
 		void ShowLevel (int levelIndex)
 		{
 			ShowLevel (islandsLevels[levelIndex], islandsLevelsData.islandsLevelEntries[levelIndex]);
@@ -182,28 +226,6 @@ namespace MatchingCardGame
 			GameManager.GetSingleton<CameraScript>().trs.position = (viewRect.center + islandsLevelEntry.cameraOffset).SetZ(GameManager.GetSingleton<CameraScript>().trs.position.z);
 		}
 
-		void GoToLevel (int levelIndex)
-		{
-			IslandsLevel level = islandsLevels[levelIndex];
-			level.enabled = true;
-			IslandsLevelEntry levelEntry = islandsLevelsData.islandsLevelEntries[levelIndex];
-			backgroundImage.sprite = levelEntry.backgroundSprite;
-			backgroundImage.enabled = true;
-			movesText.text.text = "0";
-			levelNameText.text.text = level.name;
-			foreach (CardGroup cardGroup in level.cardGroups)
-			{
-				Island island = (Island) cardGroup;
-				foreach (CardSlot cardSlot in island.cardSlots)
-					cardSlot.collider.isTrigger = false;
-				foreach (Card card in island.cards)
-					card.collider.isTrigger = false;
-			}
-			ShowLevel (level, levelEntry);
-			levelStartTime = Time.timeSinceLevelLoad;
-			enabled = true;
-		}
-
 		void OnDisable ()
 		{
 			GameManager.updatables = GameManager.updatables.Remove(this);
@@ -212,6 +234,21 @@ namespace MatchingCardGame
 		public void OnLevelComplete (IslandsLevel level)
 		{
 			enabled = false;
+			int stars = 1;
+			IslandsLevelEntry levelEntry = null;
+			for (int i = 0; i < islandsLevelsData.islandsLevelEntries.Length; i ++)
+			{
+				levelEntry = islandsLevelsData.islandsLevelEntries[i];
+				if (levelEntry.name == level.name)
+					break;
+			}
+			if (levelTime <= levelEntry.timePerMove * levelEntry.moveCount)
+				stars ++;
+			if (moveCount <= levelEntry.moveCount)
+				stars ++;
+			if (stars > GetLevelStars(level.name))
+				SetLevelStars (level.name, stars);
+			SetLevelCompleted (level.name, true);
 			nextLevelButton.gameObject.SetActive(true);
 		}
 
@@ -219,6 +256,39 @@ namespace MatchingCardGame
 		{
 			startingLevelIndex = currentLevelIndex;
 			GameManager.GetSingleton<GameManager>().ReloadActiveScene ();
+		}
+
+		public void OnMoveMade ()
+		{
+			moveCount ++;
+			movesText.text.text = "" + moveCount;
+			if (!isOverMoveCount && moveCount > currentLevelEntry.moveCount)
+			{
+				isOverMoveCount = true;
+				statusMenuStarIconGos[indexOfNextStarToLose].SetActive(false);
+				nextLevelScreenStarIconGos[indexOfNextStarToLose].SetActive(false);
+				indexOfNextStarToLose ++;
+			}
+		}
+
+		public static bool GetLevelCompleted (string levelName)
+		{
+			return PlayerPrefs.GetInt(levelName + " completed", 0) == 1;
+		}
+
+		public static void SetLevelCompleted (string levelName, bool completed)
+		{
+			PlayerPrefs.SetInt(levelName + " completed", completed.GetHashCode());
+		}
+
+		public static int GetLevelStars (string levelName)
+		{
+			return PlayerPrefs.GetInt(levelName + " stars", 0);
+		}
+
+		public static void SetLevelStars (string levelName, int stars)
+		{
+			PlayerPrefs.SetInt(levelName + " stars", stars);
 		}
 	}
 }

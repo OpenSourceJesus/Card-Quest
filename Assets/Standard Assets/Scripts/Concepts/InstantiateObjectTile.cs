@@ -13,7 +13,7 @@ namespace MatchingCardGame
 			if (go != null)
 			{
 				Transform trs = go.GetComponent<Transform>();
-				trs.position = GameManager.GetSingleton<GameManager>().grid.GetCellCenterWorld(location);
+				trs.position = GameManager.GetSingleton<Grid>().GetCellCenterWorld(location);
 				trs.rotation = tilemap.GetTransformMatrix(location).rotation;
 				SpriteRenderer spriteRenderer = go.GetComponent<SpriteRenderer>();
 				if (spriteRenderer != null)

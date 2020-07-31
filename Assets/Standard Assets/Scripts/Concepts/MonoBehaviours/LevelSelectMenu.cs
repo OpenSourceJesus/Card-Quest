@@ -17,11 +17,21 @@ namespace MatchingCardGame
 		{
 			IslandsLevelZone currentLevelZone = islandsLevelsData.levelZones[currentZoneIndex];
 			backgroundImage.sprite = currentLevelZone.firstLevelEntry.backgroundSprite;
+			int indexOfFirstLevelInCurrentZone = 0;
+			for (int i = 0; i < currentZoneIndex; i ++)
+			{
+				IslandsLevelZone levelZone = islandsLevelsData.levelZones[i];
+				indexOfFirstLevelInCurrentZone += levelZone.levelCount;
+			}
 			for (int i = 0; i < currentLevelZone.levelCount; i ++)
 			{
 				LevelButton levelButton = Instantiate(levelButtonPrefab, levelButtonsParent);
-				levelButton.text.text.text = currentLevelZone.firstLevelEntry.name + " " + (i + 1);
+				IslandsLevelEntry levelEntry = islandsLevelsData.islandsLevelEntries[indexOfFirstLevelInCurrentZone + i];
+				levelButton.text.text.text = levelEntry.name;
 				levelButton.button.onClick.AddListener(delegate { OnLevelButtonPressed (levelButton); });
+				int starsRemaining = levelButton.starIconGos.Length - IslandsLevelsMinigame.GetLevelStars(levelEntry.name);
+				for (int i2 = 0; i2 < starsRemaining; i2 ++)
+					levelButton.starIconGos[i2].SetActive(false);
 			}
 		}
 

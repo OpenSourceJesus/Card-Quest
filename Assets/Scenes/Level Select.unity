@@ -810,13 +810,13 @@ MonoBehaviour:
   m_Padding:
     m_Left: 5
     m_Right: 5
-    m_Top: 5
+    m_Top: 35
     m_Bottom: 5
   m_ChildAlignment: 4
   m_StartCorner: 0
   m_StartAxis: 0
   m_CellSize: {x: 142.1, y: 62.3}
-  m_Spacing: {x: 5, y: 25}
+  m_Spacing: {x: 5, y: 35}
   m_Constraint: 1
   m_ConstraintCount: 5
 --- !u!20 &260698450794921461
@@ -967,10 +967,10 @@ Camera:
   m_FocalLength: 50
   m_NormalizedViewPortRect:
     serializedVersion: 2
-    x: -2.3966944
-    y: 0.41369474
-    width: 5.793389
-    height: 0.17261055
+    x: 0.027604163
+    y: 0
+    width: 0.9447917
+    height: 1
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60

@@ -120,18 +120,6 @@ namespace MatchingCardGame
 		public Canvas[] canvases = new Canvas[0];
 		public GameObject emptyGoPrefab;
 		public TemporaryActiveText notificationText;
-		public Grid grid;
-		public Tilemap[] tilemaps = new Tilemap[0];
-		public Tilemap zonesTilemap;
-		public Tilemap unexploredTilemap;
-		public LayerMask whatIsEnemy;
-		public LayerMask whatIsTrap;
-		public LayerMask whatIsRedDoor;
-		public float accelerometerUpdateInterval = 1.0f / 60.0f;
-		public float lowPassKernelWidthInSeconds = 1.0f;
-		public float shakeDetectionThreshold = 2.0f;
-		public GameObject textPanelGo;
-		public _Text textPanelText;
 		public IslandsLevel islandsLevelPrefab;
 		public Island islandPrefab;
 		public Card[] islandsLevelCardPrefabs = new Card[0];
@@ -142,8 +130,6 @@ namespace MatchingCardGame
 #if UNITY_EDITOR
 		public bool doEditorUpdates;
 #endif
-		Vector3 acceleration;
-		Vector2 moveInput;
 
 		public override void Awake ()
 		{
@@ -185,9 +171,6 @@ namespace MatchingCardGame
 				LoadGameScenes ();
 			else if (GetSingleton<CameraScript>() != null)
 				StartCoroutine(OnGameSceneLoadedRoutine ());
-			lowPassFilterFactor = accelerometerUpdateInterval / lowPassKernelWidthInSeconds;
-			shakeDetectionThreshold *= shakeDetectionThreshold;
-			lowPassValue = InputManager.Acceleration;
 		}
 
 		void Init ()
@@ -195,6 +178,7 @@ namespace MatchingCardGame
 			// GetSingleton<Player>().OnMove ();
 			initialized = true;
 		}
+		
 		public IEnumerator OnGameSceneLoadedRoutine ()
 		{
 			gameModifierDict.Clear();

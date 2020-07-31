@@ -8,28 +8,6 @@ namespace MatchingCardGame
 {
 	public class IslandsLevel : Level
 	{
-		public bool Completed
-		{
-			get
-			{
-				return PlayerPrefs.GetInt(name + " completed", 0) == 1;
-			}
-			set
-			{
-				PlayerPrefs.SetInt(name + " completed", value.GetHashCode());
-			}
-		}
-		public int Stars
-		{
-			get
-			{
-				return PlayerPrefs.GetInt(name + " stars", 0);
-			}
-			set
-			{
-				PlayerPrefs.SetInt(name + " stars", value);
-			}
-		}
 		public Card selectedCard;
 		public Card highlightedCard;
 		public Transform selectedCardIndicatorTrs;
@@ -40,7 +18,6 @@ namespace MatchingCardGame
 		CardModifier[] cardModifiers = new CardModifier[0];
 		bool previousLeftMouseButtonInput;
 		bool leftMouseButtonInput;
-		int moveCount;
 
 		public override void DoUpdate ()
 		{
@@ -65,10 +42,7 @@ namespace MatchingCardGame
 					if (selectedCard != null && highlightedCard is CardSlot)
 					{
 						if (TryToMoveSelectedCardToHighlightedPosition ())
-						{
-							moveCount ++;
-							GameManager.GetSingleton<IslandsLevelsMinigame>().movesText.text.text = "" + moveCount;
-						}
+							GameManager.GetSingleton<IslandsLevelsMinigame>().OnMoveMade ();
 						else
 						{
 							selectedCard = highlightedCard;
@@ -78,10 +52,7 @@ namespace MatchingCardGame
 							selectedCardIndicatorTrs.gameObject.SetActive(true);
 						}
 						if (IsLevelCompleted())
-						{
-							Completed = true;
 							GameManager.GetSingleton<IslandsLevelsMinigame>().OnLevelComplete (this);
-						}
 					}
 					else
 					{
@@ -105,6 +76,35 @@ namespace MatchingCardGame
 		}
 
 		bool IsLevelCompleted ()
+		{
+			Dictionary<Vector2Int, string> cardTypePositions = new Dictionary<Vector2Int, string>();
+			for (int i = 0; i < cardGroups.Length; i ++)
+			{
+				Island island = (Island) cardGroups[i];
+				foreach (CardSlot cardSlot in island.cardSlots)
+				{
+					if (cardSlot.cardAboveMe != null)
+					{
+						if (i == 0)
+							cardTypePositions.Add(cardSlot.position, cardSlot.cardAboveMe.type);
+						else
+						{
+							string cardType;
+							if (cardTypePositions.TryGetValue(cardSlot.position, out cardType) && cardType == cardSlot.cardAboveMe.type)
+							{
+							}
+							else
+								return false;
+						}
+					}
+					else if (i > 0 && cardTypePositions.ContainsKey(cardSlot.position))
+						return false;
+				}
+			}
+			return true;
+		}
+
+		bool GetMatchCount ()
 		{
 			Dictionary<Vector2Int, string> cardTypePositions = new Dictionary<Vector2Int, string>();
 			for (int i = 0; i < cardGroups.Length; i ++)
@@ -362,16 +362,19 @@ namespace MatchingCardGame
 				if ((cardSlotToMoveTo as CardSlot) == null || cardToMove == null || cardToMove.cardSlotUnderMe == null)
 					return false;
 				islandsLevel.MoveSelectedCardToHighlightedPosition();
-				foreach (CardGroup cardGroup in islandsLevel.cardGroups)
-				{
-					foreach (Card card in cardGroup.cards)
-					{
-						if (card.cardSlotUnderMe == null)
-							return false;
-					}
-				}
+				// foreach (CardGroup cardGroup in islandsLevel.cardGroups)
+				// {
+				// 	foreach (Card card in cardGroup.cards)
+				// 	{
+				// 		if (card.cardSlotUnderMe == null)
+				// 			return false;
+				// 	}
+				// }
+				if (islandsLevel.IsLevelCompleted ())
+					return false;
 			}
-			return !islandsLevel.IsLevelCompleted();
+			// return !islandsLevel.IsLevelCompleted();
+			return true;
 		}
 
 		static bool IsCardNextToSameType (Card card)

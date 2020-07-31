@@ -1,14 +1,16 @@
 #if UNITY_EDITOR
 using UnityEngine;
 using MatchingCardGame;
+using UnityEngine.Tilemaps;
 
 public class HexGridTransform : EditorScript
 {
 	public Transform trs;
+	public Grid grid;
 
 	public override void DoEditorUpdate ()
 	{
-		trs.localPosition = GameManager.GetSingleton<GameManager>().grid.GetCellCenterWorld(GameManager.GetSingleton<GameManager>().grid.WorldToCell(trs.localPosition));
+		trs.localPosition = grid.GetCellCenterWorld(grid.WorldToCell(trs.localPosition));
 	}
 }
 #else

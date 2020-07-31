@@ -8,5 +8,6 @@ namespace MatchingCardGame
 		public Transform trs;
 		public Button button;
 		public _Text text;
+		public GameObject[] starIconGos = new GameObject[0];
 	}
 }
