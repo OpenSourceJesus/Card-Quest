@@ -246,8 +246,12 @@ namespace MatchingCardGame
 				stars ++;
 			if (moveCount <= levelEntry.moveCount)
 				stars ++;
-			if (stars > GetLevelStars(level.name))
+			int previousStars = GetLevelStars(level.name);
+			if (stars > previousStars)
+			{
+				GameManager.stars += stars - previousStars;
 				SetLevelStars (level.name, stars);
+			}
 			SetLevelCompleted (level.name, true);
 			nextLevelButton.gameObject.SetActive(true);
 		}
