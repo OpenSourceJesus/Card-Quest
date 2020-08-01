@@ -13,6 +13,7 @@ namespace MatchingCardGame
 		public Transform selectedCardIndicatorTrs;
 		public Transform highlightedCardIndicatorTrs;
 		public Transform trs;
+		public int movesRequiredToWin;
 		public static Vector2 cardSize;
 		CardModifier[] cardModifiers = new CardModifier[0];
 		bool previousLeftMouseButtonInput;
@@ -357,12 +358,16 @@ namespace MatchingCardGame
 				islandsLevel.highlightedCard = cardSlotToMoveTo;
 				islandsLevel.MoveSelectedCardToHighlightedPosition();
 				int matchCount = islandsLevel.GetMatchCount();
-				if (matchCount >= previousMatchCount && matchCount > 0)
-					return false;
-				else if (matchCount == 0)
+				if (matchCount == 0)
+				{
+					islandsLevel.movesRequiredToWin = i + 1;
 					return true;
+				}
+				else if (matchCount >= previousMatchCount)
+					return false;
 				previousMatchCount = matchCount;
 			}
+			islandsLevel.movesRequiredToWin = moveCount;
 			return true;
 		}
 

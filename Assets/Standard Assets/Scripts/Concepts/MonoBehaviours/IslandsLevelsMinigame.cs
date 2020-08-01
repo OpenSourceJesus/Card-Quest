@@ -40,6 +40,7 @@ namespace MatchingCardGame
 		float levelStartTime;
 		float levelTime;
 		IslandsLevelEntry currentLevelEntry;
+		IslandsLevel currentLevel;
 		int moveCount;
 		int indexOfNextStarToLose;
 		
@@ -91,9 +92,9 @@ namespace MatchingCardGame
 		public void DoUpdate ()
 		{
 			levelTime = Time.timeSinceLevelLoad - levelStartTime;
-			timeText.text.text = levelTime.ToString("F1");
 			if (currentLevelEntry == null)
 				return;
+			timeText.text.text = levelTime.ToString("F1") + " / " + (currentLevelEntry.timePerMove * currentLevel.movesRequiredToWin).ToString("F1");
 			if (!isOverParTime && levelTime > currentLevelEntry.timePerMove * currentLevelEntry.moveCount)
 			{
 				isOverParTime = true;
@@ -165,8 +166,8 @@ namespace MatchingCardGame
 		{
 			if (currentLevelIndex == zoneEndLevelIndex - 1)
 			{
-				IslandsLevel level = islandsLevels[currentLevelIndex];
-				string zoneName = level.name.Remove(level.name.IndexOf(" "));
+				currentLevel = islandsLevels[currentLevelIndex];
+				string zoneName = currentLevel.name.Remove(currentLevel.name.IndexOf(" "));
 				if (!GameManager.completedZoneNames.Contains(zoneName))
 					GameManager.completedZoneNames.Add(zoneName);
 				GameManager.GetSingleton<GameManager>().LoadScene ("World");
@@ -184,12 +185,12 @@ namespace MatchingCardGame
 
 		void GoToLevel (int levelIndex)
 		{
-			IslandsLevel currentLevel = islandsLevels[levelIndex];
+			currentLevel = islandsLevels[levelIndex];
 			currentLevel.enabled = true;
 			currentLevelEntry = islandsLevelsData.islandsLevelEntries[levelIndex];
 			backgroundImage.sprite = currentLevelEntry.backgroundSprite;
 			backgroundImage.enabled = true;
-			movesText.text.text = "0";
+			movesText.text.text = "0 / " + currentLevel.movesRequiredToWin;
 			levelNameText.text.text = currentLevel.name;
 			foreach (CardGroup cardGroup in currentLevel.cardGroups)
 			{
@@ -242,9 +243,9 @@ namespace MatchingCardGame
 				if (levelEntry.name == level.name)
 					break;
 			}
-			if (levelTime <= levelEntry.timePerMove * levelEntry.moveCount)
+			if (levelTime <= levelEntry.timePerMove * level.movesRequiredToWin)
 				stars ++;
-			if (moveCount <= levelEntry.moveCount)
+			if (moveCount <= level.movesRequiredToWin)
 				stars ++;
 			int previousStars = GetLevelStars(level.name);
 			if (stars > previousStars)
@@ -265,7 +266,7 @@ namespace MatchingCardGame
 		public void OnMoveMade ()
 		{
 			moveCount ++;
-			movesText.text.text = "" + moveCount;
+			movesText.text.text = "" + moveCount + " / " + currentLevel.movesRequiredToWin;
 			if (!isOverMoveCount && moveCount > currentLevelEntry.moveCount)
 			{
 				isOverMoveCount = true;
