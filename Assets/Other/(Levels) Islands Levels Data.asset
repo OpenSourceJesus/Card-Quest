@@ -1,0 +1,1660 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 630f75c9d1b59ac4f9df0dc21b121a81, type: 3}
+  m_Name: (Levels) Islands Levels Data
+  m_EditorClassIdentifier: 
+  levelZones:
+  - firstLevelEntry:
+      name: Beach
+      dimensions: {x: 2, y: 3}
+      cardCount: 4
+      cardTypeCount: 1
+      islandCount: 2
+      moveCount: 1
+      cardModifierEntries: []
+      backgroundSprite: {fileID: 21300000, guid: 90e57e9332b4032f884160338ad12ed4,
+        type: 3}
+      islandOrientationColliders: []
+      islandRects:
+      - serializedVersion: 2
+        x: -3.6267653
+        y: -1.7292558
+        width: 3.0797157
+        height: 2.8655803
+      - serializedVersion: 2
+        x: 0.6864872
+        y: -1.7292558
+        width: 3.0797644
+        height: 2.8655803
+      cameraOffset: {x: -0.06, y: 0.2}
+      timePerMove: 0
+    starsRequiredToUnlockMe: 0
+    levelCount: 10
+  - firstLevelEntry:
+      name: Urban
+      dimensions: {x: 3, y: 3}
+      cardCount: 6
+      cardTypeCount: 1
+      islandCount: 2
+      moveCount: 5
+      cardModifierEntries: []
+      backgroundSprite: {fileID: 21300000, guid: 35e0b3c51869f1fb7a64476e09856007,
+        type: 3}
+      islandOrientationColliders: []
+      islandRects:
+      - serializedVersion: 2
+        x: -4.0787725
+        y: -1.8392019
+        width: 2.8417768
+        height: 2.8445857
+      - serializedVersion: 2
+        x: 0.25875056
+        y: -1.7724977
+        width: 2.8464773
+        height: 2.8422806
+      cameraOffset: {x: 0.01, y: 0.35}
+      timePerMove: 0
+    starsRequiredToUnlockMe: 20
+    levelCount: 15
+  - firstLevelEntry:
+      name: Desert
+      dimensions: {x: 3, y: 4}
+      cardCount: 12
+      cardTypeCount: 2
+      islandCount: 2
+      moveCount: 10
+      cardModifierEntries: []
+      backgroundSprite: {fileID: 21300000, guid: d7b9abe910c5729d0b57f92af9e10161,
+        type: 3}
+      islandOrientationColliders: []
+      islandRects:
+      - serializedVersion: 2
+        x: -4.478234
+        y: -2.0581472
+        width: 3.1156511
+        height: 3.1184611
+      - serializedVersion: 2
+        x: 0.18914223
+        y: -2.1158898
+        width: 3.09518
+        height: 3.0850596
+      cameraOffset: {x: 0.08, y: 0.14}
+      timePerMove: 0
+    starsRequiredToUnlockMe: 50
+    levelCount: 20
+  - firstLevelEntry:
+      name: Fortress
+      dimensions: {x: 3, y: 5}
+      cardCount: 16
+      cardTypeCount: 4
+      islandCount: 2
+      moveCount: 15
+      cardModifierEntries: []
+      backgroundSprite: {fileID: 21300000, guid: b0516fe45a62fee34a1d84d38348a106,
+        type: 3}
+      islandOrientationColliders: []
+      islandRects:
+      - serializedVersion: 2
+        x: -4.0699253
+        y: -2.0563974
+        width: 2.9394534
+        height: 2.9059877
+      - serializedVersion: 2
+        x: 0.20821786
+        y: -2.0843153
+        width: 2.9258509
+        height: 2.9321165
+      cameraOffset: {x: 0, y: 0}
+      timePerMove: 0
+    starsRequiredToUnlockMe: 90
+    levelCount: 25
+  islandsLevelEntries:
+  - name: Beach 1
+    dimensions: {x: 2, y: 3}
+    cardCount: 4
+    cardTypeCount: 1
+    islandCount: 2
+    moveCount: 1
+    cardModifierEntries: []
+    backgroundSprite: {fileID: 21300000, guid: 90e57e9332b4032f884160338ad12ed4, type: 3}
+    islandOrientationColliders: []
+    islandRects:
+    - serializedVersion: 2
+      x: -3.6267653
+      y: -1.7292558
+      width: 3.0797157
+      height: 2.8655803
+    - serializedVersion: 2
+      x: 0.6864872
+      y: -1.7292558
+      width: 3.0797644
+      height: 2.8655803
+    cameraOffset: {x: -0.06, y: 0.2}
+    timePerMove: 5
+  - name: Beach 2
+    dimensions: {x: 2, y: 3}
+    cardCount: 4
+    cardTypeCount: 1
+    islandCount: 2
+    moveCount: 2
+    cardModifierEntries: []
+    backgroundSprite: {fileID: 21300000, guid: 90e57e9332b4032f884160338ad12ed4, type: 3}
+    islandOrientationColliders: []
+    islandRects:
+    - serializedVersion: 2
+      x: -3.6267653
+      y: -1.7292558
+      width: 3.0797157
+      height: 2.8655803
+    - serializedVersion: 2
+      x: 0.6864872
+      y: -1.7292558
+      width: 3.0797644
+      height: 2.8655803
+    cameraOffset: {x: -0.06, y: 0.2}
+    timePerMove: 4.2
+  - name: Beach 3
+    dimensions: {x: 2, y: 3}
+    cardCount: 4
+    cardTypeCount: 1
+    islandCount: 2
+    moveCount: 3
+    cardModifierEntries: []
+    backgroundSprite: {fileID: 21300000, guid: 90e57e9332b4032f884160338ad12ed4, type: 3}
+    islandOrientationColliders: []
+    islandRects:
+    - serializedVersion: 2
+      x: -3.6267653
+      y: -1.7292558
+      width: 3.0797157
+      height: 2.8655803
+    - serializedVersion: 2
+      x: 0.6864872
+      y: -1.7292558
+      width: 3.0797644
+      height: 2.8655803
+    cameraOffset: {x: -0.06, y: 0.2}
+    timePerMove: 3.5
+  - name: Beach 4
+    dimensions: {x: 2, y: 3}
+    cardCount: 4
+    cardTypeCount: 1
+    islandCount: 2
+    moveCount: 4
+    cardModifierEntries: []
+    backgroundSprite: {fileID: 21300000, guid: 90e57e9332b4032f884160338ad12ed4, type: 3}
+    islandOrientationColliders: []
+    islandRects:
+    - serializedVersion: 2
+      x: -3.6267653
+      y: -1.7292558
+      width: 3.0797157
+      height: 2.8655803
+    - serializedVersion: 2
+      x: 0.6864872
+      y: -1.7292558
+      width: 3.0797644
+      height: 2.8655803
+    cameraOffset: {x: -0.06, y: 0.2}
+    timePerMove: 3.2
+  - name: Beach 5
+    dimensions: {x: 2, y: 3}
+    cardCount: 4
+    cardTypeCount: 1
+    islandCount: 2
+    moveCount: 5
+    cardModifierEntries: []
+    backgroundSprite: {fileID: 21300000, guid: 90e57e9332b4032f884160338ad12ed4, type: 3}
+    islandOrientationColliders: []
+    islandRects:
+    - serializedVersion: 2
+      x: -3.6267653
+      y: -1.7292558
+      width: 3.0797157
+      height: 2.8655803
+    - serializedVersion: 2
+      x: 0.6864872
+      y: -1.7292558
+      width: 3.0797644
+      height: 2.8655803
+    cameraOffset: {x: -0.06, y: 0.2}
+    timePerMove: 2.9
+  - name: Beach 6
+    dimensions: {x: 2, y: 3}
+    cardCount: 4
+    cardTypeCount: 1
+    islandCount: 2
+    moveCount: 6
+    cardModifierEntries: []
+    backgroundSprite: {fileID: 21300000, guid: 90e57e9332b4032f884160338ad12ed4, type: 3}
+    islandOrientationColliders: []
+    islandRects:
+    - serializedVersion: 2
+      x: -3.6267653
+      y: -1.7292558
+      width: 3.0797157
+      height: 2.8655803
+    - serializedVersion: 2
+      x: 0.6864872
+      y: -1.7292558
+      width: 3.0797644
+      height: 2.8655803
+    cameraOffset: {x: -0.06, y: 0.2}
+    timePerMove: 2.6
+  - name: Beach 7
+    dimensions: {x: 2, y: 3}
+    cardCount: 4
+    cardTypeCount: 1
+    islandCount: 2
+    moveCount: 7
+    cardModifierEntries: []
+    backgroundSprite: {fileID: 21300000, guid: 90e57e9332b4032f884160338ad12ed4, type: 3}
+    islandOrientationColliders: []
+    islandRects:
+    - serializedVersion: 2
+      x: -3.6267653
+      y: -1.7292558
+      width: 3.0797157
+      height: 2.8655803
+    - serializedVersion: 2
+      x: 0.6864872
+      y: -1.7292558
+      width: 3.0797644
+      height: 2.8655803
+    cameraOffset: {x: -0.06, y: 0.2}
+    timePerMove: 2.3
+  - name: Beach 8
+    dimensions: {x: 2, y: 3}
+    cardCount: 4
+    cardTypeCount: 1
+    islandCount: 2
+    moveCount: 8
+    cardModifierEntries: []
+    backgroundSprite: {fileID: 21300000, guid: 90e57e9332b4032f884160338ad12ed4, type: 3}
+    islandOrientationColliders: []
+    islandRects:
+    - serializedVersion: 2
+      x: -3.6267653
+      y: -1.7292558
+      width: 3.0797157
+      height: 2.8655803
+    - serializedVersion: 2
+      x: 0.6864872
+      y: -1.7292558
+      width: 3.0797644
+      height: 2.8655803
+    cameraOffset: {x: -0.06, y: 0.2}
+    timePerMove: 2
+  - name: Beach 9
+    dimensions: {x: 2, y: 3}
+    cardCount: 4
+    cardTypeCount: 1
+    islandCount: 2
+    moveCount: 9
+    cardModifierEntries: []
+    backgroundSprite: {fileID: 21300000, guid: 90e57e9332b4032f884160338ad12ed4, type: 3}
+    islandOrientationColliders: []
+    islandRects:
+    - serializedVersion: 2
+      x: -3.6267653
+      y: -1.7292558
+      width: 3.0797157
+      height: 2.8655803
+    - serializedVersion: 2
+      x: 0.6864872
+      y: -1.7292558
+      width: 3.0797644
+      height: 2.8655803
+    cameraOffset: {x: -0.06, y: 0.2}
+    timePerMove: 1.7
+  - name: Beach 10
+    dimensions: {x: 2, y: 3}
+    cardCount: 4
+    cardTypeCount: 1
+    islandCount: 2
+    moveCount: 10
+    cardModifierEntries: []
+    backgroundSprite: {fileID: 21300000, guid: 90e57e9332b4032f884160338ad12ed4, type: 3}
+    islandOrientationColliders: []
+    islandRects:
+    - serializedVersion: 2
+      x: -3.6267653
+      y: -1.7292558
+      width: 3.0797157
+      height: 2.8655803
+    - serializedVersion: 2
+      x: 0.6864872
+      y: -1.7292558
+      width: 3.0797644
+      height: 2.8655803
+    cameraOffset: {x: -0.06, y: 0.2}
+    timePerMove: 1.5
+  - name: Urban 1
+    dimensions: {x: 3, y: 3}
+    cardCount: 6
+    cardTypeCount: 1
+    islandCount: 2
+    moveCount: 5
+    cardModifierEntries: []
+    backgroundSprite: {fileID: 21300000, guid: 35e0b3c51869f1fb7a64476e09856007, type: 3}
+    islandOrientationColliders: []
+    islandRects:
+    - serializedVersion: 2
+      x: -4.0787725
+      y: -1.8392019
+      width: 2.8417768
+      height: 2.8445857
+    - serializedVersion: 2
+      x: 0.25875056
+      y: -1.7724977
+      width: 2.8464773
+      height: 2.8422806
+    cameraOffset: {x: 0.01, y: 0.35}
+    timePerMove: 5.2
+  - name: Urban 2
+    dimensions: {x: 3, y: 3}
+    cardCount: 6
+    cardTypeCount: 1
+    islandCount: 2
+    moveCount: 6
+    cardModifierEntries: []
+    backgroundSprite: {fileID: 21300000, guid: 35e0b3c51869f1fb7a64476e09856007, type: 3}
+    islandOrientationColliders: []
+    islandRects:
+    - serializedVersion: 2
+      x: -4.0787725
+      y: -1.8392019
+      width: 2.8417768
+      height: 2.8445857
+    - serializedVersion: 2
+      x: 0.25875056
+      y: -1.7724977
+      width: 2.8464773
+      height: 2.8422806
+    cameraOffset: {x: 0.01, y: 0.35}
+    timePerMove: 5.1
+  - name: Urban 3
+    dimensions: {x: 3, y: 3}
+    cardCount: 6
+    cardTypeCount: 1
+    islandCount: 2
+    moveCount: 7
+    cardModifierEntries: []
+    backgroundSprite: {fileID: 21300000, guid: 35e0b3c51869f1fb7a64476e09856007, type: 3}
+    islandOrientationColliders: []
+    islandRects:
+    - serializedVersion: 2
+      x: -4.0787725
+      y: -1.8392019
+      width: 2.8417768
+      height: 2.8445857
+    - serializedVersion: 2
+      x: 0.25875056
+      y: -1.7724977
+      width: 2.8464773
+      height: 2.8422806
+    cameraOffset: {x: 0.01, y: 0.35}
+    timePerMove: 5
+  - name: Urban 4
+    dimensions: {x: 3, y: 3}
+    cardCount: 6
+    cardTypeCount: 1
+    islandCount: 2
+    moveCount: 8
+    cardModifierEntries: []
+    backgroundSprite: {fileID: 21300000, guid: 35e0b3c51869f1fb7a64476e09856007, type: 3}
+    islandOrientationColliders: []
+    islandRects:
+    - serializedVersion: 2
+      x: -4.0787725
+      y: -1.8392019
+      width: 2.8417768
+      height: 2.8445857
+    - serializedVersion: 2
+      x: 0.25875056
+      y: -1.7724977
+      width: 2.8464773
+      height: 2.8422806
+    cameraOffset: {x: 0.01, y: 0.35}
+    timePerMove: 4.7
+  - name: Urban 5
+    dimensions: {x: 3, y: 3}
+    cardCount: 6
+    cardTypeCount: 1
+    islandCount: 2
+    moveCount: 9
+    cardModifierEntries: []
+    backgroundSprite: {fileID: 21300000, guid: 35e0b3c51869f1fb7a64476e09856007, type: 3}
+    islandOrientationColliders: []
+    islandRects:
+    - serializedVersion: 2
+      x: -4.0787725
+      y: -1.8392019
+      width: 2.8417768
+      height: 2.8445857
+    - serializedVersion: 2
+      x: 0.25875056
+      y: -1.7724977
+      width: 2.8464773
+      height: 2.8422806
+    cameraOffset: {x: 0.01, y: 0.35}
+    timePerMove: 4.5
+  - name: Urban 6
+    dimensions: {x: 3, y: 3}
+    cardCount: 6
+    cardTypeCount: 1
+    islandCount: 2
+    moveCount: 10
+    cardModifierEntries: []
+    backgroundSprite: {fileID: 21300000, guid: 35e0b3c51869f1fb7a64476e09856007, type: 3}
+    islandOrientationColliders: []
+    islandRects:
+    - serializedVersion: 2
+      x: -4.0787725
+      y: -1.8392019
+      width: 2.8417768
+      height: 2.8445857
+    - serializedVersion: 2
+      x: 0.25875056
+      y: -1.7724977
+      width: 2.8464773
+      height: 2.8422806
+    cameraOffset: {x: 0.01, y: 0.35}
+    timePerMove: 4.3
+  - name: Urban 7
+    dimensions: {x: 3, y: 3}
+    cardCount: 6
+    cardTypeCount: 1
+    islandCount: 2
+    moveCount: 11
+    cardModifierEntries: []
+    backgroundSprite: {fileID: 21300000, guid: 35e0b3c51869f1fb7a64476e09856007, type: 3}
+    islandOrientationColliders: []
+    islandRects:
+    - serializedVersion: 2
+      x: -4.0787725
+      y: -1.8392019
+      width: 2.8417768
+      height: 2.8445857
+    - serializedVersion: 2
+      x: 0.25875056
+      y: -1.7724977
+      width: 2.8464773
+      height: 2.8422806
+    cameraOffset: {x: 0.01, y: 0.35}
+    timePerMove: 4.1
+  - name: Urban 8
+    dimensions: {x: 3, y: 3}
+    cardCount: 6
+    cardTypeCount: 1
+    islandCount: 2
+    moveCount: 12
+    cardModifierEntries: []
+    backgroundSprite: {fileID: 21300000, guid: 35e0b3c51869f1fb7a64476e09856007, type: 3}
+    islandOrientationColliders: []
+    islandRects:
+    - serializedVersion: 2
+      x: -4.0787725
+      y: -1.8392019
+      width: 2.8417768
+      height: 2.8445857
+    - serializedVersion: 2
+      x: 0.25875056
+      y: -1.7724977
+      width: 2.8464773
+      height: 2.8422806
+    cameraOffset: {x: 0.01, y: 0.35}
+    timePerMove: 3.9
+  - name: Urban 9
+    dimensions: {x: 3, y: 3}
+    cardCount: 6
+    cardTypeCount: 1
+    islandCount: 2
+    moveCount: 13
+    cardModifierEntries: []
+    backgroundSprite: {fileID: 21300000, guid: 35e0b3c51869f1fb7a64476e09856007, type: 3}
+    islandOrientationColliders: []
+    islandRects:
+    - serializedVersion: 2
+      x: -4.0787725
+      y: -1.8392019
+      width: 2.8417768
+      height: 2.8445857
+    - serializedVersion: 2
+      x: 0.25875056
+      y: -1.7724977
+      width: 2.8464773
+      height: 2.8422806
+    cameraOffset: {x: 0.01, y: 0.35}
+    timePerMove: 3.7
+  - name: Urban 10
+    dimensions: {x: 3, y: 3}
+    cardCount: 6
+    cardTypeCount: 1
+    islandCount: 2
+    moveCount: 14
+    cardModifierEntries: []
+    backgroundSprite: {fileID: 21300000, guid: 35e0b3c51869f1fb7a64476e09856007, type: 3}
+    islandOrientationColliders: []
+    islandRects:
+    - serializedVersion: 2
+      x: -4.0787725
+      y: -1.8392019
+      width: 2.8417768
+      height: 2.8445857
+    - serializedVersion: 2
+      x: 0.25875056
+      y: -1.7724977
+      width: 2.8464773
+      height: 2.8422806
+    cameraOffset: {x: 0.01, y: 0.35}
+    timePerMove: 3.5
+  - name: Urban 11
+    dimensions: {x: 3, y: 3}
+    cardCount: 6
+    cardTypeCount: 1
+    islandCount: 2
+    moveCount: 15
+    cardModifierEntries: []
+    backgroundSprite: {fileID: 21300000, guid: 35e0b3c51869f1fb7a64476e09856007, type: 3}
+    islandOrientationColliders: []
+    islandRects:
+    - serializedVersion: 2
+      x: -4.0787725
+      y: -1.8392019
+      width: 2.8417768
+      height: 2.8445857
+    - serializedVersion: 2
+      x: 0.25875056
+      y: -1.7724977
+      width: 2.8464773
+      height: 2.8422806
+    cameraOffset: {x: 0.01, y: 0.35}
+    timePerMove: 3.3
+  - name: Urban 12
+    dimensions: {x: 3, y: 3}
+    cardCount: 6
+    cardTypeCount: 1
+    islandCount: 2
+    moveCount: 16
+    cardModifierEntries: []
+    backgroundSprite: {fileID: 21300000, guid: 35e0b3c51869f1fb7a64476e09856007, type: 3}
+    islandOrientationColliders: []
+    islandRects:
+    - serializedVersion: 2
+      x: -4.0787725
+      y: -1.8392019
+      width: 2.8417768
+      height: 2.8445857
+    - serializedVersion: 2
+      x: 0.25875056
+      y: -1.7724977
+      width: 2.8464773
+      height: 2.8422806
+    cameraOffset: {x: 0.01, y: 0.35}
+    timePerMove: 3.1
+  - name: Urban 13
+    dimensions: {x: 3, y: 3}
+    cardCount: 6
+    cardTypeCount: 1
+    islandCount: 2
+    moveCount: 17
+    cardModifierEntries: []
+    backgroundSprite: {fileID: 21300000, guid: 35e0b3c51869f1fb7a64476e09856007, type: 3}
+    islandOrientationColliders: []
+    islandRects:
+    - serializedVersion: 2
+      x: -4.0787725
+      y: -1.8392019
+      width: 2.8417768
+      height: 2.8445857
+    - serializedVersion: 2
+      x: 0.25875056
+      y: -1.7724977
+      width: 2.8464773
+      height: 2.8422806
+    cameraOffset: {x: 0.01, y: 0.35}
+    timePerMove: 2.9
+  - name: Urban 14
+    dimensions: {x: 3, y: 3}
+    cardCount: 6
+    cardTypeCount: 1
+    islandCount: 2
+    moveCount: 18
+    cardModifierEntries: []
+    backgroundSprite: {fileID: 21300000, guid: 35e0b3c51869f1fb7a64476e09856007, type: 3}
+    islandOrientationColliders: []
+    islandRects:
+    - serializedVersion: 2
+      x: -4.0787725
+      y: -1.8392019
+      width: 2.8417768
+      height: 2.8445857
+    - serializedVersion: 2
+      x: 0.25875056
+      y: -1.7724977
+      width: 2.8464773
+      height: 2.8422806
+    cameraOffset: {x: 0.01, y: 0.35}
+    timePerMove: 2.7
+  - name: Urban 15
+    dimensions: {x: 3, y: 3}
+    cardCount: 6
+    cardTypeCount: 1
+    islandCount: 2
+    moveCount: 19
+    cardModifierEntries: []
+    backgroundSprite: {fileID: 21300000, guid: 35e0b3c51869f1fb7a64476e09856007, type: 3}
+    islandOrientationColliders: []
+    islandRects:
+    - serializedVersion: 2
+      x: -4.0787725
+      y: -1.8392019
+      width: 2.8417768
+      height: 2.8445857
+    - serializedVersion: 2
+      x: 0.25875056
+      y: -1.7724977
+      width: 2.8464773
+      height: 2.8422806
+    cameraOffset: {x: 0.01, y: 0.35}
+    timePerMove: 2.5
+  - name: Desert 1
+    dimensions: {x: 3, y: 4}
+    cardCount: 12
+    cardTypeCount: 2
+    islandCount: 2
+    moveCount: 10
+    cardModifierEntries: []
+    backgroundSprite: {fileID: 21300000, guid: d7b9abe910c5729d0b57f92af9e10161, type: 3}
+    islandOrientationColliders: []
+    islandRects:
+    - serializedVersion: 2
+      x: -4.478234
+      y: -2.0581472
+      width: 3.1156511
+      height: 3.1184611
+    - serializedVersion: 2
+      x: 0.18914223
+      y: -2.1158898
+      width: 3.09518
+      height: 3.0850596
+    cameraOffset: {x: 0.08, y: 0.14}
+    timePerMove: 0
+  - name: Desert 2
+    dimensions: {x: 3, y: 4}
+    cardCount: 12
+    cardTypeCount: 2
+    islandCount: 2
+    moveCount: 11
+    cardModifierEntries: []
+    backgroundSprite: {fileID: 21300000, guid: d7b9abe910c5729d0b57f92af9e10161, type: 3}
+    islandOrientationColliders: []
+    islandRects:
+    - serializedVersion: 2
+      x: -4.478234
+      y: -2.0581472
+      width: 3.1156511
+      height: 3.1184611
+    - serializedVersion: 2
+      x: 0.18914223
+      y: -2.1158898
+      width: 3.09518
+      height: 3.0850596
+    cameraOffset: {x: 0.08, y: 0.14}
+    timePerMove: 0
+  - name: Desert 3
+    dimensions: {x: 3, y: 4}
+    cardCount: 12
+    cardTypeCount: 2
+    islandCount: 2
+    moveCount: 12
+    cardModifierEntries: []
+    backgroundSprite: {fileID: 21300000, guid: d7b9abe910c5729d0b57f92af9e10161, type: 3}
+    islandOrientationColliders: []
+    islandRects:
+    - serializedVersion: 2
+      x: -4.478234
+      y: -2.0581472
+      width: 3.1156511
+      height: 3.1184611
+    - serializedVersion: 2
+      x: 0.18914223
+      y: -2.1158898
+      width: 3.09518
+      height: 3.0850596
+    cameraOffset: {x: 0.08, y: 0.14}
+    timePerMove: 0
+  - name: Desert 4
+    dimensions: {x: 3, y: 4}
+    cardCount: 12
+    cardTypeCount: 2
+    islandCount: 2
+    moveCount: 13
+    cardModifierEntries: []
+    backgroundSprite: {fileID: 21300000, guid: d7b9abe910c5729d0b57f92af9e10161, type: 3}
+    islandOrientationColliders: []
+    islandRects:
+    - serializedVersion: 2
+      x: -4.478234
+      y: -2.0581472
+      width: 3.1156511
+      height: 3.1184611
+    - serializedVersion: 2
+      x: 0.18914223
+      y: -2.1158898
+      width: 3.09518
+      height: 3.0850596
+    cameraOffset: {x: 0.08, y: 0.14}
+    timePerMove: 0
+  - name: Desert 5
+    dimensions: {x: 3, y: 4}
+    cardCount: 12
+    cardTypeCount: 2
+    islandCount: 2
+    moveCount: 14
+    cardModifierEntries: []
+    backgroundSprite: {fileID: 21300000, guid: d7b9abe910c5729d0b57f92af9e10161, type: 3}
+    islandOrientationColliders: []
+    islandRects:
+    - serializedVersion: 2
+      x: -4.478234
+      y: -2.0581472
+      width: 3.1156511
+      height: 3.1184611
+    - serializedVersion: 2
+      x: 0.18914223
+      y: -2.1158898
+      width: 3.09518
+      height: 3.0850596
+    cameraOffset: {x: 0.08, y: 0.14}
+    timePerMove: 0
+  - name: Desert 6
+    dimensions: {x: 3, y: 4}
+    cardCount: 12
+    cardTypeCount: 2
+    islandCount: 2
+    moveCount: 15
+    cardModifierEntries: []
+    backgroundSprite: {fileID: 21300000, guid: d7b9abe910c5729d0b57f92af9e10161, type: 3}
+    islandOrientationColliders: []
+    islandRects:
+    - serializedVersion: 2
+      x: -4.478234
+      y: -2.0581472
+      width: 3.1156511
+      height: 3.1184611
+    - serializedVersion: 2
+      x: 0.18914223
+      y: -2.1158898
+      width: 3.09518
+      height: 3.0850596
+    cameraOffset: {x: 0.08, y: 0.14}
+    timePerMove: 0
+  - name: Desert 7
+    dimensions: {x: 3, y: 4}
+    cardCount: 12
+    cardTypeCount: 2
+    islandCount: 2
+    moveCount: 16
+    cardModifierEntries: []
+    backgroundSprite: {fileID: 21300000, guid: d7b9abe910c5729d0b57f92af9e10161, type: 3}
+    islandOrientationColliders: []
+    islandRects:
+    - serializedVersion: 2
+      x: -4.478234
+      y: -2.0581472
+      width: 3.1156511
+      height: 3.1184611
+    - serializedVersion: 2
+      x: 0.18914223
+      y: -2.1158898
+      width: 3.09518
+      height: 3.0850596
+    cameraOffset: {x: 0.08, y: 0.14}
+    timePerMove: 0
+  - name: Desert 8
+    dimensions: {x: 3, y: 4}
+    cardCount: 12
+    cardTypeCount: 2
+    islandCount: 2
+    moveCount: 17
+    cardModifierEntries: []
+    backgroundSprite: {fileID: 21300000, guid: d7b9abe910c5729d0b57f92af9e10161, type: 3}
+    islandOrientationColliders: []
+    islandRects:
+    - serializedVersion: 2
+      x: -4.478234
+      y: -2.0581472
+      width: 3.1156511
+      height: 3.1184611
+    - serializedVersion: 2
+      x: 0.18914223
+      y: -2.1158898
+      width: 3.09518
+      height: 3.0850596
+    cameraOffset: {x: 0.08, y: 0.14}
+    timePerMove: 0
+  - name: Desert 9
+    dimensions: {x: 3, y: 4}
+    cardCount: 12
+    cardTypeCount: 2
+    islandCount: 2
+    moveCount: 18
+    cardModifierEntries: []
+    backgroundSprite: {fileID: 21300000, guid: d7b9abe910c5729d0b57f92af9e10161, type: 3}
+    islandOrientationColliders: []
+    islandRects:
+    - serializedVersion: 2
+      x: -4.478234
+      y: -2.0581472
+      width: 3.1156511
+      height: 3.1184611
+    - serializedVersion: 2
+      x: 0.18914223
+      y: -2.1158898
+      width: 3.09518
+      height: 3.0850596
+    cameraOffset: {x: 0.08, y: 0.14}
+    timePerMove: 0
+  - name: Desert 10
+    dimensions: {x: 3, y: 4}
+    cardCount: 12
+    cardTypeCount: 2
+    islandCount: 2
+    moveCount: 19
+    cardModifierEntries: []
+    backgroundSprite: {fileID: 21300000, guid: d7b9abe910c5729d0b57f92af9e10161, type: 3}
+    islandOrientationColliders: []
+    islandRects:
+    - serializedVersion: 2
+      x: -4.478234
+      y: -2.0581472
+      width: 3.1156511
+      height: 3.1184611
+    - serializedVersion: 2
+      x: 0.18914223
+      y: -2.1158898
+      width: 3.09518
+      height: 3.0850596
+    cameraOffset: {x: 0.08, y: 0.14}
+    timePerMove: 0
+  - name: Desert 11
+    dimensions: {x: 3, y: 4}
+    cardCount: 12
+    cardTypeCount: 2
+    islandCount: 2
+    moveCount: 20
+    cardModifierEntries: []
+    backgroundSprite: {fileID: 21300000, guid: d7b9abe910c5729d0b57f92af9e10161, type: 3}
+    islandOrientationColliders: []
+    islandRects:
+    - serializedVersion: 2
+      x: -4.478234
+      y: -2.0581472
+      width: 3.1156511
+      height: 3.1184611
+    - serializedVersion: 2
+      x: 0.18914223
+      y: -2.1158898
+      width: 3.09518
+      height: 3.0850596
+    cameraOffset: {x: 0.08, y: 0.14}
+    timePerMove: 0
+  - name: Desert 12
+    dimensions: {x: 3, y: 4}
+    cardCount: 12
+    cardTypeCount: 2
+    islandCount: 2
+    moveCount: 21
+    cardModifierEntries: []
+    backgroundSprite: {fileID: 21300000, guid: d7b9abe910c5729d0b57f92af9e10161, type: 3}
+    islandOrientationColliders: []
+    islandRects:
+    - serializedVersion: 2
+      x: -4.478234
+      y: -2.0581472
+      width: 3.1156511
+      height: 3.1184611
+    - serializedVersion: 2
+      x: 0.18914223
+      y: -2.1158898
+      width: 3.09518
+      height: 3.0850596
+    cameraOffset: {x: 0.08, y: 0.14}
+    timePerMove: 0
+  - name: Desert 13
+    dimensions: {x: 3, y: 4}
+    cardCount: 12
+    cardTypeCount: 2
+    islandCount: 2
+    moveCount: 22
+    cardModifierEntries: []
+    backgroundSprite: {fileID: 21300000, guid: d7b9abe910c5729d0b57f92af9e10161, type: 3}
+    islandOrientationColliders: []
+    islandRects:
+    - serializedVersion: 2
+      x: -4.478234
+      y: -2.0581472
+      width: 3.1156511
+      height: 3.1184611
+    - serializedVersion: 2
+      x: 0.18914223
+      y: -2.1158898
+      width: 3.09518
+      height: 3.0850596
+    cameraOffset: {x: 0.08, y: 0.14}
+    timePerMove: 0
+  - name: Desert 14
+    dimensions: {x: 3, y: 4}
+    cardCount: 12
+    cardTypeCount: 2
+    islandCount: 2
+    moveCount: 23
+    cardModifierEntries: []
+    backgroundSprite: {fileID: 21300000, guid: d7b9abe910c5729d0b57f92af9e10161, type: 3}
+    islandOrientationColliders: []
+    islandRects:
+    - serializedVersion: 2
+      x: -4.478234
+      y: -2.0581472
+      width: 3.1156511
+      height: 3.1184611
+    - serializedVersion: 2
+      x: 0.18914223
+      y: -2.1158898
+      width: 3.09518
+      height: 3.0850596
+    cameraOffset: {x: 0.08, y: 0.14}
+    timePerMove: 0
+  - name: Desert 15
+    dimensions: {x: 3, y: 4}
+    cardCount: 12
+    cardTypeCount: 2
+    islandCount: 2
+    moveCount: 24
+    cardModifierEntries: []
+    backgroundSprite: {fileID: 21300000, guid: d7b9abe910c5729d0b57f92af9e10161, type: 3}
+    islandOrientationColliders: []
+    islandRects:
+    - serializedVersion: 2
+      x: -4.478234
+      y: -2.0581472
+      width: 3.1156511
+      height: 3.1184611
+    - serializedVersion: 2
+      x: 0.18914223
+      y: -2.1158898
+      width: 3.09518
+      height: 3.0850596
+    cameraOffset: {x: 0.08, y: 0.14}
+    timePerMove: 0
+  - name: Desert 16
+    dimensions: {x: 3, y: 4}
+    cardCount: 12
+    cardTypeCount: 2
+    islandCount: 2
+    moveCount: 25
+    cardModifierEntries: []
+    backgroundSprite: {fileID: 21300000, guid: d7b9abe910c5729d0b57f92af9e10161, type: 3}
+    islandOrientationColliders: []
+    islandRects:
+    - serializedVersion: 2
+      x: -4.478234
+      y: -2.0581472
+      width: 3.1156511
+      height: 3.1184611
+    - serializedVersion: 2
+      x: 0.18914223
+      y: -2.1158898
+      width: 3.09518
+      height: 3.0850596
+    cameraOffset: {x: 0.08, y: 0.14}
+    timePerMove: 0
+  - name: Desert 17
+    dimensions: {x: 3, y: 4}
+    cardCount: 12
+    cardTypeCount: 2
+    islandCount: 2
+    moveCount: 26
+    cardModifierEntries: []
+    backgroundSprite: {fileID: 21300000, guid: d7b9abe910c5729d0b57f92af9e10161, type: 3}
+    islandOrientationColliders: []
+    islandRects:
+    - serializedVersion: 2
+      x: -4.478234
+      y: -2.0581472
+      width: 3.1156511
+      height: 3.1184611
+    - serializedVersion: 2
+      x: 0.18914223
+      y: -2.1158898
+      width: 3.09518
+      height: 3.0850596
+    cameraOffset: {x: 0.08, y: 0.14}
+    timePerMove: 0
+  - name: Desert 18
+    dimensions: {x: 3, y: 4}
+    cardCount: 12
+    cardTypeCount: 2
+    islandCount: 2
+    moveCount: 27
+    cardModifierEntries: []
+    backgroundSprite: {fileID: 21300000, guid: d7b9abe910c5729d0b57f92af9e10161, type: 3}
+    islandOrientationColliders: []
+    islandRects:
+    - serializedVersion: 2
+      x: -4.478234
+      y: -2.0581472
+      width: 3.1156511
+      height: 3.1184611
+    - serializedVersion: 2
+      x: 0.18914223
+      y: -2.1158898
+      width: 3.09518
+      height: 3.0850596
+    cameraOffset: {x: 0.08, y: 0.14}
+    timePerMove: 0
+  - name: Desert 19
+    dimensions: {x: 3, y: 4}
+    cardCount: 12
+    cardTypeCount: 2
+    islandCount: 2
+    moveCount: 28
+    cardModifierEntries: []
+    backgroundSprite: {fileID: 21300000, guid: d7b9abe910c5729d0b57f92af9e10161, type: 3}
+    islandOrientationColliders: []
+    islandRects:
+    - serializedVersion: 2
+      x: -4.478234
+      y: -2.0581472
+      width: 3.1156511
+      height: 3.1184611
+    - serializedVersion: 2
+      x: 0.18914223
+      y: -2.1158898
+      width: 3.09518
+      height: 3.0850596
+    cameraOffset: {x: 0.08, y: 0.14}
+    timePerMove: 0
+  - name: Desert 20
+    dimensions: {x: 3, y: 4}
+    cardCount: 12
+    cardTypeCount: 2
+    islandCount: 2
+    moveCount: 29
+    cardModifierEntries: []
+    backgroundSprite: {fileID: 21300000, guid: d7b9abe910c5729d0b57f92af9e10161, type: 3}
+    islandOrientationColliders: []
+    islandRects:
+    - serializedVersion: 2
+      x: -4.478234
+      y: -2.0581472
+      width: 3.1156511
+      height: 3.1184611
+    - serializedVersion: 2
+      x: 0.18914223
+      y: -2.1158898
+      width: 3.09518
+      height: 3.0850596
+    cameraOffset: {x: 0.08, y: 0.14}
+    timePerMove: 0
+  - name: Fortress 1
+    dimensions: {x: 3, y: 5}
+    cardCount: 16
+    cardTypeCount: 4
+    islandCount: 2
+    moveCount: 15
+    cardModifierEntries: []
+    backgroundSprite: {fileID: 21300000, guid: b0516fe45a62fee34a1d84d38348a106, type: 3}
+    islandOrientationColliders: []
+    islandRects:
+    - serializedVersion: 2
+      x: -4.0699253
+      y: -2.0563974
+      width: 2.9394534
+      height: 2.9059877
+    - serializedVersion: 2
+      x: 0.20821786
+      y: -2.0843153
+      width: 2.9258509
+      height: 2.9321165
+    cameraOffset: {x: 0, y: 0}
+    timePerMove: 0
+  - name: Fortress 2
+    dimensions: {x: 3, y: 5}
+    cardCount: 16
+    cardTypeCount: 4
+    islandCount: 2
+    moveCount: 16
+    cardModifierEntries: []
+    backgroundSprite: {fileID: 21300000, guid: b0516fe45a62fee34a1d84d38348a106, type: 3}
+    islandOrientationColliders: []
+    islandRects:
+    - serializedVersion: 2
+      x: -4.0699253
+      y: -2.0563974
+      width: 2.9394534
+      height: 2.9059877
+    - serializedVersion: 2
+      x: 0.20821786
+      y: -2.0843153
+      width: 2.9258509
+      height: 2.9321165
+    cameraOffset: {x: 0, y: 0}
+    timePerMove: 0
+  - name: Fortress 3
+    dimensions: {x: 3, y: 5}
+    cardCount: 16
+    cardTypeCount: 4
+    islandCount: 2
+    moveCount: 17
+    cardModifierEntries: []
+    backgroundSprite: {fileID: 21300000, guid: b0516fe45a62fee34a1d84d38348a106, type: 3}
+    islandOrientationColliders: []
+    islandRects:
+    - serializedVersion: 2
+      x: -4.0699253
+      y: -2.0563974
+      width: 2.9394534
+      height: 2.9059877
+    - serializedVersion: 2
+      x: 0.20821786
+      y: -2.0843153
+      width: 2.9258509
+      height: 2.9321165
+    cameraOffset: {x: 0, y: 0}
+    timePerMove: 0
+  - name: Fortress 4
+    dimensions: {x: 3, y: 5}
+    cardCount: 16
+    cardTypeCount: 4
+    islandCount: 2
+    moveCount: 18
+    cardModifierEntries: []
+    backgroundSprite: {fileID: 21300000, guid: b0516fe45a62fee34a1d84d38348a106, type: 3}
+    islandOrientationColliders: []
+    islandRects:
+    - serializedVersion: 2
+      x: -4.0699253
+      y: -2.0563974
+      width: 2.9394534
+      height: 2.9059877
+    - serializedVersion: 2
+      x: 0.20821786
+      y: -2.0843153
+      width: 2.9258509
+      height: 2.9321165
+    cameraOffset: {x: 0, y: 0}
+    timePerMove: 0
+  - name: Fortress 5
+    dimensions: {x: 3, y: 5}
+    cardCount: 16
+    cardTypeCount: 4
+    islandCount: 2
+    moveCount: 19
+    cardModifierEntries: []
+    backgroundSprite: {fileID: 21300000, guid: b0516fe45a62fee34a1d84d38348a106, type: 3}
+    islandOrientationColliders: []
+    islandRects:
+    - serializedVersion: 2
+      x: -4.0699253
+      y: -2.0563974
+      width: 2.9394534
+      height: 2.9059877
+    - serializedVersion: 2
+      x: 0.20821786
+      y: -2.0843153
+      width: 2.9258509
+      height: 2.9321165
+    cameraOffset: {x: 0, y: 0}
+    timePerMove: 0
+  - name: Fortress 6
+    dimensions: {x: 3, y: 5}
+    cardCount: 16
+    cardTypeCount: 4
+    islandCount: 2
+    moveCount: 20
+    cardModifierEntries: []
+    backgroundSprite: {fileID: 21300000, guid: b0516fe45a62fee34a1d84d38348a106, type: 3}
+    islandOrientationColliders: []
+    islandRects:
+    - serializedVersion: 2
+      x: -4.0699253
+      y: -2.0563974
+      width: 2.9394534
+      height: 2.9059877
+    - serializedVersion: 2
+      x: 0.20821786
+      y: -2.0843153
+      width: 2.9258509
+      height: 2.9321165
+    cameraOffset: {x: 0, y: 0}
+    timePerMove: 0
+  - name: Fortress 7
+    dimensions: {x: 3, y: 5}
+    cardCount: 16
+    cardTypeCount: 4
+    islandCount: 2
+    moveCount: 21
+    cardModifierEntries: []
+    backgroundSprite: {fileID: 21300000, guid: b0516fe45a62fee34a1d84d38348a106, type: 3}
+    islandOrientationColliders: []
+    islandRects:
+    - serializedVersion: 2
+      x: -4.0699253
+      y: -2.0563974
+      width: 2.9394534
+      height: 2.9059877
+    - serializedVersion: 2
+      x: 0.20821786
+      y: -2.0843153
+      width: 2.9258509
+      height: 2.9321165
+    cameraOffset: {x: 0, y: 0}
+    timePerMove: 0
+  - name: Fortress 8
+    dimensions: {x: 3, y: 5}
+    cardCount: 16
+    cardTypeCount: 4
+    islandCount: 2
+    moveCount: 22
+    cardModifierEntries: []
+    backgroundSprite: {fileID: 21300000, guid: b0516fe45a62fee34a1d84d38348a106, type: 3}
+    islandOrientationColliders: []
+    islandRects:
+    - serializedVersion: 2
+      x: -4.0699253
+      y: -2.0563974
+      width: 2.9394534
+      height: 2.9059877
+    - serializedVersion: 2
+      x: 0.20821786
+      y: -2.0843153
+      width: 2.9258509
+      height: 2.9321165
+    cameraOffset: {x: 0, y: 0}
+    timePerMove: 0
+  - name: Fortress 9
+    dimensions: {x: 3, y: 5}
+    cardCount: 16
+    cardTypeCount: 4
+    islandCount: 2
+    moveCount: 23
+    cardModifierEntries: []
+    backgroundSprite: {fileID: 21300000, guid: b0516fe45a62fee34a1d84d38348a106, type: 3}
+    islandOrientationColliders: []
+    islandRects:
+    - serializedVersion: 2
+      x: -4.0699253
+      y: -2.0563974
+      width: 2.9394534
+      height: 2.9059877
+    - serializedVersion: 2
+      x: 0.20821786
+      y: -2.0843153
+      width: 2.9258509
+      height: 2.9321165
+    cameraOffset: {x: 0, y: 0}
+    timePerMove: 0
+  - name: Fortress 10
+    dimensions: {x: 3, y: 5}
+    cardCount: 16
+    cardTypeCount: 4
+    islandCount: 2
+    moveCount: 24
+    cardModifierEntries: []
+    backgroundSprite: {fileID: 21300000, guid: b0516fe45a62fee34a1d84d38348a106, type: 3}
+    islandOrientationColliders: []
+    islandRects:
+    - serializedVersion: 2
+      x: -4.0699253
+      y: -2.0563974
+      width: 2.9394534
+      height: 2.9059877
+    - serializedVersion: 2
+      x: 0.20821786
+      y: -2.0843153
+      width: 2.9258509
+      height: 2.9321165
+    cameraOffset: {x: 0, y: 0}
+    timePerMove: 0
+  - name: Fortress 11
+    dimensions: {x: 3, y: 5}
+    cardCount: 16
+    cardTypeCount: 4
+    islandCount: 2
+    moveCount: 25
+    cardModifierEntries: []
+    backgroundSprite: {fileID: 21300000, guid: b0516fe45a62fee34a1d84d38348a106, type: 3}
+    islandOrientationColliders: []
+    islandRects:
+    - serializedVersion: 2
+      x: -4.0699253
+      y: -2.0563974
+      width: 2.9394534
+      height: 2.9059877
+    - serializedVersion: 2
+      x: 0.20821786
+      y: -2.0843153
+      width: 2.9258509
+      height: 2.9321165
+    cameraOffset: {x: 0, y: 0}
+    timePerMove: 0
+  - name: Fortress 12
+    dimensions: {x: 3, y: 5}
+    cardCount: 16
+    cardTypeCount: 4
+    islandCount: 2
+    moveCount: 26
+    cardModifierEntries: []
+    backgroundSprite: {fileID: 21300000, guid: b0516fe45a62fee34a1d84d38348a106, type: 3}
+    islandOrientationColliders: []
+    islandRects:
+    - serializedVersion: 2
+      x: -4.0699253
+      y: -2.0563974
+      width: 2.9394534
+      height: 2.9059877
+    - serializedVersion: 2
+      x: 0.20821786
+      y: -2.0843153
+      width: 2.9258509
+      height: 2.9321165
+    cameraOffset: {x: 0, y: 0}
+    timePerMove: 0
+  - name: Fortress 13
+    dimensions: {x: 3, y: 5}
+    cardCount: 16
+    cardTypeCount: 4
+    islandCount: 2
+    moveCount: 27
+    cardModifierEntries: []
+    backgroundSprite: {fileID: 21300000, guid: b0516fe45a62fee34a1d84d38348a106, type: 3}
+    islandOrientationColliders: []
+    islandRects:
+    - serializedVersion: 2
+      x: -4.0699253
+      y: -2.0563974
+      width: 2.9394534
+      height: 2.9059877
+    - serializedVersion: 2
+      x: 0.20821786
+      y: -2.0843153
+      width: 2.9258509
+      height: 2.9321165
+    cameraOffset: {x: 0, y: 0}
+    timePerMove: 0
+  - name: Fortress 14
+    dimensions: {x: 3, y: 5}
+    cardCount: 16
+    cardTypeCount: 4
+    islandCount: 2
+    moveCount: 28
+    cardModifierEntries: []
+    backgroundSprite: {fileID: 21300000, guid: b0516fe45a62fee34a1d84d38348a106, type: 3}
+    islandOrientationColliders: []
+    islandRects:
+    - serializedVersion: 2
+      x: -4.0699253
+      y: -2.0563974
+      width: 2.9394534
+      height: 2.9059877
+    - serializedVersion: 2
+      x: 0.20821786
+      y: -2.0843153
+      width: 2.9258509
+      height: 2.9321165
+    cameraOffset: {x: 0, y: 0}
+    timePerMove: 0
+  - name: Fortress 15
+    dimensions: {x: 3, y: 5}
+    cardCount: 16
+    cardTypeCount: 4
+    islandCount: 2
+    moveCount: 29
+    cardModifierEntries: []
+    backgroundSprite: {fileID: 21300000, guid: b0516fe45a62fee34a1d84d38348a106, type: 3}
+    islandOrientationColliders: []
+    islandRects:
+    - serializedVersion: 2
+      x: -4.0699253
+      y: -2.0563974
+      width: 2.9394534
+      height: 2.9059877
+    - serializedVersion: 2
+      x: 0.20821786
+      y: -2.0843153
+      width: 2.9258509
+      height: 2.9321165
+    cameraOffset: {x: 0, y: 0}
+    timePerMove: 0
+  - name: Fortress 16
+    dimensions: {x: 3, y: 5}
+    cardCount: 16
+    cardTypeCount: 4
+    islandCount: 2
+    moveCount: 30
+    cardModifierEntries: []
+    backgroundSprite: {fileID: 21300000, guid: b0516fe45a62fee34a1d84d38348a106, type: 3}
+    islandOrientationColliders: []
+    islandRects:
+    - serializedVersion: 2
+      x: -4.0699253
+      y: -2.0563974
+      width: 2.9394534
+      height: 2.9059877
+    - serializedVersion: 2
+      x: 0.20821786
+      y: -2.0843153
+      width: 2.9258509
+      height: 2.9321165
+    cameraOffset: {x: 0, y: 0}
+    timePerMove: 0
+  - name: Fortress 17
+    dimensions: {x: 3, y: 5}
+    cardCount: 16
+    cardTypeCount: 4
+    islandCount: 2
+    moveCount: 31
+    cardModifierEntries: []
+    backgroundSprite: {fileID: 21300000, guid: b0516fe45a62fee34a1d84d38348a106, type: 3}
+    islandOrientationColliders: []
+    islandRects:
+    - serializedVersion: 2
+      x: -4.0699253
+      y: -2.0563974
+      width: 2.9394534
+      height: 2.9059877
+    - serializedVersion: 2
+      x: 0.20821786
+      y: -2.0843153
+      width: 2.9258509
+      height: 2.9321165
+    cameraOffset: {x: 0, y: 0}
+    timePerMove: 0
+  - name: Fortress 18
+    dimensions: {x: 3, y: 5}
+    cardCount: 16
+    cardTypeCount: 4
+    islandCount: 2
+    moveCount: 32
+    cardModifierEntries: []
+    backgroundSprite: {fileID: 21300000, guid: b0516fe45a62fee34a1d84d38348a106, type: 3}
+    islandOrientationColliders: []
+    islandRects:
+    - serializedVersion: 2
+      x: -4.0699253
+      y: -2.0563974
+      width: 2.9394534
+      height: 2.9059877
+    - serializedVersion: 2
+      x: 0.20821786
+      y: -2.0843153
+      width: 2.9258509
+      height: 2.9321165
+    cameraOffset: {x: 0, y: 0}
+    timePerMove: 0
+  - name: Fortress 19
+    dimensions: {x: 3, y: 5}
+    cardCount: 16
+    cardTypeCount: 4
+    islandCount: 2
+    moveCount: 33
+    cardModifierEntries: []
+    backgroundSprite: {fileID: 21300000, guid: b0516fe45a62fee34a1d84d38348a106, type: 3}
+    islandOrientationColliders: []
+    islandRects:
+    - serializedVersion: 2
+      x: -4.0699253
+      y: -2.0563974
+      width: 2.9394534
+      height: 2.9059877
+    - serializedVersion: 2
+      x: 0.20821786
+      y: -2.0843153
+      width: 2.9258509
+      height: 2.9321165
+    cameraOffset: {x: 0, y: 0}
+    timePerMove: 0
+  - name: Fortress 20
+    dimensions: {x: 3, y: 5}
+    cardCount: 16
+    cardTypeCount: 4
+    islandCount: 2
+    moveCount: 34
+    cardModifierEntries: []
+    backgroundSprite: {fileID: 21300000, guid: b0516fe45a62fee34a1d84d38348a106, type: 3}
+    islandOrientationColliders: []
+    islandRects:
+    - serializedVersion: 2
+      x: -4.0699253
+      y: -2.0563974
+      width: 2.9394534
+      height: 2.9059877
+    - serializedVersion: 2
+      x: 0.20821786
+      y: -2.0843153
+      width: 2.9258509
+      height: 2.9321165
+    cameraOffset: {x: 0, y: 0}
+    timePerMove: 0
+  - name: Fortress 21
+    dimensions: {x: 3, y: 5}
+    cardCount: 16
+    cardTypeCount: 4
+    islandCount: 2
+    moveCount: 35
+    cardModifierEntries: []
+    backgroundSprite: {fileID: 21300000, guid: b0516fe45a62fee34a1d84d38348a106, type: 3}
+    islandOrientationColliders: []
+    islandRects:
+    - serializedVersion: 2
+      x: -4.0699253
+      y: -2.0563974
+      width: 2.9394534
+      height: 2.9059877
+    - serializedVersion: 2
+      x: 0.20821786
+      y: -2.0843153
+      width: 2.9258509
+      height: 2.9321165
+    cameraOffset: {x: 0, y: 0}
+    timePerMove: 0
+  - name: Fortress 22
+    dimensions: {x: 3, y: 5}
+    cardCount: 16
+    cardTypeCount: 4
+    islandCount: 2
+    moveCount: 36
+    cardModifierEntries: []
+    backgroundSprite: {fileID: 21300000, guid: b0516fe45a62fee34a1d84d38348a106, type: 3}
+    islandOrientationColliders: []
+    islandRects:
+    - serializedVersion: 2
+      x: -4.0699253
+      y: -2.0563974
+      width: 2.9394534
+      height: 2.9059877
+    - serializedVersion: 2
+      x: 0.20821786
+      y: -2.0843153
+      width: 2.9258509
+      height: 2.9321165
+    cameraOffset: {x: 0, y: 0}
+    timePerMove: 0
+  - name: Fortress 23
+    dimensions: {x: 3, y: 5}
+    cardCount: 16
+    cardTypeCount: 4
+    islandCount: 2
+    moveCount: 37
+    cardModifierEntries: []
+    backgroundSprite: {fileID: 21300000, guid: b0516fe45a62fee34a1d84d38348a106, type: 3}
+    islandOrientationColliders: []
+    islandRects:
+    - serializedVersion: 2
+      x: -4.0699253
+      y: -2.0563974
+      width: 2.9394534
+      height: 2.9059877
+    - serializedVersion: 2
+      x: 0.20821786
+      y: -2.0843153
+      width: 2.9258509
+      height: 2.9321165
+    cameraOffset: {x: 0, y: 0}
+    timePerMove: 0
+  - name: Fortress 24
+    dimensions: {x: 3, y: 5}
+    cardCount: 16
+    cardTypeCount: 4
+    islandCount: 2
+    moveCount: 38
+    cardModifierEntries: []
+    backgroundSprite: {fileID: 21300000, guid: b0516fe45a62fee34a1d84d38348a106, type: 3}
+    islandOrientationColliders: []
+    islandRects:
+    - serializedVersion: 2
+      x: -4.0699253
+      y: -2.0563974
+      width: 2.9394534
+      height: 2.9059877
+    - serializedVersion: 2
+      x: 0.20821786
+      y: -2.0843153
+      width: 2.9258509
+      height: 2.9321165
+    cameraOffset: {x: 0, y: 0}
+    timePerMove: 0
+  - name: Fortress 25
+    dimensions: {x: 3, y: 5}
+    cardCount: 16
+    cardTypeCount: 4
+    islandCount: 2
+    moveCount: 39
+    cardModifierEntries: []
+    backgroundSprite: {fileID: 21300000, guid: b0516fe45a62fee34a1d84d38348a106, type: 3}
+    islandOrientationColliders: []
+    islandRects:
+    - serializedVersion: 2
+      x: -4.0699253
+      y: -2.0563974
+      width: 2.9394534
+      height: 2.9059877
+    - serializedVersion: 2
+      x: 0.20821786
+      y: -2.0843153
+      width: 2.9258509
+      height: 2.9321165
+    cameraOffset: {x: 0, y: 0}
+    timePerMove: 0

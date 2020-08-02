@@ -1459,10 +1459,10 @@ Camera:
   m_FocalLength: 50
   m_NormalizedViewPortRect:
     serializedVersion: 2
-    x: -1.9407332
-    y: 0.39757177
-    width: 4.8814664
-    height: 0.20485647
+    x: 0.035881758
+    y: 0
+    width: 0.9282365
+    height: 1
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
@@ -1686,7 +1686,7 @@ PrefabInstance:
     - target: {fileID: 7213918602578096180, guid: 47353e76929c88e40af1c59e5aeaed5c,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 6
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 7213918602578096180, guid: 47353e76929c88e40af1c59e5aeaed5c,
         type: 3}
@@ -1697,11 +1697,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1226179679}
+      objectReference: {fileID: 1226179680}
     - target: {fileID: 7213918602578096180, guid: 47353e76929c88e40af1c59e5aeaed5c,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: SetActive
+      value: LoadScene
       objectReference: {fileID: 0}
     - target: {fileID: 7213918602578096180, guid: 47353e76929c88e40af1c59e5aeaed5c,
         type: 3}
@@ -1712,6 +1712,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_BoolArgument
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7213918602578096180, guid: 47353e76929c88e40af1c59e5aeaed5c,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: World
       objectReference: {fileID: 0}
     - target: {fileID: 7213918602578096181, guid: 47353e76929c88e40af1c59e5aeaed5c,
         type: 3}
@@ -2370,12 +2375,12 @@ PrefabInstance:
     - target: {fileID: 7213918602578096180, guid: 47353e76929c88e40af1c59e5aeaed5c,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7213918602578096180, guid: 47353e76929c88e40af1c59e5aeaed5c,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 6
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 7213918602578096180, guid: 47353e76929c88e40af1c59e5aeaed5c,
         type: 3}
@@ -2386,11 +2391,12 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1226179679}
+      objectReference: {fileID: 8070838706112381532, guid: 784f0ed6315e68140b62b114112dad69,
+        type: 3}
     - target: {fileID: 7213918602578096180, guid: 47353e76929c88e40af1c59e5aeaed5c,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: SetActive
+      value: LoadScene
       objectReference: {fileID: 0}
     - target: {fileID: 7213918602578096180, guid: 47353e76929c88e40af1c59e5aeaed5c,
         type: 3}
@@ -2400,7 +2406,12 @@ PrefabInstance:
     - target: {fileID: 7213918602578096180, guid: 47353e76929c88e40af1c59e5aeaed5c,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_BoolArgument
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7213918602578096180, guid: 47353e76929c88e40af1c59e5aeaed5c,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: Tutorial
       objectReference: {fileID: 0}
     - target: {fileID: 7213918602578096181, guid: 47353e76929c88e40af1c59e5aeaed5c,
         type: 3}
@@ -2539,6 +2550,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 8070838706112381532, guid: 784f0ed6315e68140b62b114112dad69,
         type: 3}
+      propertyPath: gameScenes.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8070838706112381532, guid: 784f0ed6315e68140b62b114112dad69,
+        type: 3}
       propertyPath: islandCount
       value: 3
       objectReference: {fileID: 0}
@@ -2610,7 +2626,7 @@ PrefabInstance:
     - target: {fileID: 8070838706112381534, guid: 784f0ed6315e68140b62b114112dad69,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 784f0ed6315e68140b62b114112dad69, type: 3}

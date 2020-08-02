@@ -356,8 +356,6 @@ namespace MatchingCardGame
 				CardSlot cardSlotToMoveTo = possibleCardSlotsToMoveTo[indexOfCardSlotToMoveTo];
 				islandsLevel.selectedCard = cardToMove;
 				islandsLevel.highlightedCard = cardSlotToMoveTo;
-				if ((cardSlotToMoveTo as CardSlot) == null || cardToMove == null || cardToMove.cardSlotUnderMe == null)
-					return false;
 				islandsLevel.MoveSelectedCardToHighlightedPosition();
 				int matchCount = islandsLevel.GetMatchCount();
 				if (matchCount == 0)

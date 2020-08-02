@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 630f75c9d1b59ac4f9df0dc21b121a81, type: 3}
+  m_Name: (Tutorial) Islands Levels Data
+  m_EditorClassIdentifier: 
+  levelZones:
+  - firstLevelEntry:
+      name: Tutorial
+      dimensions: {x: 2, y: 2}
+      cardCount: 4
+      cardTypeCount: 1
+      islandCount: 2
+      moveCount: 3
+      cardModifierEntries: []
+      backgroundSprite: {fileID: 21300000, guid: f54f480d188e9e84b952353fcb1a72f8,
+        type: 3}
+      islandOrientationColliders: []
+      islandRects:
+      - serializedVersion: 2
+        x: -3.9784431
+        y: -1.4282968
+        width: 2.751225
+        height: 2.7380486
+      - serializedVersion: 2
+        x: 1.0413113
+        y: -1.4272723
+        width: 2.7249403
+        height: 2.730747
+      cameraOffset: {x: 0.11, y: 0.05}
+      timePerMove: 6
+    starsRequiredToUnlockMe: 0
+    levelCount: 1
+  islandsLevelEntries:
+  - name: Tutorial 1
+    dimensions: {x: 2, y: 2}
+    cardCount: 4
+    cardTypeCount: 1
+    islandCount: 2
+    moveCount: 3
+    cardModifierEntries: []
+    backgroundSprite: {fileID: 21300000, guid: f54f480d188e9e84b952353fcb1a72f8, type: 3}
+    islandOrientationColliders: []
+    islandRects:
+    - serializedVersion: 2
+      x: -3.9784431
+      y: -1.4282968
+      width: 2.751225
+      height: 2.7380486
+    - serializedVersion: 2
+      x: 1.0413113
+      y: -1.4272723
+      width: 2.7249403
+      height: 2.730747
+    cameraOffset: {x: 0.11, y: 0.05}
+    timePerMove: 5

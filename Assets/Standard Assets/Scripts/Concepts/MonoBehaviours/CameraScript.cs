@@ -8,7 +8,7 @@ using UnityEditor;
 
 namespace MatchingCardGame
 {
-	//[ExecuteInEditMode]
+	[ExecuteInEditMode]
 	[RequireComponent(typeof(Camera))]
 	[DisallowMultipleComponent]
 	public class CameraScript : MonoBehaviour

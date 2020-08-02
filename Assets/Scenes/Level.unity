@@ -7008,6 +7008,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 379f17221c7c247f8838d3cc24dc17f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  update: 0
   islandsLevelsData: {fileID: 11400000, guid: 31290e9d5b7379a41a60022024dbd6ff, type: 2}
   levelSeperation: 5
   nextLevelButton: {fileID: 1450757179}
@@ -7230,10 +7231,10 @@ Camera:
   m_FocalLength: 50
   m_NormalizedViewPortRect:
     serializedVersion: 2
-    x: -0.25
-    y: 0.16666666
-    width: 1.5
-    height: 0.6666667
+    x: 0
+    y: 0
+    width: 1
+    height: 1
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60

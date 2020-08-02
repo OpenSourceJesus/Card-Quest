@@ -320,7 +320,7 @@ namespace MatchingCardGame
 			}
 			initialized = false;
 			StopAllCoroutines ();
-			if (SceneManager.GetSceneByName(gameScenes[0].name).isLoaded)
+			if (gameScenes.Length == 0 || SceneManager.GetSceneByName(gameScenes[0].name).isLoaded)
 			{
 				// UnloadScene ("Game");
 				// LoadSceneAdditive ("Game");

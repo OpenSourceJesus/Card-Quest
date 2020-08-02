@@ -81,5 +81,53 @@ namespace Extensions
 		{
 			trs.localScale = trs.rotation * trs.InverseTransformDirection(scale);
 		}
+
+		public static Transform GetClosestTransform_2D (this Transform closestTo, Transform[] transforms)
+		{
+			if (transforms.Length == 0)
+				return null;
+			else if (transforms.Length == 1)
+				return transforms[0];
+			int closestOpponentIndex = 0;
+			Transform closestTrs = transforms[0];
+			float distance = ((Vector2) (closestTo.position - closestTrs.position)).sqrMagnitude;
+			float closestDistance = distance;
+			for (int i = 1; i < transforms.Length; i ++)
+			{
+				Transform checkTrs = transforms[i];
+				distance = ((Vector2) (checkTrs.position - closestTrs.position)).sqrMagnitude;
+				if (distance < closestDistance)
+				{
+					closestOpponentIndex = i;
+					closestDistance = distance;
+					closestTrs = checkTrs;
+				}
+			}
+			return transforms[closestOpponentIndex];
+		}
+
+		public static Transform GetClosestTransform_2D (Transform[] transforms, Vector2 position)
+		{
+			if (transforms.Length == 0)
+				return null;
+			else if (transforms.Length == 1)
+				return transforms[0];
+			int closestOpponentIndex = 0;
+			Transform closestTrs = transforms[0];
+			float distance = (position - (Vector2) closestTrs.position).sqrMagnitude;
+			float closestDistance = distance;
+			for (int i = 1; i < transforms.Length; i ++)
+			{
+				Transform checkTrs = transforms[i];
+				distance = ((Vector2) (checkTrs.position - closestTrs.position)).sqrMagnitude;
+				if (distance < closestDistance)
+				{
+					closestDistance = distance;
+					closestOpponentIndex = i;
+					closestTrs = checkTrs;
+				}
+			}
+			return transforms[closestOpponentIndex];
+		}
 	}
 }
