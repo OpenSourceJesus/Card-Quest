@@ -38,6 +38,7 @@ namespace MatchingCardGame
 #endif
 			GameManager.GetSingleton<SaveAndLoadManager>().LoadMostRecent ();
 			Zone previousZone = zones[0];
+			print(GameManager.stars);
 			for (int i = 1; i < zones.Length; i ++)
 			{
 				Zone zone = zones[i];

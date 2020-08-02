@@ -200,6 +200,9 @@ namespace MatchingCardGame
 				foreach (Card card in island.cards)
 					card.collider.isTrigger = false;
 			}
+			indexOfNextStarToLose = 0;
+			isOverParTime = false;
+			isOverMoveCount = false;
 			foreach (GameObject starIconGo in statusMenuStarIconGos)
 				starIconGo.SetActive(true);
 			foreach (GameObject starIconGo in nextLevelScreenStarIconGos)
@@ -254,6 +257,7 @@ namespace MatchingCardGame
 				SetLevelStars (level.name, stars);
 			}
 			SetLevelCompleted (level.name, true);
+			GameManager.GetSingleton<SaveAndLoadManager>().Save ();
 			nextLevelButton.gameObject.SetActive(true);
 		}
 
