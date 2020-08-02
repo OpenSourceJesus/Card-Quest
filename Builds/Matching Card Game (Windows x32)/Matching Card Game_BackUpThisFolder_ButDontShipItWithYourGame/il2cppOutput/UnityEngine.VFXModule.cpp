@@ -53,25 +53,12 @@ IL2CPP_EXTERN_C RuntimeClass* VisualEffectAsset_t5AFD0DCFBEC1A30C6D83E8C8D6D1AB9
 IL2CPP_EXTERN_C String_t* _stringLiteral29D09DBB9C096DB61C36287A5B28F9CCF930B3D3;
 IL2CPP_EXTERN_C String_t* _stringLiteralBAC399EA8879F8811A51616627E0A37A8C397FF6;
 IL2CPP_EXTERN_C String_t* _stringLiteralE60899033C878BEBC2B19D94B9D064D08D5E6BC9;
-IL2CPP_EXTERN_C const RuntimeMethod* VFXExpressionValues_CreateExpressionValuesWrapper_m130F5756DFE9AB35E695168BB6657A89110099CB_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* VFXExpressionValues__ctor_mC4B97E160ABAEC401DB0D306C3F3906556F1E918_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* VFXSpawnerCallbacks__ctor_m9CAD31ED7850EC5C4C6BAADE73B725AD7BF1BAD1_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* VFXSpawnerState_CreateSpawnerStateWrapper_mF96091A1AD9396392690CA603EA0784F8376EC5E_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* VFXSpawnerState_Dispose_m4442314D7EFCBD73A43003682C50092CE272A746_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* VFXSpawnerState_Finalize_m9C16C8F15D21824A9CC54E5FCDE3D784CCEE8C5A_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* VFXSpawnerState_Release_m7A33784A786603F4BCFCB79CB7F41AE922166112_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* VFXSpawnerState_SetWrapValue_mD32C8695227ADE66BE7333968F4BDE8B58C14BED_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* VFXSpawnerState__ctor_mEDB9EFACCB5F720273C21C33E4800203941E6B4B_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* VisualEffectAsset__cctor_mF52E8CC197CC64D3D4D146CE468BEC9FFC8C7FEA_RuntimeMethod_var;
 IL2CPP_EXTERN_C const uint32_t VFXExpressionValues_CreateExpressionValuesWrapper_m130F5756DFE9AB35E695168BB6657A89110099CB_MetadataUsageId;
-IL2CPP_EXTERN_C const uint32_t VFXExpressionValues__ctor_mC4B97E160ABAEC401DB0D306C3F3906556F1E918_MetadataUsageId;
-IL2CPP_EXTERN_C const uint32_t VFXSpawnerCallbacks__ctor_m9CAD31ED7850EC5C4C6BAADE73B725AD7BF1BAD1_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t VFXSpawnerState_CreateSpawnerStateWrapper_mF96091A1AD9396392690CA603EA0784F8376EC5E_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t VFXSpawnerState_Dispose_m4442314D7EFCBD73A43003682C50092CE272A746_MetadataUsageId;
-IL2CPP_EXTERN_C const uint32_t VFXSpawnerState_Finalize_m9C16C8F15D21824A9CC54E5FCDE3D784CCEE8C5A_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t VFXSpawnerState_Release_m7A33784A786603F4BCFCB79CB7F41AE922166112_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t VFXSpawnerState_SetWrapValue_mD32C8695227ADE66BE7333968F4BDE8B58C14BED_MetadataUsageId;
-IL2CPP_EXTERN_C const uint32_t VFXSpawnerState__ctor_mEDB9EFACCB5F720273C21C33E4800203941E6B4B_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t VisualEffectAsset__cctor_mF52E8CC197CC64D3D4D146CE468BEC9FFC8C7FEA_MetadataUsageId;
 struct Exception_t_marshaled_com;
 struct Exception_t_marshaled_pinvoke;
@@ -922,14 +909,6 @@ IL2CPP_EXTERN_C void VFXExpressionValues_t7854A335E4F80432A68C04735531E62674C75E
 // System.Void UnityEngine.VFX.VFXExpressionValues::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VFXExpressionValues__ctor_mC4B97E160ABAEC401DB0D306C3F3906556F1E918 (VFXExpressionValues_t7854A335E4F80432A68C04735531E62674C75E5D * __this, const RuntimeMethod* method)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (VFXExpressionValues__ctor_mC4B97E160ABAEC401DB0D306C3F3906556F1E918_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, VFXExpressionValues__ctor_mC4B97E160ABAEC401DB0D306C3F3906556F1E918_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		Object__ctor_m925ECA5E85CA100E3FB86A4F9E15C120E9A184C0(__this, /*hidden argument*/NULL);
 		return;
@@ -946,8 +925,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR VFXExpressionValues_t7854A335E4F80432A68C0473
 	}
 	VFXExpressionValues_t7854A335E4F80432A68C04735531E62674C75E5D * V_0 = NULL;
 	VFXExpressionValues_t7854A335E4F80432A68C04735531E62674C75E5D * V_1 = NULL;
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, VFXExpressionValues_CreateExpressionValuesWrapper_m130F5756DFE9AB35E695168BB6657A89110099CB_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		VFXExpressionValues_t7854A335E4F80432A68C04735531E62674C75E5D * L_0 = (VFXExpressionValues_t7854A335E4F80432A68C04735531E62674C75E5D *)il2cpp_codegen_object_new(VFXExpressionValues_t7854A335E4F80432A68C04735531E62674C75E5D_il2cpp_TypeInfo_var);
 		VFXExpressionValues__ctor_mC4B97E160ABAEC401DB0D306C3F3906556F1E918(L_0, /*hidden argument*/NULL);
@@ -986,14 +963,6 @@ IL_0012:
 // System.Void UnityEngine.VFX.VFXSpawnerCallbacks::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VFXSpawnerCallbacks__ctor_m9CAD31ED7850EC5C4C6BAADE73B725AD7BF1BAD1 (VFXSpawnerCallbacks_t695FBEFCBBDCDF128592B0356CA3380990A3E71F * __this, const RuntimeMethod* method)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (VFXSpawnerCallbacks__ctor_m9CAD31ED7850EC5C4C6BAADE73B725AD7BF1BAD1_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, VFXSpawnerCallbacks__ctor_m9CAD31ED7850EC5C4C6BAADE73B725AD7BF1BAD1_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		ScriptableObject__ctor_m6E2B3821A4A361556FC12E9B1C71E1D5DC002C5B(__this, /*hidden argument*/NULL);
 		return;
@@ -1050,14 +1019,6 @@ IL2CPP_EXTERN_C void VFXSpawnerState_t8C5A3DE67F38AF6EC5A63494321BBFF177CC8523_m
 // System.Void UnityEngine.VFX.VFXSpawnerState::.ctor(System.IntPtr,System.Boolean)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VFXSpawnerState__ctor_mEDB9EFACCB5F720273C21C33E4800203941E6B4B (VFXSpawnerState_t8C5A3DE67F38AF6EC5A63494321BBFF177CC8523 * __this, intptr_t ___ptr0, bool ___owner1, const RuntimeMethod* method)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (VFXSpawnerState__ctor_mEDB9EFACCB5F720273C21C33E4800203941E6B4B_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, VFXSpawnerState__ctor_mEDB9EFACCB5F720273C21C33E4800203941E6B4B_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		Object__ctor_m925ECA5E85CA100E3FB86A4F9E15C120E9A184C0(__this, /*hidden argument*/NULL);
 		intptr_t L_0 = ___ptr0;
@@ -1078,8 +1039,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR VFXSpawnerState_t8C5A3DE67F38AF6EC5A63494321B
 	}
 	VFXSpawnerState_t8C5A3DE67F38AF6EC5A63494321BBFF177CC8523 * V_0 = NULL;
 	VFXSpawnerState_t8C5A3DE67F38AF6EC5A63494321BBFF177CC8523 * V_1 = NULL;
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, VFXSpawnerState_CreateSpawnerStateWrapper_mF96091A1AD9396392690CA603EA0784F8376EC5E_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		VFXSpawnerState_t8C5A3DE67F38AF6EC5A63494321BBFF177CC8523 * L_0 = (VFXSpawnerState_t8C5A3DE67F38AF6EC5A63494321BBFF177CC8523 *)il2cpp_codegen_object_new(VFXSpawnerState_t8C5A3DE67F38AF6EC5A63494321BBFF177CC8523_il2cpp_TypeInfo_var);
 		VFXSpawnerState__ctor_mEDB9EFACCB5F720273C21C33E4800203941E6B4B(L_0, (intptr_t)(0), (bool)0, /*hidden argument*/NULL);
@@ -1105,8 +1064,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VFXSpawnerState_SetWrapValue_mD32C869522
 		s_Il2CppMethodInitialized = true;
 	}
 	bool V_0 = false;
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, VFXSpawnerState_SetWrapValue_mD32C8695227ADE66BE7333968F4BDE8B58C14BED_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		bool L_0 = __this->get_m_Owner_1();
 		V_0 = L_0;
@@ -1139,8 +1096,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VFXSpawnerState_Release_m7A33784A786603F
 		s_Il2CppMethodInitialized = true;
 	}
 	bool V_0 = false;
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, VFXSpawnerState_Release_m7A33784A786603F4BCFCB79CB7F41AE922166112_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	int32_t G_B3_0 = 0;
 	{
 		intptr_t L_0 = __this->get_m_Ptr_0();
@@ -1184,14 +1139,6 @@ IL_002e:
 // System.Void UnityEngine.VFX.VFXSpawnerState::Finalize()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VFXSpawnerState_Finalize_m9C16C8F15D21824A9CC54E5FCDE3D784CCEE8C5A (VFXSpawnerState_t8C5A3DE67F38AF6EC5A63494321BBFF177CC8523 * __this, const RuntimeMethod* method)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (VFXSpawnerState_Finalize_m9C16C8F15D21824A9CC54E5FCDE3D784CCEE8C5A_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, VFXSpawnerState_Finalize_m9C16C8F15D21824A9CC54E5FCDE3D784CCEE8C5A_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	Exception_t * __last_unhandled_exception = 0;
 	NO_UNUSED_WARNING (__last_unhandled_exception);
 	Exception_t * __exception_local = 0;
@@ -1205,7 +1152,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VFXSpawnerState_Finalize_m9C16C8F15D2182
 IL_0001:
 	try
 	{ // begin try (depth: 1)
-		STORE_TRY_ID(methodExecutionContext, 0);
 		VFXSpawnerState_Release_m7A33784A786603F4BCFCB79CB7F41AE922166112(__this, /*hidden argument*/NULL);
 		IL2CPP_LEAVE(0x13, FINALLY_000b);
 	} // end try (depth: 1)
@@ -1217,7 +1163,6 @@ IL_0001:
 
 FINALLY_000b:
 	{ // begin finally (depth: 1)
-		STORE_TRY_ID(methodExecutionContext, -1);
 		Object_Finalize_m4015B7D3A44DE125C5FE34D7276CD4697C06F380(__this, /*hidden argument*/NULL);
 		IL2CPP_END_FINALLY(11)
 	} // end finally (depth: 1)
@@ -1241,8 +1186,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VFXSpawnerState_Dispose_m4442314D7EFCBD7
 		il2cpp_codegen_initialize_method (VFXSpawnerState_Dispose_m4442314D7EFCBD73A43003682C50092CE272A746_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, VFXSpawnerState_Dispose_m4442314D7EFCBD73A43003682C50092CE272A746_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		VFXSpawnerState_Release_m7A33784A786603F4BCFCB79CB7F41AE922166112(__this, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(GC_tC1D7BD74E8F44ECCEF5CD2B5D84BFF9AAE02D01D_il2cpp_TypeInfo_var);
@@ -1284,8 +1227,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VisualEffectAsset__cctor_mF52E8CC197CC64
 		il2cpp_codegen_initialize_method (VisualEffectAsset__cctor_mF52E8CC197CC64D3D4D146CE468BEC9FFC8C7FEA_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, VisualEffectAsset__cctor_mF52E8CC197CC64D3D4D146CE468BEC9FFC8C7FEA_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = Shader_PropertyToID_m831E5B48743620DB9E3E3DD15A8DEA483981DD45(_stringLiteralBAC399EA8879F8811A51616627E0A37A8C397FF6, /*hidden argument*/NULL);
 		((VisualEffectAsset_t5AFD0DCFBEC1A30C6D83E8C8D6D1AB92A88236D3_StaticFields*)il2cpp_codegen_static_fields_for(VisualEffectAsset_t5AFD0DCFBEC1A30C6D83E8C8D6D1AB92A88236D3_il2cpp_TypeInfo_var))->set_PlayEventID_4(L_0);

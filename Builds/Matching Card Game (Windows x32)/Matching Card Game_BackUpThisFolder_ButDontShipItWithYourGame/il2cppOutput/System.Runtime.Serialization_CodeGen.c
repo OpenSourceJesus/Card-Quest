@@ -34,7 +34,6 @@ static const int32_t s_InvokerIndices[2] =
 	14,
 	14,
 };
-extern const Il2CppDebuggerMetadataRegistration g_DebuggerMetadataRegistrationSystem_Runtime_Serialization;
 extern const Il2CppCodeGenModule g_System_Runtime_SerializationCodeGenModule;
 const Il2CppCodeGenModule g_System_Runtime_SerializationCodeGenModule = 
 {
@@ -48,5 +47,5 @@ const Il2CppCodeGenModule g_System_Runtime_SerializationCodeGenModule =
 	NULL,
 	0,
 	NULL,
-	&g_DebuggerMetadataRegistrationSystem_Runtime_Serialization,
+	NULL,
 };

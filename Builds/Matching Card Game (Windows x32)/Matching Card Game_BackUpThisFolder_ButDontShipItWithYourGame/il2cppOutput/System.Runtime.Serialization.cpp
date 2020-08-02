@@ -26,10 +26,6 @@ struct EnumMemberAttribute_t115D80337B2C8222158FC46345EA100EEB63B32D;
 // System.String
 struct String_t;
 
-IL2CPP_EXTERN_C const RuntimeMethod* DataMemberAttribute_get_Name_mA626FA1D50DB99B87C7EB674B93622431E14F973_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* EnumMemberAttribute_get_Value_mAEC018F5DF3B080413117FD31F8B87AEFBDA30F8_RuntimeMethod_var;
-IL2CPP_EXTERN_C const uint32_t DataMemberAttribute_get_Name_mA626FA1D50DB99B87C7EB674B93622431E14F973_MetadataUsageId;
-IL2CPP_EXTERN_C const uint32_t EnumMemberAttribute_get_Value_mAEC018F5DF3B080413117FD31F8B87AEFBDA30F8_MetadataUsageId;
 
 
 IL2CPP_EXTERN_C_BEGIN
@@ -179,14 +175,6 @@ public:
 // System.String System.Runtime.Serialization.DataMemberAttribute::get_Name()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* DataMemberAttribute_get_Name_mA626FA1D50DB99B87C7EB674B93622431E14F973 (DataMemberAttribute_tC865433FEC93FFD46D6F3E4BB28F262C9EE40525 * __this, const RuntimeMethod* method)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (DataMemberAttribute_get_Name_mA626FA1D50DB99B87C7EB674B93622431E14F973_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, DataMemberAttribute_get_Name_mA626FA1D50DB99B87C7EB674B93622431E14F973_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		String_t* L_0 = __this->get_name_0();
 		return L_0;
@@ -203,14 +191,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* DataMemberAttribute_get_Name_mA626F
 // System.String System.Runtime.Serialization.EnumMemberAttribute::get_Value()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* EnumMemberAttribute_get_Value_mAEC018F5DF3B080413117FD31F8B87AEFBDA30F8 (EnumMemberAttribute_t115D80337B2C8222158FC46345EA100EEB63B32D * __this, const RuntimeMethod* method)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (EnumMemberAttribute_get_Value_mAEC018F5DF3B080413117FD31F8B87AEFBDA30F8_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, EnumMemberAttribute_get_Value_mAEC018F5DF3B080413117FD31F8B87AEFBDA30F8_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		String_t* L_0 = __this->get_value_0();
 		return L_0;

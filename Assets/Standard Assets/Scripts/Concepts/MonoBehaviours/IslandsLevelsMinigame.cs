@@ -175,8 +175,6 @@ namespace MatchingCardGame
 			{
 				currentLevel = islandsLevels[currentLevelIndex];
 				string zoneName = currentLevel.name.Remove(currentLevel.name.IndexOf(" "));
-				if (!GameManager.completedZoneNames.Contains(zoneName))
-					GameManager.completedZoneNames.Add(zoneName);
 				GameManager.GetSingleton<GameManager>().LoadScene ("World");
 				return;
 			}
@@ -257,7 +255,7 @@ namespace MatchingCardGame
 			int previousStars = GetLevelStars(level.name);
 			if (stars > previousStars)
 			{
-				GameManager.stars += stars - previousStars;
+				GameManager.Stars += stars - previousStars;
 				SetLevelStars (level.name, stars);
 			}
 			SetLevelCompleted (level.name, true);

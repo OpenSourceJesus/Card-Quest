@@ -67,12 +67,6 @@ IL2CPP_EXTERN_C RuntimeClass* Regex_tFD46E63A462E852189FD6AB4E2B0B67C4D8FDBDF_il
 IL2CPP_EXTERN_C RuntimeClass* Uri_t87E4A94B2901F5EEDD18AA72C3DB1B00E672D68E_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* WebRequestUtils_tBE8F8607E3A9633419968F6AF2F706A029AE1296_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C String_t* _stringLiteral56F03F5F25FB2048BF4AB5FBBF7B5E3D39A3ECEB;
-IL2CPP_EXTERN_C const RuntimeMethod* CertificateHandler_ValidateCertificateNative_mE500FAB5B59229D61E85A5DC0E28A0F583679170_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* CertificateHandler_ValidateCertificate_m10584FA8D39D238AA435AB440279D3943273817D_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* WebRequestUtils_RedirectTo_m8AC7C0BFC562550118F6FF4AE218898717E922C1_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* WebRequestUtils__cctor_m31EB3E45EC49AB6B33C7A10F79F1CD4FF2BE715A_RuntimeMethod_var;
-IL2CPP_EXTERN_C const uint32_t CertificateHandler_ValidateCertificateNative_mE500FAB5B59229D61E85A5DC0E28A0F583679170_MetadataUsageId;
-IL2CPP_EXTERN_C const uint32_t CertificateHandler_ValidateCertificate_m10584FA8D39D238AA435AB440279D3943273817D_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t WebRequestUtils_RedirectTo_m8AC7C0BFC562550118F6FF4AE218898717E922C1_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t WebRequestUtils__cctor_m31EB3E45EC49AB6B33C7A10F79F1CD4FF2BE715A_MetadataUsageId;
 
@@ -1194,15 +1188,7 @@ IL2CPP_EXTERN_C void CertificateHandler_tBD070BF4150A44AB482FD36EA3882C363117E8C
 // System.Boolean UnityEngine.Networking.CertificateHandler::ValidateCertificate(System.Byte[])
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CertificateHandler_ValidateCertificate_m10584FA8D39D238AA435AB440279D3943273817D (CertificateHandler_tBD070BF4150A44AB482FD36EA3882C363117E8C0 * __this, ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821* ___certificateData0, const RuntimeMethod* method)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (CertificateHandler_ValidateCertificate_m10584FA8D39D238AA435AB440279D3943273817D_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
 	bool V_0 = false;
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, CertificateHandler_ValidateCertificate_m10584FA8D39D238AA435AB440279D3943273817D_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		V_0 = (bool)0;
 		goto IL_0005;
@@ -1217,15 +1203,7 @@ IL_0005:
 // System.Boolean UnityEngine.Networking.CertificateHandler::ValidateCertificateNative(System.Byte[])
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CertificateHandler_ValidateCertificateNative_mE500FAB5B59229D61E85A5DC0E28A0F583679170 (CertificateHandler_tBD070BF4150A44AB482FD36EA3882C363117E8C0 * __this, ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821* ___certificateData0, const RuntimeMethod* method)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (CertificateHandler_ValidateCertificateNative_mE500FAB5B59229D61E85A5DC0E28A0F583679170_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
 	bool V_0 = false;
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, CertificateHandler_ValidateCertificateNative_mE500FAB5B59229D61E85A5DC0E28A0F583679170_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821* L_0 = ___certificateData0;
 		bool L_1 = VirtFuncInvoker1< bool, ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821* >::Invoke(4 /* System.Boolean UnityEngine.Networking.CertificateHandler::ValidateCertificate(System.Byte[]) */, __this, L_0);
@@ -1262,8 +1240,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* WebRequestUtils_RedirectTo_m8AC7C0B
 	bool V_3 = false;
 	bool V_4 = false;
 	String_t* V_5 = NULL;
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, WebRequestUtils_RedirectTo_m8AC7C0BFC562550118F6FF4AE218898717E922C1_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		String_t* L_0 = ___redirectUri1;
 		NullCheck(L_0);
@@ -1344,8 +1320,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WebRequestUtils__cctor_m31EB3E45EC49AB6B
 		il2cpp_codegen_initialize_method (WebRequestUtils__cctor_m31EB3E45EC49AB6B33C7A10F79F1CD4FF2BE715A_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, WebRequestUtils__cctor_m31EB3E45EC49AB6B33C7A10F79F1CD4FF2BE715A_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		Regex_tFD46E63A462E852189FD6AB4E2B0B67C4D8FDBDF * L_0 = (Regex_tFD46E63A462E852189FD6AB4E2B0B67C4D8FDBDF *)il2cpp_codegen_object_new(Regex_tFD46E63A462E852189FD6AB4E2B0B67C4D8FDBDF_il2cpp_TypeInfo_var);
 		Regex__ctor_m2769A5BA7B7A835514F6C0E4D30FAD467C6B1B0C(L_0, _stringLiteral56F03F5F25FB2048BF4AB5FBBF7B5E3D39A3ECEB, /*hidden argument*/NULL);

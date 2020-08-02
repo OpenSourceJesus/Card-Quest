@@ -83,7 +83,7 @@ static Il2CppMethodPointer s_methodPointers[19] =
 static const int32_t s_InvokerIndices[19] = 
 {
 	31,
-	1050,
+	1068,
 	26,
 	10,
 	114,
@@ -91,8 +91,8 @@ static const int32_t s_InvokerIndices[19] =
 	26,
 	28,
 	14,
-	1051,
-	1052,
+	1069,
+	1070,
 	34,
 	14,
 	43,
@@ -102,7 +102,6 @@ static const int32_t s_InvokerIndices[19] =
 	43,
 	0,
 };
-extern const Il2CppDebuggerMetadataRegistration g_DebuggerMetadataRegistrationMono_Security;
 extern const Il2CppCodeGenModule g_Mono_SecurityCodeGenModule;
 const Il2CppCodeGenModule g_Mono_SecurityCodeGenModule = 
 {
@@ -116,5 +115,5 @@ const Il2CppCodeGenModule g_Mono_SecurityCodeGenModule =
 	NULL,
 	0,
 	NULL,
-	&g_DebuggerMetadataRegistrationMono_Security,
+	NULL,
 };

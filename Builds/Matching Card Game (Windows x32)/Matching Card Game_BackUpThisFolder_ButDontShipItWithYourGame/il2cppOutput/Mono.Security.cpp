@@ -137,27 +137,11 @@ IL2CPP_EXTERN_C String_t* _stringLiteral3E865F1099831286A154AA14FDC8362AFA6ED747
 IL2CPP_EXTERN_C String_t* _stringLiteral9EDF4240018976BF964CF31C1A24D34FDE8D517D;
 IL2CPP_EXTERN_C String_t* _stringLiteral9F792B61D0EC544D91E7AFF34E2E99EE3CF2B313;
 IL2CPP_EXTERN_C String_t* _stringLiteralAA8170ABE1940ECECCB2A8C879187D7FB5C54A00;
-IL2CPP_EXTERN_C const RuntimeMethod* ASN1Convert_FromInt32_m59FF0922659B0A323026CCC0876BC33020C4FC9A_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* ASN1Convert_ToInt32_mA2A8761F965979408D46FBEB946DB59F36137A5E_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* ASN1Convert_ToOid_mFFA93B4BBEFCA8E4E86DAE87CDB998E78BFB2D5A_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* ASN1_Add_mF6ED0416BB021A1C333F99E42F8B17AF8B26639B_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* ASN1_DecodeTLV_m30440B1DE0A8C4236AA9658DEBF2808FD3BC00C3_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* ASN1_Decode_m94E3A6F94EDACE796521D04E6A832D99592F1149_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* ASN1_GetBytes_m4ABC0EF4CBE8CF6BE65CEC52CDB02BB59E2E9AE4_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* ASN1_ToString_mF3953615856548F00889AD245391D09FBE782CBA_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* ASN1__ctor_m6DD2E5BD0B12A6BFA95E1822A55B2294B8C237BC_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* ASN1__ctor_mAB2593792CB61AD1542F4F9D6FB6E8BB96DE007E_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* ASN1__ctor_mE005F52336402C3D41EAD9E28A95910B3C0865DA_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* ASN1_get_Count_m5A0E71B4C4A2257C0875AE1041AAA953C5B12A19_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* ASN1_get_Item_m88B75C57A7E130A02A709AE8FFD2E0972E71FC08_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* ASN1_get_Tag_m1346989AC839D85A9E0A211525A6B551974E4862_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* ASN1_get_Value_m9BD6239E12A6148AF9507C2F58058C6B8147A079_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* ASN1_set_Value_m225FF9AC03EA872809C7742070A34A264C58588E_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Array_Empty_TisRuntimeObject_m9CF99326FAC8A01A4A25C90AA97F0799BA35ECAB_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Array_Reverse_TisByte_tF87C579059BD4633E6840EBBBEEF899C6E33EF07_mC8368AE2D0BBD4782573256FA55F0AD0FB67EC2D_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* BitConverterLE_GetBytes_m1207548B6BC0E2D49DD06D5B3A3AC19C001BDB35_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* BitConverterLE_GetUIntBytes_m871281C3039A5B7DFB56E0F3EBBE22F74135997C_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* CryptoConvert_ToHex_m2FB6183AFF3B31424407BB7D767A844E3464B411_RuntimeMethod_var;
 IL2CPP_EXTERN_C const uint32_t ASN1Convert_FromInt32_m59FF0922659B0A323026CCC0876BC33020C4FC9A_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t ASN1Convert_ToInt32_mA2A8761F965979408D46FBEB946DB59F36137A5E_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t ASN1Convert_ToOid_mFFA93B4BBEFCA8E4E86DAE87CDB998E78BFB2D5A_MetadataUsageId;
@@ -166,16 +150,10 @@ IL2CPP_EXTERN_C const uint32_t ASN1_DecodeTLV_m30440B1DE0A8C4236AA9658DEBF2808FD
 IL2CPP_EXTERN_C const uint32_t ASN1_Decode_m94E3A6F94EDACE796521D04E6A832D99592F1149_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t ASN1_GetBytes_m4ABC0EF4CBE8CF6BE65CEC52CDB02BB59E2E9AE4_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t ASN1_ToString_mF3953615856548F00889AD245391D09FBE782CBA_MetadataUsageId;
-IL2CPP_EXTERN_C const uint32_t ASN1__ctor_m6DD2E5BD0B12A6BFA95E1822A55B2294B8C237BC_MetadataUsageId;
-IL2CPP_EXTERN_C const uint32_t ASN1__ctor_mAB2593792CB61AD1542F4F9D6FB6E8BB96DE007E_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t ASN1__ctor_mE005F52336402C3D41EAD9E28A95910B3C0865DA_MetadataUsageId;
-IL2CPP_EXTERN_C const uint32_t ASN1_get_Count_m5A0E71B4C4A2257C0875AE1041AAA953C5B12A19_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t ASN1_get_Item_m88B75C57A7E130A02A709AE8FFD2E0972E71FC08_MetadataUsageId;
-IL2CPP_EXTERN_C const uint32_t ASN1_get_Tag_m1346989AC839D85A9E0A211525A6B551974E4862Mono_Security_MetadataUsageId;
-IL2CPP_EXTERN_C const uint32_t ASN1_get_Tag_m1346989AC839D85A9E0A211525A6B551974E4862_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t ASN1_get_Value_m9BD6239E12A6148AF9507C2F58058C6B8147A079_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t ASN1_set_Value_m225FF9AC03EA872809C7742070A34A264C58588E_MetadataUsageId;
-IL2CPP_EXTERN_C const uint32_t BitConverterLE_GetBytes_m1207548B6BC0E2D49DD06D5B3A3AC19C001BDB35_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t BitConverterLE_GetUIntBytes_m871281C3039A5B7DFB56E0F3EBBE22F74135997C_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t CryptoConvert_ToHex_m2FB6183AFF3B31424407BB7D767A844E3464B411_MetadataUsageId;
 struct CultureData_tF43B080FFA6EB278F4F289BCDA3FB74B6C208ECD_marshaled_com;
@@ -1603,14 +1581,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Byte_ToString_m731FDB27391432D7F14B
 // System.Void Mono.Security.ASN1::.ctor(System.Byte)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ASN1__ctor_m6DD2E5BD0B12A6BFA95E1822A55B2294B8C237BC (ASN1_t2B883D12D3493F8395B31D1F0ABD93F43948B27E * __this, uint8_t ___tag0, const RuntimeMethod* method)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (ASN1__ctor_m6DD2E5BD0B12A6BFA95E1822A55B2294B8C237BC_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, ASN1__ctor_m6DD2E5BD0B12A6BFA95E1822A55B2294B8C237BC_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		uint8_t L_0 = ___tag0;
 		ASN1__ctor_mAB2593792CB61AD1542F4F9D6FB6E8BB96DE007E(__this, L_0, (ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821*)(ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821*)NULL, /*hidden argument*/NULL);
@@ -1620,14 +1590,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ASN1__ctor_m6DD2E5BD0B12A6BFA95E1822A55B
 // System.Void Mono.Security.ASN1::.ctor(System.Byte,System.Byte[])
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ASN1__ctor_mAB2593792CB61AD1542F4F9D6FB6E8BB96DE007E (ASN1_t2B883D12D3493F8395B31D1F0ABD93F43948B27E * __this, uint8_t ___tag0, ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821* ___data1, const RuntimeMethod* method)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (ASN1__ctor_mAB2593792CB61AD1542F4F9D6FB6E8BB96DE007E_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, ASN1__ctor_mAB2593792CB61AD1542F4F9D6FB6E8BB96DE007E_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		Object__ctor_m925ECA5E85CA100E3FB86A4F9E15C120E9A184C0(__this, /*hidden argument*/NULL);
 		uint8_t L_0 = ___tag0;
@@ -1650,8 +1612,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ASN1__ctor_mE005F52336402C3D41EAD9E28A95
 	int32_t V_1 = 0;
 	int32_t V_2 = 0;
 	int32_t V_3 = 0;
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, ASN1__ctor_mE005F52336402C3D41EAD9E28A95910B3C0865DA_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		Object__ctor_m925ECA5E85CA100E3FB86A4F9E15C120E9A184C0(__this, /*hidden argument*/NULL);
 		ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821* L_0 = ___data0;
@@ -1681,7 +1641,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ASN1__ctor_mE005F52336402C3D41EAD9E28A95
 
 IL_002b:
 	{
-		CHECK_PAUSE_POINT;
 		int32_t L_8 = V_1;
 		V_1 = ((int32_t)il2cpp_codegen_multiply((int32_t)L_8, (int32_t)((int32_t)256)));
 		int32_t L_9 = V_1;
@@ -1755,14 +1714,6 @@ IL_0092:
 // System.Int32 Mono.Security.ASN1::get_Count()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ASN1_get_Count_m5A0E71B4C4A2257C0875AE1041AAA953C5B12A19 (ASN1_t2B883D12D3493F8395B31D1F0ABD93F43948B27E * __this, const RuntimeMethod* method)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (ASN1_get_Count_m5A0E71B4C4A2257C0875AE1041AAA953C5B12A19_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, ASN1_get_Count_m5A0E71B4C4A2257C0875AE1041AAA953C5B12A19_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		ArrayList_t4131E0C29C7E1B9BC9DFE37BEC41A5EB1481ADF4 * L_0 = __this->get_elist_2();
 		if (L_0)
@@ -1778,21 +1729,13 @@ IL_000a:
 	{
 		ArrayList_t4131E0C29C7E1B9BC9DFE37BEC41A5EB1481ADF4 * L_1 = __this->get_elist_2();
 		NullCheck(L_1);
-		int32_t L_2 = VirtFuncInvoker0< int32_t >::Invoke(19 /* System.Int32 System.Collections.ArrayList::get_Count() */, L_1);
+		int32_t L_2 = VirtFuncInvoker0< int32_t >::Invoke(22 /* System.Int32 System.Collections.ArrayList::get_Count() */, L_1);
 		return L_2;
 	}
 }
 // System.Byte Mono.Security.ASN1::get_Tag()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t ASN1_get_Tag_m1346989AC839D85A9E0A211525A6B551974E4862 (ASN1_t2B883D12D3493F8395B31D1F0ABD93F43948B27E * __this, const RuntimeMethod* method)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (ASN1_get_Tag_m1346989AC839D85A9E0A211525A6B551974E4862_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, ASN1_get_Tag_m1346989AC839D85A9E0A211525A6B551974E4862_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		uint8_t L_0 = __this->get_m_nTag_0();
 		return L_0;
@@ -1807,8 +1750,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A22
 		il2cpp_codegen_initialize_method (ASN1_get_Value_m9BD6239E12A6148AF9507C2F58058C6B8147A079_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, ASN1_get_Value_m9BD6239E12A6148AF9507C2F58058C6B8147A079_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821* L_0 = __this->get_m_aValue_1();
 		if (L_0)
@@ -1837,8 +1778,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ASN1_set_Value_m225FF9AC03EA872809C77420
 		il2cpp_codegen_initialize_method (ASN1_set_Value_m225FF9AC03EA872809C7742070A34A264C58588E_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, ASN1_set_Value_m225FF9AC03EA872809C7742070A34A264C58588E_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821* L_0 = ___value0;
 		if (!L_0)
@@ -1867,8 +1806,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ASN1_t2B883D12D3493F8395B31D1F0ABD93F43948B27
 		il2cpp_codegen_initialize_method (ASN1_Add_mF6ED0416BB021A1C333F99E42F8B17AF8B26639B_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, ASN1_Add_mF6ED0416BB021A1C333F99E42F8B17AF8B26639B_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		ASN1_t2B883D12D3493F8395B31D1F0ABD93F43948B27E * L_0 = ___asn10;
 		if (!L_0)
@@ -1894,7 +1831,7 @@ IL_0016:
 		ArrayList_t4131E0C29C7E1B9BC9DFE37BEC41A5EB1481ADF4 * L_3 = __this->get_elist_2();
 		ASN1_t2B883D12D3493F8395B31D1F0ABD93F43948B27E * L_4 = ___asn10;
 		NullCheck(L_3);
-		VirtFuncInvoker1< int32_t, RuntimeObject * >::Invoke(24 /* System.Int32 System.Collections.ArrayList::Add(System.Object) */, L_3, L_4);
+		VirtFuncInvoker1< int32_t, RuntimeObject * >::Invoke(29 /* System.Int32 System.Collections.ArrayList::Add(System.Object) */, L_3, L_4);
 	}
 
 IL_0023:
@@ -1924,8 +1861,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A22
 	int32_t V_9 = 0;
 	ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821* V_10 = NULL;
 	int32_t V_11 = 0;
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, ASN1_GetBytes_m4ABC0EF4CBE8CF6BE65CEC52CDB02BB59E2E9AE4_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	Exception_t * __last_unhandled_exception = 0;
 	NO_UNUSED_WARNING (__last_unhandled_exception);
 	Exception_t * __exception_local = 0;
@@ -1948,21 +1883,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A22
 		V_4 = L_1;
 		ArrayList_t4131E0C29C7E1B9BC9DFE37BEC41A5EB1481ADF4 * L_2 = __this->get_elist_2();
 		NullCheck(L_2);
-		RuntimeObject* L_3 = VirtFuncInvoker0< RuntimeObject* >::Invoke(30 /* System.Collections.IEnumerator System.Collections.ArrayList::GetEnumerator() */, L_2);
+		RuntimeObject* L_3 = VirtFuncInvoker0< RuntimeObject* >::Invoke(36 /* System.Collections.IEnumerator System.Collections.ArrayList::GetEnumerator() */, L_2);
 		V_6 = L_3;
 	}
 
 IL_0024:
 	try
 	{ // begin try (depth: 1)
-		STORE_TRY_ID(methodExecutionContext, 0);
 		{
 			goto IL_004a;
 		}
 
 IL_0026:
 		{
-			CHECK_PAUSE_POINT;
 			RuntimeObject* L_4 = V_6;
 			NullCheck(L_4);
 			RuntimeObject * L_5 = InterfaceFuncInvoker0< RuntimeObject * >::Invoke(1 /* System.Object System.Collections.IEnumerator::get_Current() */, IEnumerator_t8789118187258CC88B77AFAC6315B5AF87D3E18A_il2cpp_TypeInfo_var, L_4);
@@ -1972,7 +1905,7 @@ IL_0026:
 			ArrayList_t4131E0C29C7E1B9BC9DFE37BEC41A5EB1481ADF4 * L_7 = V_4;
 			ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821* L_8 = V_7;
 			NullCheck(L_7);
-			VirtFuncInvoker1< int32_t, RuntimeObject * >::Invoke(24 /* System.Int32 System.Collections.ArrayList::Add(System.Object) */, L_7, (RuntimeObject *)(RuntimeObject *)L_8);
+			VirtFuncInvoker1< int32_t, RuntimeObject * >::Invoke(29 /* System.Int32 System.Collections.ArrayList::Add(System.Object) */, L_7, (RuntimeObject *)(RuntimeObject *)L_8);
 			int32_t L_9 = V_3;
 			ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821* L_10 = V_7;
 			NullCheck(L_10);
@@ -2003,7 +1936,6 @@ IL_0053:
 
 FINALLY_0055:
 	{ // begin finally (depth: 1)
-		STORE_TRY_ID(methodExecutionContext, -1);
 		{
 			RuntimeObject* L_13 = V_6;
 			V_8 = ((RuntimeObject*)IsInst((RuntimeObject*)L_13, IDisposable_t7218B22548186B208D65EA5B7870503810A2D15A_il2cpp_TypeInfo_var));
@@ -2044,11 +1976,10 @@ IL_006a:
 
 IL_0079:
 	{
-		CHECK_PAUSE_POINT;
 		ArrayList_t4131E0C29C7E1B9BC9DFE37BEC41A5EB1481ADF4 * L_18 = V_4;
 		int32_t L_19 = V_9;
 		NullCheck(L_18);
-		RuntimeObject * L_20 = VirtFuncInvoker1< RuntimeObject *, int32_t >::Invoke(22 /* System.Object System.Collections.ArrayList::get_Item(System.Int32) */, L_18, L_19);
+		RuntimeObject * L_20 = VirtFuncInvoker1< RuntimeObject *, int32_t >::Invoke(27 /* System.Object System.Collections.ArrayList::get_Item(System.Int32) */, L_18, L_19);
 		V_10 = ((ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821*)Castclass((RuntimeObject*)L_20, ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821_il2cpp_TypeInfo_var));
 		ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821* L_21 = V_10;
 		ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821* L_22 = V_0;
@@ -2069,7 +2000,7 @@ IL_00a7:
 		int32_t L_28 = V_9;
 		ArrayList_t4131E0C29C7E1B9BC9DFE37BEC41A5EB1481ADF4 * L_29 = __this->get_elist_2();
 		NullCheck(L_29);
-		int32_t L_30 = VirtFuncInvoker0< int32_t >::Invoke(19 /* System.Int32 System.Collections.ArrayList::get_Count() */, L_29);
+		int32_t L_30 = VirtFuncInvoker0< int32_t >::Invoke(22 /* System.Int32 System.Collections.ArrayList::get_Count() */, L_29);
 		if ((((int32_t)L_28) < ((int32_t)L_30)))
 		{
 			goto IL_0079;
@@ -2284,15 +2215,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ASN1_Decode_m94E3A6F94EDACE796521D04E6A8
 	ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821* V_2 = NULL;
 	ASN1_t2B883D12D3493F8395B31D1F0ABD93F43948B27E * V_3 = NULL;
 	int32_t V_4 = 0;
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, ASN1_Decode_m94E3A6F94EDACE796521D04E6A832D99592F1149_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		goto IL_0040;
 	}
 
 IL_0002:
 	{
-		CHECK_PAUSE_POINT;
 		ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821* L_0 = ___asn10;
 		int32_t* L_1 = ___anPos1;
 		ASN1_DecodeTLV_m30440B1DE0A8C4236AA9658DEBF2808FD3BC00C3(__this, L_0, (int32_t*)L_1, (uint8_t*)(&V_0), (int32_t*)(&V_1), (ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821**)(&V_2), /*hidden argument*/NULL);
@@ -2362,8 +2290,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ASN1_DecodeTLV_m30440B1DE0A8C4236AA9658D
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
 	int32_t V_2 = 0;
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, ASN1_DecodeTLV_m30440B1DE0A8C4236AA9658DEBF2808FD3BC00C3_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		uint8_t* L_0 = ___tag2;
 		ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821* L_1 = ___asn10;
@@ -2410,7 +2336,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ASN1_DecodeTLV_m30440B1DE0A8C4236AA9658D
 
 IL_003a:
 	{
-		CHECK_PAUSE_POINT;
 		int32_t* L_23 = ___length3;
 		int32_t* L_24 = ___length3;
 		int32_t L_25 = *((int32_t*)L_24);
@@ -2469,8 +2394,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ASN1_t2B883D12D3493F8395B31D1F0ABD93F43948B27
 		s_Il2CppMethodInitialized = true;
 	}
 	ASN1_t2B883D12D3493F8395B31D1F0ABD93F43948B27E * V_0 = NULL;
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, ASN1_get_Item_m88B75C57A7E130A02A709AE8FFD2E0972E71FC08_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	Exception_t * __last_unhandled_exception = 0;
 	NO_UNUSED_WARNING (__last_unhandled_exception);
 	Exception_t * __exception_local = 0;
@@ -2482,7 +2405,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ASN1_t2B883D12D3493F8395B31D1F0ABD93F43948B27
 IL_0000:
 	try
 	{ // begin try (depth: 1)
-		STORE_TRY_ID(methodExecutionContext, 0);
 		{
 			ArrayList_t4131E0C29C7E1B9BC9DFE37BEC41A5EB1481ADF4 * L_0 = __this->get_elist_2();
 			if (!L_0)
@@ -2496,7 +2418,7 @@ IL_0008:
 			int32_t L_1 = ___index0;
 			ArrayList_t4131E0C29C7E1B9BC9DFE37BEC41A5EB1481ADF4 * L_2 = __this->get_elist_2();
 			NullCheck(L_2);
-			int32_t L_3 = VirtFuncInvoker0< int32_t >::Invoke(19 /* System.Int32 System.Collections.ArrayList::get_Count() */, L_2);
+			int32_t L_3 = VirtFuncInvoker0< int32_t >::Invoke(22 /* System.Int32 System.Collections.ArrayList::get_Count() */, L_2);
 			if ((((int32_t)L_1) < ((int32_t)L_3)))
 			{
 				goto IL_001a;
@@ -2514,7 +2436,7 @@ IL_001a:
 			ArrayList_t4131E0C29C7E1B9BC9DFE37BEC41A5EB1481ADF4 * L_4 = __this->get_elist_2();
 			int32_t L_5 = ___index0;
 			NullCheck(L_4);
-			RuntimeObject * L_6 = VirtFuncInvoker1< RuntimeObject *, int32_t >::Invoke(22 /* System.Object System.Collections.ArrayList::get_Item(System.Int32) */, L_4, L_5);
+			RuntimeObject * L_6 = VirtFuncInvoker1< RuntimeObject *, int32_t >::Invoke(27 /* System.Object System.Collections.ArrayList::get_Item(System.Int32) */, L_4, L_5);
 			V_0 = ((ASN1_t2B883D12D3493F8395B31D1F0ABD93F43948B27E *)CastclassClass((RuntimeObject*)L_6, ASN1_t2B883D12D3493F8395B31D1F0ABD93F43948B27E_il2cpp_TypeInfo_var));
 			goto IL_0033;
 		}
@@ -2529,7 +2451,6 @@ IL_001a:
 
 CATCH_002e:
 	{ // begin catch(System.ArgumentOutOfRangeException)
-		STORE_TRY_ID(methodExecutionContext, -1);
 		V_0 = (ASN1_t2B883D12D3493F8395B31D1F0ABD93F43948B27E *)NULL;
 		goto IL_0033;
 	} // end catch (depth: 1)
@@ -2551,8 +2472,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* ASN1_ToString_mF3953615856548F00889
 	}
 	StringBuilder_t * V_0 = NULL;
 	int32_t V_1 = 0;
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, ASN1_ToString_mF3953615856548F00889AD245391D09FBE782CBA_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		StringBuilder_t * L_0 = (StringBuilder_t *)il2cpp_codegen_object_new(StringBuilder_t_il2cpp_TypeInfo_var);
 		StringBuilder__ctor_mF928376F82E8C8FF3C11842C562DB8CF28B2735E(L_0, /*hidden argument*/NULL);
@@ -2584,7 +2503,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* ASN1_ToString_mF3953615856548F00889
 
 IL_0061:
 	{
-		CHECK_PAUSE_POINT;
 		StringBuilder_t * L_13 = V_0;
 		ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821* L_14 = ASN1_get_Value_m9BD6239E12A6148AF9507C2F58058C6B8147A079(__this, /*hidden argument*/NULL);
 		int32_t L_15 = V_1;
@@ -2650,8 +2568,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ASN1_t2B883D12D3493F8395B31D1F0ABD93F43948B27
 	int32_t V_1 = 0;
 	ASN1_t2B883D12D3493F8395B31D1F0ABD93F43948B27E * V_2 = NULL;
 	ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821* V_3 = NULL;
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, ASN1Convert_FromInt32_m59FF0922659B0A323026CCC0876BC33020C4FC9A_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___value0;
 		ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821* L_1 = BitConverterLE_GetBytes_m1207548B6BC0E2D49DD06D5B3A3AC19C001BDB35(L_0, /*hidden argument*/NULL);
@@ -2664,7 +2580,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ASN1_t2B883D12D3493F8395B31D1F0ABD93F43948B27
 
 IL_0011:
 	{
-		CHECK_PAUSE_POINT;
 		int32_t L_3 = V_1;
 		V_1 = ((int32_t)il2cpp_codegen_add((int32_t)L_3, (int32_t)1));
 	}
@@ -2765,8 +2680,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ASN1Convert_ToInt32_mA2A8761F96597940
 	}
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, ASN1Convert_ToInt32_mA2A8761F965979408D46FBEB946DB59F36137A5E_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		ASN1_t2B883D12D3493F8395B31D1F0ABD93F43948B27E * L_0 = ___asn10;
 		if (L_0)
@@ -2805,7 +2718,6 @@ IL_0022:
 
 IL_0028:
 	{
-		CHECK_PAUSE_POINT;
 		int32_t L_5 = V_0;
 		ASN1_t2B883D12D3493F8395B31D1F0ABD93F43948B27E * L_6 = ___asn10;
 		NullCheck(L_6);
@@ -2850,8 +2762,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* ASN1Convert_ToOid_mFFA93B4BBEFCA8E4
 	uint8_t V_2 = 0x0;
 	uint8_t V_3 = 0x0;
 	uint64_t V_4 = 0;
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, ASN1Convert_ToOid_mFFA93B4BBEFCA8E4E86DAE87CDB998E78BFB2D5A_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		ASN1_t2B883D12D3493F8395B31D1F0ABD93F43948B27E * L_0 = ___asn10;
 		if (L_0)
@@ -2920,7 +2830,6 @@ IL_003c:
 
 IL_0076:
 	{
-		CHECK_PAUSE_POINT;
 		uint64_t L_21 = V_4;
 		ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821* L_22 = V_0;
 		uint8_t L_23 = V_2;
@@ -2991,8 +2900,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A22
 		il2cpp_codegen_initialize_method (BitConverterLE_GetUIntBytes_m871281C3039A5B7DFB56E0F3EBBE22F74135997C_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, BitConverterLE_GetUIntBytes_m871281C3039A5B7DFB56E0F3EBBE22F74135997C_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(BitConverter_tD5DF1CB5C5A5CB087D90BD881C8E75A332E546EE_il2cpp_TypeInfo_var);
 		bool L_0 = ((BitConverter_tD5DF1CB5C5A5CB087D90BD881C8E75A332E546EE_StaticFields*)il2cpp_codegen_static_fields_for(BitConverter_tD5DF1CB5C5A5CB087D90BD881C8E75A332E546EE_il2cpp_TypeInfo_var))->get_IsLittleEndian_0();
@@ -3055,14 +2962,6 @@ IL_0028:
 // System.Byte[] Mono.Security.BitConverterLE::GetBytes(System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821* BitConverterLE_GetBytes_m1207548B6BC0E2D49DD06D5B3A3AC19C001BDB35 (int32_t ___value0, const RuntimeMethod* method)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (BitConverterLE_GetBytes_m1207548B6BC0E2D49DD06D5B3A3AC19C001BDB35_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, BitConverterLE_GetBytes_m1207548B6BC0E2D49DD06D5B3A3AC19C001BDB35_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821* L_0 = BitConverterLE_GetUIntBytes_m871281C3039A5B7DFB56E0F3EBBE22F74135997C((uint8_t*)(uint8_t*)(((uintptr_t)(&___value0))), /*hidden argument*/NULL);
 		return L_0;
@@ -3089,8 +2988,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* CryptoConvert_ToHex_m2FB6183AFF3B31
 	ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821* V_1 = NULL;
 	int32_t V_2 = 0;
 	uint8_t V_3 = 0x0;
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, CryptoConvert_ToHex_m2FB6183AFF3B31424407BB7D767A844E3464B411_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821* L_0 = ___input0;
 		if (L_0)
@@ -3117,7 +3014,6 @@ IL_0005:
 
 IL_0016:
 	{
-		CHECK_PAUSE_POINT;
 		ByteU5BU5D_tD06FDBE8142446525DF1C40351D523A228373821* L_4 = V_1;
 		int32_t L_5 = V_2;
 		NullCheck(L_4);
@@ -3156,14 +3052,6 @@ IL_0036:
 #endif
 IL2CPP_EXTERN_C inline  IL2CPP_METHOD_ATTR uint8_t ASN1_get_Tag_m1346989AC839D85A9E0A211525A6B551974E4862_inline (ASN1_t2B883D12D3493F8395B31D1F0ABD93F43948B27E * __this, const RuntimeMethod* method)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (ASN1_get_Tag_m1346989AC839D85A9E0A211525A6B551974E4862Mono_Security_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, ASN1_get_Tag_m1346989AC839D85A9E0A211525A6B551974E4862_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		uint8_t L_0 = __this->get_m_nTag_0();
 		return L_0;
@@ -3171,8 +3059,6 @@ IL2CPP_EXTERN_C inline  IL2CPP_METHOD_ATTR uint8_t ASN1_get_Tag_m1346989AC839D85
 }
 IL2CPP_EXTERN_C inline IL2CPP_METHOD_ATTR ObjectU5BU5D_t3C9242B5C88A48B2A5BD9FDA6CD0024E792AF08A* Array_Empty_TisRuntimeObject_m9CF99326FAC8A01A4A25C90AA97F0799BA35ECAB_gshared_inline (const RuntimeMethod* method)
 {
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, method, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(IL2CPP_RGCTX_DATA(method->rgctx_data, 0));
 		ObjectU5BU5D_t3C9242B5C88A48B2A5BD9FDA6CD0024E792AF08A* L_0 = ((EmptyArray_1_tCF137C88A5824F413EFB5A2F31664D8207E61D26_StaticFields*)il2cpp_codegen_static_fields_for(IL2CPP_RGCTX_DATA(method->rgctx_data, 0)))->get_Value_0();

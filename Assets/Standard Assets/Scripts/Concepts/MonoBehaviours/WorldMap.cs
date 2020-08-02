@@ -41,8 +41,7 @@ namespace MatchingCardGame
 			for (int i = 1; i < zones.Length; i ++)
 			{
 				Zone zone = zones[i];
-				// if (GameManager.completedZoneNames.Contains(previousZone.trs.name))
-				if (GameManager.stars >= islandsLevelsData.levelZones[i].starsRequiredToUnlockMe)
+				if (GameManager.Stars >= islandsLevelsData.levelZones[i].starsRequiredToUnlockMe)
 					zone.lockGo.SetActive(false);
 				previousZone = zone;
 			}

@@ -234,7 +234,7 @@ struct IEqualityComparer_1_t1F07EAC22CC1D4F279164B144240E4718BD7E7A9;
 // System.Collections.Generic.List`1<UnityEngine.EventSystems.RaycastResult>
 struct List_1_t1BB31D71CB8736DC35CCD9FFB9228FAFD427EB52;
 // System.Collections.Generic.List`1<UnityEngine.GameObject>
-struct List_1_t0087C02D52C7E5CFF8C0C55FC0453A28FD5F055B;
+struct List_1_t99909CDEDA6D21189884AEA74B1FD99FC9C6A4C0;
 // System.Collections.Generic.List`1<UnityEngine.InputSystem.Layouts.InputControlLayout/Collection/LayoutMatcher>
 struct List_1_t73B7FA46FDA48048A1D80DC9743582CC4DCD0E3C;
 // System.Collections.Generic.Stack`1<UnityEngine.InputSystem.InputSystem/State>
@@ -8313,7 +8313,7 @@ public:
 	// UnityEngine.EventSystems.RaycastResult UnityEngine.EventSystems.PointerEventData::<pointerPressRaycast>k__BackingField
 	RaycastResult_t991BCED43A91EDD8580F39631DA07B1F88C58B91  ___U3CpointerPressRaycastU3Ek__BackingField_8;
 	// System.Collections.Generic.List`1<UnityEngine.GameObject> UnityEngine.EventSystems.PointerEventData::hovered
-	List_1_t0087C02D52C7E5CFF8C0C55FC0453A28FD5F055B * ___hovered_9;
+	List_1_t99909CDEDA6D21189884AEA74B1FD99FC9C6A4C0 * ___hovered_9;
 	// System.Boolean UnityEngine.EventSystems.PointerEventData::<eligibleForClick>k__BackingField
 	bool ___U3CeligibleForClickU3Ek__BackingField_10;
 	// System.Int32 UnityEngine.EventSystems.PointerEventData::<pointerId>k__BackingField
@@ -8412,9 +8412,9 @@ public:
 	}
 
 	inline static int32_t get_offset_of_hovered_9() { return static_cast<int32_t>(offsetof(PointerEventData_tC18994283B7753E430E316A62D9E45BA6D644C63, ___hovered_9)); }
-	inline List_1_t0087C02D52C7E5CFF8C0C55FC0453A28FD5F055B * get_hovered_9() const { return ___hovered_9; }
-	inline List_1_t0087C02D52C7E5CFF8C0C55FC0453A28FD5F055B ** get_address_of_hovered_9() { return &___hovered_9; }
-	inline void set_hovered_9(List_1_t0087C02D52C7E5CFF8C0C55FC0453A28FD5F055B * value)
+	inline List_1_t99909CDEDA6D21189884AEA74B1FD99FC9C6A4C0 * get_hovered_9() const { return ___hovered_9; }
+	inline List_1_t99909CDEDA6D21189884AEA74B1FD99FC9C6A4C0 ** get_address_of_hovered_9() { return &___hovered_9; }
+	inline void set_hovered_9(List_1_t99909CDEDA6D21189884AEA74B1FD99FC9C6A4C0 * value)
 	{
 		___hovered_9 = value;
 		Il2CppCodeGenWriteBarrier((void**)(&___hovered_9), (void*)value);
@@ -16152,7 +16152,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject * Dictionary_2_get_Item_m6625C3
 // System.Void System.Nullable`1<UnityEngine.InputSystem.InputAction/CallbackContext>::.ctor(!0)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Nullable_1__ctor_m6A8DB5E72057CF9F97C580BB55E056EC2A05B6ED_gshared (Nullable_1_tD34A9724AC6C263792AC80150D89073A564C1555 * __this, CallbackContext_t2D7813DF0BB6D35A4A2E10563BEB1B26B6C27CD2  ___value0, const RuntimeMethod* method);
 // System.Void System.Collections.Generic.Dictionary`2<System.Object,System.Object>::Clear()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Dictionary_2_Clear_m1115171C74C982EA09CF1B8DB7E4C97ED6AC23D4_gshared (Dictionary_2_t32F25F093828AA9F93CB11C2A2B4648FD62A09BA * __this, const RuntimeMethod* method);
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Dictionary_2_Clear_m0EC0FF0E4C6FE91D15CEE92696B25109A202B942_gshared (Dictionary_2_t32F25F093828AA9F93CB11C2A2B4648FD62A09BA * __this, const RuntimeMethod* method);
 // System.Void System.Collections.Generic.Dictionary`2<System.Object,System.Object>::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Dictionary_2__ctor_m2C7E51568033239B506E15E7804A0B8658246498_gshared (Dictionary_2_t32F25F093828AA9F93CB11C2A2B4648FD62A09BA * __this, const RuntimeMethod* method);
 // System.Void System.Collections.Generic.Dictionary`2<System.Object,System.Object>::set_Item(!0,!1)
@@ -17323,7 +17323,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Component_SendMessage_m5F974670739408623
 // System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Clear()
 inline void Dictionary_2_Clear_mF05546858A2901326140AC7E07355845F5359DFF (Dictionary_2_t931BF283048C4E74FC063C3036E5F3FE328861FC * __this, const RuntimeMethod* method)
 {
-	((  void (*) (Dictionary_2_t931BF283048C4E74FC063C3036E5F3FE328861FC *, const RuntimeMethod*))Dictionary_2_Clear_m1115171C74C982EA09CF1B8DB7E4C97ED6AC23D4_gshared)(__this, method);
+	((  void (*) (Dictionary_2_t931BF283048C4E74FC063C3036E5F3FE328861FC *, const RuntimeMethod*))Dictionary_2_Clear_m0EC0FF0E4C6FE91D15CEE92696B25109A202B942_gshared)(__this, method);
 }
 // System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::.ctor()
 inline void Dictionary_2__ctor_m5B1C279E77422BB0B2C7B0374ECF89E3224AF62B (Dictionary_2_t931BF283048C4E74FC063C3036E5F3FE328861FC * __this, const RuntimeMethod* method)

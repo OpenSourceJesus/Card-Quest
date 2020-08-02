@@ -80,11 +80,9 @@ IL2CPP_EXTERN_C String_t* _stringLiteral66E179247F6AC3640942FBCA80B92DD2614F4C3D
 IL2CPP_EXTERN_C String_t* _stringLiteralD0A3E7F81A9885E99049D1CAE0336D269D5E47A9;
 IL2CPP_EXTERN_C String_t* _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
 IL2CPP_EXTERN_C const RuntimeMethod* JsonUtility_FromJson_mD891C9EDB2D0B95536CD2A3F2BEFF3DCFEE30A45_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* JsonUtility_ToJson_m588D3BCFA6FC7FA342FC221D4CB02729E901E573_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* JsonUtility_ToJson_m7726F8B90F5F4049147B9463CC08672A29B603FA_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeType* Object_tAE11E5E46CD5C37C9F3E8950C00CD8B45666A2D0_0_0_0_var;
 IL2CPP_EXTERN_C const uint32_t JsonUtility_FromJson_mD891C9EDB2D0B95536CD2A3F2BEFF3DCFEE30A45_MetadataUsageId;
-IL2CPP_EXTERN_C const uint32_t JsonUtility_ToJson_m588D3BCFA6FC7FA342FC221D4CB02729E901E573_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t JsonUtility_ToJson_m7726F8B90F5F4049147B9463CC08672A29B603FA_MetadataUsageId;
 struct Exception_t_marshaled_com;
 struct Exception_t_marshaled_pinvoke;
@@ -871,15 +869,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject * JsonUtility_FromJsonInternal_
 // System.String UnityEngine.JsonUtility::ToJson(System.Object)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* JsonUtility_ToJson_m588D3BCFA6FC7FA342FC221D4CB02729E901E573 (RuntimeObject * ___obj0, const RuntimeMethod* method)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (JsonUtility_ToJson_m588D3BCFA6FC7FA342FC221D4CB02729E901E573_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
 	String_t* V_0 = NULL;
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, JsonUtility_ToJson_m588D3BCFA6FC7FA342FC221D4CB02729E901E573_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		RuntimeObject * L_0 = ___obj0;
 		String_t* L_1 = JsonUtility_ToJson_m7726F8B90F5F4049147B9463CC08672A29B603FA(L_0, (bool)0, /*hidden argument*/NULL);
@@ -905,8 +895,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* JsonUtility_ToJson_m7726F8B90F5F404
 	bool V_0 = false;
 	String_t* V_1 = NULL;
 	bool V_2 = false;
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, JsonUtility_ToJson_m7726F8B90F5F4049147B9463CC08672A29B603FA_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	int32_t G_B6_0 = 0;
 	int32_t G_B8_0 = 0;
 	{
@@ -1003,8 +991,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject * JsonUtility_FromJson_mD891C9E
 	RuntimeObject * V_1 = NULL;
 	bool V_2 = false;
 	bool V_3 = false;
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, JsonUtility_FromJson_mD891C9EDB2D0B95536CD2A3F2BEFF3DCFEE30A45_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	int32_t G_B7_0 = 0;
 	{
 		String_t* L_0 = ___json0;
@@ -1053,7 +1039,7 @@ IL_0022:
 		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
 		Type_t * L_10 = Type_GetTypeFromHandle_m9DC58ADF0512987012A8A016FB64B068F3B1AFF6(L_9, /*hidden argument*/NULL);
 		NullCheck(L_8);
-		bool L_11 = VirtFuncInvoker1< bool, Type_t * >::Invoke(111 /* System.Boolean System.Type::IsSubclassOf(System.Type) */, L_8, L_10);
+		bool L_11 = VirtFuncInvoker1< bool, Type_t * >::Invoke(116 /* System.Boolean System.Type::IsSubclassOf(System.Type) */, L_8, L_10);
 		G_B7_0 = ((int32_t)(L_11));
 		goto IL_003d;
 	}

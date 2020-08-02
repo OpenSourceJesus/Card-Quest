@@ -26685,7 +26685,7 @@ IL_0244:
 		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_InputSystem + 52528));
 		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_InputSystem + 52529));
 		NullCheck(L_83);
-		Type_t * L_84 = VirtFuncInvoker0< Type_t * >::Invoke(107 /* System.Type System.Type::GetEnumUnderlyingType() */, L_83);
+		Type_t * L_84 = VirtFuncInvoker0< Type_t * >::Invoke(112 /* System.Type System.Type::GetEnumUnderlyingType() */, L_83);
 		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsUnity_InputSystem + 52529));
 		V_31 = L_84;
 		// var underlyingTypeCode = Type.GetTypeCode(underlyingType);

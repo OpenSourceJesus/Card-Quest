@@ -81,7 +81,6 @@ struct Void_t22962CB4C05B1D89B55A6E1139F0E87A90987017;
 struct OnNavMeshPreUpdate_tA3A16B3CAFF83530076BF839EA5699AAAD6C6353;
 
 IL2CPP_EXTERN_C RuntimeClass* NavMesh_tA4816D7EDC559C21816DEAE4EBD002CAC8B7330A_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C const RuntimeMethod* NavMesh_Internal_CallOnNavMeshPreUpdate_mED6CAB94A6CB61A5FD547B7026DB4C96F2AF5B60_RuntimeMethod_var;
 IL2CPP_EXTERN_C const uint32_t NavMesh_Internal_CallOnNavMeshPreUpdate_mED6CAB94A6CB61A5FD547B7026DB4C96F2AF5B60_MetadataUsageId;
 struct Delegate_t_marshaled_com;
 struct Delegate_t_marshaled_pinvoke;
@@ -518,8 +517,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NavMesh_Internal_CallOnNavMeshPreUpdate_
 		s_Il2CppMethodInitialized = true;
 	}
 	bool V_0 = false;
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, NavMesh_Internal_CallOnNavMeshPreUpdate_mED6CAB94A6CB61A5FD547B7026DB4C96F2AF5B60_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		OnNavMeshPreUpdate_tA3A16B3CAFF83530076BF839EA5699AAAD6C6353 * L_0 = ((NavMesh_tA4816D7EDC559C21816DEAE4EBD002CAC8B7330A_StaticFields*)il2cpp_codegen_static_fields_for(NavMesh_tA4816D7EDC559C21816DEAE4EBD002CAC8B7330A_il2cpp_TypeInfo_var))->get_onPreUpdate_0();
 		V_0 = (bool)((!(((RuntimeObject*)(OnNavMeshPreUpdate_tA3A16B3CAFF83530076BF839EA5699AAAD6C6353 *)L_0) <= ((RuntimeObject*)(RuntimeObject *)NULL)))? 1 : 0);

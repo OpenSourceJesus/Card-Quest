@@ -103,20 +103,10 @@ IL2CPP_EXTERN_C RuntimeClass* NativeInputUpdateType_t744D5594ED044E47F3BAF84F453
 IL2CPP_EXTERN_C const RuntimeMethod* Action_1_Invoke_m60C027AA0F030AC2B693BEFB8E213066CD9000D0_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Action_2_Invoke_mC215CA1421B7DF8C0023F107CA72045332A79489_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Func_2_Invoke_m3EBFD1B2C975E45C26C2322E78FB7E4297168511_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* IntPtr_ToPointer_mC56A17E597E9F767B889DA10DB866F0B96CF0D65_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* NativeInputSystem_NotifyBeforeUpdate_m317D534DBDD42915CE638051B87E48B76ED28574_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* NativeInputSystem_NotifyDeviceDiscovered_m48C3818DDCFB1A2C0530B6CE1C78743ABA4614B0_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* NativeInputSystem_NotifyUpdate_m9AAC791622BA97DC7807610DD08C54F6011834F2_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* NativeInputSystem_ShouldRunUpdate_m3232491D0E639A8C58910B2ECD2967BAC8AFF9C6_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* NativeInputSystem__cctor_m062AB23A2EB8CDEC8BEB378C4588038BD1614A11_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* NativeInputSystem_get_onDeviceDiscovered_mA43FE8253AD1B9B6E1381DB66F24CF82AE6B728B_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* NativeInputSystem_set_onDeviceDiscovered_m01AD33471CE6C2C7BD3B9DCF3EE47871E716EFBC_RuntimeMethod_var;
-IL2CPP_EXTERN_C const uint32_t IntPtr_ToPointer_mC56A17E597E9F767B889DA10DB866F0B96CF0D65UnityEngine_InputModule_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t NativeInputSystem_NotifyBeforeUpdate_m317D534DBDD42915CE638051B87E48B76ED28574_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t NativeInputSystem_NotifyDeviceDiscovered_m48C3818DDCFB1A2C0530B6CE1C78743ABA4614B0_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t NativeInputSystem_NotifyUpdate_m9AAC791622BA97DC7807610DD08C54F6011834F2_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t NativeInputSystem_ShouldRunUpdate_m3232491D0E639A8C58910B2ECD2967BAC8AFF9C6_MetadataUsageId;
-IL2CPP_EXTERN_C const uint32_t NativeInputSystem__cctor_m062AB23A2EB8CDEC8BEB378C4588038BD1614A11_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t NativeInputSystem_get_onDeviceDiscovered_mA43FE8253AD1B9B6E1381DB66F24CF82AE6B728B_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t NativeInputSystem_set_onDeviceDiscovered_m01AD33471CE6C2C7BD3B9DCF3EE47871E716EFBC_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t NativeUpdateCallback_BeginInvoke_m79CEAA701133792644EE6B9C9F1B234541EA0D5C_MetadataUsageId;
@@ -1124,8 +1114,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Action_2_t3DE7FA14577DE01568F76D409273F315827
 		s_Il2CppMethodInitialized = true;
 	}
 	Action_2_t3DE7FA14577DE01568F76D409273F315827CAA36 * V_0 = NULL;
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, NativeInputSystem_get_onDeviceDiscovered_mA43FE8253AD1B9B6E1381DB66F24CF82AE6B728B_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(NativeInputSystem_t522F6391494159917EE6963E9E61C9EFA9C5795C_il2cpp_TypeInfo_var);
 		Action_2_t3DE7FA14577DE01568F76D409273F315827CAA36 * L_0 = ((NativeInputSystem_t522F6391494159917EE6963E9E61C9EFA9C5795C_StaticFields*)il2cpp_codegen_static_fields_for(NativeInputSystem_t522F6391494159917EE6963E9E61C9EFA9C5795C_il2cpp_TypeInfo_var))->get_s_OnDeviceDiscoveredCallback_3();
@@ -1148,8 +1136,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeInputSystem_set_onDeviceDiscovered
 		il2cpp_codegen_initialize_method (NativeInputSystem_set_onDeviceDiscovered_m01AD33471CE6C2C7BD3B9DCF3EE47871E716EFBC_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, NativeInputSystem_set_onDeviceDiscovered_m01AD33471CE6C2C7BD3B9DCF3EE47871E716EFBC_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		Action_2_t3DE7FA14577DE01568F76D409273F315827CAA36 * L_0 = ___value0;
 		IL2CPP_RUNTIME_CLASS_INIT(NativeInputSystem_t522F6391494159917EE6963E9E61C9EFA9C5795C_il2cpp_TypeInfo_var);
@@ -1162,14 +1148,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeInputSystem_set_onDeviceDiscovered
 // System.Void UnityEngineInternal.Input.NativeInputSystem::.cctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeInputSystem__cctor_m062AB23A2EB8CDEC8BEB378C4588038BD1614A11 (const RuntimeMethod* method)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (NativeInputSystem__cctor_m062AB23A2EB8CDEC8BEB378C4588038BD1614A11_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, NativeInputSystem__cctor_m062AB23A2EB8CDEC8BEB378C4588038BD1614A11_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		NativeInputSystem_set_hasDeviceDiscoveredCallback_mB5319D5A7C245D6F12C294928D4AF3B635FFE362((bool)0, /*hidden argument*/NULL);
 		return;
@@ -1186,8 +1164,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeInputSystem_NotifyBeforeUpdate_m31
 	}
 	Action_1_tA0A72999A108CE29CD4CB14537B8FE41501859C1 * V_0 = NULL;
 	bool V_1 = false;
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, NativeInputSystem_NotifyBeforeUpdate_m317D534DBDD42915CE638051B87E48B76ED28574_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(NativeInputSystem_t522F6391494159917EE6963E9E61C9EFA9C5795C_il2cpp_TypeInfo_var);
 		Action_1_tA0A72999A108CE29CD4CB14537B8FE41501859C1 * L_0 = ((NativeInputSystem_t522F6391494159917EE6963E9E61C9EFA9C5795C_StaticFields*)il2cpp_codegen_static_fields_for(NativeInputSystem_t522F6391494159917EE6963E9E61C9EFA9C5795C_il2cpp_TypeInfo_var))->get_onBeforeUpdate_1();
@@ -1224,8 +1200,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeInputSystem_NotifyUpdate_m9AAC7916
 	NativeUpdateCallback_tCC4B5A2692C21C00FC2FC1E4EC5280E98423B8D5 * V_0 = NULL;
 	NativeInputEventBuffer_t9960648276F01C5C3435E0E6FD870F2DA8A132EF * V_1 = NULL;
 	bool V_2 = false;
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, NativeInputSystem_NotifyUpdate_m9AAC791622BA97DC7807610DD08C54F6011834F2_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(NativeInputSystem_t522F6391494159917EE6963E9E61C9EFA9C5795C_il2cpp_TypeInfo_var);
 		NativeUpdateCallback_tCC4B5A2692C21C00FC2FC1E4EC5280E98423B8D5 * L_0 = ((NativeInputSystem_t522F6391494159917EE6963E9E61C9EFA9C5795C_StaticFields*)il2cpp_codegen_static_fields_for(NativeInputSystem_t522F6391494159917EE6963E9E61C9EFA9C5795C_il2cpp_TypeInfo_var))->get_onUpdate_0();
@@ -1275,8 +1249,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeInputSystem_NotifyDeviceDiscovered
 	}
 	Action_2_t3DE7FA14577DE01568F76D409273F315827CAA36 * V_0 = NULL;
 	bool V_1 = false;
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, NativeInputSystem_NotifyDeviceDiscovered_m48C3818DDCFB1A2C0530B6CE1C78743ABA4614B0_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(NativeInputSystem_t522F6391494159917EE6963E9E61C9EFA9C5795C_il2cpp_TypeInfo_var);
 		Action_2_t3DE7FA14577DE01568F76D409273F315827CAA36 * L_0 = ((NativeInputSystem_t522F6391494159917EE6963E9E61C9EFA9C5795C_StaticFields*)il2cpp_codegen_static_fields_for(NativeInputSystem_t522F6391494159917EE6963E9E61C9EFA9C5795C_il2cpp_TypeInfo_var))->get_s_OnDeviceDiscoveredCallback_3();
@@ -1312,8 +1284,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeInputSystem_ShouldRunUpdate_m32324
 		s_Il2CppMethodInitialized = true;
 	}
 	Func_2_t9A2EAEA48EB870B763F1AB3E671CE2745D638867 * V_0 = NULL;
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, NativeInputSystem_ShouldRunUpdate_m3232491D0E639A8C58910B2ECD2967BAC8AFF9C6_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	bool* G_B2_0 = NULL;
 	bool* G_B1_0 = NULL;
 	int32_t G_B3_0 = 0;
@@ -1570,14 +1540,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeUpdateCallback_EndInvoke_m58A8CC71
 #endif
 IL2CPP_EXTERN_C inline  IL2CPP_METHOD_ATTR void* IntPtr_ToPointer_mC56A17E597E9F767B889DA10DB866F0B96CF0D65_inline (intptr_t* __this, const RuntimeMethod* method)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (IntPtr_ToPointer_mC56A17E597E9F767B889DA10DB866F0B96CF0D65UnityEngine_InputModule_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, IntPtr_ToPointer_mC56A17E597E9F767B889DA10DB866F0B96CF0D65_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		intptr_t L_0 = *__this;
 		return (void*)(L_0);

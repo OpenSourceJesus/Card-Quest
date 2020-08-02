@@ -53,6 +53,7 @@
 		<type fullname="MatchingCardGame.IslandsLevel" preserve="nothing"/>
 		<type fullname="MatchingCardGame.IslandsLevelsData" preserve="nothing"/>
 		<type fullname="MatchingCardGame.IslandsLevelsMinigame" preserve="nothing"/>
+		<type fullname="MatchingCardGame.IslandsLevelsMinigameTutorial" preserve="nothing"/>
 		<type fullname="MatchingCardGame.LevelButton" preserve="nothing"/>
 		<type fullname="MatchingCardGame.LevelSelectMenu" preserve="nothing"/>
 		<type fullname="MatchingCardGame.LineBrush" preserve="nothing"/>
@@ -62,6 +63,9 @@
 		<type fullname="MatchingCardGame._Text" preserve="nothing"/>
 		<type fullname="SaveAndLoadObject" preserve="nothing"/>
 		<type fullname="SnapPosition" preserve="nothing"/>
+	</assembly>
+	<assembly fullname="Ludiq.PeekCore.Runtime">
+		<type fullname="Ludiq.PeekCore.DictionaryAsset" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="Unity.InputSystem">
 		<type fullname="UnityEngine.InputSystem.InputActionAsset" preserve="nothing"/>

@@ -790,8 +790,8 @@ Il2CppSequencePoint g_sequencePointsUnityEngine_UIElementsModule[1] = { { 0, 0, 
 #endif
 #if IL2CPP_MONO_DEBUGGER
 static const Il2CppCatchPoint g_catchPoints[] = {
-{ 22850, 26947, 66, 2, 1 },
-{ 22887, 3, 441, 1, 0 },
+{ 17885, 35535, 66, 2, 1 },
+{ 17922, 3, 441, 1, 0 },
 };
 #else
 static const Il2CppCatchPoint g_catchPoints[1] = { { 0, 0, 0, 0, } };

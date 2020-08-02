@@ -142,112 +142,24 @@ IL2CPP_EXTERN_C const RuntimeMethod* Action_1_Invoke_m4CB47E8F2868FBE68282A73D1E
 IL2CPP_EXTERN_C const RuntimeMethod* Action_1_Invoke_m76AAC7959D7259C4B9B7B271344C095C307FAC20_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Action_1_Invoke_mADC0DCCED2D4577B141EA288C2B3C66FFE15D489_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Action_1_Invoke_mB246C65D547D955CD43C9F82F032CC2CF9C4918B_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Bone_Equals_m47F29F33D5B4C9512F16A4EF7056F1EBBEF66F8B_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Bone_Equals_m99199B1A2C3CBDFC26AC7F73721710A1F7CDB54C_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Bone_GetHashCode_m36D97E3F108BDE9D1617462890CD46B06366090B_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Bone_get_deviceId_mE5A6306D5B6120E87D63A7E045B42277CA53D849_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Bone_get_featureIndex_m84C8E545D82C11C190E3C35FED5759B5514FC6F3_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Eyes_Equals_m705DC7D7DC029DAC048DB35D0268F6555802A617_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Eyes_Equals_mA2712C0D6DA04847648E54FDAEF6FE486E615EAC_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Eyes_GetHashCode_mEB3889815F535D61533BA383618A50890A713EB5_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Eyes_get_deviceId_mC982142E4A1DE53673F6F7DF4782D5C9B9AAF666_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Eyes_get_featureIndex_mE7FBDCC59D666CD528D299E0F09F3C2F6CC71050_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Hand_Equals_m5644A7961F2EC387F122CF68E17DF0627CE0C88F_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Hand_Equals_mF97E28F0278AEC0B5D19211B05158FD5203EAF10_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Hand_GetHashCode_m866ECC60F746BABB684B68A5347C5151835EB022_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Hand_get_deviceId_m6590B16BC269AB4F854A287E1C17ABB08238F255_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Hand_get_featureIndex_m4F87B7990C9AF500A9554940CF8A594E0572B5DF_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* HashCodeHelper_Combine_m46115CFBF4C6C04B03559C1E6ABCE8D515F34E5C_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* InputDevice_Equals_m741ED20972E238BC41A52D3AEB43A737E0FC5066_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* InputDevice_Equals_mDBBBBCC8B65821B8DDE004CAC76A45E53F54767C_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* InputDevice_GetHashCode_mBAC2C81FBE7993722897EA64D22E1147A7C6A175_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* InputDevice__ctor_m534E7C5808B15C01665478F94683451DD22BA9E2_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* InputDevice_get_deviceId_m5F0797FAF76FE3816D92F01005989F287E582357_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* InputDevices_InvokeConnectionEvent_mF19958B27E9137E368A75B0D73FD1F78881DD821_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* InputFeatureUsage_Equals_m471A010DF80FA3BC39B4F89743E9D861852E3FFE_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* InputFeatureUsage_Equals_mF22D83638881FE903ED9CC17763F57B986807742_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* InputFeatureUsage_GetHashCode_m083565A56980BD5DF656314275D525355D913F69_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* InputFeatureUsage_get_internalType_mFBE2559CC6C05A4461C8A258CB459628FC76EE6C_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* InputFeatureUsage_get_name_m3415EE4B71906002970C499B404DDAB37687C273_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* InputTracking_InvokeTrackingEvent_mDB5808D84A18FFE3EF4F4707F0291768B59CC111_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* InputTracking__cctor_mB8272EBDEAE55941C2F990138EF052BEC85FBF13_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* IntegratedSubsystemDescriptor_1__ctor_m3B5162617EB2232B4F2453003AF1AD8EBE78021D_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* IntegratedSubsystemDescriptor_1__ctor_m6117F01E29F54F0CC64A4F7459678F5917DDDAA4_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* IntegratedSubsystemDescriptor_1__ctor_mF72F72B847AC92E53503FA2E6AA6100020B8B371_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* IntegratedSubsystem_1__ctor_m6C59A971C471B3036B0A4A948338736212665088_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* IntegratedSubsystem_1__ctor_m8BC125DB36F9434B07EFAAF056356DD665057EE3_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* IntegratedSubsystem_1__ctor_mBA2862C42655BCC9EDC76EE901CB6500A32DEA9D_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* MeshGenerationResult_Equals_m0F47888DAC3E658A94AD392796FBBE990CA8138E_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* MeshGenerationResult_Equals_m4E7C54861B2C6D79D1FD39E4C4A2F37A27C91194_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* MeshGenerationResult_GetHashCode_m64BDB58FABE08353FF4AE98EF350B938D93CD8F0_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* MeshGenerationResult_get_Attributes_m2130FD5614F6772B24E31DD7127EB66066158A90_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* MeshGenerationResult_get_MeshCollider_m6ED813F4C16388132DDCD6A65240DBF3C165E524_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* MeshGenerationResult_get_MeshId_m1113338E0F307CF16B4B4BE21666294DD4D256E1_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* MeshGenerationResult_get_Mesh_m0EBB5B1AD63C64D39486EFFBE21166DC6C3E7575_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* MeshGenerationResult_get_Status_mB2A2937F3CEA5264B977F6FAAD054CE353CDC248_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* MeshId_Equals_m3EB8E8B8FDA84194D7684B76C02686B839CBE8AA_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* MeshId_Equals_mA59C2EE90132C307BBFC93663039D1807FCB156F_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* MeshId_GetHashCode_m96FC65CD0D1CA2FEEAB91581073E173E9EC51626_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* MeshId_ToString_m765CD93EFB3D48FC601CC1350A3DBDDD0B55F1A0_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* MeshId__cctor_m06C4145F5DEB610C1F043FB28127628101C87F9D_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* XRDisplaySubsystemDescriptor__ctor_m906C40C1CF91BAD978A4353EC4C4A228E4B07B97_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* XRDisplaySubsystem_InvokeDisplayFocusChanged_mA8A70A9F25557E6C3757DCB80D8F5149AF86A877_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* XRDisplaySubsystem__ctor_m165FE35F533B013C640581A901D43F21F5955F05_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* XRInputSubsystemDescriptor__ctor_m855F6124D0F7637429BB9E4156C12B6C501B41B0_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* XRInputSubsystem_InvokeBoundaryChangedEvent_m969BB48ED88967BF87F7311BFE1EEC45D2302702_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* XRInputSubsystem_InvokeTrackingOriginUpdatedEvent_mE0A1CD4D24BD66A5F5BE793DD5EF01D94F20973D_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* XRInputSubsystem__ctor_m61D1698F3B14A2EC28BB0EC42912FD47B593EAF3_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* XRMeshSubsystemDescriptor__ctor_m44E44EEF055312E5359F476FBAF42CC330FEC5DD_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* XRMeshSubsystem_InvokeMeshReadyDelegate_m46B89EE8ACC67733B6272C547EDFE828393BE7CE_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* XRMeshSubsystem__ctor_m552EA5F9E0B43C7A30AAB6B3841CE5FBBFA07D2E_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* XRNodeState_set_nodeType_m0C4B5A3021F19FCA3B79DC704D0F4E334EB7E6CE_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* XRNodeState_set_tracked_mC82DD9C7B6F061C452A0D89DE1A018CF68E581E2_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* XRNodeState_set_uniqueID_m0A71A6EE7B7C516C9DEAE99BEECE66B21463F2E3_RuntimeMethod_var;
 IL2CPP_EXTERN_C const uint32_t Bone_Equals_m47F29F33D5B4C9512F16A4EF7056F1EBBEF66F8B_MetadataUsageId;
-IL2CPP_EXTERN_C const uint32_t Bone_Equals_m99199B1A2C3CBDFC26AC7F73721710A1F7CDB54C_MetadataUsageId;
-IL2CPP_EXTERN_C const uint32_t Bone_GetHashCode_m36D97E3F108BDE9D1617462890CD46B06366090B_MetadataUsageId;
-IL2CPP_EXTERN_C const uint32_t Bone_get_deviceId_mE5A6306D5B6120E87D63A7E045B42277CA53D849_MetadataUsageId;
-IL2CPP_EXTERN_C const uint32_t Bone_get_featureIndex_m84C8E545D82C11C190E3C35FED5759B5514FC6F3_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t Eyes_Equals_m705DC7D7DC029DAC048DB35D0268F6555802A617_MetadataUsageId;
-IL2CPP_EXTERN_C const uint32_t Eyes_Equals_mA2712C0D6DA04847648E54FDAEF6FE486E615EAC_MetadataUsageId;
-IL2CPP_EXTERN_C const uint32_t Eyes_GetHashCode_mEB3889815F535D61533BA383618A50890A713EB5_MetadataUsageId;
-IL2CPP_EXTERN_C const uint32_t Eyes_get_deviceId_mC982142E4A1DE53673F6F7DF4782D5C9B9AAF666_MetadataUsageId;
-IL2CPP_EXTERN_C const uint32_t Eyes_get_featureIndex_mE7FBDCC59D666CD528D299E0F09F3C2F6CC71050_MetadataUsageId;
-IL2CPP_EXTERN_C const uint32_t Hand_Equals_m5644A7961F2EC387F122CF68E17DF0627CE0C88F_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t Hand_Equals_mF97E28F0278AEC0B5D19211B05158FD5203EAF10_MetadataUsageId;
-IL2CPP_EXTERN_C const uint32_t Hand_GetHashCode_m866ECC60F746BABB684B68A5347C5151835EB022_MetadataUsageId;
-IL2CPP_EXTERN_C const uint32_t Hand_get_deviceId_m6590B16BC269AB4F854A287E1C17ABB08238F255_MetadataUsageId;
-IL2CPP_EXTERN_C const uint32_t Hand_get_featureIndex_m4F87B7990C9AF500A9554940CF8A594E0572B5DF_MetadataUsageId;
-IL2CPP_EXTERN_C const uint32_t HashCodeHelper_Combine_m46115CFBF4C6C04B03559C1E6ABCE8D515F34E5C_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t InputDevice_Equals_m741ED20972E238BC41A52D3AEB43A737E0FC5066_MetadataUsageId;
-IL2CPP_EXTERN_C const uint32_t InputDevice_Equals_mDBBBBCC8B65821B8DDE004CAC76A45E53F54767C_MetadataUsageId;
-IL2CPP_EXTERN_C const uint32_t InputDevice_GetHashCode_mBAC2C81FBE7993722897EA64D22E1147A7C6A175_MetadataUsageId;
-IL2CPP_EXTERN_C const uint32_t InputDevice__ctor_m534E7C5808B15C01665478F94683451DD22BA9E2_MetadataUsageId;
-IL2CPP_EXTERN_C const uint32_t InputDevice_get_deviceId_m5F0797FAF76FE3816D92F01005989F287E582357_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t InputDevices_InvokeConnectionEvent_mF19958B27E9137E368A75B0D73FD1F78881DD821_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t InputFeatureUsage_Equals_m471A010DF80FA3BC39B4F89743E9D861852E3FFE_MetadataUsageId;
-IL2CPP_EXTERN_C const uint32_t InputFeatureUsage_Equals_mF22D83638881FE903ED9CC17763F57B986807742_MetadataUsageId;
-IL2CPP_EXTERN_C const uint32_t InputFeatureUsage_GetHashCode_m083565A56980BD5DF656314275D525355D913F69_MetadataUsageId;
-IL2CPP_EXTERN_C const uint32_t InputFeatureUsage_get_internalType_mFBE2559CC6C05A4461C8A258CB459628FC76EE6C_MetadataUsageId;
-IL2CPP_EXTERN_C const uint32_t InputFeatureUsage_get_name_m3415EE4B71906002970C499B404DDAB37687C273_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t InputTracking_InvokeTrackingEvent_mDB5808D84A18FFE3EF4F4707F0291768B59CC111_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t InputTracking__cctor_mB8272EBDEAE55941C2F990138EF052BEC85FBF13_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t MeshGenerationResult_Equals_m0F47888DAC3E658A94AD392796FBBE990CA8138E_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t MeshGenerationResult_Equals_m4E7C54861B2C6D79D1FD39E4C4A2F37A27C91194_MetadataUsageId;
-IL2CPP_EXTERN_C const uint32_t MeshGenerationResult_GetHashCode_m64BDB58FABE08353FF4AE98EF350B938D93CD8F0_MetadataUsageId;
-IL2CPP_EXTERN_C const uint32_t MeshGenerationResult_get_Attributes_m2130FD5614F6772B24E31DD7127EB66066158A90UnityEngine_XRModule_MetadataUsageId;
-IL2CPP_EXTERN_C const uint32_t MeshGenerationResult_get_Attributes_m2130FD5614F6772B24E31DD7127EB66066158A90_MetadataUsageId;
-IL2CPP_EXTERN_C const uint32_t MeshGenerationResult_get_MeshCollider_m6ED813F4C16388132DDCD6A65240DBF3C165E524UnityEngine_XRModule_MetadataUsageId;
-IL2CPP_EXTERN_C const uint32_t MeshGenerationResult_get_MeshCollider_m6ED813F4C16388132DDCD6A65240DBF3C165E524_MetadataUsageId;
-IL2CPP_EXTERN_C const uint32_t MeshGenerationResult_get_MeshId_m1113338E0F307CF16B4B4BE21666294DD4D256E1UnityEngine_XRModule_MetadataUsageId;
-IL2CPP_EXTERN_C const uint32_t MeshGenerationResult_get_MeshId_m1113338E0F307CF16B4B4BE21666294DD4D256E1_MetadataUsageId;
-IL2CPP_EXTERN_C const uint32_t MeshGenerationResult_get_Mesh_m0EBB5B1AD63C64D39486EFFBE21166DC6C3E7575UnityEngine_XRModule_MetadataUsageId;
-IL2CPP_EXTERN_C const uint32_t MeshGenerationResult_get_Mesh_m0EBB5B1AD63C64D39486EFFBE21166DC6C3E7575_MetadataUsageId;
-IL2CPP_EXTERN_C const uint32_t MeshGenerationResult_get_Status_mB2A2937F3CEA5264B977F6FAAD054CE353CDC248UnityEngine_XRModule_MetadataUsageId;
-IL2CPP_EXTERN_C const uint32_t MeshGenerationResult_get_Status_mB2A2937F3CEA5264B977F6FAAD054CE353CDC248_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t MeshId_Equals_m3EB8E8B8FDA84194D7684B76C02686B839CBE8AA_MetadataUsageId;
-IL2CPP_EXTERN_C const uint32_t MeshId_Equals_mA59C2EE90132C307BBFC93663039D1807FCB156F_MetadataUsageId;
-IL2CPP_EXTERN_C const uint32_t MeshId_GetHashCode_m96FC65CD0D1CA2FEEAB91581073E173E9EC51626_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t MeshId_ToString_m765CD93EFB3D48FC601CC1350A3DBDDD0B55F1A0_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t MeshId__cctor_m06C4145F5DEB610C1F043FB28127628101C87F9D_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t XRDisplaySubsystemDescriptor__ctor_m906C40C1CF91BAD978A4353EC4C4A228E4B07B97_MetadataUsageId;
@@ -260,9 +172,6 @@ IL2CPP_EXTERN_C const uint32_t XRInputSubsystem__ctor_m61D1698F3B14A2EC28BB0EC42
 IL2CPP_EXTERN_C const uint32_t XRMeshSubsystemDescriptor__ctor_m44E44EEF055312E5359F476FBAF42CC330FEC5DD_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t XRMeshSubsystem_InvokeMeshReadyDelegate_m46B89EE8ACC67733B6272C547EDFE828393BE7CE_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t XRMeshSubsystem__ctor_m552EA5F9E0B43C7A30AAB6B3841CE5FBBFA07D2E_MetadataUsageId;
-IL2CPP_EXTERN_C const uint32_t XRNodeState_set_nodeType_m0C4B5A3021F19FCA3B79DC704D0F4E334EB7E6CE_MetadataUsageId;
-IL2CPP_EXTERN_C const uint32_t XRNodeState_set_tracked_mC82DD9C7B6F061C452A0D89DE1A018CF68E581E2_MetadataUsageId;
-IL2CPP_EXTERN_C const uint32_t XRNodeState_set_uniqueID_m0A71A6EE7B7C516C9DEAE99BEECE66B21463F2E3_MetadataUsageId;
 struct Delegate_t_marshaled_com;
 struct Delegate_t_marshaled_pinvoke;
 struct Exception_t_marshaled_com;
@@ -2973,15 +2882,7 @@ inline void IntegratedSubsystemDescriptor_1__ctor_mF72F72B847AC92E53503FA2E6AA61
 // System.UInt64 UnityEngine.XR.Bone::get_deviceId()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t Bone_get_deviceId_mE5A6306D5B6120E87D63A7E045B42277CA53D849 (Bone_tFCB543F0BF6DF30B7C4E29B6430D44860846BFB0 * __this, const RuntimeMethod* method)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (Bone_get_deviceId_mE5A6306D5B6120E87D63A7E045B42277CA53D849_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
 	uint64_t V_0 = 0;
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Bone_get_deviceId_mE5A6306D5B6120E87D63A7E045B42277CA53D849_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		uint64_t L_0 = __this->get_m_DeviceId_0();
 		V_0 = L_0;
@@ -3003,15 +2904,7 @@ IL2CPP_EXTERN_C  uint64_t Bone_get_deviceId_mE5A6306D5B6120E87D63A7E045B42277CA5
 // System.UInt32 UnityEngine.XR.Bone::get_featureIndex()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t Bone_get_featureIndex_m84C8E545D82C11C190E3C35FED5759B5514FC6F3 (Bone_tFCB543F0BF6DF30B7C4E29B6430D44860846BFB0 * __this, const RuntimeMethod* method)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (Bone_get_featureIndex_m84C8E545D82C11C190E3C35FED5759B5514FC6F3_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
 	uint32_t V_0 = 0;
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Bone_get_featureIndex_m84C8E545D82C11C190E3C35FED5759B5514FC6F3_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		uint32_t L_0 = __this->get_m_FeatureIndex_1();
 		V_0 = L_0;
@@ -3041,8 +2934,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Bone_Equals_m47F29F33D5B4C9512F16A4EF705
 	}
 	bool V_0 = false;
 	bool V_1 = false;
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Bone_Equals_m47F29F33D5B4C9512F16A4EF7056F1EBBEF66F8B_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		RuntimeObject * L_0 = ___obj0;
 		V_0 = (bool)((((int32_t)((!(((RuntimeObject*)(RuntimeObject *)((RuntimeObject *)IsInstSealed((RuntimeObject*)L_0, Bone_tFCB543F0BF6DF30B7C4E29B6430D44860846BFB0_il2cpp_TypeInfo_var))) <= ((RuntimeObject*)(RuntimeObject *)NULL)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
@@ -3080,15 +2971,7 @@ IL2CPP_EXTERN_C  bool Bone_Equals_m47F29F33D5B4C9512F16A4EF7056F1EBBEF66F8B_Adju
 // System.Boolean UnityEngine.XR.Bone::Equals(UnityEngine.XR.Bone)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Bone_Equals_m99199B1A2C3CBDFC26AC7F73721710A1F7CDB54C (Bone_tFCB543F0BF6DF30B7C4E29B6430D44860846BFB0 * __this, Bone_tFCB543F0BF6DF30B7C4E29B6430D44860846BFB0  ___other0, const RuntimeMethod* method)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (Bone_Equals_m99199B1A2C3CBDFC26AC7F73721710A1F7CDB54C_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
 	bool V_0 = false;
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Bone_Equals_m99199B1A2C3CBDFC26AC7F73721710A1F7CDB54C_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	int32_t G_B3_0 = 0;
 	{
 		uint64_t L_0 = Bone_get_deviceId_mE5A6306D5B6120E87D63A7E045B42277CA53D849((Bone_tFCB543F0BF6DF30B7C4E29B6430D44860846BFB0 *)__this, /*hidden argument*/NULL);
@@ -3131,17 +3014,9 @@ IL2CPP_EXTERN_C  bool Bone_Equals_m99199B1A2C3CBDFC26AC7F73721710A1F7CDB54C_Adju
 // System.Int32 UnityEngine.XR.Bone::GetHashCode()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Bone_GetHashCode_m36D97E3F108BDE9D1617462890CD46B06366090B (Bone_tFCB543F0BF6DF30B7C4E29B6430D44860846BFB0 * __this, const RuntimeMethod* method)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (Bone_GetHashCode_m36D97E3F108BDE9D1617462890CD46B06366090B_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
 	uint64_t V_0 = 0;
 	uint32_t V_1 = 0;
 	int32_t V_2 = 0;
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Bone_GetHashCode_m36D97E3F108BDE9D1617462890CD46B06366090B_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		uint64_t L_0 = Bone_get_deviceId_mE5A6306D5B6120E87D63A7E045B42277CA53D849((Bone_tFCB543F0BF6DF30B7C4E29B6430D44860846BFB0 *)__this, /*hidden argument*/NULL);
 		V_0 = L_0;
@@ -3184,15 +3059,7 @@ IL2CPP_EXTERN_C  int32_t Bone_GetHashCode_m36D97E3F108BDE9D1617462890CD46B063660
 // System.UInt64 UnityEngine.XR.Eyes::get_deviceId()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t Eyes_get_deviceId_mC982142E4A1DE53673F6F7DF4782D5C9B9AAF666 (Eyes_tAFFCA10450B795F1FEBF89D9A59BA39662EC81A5 * __this, const RuntimeMethod* method)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (Eyes_get_deviceId_mC982142E4A1DE53673F6F7DF4782D5C9B9AAF666_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
 	uint64_t V_0 = 0;
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Eyes_get_deviceId_mC982142E4A1DE53673F6F7DF4782D5C9B9AAF666_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		uint64_t L_0 = __this->get_m_DeviceId_0();
 		V_0 = L_0;
@@ -3214,15 +3081,7 @@ IL2CPP_EXTERN_C  uint64_t Eyes_get_deviceId_mC982142E4A1DE53673F6F7DF4782D5C9B9A
 // System.UInt32 UnityEngine.XR.Eyes::get_featureIndex()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t Eyes_get_featureIndex_mE7FBDCC59D666CD528D299E0F09F3C2F6CC71050 (Eyes_tAFFCA10450B795F1FEBF89D9A59BA39662EC81A5 * __this, const RuntimeMethod* method)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (Eyes_get_featureIndex_mE7FBDCC59D666CD528D299E0F09F3C2F6CC71050_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
 	uint32_t V_0 = 0;
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Eyes_get_featureIndex_mE7FBDCC59D666CD528D299E0F09F3C2F6CC71050_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		uint32_t L_0 = __this->get_m_FeatureIndex_1();
 		V_0 = L_0;
@@ -3252,8 +3111,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Eyes_Equals_m705DC7D7DC029DAC048DB35D026
 	}
 	bool V_0 = false;
 	bool V_1 = false;
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Eyes_Equals_m705DC7D7DC029DAC048DB35D0268F6555802A617_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		RuntimeObject * L_0 = ___obj0;
 		V_0 = (bool)((((int32_t)((!(((RuntimeObject*)(RuntimeObject *)((RuntimeObject *)IsInstSealed((RuntimeObject*)L_0, Eyes_tAFFCA10450B795F1FEBF89D9A59BA39662EC81A5_il2cpp_TypeInfo_var))) <= ((RuntimeObject*)(RuntimeObject *)NULL)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
@@ -3291,15 +3148,7 @@ IL2CPP_EXTERN_C  bool Eyes_Equals_m705DC7D7DC029DAC048DB35D0268F6555802A617_Adju
 // System.Boolean UnityEngine.XR.Eyes::Equals(UnityEngine.XR.Eyes)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Eyes_Equals_mA2712C0D6DA04847648E54FDAEF6FE486E615EAC (Eyes_tAFFCA10450B795F1FEBF89D9A59BA39662EC81A5 * __this, Eyes_tAFFCA10450B795F1FEBF89D9A59BA39662EC81A5  ___other0, const RuntimeMethod* method)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (Eyes_Equals_mA2712C0D6DA04847648E54FDAEF6FE486E615EAC_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
 	bool V_0 = false;
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Eyes_Equals_mA2712C0D6DA04847648E54FDAEF6FE486E615EAC_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	int32_t G_B3_0 = 0;
 	{
 		uint64_t L_0 = Eyes_get_deviceId_mC982142E4A1DE53673F6F7DF4782D5C9B9AAF666((Eyes_tAFFCA10450B795F1FEBF89D9A59BA39662EC81A5 *)__this, /*hidden argument*/NULL);
@@ -3342,17 +3191,9 @@ IL2CPP_EXTERN_C  bool Eyes_Equals_mA2712C0D6DA04847648E54FDAEF6FE486E615EAC_Adju
 // System.Int32 UnityEngine.XR.Eyes::GetHashCode()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Eyes_GetHashCode_mEB3889815F535D61533BA383618A50890A713EB5 (Eyes_tAFFCA10450B795F1FEBF89D9A59BA39662EC81A5 * __this, const RuntimeMethod* method)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (Eyes_GetHashCode_mEB3889815F535D61533BA383618A50890A713EB5_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
 	uint64_t V_0 = 0;
 	uint32_t V_1 = 0;
 	int32_t V_2 = 0;
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Eyes_GetHashCode_mEB3889815F535D61533BA383618A50890A713EB5_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		uint64_t L_0 = Eyes_get_deviceId_mC982142E4A1DE53673F6F7DF4782D5C9B9AAF666((Eyes_tAFFCA10450B795F1FEBF89D9A59BA39662EC81A5 *)__this, /*hidden argument*/NULL);
 		V_0 = L_0;
@@ -3387,15 +3228,7 @@ IL2CPP_EXTERN_C  int32_t Eyes_GetHashCode_mEB3889815F535D61533BA383618A50890A713
 // System.UInt64 UnityEngine.XR.Hand::get_deviceId()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t Hand_get_deviceId_m6590B16BC269AB4F854A287E1C17ABB08238F255 (Hand_t46350F32E9C5CF7BCA7DCBEE0811731F26C20DA3 * __this, const RuntimeMethod* method)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (Hand_get_deviceId_m6590B16BC269AB4F854A287E1C17ABB08238F255_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
 	uint64_t V_0 = 0;
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Hand_get_deviceId_m6590B16BC269AB4F854A287E1C17ABB08238F255_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		uint64_t L_0 = __this->get_m_DeviceId_0();
 		V_0 = L_0;
@@ -3417,15 +3250,7 @@ IL2CPP_EXTERN_C  uint64_t Hand_get_deviceId_m6590B16BC269AB4F854A287E1C17ABB0823
 // System.UInt32 UnityEngine.XR.Hand::get_featureIndex()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t Hand_get_featureIndex_m4F87B7990C9AF500A9554940CF8A594E0572B5DF (Hand_t46350F32E9C5CF7BCA7DCBEE0811731F26C20DA3 * __this, const RuntimeMethod* method)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (Hand_get_featureIndex_m4F87B7990C9AF500A9554940CF8A594E0572B5DF_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
 	uint32_t V_0 = 0;
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Hand_get_featureIndex_m4F87B7990C9AF500A9554940CF8A594E0572B5DF_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		uint32_t L_0 = __this->get_m_FeatureIndex_1();
 		V_0 = L_0;
@@ -3455,8 +3280,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Hand_Equals_mF97E28F0278AEC0B5D19211B051
 	}
 	bool V_0 = false;
 	bool V_1 = false;
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Hand_Equals_mF97E28F0278AEC0B5D19211B05158FD5203EAF10_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		RuntimeObject * L_0 = ___obj0;
 		V_0 = (bool)((((int32_t)((!(((RuntimeObject*)(RuntimeObject *)((RuntimeObject *)IsInstSealed((RuntimeObject*)L_0, Hand_t46350F32E9C5CF7BCA7DCBEE0811731F26C20DA3_il2cpp_TypeInfo_var))) <= ((RuntimeObject*)(RuntimeObject *)NULL)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
@@ -3494,15 +3317,7 @@ IL2CPP_EXTERN_C  bool Hand_Equals_mF97E28F0278AEC0B5D19211B05158FD5203EAF10_Adju
 // System.Boolean UnityEngine.XR.Hand::Equals(UnityEngine.XR.Hand)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Hand_Equals_m5644A7961F2EC387F122CF68E17DF0627CE0C88F (Hand_t46350F32E9C5CF7BCA7DCBEE0811731F26C20DA3 * __this, Hand_t46350F32E9C5CF7BCA7DCBEE0811731F26C20DA3  ___other0, const RuntimeMethod* method)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (Hand_Equals_m5644A7961F2EC387F122CF68E17DF0627CE0C88F_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
 	bool V_0 = false;
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Hand_Equals_m5644A7961F2EC387F122CF68E17DF0627CE0C88F_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	int32_t G_B3_0 = 0;
 	{
 		uint64_t L_0 = Hand_get_deviceId_m6590B16BC269AB4F854A287E1C17ABB08238F255((Hand_t46350F32E9C5CF7BCA7DCBEE0811731F26C20DA3 *)__this, /*hidden argument*/NULL);
@@ -3545,17 +3360,9 @@ IL2CPP_EXTERN_C  bool Hand_Equals_m5644A7961F2EC387F122CF68E17DF0627CE0C88F_Adju
 // System.Int32 UnityEngine.XR.Hand::GetHashCode()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Hand_GetHashCode_m866ECC60F746BABB684B68A5347C5151835EB022 (Hand_t46350F32E9C5CF7BCA7DCBEE0811731F26C20DA3 * __this, const RuntimeMethod* method)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (Hand_GetHashCode_m866ECC60F746BABB684B68A5347C5151835EB022_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
 	uint64_t V_0 = 0;
 	uint32_t V_1 = 0;
 	int32_t V_2 = 0;
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Hand_GetHashCode_m866ECC60F746BABB684B68A5347C5151835EB022_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		uint64_t L_0 = Hand_get_deviceId_m6590B16BC269AB4F854A287E1C17ABB08238F255((Hand_t46350F32E9C5CF7BCA7DCBEE0811731F26C20DA3 *)__this, /*hidden argument*/NULL);
 		V_0 = L_0;
@@ -3590,15 +3397,7 @@ IL2CPP_EXTERN_C  int32_t Hand_GetHashCode_m866ECC60F746BABB684B68A5347C5151835EB
 // System.Int32 UnityEngine.XR.HashCodeHelper::Combine(System.Int32,System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t HashCodeHelper_Combine_m46115CFBF4C6C04B03559C1E6ABCE8D515F34E5C (int32_t ___hash10, int32_t ___hash21, const RuntimeMethod* method)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (HashCodeHelper_Combine_m46115CFBF4C6C04B03559C1E6ABCE8D515F34E5C_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
 	int32_t V_0 = 0;
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, HashCodeHelper_Combine_m46115CFBF4C6C04B03559C1E6ABCE8D515F34E5C_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___hash10;
 		int32_t L_1 = ___hash21;
@@ -3661,14 +3460,6 @@ IL2CPP_EXTERN_C void InputDevice_tF13BD967109BAB2CF49E1304EDFDA255067A2CDC_marsh
 // System.Void UnityEngine.XR.InputDevice::.ctor(System.UInt64)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputDevice__ctor_m534E7C5808B15C01665478F94683451DD22BA9E2 (InputDevice_tF13BD967109BAB2CF49E1304EDFDA255067A2CDC * __this, uint64_t ___deviceId0, const RuntimeMethod* method)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (InputDevice__ctor_m534E7C5808B15C01665478F94683451DD22BA9E2_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, InputDevice__ctor_m534E7C5808B15C01665478F94683451DD22BA9E2_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		uint64_t L_0 = ___deviceId0;
 		__this->set_m_DeviceId_0(L_0);
@@ -3685,15 +3476,7 @@ IL2CPP_EXTERN_C  void InputDevice__ctor_m534E7C5808B15C01665478F94683451DD22BA9E
 // System.UInt64 UnityEngine.XR.InputDevice::get_deviceId()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t InputDevice_get_deviceId_m5F0797FAF76FE3816D92F01005989F287E582357 (InputDevice_tF13BD967109BAB2CF49E1304EDFDA255067A2CDC * __this, const RuntimeMethod* method)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (InputDevice_get_deviceId_m5F0797FAF76FE3816D92F01005989F287E582357_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
 	uint64_t V_0 = 0;
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, InputDevice_get_deviceId_m5F0797FAF76FE3816D92F01005989F287E582357_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	uint64_t G_B3_0 = 0;
 	{
 		bool L_0 = __this->get_m_Initialized_1();
@@ -3742,8 +3525,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool InputDevice_Equals_m741ED20972E238BC41A5
 	}
 	bool V_0 = false;
 	bool V_1 = false;
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, InputDevice_Equals_m741ED20972E238BC41A52D3AEB43A737E0FC5066_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		RuntimeObject * L_0 = ___obj0;
 		V_0 = (bool)((((int32_t)((!(((RuntimeObject*)(RuntimeObject *)((RuntimeObject *)IsInstSealed((RuntimeObject*)L_0, InputDevice_tF13BD967109BAB2CF49E1304EDFDA255067A2CDC_il2cpp_TypeInfo_var))) <= ((RuntimeObject*)(RuntimeObject *)NULL)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
@@ -3781,15 +3562,7 @@ IL2CPP_EXTERN_C  bool InputDevice_Equals_m741ED20972E238BC41A52D3AEB43A737E0FC50
 // System.Boolean UnityEngine.XR.InputDevice::Equals(UnityEngine.XR.InputDevice)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool InputDevice_Equals_mDBBBBCC8B65821B8DDE004CAC76A45E53F54767C (InputDevice_tF13BD967109BAB2CF49E1304EDFDA255067A2CDC * __this, InputDevice_tF13BD967109BAB2CF49E1304EDFDA255067A2CDC  ___other0, const RuntimeMethod* method)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (InputDevice_Equals_mDBBBBCC8B65821B8DDE004CAC76A45E53F54767C_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
 	bool V_0 = false;
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, InputDevice_Equals_mDBBBBCC8B65821B8DDE004CAC76A45E53F54767C_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		uint64_t L_0 = InputDevice_get_deviceId_m5F0797FAF76FE3816D92F01005989F287E582357((InputDevice_tF13BD967109BAB2CF49E1304EDFDA255067A2CDC *)__this, /*hidden argument*/NULL);
 		uint64_t L_1 = InputDevice_get_deviceId_m5F0797FAF76FE3816D92F01005989F287E582357((InputDevice_tF13BD967109BAB2CF49E1304EDFDA255067A2CDC *)(&___other0), /*hidden argument*/NULL);
@@ -3812,16 +3585,8 @@ IL2CPP_EXTERN_C  bool InputDevice_Equals_mDBBBBCC8B65821B8DDE004CAC76A45E53F5476
 // System.Int32 UnityEngine.XR.InputDevice::GetHashCode()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t InputDevice_GetHashCode_mBAC2C81FBE7993722897EA64D22E1147A7C6A175 (InputDevice_tF13BD967109BAB2CF49E1304EDFDA255067A2CDC * __this, const RuntimeMethod* method)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (InputDevice_GetHashCode_mBAC2C81FBE7993722897EA64D22E1147A7C6A175_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
 	uint64_t V_0 = 0;
 	int32_t V_1 = 0;
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, InputDevice_GetHashCode_mBAC2C81FBE7993722897EA64D22E1147A7C6A175_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		uint64_t L_0 = InputDevice_get_deviceId_m5F0797FAF76FE3816D92F01005989F287E582357((InputDevice_tF13BD967109BAB2CF49E1304EDFDA255067A2CDC *)__this, /*hidden argument*/NULL);
 		V_0 = L_0;
@@ -3893,8 +3658,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputDevices_InvokeConnectionEvent_mF199
 	bool V_1 = false;
 	bool V_2 = false;
 	bool V_3 = false;
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, InputDevices_InvokeConnectionEvent_mF19958B27E9137E368A75B0D73FD1F78881DD821_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		uint32_t L_0 = ___change1;
 		V_0 = L_0;
@@ -4056,15 +3819,7 @@ IL2CPP_EXTERN_C void InputFeatureUsage_t37196CE3245923015BC883DABA534863D72F7B0C
 // System.String UnityEngine.XR.InputFeatureUsage::get_name()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* InputFeatureUsage_get_name_m3415EE4B71906002970C499B404DDAB37687C273 (InputFeatureUsage_t37196CE3245923015BC883DABA534863D72F7B0C * __this, const RuntimeMethod* method)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (InputFeatureUsage_get_name_m3415EE4B71906002970C499B404DDAB37687C273_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
 	String_t* V_0 = NULL;
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, InputFeatureUsage_get_name_m3415EE4B71906002970C499B404DDAB37687C273_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		String_t* L_0 = __this->get_m_Name_0();
 		V_0 = L_0;
@@ -4086,15 +3841,7 @@ IL2CPP_EXTERN_C  String_t* InputFeatureUsage_get_name_m3415EE4B71906002970C499B4
 // UnityEngine.XR.InputFeatureType UnityEngine.XR.InputFeatureUsage::get_internalType()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t InputFeatureUsage_get_internalType_mFBE2559CC6C05A4461C8A258CB459628FC76EE6C (InputFeatureUsage_t37196CE3245923015BC883DABA534863D72F7B0C * __this, const RuntimeMethod* method)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (InputFeatureUsage_get_internalType_mFBE2559CC6C05A4461C8A258CB459628FC76EE6C_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
 	uint32_t V_0 = 0;
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, InputFeatureUsage_get_internalType_mFBE2559CC6C05A4461C8A258CB459628FC76EE6C_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		uint32_t L_0 = __this->get_m_InternalType_1();
 		V_0 = L_0;
@@ -4124,8 +3871,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool InputFeatureUsage_Equals_m471A010DF80FA3
 	}
 	bool V_0 = false;
 	bool V_1 = false;
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, InputFeatureUsage_Equals_m471A010DF80FA3BC39B4F89743E9D861852E3FFE_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		RuntimeObject * L_0 = ___obj0;
 		V_0 = (bool)((((int32_t)((!(((RuntimeObject*)(RuntimeObject *)((RuntimeObject *)IsInstSealed((RuntimeObject*)L_0, InputFeatureUsage_t37196CE3245923015BC883DABA534863D72F7B0C_il2cpp_TypeInfo_var))) <= ((RuntimeObject*)(RuntimeObject *)NULL)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
@@ -4163,15 +3908,7 @@ IL2CPP_EXTERN_C  bool InputFeatureUsage_Equals_m471A010DF80FA3BC39B4F89743E9D861
 // System.Boolean UnityEngine.XR.InputFeatureUsage::Equals(UnityEngine.XR.InputFeatureUsage)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool InputFeatureUsage_Equals_mF22D83638881FE903ED9CC17763F57B986807742 (InputFeatureUsage_t37196CE3245923015BC883DABA534863D72F7B0C * __this, InputFeatureUsage_t37196CE3245923015BC883DABA534863D72F7B0C  ___other0, const RuntimeMethod* method)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (InputFeatureUsage_Equals_mF22D83638881FE903ED9CC17763F57B986807742_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
 	bool V_0 = false;
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, InputFeatureUsage_Equals_mF22D83638881FE903ED9CC17763F57B986807742_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	int32_t G_B3_0 = 0;
 	{
 		String_t* L_0 = InputFeatureUsage_get_name_m3415EE4B71906002970C499B404DDAB37687C273((InputFeatureUsage_t37196CE3245923015BC883DABA534863D72F7B0C *)__this, /*hidden argument*/NULL);
@@ -4215,16 +3952,8 @@ IL2CPP_EXTERN_C  bool InputFeatureUsage_Equals_mF22D83638881FE903ED9CC17763F57B9
 // System.Int32 UnityEngine.XR.InputFeatureUsage::GetHashCode()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t InputFeatureUsage_GetHashCode_m083565A56980BD5DF656314275D525355D913F69 (InputFeatureUsage_t37196CE3245923015BC883DABA534863D72F7B0C * __this, const RuntimeMethod* method)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (InputFeatureUsage_GetHashCode_m083565A56980BD5DF656314275D525355D913F69_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
 	uint32_t V_0 = 0;
 	int32_t V_1 = 0;
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, InputFeatureUsage_GetHashCode_m083565A56980BD5DF656314275D525355D913F69_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		String_t* L_0 = InputFeatureUsage_get_name_m3415EE4B71906002970C499B404DDAB37687C273((InputFeatureUsage_t37196CE3245923015BC883DABA534863D72F7B0C *)__this, /*hidden argument*/NULL);
 		NullCheck(L_0);
@@ -4270,8 +3999,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputTracking_InvokeTrackingEvent_mDB580
 	memset((&V_1), 0, sizeof(V_1));
 	int32_t V_2 = 0;
 	bool V_3 = false;
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, InputTracking_InvokeTrackingEvent_mDB5808D84A18FFE3EF4F4707F0291768B59CC111_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		V_0 = (Action_1_t1C047EE47E5C76610625C8CCD8BF133FC775BED8 *)NULL;
 		il2cpp_codegen_initobj((&V_1), sizeof(XRNodeState_t927C248D649ED31F587DFE078E3FF180D98F7C0A ));
@@ -4382,8 +4109,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputTracking__cctor_mB8272EBDEAE55941C2
 		il2cpp_codegen_initialize_method (InputTracking__cctor_mB8272EBDEAE55941C2F990138EF052BEC85FBF13_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, InputTracking__cctor_mB8272EBDEAE55941C2F990138EF052BEC85FBF13_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		((InputTracking_t96AA6E2EC9B998FF199918D95164D23DA6F2DFE8_StaticFields*)il2cpp_codegen_static_fields_for(InputTracking_t96AA6E2EC9B998FF199918D95164D23DA6F2DFE8_il2cpp_TypeInfo_var))->set_trackingAcquired_0((Action_1_t1C047EE47E5C76610625C8CCD8BF133FC775BED8 *)NULL);
 		((InputTracking_t96AA6E2EC9B998FF199918D95164D23DA6F2DFE8_StaticFields*)il2cpp_codegen_static_fields_for(InputTracking_t96AA6E2EC9B998FF199918D95164D23DA6F2DFE8_il2cpp_TypeInfo_var))->set_trackingLost_1((Action_1_t1C047EE47E5C76610625C8CCD8BF133FC775BED8 *)NULL);
@@ -4441,14 +4166,6 @@ IL2CPP_EXTERN_C void MeshGenerationResult_tC1C81EF3BAD05FB75B6F182C0EFCFB53236FB
 // UnityEngine.XR.MeshId UnityEngine.XR.MeshGenerationResult::get_MeshId()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MeshId_t8674C6A14E469B2507FCDEBBE7F77ACC3CA37C1A  MeshGenerationResult_get_MeshId_m1113338E0F307CF16B4B4BE21666294DD4D256E1 (MeshGenerationResult_tC1C81EF3BAD05FB75B6F182C0EFCFB53236FB42A * __this, const RuntimeMethod* method)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (MeshGenerationResult_get_MeshId_m1113338E0F307CF16B4B4BE21666294DD4D256E1_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, MeshGenerationResult_get_MeshId_m1113338E0F307CF16B4B4BE21666294DD4D256E1_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		MeshId_t8674C6A14E469B2507FCDEBBE7F77ACC3CA37C1A  L_0 = __this->get_U3CMeshIdU3Ek__BackingField_0();
 		return L_0;
@@ -4463,14 +4180,6 @@ IL2CPP_EXTERN_C  MeshId_t8674C6A14E469B2507FCDEBBE7F77ACC3CA37C1A  MeshGeneratio
 // UnityEngine.Mesh UnityEngine.XR.MeshGenerationResult::get_Mesh()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Mesh_t6106B8D8E4C691321581AB0445552EC78B947B8C * MeshGenerationResult_get_Mesh_m0EBB5B1AD63C64D39486EFFBE21166DC6C3E7575 (MeshGenerationResult_tC1C81EF3BAD05FB75B6F182C0EFCFB53236FB42A * __this, const RuntimeMethod* method)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (MeshGenerationResult_get_Mesh_m0EBB5B1AD63C64D39486EFFBE21166DC6C3E7575_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, MeshGenerationResult_get_Mesh_m0EBB5B1AD63C64D39486EFFBE21166DC6C3E7575_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		Mesh_t6106B8D8E4C691321581AB0445552EC78B947B8C * L_0 = __this->get_U3CMeshU3Ek__BackingField_1();
 		return L_0;
@@ -4485,14 +4194,6 @@ IL2CPP_EXTERN_C  Mesh_t6106B8D8E4C691321581AB0445552EC78B947B8C * MeshGeneration
 // UnityEngine.MeshCollider UnityEngine.XR.MeshGenerationResult::get_MeshCollider()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MeshCollider_t60EB55ADE92499FE8D1AA206D2BD96E65B2766DE * MeshGenerationResult_get_MeshCollider_m6ED813F4C16388132DDCD6A65240DBF3C165E524 (MeshGenerationResult_tC1C81EF3BAD05FB75B6F182C0EFCFB53236FB42A * __this, const RuntimeMethod* method)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (MeshGenerationResult_get_MeshCollider_m6ED813F4C16388132DDCD6A65240DBF3C165E524_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, MeshGenerationResult_get_MeshCollider_m6ED813F4C16388132DDCD6A65240DBF3C165E524_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		MeshCollider_t60EB55ADE92499FE8D1AA206D2BD96E65B2766DE * L_0 = __this->get_U3CMeshColliderU3Ek__BackingField_2();
 		return L_0;
@@ -4507,14 +4208,6 @@ IL2CPP_EXTERN_C  MeshCollider_t60EB55ADE92499FE8D1AA206D2BD96E65B2766DE * MeshGe
 // UnityEngine.XR.MeshGenerationStatus UnityEngine.XR.MeshGenerationResult::get_Status()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t MeshGenerationResult_get_Status_mB2A2937F3CEA5264B977F6FAAD054CE353CDC248 (MeshGenerationResult_tC1C81EF3BAD05FB75B6F182C0EFCFB53236FB42A * __this, const RuntimeMethod* method)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (MeshGenerationResult_get_Status_mB2A2937F3CEA5264B977F6FAAD054CE353CDC248_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, MeshGenerationResult_get_Status_mB2A2937F3CEA5264B977F6FAAD054CE353CDC248_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = __this->get_U3CStatusU3Ek__BackingField_3();
 		return L_0;
@@ -4529,14 +4222,6 @@ IL2CPP_EXTERN_C  int32_t MeshGenerationResult_get_Status_mB2A2937F3CEA5264B977F6
 // UnityEngine.XR.MeshVertexAttributes UnityEngine.XR.MeshGenerationResult::get_Attributes()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t MeshGenerationResult_get_Attributes_m2130FD5614F6772B24E31DD7127EB66066158A90 (MeshGenerationResult_tC1C81EF3BAD05FB75B6F182C0EFCFB53236FB42A * __this, const RuntimeMethod* method)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (MeshGenerationResult_get_Attributes_m2130FD5614F6772B24E31DD7127EB66066158A90_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, MeshGenerationResult_get_Attributes_m2130FD5614F6772B24E31DD7127EB66066158A90_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = __this->get_U3CAttributesU3Ek__BackingField_4();
 		return L_0;
@@ -4559,8 +4244,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MeshGenerationResult_Equals_m0F47888DAC3
 	}
 	bool V_0 = false;
 	bool V_1 = false;
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, MeshGenerationResult_Equals_m0F47888DAC3E658A94AD392796FBBE990CA8138E_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		RuntimeObject * L_0 = ___obj0;
 		V_0 = (bool)((((int32_t)((!(((RuntimeObject*)(RuntimeObject *)((RuntimeObject *)IsInstSealed((RuntimeObject*)L_0, MeshGenerationResult_tC1C81EF3BAD05FB75B6F182C0EFCFB53236FB42A_il2cpp_TypeInfo_var))) <= ((RuntimeObject*)(RuntimeObject *)NULL)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
@@ -4609,8 +4292,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MeshGenerationResult_Equals_m4E7C54861B2
 	int32_t V_1 = 0;
 	int32_t V_2 = 0;
 	bool V_3 = false;
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, MeshGenerationResult_Equals_m4E7C54861B2C6D79D1FD39E4C4A2F37A27C91194_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	int32_t G_B6_0 = 0;
 	{
 		MeshId_t8674C6A14E469B2507FCDEBBE7F77ACC3CA37C1A  L_0 = MeshGenerationResult_get_MeshId_m1113338E0F307CF16B4B4BE21666294DD4D256E1_inline((MeshGenerationResult_tC1C81EF3BAD05FB75B6F182C0EFCFB53236FB42A *)__this, /*hidden argument*/NULL);
@@ -4697,19 +4378,11 @@ IL2CPP_EXTERN_C  bool MeshGenerationResult_Equals_m4E7C54861B2C6D79D1FD39E4C4A2F
 // System.Int32 UnityEngine.XR.MeshGenerationResult::GetHashCode()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t MeshGenerationResult_GetHashCode_m64BDB58FABE08353FF4AE98EF350B938D93CD8F0 (MeshGenerationResult_tC1C81EF3BAD05FB75B6F182C0EFCFB53236FB42A * __this, const RuntimeMethod* method)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (MeshGenerationResult_GetHashCode_m64BDB58FABE08353FF4AE98EF350B938D93CD8F0_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
 	MeshId_t8674C6A14E469B2507FCDEBBE7F77ACC3CA37C1A  V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	int32_t V_1 = 0;
 	int32_t V_2 = 0;
 	int32_t V_3 = 0;
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, MeshGenerationResult_GetHashCode_m64BDB58FABE08353FF4AE98EF350B938D93CD8F0_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		MeshId_t8674C6A14E469B2507FCDEBBE7F77ACC3CA37C1A  L_0 = MeshGenerationResult_get_MeshId_m1113338E0F307CF16B4B4BE21666294DD4D256E1_inline((MeshGenerationResult_tC1C81EF3BAD05FB75B6F182C0EFCFB53236FB42A *)__this, /*hidden argument*/NULL);
 		V_0 = L_0;
@@ -4772,8 +4445,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* MeshId_ToString_m765CD93EFB3D48FC60
 		s_Il2CppMethodInitialized = true;
 	}
 	String_t* V_0 = NULL;
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, MeshId_ToString_m765CD93EFB3D48FC601CC1350A3DBDDD0B55F1A0_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		uint64_t* L_0 = __this->get_address_of_m_SubId1_1();
 		String_t* L_1 = UInt64_ToString_m46B46DBB5F74DCDC6082A8AC8C695E2295925E71((uint64_t*)L_0, _stringLiteral7C920AC9C27322B466EC79E3F70C59D0EB2E27E3, /*hidden argument*/NULL);
@@ -4799,15 +4470,7 @@ IL2CPP_EXTERN_C  String_t* MeshId_ToString_m765CD93EFB3D48FC601CC1350A3DBDDD0B55
 // System.Int32 UnityEngine.XR.MeshId::GetHashCode()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t MeshId_GetHashCode_m96FC65CD0D1CA2FEEAB91581073E173E9EC51626 (MeshId_t8674C6A14E469B2507FCDEBBE7F77ACC3CA37C1A * __this, const RuntimeMethod* method)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (MeshId_GetHashCode_m96FC65CD0D1CA2FEEAB91581073E173E9EC51626_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
 	int32_t V_0 = 0;
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, MeshId_GetHashCode_m96FC65CD0D1CA2FEEAB91581073E173E9EC51626_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		uint64_t* L_0 = __this->get_address_of_m_SubId1_1();
 		int32_t L_1 = UInt64_GetHashCode_mCBB4031BF70D0CBD023B4D71F4FEA37BE2C749AD((uint64_t*)L_0, /*hidden argument*/NULL);
@@ -4839,8 +4502,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MeshId_Equals_m3EB8E8B8FDA84194D7684B76C
 		s_Il2CppMethodInitialized = true;
 	}
 	bool V_0 = false;
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, MeshId_Equals_m3EB8E8B8FDA84194D7684B76C02686B839CBE8AA_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	int32_t G_B3_0 = 0;
 	{
 		RuntimeObject * L_0 = ___obj0;
@@ -4882,15 +4543,7 @@ IL2CPP_EXTERN_C  bool MeshId_Equals_m3EB8E8B8FDA84194D7684B76C02686B839CBE8AA_Ad
 // System.Boolean UnityEngine.XR.MeshId::Equals(UnityEngine.XR.MeshId)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MeshId_Equals_mA59C2EE90132C307BBFC93663039D1807FCB156F (MeshId_t8674C6A14E469B2507FCDEBBE7F77ACC3CA37C1A * __this, MeshId_t8674C6A14E469B2507FCDEBBE7F77ACC3CA37C1A  ___other0, const RuntimeMethod* method)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (MeshId_Equals_mA59C2EE90132C307BBFC93663039D1807FCB156F_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
 	bool V_0 = false;
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, MeshId_Equals_mA59C2EE90132C307BBFC93663039D1807FCB156F_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	int32_t G_B3_0 = 0;
 	{
 		uint64_t L_0 = __this->get_m_SubId1_1();
@@ -4941,8 +4594,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MeshId__cctor_m06C4145F5DEB610C1F043FB28
 		il2cpp_codegen_initialize_method (MeshId__cctor_m06C4145F5DEB610C1F043FB28127628101C87F9D_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, MeshId__cctor_m06C4145F5DEB610C1F043FB28127628101C87F9D_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		il2cpp_codegen_initobj((((MeshId_t8674C6A14E469B2507FCDEBBE7F77ACC3CA37C1A_StaticFields*)il2cpp_codegen_static_fields_for(MeshId_t8674C6A14E469B2507FCDEBBE7F77ACC3CA37C1A_il2cpp_TypeInfo_var))->get_address_of_s_InvalidId_0()), sizeof(MeshId_t8674C6A14E469B2507FCDEBBE7F77ACC3CA37C1A ));
 		return;
@@ -4974,8 +4625,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRDisplaySubsystem_InvokeDisplayFocusCha
 		s_Il2CppMethodInitialized = true;
 	}
 	bool V_0 = false;
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, XRDisplaySubsystem_InvokeDisplayFocusChanged_mA8A70A9F25557E6C3757DCB80D8F5149AF86A877_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		Action_1_tAA0F894C98302D68F7D5034E8104E9AB4763CCAD * L_0 = ((XRDisplaySubsystem_t2E090C1B6925B11C9296DBBAF57F9364AADA13E0_StaticFields*)il2cpp_codegen_static_fields_for(XRDisplaySubsystem_t2E090C1B6925B11C9296DBBAF57F9364AADA13E0_il2cpp_TypeInfo_var))->get_displayFocusChanged_2();
 		V_0 = (bool)((!(((RuntimeObject*)(Action_1_tAA0F894C98302D68F7D5034E8104E9AB4763CCAD *)L_0) <= ((RuntimeObject*)(RuntimeObject *)NULL)))? 1 : 0);
@@ -5006,8 +4655,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRDisplaySubsystem__ctor_m165FE35F533B01
 		il2cpp_codegen_initialize_method (XRDisplaySubsystem__ctor_m165FE35F533B013C640581A901D43F21F5955F05_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, XRDisplaySubsystem__ctor_m165FE35F533B013C640581A901D43F21F5955F05_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		IntegratedSubsystem_1__ctor_m6C59A971C471B3036B0A4A948338736212665088(__this, /*hidden argument*/IntegratedSubsystem_1__ctor_m6C59A971C471B3036B0A4A948338736212665088_RuntimeMethod_var);
 		return;
@@ -5178,8 +4825,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRDisplaySubsystemDescriptor__ctor_m906C
 		il2cpp_codegen_initialize_method (XRDisplaySubsystemDescriptor__ctor_m906C40C1CF91BAD978A4353EC4C4A228E4B07B97_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, XRDisplaySubsystemDescriptor__ctor_m906C40C1CF91BAD978A4353EC4C4A228E4B07B97_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		IntegratedSubsystemDescriptor_1__ctor_m6117F01E29F54F0CC64A4F7459678F5917DDDAA4(__this, /*hidden argument*/IntegratedSubsystemDescriptor_1__ctor_m6117F01E29F54F0CC64A4F7459678F5917DDDAA4_RuntimeMethod_var);
 		return;
@@ -5205,8 +4850,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRInputSubsystem_InvokeTrackingOriginUpd
 	IntegratedSubsystem_tEFE71989A825ABA8955C1B1505C8F2405FA61026 * V_0 = NULL;
 	XRInputSubsystem_t9B5A5AD5B134D55762D1FA5E425126EF7F86B2B7 * V_1 = NULL;
 	bool V_2 = false;
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, XRInputSubsystem_InvokeTrackingOriginUpdatedEvent_mE0A1CD4D24BD66A5F5BE793DD5EF01D94F20973D_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	int32_t G_B3_0 = 0;
 	{
 		intptr_t L_0 = ___internalPtr0;
@@ -5269,8 +4912,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRInputSubsystem_InvokeBoundaryChangedEv
 	IntegratedSubsystem_tEFE71989A825ABA8955C1B1505C8F2405FA61026 * V_0 = NULL;
 	XRInputSubsystem_t9B5A5AD5B134D55762D1FA5E425126EF7F86B2B7 * V_1 = NULL;
 	bool V_2 = false;
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, XRInputSubsystem_InvokeBoundaryChangedEvent_m969BB48ED88967BF87F7311BFE1EEC45D2302702_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	int32_t G_B3_0 = 0;
 	{
 		intptr_t L_0 = ___internalPtr0;
@@ -5330,8 +4971,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRInputSubsystem__ctor_m61D1698F3B14A2EC
 		il2cpp_codegen_initialize_method (XRInputSubsystem__ctor_m61D1698F3B14A2EC28BB0EC42912FD47B593EAF3_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, XRInputSubsystem__ctor_m61D1698F3B14A2EC28BB0EC42912FD47B593EAF3_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		IntegratedSubsystem_1__ctor_mBA2862C42655BCC9EDC76EE901CB6500A32DEA9D(__this, /*hidden argument*/IntegratedSubsystem_1__ctor_mBA2862C42655BCC9EDC76EE901CB6500A32DEA9D_RuntimeMethod_var);
 		return;
@@ -5354,8 +4993,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRInputSubsystemDescriptor__ctor_m855F61
 		il2cpp_codegen_initialize_method (XRInputSubsystemDescriptor__ctor_m855F6124D0F7637429BB9E4156C12B6C501B41B0_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, XRInputSubsystemDescriptor__ctor_m855F6124D0F7637429BB9E4156C12B6C501B41B0_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		IntegratedSubsystemDescriptor_1__ctor_m3B5162617EB2232B4F2453003AF1AD8EBE78021D(__this, /*hidden argument*/IntegratedSubsystemDescriptor_1__ctor_m3B5162617EB2232B4F2453003AF1AD8EBE78021D_RuntimeMethod_var);
 		return;
@@ -5379,8 +5016,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRMeshSubsystem_InvokeMeshReadyDelegate_
 		s_Il2CppMethodInitialized = true;
 	}
 	bool V_0 = false;
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, XRMeshSubsystem_InvokeMeshReadyDelegate_m46B89EE8ACC67733B6272C547EDFE828393BE7CE_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		Action_1_tC000C2A9E7CAB4EC5456D1A111CAF561BBAD353C * L_0 = ___onMeshGenerationComplete1;
 		V_0 = (bool)((!(((RuntimeObject*)(Action_1_tC000C2A9E7CAB4EC5456D1A111CAF561BBAD353C *)L_0) <= ((RuntimeObject*)(RuntimeObject *)NULL)))? 1 : 0);
@@ -5411,8 +5046,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRMeshSubsystem__ctor_m552EA5F9E0B43C7A3
 		il2cpp_codegen_initialize_method (XRMeshSubsystem__ctor_m552EA5F9E0B43C7A30AAB6B3841CE5FBBFA07D2E_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, XRMeshSubsystem__ctor_m552EA5F9E0B43C7A30AAB6B3841CE5FBBFA07D2E_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		IntegratedSubsystem_1__ctor_m8BC125DB36F9434B07EFAAF056356DD665057EE3(__this, /*hidden argument*/IntegratedSubsystem_1__ctor_m8BC125DB36F9434B07EFAAF056356DD665057EE3_RuntimeMethod_var);
 		return;
@@ -5435,8 +5068,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRMeshSubsystemDescriptor__ctor_m44E44EE
 		il2cpp_codegen_initialize_method (XRMeshSubsystemDescriptor__ctor_m44E44EEF055312E5359F476FBAF42CC330FEC5DD_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, XRMeshSubsystemDescriptor__ctor_m44E44EEF055312E5359F476FBAF42CC330FEC5DD_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		IntegratedSubsystemDescriptor_1__ctor_mF72F72B847AC92E53503FA2E6AA6100020B8B371(__this, /*hidden argument*/IntegratedSubsystemDescriptor_1__ctor_mF72F72B847AC92E53503FA2E6AA6100020B8B371_RuntimeMethod_var);
 		return;
@@ -5461,14 +5092,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRMeshSubsystemDescriptor__ctor_m44E44EE
 // System.Void UnityEngine.XR.XRNodeState::set_uniqueID(System.UInt64)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRNodeState_set_uniqueID_m0A71A6EE7B7C516C9DEAE99BEECE66B21463F2E3 (XRNodeState_t927C248D649ED31F587DFE078E3FF180D98F7C0A * __this, uint64_t ___value0, const RuntimeMethod* method)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (XRNodeState_set_uniqueID_m0A71A6EE7B7C516C9DEAE99BEECE66B21463F2E3_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, XRNodeState_set_uniqueID_m0A71A6EE7B7C516C9DEAE99BEECE66B21463F2E3_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		uint64_t L_0 = ___value0;
 		__this->set_m_UniqueID_9(L_0);
@@ -5484,14 +5107,6 @@ IL2CPP_EXTERN_C  void XRNodeState_set_uniqueID_m0A71A6EE7B7C516C9DEAE99BEECE66B2
 // System.Void UnityEngine.XR.XRNodeState::set_nodeType(UnityEngine.XR.XRNode)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRNodeState_set_nodeType_m0C4B5A3021F19FCA3B79DC704D0F4E334EB7E6CE (XRNodeState_t927C248D649ED31F587DFE078E3FF180D98F7C0A * __this, int32_t ___value0, const RuntimeMethod* method)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (XRNodeState_set_nodeType_m0C4B5A3021F19FCA3B79DC704D0F4E334EB7E6CE_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, XRNodeState_set_nodeType_m0C4B5A3021F19FCA3B79DC704D0F4E334EB7E6CE_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = ___value0;
 		__this->set_m_Type_0(L_0);
@@ -5507,14 +5122,6 @@ IL2CPP_EXTERN_C  void XRNodeState_set_nodeType_m0C4B5A3021F19FCA3B79DC704D0F4E33
 // System.Void UnityEngine.XR.XRNodeState::set_tracked(System.Boolean)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRNodeState_set_tracked_mC82DD9C7B6F061C452A0D89DE1A018CF68E581E2 (XRNodeState_t927C248D649ED31F587DFE078E3FF180D98F7C0A * __this, bool ___value0, const RuntimeMethod* method)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (XRNodeState_set_tracked_mC82DD9C7B6F061C452A0D89DE1A018CF68E581E2_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, XRNodeState_set_tracked_mC82DD9C7B6F061C452A0D89DE1A018CF68E581E2_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	XRNodeState_t927C248D649ED31F587DFE078E3FF180D98F7C0A * G_B2_0 = NULL;
 	XRNodeState_t927C248D649ED31F587DFE078E3FF180D98F7C0A * G_B1_0 = NULL;
 	int32_t G_B3_0 = 0;
@@ -5557,14 +5164,6 @@ IL2CPP_EXTERN_C  void XRNodeState_set_tracked_mC82DD9C7B6F061C452A0D89DE1A018CF6
 #endif
 IL2CPP_EXTERN_C inline  IL2CPP_METHOD_ATTR MeshId_t8674C6A14E469B2507FCDEBBE7F77ACC3CA37C1A  MeshGenerationResult_get_MeshId_m1113338E0F307CF16B4B4BE21666294DD4D256E1_inline (MeshGenerationResult_tC1C81EF3BAD05FB75B6F182C0EFCFB53236FB42A * __this, const RuntimeMethod* method)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (MeshGenerationResult_get_MeshId_m1113338E0F307CF16B4B4BE21666294DD4D256E1UnityEngine_XRModule_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, MeshGenerationResult_get_MeshId_m1113338E0F307CF16B4B4BE21666294DD4D256E1_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		MeshId_t8674C6A14E469B2507FCDEBBE7F77ACC3CA37C1A  L_0 = __this->get_U3CMeshIdU3Ek__BackingField_0();
 		return L_0;
@@ -5572,14 +5171,6 @@ IL2CPP_EXTERN_C inline  IL2CPP_METHOD_ATTR MeshId_t8674C6A14E469B2507FCDEBBE7F77
 }
 IL2CPP_EXTERN_C inline  IL2CPP_METHOD_ATTR Mesh_t6106B8D8E4C691321581AB0445552EC78B947B8C * MeshGenerationResult_get_Mesh_m0EBB5B1AD63C64D39486EFFBE21166DC6C3E7575_inline (MeshGenerationResult_tC1C81EF3BAD05FB75B6F182C0EFCFB53236FB42A * __this, const RuntimeMethod* method)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (MeshGenerationResult_get_Mesh_m0EBB5B1AD63C64D39486EFFBE21166DC6C3E7575UnityEngine_XRModule_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, MeshGenerationResult_get_Mesh_m0EBB5B1AD63C64D39486EFFBE21166DC6C3E7575_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		Mesh_t6106B8D8E4C691321581AB0445552EC78B947B8C * L_0 = __this->get_U3CMeshU3Ek__BackingField_1();
 		return L_0;
@@ -5587,14 +5178,6 @@ IL2CPP_EXTERN_C inline  IL2CPP_METHOD_ATTR Mesh_t6106B8D8E4C691321581AB0445552EC
 }
 IL2CPP_EXTERN_C inline  IL2CPP_METHOD_ATTR MeshCollider_t60EB55ADE92499FE8D1AA206D2BD96E65B2766DE * MeshGenerationResult_get_MeshCollider_m6ED813F4C16388132DDCD6A65240DBF3C165E524_inline (MeshGenerationResult_tC1C81EF3BAD05FB75B6F182C0EFCFB53236FB42A * __this, const RuntimeMethod* method)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (MeshGenerationResult_get_MeshCollider_m6ED813F4C16388132DDCD6A65240DBF3C165E524UnityEngine_XRModule_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, MeshGenerationResult_get_MeshCollider_m6ED813F4C16388132DDCD6A65240DBF3C165E524_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		MeshCollider_t60EB55ADE92499FE8D1AA206D2BD96E65B2766DE * L_0 = __this->get_U3CMeshColliderU3Ek__BackingField_2();
 		return L_0;
@@ -5602,14 +5185,6 @@ IL2CPP_EXTERN_C inline  IL2CPP_METHOD_ATTR MeshCollider_t60EB55ADE92499FE8D1AA20
 }
 IL2CPP_EXTERN_C inline  IL2CPP_METHOD_ATTR int32_t MeshGenerationResult_get_Status_mB2A2937F3CEA5264B977F6FAAD054CE353CDC248_inline (MeshGenerationResult_tC1C81EF3BAD05FB75B6F182C0EFCFB53236FB42A * __this, const RuntimeMethod* method)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (MeshGenerationResult_get_Status_mB2A2937F3CEA5264B977F6FAAD054CE353CDC248UnityEngine_XRModule_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, MeshGenerationResult_get_Status_mB2A2937F3CEA5264B977F6FAAD054CE353CDC248_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = __this->get_U3CStatusU3Ek__BackingField_3();
 		return L_0;
@@ -5617,14 +5192,6 @@ IL2CPP_EXTERN_C inline  IL2CPP_METHOD_ATTR int32_t MeshGenerationResult_get_Stat
 }
 IL2CPP_EXTERN_C inline  IL2CPP_METHOD_ATTR int32_t MeshGenerationResult_get_Attributes_m2130FD5614F6772B24E31DD7127EB66066158A90_inline (MeshGenerationResult_tC1C81EF3BAD05FB75B6F182C0EFCFB53236FB42A * __this, const RuntimeMethod* method)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (MeshGenerationResult_get_Attributes_m2130FD5614F6772B24E31DD7127EB66066158A90UnityEngine_XRModule_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, MeshGenerationResult_get_Attributes_m2130FD5614F6772B24E31DD7127EB66066158A90_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = __this->get_U3CAttributesU3Ek__BackingField_4();
 		return L_0;

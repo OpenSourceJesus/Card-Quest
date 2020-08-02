@@ -2709,1182 +2709,1206 @@ extern void IslandsLevelsMinigame_SetLevelStars_m7D0E1E102BB35D378A0C0501B6FFD3D
 extern void IslandsLevelsMinigame__ctor_m001BAAA93530E71D190DDD87A7019245F464F4A3 ();
 // 0x000005EA System.Void MatchingCardGame.IslandsLevelsMinigame::.cctor()
 extern void IslandsLevelsMinigame__cctor_m7503389A88A3011951255968FA80366FDA5B8CD1 ();
-// 0x000005EB System.Boolean MatchingCardGame.Level::get_PauseWhileUnfocused()
+// 0x000005EB System.Collections.IEnumerator MatchingCardGame.IslandsLevelsMinigameTutorial::Start()
+extern void IslandsLevelsMinigameTutorial_Start_m50ED8A3962331DB533AB05054CBBFBA5EDC19A0E ();
+// 0x000005EC System.Void MatchingCardGame.IslandsLevelsMinigameTutorial::GoToNextLevel()
+extern void IslandsLevelsMinigameTutorial_GoToNextLevel_m27072C0E114434AEC6A9FA93C045711760672239 ();
+// 0x000005ED System.Void MatchingCardGame.IslandsLevelsMinigameTutorial::.ctor()
+extern void IslandsLevelsMinigameTutorial__ctor_m61B33397AF7AEE521A2A691C5557DF788732C4F2 ();
+// 0x000005EE System.Collections.IEnumerator MatchingCardGame.IslandsLevelsMinigameTutorial::<>n__0()
+extern void IslandsLevelsMinigameTutorial_U3CU3En__0_m94C41CE2364068B934F16E584C7835899C8F0BD5 ();
+// 0x000005EF System.Boolean MatchingCardGame.Level::get_PauseWhileUnfocused()
 extern void Level_get_PauseWhileUnfocused_m9831389C70A1B0398E169BE501061162BCCC35F9 ();
-// 0x000005EC System.Void MatchingCardGame.Level::OnEnable()
+// 0x000005F0 System.Void MatchingCardGame.Level::OnEnable()
 extern void Level_OnEnable_m1B6FB2CF2B6BEF5FE9A69B69E218A29EA49E2886 ();
-// 0x000005ED System.Void MatchingCardGame.Level::DoUpdate()
+// 0x000005F1 System.Void MatchingCardGame.Level::DoUpdate()
 extern void Level_DoUpdate_m16471EFC97444B0592A1DDC3660F61198A1BDDBF ();
-// 0x000005EE System.Void MatchingCardGame.Level::OnDisable()
+// 0x000005F2 System.Void MatchingCardGame.Level::OnDisable()
 extern void Level_OnDisable_m262A6B01B159720196A49032EAA8C2068AE935A8 ();
-// 0x000005EF System.Void MatchingCardGame.Level::.ctor()
+// 0x000005F3 System.Void MatchingCardGame.Level::.ctor()
 extern void Level__ctor_m68550474CC0B0DF887279F082B0DF0D6C950B78D ();
-// 0x000005F0 System.Void MatchingCardGame.LevelButton::.ctor()
+// 0x000005F4 System.Void MatchingCardGame.LevelButton::.ctor()
 extern void LevelButton__ctor_m7B791D4B0D2E0480CDE6D3F81819E92241213052 ();
-// 0x000005F1 System.Void MatchingCardGame.LevelSelectMenu::OnEnable()
+// 0x000005F5 System.Void MatchingCardGame.LevelSelectMenu::OnEnable()
 extern void LevelSelectMenu_OnEnable_mDD68A67D8353914B630E0C6401F238B6894E63C5 ();
-// 0x000005F2 System.Void MatchingCardGame.LevelSelectMenu::OnLevelButtonPressed(MatchingCardGame.LevelButton)
+// 0x000005F6 System.Void MatchingCardGame.LevelSelectMenu::OnLevelButtonPressed(MatchingCardGame.LevelButton)
 extern void LevelSelectMenu_OnLevelButtonPressed_mA98894BEE7CD37BABBE9FEFE5737AF2479FA8F45 ();
-// 0x000005F3 System.Void MatchingCardGame.LevelSelectMenu::.ctor()
+// 0x000005F7 System.Void MatchingCardGame.LevelSelectMenu::.ctor()
 extern void LevelSelectMenu__ctor_m86F0E4FD106C3FB92B89846A8A6EAEC63EEC4132 ();
-// 0x000005F4 System.Void MatchingCardGame.IslandsLevel::DoUpdate()
+// 0x000005F8 System.Void MatchingCardGame.IslandsLevel::DoUpdate()
 extern void IslandsLevel_DoUpdate_m00E3E639D13C0CEA4FDD275C0940C64A10057D30 ();
-// 0x000005F5 System.Void MatchingCardGame.IslandsLevel::HandleMouseInput()
+// 0x000005F9 System.Void MatchingCardGame.IslandsLevel::HandleMouseInput()
 extern void IslandsLevel_HandleMouseInput_m81C81AF6FA0F4B6408E512618BDA07F459FFF21D ();
-// 0x000005F6 System.Boolean MatchingCardGame.IslandsLevel::IsLevelCompleted()
+// 0x000005FA System.Boolean MatchingCardGame.IslandsLevel::IsLevelCompleted()
 extern void IslandsLevel_IsLevelCompleted_mBB851EF80984A43115A9677A840A60380982F1E9 ();
-// 0x000005F7 System.Int32 MatchingCardGame.IslandsLevel::GetMatchCount()
+// 0x000005FB System.Int32 MatchingCardGame.IslandsLevel::GetMatchCount()
 extern void IslandsLevel_GetMatchCount_m61D6BE73E0EA93FE91890BA511900157AC44BF5D ();
-// 0x000005F8 System.Boolean MatchingCardGame.IslandsLevel::TryToMoveSelectedCardToHighlightedPosition()
+// 0x000005FC System.Boolean MatchingCardGame.IslandsLevel::TryToMoveSelectedCardToHighlightedPosition()
 extern void IslandsLevel_TryToMoveSelectedCardToHighlightedPosition_mE85C82D9268CAADF9427390D3646966100EFB27E ();
-// 0x000005F9 System.Void MatchingCardGame.IslandsLevel::MoveSelectedCardToHighlightedPosition()
+// 0x000005FD System.Void MatchingCardGame.IslandsLevel::MoveSelectedCardToHighlightedPosition()
 extern void IslandsLevel_MoveSelectedCardToHighlightedPosition_mCBB3FE8582ED9367E5C901309D46DC27D76A2415 ();
-// 0x000005FA System.Boolean MatchingCardGame.IslandsLevel::IsEquivalent(MatchingCardGame.IslandsLevel)
+// 0x000005FE System.Boolean MatchingCardGame.IslandsLevel::IsEquivalent(MatchingCardGame.IslandsLevel)
 extern void IslandsLevel_IsEquivalent_mA7DA00E9126F911235EEF8DC2BD8441418298C68 ();
-// 0x000005FB MatchingCardGame.IslandsLevel MatchingCardGame.IslandsLevel::MakeLevel(UnityEngine.Vector2Int,System.Int32,System.Int32,System.Int32,System.Int32,MatchingCardGame.IslandsLevel_CardModifierEntry[])
+// 0x000005FF MatchingCardGame.IslandsLevel MatchingCardGame.IslandsLevel::MakeLevel(UnityEngine.Vector2Int,System.Int32,System.Int32,System.Int32,System.Int32,MatchingCardGame.IslandsLevel_CardModifierEntry[])
 extern void IslandsLevel_MakeLevel_m35A9DF88FDF25C849E6595D1015C3138CE718425 ();
-// 0x000005FC MatchingCardGame.Island MatchingCardGame.IslandsLevel::MakeIsland(MatchingCardGame.IslandsLevel,UnityEngine.Vector2Int,System.Int32,System.Int32,MatchingCardGame.IslandsLevel_CardModifierEntry[])
+// 0x00000600 MatchingCardGame.Island MatchingCardGame.IslandsLevel::MakeIsland(MatchingCardGame.IslandsLevel,UnityEngine.Vector2Int,System.Int32,System.Int32,MatchingCardGame.IslandsLevel_CardModifierEntry[])
 extern void IslandsLevel_MakeIsland_m03C105371B95FD905D20C89E03956A88EDC7C513 ();
-// 0x000005FD System.Boolean MatchingCardGame.IslandsLevel::MakeMoves(MatchingCardGame.IslandsLevel,System.Int32)
+// 0x00000601 System.Boolean MatchingCardGame.IslandsLevel::MakeMoves(MatchingCardGame.IslandsLevel,System.Int32)
 extern void IslandsLevel_MakeMoves_mC1B020E9FC749B2074916D985759EAD91094630F ();
-// 0x000005FE System.Boolean MatchingCardGame.IslandsLevel::IsCardNextToSameType(MatchingCardGame.Card)
+// 0x00000602 System.Boolean MatchingCardGame.IslandsLevel::IsCardNextToSameType(MatchingCardGame.Card)
 extern void IslandsLevel_IsCardNextToSameType_mF1A3BBE4A4D24AA0D48ADE6D1025088614532AAD ();
-// 0x000005FF System.Void MatchingCardGame.IslandsLevel::.ctor()
+// 0x00000603 System.Void MatchingCardGame.IslandsLevel::.ctor()
 extern void IslandsLevel__ctor_m05312ED943B6C9726E6DA1EB95472A4B27FD7BE3 ();
-// 0x00000600 System.Void MatchingCardGame.ObjectPool::Awake()
+// 0x00000604 System.Void MatchingCardGame.ObjectPool::Awake()
 extern void ObjectPool_Awake_mB2F6A10F96E40440F3E73172CA11B66E28690112 ();
-// 0x00000601 System.Void MatchingCardGame.ObjectPool::DoUpdate()
+// 0x00000605 System.Void MatchingCardGame.ObjectPool::DoUpdate()
 extern void ObjectPool_DoUpdate_mAD603E9BD2DE24088B87FF314F7738465ACCA112 ();
-// 0x00000602 MatchingCardGame.ObjectPool_DelayedDespawn MatchingCardGame.ObjectPool::DelayDespawn(System.Int32,UnityEngine.GameObject,UnityEngine.Transform,System.Single)
+// 0x00000606 MatchingCardGame.ObjectPool_DelayedDespawn MatchingCardGame.ObjectPool::DelayDespawn(System.Int32,UnityEngine.GameObject,UnityEngine.Transform,System.Single)
 extern void ObjectPool_DelayDespawn_m380D2333D173FC0865EEEFD1CB15C76361C528C3 ();
-// 0x00000603 System.Void MatchingCardGame.ObjectPool::CancelDelayedDespawn(MatchingCardGame.ObjectPool_DelayedDespawn)
+// 0x00000607 System.Void MatchingCardGame.ObjectPool::CancelDelayedDespawn(MatchingCardGame.ObjectPool_DelayedDespawn)
 extern void ObjectPool_CancelDelayedDespawn_m0793EDEA4A087315D11DAAAD09D88EAAAA105052 ();
-// 0x00000604 MatchingCardGame.ObjectPool_RangedDespawn MatchingCardGame.ObjectPool::RangeDespawn(System.Int32,UnityEngine.GameObject,UnityEngine.Transform,System.Single)
+// 0x00000608 MatchingCardGame.ObjectPool_RangedDespawn MatchingCardGame.ObjectPool::RangeDespawn(System.Int32,UnityEngine.GameObject,UnityEngine.Transform,System.Single)
 extern void ObjectPool_RangeDespawn_m75D64FCC2A5C7E3AC5FD050233A934E12090A870 ();
-// 0x00000605 System.Void MatchingCardGame.ObjectPool::CancelRangedDespawn(MatchingCardGame.ObjectPool_RangedDespawn)
+// 0x00000609 System.Void MatchingCardGame.ObjectPool::CancelRangedDespawn(MatchingCardGame.ObjectPool_RangedDespawn)
 extern void ObjectPool_CancelRangedDespawn_mD946087051EE5F0762B55F46DF72C3930A74A6AC ();
-// 0x00000606 T MatchingCardGame.ObjectPool::SpawnComponent(System.Int32,UnityEngine.Vector3,UnityEngine.Quaternion,UnityEngine.Transform)
-// 0x00000607 T MatchingCardGame.ObjectPool::SpawnComponent(T,UnityEngine.Vector3,UnityEngine.Quaternion,UnityEngine.Transform)
-// 0x00000608 T MatchingCardGame.ObjectPool::Spawn(T,UnityEngine.Vector3,UnityEngine.Quaternion,UnityEngine.Transform)
-// 0x00000609 System.Collections.Generic.KeyValuePair`2<UnityEngine.GameObject,UnityEngine.Transform> MatchingCardGame.ObjectPool::Despawn(MatchingCardGame.ObjectPool_SpawnedEntry)
+// 0x0000060A T MatchingCardGame.ObjectPool::SpawnComponent(System.Int32,UnityEngine.Vector3,UnityEngine.Quaternion,UnityEngine.Transform)
+// 0x0000060B T MatchingCardGame.ObjectPool::SpawnComponent(T,UnityEngine.Vector3,UnityEngine.Quaternion,UnityEngine.Transform)
+// 0x0000060C T MatchingCardGame.ObjectPool::Spawn(T,UnityEngine.Vector3,UnityEngine.Quaternion,UnityEngine.Transform)
+// 0x0000060D System.Collections.Generic.KeyValuePair`2<UnityEngine.GameObject,UnityEngine.Transform> MatchingCardGame.ObjectPool::Despawn(MatchingCardGame.ObjectPool_SpawnedEntry)
 extern void ObjectPool_Despawn_m6953A6CC1AF18A64108AF66E83C7098095FB2419 ();
-// 0x0000060A System.Collections.Generic.KeyValuePair`2<UnityEngine.GameObject,UnityEngine.Transform> MatchingCardGame.ObjectPool::Despawn(System.Int32,UnityEngine.GameObject,UnityEngine.Transform)
+// 0x0000060E System.Collections.Generic.KeyValuePair`2<UnityEngine.GameObject,UnityEngine.Transform> MatchingCardGame.ObjectPool::Despawn(System.Int32,UnityEngine.GameObject,UnityEngine.Transform)
 extern void ObjectPool_Despawn_m47C12931B3EC79843DE20BE9F7A50C5EB69B7E0E ();
-// 0x0000060B System.Collections.Generic.KeyValuePair`2<UnityEngine.GameObject,UnityEngine.Transform> MatchingCardGame.ObjectPool::Preload(System.Int32)
+// 0x0000060F System.Collections.Generic.KeyValuePair`2<UnityEngine.GameObject,UnityEngine.Transform> MatchingCardGame.ObjectPool::Preload(System.Int32)
 extern void ObjectPool_Preload_mB168F08289A2E613BB052C716A468F05AEED68EB ();
-// 0x0000060C System.Void MatchingCardGame.ObjectPool::.ctor()
+// 0x00000610 System.Void MatchingCardGame.ObjectPool::.ctor()
 extern void ObjectPool__ctor_m81C3D67E29CC390C86BFD482FD8CC6E9D7A3C602 ();
-// 0x0000060D System.Boolean MatchingCardGame.ObjectWithWaypoints::get_PauseWhileUnfocused()
+// 0x00000611 System.Boolean MatchingCardGame.ObjectWithWaypoints::get_PauseWhileUnfocused()
 extern void ObjectWithWaypoints_get_PauseWhileUnfocused_mFB833B29740B42D326E2D9A9BAA913F5866E7478 ();
-// 0x0000060E System.Void MatchingCardGame.ObjectWithWaypoints::Start()
+// 0x00000612 System.Void MatchingCardGame.ObjectWithWaypoints::Start()
 extern void ObjectWithWaypoints_Start_mFB2702CE25BEAEB87A08D9B355D6D14B64ECF4B6 ();
-// 0x0000060F System.Void MatchingCardGame.ObjectWithWaypoints::Copy(System.Object)
+// 0x00000613 System.Void MatchingCardGame.ObjectWithWaypoints::Copy(System.Object)
 extern void ObjectWithWaypoints_Copy_m759436A819EC509985BF71AA2B9D0D23969C00EE ();
-// 0x00000610 System.Void MatchingCardGame.ObjectWithWaypoints::.ctor()
+// 0x00000614 System.Void MatchingCardGame.ObjectWithWaypoints::.ctor()
 extern void ObjectWithWaypoints__ctor_m3FE68CC26AD0994110447ABEFE0EFE9936F33EB5 ();
-// 0x00000611 System.Void MatchingCardGame.PauseMenu::Awake()
+// 0x00000615 System.Void MatchingCardGame.PauseMenu::Awake()
 extern void PauseMenu_Awake_mD5D4AA025C375A5DE42F5D6B5A7D8DCDA3FB37FD ();
-// 0x00000612 System.Void MatchingCardGame.PauseMenu::Open()
+// 0x00000616 System.Void MatchingCardGame.PauseMenu::Open()
 extern void PauseMenu_Open_mCBC39F79015BD45411E11AB0322A514DF190D6EE ();
-// 0x00000613 System.Void MatchingCardGame.PauseMenu::Close()
+// 0x00000617 System.Void MatchingCardGame.PauseMenu::Close()
 extern void PauseMenu_Close_mBC2B32B273A1966646CBA15E08FC3A23DCE85A8A ();
-// 0x00000614 System.Void MatchingCardGame.PauseMenu::.ctor()
+// 0x00000618 System.Void MatchingCardGame.PauseMenu::.ctor()
 extern void PauseMenu__ctor_mCDBE0CD25F52AA96D1A6D2E76323B6FB00916570 ();
-// 0x00000615 System.Int32 MatchingCardGame.SavePoint::get_UniqueId()
+// 0x00000619 System.Int32 MatchingCardGame.SavePoint::get_UniqueId()
 extern void SavePoint_get_UniqueId_m4EAB6CC979C994807E77987395998A0DB43FAAC7 ();
-// 0x00000616 System.Void MatchingCardGame.SavePoint::set_UniqueId(System.Int32)
+// 0x0000061A System.Void MatchingCardGame.SavePoint::set_UniqueId(System.Int32)
 extern void SavePoint_set_UniqueId_m01E7370430FD085FE376E929903F8CCE85E1E7ED ();
-// 0x00000617 System.Void MatchingCardGame.SavePoint::.ctor()
+// 0x0000061B System.Void MatchingCardGame.SavePoint::.ctor()
 extern void SavePoint__ctor_mC3B81A41AAD49ACFD593EFC5CCF27941A56BECB5 ();
-// 0x00000618 System.Void MatchingCardGame.Scroll::.ctor()
+// 0x0000061C System.Void MatchingCardGame.Scroll::.ctor()
 extern void Scroll__ctor_mCA5E2229ADE32412FCD82326BF5AA945BBE588E5 ();
-// 0x00000619 System.Int32 MatchingCardGame.Spawnable::get_PrefabIndex()
+// 0x0000061D System.Int32 MatchingCardGame.Spawnable::get_PrefabIndex()
 extern void Spawnable_get_PrefabIndex_m67F929D6C03D27A9716E6603F919F7560495406D ();
-// 0x0000061A System.Void MatchingCardGame.Spawnable::.ctor()
+// 0x0000061E System.Void MatchingCardGame.Spawnable::.ctor()
 extern void Spawnable__ctor_mFA7B4B374C17A33EA907848C2BEDB32D43A3C9C5 ();
-// 0x0000061B System.Boolean MatchingCardGame.WorldMap::get_PauseWhileUnfocused()
+// 0x0000061F System.Boolean MatchingCardGame.WorldMap::get_PauseWhileUnfocused()
 extern void WorldMap_get_PauseWhileUnfocused_m12D526FBF3B12BB0B9C444C257869E1A335769B7 ();
-// 0x0000061C System.Void MatchingCardGame.WorldMap::OnEnable()
+// 0x00000620 System.Void MatchingCardGame.WorldMap::OnEnable()
 extern void WorldMap_OnEnable_m721C16D071044AE261D0893F506A8333DBDC87C5 ();
-// 0x0000061D System.Void MatchingCardGame.WorldMap::DoUpdate()
+// 0x00000621 System.Void MatchingCardGame.WorldMap::DoUpdate()
 extern void WorldMap_DoUpdate_m917CA081A7A3BBFAC4BB28B65F8B49BE2C4FEE23 ();
-// 0x0000061E System.Void MatchingCardGame.WorldMap::OnDisable()
+// 0x00000622 System.Void MatchingCardGame.WorldMap::OnDisable()
 extern void WorldMap_OnDisable_m2DBA79D5A1D2E2C3A53C6B9359AB9169AD1346E4 ();
-// 0x0000061F System.Void MatchingCardGame.WorldMap::.ctor()
+// 0x00000623 System.Void MatchingCardGame.WorldMap::.ctor()
 extern void WorldMap__ctor_mD0B3FE467DBD3F870016C2AA90D3E7C00D54502E ();
-// 0x00000620 System.Void MatchingCardGame.SoundEffect::OnDisable()
+// 0x00000624 System.Void MatchingCardGame.SoundEffect::OnDisable()
 extern void SoundEffect_OnDisable_mFC1F17C8BA4EB2AB43ADCBEB7C91B8DA55E6A095 ();
-// 0x00000621 System.Void MatchingCardGame.SoundEffect::.ctor()
+// 0x00000625 System.Void MatchingCardGame.SoundEffect::.ctor()
 extern void SoundEffect__ctor_mFD298CF69318019D9A79BEA79965AC662EDE3D47 ();
-// 0x00000622 MatchingCardGame.Team MatchingCardGame.Team::get_Opponent()
+// 0x00000626 MatchingCardGame.Team MatchingCardGame.Team::get_Opponent()
 extern void Team_get_Opponent_m342B3845AEB1D3E01468D957EB46835DFC85F635 ();
-// 0x00000623 System.Void MatchingCardGame.Team::set_Opponent(MatchingCardGame.Team)
+// 0x00000627 System.Void MatchingCardGame.Team::set_Opponent(MatchingCardGame.Team)
 extern void Team_set_Opponent_m098EA7FFCDE5244F5A8FB54E6A47AFB502F3A816 ();
-// 0x00000624 System.Void MatchingCardGame.Team::.ctor()
+// 0x00000628 System.Void MatchingCardGame.Team::.ctor()
 extern void Team__ctor_m401B5DD0159B794C32D7F39326F2ABC69FF29EEB ();
-// 0x00000625 System.Collections.IEnumerator MatchingCardGame.TemporaryActiveText::DoRoutine()
+// 0x00000629 System.Collections.IEnumerator MatchingCardGame.TemporaryActiveText::DoRoutine()
 extern void TemporaryActiveText_DoRoutine_mD816D6F12B36B0A82302E19E32E8C1C982473333 ();
-// 0x00000626 System.Void MatchingCardGame.TemporaryActiveText::.ctor()
+// 0x0000062A System.Void MatchingCardGame.TemporaryActiveText::.ctor()
 extern void TemporaryActiveText__ctor_m9A26302C4A640A779C0C77162FE73AD363100FC0 ();
-// 0x00000627 System.Collections.IEnumerator MatchingCardGame.TemporaryActiveText::<>n__0()
+// 0x0000062B System.Collections.IEnumerator MatchingCardGame.TemporaryActiveText::<>n__0()
 extern void TemporaryActiveText_U3CU3En__0_mFB15414A623B06F2B79FBBEBD8AAE098E1CA8933 ();
-// 0x00000628 System.Void MatchingCardGame.TemporaryActiveGameObject::Do()
+// 0x0000062C System.Void MatchingCardGame.TemporaryActiveGameObject::Do()
 extern void TemporaryActiveGameObject_Do_m9F59BE584EA3A275CDBBCC1C1671F38925A276CB ();
-// 0x00000629 System.Void MatchingCardGame.TemporaryActiveGameObject::Stop()
+// 0x0000062D System.Void MatchingCardGame.TemporaryActiveGameObject::Stop()
 extern void TemporaryActiveGameObject_Stop_m5D28F831C614FE755947213AE8AEDB87D741094E ();
-// 0x0000062A System.Collections.IEnumerator MatchingCardGame.TemporaryActiveGameObject::DoRoutine()
+// 0x0000062E System.Collections.IEnumerator MatchingCardGame.TemporaryActiveGameObject::DoRoutine()
 extern void TemporaryActiveGameObject_DoRoutine_m1BE039B9DDE261B9601C12F12C8A03305597CDDD ();
-// 0x0000062B System.Void MatchingCardGame.TemporaryActiveGameObject::Activate()
+// 0x0000062F System.Void MatchingCardGame.TemporaryActiveGameObject::Activate()
 extern void TemporaryActiveGameObject_Activate_mB826743BBE6973CED77F4C913D8A5354212EC486 ();
-// 0x0000062C System.Void MatchingCardGame.TemporaryActiveGameObject::Deactivate()
+// 0x00000630 System.Void MatchingCardGame.TemporaryActiveGameObject::Deactivate()
 extern void TemporaryActiveGameObject_Deactivate_m3F7294BDEDF9786C8BB2B8206BDC2CC73B9B0313 ();
-// 0x0000062D System.Void MatchingCardGame.TemporaryActiveGameObject::.ctor()
+// 0x00000631 System.Void MatchingCardGame.TemporaryActiveGameObject::.ctor()
 extern void TemporaryActiveGameObject__ctor_mAC0708E70A2B25080482B23D515CDA700BD806B9 ();
-// 0x0000062E System.Void MatchingCardGame.TemporaryActiveGameObject::.cctor()
+// 0x00000632 System.Void MatchingCardGame.TemporaryActiveGameObject::.cctor()
 extern void TemporaryActiveGameObject__cctor_mEBCEF8225594D601E700B0B1ABFFD6CEFA5BC29A ();
-// 0x0000062F System.Void MatchingCardGame.WaypointPath::.ctor()
+// 0x00000633 System.Void MatchingCardGame.WaypointPath::.ctor()
 extern void WaypointPath__ctor_m0A07D7DADA8857F26CEA2E751C80BDD1C283C559 ();
-// 0x00000630 System.Void MatchingCardGame.DestroyRenderer::Start()
+// 0x00000634 System.Void MatchingCardGame.DestroyRenderer::Start()
 extern void DestroyRenderer_Start_m898FB596781B33934BF1115C7982D5F8DE964170 ();
-// 0x00000631 System.Void MatchingCardGame.DestroyRenderer::.ctor()
+// 0x00000635 System.Void MatchingCardGame.DestroyRenderer::.ctor()
 extern void DestroyRenderer__ctor_m9EAAD5C50FAC68ADDC4C0106DC27BCA29D59A739 ();
-// 0x00000632 System.Void MatchingCardGame.World::.ctor()
+// 0x00000636 System.Void MatchingCardGame.World::.ctor()
 extern void World__ctor_m1FFE2414510F4DBCBB5C4AAF3440E6D1C2DAF591 ();
-// 0x00000633 System.Void MatchingCardGame.WorldMaker::.ctor()
+// 0x00000637 System.Void MatchingCardGame.WorldMaker::.ctor()
 extern void WorldMaker__ctor_m4AA0AD15910E820F7E033F06DF7ADD6845F0FCD1 ();
-// 0x00000634 MatchingCardGame.Account[] MatchingCardGame.AccountManager::get_Accounts()
+// 0x00000638 MatchingCardGame.Account[] MatchingCardGame.AccountManager::get_Accounts()
 extern void AccountManager_get_Accounts_m88CAC61837602ED9E89BC3E47DC5D60EBFC27C37 ();
-// 0x00000635 MatchingCardGame.Account MatchingCardGame.AccountManager::get_CurrentlyPlaying()
+// 0x00000639 MatchingCardGame.Account MatchingCardGame.AccountManager::get_CurrentlyPlaying()
 extern void AccountManager_get_CurrentlyPlaying_m996D500A944BF4DBEF544354A64FAECC5AE16308 ();
-// 0x00000636 System.Void MatchingCardGame.AccountManager::.ctor()
+// 0x0000063A System.Void MatchingCardGame.AccountManager::.ctor()
 extern void AccountManager__ctor_m79E4BD2A9F34BBE6C04E7D7DEF784A980BC0A2CF ();
-// 0x00000637 System.Void MatchingCardGame.AccountManager::.cctor()
+// 0x0000063B System.Void MatchingCardGame.AccountManager::.cctor()
 extern void AccountManager__cctor_mF5C3E4645A0680CB36FD891721197B6935FBD80D ();
-// 0x00000638 System.String MatchingCardGame.AudioManager::get_Name()
+// 0x0000063C System.String MatchingCardGame.AudioManager::get_Name()
 extern void AudioManager_get_Name_m2AF0B59CD2D495CD0139252FC303E5BAC4A6F895 ();
-// 0x00000639 System.Void MatchingCardGame.AudioManager::set_Name(System.String)
+// 0x0000063D System.Void MatchingCardGame.AudioManager::set_Name(System.String)
 extern void AudioManager_set_Name_m3D865D56398736350D9B3F20CC8656D8DFE4A9E7 ();
-// 0x0000063A System.Int32 MatchingCardGame.AudioManager::get_UniqueId()
+// 0x0000063E System.Int32 MatchingCardGame.AudioManager::get_UniqueId()
 extern void AudioManager_get_UniqueId_m65E694976645254B745D764740F854C67F247703 ();
-// 0x0000063B System.Void MatchingCardGame.AudioManager::set_UniqueId(System.Int32)
+// 0x0000063F System.Void MatchingCardGame.AudioManager::set_UniqueId(System.Int32)
 extern void AudioManager_set_UniqueId_m152841E2EAFB9821423778F8F3E7639A58432B6A ();
-// 0x0000063C System.Void MatchingCardGame.AudioManager::Awake()
+// 0x00000640 System.Void MatchingCardGame.AudioManager::Awake()
 extern void AudioManager_Awake_m6D4E5A5A0A2E408C8BE2DAA273103E54C9FCCACE ();
-// 0x0000063D System.Void MatchingCardGame.AudioManager::UpdateAudioListener()
+// 0x00000641 System.Void MatchingCardGame.AudioManager::UpdateAudioListener()
 extern void AudioManager_UpdateAudioListener_mCD3C4991892AF10B4269405457B10AFC52A481DA ();
-// 0x0000063E System.Void MatchingCardGame.AudioManager::SetVolume(System.Single)
+// 0x00000642 System.Void MatchingCardGame.AudioManager::SetVolume(System.Single)
 extern void AudioManager_SetVolume_mD67B11D3E19F06289FA7722C1627828F2FB0B321 ();
-// 0x0000063F System.Void MatchingCardGame.AudioManager::SetMute(System.Boolean)
+// 0x00000643 System.Void MatchingCardGame.AudioManager::SetMute(System.Boolean)
 extern void AudioManager_SetMute_m6AC5E4431E84649CA7539208B8B24524D69DED58 ();
-// 0x00000640 System.Void MatchingCardGame.AudioManager::ToggleMute()
+// 0x00000644 System.Void MatchingCardGame.AudioManager::ToggleMute()
 extern void AudioManager_ToggleMute_m2692BB91272073C51FFD5A630A2900960980577A ();
-// 0x00000641 MatchingCardGame.SoundEffect MatchingCardGame.AudioManager::PlaySoundEffect(MatchingCardGame.SoundEffect,MatchingCardGame.SoundEffect_Settings,UnityEngine.Vector2,UnityEngine.Quaternion,UnityEngine.Transform)
+// 0x00000645 MatchingCardGame.SoundEffect MatchingCardGame.AudioManager::PlaySoundEffect(MatchingCardGame.SoundEffect,MatchingCardGame.SoundEffect_Settings,UnityEngine.Vector2,UnityEngine.Quaternion,UnityEngine.Transform)
 extern void AudioManager_PlaySoundEffect_m896E34BD2669D82EB1154A76C8C743D515520720 ();
-// 0x00000642 System.Void MatchingCardGame.AudioManager::.ctor()
+// 0x00000646 System.Void MatchingCardGame.AudioManager::.ctor()
 extern void AudioManager__ctor_m80B2E3273F4266AC24CB371C2281902B5BAD43B5 ();
-// 0x00000643 System.Void MatchingCardGame.AudioManager::.cctor()
+// 0x00000647 System.Void MatchingCardGame.AudioManager::.cctor()
 extern void AudioManager__cctor_m5C241BAB661E59B0CDE3E71002A089FF7DD338E6 ();
-// 0x00000644 System.Boolean MatchingCardGame.EventManager::get_PauseWhileUnfocused()
+// 0x00000648 System.Boolean MatchingCardGame.EventManager::get_PauseWhileUnfocused()
 extern void EventManager_get_PauseWhileUnfocused_mC04AEEC50F0173A9544567E2DE1F275C1C1B6D61 ();
-// 0x00000645 System.Void MatchingCardGame.EventManager::Start()
+// 0x00000649 System.Void MatchingCardGame.EventManager::Start()
 extern void EventManager_Start_m7084CDEC757E5CEA6194D238BB5456D03EEF6E3F ();
-// 0x00000646 System.Void MatchingCardGame.EventManager::OnDestroy()
+// 0x0000064A System.Void MatchingCardGame.EventManager::OnDestroy()
 extern void EventManager_OnDestroy_mAE57A43C9DF9D3125EA8A818AFFEE380610561B6 ();
-// 0x00000647 System.Void MatchingCardGame.EventManager::DoUpdate()
+// 0x0000064B System.Void MatchingCardGame.EventManager::DoUpdate()
 extern void EventManager_DoUpdate_mA49B3FD3DEA4BA8ED7CBBB0A7C1C7DB761D3EEF2 ();
-// 0x00000648 System.Void MatchingCardGame.EventManager::.ctor()
+// 0x0000064C System.Void MatchingCardGame.EventManager::.ctor()
 extern void EventManager__ctor_m7A9EBB9D73129504A8CCD47236FE4A5CDA55AB3A ();
-// 0x00000649 System.Void MatchingCardGame.EventManager::.cctor()
+// 0x0000064D System.Void MatchingCardGame.EventManager::.cctor()
 extern void EventManager__cctor_m53AF902AEE72EC60BD5A3AFDBE2D3F02074D6553 ();
-// 0x0000064A System.String MatchingCardGame.GameManager::get_Name()
+// 0x0000064E System.String MatchingCardGame.GameManager::get_Name()
 extern void GameManager_get_Name_m79E54EE33DE54E214F9C921719EFFFC676FEEAA3 ();
-// 0x0000064B System.Void MatchingCardGame.GameManager::set_Name(System.String)
+// 0x0000064F System.Void MatchingCardGame.GameManager::set_Name(System.String)
 extern void GameManager_set_Name_m8A0ED6A680B7D1F373DF3C3B7FE8BDC6FABACAF3 ();
-// 0x0000064C System.Int32 MatchingCardGame.GameManager::get_UniqueId()
+// 0x00000650 System.Int32 MatchingCardGame.GameManager::get_UniqueId()
 extern void GameManager_get_UniqueId_m3BD5145BBB717DEA399DCD53564ECE80F729B83E ();
-// 0x0000064D System.Void MatchingCardGame.GameManager::set_UniqueId(System.Int32)
+// 0x00000651 System.Void MatchingCardGame.GameManager::set_UniqueId(System.Int32)
 extern void GameManager_set_UniqueId_mAB9269C7A437771D6F2A814AA27907C43C3C99A0 ();
-// 0x0000064E System.Single MatchingCardGame.GameManager::get_UnscaledDeltaTime()
+// 0x00000652 System.Single MatchingCardGame.GameManager::get_UnscaledDeltaTime()
 extern void GameManager_get_UnscaledDeltaTime_mC4383B783F470254CB6501B083339BB00428C61B ();
-// 0x0000064F System.Boolean MatchingCardGame.GameManager::get_HasPlayedBefore()
+// 0x00000653 System.Boolean MatchingCardGame.GameManager::get_HasPlayedBefore()
 extern void GameManager_get_HasPlayedBefore_m95C986FDC07A087C5F9E09BC69466D135A466682 ();
-// 0x00000650 System.Void MatchingCardGame.GameManager::set_HasPlayedBefore(System.Boolean)
+// 0x00000654 System.Void MatchingCardGame.GameManager::set_HasPlayedBefore(System.Boolean)
 extern void GameManager_set_HasPlayedBefore_m166848049E851B3315E518594150F0368CDE4171 ();
-// 0x00000651 System.Void MatchingCardGame.GameManager::add_onGameScenesLoaded(MatchingCardGame.GameManager_OnGameScenesLoaded)
+// 0x00000655 System.Void MatchingCardGame.GameManager::add_onGameScenesLoaded(MatchingCardGame.GameManager_OnGameScenesLoaded)
 extern void GameManager_add_onGameScenesLoaded_m9BC94C4CDC886445373BAF5B3A5A6ACD005C1676 ();
-// 0x00000652 System.Void MatchingCardGame.GameManager::remove_onGameScenesLoaded(MatchingCardGame.GameManager_OnGameScenesLoaded)
+// 0x00000656 System.Void MatchingCardGame.GameManager::remove_onGameScenesLoaded(MatchingCardGame.GameManager_OnGameScenesLoaded)
 extern void GameManager_remove_onGameScenesLoaded_m45CE5A9E21AC6D0D86129C2FDE2193C1A1473415 ();
-// 0x00000653 System.Void MatchingCardGame.GameManager::Awake()
+// 0x00000657 System.Int32 MatchingCardGame.GameManager::get_Stars()
+extern void GameManager_get_Stars_mACC503DF098D08A22C7BED3E1AC85709395C32F2 ();
+// 0x00000658 System.Void MatchingCardGame.GameManager::set_Stars(System.Int32)
+extern void GameManager_set_Stars_mFE0610ED50742C1364A751E6D514BFF546AAF626 ();
+// 0x00000659 System.Void MatchingCardGame.GameManager::Awake()
 extern void GameManager_Awake_m972C086CAB4069935C2506FC2C36AF16EEF8EDE4 ();
-// 0x00000654 System.Void MatchingCardGame.GameManager::Init()
+// 0x0000065A System.Void MatchingCardGame.GameManager::Init()
 extern void GameManager_Init_m160386259887AECD61A8EA4E07927A4F2416ACC2 ();
-// 0x00000655 System.Collections.IEnumerator MatchingCardGame.GameManager::OnGameSceneLoadedRoutine()
+// 0x0000065B System.Collections.IEnumerator MatchingCardGame.GameManager::OnGameSceneLoadedRoutine()
 extern void GameManager_OnGameSceneLoadedRoutine_mF451CC4DD6E62F34CDFCDD59031362AC47F80512 ();
-// 0x00000656 System.Void MatchingCardGame.GameManager::Update()
+// 0x0000065C System.Void MatchingCardGame.GameManager::Update()
 extern void GameManager_Update_mCAEB49F68ED100ACCDC747D4A9298B99B94A9DEB ();
-// 0x00000657 System.Void MatchingCardGame.GameManager::InitCursor()
+// 0x0000065D System.Void MatchingCardGame.GameManager::InitCursor()
 extern void GameManager_InitCursor_mF3C724B856F950F7D2232EF2B0609D61528B9A01 ();
-// 0x00000658 System.Collections.IEnumerator MatchingCardGame.GameManager::LoadRoutine()
+// 0x0000065E System.Collections.IEnumerator MatchingCardGame.GameManager::LoadRoutine()
 extern void GameManager_LoadRoutine_m55E19AC234E99C85CE42C91180397B0F54D04A37 ();
-// 0x00000659 System.Void MatchingCardGame.GameManager::HideCursor(System.Object[])
+// 0x0000065F System.Void MatchingCardGame.GameManager::HideCursor(System.Object[])
 extern void GameManager_HideCursor_m5225CC9DB7F41A3D7D7D5F2B0F474D719C57809C ();
-// 0x0000065A System.Void MatchingCardGame.GameManager::LoadScene(System.String)
+// 0x00000660 System.Void MatchingCardGame.GameManager::LoadScene(System.String)
 extern void GameManager_LoadScene_mEB71EFF499E35866EDB53DE84E1BCBFE41A11192 ();
-// 0x0000065B System.Void MatchingCardGame.GameManager::LoadSceneAdditive(System.String)
+// 0x00000661 System.Void MatchingCardGame.GameManager::LoadSceneAdditive(System.String)
 extern void GameManager_LoadSceneAdditive_mF9ECFE0103B8FC957A382BC96DAC62BC2D5425DE ();
-// 0x0000065C System.Void MatchingCardGame.GameManager::LoadScene(System.Int32)
+// 0x00000662 System.Void MatchingCardGame.GameManager::LoadScene(System.Int32)
 extern void GameManager_LoadScene_mDAE82942ADC7DBC2CA677B98880A86EECACB532C ();
-// 0x0000065D System.Void MatchingCardGame.GameManager::UnloadScene(System.String)
+// 0x00000663 System.Void MatchingCardGame.GameManager::UnloadScene(System.String)
 extern void GameManager_UnloadScene_m341EC636F46AC3D86E2BF3B3062D9768827A527A ();
-// 0x0000065E System.Void MatchingCardGame.GameManager::OnGameSceneUnloaded(UnityEngine.AsyncOperation)
+// 0x00000664 System.Void MatchingCardGame.GameManager::OnGameSceneUnloaded(UnityEngine.AsyncOperation)
 extern void GameManager_OnGameSceneUnloaded_m9CBFB12FF47D3AEFFC94D1C33E1169D3827BD3A6 ();
-// 0x0000065F System.Void MatchingCardGame.GameManager::ReloadActiveScene()
+// 0x00000665 System.Void MatchingCardGame.GameManager::ReloadActiveScene()
 extern void GameManager_ReloadActiveScene_m0909F18BA07E9B11DF31D0169C8B10F4ABC61887 ();
-// 0x00000660 System.Void MatchingCardGame.GameManager::LoadGameScenes()
+// 0x00000666 System.Void MatchingCardGame.GameManager::LoadGameScenes()
 extern void GameManager_LoadGameScenes_m649CAC37B28333263C17CFBCB397F8717C59CAC1 ();
-// 0x00000661 System.Void MatchingCardGame.GameManager::PauseGame(System.Boolean)
+// 0x00000667 System.Void MatchingCardGame.GameManager::PauseGame(System.Boolean)
 extern void GameManager_PauseGame_mBBC5B990743559BCB26928A7DEF83A9769523DAA ();
-// 0x00000662 System.Void MatchingCardGame.GameManager::Quit()
+// 0x00000668 System.Void MatchingCardGame.GameManager::Quit()
 extern void GameManager_Quit_mF7112DC31D946CE9A34EE49DA51E93688E0F61CA ();
-// 0x00000663 System.Void MatchingCardGame.GameManager::OnApplicationQuit()
+// 0x00000669 System.Void MatchingCardGame.GameManager::OnApplicationQuit()
 extern void GameManager_OnApplicationQuit_mEF1B92B43C5D904197FD542EEA901ED0B8AE5701 ();
-// 0x00000664 System.Void MatchingCardGame.GameManager::OnApplicationFocus(System.Boolean)
+// 0x0000066A System.Void MatchingCardGame.GameManager::OnApplicationFocus(System.Boolean)
 extern void GameManager_OnApplicationFocus_m05C535C3A9EBEC9BF778B57DC8F53D9F69342492 ();
-// 0x00000665 System.Void MatchingCardGame.GameManager::SetGosActive()
+// 0x0000066B System.Void MatchingCardGame.GameManager::SetGosActive()
 extern void GameManager_SetGosActive_m1A915ACCE59BFDA623CFA3A56201DE05749D0298 ();
-// 0x00000666 System.Void MatchingCardGame.GameManager::ActivateGoForever(UnityEngine.GameObject)
+// 0x0000066C System.Void MatchingCardGame.GameManager::ActivateGoForever(UnityEngine.GameObject)
 extern void GameManager_ActivateGoForever_m6F4315F0AF9BDF892B8915ADC7232C6004A71041 ();
-// 0x00000667 System.Void MatchingCardGame.GameManager::DeactivateGoForever(UnityEngine.GameObject)
+// 0x0000066D System.Void MatchingCardGame.GameManager::DeactivateGoForever(UnityEngine.GameObject)
 extern void GameManager_DeactivateGoForever_mDD7874F9069856CE62B2055B5E2A77DA963553E0 ();
-// 0x00000668 System.Void MatchingCardGame.GameManager::ActivateGoForever(System.String)
+// 0x0000066E System.Void MatchingCardGame.GameManager::ActivateGoForever(System.String)
 extern void GameManager_ActivateGoForever_m8F669E3F9E257AC0CDA5B0BC5F6FD5DB45684D3D ();
-// 0x00000669 System.Void MatchingCardGame.GameManager::DeactivateGoForever(System.String)
+// 0x0000066F System.Void MatchingCardGame.GameManager::DeactivateGoForever(System.String)
 extern void GameManager_DeactivateGoForever_m88095DB5038A0DFD8BEFC06E6D6E719BDEB00DF4 ();
-// 0x0000066A System.Void MatchingCardGame.GameManager::SetGameObjectActive(System.String)
+// 0x00000670 System.Void MatchingCardGame.GameManager::SetGameObjectActive(System.String)
 extern void GameManager_SetGameObjectActive_m6304D0998F2AC6ECB52A56565DA1EE135B4892C3 ();
-// 0x0000066B System.Void MatchingCardGame.GameManager::SetGameObjectInactive(System.String)
+// 0x00000671 System.Void MatchingCardGame.GameManager::SetGameObjectInactive(System.String)
 extern void GameManager_SetGameObjectInactive_mB4683644F9D619F46993C9C6D667A6312F350D70 ();
-// 0x0000066C System.Void MatchingCardGame.GameManager::OnDestroy()
+// 0x00000672 System.Void MatchingCardGame.GameManager::OnDestroy()
 extern void GameManager_OnDestroy_m489E014D6A965FFBFFC79614EEDD0A340D2222AB ();
-// 0x0000066D System.Void MatchingCardGame.GameManager::_Log(System.Object)
+// 0x00000673 System.Void MatchingCardGame.GameManager::_Log(System.Object)
 extern void GameManager__Log_mFEFC1FB03021B6A5E90426E1D741E8FF8A5810D5 ();
-// 0x0000066E System.Void MatchingCardGame.GameManager::Log(System.Object)
+// 0x00000674 System.Void MatchingCardGame.GameManager::Log(System.Object)
 extern void GameManager_Log_m1C32A4E2369976229C2C08B23030BCF544866942 ();
-// 0x0000066F UnityEngine.Object MatchingCardGame.GameManager::Clone(UnityEngine.Object)
+// 0x00000675 UnityEngine.Object MatchingCardGame.GameManager::Clone(UnityEngine.Object)
 extern void GameManager_Clone_m134F80503D2860F912315CBEE62CEE3DE49DDF06 ();
-// 0x00000670 UnityEngine.Object MatchingCardGame.GameManager::Clone(UnityEngine.Object,UnityEngine.Transform)
+// 0x00000676 UnityEngine.Object MatchingCardGame.GameManager::Clone(UnityEngine.Object,UnityEngine.Transform)
 extern void GameManager_Clone_m6ED7AA753251970A6277DAA78CF2ADCBDAA8936B ();
-// 0x00000671 UnityEngine.Object MatchingCardGame.GameManager::Clone(UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+// 0x00000677 UnityEngine.Object MatchingCardGame.GameManager::Clone(UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
 extern void GameManager_Clone_mD0D1A24955C980E28344F0B6E228C57765AAED9A ();
-// 0x00000672 System.Void MatchingCardGame.GameManager::_Destroy(UnityEngine.Object)
+// 0x00000678 System.Void MatchingCardGame.GameManager::_Destroy(UnityEngine.Object)
 extern void GameManager__Destroy_mA8BB5925C8C171861669926254FC4D2C627FEFFB ();
-// 0x00000673 System.Void MatchingCardGame.GameManager::_DestroyImmediate(UnityEngine.Object)
+// 0x00000679 System.Void MatchingCardGame.GameManager::_DestroyImmediate(UnityEngine.Object)
 extern void GameManager__DestroyImmediate_m23A1B29762EA2D1B529053C91D6B78749A2AD38B ();
-// 0x00000674 System.Void MatchingCardGame.GameManager::ToggleGo(UnityEngine.GameObject)
+// 0x0000067A System.Void MatchingCardGame.GameManager::ToggleGo(UnityEngine.GameObject)
 extern void GameManager_ToggleGo_m6034F2EA1B0BC0538F465C3D6C39593671531C61 ();
-// 0x00000675 System.Void MatchingCardGame.GameManager::PressButton(UnityEngine.UI.Button)
+// 0x0000067B System.Void MatchingCardGame.GameManager::PressButton(UnityEngine.UI.Button)
 extern void GameManager_PressButton_mCDDF43A15F3BA0B17BA1BE4A64063291E7DEFADE ();
-// 0x00000676 T MatchingCardGame.GameManager::GetSingleton()
-// 0x00000677 T MatchingCardGame.GameManager::GetSingleton(UnityEngine.Object[])
-// 0x00000678 System.Boolean MatchingCardGame.GameManager::ModifierIsActiveAndExists(System.String)
+// 0x0000067C T MatchingCardGame.GameManager::GetSingleton()
+// 0x0000067D T MatchingCardGame.GameManager::GetSingleton(UnityEngine.Object[])
+// 0x0000067E System.Boolean MatchingCardGame.GameManager::ModifierIsActiveAndExists(System.String)
 extern void GameManager_ModifierIsActiveAndExists_m6121B85C634F9876F14A0158E497B82E9135339A ();
-// 0x00000679 System.Boolean MatchingCardGame.GameManager::ModifierIsActive(System.String)
+// 0x0000067F System.Boolean MatchingCardGame.GameManager::ModifierIsActive(System.String)
 extern void GameManager_ModifierIsActive_m742ABFA1E553235FCC12CD8DA3A8889B474DD64E ();
-// 0x0000067A System.Boolean MatchingCardGame.GameManager::ModifierExists(System.String)
+// 0x00000680 System.Boolean MatchingCardGame.GameManager::ModifierExists(System.String)
 extern void GameManager_ModifierExists_mD949332190285AE3FE83BD8ABFF73F2A2D46113A ();
-// 0x0000067B System.Void MatchingCardGame.GameManager::.ctor()
+// 0x00000681 System.Void MatchingCardGame.GameManager::.ctor()
 extern void GameManager__ctor_mC8429E6A766FD386575DB354BE009C394B7263E2 ();
-// 0x0000067C System.Void MatchingCardGame.GameManager::.cctor()
+// 0x00000682 System.Void MatchingCardGame.GameManager::.cctor()
 extern void GameManager__cctor_m49360EF635DB206617D899943AF95EF1D98A8DAA ();
-// 0x0000067D UnityEngine.InputSystem.InputSettings MatchingCardGame.InputManager::get_Settings()
+// 0x00000683 UnityEngine.InputSystem.InputSettings MatchingCardGame.InputManager::get_Settings()
 extern void InputManager_get_Settings_mD413F3CA63256206A34B6FBCEDCD120FA8C2FFD0 ();
-// 0x0000067E System.Boolean MatchingCardGame.InputManager::get_UsingGamepad()
+// 0x00000684 System.Boolean MatchingCardGame.InputManager::get_UsingGamepad()
 extern void InputManager_get_UsingGamepad_m256510E59FC1F42CF11A79FF460C6DDD5E6932B0 ();
-// 0x0000067F System.Boolean MatchingCardGame.InputManager::get_UsingMouse()
+// 0x00000685 System.Boolean MatchingCardGame.InputManager::get_UsingMouse()
 extern void InputManager_get_UsingMouse_mAB85C84CA08F061F5F4E68F6E01E2F37E7ADBED0 ();
-// 0x00000680 System.Boolean MatchingCardGame.InputManager::get_UsingKeyboard()
+// 0x00000686 System.Boolean MatchingCardGame.InputManager::get_UsingKeyboard()
 extern void InputManager_get_UsingKeyboard_mB84A01BEC2C03FA37F763DCC8DB4646E689E24DB ();
-// 0x00000681 System.Boolean MatchingCardGame.InputManager::get_UsingTouchscreen()
+// 0x00000687 System.Boolean MatchingCardGame.InputManager::get_UsingTouchscreen()
 extern void InputManager_get_UsingTouchscreen_m446CABA394BB5D1742E751BB569118083599086F ();
-// 0x00000682 System.Int32 MatchingCardGame.InputManager::get_MoveInput()
+// 0x00000688 System.Int32 MatchingCardGame.InputManager::get_MoveInput()
 extern void InputManager_get_MoveInput_m95129191C5EA10F565BD10F299BCE155199DB524 ();
-// 0x00000683 System.Int32 MatchingCardGame.InputManager::get__MoveInput()
+// 0x00000689 System.Int32 MatchingCardGame.InputManager::get__MoveInput()
 extern void InputManager_get__MoveInput_mB9145B35BAC77C8643CB182601F1801FF42C21EB ();
-// 0x00000684 System.Boolean MatchingCardGame.InputManager::get_InteractInput()
+// 0x0000068A System.Boolean MatchingCardGame.InputManager::get_InteractInput()
 extern void InputManager_get_InteractInput_mF01233ED57D74FC5F94EF34A6099DE8788050D05 ();
-// 0x00000685 System.Boolean MatchingCardGame.InputManager::get__InteractInput()
+// 0x0000068B System.Boolean MatchingCardGame.InputManager::get__InteractInput()
 extern void InputManager_get__InteractInput_mD11D52448748AC42A95128CED967CD2C9E6E7B59 ();
-// 0x00000686 System.Single MatchingCardGame.InputManager::get_ZoomInput()
+// 0x0000068C System.Single MatchingCardGame.InputManager::get_ZoomInput()
 extern void InputManager_get_ZoomInput_m1CF604122A95E1997B60DC2B2B4FBE7EFCBD3D46 ();
-// 0x00000687 System.Single MatchingCardGame.InputManager::get__ZoomInput()
+// 0x0000068D System.Single MatchingCardGame.InputManager::get__ZoomInput()
 extern void InputManager_get__ZoomInput_mD3579B6F7C470796807F6768DBB242F58621D980 ();
-// 0x00000688 System.Boolean MatchingCardGame.InputManager::get_SubmitInput()
+// 0x0000068E System.Boolean MatchingCardGame.InputManager::get_SubmitInput()
 extern void InputManager_get_SubmitInput_m15880803316EFBA842BE7E9EE693E179997964FC ();
-// 0x00000689 System.Boolean MatchingCardGame.InputManager::get__SubmitInput()
+// 0x0000068F System.Boolean MatchingCardGame.InputManager::get__SubmitInput()
 extern void InputManager_get__SubmitInput_mF674430E97BEC2191F4C50B0810992275C6A150E ();
-// 0x0000068A System.Int32 MatchingCardGame.InputManager::get_SwitchMenuSectionInput()
+// 0x00000690 System.Int32 MatchingCardGame.InputManager::get_SwitchMenuSectionInput()
 extern void InputManager_get_SwitchMenuSectionInput_m2BA9220442E3A5A9E02611461F60B9AAD2B5C54E ();
-// 0x0000068B System.Int32 MatchingCardGame.InputManager::get__SwitchMenuSectionInput()
+// 0x00000691 System.Int32 MatchingCardGame.InputManager::get__SwitchMenuSectionInput()
 extern void InputManager_get__SwitchMenuSectionInput_m626233799C752ACCE4E55F261537465A04955D0A ();
-// 0x0000068C UnityEngine.Vector2 MatchingCardGame.InputManager::get_UIMovementInput()
+// 0x00000692 UnityEngine.Vector2 MatchingCardGame.InputManager::get_UIMovementInput()
 extern void InputManager_get_UIMovementInput_m75789E293955E57BBE55567F0F3839B70CA6E05A ();
-// 0x0000068D UnityEngine.Vector2 MatchingCardGame.InputManager::get__UIMovementInput()
+// 0x00000693 UnityEngine.Vector2 MatchingCardGame.InputManager::get__UIMovementInput()
 extern void InputManager_get__UIMovementInput_m0B67F6D07ADAA1E43B93D8964277DD8CD5D5F27C ();
-// 0x0000068E UnityEngine.Vector2 MatchingCardGame.InputManager::get_Acceleration()
+// 0x00000694 UnityEngine.Vector2 MatchingCardGame.InputManager::get_Acceleration()
 extern void InputManager_get_Acceleration_mD94F64BF402B26CE600F56C6653467B0156A3576 ();
-// 0x0000068F UnityEngine.Vector3 MatchingCardGame.InputManager::get__Acceleration()
+// 0x00000695 UnityEngine.Vector3 MatchingCardGame.InputManager::get__Acceleration()
 extern void InputManager_get__Acceleration_m76DB9E7C50289388E71A4A9A05A9A0A961BA74DC ();
-// 0x00000690 System.Boolean MatchingCardGame.InputManager::get_PauseInput()
+// 0x00000696 System.Boolean MatchingCardGame.InputManager::get_PauseInput()
 extern void InputManager_get_PauseInput_m766BA9BD669AF464A5601140EC3A93466FB78A00 ();
-// 0x00000691 System.Boolean MatchingCardGame.InputManager::get__PauseInput()
+// 0x00000697 System.Boolean MatchingCardGame.InputManager::get__PauseInput()
 extern void InputManager_get__PauseInput_m045C5F89EBB0FBB2E5933C10B37B9C6DFEA0B78D ();
-// 0x00000692 System.Boolean MatchingCardGame.InputManager::get_LeftClickInput()
+// 0x00000698 System.Boolean MatchingCardGame.InputManager::get_LeftClickInput()
 extern void InputManager_get_LeftClickInput_m5169879CB80215465A0F8D9EA4080B4ED1CA5FA7 ();
-// 0x00000693 System.Boolean MatchingCardGame.InputManager::get__LeftClickInput()
+// 0x00000699 System.Boolean MatchingCardGame.InputManager::get__LeftClickInput()
 extern void InputManager_get__LeftClickInput_mF59D1E608DB57318E4ABD98A679E614323AD8496 ();
-// 0x00000694 System.Boolean MatchingCardGame.InputManager::get_RightClickInput()
+// 0x0000069A System.Boolean MatchingCardGame.InputManager::get_RightClickInput()
 extern void InputManager_get_RightClickInput_mDB8F086B6F291CE1667EF9D038C8F0372E72B3B5 ();
-// 0x00000695 System.Boolean MatchingCardGame.InputManager::get__RightClickInput()
+// 0x0000069B System.Boolean MatchingCardGame.InputManager::get__RightClickInput()
 extern void InputManager_get__RightClickInput_m7459B52CEB92598EF42AEA79309B4D905DA1A018 ();
-// 0x00000696 UnityEngine.Vector2 MatchingCardGame.InputManager::get_MousePosition()
+// 0x0000069C UnityEngine.Vector2 MatchingCardGame.InputManager::get_MousePosition()
 extern void InputManager_get_MousePosition_m6618CC7B5184BD4E1D7F8752D3148A4EA7BEF413 ();
-// 0x00000697 UnityEngine.Vector2 MatchingCardGame.InputManager::get__MousePosition()
+// 0x0000069D UnityEngine.Vector2 MatchingCardGame.InputManager::get__MousePosition()
 extern void InputManager_get__MousePosition_m840A9D7467A9526C0612A57E8C62DD16F87DD94E ();
-// 0x00000698 System.Boolean MatchingCardGame.InputManager::get_ClearDataInput()
+// 0x0000069E System.Boolean MatchingCardGame.InputManager::get_ClearDataInput()
 extern void InputManager_get_ClearDataInput_m9A6F54706CC603C95A13F21AEC8F257CCD6BDEF6 ();
-// 0x00000699 System.Boolean MatchingCardGame.InputManager::get__ClearDataInput()
+// 0x0000069F System.Boolean MatchingCardGame.InputManager::get__ClearDataInput()
 extern void InputManager_get__ClearDataInput_m42F31CD8DD58C63354948AC3A6D67C9E6A8CF7C3 ();
-// 0x0000069A System.Void MatchingCardGame.InputManager::.ctor()
+// 0x000006A0 System.Void MatchingCardGame.InputManager::.ctor()
 extern void InputManager__ctor_mD35104245DA0E79D5B64250BC28D025892D0397B ();
-// 0x0000069B System.Void MatchingCardGame.SaveAndLoadManager::Start()
+// 0x000006A1 System.Void MatchingCardGame.SaveAndLoadManager::Start()
 extern void SaveAndLoadManager_Start_m09F9470D921004DE37E7C0C3620B15EEE1474CAE ();
-// 0x0000069C System.Void MatchingCardGame.SaveAndLoadManager::Setup()
+// 0x000006A2 System.Void MatchingCardGame.SaveAndLoadManager::Setup()
 extern void SaveAndLoadManager_Setup_mB6F953C882F517BFCD27603D4699D985DB3325C6 ();
-// 0x0000069D System.Void MatchingCardGame.SaveAndLoadManager::Save()
+// 0x000006A3 System.Void MatchingCardGame.SaveAndLoadManager::Save()
 extern void SaveAndLoadManager_Save_m4F9E961BFDF9A2128E324334EC5E4D47CDB488FA ();
-// 0x0000069E System.Void MatchingCardGame.SaveAndLoadManager::Load(System.Int32)
+// 0x000006A4 System.Void MatchingCardGame.SaveAndLoadManager::Load(System.Int32)
 extern void SaveAndLoadManager_Load_m3592CC25A5ADC22B4FEEA53C12819317A073E876 ();
-// 0x0000069F System.Void MatchingCardGame.SaveAndLoadManager::OnLoaded()
+// 0x000006A5 System.Void MatchingCardGame.SaveAndLoadManager::OnLoaded()
 extern void SaveAndLoadManager_OnLoaded_m4855EA2720061BE5CC212BECD20CF2B57F5514ED ();
-// 0x000006A0 System.Void MatchingCardGame.SaveAndLoadManager::Delete(System.Int32)
+// 0x000006A6 System.Void MatchingCardGame.SaveAndLoadManager::Delete(System.Int32)
 extern void SaveAndLoadManager_Delete_m1151F7C978ADCB9C87DC1F279C8919F1158A610C ();
-// 0x000006A1 System.Void MatchingCardGame.SaveAndLoadManager::ResetPersistantValues()
+// 0x000006A7 System.Void MatchingCardGame.SaveAndLoadManager::ResetPersistantValues()
 extern void SaveAndLoadManager_ResetPersistantValues_m5AED9644289395F74183E89CB37B74040C11037F ();
-// 0x000006A2 System.Void MatchingCardGame.SaveAndLoadManager::DeleteAll()
+// 0x000006A8 System.Void MatchingCardGame.SaveAndLoadManager::DeleteAll()
 extern void SaveAndLoadManager_DeleteAll_m142FC06B2F2B99C3840DCC72E7ED9193D4197BE5 ();
-// 0x000006A3 System.Void MatchingCardGame.SaveAndLoadManager::LoadMostRecent()
+// 0x000006A9 System.Void MatchingCardGame.SaveAndLoadManager::LoadMostRecent()
 extern void SaveAndLoadManager_LoadMostRecent_m426BED1ED74C7DC4F8166DBCBA600645B38FD5C2 ();
-// 0x000006A4 System.String MatchingCardGame.SaveAndLoadManager::Serialize(System.Object,System.Type)
+// 0x000006AA System.String MatchingCardGame.SaveAndLoadManager::Serialize(System.Object,System.Type)
 extern void SaveAndLoadManager_Serialize_m581A0C3962C98AC579D59FBD6F2EE9340233F5BB ();
-// 0x000006A5 System.Object MatchingCardGame.SaveAndLoadManager::Deserialize(System.String,System.Type)
+// 0x000006AB System.Object MatchingCardGame.SaveAndLoadManager::Deserialize(System.String,System.Type)
 extern void SaveAndLoadManager_Deserialize_m883F3866C0864CDA221924E5DC48191ABA5B6F43 ();
-// 0x000006A6 System.Void MatchingCardGame.SaveAndLoadManager::.ctor()
+// 0x000006AC System.Void MatchingCardGame.SaveAndLoadManager::.ctor()
 extern void SaveAndLoadManager__ctor_mA114E667107C1F4E4BBBE349B1BB573037E5871B ();
-// 0x000006A7 System.Void MatchingCardGame.SaveAndLoadManager::.cctor()
+// 0x000006AD System.Void MatchingCardGame.SaveAndLoadManager::.cctor()
 extern void SaveAndLoadManager__cctor_m2DE235DBDB6C915CA7BD211A79592B50F9E14D7C ();
-// 0x000006A8 System.Void MatchingCardGame._Text::Awake()
+// 0x000006AE System.Void MatchingCardGame._Text::Awake()
 extern void _Text_Awake_m29B3883A57060FFF05A8ACA77CA262323ACE900D ();
-// 0x000006A9 System.Void MatchingCardGame._Text::OnEnable()
+// 0x000006AF System.Void MatchingCardGame._Text::OnEnable()
 extern void _Text_OnEnable_m3891B541C925FD42EE98161FC6B9DC270D2E69B9 ();
-// 0x000006AA System.Void MatchingCardGame._Text::UpdateText()
+// 0x000006B0 System.Void MatchingCardGame._Text::UpdateText()
 extern void _Text_UpdateText_m4E22C6B450EA7E9D09934F120ACEA3B374F3B234 ();
-// 0x000006AB System.Void MatchingCardGame._Text::OnDisable()
+// 0x000006B1 System.Void MatchingCardGame._Text::OnDisable()
 extern void _Text_OnDisable_mFC433FFDBB1E96097DBF6CA045C69E5CF040CFB3 ();
-// 0x000006AC System.Void MatchingCardGame._Text::.ctor()
+// 0x000006B2 System.Void MatchingCardGame._Text::.ctor()
 extern void _Text__ctor_m6595B4D6A45A655345F0DF21270BFD6C5F76AB6B ();
-// 0x000006AD System.Void MatchingCardGame._Text::.cctor()
+// 0x000006B3 System.Void MatchingCardGame._Text::.cctor()
 extern void _Text__cctor_mA6723E22D864CF416CA725521CC0B026239D8B0F ();
-// 0x000006AE System.Void LoopArray`1_<GetEnumerator>d__0::.ctor(System.Int32)
-// 0x000006AF System.Void LoopArray`1_<GetEnumerator>d__0::System.IDisposable.Dispose()
-// 0x000006B0 System.Boolean LoopArray`1_<GetEnumerator>d__0::MoveNext()
-// 0x000006B1 T LoopArray`1_<GetEnumerator>d__0::System.Collections.Generic.IEnumerator<T>.get_Current()
-// 0x000006B2 System.Void LoopArray`1_<GetEnumerator>d__0::System.Collections.IEnumerator.Reset()
-// 0x000006B3 System.Object LoopArray`1_<GetEnumerator>d__0::System.Collections.IEnumerator.get_Current()
-// 0x000006B4 System.Void Timer_OnFinished::.ctor(System.Object,System.IntPtr)
+// 0x000006B4 System.Void LoopArray`1_<GetEnumerator>d__0::.ctor(System.Int32)
+// 0x000006B5 System.Void LoopArray`1_<GetEnumerator>d__0::System.IDisposable.Dispose()
+// 0x000006B6 System.Boolean LoopArray`1_<GetEnumerator>d__0::MoveNext()
+// 0x000006B7 T LoopArray`1_<GetEnumerator>d__0::System.Collections.Generic.IEnumerator<T>.get_Current()
+// 0x000006B8 System.Void LoopArray`1_<GetEnumerator>d__0::System.Collections.IEnumerator.Reset()
+// 0x000006B9 System.Object LoopArray`1_<GetEnumerator>d__0::System.Collections.IEnumerator.get_Current()
+// 0x000006BA System.Void Timer_OnFinished::.ctor(System.Object,System.IntPtr)
 extern void OnFinished__ctor_m7A9780EBA0C61D211CBC767ECD3BBF8E84325E96 ();
-// 0x000006B5 System.Void Timer_OnFinished::Invoke(System.Object[])
+// 0x000006BB System.Void Timer_OnFinished::Invoke(System.Object[])
 extern void OnFinished_Invoke_m17836A298FBE9ED3957BAA9D2C4AD5E8B1E92C91 ();
-// 0x000006B6 System.IAsyncResult Timer_OnFinished::BeginInvoke(System.Object[],System.AsyncCallback,System.Object)
+// 0x000006BC System.IAsyncResult Timer_OnFinished::BeginInvoke(System.Object[],System.AsyncCallback,System.Object)
 extern void OnFinished_BeginInvoke_mD6A36F70A474EB5B8A667A1581F8E20292D625EB ();
-// 0x000006B7 System.Void Timer_OnFinished::EndInvoke(System.IAsyncResult)
+// 0x000006BD System.Void Timer_OnFinished::EndInvoke(System.IAsyncResult)
 extern void OnFinished_EndInvoke_m9B7829150B34741BD9CEB316AD8BD24DE01D5B64 ();
-// 0x000006B8 System.Void Timer_<TimerRoutine>d__19::.ctor(System.Int32)
+// 0x000006BE System.Void Timer_<TimerRoutine>d__19::.ctor(System.Int32)
 extern void U3CTimerRoutineU3Ed__19__ctor_mD91E98E91A0C08FBBF2708DB1435CC9E425CD375 ();
-// 0x000006B9 System.Void Timer_<TimerRoutine>d__19::System.IDisposable.Dispose()
+// 0x000006BF System.Void Timer_<TimerRoutine>d__19::System.IDisposable.Dispose()
 extern void U3CTimerRoutineU3Ed__19_System_IDisposable_Dispose_mE39190D46D87D770273655516D4B5C4433BD90DE ();
-// 0x000006BA System.Boolean Timer_<TimerRoutine>d__19::MoveNext()
+// 0x000006C0 System.Boolean Timer_<TimerRoutine>d__19::MoveNext()
 extern void U3CTimerRoutineU3Ed__19_MoveNext_m62446942DBC090274DD64037CF62A6806DE78796 ();
-// 0x000006BB System.Object Timer_<TimerRoutine>d__19::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+// 0x000006C1 System.Object Timer_<TimerRoutine>d__19::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
 extern void U3CTimerRoutineU3Ed__19_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m81CC7D79DC5995FEDD8BD93135ECAD6F85FD1CD9 ();
-// 0x000006BC System.Void Timer_<TimerRoutine>d__19::System.Collections.IEnumerator.Reset()
+// 0x000006C2 System.Void Timer_<TimerRoutine>d__19::System.Collections.IEnumerator.Reset()
 extern void U3CTimerRoutineU3Ed__19_System_Collections_IEnumerator_Reset_m8C9557EDC16D46E81C958618F987B10481237EDF ();
-// 0x000006BD System.Object Timer_<TimerRoutine>d__19::System.Collections.IEnumerator.get_Current()
+// 0x000006C3 System.Object Timer_<TimerRoutine>d__19::System.Collections.IEnumerator.get_Current()
 extern void U3CTimerRoutineU3Ed__19_System_Collections_IEnumerator_get_Current_m70B426D04AD484F4727C5EC3B62F85DA0BFD1E54 ();
-// 0x000006BE System.Void TreeNode`1_<>c::.cctor()
-// 0x000006BF System.Void TreeNode`1_<>c::.ctor()
-// 0x000006C0 System.Collections.Generic.IEnumerable`1<T> TreeNode`1_<>c::<Flatten>b__17_0(TreeNode`1<T>)
-// 0x000006C1 System.Void TreeNode`1_<GetEnumerator>d__19::.ctor(System.Int32)
-// 0x000006C2 System.Void TreeNode`1_<GetEnumerator>d__19::System.IDisposable.Dispose()
-// 0x000006C3 System.Boolean TreeNode`1_<GetEnumerator>d__19::MoveNext()
-// 0x000006C4 System.Void TreeNode`1_<GetEnumerator>d__19::<>m__Finally1()
-// 0x000006C5 System.Void TreeNode`1_<GetEnumerator>d__19::<>m__Finally2()
-// 0x000006C6 TreeNode`1<T> TreeNode`1_<GetEnumerator>d__19::System.Collections.Generic.IEnumerator<TreeNode<T>>.get_Current()
-// 0x000006C7 System.Void TreeNode`1_<GetEnumerator>d__19::System.Collections.IEnumerator.Reset()
-// 0x000006C8 System.Object TreeNode`1_<GetEnumerator>d__19::System.Collections.IEnumerator.get_Current()
-// 0x000006C9 System.Byte[] Utf8Json.JsonReader_StringBuilderCache::GetBuffer()
+// 0x000006C4 System.Void TreeNode`1_<>c::.cctor()
+// 0x000006C5 System.Void TreeNode`1_<>c::.ctor()
+// 0x000006C6 System.Collections.Generic.IEnumerable`1<T> TreeNode`1_<>c::<Flatten>b__17_0(TreeNode`1<T>)
+// 0x000006C7 System.Void TreeNode`1_<GetEnumerator>d__19::.ctor(System.Int32)
+// 0x000006C8 System.Void TreeNode`1_<GetEnumerator>d__19::System.IDisposable.Dispose()
+// 0x000006C9 System.Boolean TreeNode`1_<GetEnumerator>d__19::MoveNext()
+// 0x000006CA System.Void TreeNode`1_<GetEnumerator>d__19::<>m__Finally1()
+// 0x000006CB System.Void TreeNode`1_<GetEnumerator>d__19::<>m__Finally2()
+// 0x000006CC TreeNode`1<T> TreeNode`1_<GetEnumerator>d__19::System.Collections.Generic.IEnumerator<TreeNode<T>>.get_Current()
+// 0x000006CD System.Void TreeNode`1_<GetEnumerator>d__19::System.Collections.IEnumerator.Reset()
+// 0x000006CE System.Object TreeNode`1_<GetEnumerator>d__19::System.Collections.IEnumerator.get_Current()
+// 0x000006CF System.Byte[] Utf8Json.JsonReader_StringBuilderCache::GetBuffer()
 extern void StringBuilderCache_GetBuffer_m8C628C8A49E532CE91BBC4F785C92340CF249DBD ();
-// 0x000006CA System.Char[] Utf8Json.JsonReader_StringBuilderCache::GetCodePointStringBuffer()
+// 0x000006D0 System.Char[] Utf8Json.JsonReader_StringBuilderCache::GetCodePointStringBuffer()
 extern void StringBuilderCache_GetCodePointStringBuffer_mDEF14D0D7DD72B376F7FACAA2E9884166CD77CCC ();
-// 0x000006CB System.Void Utf8Json.JsonSerializer_NonGeneric::.cctor()
+// 0x000006D1 System.Void Utf8Json.JsonSerializer_NonGeneric::.cctor()
 extern void NonGeneric__cctor_mCCC0B42408BA6D6F438B3EF35ED85A501B72F8DB ();
-// 0x000006CC Utf8Json.JsonSerializer_NonGeneric_CompiledMethods Utf8Json.JsonSerializer_NonGeneric::GetOrAdd(System.Type)
+// 0x000006D2 Utf8Json.JsonSerializer_NonGeneric_CompiledMethods Utf8Json.JsonSerializer_NonGeneric::GetOrAdd(System.Type)
 extern void NonGeneric_GetOrAdd_mF4755B25750FCBA59ACE940DD265EC2CDA122EFF ();
-// 0x000006CD System.Byte[] Utf8Json.JsonSerializer_NonGeneric::Serialize(System.Object)
+// 0x000006D3 System.Byte[] Utf8Json.JsonSerializer_NonGeneric::Serialize(System.Object)
 extern void NonGeneric_Serialize_mD16D5E84F9AC402C8F9425ECE399F3B7D6445392 ();
-// 0x000006CE System.Byte[] Utf8Json.JsonSerializer_NonGeneric::Serialize(System.Type,System.Object)
+// 0x000006D4 System.Byte[] Utf8Json.JsonSerializer_NonGeneric::Serialize(System.Type,System.Object)
 extern void NonGeneric_Serialize_m6D5EC72A171BD787B43830157D425D8BC64E0B73 ();
-// 0x000006CF System.Byte[] Utf8Json.JsonSerializer_NonGeneric::Serialize(System.Object,Utf8Json.IJsonFormatterResolver)
+// 0x000006D5 System.Byte[] Utf8Json.JsonSerializer_NonGeneric::Serialize(System.Object,Utf8Json.IJsonFormatterResolver)
 extern void NonGeneric_Serialize_m689269B0CB27C500044857A54EED2FA4FFE0B88E ();
-// 0x000006D0 System.Byte[] Utf8Json.JsonSerializer_NonGeneric::Serialize(System.Type,System.Object,Utf8Json.IJsonFormatterResolver)
+// 0x000006D6 System.Byte[] Utf8Json.JsonSerializer_NonGeneric::Serialize(System.Type,System.Object,Utf8Json.IJsonFormatterResolver)
 extern void NonGeneric_Serialize_m1258B8339FB4A15D6BB4EAD89CC1C6A1F4905C2D ();
-// 0x000006D1 System.Void Utf8Json.JsonSerializer_NonGeneric::Serialize(System.IO.Stream,System.Object)
+// 0x000006D7 System.Void Utf8Json.JsonSerializer_NonGeneric::Serialize(System.IO.Stream,System.Object)
 extern void NonGeneric_Serialize_m9EBC87D18C048CA360363A3AE1848454053D4B64 ();
-// 0x000006D2 System.Void Utf8Json.JsonSerializer_NonGeneric::Serialize(System.Type,System.IO.Stream,System.Object)
+// 0x000006D8 System.Void Utf8Json.JsonSerializer_NonGeneric::Serialize(System.Type,System.IO.Stream,System.Object)
 extern void NonGeneric_Serialize_mDEC95808570612647D408307019EC0ABC8D4503B ();
-// 0x000006D3 System.Void Utf8Json.JsonSerializer_NonGeneric::Serialize(System.IO.Stream,System.Object,Utf8Json.IJsonFormatterResolver)
+// 0x000006D9 System.Void Utf8Json.JsonSerializer_NonGeneric::Serialize(System.IO.Stream,System.Object,Utf8Json.IJsonFormatterResolver)
 extern void NonGeneric_Serialize_m9E64E7EB16F025ED72C64E8302E9C3A766E83755 ();
-// 0x000006D4 System.Void Utf8Json.JsonSerializer_NonGeneric::Serialize(System.Type,System.IO.Stream,System.Object,Utf8Json.IJsonFormatterResolver)
+// 0x000006DA System.Void Utf8Json.JsonSerializer_NonGeneric::Serialize(System.Type,System.IO.Stream,System.Object,Utf8Json.IJsonFormatterResolver)
 extern void NonGeneric_Serialize_m937F3367F07B32D03096DABCC59BC32032E72A31 ();
-// 0x000006D5 System.Void Utf8Json.JsonSerializer_NonGeneric::Serialize(Utf8Json.JsonWriter&,System.Object,Utf8Json.IJsonFormatterResolver)
+// 0x000006DB System.Void Utf8Json.JsonSerializer_NonGeneric::Serialize(Utf8Json.JsonWriter&,System.Object,Utf8Json.IJsonFormatterResolver)
 extern void NonGeneric_Serialize_m8A63370956A285344BC8356F376A09BF23C2D482 ();
-// 0x000006D6 System.Void Utf8Json.JsonSerializer_NonGeneric::Serialize(System.Type,Utf8Json.JsonWriter&,System.Object)
+// 0x000006DC System.Void Utf8Json.JsonSerializer_NonGeneric::Serialize(System.Type,Utf8Json.JsonWriter&,System.Object)
 extern void NonGeneric_Serialize_m472F5E4E169D94B59729982F709A5415676A2789 ();
-// 0x000006D7 System.Void Utf8Json.JsonSerializer_NonGeneric::Serialize(System.Type,Utf8Json.JsonWriter&,System.Object,Utf8Json.IJsonFormatterResolver)
+// 0x000006DD System.Void Utf8Json.JsonSerializer_NonGeneric::Serialize(System.Type,Utf8Json.JsonWriter&,System.Object,Utf8Json.IJsonFormatterResolver)
 extern void NonGeneric_Serialize_m110C18BF3E411AD9FAF90F0DC4BEBB081D795050 ();
-// 0x000006D8 System.ArraySegment`1<System.Byte> Utf8Json.JsonSerializer_NonGeneric::SerializeUnsafe(System.Object)
+// 0x000006DE System.ArraySegment`1<System.Byte> Utf8Json.JsonSerializer_NonGeneric::SerializeUnsafe(System.Object)
 extern void NonGeneric_SerializeUnsafe_m56BCC4E8FD47EDA5FB32739E592EEBCE1F084720 ();
-// 0x000006D9 System.ArraySegment`1<System.Byte> Utf8Json.JsonSerializer_NonGeneric::SerializeUnsafe(System.Type,System.Object)
+// 0x000006DF System.ArraySegment`1<System.Byte> Utf8Json.JsonSerializer_NonGeneric::SerializeUnsafe(System.Type,System.Object)
 extern void NonGeneric_SerializeUnsafe_mD8F1DA5AC4E1338A7C1A9EAEC0DC23DDA7A7477D ();
-// 0x000006DA System.ArraySegment`1<System.Byte> Utf8Json.JsonSerializer_NonGeneric::SerializeUnsafe(System.Object,Utf8Json.IJsonFormatterResolver)
+// 0x000006E0 System.ArraySegment`1<System.Byte> Utf8Json.JsonSerializer_NonGeneric::SerializeUnsafe(System.Object,Utf8Json.IJsonFormatterResolver)
 extern void NonGeneric_SerializeUnsafe_mC812404AA9C3EFB42A8C878F99D72DCDD503B068 ();
-// 0x000006DB System.ArraySegment`1<System.Byte> Utf8Json.JsonSerializer_NonGeneric::SerializeUnsafe(System.Type,System.Object,Utf8Json.IJsonFormatterResolver)
+// 0x000006E1 System.ArraySegment`1<System.Byte> Utf8Json.JsonSerializer_NonGeneric::SerializeUnsafe(System.Type,System.Object,Utf8Json.IJsonFormatterResolver)
 extern void NonGeneric_SerializeUnsafe_mE82B4AD7BAD589E12F6B7908213491C00BFAB094 ();
-// 0x000006DC System.String Utf8Json.JsonSerializer_NonGeneric::ToJsonString(System.Object)
+// 0x000006E2 System.String Utf8Json.JsonSerializer_NonGeneric::ToJsonString(System.Object)
 extern void NonGeneric_ToJsonString_mEE65110199E9708A1BAFA2EEB2E8034BC4185132 ();
-// 0x000006DD System.String Utf8Json.JsonSerializer_NonGeneric::ToJsonString(System.Type,System.Object)
+// 0x000006E3 System.String Utf8Json.JsonSerializer_NonGeneric::ToJsonString(System.Type,System.Object)
 extern void NonGeneric_ToJsonString_mF42390CC24446A96FCE64FAC61E548E24C64AAF9 ();
-// 0x000006DE System.String Utf8Json.JsonSerializer_NonGeneric::ToJsonString(System.Object,Utf8Json.IJsonFormatterResolver)
+// 0x000006E4 System.String Utf8Json.JsonSerializer_NonGeneric::ToJsonString(System.Object,Utf8Json.IJsonFormatterResolver)
 extern void NonGeneric_ToJsonString_m80D53FDCBB1144627A91DFCC19A63BCAB8299D1A ();
-// 0x000006DF System.String Utf8Json.JsonSerializer_NonGeneric::ToJsonString(System.Type,System.Object,Utf8Json.IJsonFormatterResolver)
+// 0x000006E5 System.String Utf8Json.JsonSerializer_NonGeneric::ToJsonString(System.Type,System.Object,Utf8Json.IJsonFormatterResolver)
 extern void NonGeneric_ToJsonString_mB475A84C4809CBEF05F628BE3560A716464FEBD1 ();
-// 0x000006E0 System.Object Utf8Json.JsonSerializer_NonGeneric::Deserialize(System.Type,System.String)
+// 0x000006E6 System.Object Utf8Json.JsonSerializer_NonGeneric::Deserialize(System.Type,System.String)
 extern void NonGeneric_Deserialize_mBEB61F3A1A020C5406485FEC1163103A0A3EE68C ();
-// 0x000006E1 System.Object Utf8Json.JsonSerializer_NonGeneric::Deserialize(System.Type,System.String,Utf8Json.IJsonFormatterResolver)
+// 0x000006E7 System.Object Utf8Json.JsonSerializer_NonGeneric::Deserialize(System.Type,System.String,Utf8Json.IJsonFormatterResolver)
 extern void NonGeneric_Deserialize_m0479BBAE8512176C1F0F0779B5CA927FB0CEA83A ();
-// 0x000006E2 System.Object Utf8Json.JsonSerializer_NonGeneric::Deserialize(System.Type,System.Byte[])
+// 0x000006E8 System.Object Utf8Json.JsonSerializer_NonGeneric::Deserialize(System.Type,System.Byte[])
 extern void NonGeneric_Deserialize_mBEAADD7A6F038BA16991E019EC923D466D47C2C0 ();
-// 0x000006E3 System.Object Utf8Json.JsonSerializer_NonGeneric::Deserialize(System.Type,System.Byte[],Utf8Json.IJsonFormatterResolver)
+// 0x000006E9 System.Object Utf8Json.JsonSerializer_NonGeneric::Deserialize(System.Type,System.Byte[],Utf8Json.IJsonFormatterResolver)
 extern void NonGeneric_Deserialize_mA2B6A8483AC0237E0F0700B0B1B0993408871FF5 ();
-// 0x000006E4 System.Object Utf8Json.JsonSerializer_NonGeneric::Deserialize(System.Type,System.Byte[],System.Int32)
+// 0x000006EA System.Object Utf8Json.JsonSerializer_NonGeneric::Deserialize(System.Type,System.Byte[],System.Int32)
 extern void NonGeneric_Deserialize_m722403DFE667876A8B4EA8A87049A111045D2701 ();
-// 0x000006E5 System.Object Utf8Json.JsonSerializer_NonGeneric::Deserialize(System.Type,System.Byte[],System.Int32,Utf8Json.IJsonFormatterResolver)
+// 0x000006EB System.Object Utf8Json.JsonSerializer_NonGeneric::Deserialize(System.Type,System.Byte[],System.Int32,Utf8Json.IJsonFormatterResolver)
 extern void NonGeneric_Deserialize_m897E61A11ACDBF3D268193CD43C2C0641C3119A5 ();
-// 0x000006E6 System.Object Utf8Json.JsonSerializer_NonGeneric::Deserialize(System.Type,System.IO.Stream)
+// 0x000006EC System.Object Utf8Json.JsonSerializer_NonGeneric::Deserialize(System.Type,System.IO.Stream)
 extern void NonGeneric_Deserialize_m93F29CD47B520F7E5DC0D12787A8639FB7C0DD76 ();
-// 0x000006E7 System.Object Utf8Json.JsonSerializer_NonGeneric::Deserialize(System.Type,System.IO.Stream,Utf8Json.IJsonFormatterResolver)
+// 0x000006ED System.Object Utf8Json.JsonSerializer_NonGeneric::Deserialize(System.Type,System.IO.Stream,Utf8Json.IJsonFormatterResolver)
 extern void NonGeneric_Deserialize_mE2EBDF18A09B4E1094134DB08CA3F12E65C67B75 ();
-// 0x000006E8 System.Object Utf8Json.JsonSerializer_NonGeneric::Deserialize(System.Type,Utf8Json.JsonReader&)
+// 0x000006EE System.Object Utf8Json.JsonSerializer_NonGeneric::Deserialize(System.Type,Utf8Json.JsonReader&)
 extern void NonGeneric_Deserialize_m4AD3A33907438D90F5F8F8E45E45A82B98F5B45A ();
-// 0x000006E9 System.Object Utf8Json.JsonSerializer_NonGeneric::Deserialize(System.Type,Utf8Json.JsonReader&,Utf8Json.IJsonFormatterResolver)
+// 0x000006EF System.Object Utf8Json.JsonSerializer_NonGeneric::Deserialize(System.Type,Utf8Json.JsonReader&,Utf8Json.IJsonFormatterResolver)
 extern void NonGeneric_Deserialize_m2C88F54A4A420DF372CAAA114C31CFA3DA2383E0 ();
-// 0x000006EA System.Byte[] Utf8Json.JsonSerializer_MemoryPool::GetBuffer()
+// 0x000006F0 System.Byte[] Utf8Json.JsonSerializer_MemoryPool::GetBuffer()
 extern void MemoryPool_GetBuffer_mDB5FEE320D567322ABD87F73FAA3F64979ABB2AD ();
-// 0x000006EB System.Void Utf8Json.JsonSerializer_MemoryPool::.cctor()
+// 0x000006F1 System.Void Utf8Json.JsonSerializer_MemoryPool::.cctor()
 extern void MemoryPool__cctor_mB4074B6292DAA7BC4B4187DABB7D37579628B4BF ();
-// 0x000006EC System.Void Utf8Json.JsonSerializer_<>c::.cctor()
+// 0x000006F2 System.Void Utf8Json.JsonSerializer_<>c::.cctor()
 extern void U3CU3Ec__cctor_m136BC2DE583F55D8085FFE726D378CDC5C6635BA ();
-// 0x000006ED System.Void Utf8Json.JsonSerializer_<>c::.ctor()
+// 0x000006F3 System.Void Utf8Json.JsonSerializer_<>c::.ctor()
 extern void U3CU3Ec__ctor_m0323007570E940EB479650FDF2DF1B614A4232DC ();
-// 0x000006EE System.Byte[] Utf8Json.JsonSerializer_<>c::<.cctor>b__38_0(System.Int32)
+// 0x000006F4 System.Byte[] Utf8Json.JsonSerializer_<>c::<.cctor>b__38_0(System.Int32)
 extern void U3CU3Ec_U3C_cctorU3Eb__38_0_m6ABA789971C5F3C3C3DEBFADFF3C932B457069B2 ();
-// 0x000006EF System.Void Utf8Json.Unity.UnityResolver_FormatterCache`1::.cctor()
-// 0x000006F0 System.Void Utf8Json.Resolvers.AttributeFormatterResolver_FormatterCache`1::.cctor()
-// 0x000006F1 System.Void Utf8Json.Resolvers.BuiltinResolver_FormatterCache`1::.cctor()
-// 0x000006F2 System.Object Utf8Json.Resolvers.BuiltinResolver_BuiltinResolverGetFormatterHelper::GetFormatter(System.Type)
+// 0x000006F5 System.Void Utf8Json.Unity.UnityResolver_FormatterCache`1::.cctor()
+// 0x000006F6 System.Void Utf8Json.Resolvers.AttributeFormatterResolver_FormatterCache`1::.cctor()
+// 0x000006F7 System.Void Utf8Json.Resolvers.BuiltinResolver_FormatterCache`1::.cctor()
+// 0x000006F8 System.Object Utf8Json.Resolvers.BuiltinResolver_BuiltinResolverGetFormatterHelper::GetFormatter(System.Type)
 extern void BuiltinResolverGetFormatterHelper_GetFormatter_m2225AB0699C60873590EBEF0D32205A5C20DC552 ();
-// 0x000006F3 System.Void Utf8Json.Resolvers.BuiltinResolver_BuiltinResolverGetFormatterHelper::.cctor()
+// 0x000006F9 System.Void Utf8Json.Resolvers.BuiltinResolver_BuiltinResolverGetFormatterHelper::.cctor()
 extern void BuiltinResolverGetFormatterHelper__cctor_m881C8E34E90168A18D37E0E71CC512F9EBE52FD4 ();
-// 0x000006F4 System.Void Utf8Json.Resolvers.CompositeResolver_FormatterCache`1::.cctor()
-// 0x000006F5 System.Void Utf8Json.Resolvers.DynamicGenericResolver_FormatterCache`1::.cctor()
-// 0x000006F6 System.Void Utf8Json.Resolvers.Internal.DynamicGenericResolverGetFormatterHelper_<>c::.cctor()
+// 0x000006FA System.Void Utf8Json.Resolvers.CompositeResolver_FormatterCache`1::.cctor()
+// 0x000006FB System.Void Utf8Json.Resolvers.DynamicGenericResolver_FormatterCache`1::.cctor()
+// 0x000006FC System.Void Utf8Json.Resolvers.Internal.DynamicGenericResolverGetFormatterHelper_<>c::.cctor()
 extern void U3CU3Ec__cctor_mA08F199A3252961C09A72BF444FB266D18ED2395 ();
-// 0x000006F7 System.Void Utf8Json.Resolvers.Internal.DynamicGenericResolverGetFormatterHelper_<>c::.ctor()
+// 0x000006FD System.Void Utf8Json.Resolvers.Internal.DynamicGenericResolverGetFormatterHelper_<>c::.ctor()
 extern void U3CU3Ec__ctor_m5005F05AC6E281894F0764347D086EB43F4388B7 ();
-// 0x000006F8 System.Boolean Utf8Json.Resolvers.Internal.DynamicGenericResolverGetFormatterHelper_<>c::<GetFormatter>b__1_0(System.Type)
+// 0x000006FE System.Boolean Utf8Json.Resolvers.Internal.DynamicGenericResolverGetFormatterHelper_<>c::<GetFormatter>b__1_0(System.Type)
 extern void U3CU3Ec_U3CGetFormatterU3Eb__1_0_mFF18F1C6BCFCE82ED3D43BC4D3B131BCA16F85B9 ();
-// 0x000006F9 System.Boolean Utf8Json.Resolvers.Internal.DynamicGenericResolverGetFormatterHelper_<>c::<GetFormatter>b__1_1(System.Reflection.ConstructorInfo)
+// 0x000006FF System.Boolean Utf8Json.Resolvers.Internal.DynamicGenericResolverGetFormatterHelper_<>c::<GetFormatter>b__1_1(System.Reflection.ConstructorInfo)
 extern void U3CU3Ec_U3CGetFormatterU3Eb__1_1_m9CDC6ED2DC80D2EA772588B1DDAF158757F87853 ();
-// 0x000006FA System.Boolean Utf8Json.Resolvers.Internal.DynamicGenericResolverGetFormatterHelper_<>c::<GetFormatter>b__1_2(System.Type)
+// 0x00000700 System.Boolean Utf8Json.Resolvers.Internal.DynamicGenericResolverGetFormatterHelper_<>c::<GetFormatter>b__1_2(System.Type)
 extern void U3CU3Ec_U3CGetFormatterU3Eb__1_2_m260A303123570DA9EEEF0B726F3A93A91484E08E ();
-// 0x000006FB System.Boolean Utf8Json.Resolvers.Internal.DynamicGenericResolverGetFormatterHelper_<>c::<GetFormatter>b__1_3(System.Reflection.ConstructorInfo)
+// 0x00000701 System.Boolean Utf8Json.Resolvers.Internal.DynamicGenericResolverGetFormatterHelper_<>c::<GetFormatter>b__1_3(System.Reflection.ConstructorInfo)
 extern void U3CU3Ec_U3CGetFormatterU3Eb__1_3_m91751DA7E884460AAB3CC573C97E6F01DB6544BB ();
-// 0x000006FC System.Boolean Utf8Json.Resolvers.Internal.DynamicGenericResolverGetFormatterHelper_<>c::<GetFormatter>b__1_4(System.Reflection.ConstructorInfo)
+// 0x00000702 System.Boolean Utf8Json.Resolvers.Internal.DynamicGenericResolverGetFormatterHelper_<>c::<GetFormatter>b__1_4(System.Reflection.ConstructorInfo)
 extern void U3CU3Ec_U3CGetFormatterU3Eb__1_4_mA7378013F42006704418A54988990F5681B30ED7 ();
-// 0x000006FD System.Boolean Utf8Json.Resolvers.Internal.DynamicGenericResolverGetFormatterHelper_<>c::<GetFormatter>b__1_5(System.Reflection.ConstructorInfo)
+// 0x00000703 System.Boolean Utf8Json.Resolvers.Internal.DynamicGenericResolverGetFormatterHelper_<>c::<GetFormatter>b__1_5(System.Reflection.ConstructorInfo)
 extern void U3CU3Ec_U3CGetFormatterU3Eb__1_5_mE5F9F5A801783AD87704A115057C8F9F5655306D ();
-// 0x000006FE System.Void Utf8Json.Resolvers.Internal.DynamicObjectResolverAllowPrivateFalseExcludeNullFalseNameMutateOriginal_FormatterCache`1::.cctor()
-// 0x000006FF System.Void Utf8Json.Resolvers.Internal.DynamicObjectResolverAllowPrivateFalseExcludeNullFalseNameMutateCamelCase_FormatterCache`1::.cctor()
-// 0x00000700 System.Void Utf8Json.Resolvers.Internal.DynamicObjectResolverAllowPrivateFalseExcludeNullFalseNameMutateSnakeCase_FormatterCache`1::.cctor()
-// 0x00000701 System.Void Utf8Json.Resolvers.Internal.DynamicObjectResolverAllowPrivateFalseExcludeNullTrueNameMutateOriginal_FormatterCache`1::.cctor()
-// 0x00000702 System.Void Utf8Json.Resolvers.Internal.DynamicObjectResolverAllowPrivateFalseExcludeNullTrueNameMutateCamelCase_FormatterCache`1::.cctor()
-// 0x00000703 System.Void Utf8Json.Resolvers.Internal.DynamicObjectResolverAllowPrivateFalseExcludeNullTrueNameMutateSnakeCase_FormatterCache`1::.cctor()
-// 0x00000704 System.Void Utf8Json.Resolvers.Internal.DynamicObjectResolverAllowPrivateTrueExcludeNullFalseNameMutateOriginal_FormatterCache`1::.cctor()
-// 0x00000705 System.Void Utf8Json.Resolvers.Internal.DynamicObjectResolverAllowPrivateTrueExcludeNullFalseNameMutateCamelCase_FormatterCache`1::.cctor()
-// 0x00000706 System.Void Utf8Json.Resolvers.Internal.DynamicObjectResolverAllowPrivateTrueExcludeNullFalseNameMutateSnakeCase_FormatterCache`1::.cctor()
-// 0x00000707 System.Void Utf8Json.Resolvers.Internal.DynamicObjectResolverAllowPrivateTrueExcludeNullTrueNameMutateOriginal_FormatterCache`1::.cctor()
-// 0x00000708 System.Void Utf8Json.Resolvers.Internal.DynamicObjectResolverAllowPrivateTrueExcludeNullTrueNameMutateCamelCase_FormatterCache`1::.cctor()
-// 0x00000709 System.Void Utf8Json.Resolvers.Internal.DynamicObjectResolverAllowPrivateTrueExcludeNullTrueNameMutateSnakeCase_FormatterCache`1::.cctor()
-// 0x0000070A System.Reflection.MethodInfo Utf8Json.Resolvers.Internal.DynamicObjectTypeBuilder_EmitInfo::Serialize(System.Type)
+// 0x00000704 System.Void Utf8Json.Resolvers.Internal.DynamicObjectResolverAllowPrivateFalseExcludeNullFalseNameMutateOriginal_FormatterCache`1::.cctor()
+// 0x00000705 System.Void Utf8Json.Resolvers.Internal.DynamicObjectResolverAllowPrivateFalseExcludeNullFalseNameMutateCamelCase_FormatterCache`1::.cctor()
+// 0x00000706 System.Void Utf8Json.Resolvers.Internal.DynamicObjectResolverAllowPrivateFalseExcludeNullFalseNameMutateSnakeCase_FormatterCache`1::.cctor()
+// 0x00000707 System.Void Utf8Json.Resolvers.Internal.DynamicObjectResolverAllowPrivateFalseExcludeNullTrueNameMutateOriginal_FormatterCache`1::.cctor()
+// 0x00000708 System.Void Utf8Json.Resolvers.Internal.DynamicObjectResolverAllowPrivateFalseExcludeNullTrueNameMutateCamelCase_FormatterCache`1::.cctor()
+// 0x00000709 System.Void Utf8Json.Resolvers.Internal.DynamicObjectResolverAllowPrivateFalseExcludeNullTrueNameMutateSnakeCase_FormatterCache`1::.cctor()
+// 0x0000070A System.Void Utf8Json.Resolvers.Internal.DynamicObjectResolverAllowPrivateTrueExcludeNullFalseNameMutateOriginal_FormatterCache`1::.cctor()
+// 0x0000070B System.Void Utf8Json.Resolvers.Internal.DynamicObjectResolverAllowPrivateTrueExcludeNullFalseNameMutateCamelCase_FormatterCache`1::.cctor()
+// 0x0000070C System.Void Utf8Json.Resolvers.Internal.DynamicObjectResolverAllowPrivateTrueExcludeNullFalseNameMutateSnakeCase_FormatterCache`1::.cctor()
+// 0x0000070D System.Void Utf8Json.Resolvers.Internal.DynamicObjectResolverAllowPrivateTrueExcludeNullTrueNameMutateOriginal_FormatterCache`1::.cctor()
+// 0x0000070E System.Void Utf8Json.Resolvers.Internal.DynamicObjectResolverAllowPrivateTrueExcludeNullTrueNameMutateCamelCase_FormatterCache`1::.cctor()
+// 0x0000070F System.Void Utf8Json.Resolvers.Internal.DynamicObjectResolverAllowPrivateTrueExcludeNullTrueNameMutateSnakeCase_FormatterCache`1::.cctor()
+// 0x00000710 System.Reflection.MethodInfo Utf8Json.Resolvers.Internal.DynamicObjectTypeBuilder_EmitInfo::Serialize(System.Type)
 extern void EmitInfo_Serialize_m5200D3159D573FC245D7A6F72BF8845C650E6EF5 ();
-// 0x0000070B System.Reflection.MethodInfo Utf8Json.Resolvers.Internal.DynamicObjectTypeBuilder_EmitInfo::Deserialize(System.Type)
+// 0x00000711 System.Reflection.MethodInfo Utf8Json.Resolvers.Internal.DynamicObjectTypeBuilder_EmitInfo::Deserialize(System.Type)
 extern void EmitInfo_Deserialize_mB67FEFB0AEFDF3052C103AE4C6996024FEB366C4 ();
-// 0x0000070C System.Reflection.MethodInfo Utf8Json.Resolvers.Internal.DynamicObjectTypeBuilder_EmitInfo::GetNullableHasValue(System.Type)
+// 0x00000712 System.Reflection.MethodInfo Utf8Json.Resolvers.Internal.DynamicObjectTypeBuilder_EmitInfo::GetNullableHasValue(System.Type)
 extern void EmitInfo_GetNullableHasValue_m8C0F23F5C5061FF0E44A0365C9117F3E1438E819 ();
-// 0x0000070D System.Void Utf8Json.Resolvers.Internal.DynamicObjectTypeBuilder_EmitInfo::.cctor()
+// 0x00000713 System.Void Utf8Json.Resolvers.Internal.DynamicObjectTypeBuilder_EmitInfo::.cctor()
 extern void EmitInfo__cctor_mD0B9139CAD8BBEA6D4E08FFE77F4259EB51B4C81 ();
-// 0x0000070E System.Void Utf8Json.Resolvers.Internal.DynamicObjectTypeBuilder_Utf8JsonDynamicObjectResolverException::.ctor(System.String)
+// 0x00000714 System.Void Utf8Json.Resolvers.Internal.DynamicObjectTypeBuilder_Utf8JsonDynamicObjectResolverException::.ctor(System.String)
 extern void Utf8JsonDynamicObjectResolverException__ctor_mAAFA9D537309C115EC65399E27782DAA849798FD ();
-// 0x0000070F System.Void Utf8Json.Resolvers.Internal.DynamicObjectTypeBuilder_<>c__DisplayClass6_0::.ctor()
+// 0x00000715 System.Void Utf8Json.Resolvers.Internal.DynamicObjectTypeBuilder_<>c__DisplayClass6_0::.ctor()
 extern void U3CU3Ec__DisplayClass6_0__ctor_mB293F1F52C095D49F514EA5A6C73C68B50A946BC ();
-// 0x00000710 System.Void Utf8Json.Resolvers.Internal.DynamicObjectTypeBuilder_<>c__DisplayClass6_1::.ctor()
+// 0x00000716 System.Void Utf8Json.Resolvers.Internal.DynamicObjectTypeBuilder_<>c__DisplayClass6_1::.ctor()
 extern void U3CU3Ec__DisplayClass6_1__ctor_mD404C2EF89679DB119D6106DB63D467FCB50F1C5 ();
-// 0x00000711 System.Void Utf8Json.Resolvers.Internal.DynamicObjectTypeBuilder_<>c__DisplayClass6_1::<BuildType>b__1()
+// 0x00000717 System.Void Utf8Json.Resolvers.Internal.DynamicObjectTypeBuilder_<>c__DisplayClass6_1::<BuildType>b__1()
 extern void U3CU3Ec__DisplayClass6_1_U3CBuildTypeU3Eb__1_mC2B6B53EC985EE69D5EF71076F10767F06F42152 ();
-// 0x00000712 System.Boolean Utf8Json.Resolvers.Internal.DynamicObjectTypeBuilder_<>c__DisplayClass6_1::<BuildType>b__2(System.Int32,Utf8Json.Internal.Emit.MetaMember)
+// 0x00000718 System.Boolean Utf8Json.Resolvers.Internal.DynamicObjectTypeBuilder_<>c__DisplayClass6_1::<BuildType>b__2(System.Int32,Utf8Json.Internal.Emit.MetaMember)
 extern void U3CU3Ec__DisplayClass6_1_U3CBuildTypeU3Eb__2_m22AF16DBC45441016649AE513F7664F1940AF831 ();
-// 0x00000713 System.Void Utf8Json.Resolvers.Internal.DynamicObjectTypeBuilder_<>c__DisplayClass6_2::.ctor()
+// 0x00000719 System.Void Utf8Json.Resolvers.Internal.DynamicObjectTypeBuilder_<>c__DisplayClass6_2::.ctor()
 extern void U3CU3Ec__DisplayClass6_2__ctor_mB5A23AEF408E93F601C6938310CB89A88E0107F3 ();
-// 0x00000714 System.Boolean Utf8Json.Resolvers.Internal.DynamicObjectTypeBuilder_<>c__DisplayClass6_2::<BuildType>b__3(System.Int32,Utf8Json.Internal.Emit.MetaMember)
+// 0x0000071A System.Boolean Utf8Json.Resolvers.Internal.DynamicObjectTypeBuilder_<>c__DisplayClass6_2::<BuildType>b__3(System.Int32,Utf8Json.Internal.Emit.MetaMember)
 extern void U3CU3Ec__DisplayClass6_2_U3CBuildTypeU3Eb__3_mD470AEEE9CD9E9B63650B55C8F3B10F1F31B052B ();
-// 0x00000715 System.Void Utf8Json.Resolvers.Internal.DynamicObjectTypeBuilder_<>c::.cctor()
+// 0x0000071B System.Void Utf8Json.Resolvers.Internal.DynamicObjectTypeBuilder_<>c::.cctor()
 extern void U3CU3Ec__cctor_m96A3FB5A810007D0F5FDCB09AF6DD5014160CD94 ();
-// 0x00000716 System.Void Utf8Json.Resolvers.Internal.DynamicObjectTypeBuilder_<>c::.ctor()
+// 0x0000071C System.Void Utf8Json.Resolvers.Internal.DynamicObjectTypeBuilder_<>c::.ctor()
 extern void U3CU3Ec__ctor_m3B93435DF8B1EB4C3B06947E7B3B6E2CEBA58A82 ();
-// 0x00000717 System.Boolean Utf8Json.Resolvers.Internal.DynamicObjectTypeBuilder_<>c::<BuildType>b__6_0(Utf8Json.Internal.Emit.MetaMember)
+// 0x0000071D System.Boolean Utf8Json.Resolvers.Internal.DynamicObjectTypeBuilder_<>c::<BuildType>b__6_0(Utf8Json.Internal.Emit.MetaMember)
 extern void U3CU3Ec_U3CBuildTypeU3Eb__6_0_m265A13555CD4FF5807E81B9771CC62DB9964B418 ();
-// 0x00000718 System.Boolean Utf8Json.Resolvers.Internal.DynamicObjectTypeBuilder_<>c::<BuildAnonymousFormatter>b__7_0(Utf8Json.Internal.Emit.MetaMember)
+// 0x0000071E System.Boolean Utf8Json.Resolvers.Internal.DynamicObjectTypeBuilder_<>c::<BuildAnonymousFormatter>b__7_0(Utf8Json.Internal.Emit.MetaMember)
 extern void U3CU3Ec_U3CBuildAnonymousFormatterU3Eb__7_0_m938AD90A222040D2C805FF7E8CE485B2E8B36931 ();
-// 0x00000719 System.Boolean Utf8Json.Resolvers.Internal.DynamicObjectTypeBuilder_<>c::<BuildAnonymousFormatter>b__7_3(Utf8Json.Internal.Emit.MetaMember)
+// 0x0000071F System.Boolean Utf8Json.Resolvers.Internal.DynamicObjectTypeBuilder_<>c::<BuildAnonymousFormatter>b__7_3(Utf8Json.Internal.Emit.MetaMember)
 extern void U3CU3Ec_U3CBuildAnonymousFormatterU3Eb__7_3_m840F547F7E7CEC14C54897C9A941C9B739D44271 ();
-// 0x0000071A System.Boolean Utf8Json.Resolvers.Internal.DynamicObjectTypeBuilder_<>c::<BuildAnonymousFormatter>b__7_4(Utf8Json.Internal.Emit.MetaMember)
+// 0x00000720 System.Boolean Utf8Json.Resolvers.Internal.DynamicObjectTypeBuilder_<>c::<BuildAnonymousFormatter>b__7_4(Utf8Json.Internal.Emit.MetaMember)
 extern void U3CU3Ec_U3CBuildAnonymousFormatterU3Eb__7_4_mD383A60DED66CABEF977A6641DE34365F4DB5721 ();
-// 0x0000071B System.Boolean Utf8Json.Resolvers.Internal.DynamicObjectTypeBuilder_<>c::<BuildConstructor>b__8_0(Utf8Json.Internal.Emit.MetaMember)
+// 0x00000721 System.Boolean Utf8Json.Resolvers.Internal.DynamicObjectTypeBuilder_<>c::<BuildConstructor>b__8_0(Utf8Json.Internal.Emit.MetaMember)
 extern void U3CU3Ec_U3CBuildConstructorU3Eb__8_0_mDFA08DB933C31EB1D87EC2141FEFDA71FCACB9CB ();
-// 0x0000071C System.Boolean Utf8Json.Resolvers.Internal.DynamicObjectTypeBuilder_<>c::<BuildConstructor>b__8_1(Utf8Json.Internal.Emit.MetaMember)
+// 0x00000722 System.Boolean Utf8Json.Resolvers.Internal.DynamicObjectTypeBuilder_<>c::<BuildConstructor>b__8_1(Utf8Json.Internal.Emit.MetaMember)
 extern void U3CU3Ec_U3CBuildConstructorU3Eb__8_1_m213AFDB6C0A12ADE7629DB3431FDD6E31963A423 ();
-// 0x0000071D System.Boolean Utf8Json.Resolvers.Internal.DynamicObjectTypeBuilder_<>c::<BuildCustomFormatterField>b__9_0(Utf8Json.Internal.Emit.MetaMember)
+// 0x00000723 System.Boolean Utf8Json.Resolvers.Internal.DynamicObjectTypeBuilder_<>c::<BuildCustomFormatterField>b__9_0(Utf8Json.Internal.Emit.MetaMember)
 extern void U3CU3Ec_U3CBuildCustomFormatterFieldU3Eb__9_0_m6E52FAAAE388488001082147081E96A345A555DA ();
-// 0x0000071E System.Boolean Utf8Json.Resolvers.Internal.DynamicObjectTypeBuilder_<>c::<BuildSerialize>b__10_0(Utf8Json.Internal.Emit.MetaMember)
+// 0x00000724 System.Boolean Utf8Json.Resolvers.Internal.DynamicObjectTypeBuilder_<>c::<BuildSerialize>b__10_0(Utf8Json.Internal.Emit.MetaMember)
 extern void U3CU3Ec_U3CBuildSerializeU3Eb__10_0_mDA6649E39CB8CB00316592F17A5E587AE1AB63C2 ();
-// 0x0000071F System.Boolean Utf8Json.Resolvers.Internal.DynamicObjectTypeBuilder_<>c::<BuildSerialize>b__10_2(Utf8Json.Internal.Emit.MetaMember)
+// 0x00000725 System.Boolean Utf8Json.Resolvers.Internal.DynamicObjectTypeBuilder_<>c::<BuildSerialize>b__10_2(Utf8Json.Internal.Emit.MetaMember)
 extern void U3CU3Ec_U3CBuildSerializeU3Eb__10_2_m4DB1738460AEE1853AA6296EF3D69EE5E17E3B39 ();
-// 0x00000720 System.Int32 Utf8Json.Resolvers.Internal.DynamicObjectTypeBuilder_<>c::<EmitSerializeValue>b__11_0(System.Reflection.MethodInfo)
+// 0x00000726 System.Int32 Utf8Json.Resolvers.Internal.DynamicObjectTypeBuilder_<>c::<EmitSerializeValue>b__11_0(System.Reflection.MethodInfo)
 extern void U3CU3Ec_U3CEmitSerializeValueU3Eb__11_0_m7C24CA909725EE3973EEE26B906D620EC04F3E42 ();
-// 0x00000721 System.Boolean Utf8Json.Resolvers.Internal.DynamicObjectTypeBuilder_<>c::<BuildDeserialize>b__12_1(Utf8Json.Internal.Emit.MetaMember)
+// 0x00000727 System.Boolean Utf8Json.Resolvers.Internal.DynamicObjectTypeBuilder_<>c::<BuildDeserialize>b__12_1(Utf8Json.Internal.Emit.MetaMember)
 extern void U3CU3Ec_U3CBuildDeserializeU3Eb__12_1_mF8441B72042F559167208B99A76BA5DF00B8A911 ();
-// 0x00000722 System.Int32 Utf8Json.Resolvers.Internal.DynamicObjectTypeBuilder_<>c::<EmitDeserializeValue>b__13_0(System.Reflection.MethodInfo)
+// 0x00000728 System.Int32 Utf8Json.Resolvers.Internal.DynamicObjectTypeBuilder_<>c::<EmitDeserializeValue>b__13_0(System.Reflection.MethodInfo)
 extern void U3CU3Ec_U3CEmitDeserializeValueU3Eb__13_0_m45FF5A75170D47C2EA49652B8995500DF5B60A38 ();
-// 0x00000723 System.Boolean Utf8Json.Resolvers.Internal.DynamicObjectTypeBuilder_<>c::<EmitNewObject>b__14_1(Utf8Json.Resolvers.Internal.DynamicObjectTypeBuilder_DeserializeInfo)
+// 0x00000729 System.Boolean Utf8Json.Resolvers.Internal.DynamicObjectTypeBuilder_<>c::<EmitNewObject>b__14_1(Utf8Json.Resolvers.Internal.DynamicObjectTypeBuilder_DeserializeInfo)
 extern void U3CU3Ec_U3CEmitNewObjectU3Eb__14_1_mA409B8DE569F758C7EC14EEFFBD48DF8EF1292D1 ();
-// 0x00000724 System.Boolean Utf8Json.Resolvers.Internal.DynamicObjectTypeBuilder_<>c::<EmitNewObject>b__14_3(Utf8Json.Resolvers.Internal.DynamicObjectTypeBuilder_DeserializeInfo)
+// 0x0000072A System.Boolean Utf8Json.Resolvers.Internal.DynamicObjectTypeBuilder_<>c::<EmitNewObject>b__14_3(Utf8Json.Resolvers.Internal.DynamicObjectTypeBuilder_DeserializeInfo)
 extern void U3CU3Ec_U3CEmitNewObjectU3Eb__14_3_m64AB6C4A8347CB862FB45C032F3E47151B48C44C ();
-// 0x00000725 System.Void Utf8Json.Resolvers.Internal.DynamicObjectTypeBuilder_<>c__DisplayClass7_0::.ctor()
+// 0x0000072B System.Void Utf8Json.Resolvers.Internal.DynamicObjectTypeBuilder_<>c__DisplayClass7_0::.ctor()
 extern void U3CU3Ec__DisplayClass7_0__ctor_mEDD7085AD01B57A37F2F53BD942B5886B848CB39 ();
-// 0x00000726 System.String Utf8Json.Resolvers.Internal.DynamicObjectTypeBuilder_<>c__DisplayClass7_0::<BuildAnonymousFormatter>b__1(System.String)
+// 0x0000072C System.String Utf8Json.Resolvers.Internal.DynamicObjectTypeBuilder_<>c__DisplayClass7_0::<BuildAnonymousFormatter>b__1(System.String)
 extern void U3CU3Ec__DisplayClass7_0_U3CBuildAnonymousFormatterU3Eb__1_m9A567C56EB7D55109BB051A9C4478CAA8071AD1E ();
-// 0x00000727 System.Void Utf8Json.Resolvers.Internal.DynamicObjectTypeBuilder_<>c__DisplayClass7_1::.ctor()
+// 0x0000072D System.Void Utf8Json.Resolvers.Internal.DynamicObjectTypeBuilder_<>c__DisplayClass7_1::.ctor()
 extern void U3CU3Ec__DisplayClass7_1__ctor_mB6D0A9EB10A06CCEA25E60789D05344DDFCEB916 ();
-// 0x00000728 System.Boolean Utf8Json.Resolvers.Internal.DynamicObjectTypeBuilder_<>c__DisplayClass7_1::<BuildAnonymousFormatter>b__2(Utf8Json.Internal.Emit.MetaMember)
+// 0x0000072E System.Boolean Utf8Json.Resolvers.Internal.DynamicObjectTypeBuilder_<>c__DisplayClass7_1::<BuildAnonymousFormatter>b__2(Utf8Json.Internal.Emit.MetaMember)
 extern void U3CU3Ec__DisplayClass7_1_U3CBuildAnonymousFormatterU3Eb__2_mBB5C69B3C787BEBF34958C4CBBBD80D7E0115E4F ();
-// 0x00000729 System.Void Utf8Json.Resolvers.Internal.DynamicObjectTypeBuilder_<>c__DisplayClass7_2::.ctor()
+// 0x0000072F System.Void Utf8Json.Resolvers.Internal.DynamicObjectTypeBuilder_<>c__DisplayClass7_2::.ctor()
 extern void U3CU3Ec__DisplayClass7_2__ctor_m8B59EC499D863A365EC85AEB871DD6AEEC6D0B6C ();
-// 0x0000072A System.Void Utf8Json.Resolvers.Internal.DynamicObjectTypeBuilder_<>c__DisplayClass7_2::<BuildAnonymousFormatter>b__5()
+// 0x00000730 System.Void Utf8Json.Resolvers.Internal.DynamicObjectTypeBuilder_<>c__DisplayClass7_2::<BuildAnonymousFormatter>b__5()
 extern void U3CU3Ec__DisplayClass7_2_U3CBuildAnonymousFormatterU3Eb__5_m945FA019D369605CE9836793160302CE2E7B6813 ();
-// 0x0000072B System.Boolean Utf8Json.Resolvers.Internal.DynamicObjectTypeBuilder_<>c__DisplayClass7_2::<BuildAnonymousFormatter>b__6(System.Int32,Utf8Json.Internal.Emit.MetaMember)
+// 0x00000731 System.Boolean Utf8Json.Resolvers.Internal.DynamicObjectTypeBuilder_<>c__DisplayClass7_2::<BuildAnonymousFormatter>b__6(System.Int32,Utf8Json.Internal.Emit.MetaMember)
 extern void U3CU3Ec__DisplayClass7_2_U3CBuildAnonymousFormatterU3Eb__6_m0E772F065B38680782E101BF55AB79BF43E7A678 ();
-// 0x0000072C System.Void Utf8Json.Resolvers.Internal.DynamicObjectTypeBuilder_<>c__DisplayClass7_3::.ctor()
+// 0x00000732 System.Void Utf8Json.Resolvers.Internal.DynamicObjectTypeBuilder_<>c__DisplayClass7_3::.ctor()
 extern void U3CU3Ec__DisplayClass7_3__ctor_mE8A6BD9BCC49BE546125BF84D0FAAE61DB5BAD0A ();
-// 0x0000072D System.Boolean Utf8Json.Resolvers.Internal.DynamicObjectTypeBuilder_<>c__DisplayClass7_3::<BuildAnonymousFormatter>b__7(System.Int32,Utf8Json.Internal.Emit.MetaMember)
+// 0x00000733 System.Boolean Utf8Json.Resolvers.Internal.DynamicObjectTypeBuilder_<>c__DisplayClass7_3::<BuildAnonymousFormatter>b__7(System.Int32,Utf8Json.Internal.Emit.MetaMember)
 extern void U3CU3Ec__DisplayClass7_3_U3CBuildAnonymousFormatterU3Eb__7_m4B3A825E7F322E015F7A73ED8AB6F6597E41F1BE ();
-// 0x0000072E System.Void Utf8Json.Resolvers.Internal.DynamicObjectTypeBuilder_<>c__DisplayClass10_0::.ctor()
+// 0x00000734 System.Void Utf8Json.Resolvers.Internal.DynamicObjectTypeBuilder_<>c__DisplayClass10_0::.ctor()
 extern void U3CU3Ec__DisplayClass10_0__ctor_m1E9E3C002FA88A4A2E3913AACA9502F231FD5EB1 ();
-// 0x0000072F System.Reflection.Emit.Label Utf8Json.Resolvers.Internal.DynamicObjectTypeBuilder_<>c__DisplayClass10_0::<BuildSerialize>b__1(Utf8Json.Internal.Emit.MetaMember)
+// 0x00000735 System.Reflection.Emit.Label Utf8Json.Resolvers.Internal.DynamicObjectTypeBuilder_<>c__DisplayClass10_0::<BuildSerialize>b__1(Utf8Json.Internal.Emit.MetaMember)
 extern void U3CU3Ec__DisplayClass10_0_U3CBuildSerializeU3Eb__1_m75E44DF9CA2BDF5ADFA7CA44F151D83A6D6E8FF3 ();
-// 0x00000730 System.Void Utf8Json.Resolvers.Internal.DynamicObjectTypeBuilder_<>c__DisplayClass12_0::.ctor()
+// 0x00000736 System.Void Utf8Json.Resolvers.Internal.DynamicObjectTypeBuilder_<>c__DisplayClass12_0::.ctor()
 extern void U3CU3Ec__DisplayClass12_0__ctor_m15500DF3B55C1047EBF52186373BFF4D2E63065B ();
-// 0x00000731 Utf8Json.Resolvers.Internal.DynamicObjectTypeBuilder_DeserializeInfo Utf8Json.Resolvers.Internal.DynamicObjectTypeBuilder_<>c__DisplayClass12_0::<BuildDeserialize>b__0(Utf8Json.Internal.Emit.MetaMember)
+// 0x00000737 Utf8Json.Resolvers.Internal.DynamicObjectTypeBuilder_DeserializeInfo Utf8Json.Resolvers.Internal.DynamicObjectTypeBuilder_<>c__DisplayClass12_0::<BuildDeserialize>b__0(Utf8Json.Internal.Emit.MetaMember)
 extern void U3CU3Ec__DisplayClass12_0_U3CBuildDeserializeU3Eb__0_m01A0A76760D28EEF3CF1623F70D9D8D56C729110 ();
-// 0x00000732 System.Void Utf8Json.Resolvers.Internal.DynamicObjectTypeBuilder_<>c__DisplayClass12_1::.ctor()
+// 0x00000738 System.Void Utf8Json.Resolvers.Internal.DynamicObjectTypeBuilder_<>c__DisplayClass12_1::.ctor()
 extern void U3CU3Ec__DisplayClass12_1__ctor_m3ED9783CA6C27038EAE3B4A5DB6571C8897033A5 ();
-// 0x00000733 System.Void Utf8Json.Resolvers.Internal.DynamicObjectTypeBuilder_<>c__DisplayClass12_1::<BuildDeserialize>b__2(System.Collections.Generic.KeyValuePair`2<System.String,System.Int32>)
+// 0x00000739 System.Void Utf8Json.Resolvers.Internal.DynamicObjectTypeBuilder_<>c__DisplayClass12_1::<BuildDeserialize>b__2(System.Collections.Generic.KeyValuePair`2<System.String,System.Int32>)
 extern void U3CU3Ec__DisplayClass12_1_U3CBuildDeserializeU3Eb__2_m0272AE7D99A5B4FFA9562FEE2993E61E1D051B4E ();
-// 0x00000734 System.Void Utf8Json.Resolvers.Internal.DynamicObjectTypeBuilder_<>c__DisplayClass12_1::<BuildDeserialize>b__3()
+// 0x0000073A System.Void Utf8Json.Resolvers.Internal.DynamicObjectTypeBuilder_<>c__DisplayClass12_1::<BuildDeserialize>b__3()
 extern void U3CU3Ec__DisplayClass12_1_U3CBuildDeserializeU3Eb__3_mC324C96E1A074148FCB10B44899FFB6F2918E6A5 ();
-// 0x00000735 System.Void Utf8Json.Resolvers.Internal.DynamicObjectTypeBuilder_<>c__DisplayClass14_0::.ctor()
+// 0x0000073B System.Void Utf8Json.Resolvers.Internal.DynamicObjectTypeBuilder_<>c__DisplayClass14_0::.ctor()
 extern void U3CU3Ec__DisplayClass14_0__ctor_mE77E2112FD4D308DB0261A5A35101A75735B040E ();
-// 0x00000736 System.Boolean Utf8Json.Resolvers.Internal.DynamicObjectTypeBuilder_<>c__DisplayClass14_0::<EmitNewObject>b__0(Utf8Json.Resolvers.Internal.DynamicObjectTypeBuilder_DeserializeInfo)
+// 0x0000073C System.Boolean Utf8Json.Resolvers.Internal.DynamicObjectTypeBuilder_<>c__DisplayClass14_0::<EmitNewObject>b__0(Utf8Json.Resolvers.Internal.DynamicObjectTypeBuilder_DeserializeInfo)
 extern void U3CU3Ec__DisplayClass14_0_U3CEmitNewObjectU3Eb__0_mC175A6C85610A0B0227180B0C7AC5C8BFF572DD7 ();
-// 0x00000737 System.Void Utf8Json.Resolvers.Internal.DynamicObjectTypeBuilder_<>c__DisplayClass14_1::.ctor()
+// 0x0000073D System.Void Utf8Json.Resolvers.Internal.DynamicObjectTypeBuilder_<>c__DisplayClass14_1::.ctor()
 extern void U3CU3Ec__DisplayClass14_1__ctor_m41D82102CBEB2C641A1B80140E994096302AF3CD ();
-// 0x00000738 System.Boolean Utf8Json.Resolvers.Internal.DynamicObjectTypeBuilder_<>c__DisplayClass14_1::<EmitNewObject>b__2(Utf8Json.Resolvers.Internal.DynamicObjectTypeBuilder_DeserializeInfo)
+// 0x0000073E System.Boolean Utf8Json.Resolvers.Internal.DynamicObjectTypeBuilder_<>c__DisplayClass14_1::<EmitNewObject>b__2(Utf8Json.Resolvers.Internal.DynamicObjectTypeBuilder_DeserializeInfo)
 extern void U3CU3Ec__DisplayClass14_1_U3CEmitNewObjectU3Eb__2_m62DC7F67D7BC61083E0BF0888137C37504A0FD01 ();
-// 0x00000739 System.Void Utf8Json.Resolvers.Internal.EnumDefaultResolver_FormatterCache`1::.cctor()
-// 0x0000073A System.Void Utf8Json.Resolvers.Internal.EnumUnderlyingValueResolver_FormatterCache`1::.cctor()
-// 0x0000073B System.Void Utf8Json.Resolvers.Internal.DefaultStandardResolver_FormatterCache`1::.cctor()
-// 0x0000073C System.Void Utf8Json.Resolvers.Internal.DefaultStandardResolver_InnerResolver::.ctor()
+// 0x0000073F System.Void Utf8Json.Resolvers.Internal.EnumDefaultResolver_FormatterCache`1::.cctor()
+// 0x00000740 System.Void Utf8Json.Resolvers.Internal.EnumUnderlyingValueResolver_FormatterCache`1::.cctor()
+// 0x00000741 System.Void Utf8Json.Resolvers.Internal.DefaultStandardResolver_FormatterCache`1::.cctor()
+// 0x00000742 System.Void Utf8Json.Resolvers.Internal.DefaultStandardResolver_InnerResolver::.ctor()
 extern void InnerResolver__ctor_m67AE1E6FB9641053517345040E07424B1943342C ();
-// 0x0000073D Utf8Json.IJsonFormatter`1<T> Utf8Json.Resolvers.Internal.DefaultStandardResolver_InnerResolver::GetFormatter()
-// 0x0000073E System.Void Utf8Json.Resolvers.Internal.DefaultStandardResolver_InnerResolver::.cctor()
+// 0x00000743 Utf8Json.IJsonFormatter`1<T> Utf8Json.Resolvers.Internal.DefaultStandardResolver_InnerResolver::GetFormatter()
+// 0x00000744 System.Void Utf8Json.Resolvers.Internal.DefaultStandardResolver_InnerResolver::.cctor()
 extern void InnerResolver__cctor_mE15DF87357C22A7049DA1B5435179A0766FB3553 ();
-// 0x0000073F System.Void Utf8Json.Resolvers.Internal.CamelCaseStandardResolver_FormatterCache`1::.cctor()
-// 0x00000740 System.Void Utf8Json.Resolvers.Internal.CamelCaseStandardResolver_InnerResolver::.ctor()
+// 0x00000745 System.Void Utf8Json.Resolvers.Internal.CamelCaseStandardResolver_FormatterCache`1::.cctor()
+// 0x00000746 System.Void Utf8Json.Resolvers.Internal.CamelCaseStandardResolver_InnerResolver::.ctor()
 extern void InnerResolver__ctor_mE0EC10E4D66A4B6852E321F77A886BA27AE7D851 ();
-// 0x00000741 Utf8Json.IJsonFormatter`1<T> Utf8Json.Resolvers.Internal.CamelCaseStandardResolver_InnerResolver::GetFormatter()
-// 0x00000742 System.Void Utf8Json.Resolvers.Internal.CamelCaseStandardResolver_InnerResolver::.cctor()
+// 0x00000747 Utf8Json.IJsonFormatter`1<T> Utf8Json.Resolvers.Internal.CamelCaseStandardResolver_InnerResolver::GetFormatter()
+// 0x00000748 System.Void Utf8Json.Resolvers.Internal.CamelCaseStandardResolver_InnerResolver::.cctor()
 extern void InnerResolver__cctor_m35EA39459777C2F5504BC3CF4A17A4E07E55B59C ();
-// 0x00000743 System.Void Utf8Json.Resolvers.Internal.SnakeCaseStandardResolver_FormatterCache`1::.cctor()
-// 0x00000744 System.Void Utf8Json.Resolvers.Internal.SnakeCaseStandardResolver_InnerResolver::.ctor()
+// 0x00000749 System.Void Utf8Json.Resolvers.Internal.SnakeCaseStandardResolver_FormatterCache`1::.cctor()
+// 0x0000074A System.Void Utf8Json.Resolvers.Internal.SnakeCaseStandardResolver_InnerResolver::.ctor()
 extern void InnerResolver__ctor_mB4AB72E162285E3F4EDB415B2577343DA01DBA75 ();
-// 0x00000745 Utf8Json.IJsonFormatter`1<T> Utf8Json.Resolvers.Internal.SnakeCaseStandardResolver_InnerResolver::GetFormatter()
-// 0x00000746 System.Void Utf8Json.Resolvers.Internal.SnakeCaseStandardResolver_InnerResolver::.cctor()
+// 0x0000074B Utf8Json.IJsonFormatter`1<T> Utf8Json.Resolvers.Internal.SnakeCaseStandardResolver_InnerResolver::GetFormatter()
+// 0x0000074C System.Void Utf8Json.Resolvers.Internal.SnakeCaseStandardResolver_InnerResolver::.cctor()
 extern void InnerResolver__cctor_m58F27B036E98B02CB62B82D5A556F3A1299B446E ();
-// 0x00000747 System.Void Utf8Json.Resolvers.Internal.ExcludeNullStandardResolver_FormatterCache`1::.cctor()
-// 0x00000748 System.Void Utf8Json.Resolvers.Internal.ExcludeNullStandardResolver_InnerResolver::.ctor()
+// 0x0000074D System.Void Utf8Json.Resolvers.Internal.ExcludeNullStandardResolver_FormatterCache`1::.cctor()
+// 0x0000074E System.Void Utf8Json.Resolvers.Internal.ExcludeNullStandardResolver_InnerResolver::.ctor()
 extern void InnerResolver__ctor_m6FAE2EA82DA4C88B3E5D356916F918F4BE104971 ();
-// 0x00000749 Utf8Json.IJsonFormatter`1<T> Utf8Json.Resolvers.Internal.ExcludeNullStandardResolver_InnerResolver::GetFormatter()
-// 0x0000074A System.Void Utf8Json.Resolvers.Internal.ExcludeNullStandardResolver_InnerResolver::.cctor()
+// 0x0000074F Utf8Json.IJsonFormatter`1<T> Utf8Json.Resolvers.Internal.ExcludeNullStandardResolver_InnerResolver::GetFormatter()
+// 0x00000750 System.Void Utf8Json.Resolvers.Internal.ExcludeNullStandardResolver_InnerResolver::.cctor()
 extern void InnerResolver__cctor_m05EE78B9F60A2D528E20C8BC4936ECE86FEECF0F ();
-// 0x0000074B System.Void Utf8Json.Resolvers.Internal.ExcludeNullCamelCaseStandardResolver_FormatterCache`1::.cctor()
-// 0x0000074C System.Void Utf8Json.Resolvers.Internal.ExcludeNullCamelCaseStandardResolver_InnerResolver::.ctor()
+// 0x00000751 System.Void Utf8Json.Resolvers.Internal.ExcludeNullCamelCaseStandardResolver_FormatterCache`1::.cctor()
+// 0x00000752 System.Void Utf8Json.Resolvers.Internal.ExcludeNullCamelCaseStandardResolver_InnerResolver::.ctor()
 extern void InnerResolver__ctor_m348193345EF654700415D55114AE1877B67CF65B ();
-// 0x0000074D Utf8Json.IJsonFormatter`1<T> Utf8Json.Resolvers.Internal.ExcludeNullCamelCaseStandardResolver_InnerResolver::GetFormatter()
-// 0x0000074E System.Void Utf8Json.Resolvers.Internal.ExcludeNullCamelCaseStandardResolver_InnerResolver::.cctor()
+// 0x00000753 Utf8Json.IJsonFormatter`1<T> Utf8Json.Resolvers.Internal.ExcludeNullCamelCaseStandardResolver_InnerResolver::GetFormatter()
+// 0x00000754 System.Void Utf8Json.Resolvers.Internal.ExcludeNullCamelCaseStandardResolver_InnerResolver::.cctor()
 extern void InnerResolver__cctor_m77A35B44BA0C6DE5253C11A16F396BA2E3040E3B ();
-// 0x0000074F System.Void Utf8Json.Resolvers.Internal.ExcludeNullSnakeCaseStandardResolver_FormatterCache`1::.cctor()
-// 0x00000750 System.Void Utf8Json.Resolvers.Internal.ExcludeNullSnakeCaseStandardResolver_InnerResolver::.ctor()
+// 0x00000755 System.Void Utf8Json.Resolvers.Internal.ExcludeNullSnakeCaseStandardResolver_FormatterCache`1::.cctor()
+// 0x00000756 System.Void Utf8Json.Resolvers.Internal.ExcludeNullSnakeCaseStandardResolver_InnerResolver::.ctor()
 extern void InnerResolver__ctor_m00688006583741397899C3F3B912328F1F4C13E6 ();
-// 0x00000751 Utf8Json.IJsonFormatter`1<T> Utf8Json.Resolvers.Internal.ExcludeNullSnakeCaseStandardResolver_InnerResolver::GetFormatter()
-// 0x00000752 System.Void Utf8Json.Resolvers.Internal.ExcludeNullSnakeCaseStandardResolver_InnerResolver::.cctor()
+// 0x00000757 Utf8Json.IJsonFormatter`1<T> Utf8Json.Resolvers.Internal.ExcludeNullSnakeCaseStandardResolver_InnerResolver::GetFormatter()
+// 0x00000758 System.Void Utf8Json.Resolvers.Internal.ExcludeNullSnakeCaseStandardResolver_InnerResolver::.cctor()
 extern void InnerResolver__cctor_m5862880E84BFCE0FCD015D90CB1C7B49E761E625 ();
-// 0x00000753 System.Void Utf8Json.Resolvers.Internal.AllowPrivateStandardResolver_FormatterCache`1::.cctor()
-// 0x00000754 System.Void Utf8Json.Resolvers.Internal.AllowPrivateStandardResolver_InnerResolver::.ctor()
+// 0x00000759 System.Void Utf8Json.Resolvers.Internal.AllowPrivateStandardResolver_FormatterCache`1::.cctor()
+// 0x0000075A System.Void Utf8Json.Resolvers.Internal.AllowPrivateStandardResolver_InnerResolver::.ctor()
 extern void InnerResolver__ctor_m14942FC244D265C8D224A7ADCFF5831A0FC090B0 ();
-// 0x00000755 Utf8Json.IJsonFormatter`1<T> Utf8Json.Resolvers.Internal.AllowPrivateStandardResolver_InnerResolver::GetFormatter()
-// 0x00000756 System.Void Utf8Json.Resolvers.Internal.AllowPrivateStandardResolver_InnerResolver::.cctor()
+// 0x0000075B Utf8Json.IJsonFormatter`1<T> Utf8Json.Resolvers.Internal.AllowPrivateStandardResolver_InnerResolver::GetFormatter()
+// 0x0000075C System.Void Utf8Json.Resolvers.Internal.AllowPrivateStandardResolver_InnerResolver::.cctor()
 extern void InnerResolver__cctor_m6E20ED2F4395C109267B41DD690A6011CAA50AB0 ();
-// 0x00000757 System.Void Utf8Json.Resolvers.Internal.AllowPrivateCamelCaseStandardResolver_FormatterCache`1::.cctor()
-// 0x00000758 System.Void Utf8Json.Resolvers.Internal.AllowPrivateCamelCaseStandardResolver_InnerResolver::.ctor()
+// 0x0000075D System.Void Utf8Json.Resolvers.Internal.AllowPrivateCamelCaseStandardResolver_FormatterCache`1::.cctor()
+// 0x0000075E System.Void Utf8Json.Resolvers.Internal.AllowPrivateCamelCaseStandardResolver_InnerResolver::.ctor()
 extern void InnerResolver__ctor_mF5A360AA5CC0047141B689F37F7C42AD18CEC669 ();
-// 0x00000759 Utf8Json.IJsonFormatter`1<T> Utf8Json.Resolvers.Internal.AllowPrivateCamelCaseStandardResolver_InnerResolver::GetFormatter()
-// 0x0000075A System.Void Utf8Json.Resolvers.Internal.AllowPrivateCamelCaseStandardResolver_InnerResolver::.cctor()
+// 0x0000075F Utf8Json.IJsonFormatter`1<T> Utf8Json.Resolvers.Internal.AllowPrivateCamelCaseStandardResolver_InnerResolver::GetFormatter()
+// 0x00000760 System.Void Utf8Json.Resolvers.Internal.AllowPrivateCamelCaseStandardResolver_InnerResolver::.cctor()
 extern void InnerResolver__cctor_m9FAF544334BA66E70EC5A21952F9CFD1F8CECB84 ();
-// 0x0000075B System.Void Utf8Json.Resolvers.Internal.AllowPrivateSnakeCaseStandardResolver_FormatterCache`1::.cctor()
-// 0x0000075C System.Void Utf8Json.Resolvers.Internal.AllowPrivateSnakeCaseStandardResolver_InnerResolver::.ctor()
+// 0x00000761 System.Void Utf8Json.Resolvers.Internal.AllowPrivateSnakeCaseStandardResolver_FormatterCache`1::.cctor()
+// 0x00000762 System.Void Utf8Json.Resolvers.Internal.AllowPrivateSnakeCaseStandardResolver_InnerResolver::.ctor()
 extern void InnerResolver__ctor_mB72183A39597F075AA3ADA8E935828F3217CFBFB ();
-// 0x0000075D Utf8Json.IJsonFormatter`1<T> Utf8Json.Resolvers.Internal.AllowPrivateSnakeCaseStandardResolver_InnerResolver::GetFormatter()
-// 0x0000075E System.Void Utf8Json.Resolvers.Internal.AllowPrivateSnakeCaseStandardResolver_InnerResolver::.cctor()
+// 0x00000763 Utf8Json.IJsonFormatter`1<T> Utf8Json.Resolvers.Internal.AllowPrivateSnakeCaseStandardResolver_InnerResolver::GetFormatter()
+// 0x00000764 System.Void Utf8Json.Resolvers.Internal.AllowPrivateSnakeCaseStandardResolver_InnerResolver::.cctor()
 extern void InnerResolver__cctor_mE42B082C367476943117ACD3299E79FDF037D0CF ();
-// 0x0000075F System.Void Utf8Json.Resolvers.Internal.AllowPrivateExcludeNullStandardResolver_FormatterCache`1::.cctor()
-// 0x00000760 System.Void Utf8Json.Resolvers.Internal.AllowPrivateExcludeNullStandardResolver_InnerResolver::.ctor()
+// 0x00000765 System.Void Utf8Json.Resolvers.Internal.AllowPrivateExcludeNullStandardResolver_FormatterCache`1::.cctor()
+// 0x00000766 System.Void Utf8Json.Resolvers.Internal.AllowPrivateExcludeNullStandardResolver_InnerResolver::.ctor()
 extern void InnerResolver__ctor_m04B68BED0E9C5CC76231F59136FAC779C892540B ();
-// 0x00000761 Utf8Json.IJsonFormatter`1<T> Utf8Json.Resolvers.Internal.AllowPrivateExcludeNullStandardResolver_InnerResolver::GetFormatter()
-// 0x00000762 System.Void Utf8Json.Resolvers.Internal.AllowPrivateExcludeNullStandardResolver_InnerResolver::.cctor()
+// 0x00000767 Utf8Json.IJsonFormatter`1<T> Utf8Json.Resolvers.Internal.AllowPrivateExcludeNullStandardResolver_InnerResolver::GetFormatter()
+// 0x00000768 System.Void Utf8Json.Resolvers.Internal.AllowPrivateExcludeNullStandardResolver_InnerResolver::.cctor()
 extern void InnerResolver__cctor_m5BD1CE9107405AD7B57FD3716E06525485423803 ();
-// 0x00000763 System.Void Utf8Json.Resolvers.Internal.AllowPrivateExcludeNullCamelCaseStandardResolver_FormatterCache`1::.cctor()
-// 0x00000764 System.Void Utf8Json.Resolvers.Internal.AllowPrivateExcludeNullCamelCaseStandardResolver_InnerResolver::.ctor()
+// 0x00000769 System.Void Utf8Json.Resolvers.Internal.AllowPrivateExcludeNullCamelCaseStandardResolver_FormatterCache`1::.cctor()
+// 0x0000076A System.Void Utf8Json.Resolvers.Internal.AllowPrivateExcludeNullCamelCaseStandardResolver_InnerResolver::.ctor()
 extern void InnerResolver__ctor_m2F5E8CED9C1C79EE34627D4DC7E8F22C82A85D73 ();
-// 0x00000765 Utf8Json.IJsonFormatter`1<T> Utf8Json.Resolvers.Internal.AllowPrivateExcludeNullCamelCaseStandardResolver_InnerResolver::GetFormatter()
-// 0x00000766 System.Void Utf8Json.Resolvers.Internal.AllowPrivateExcludeNullCamelCaseStandardResolver_InnerResolver::.cctor()
+// 0x0000076B Utf8Json.IJsonFormatter`1<T> Utf8Json.Resolvers.Internal.AllowPrivateExcludeNullCamelCaseStandardResolver_InnerResolver::GetFormatter()
+// 0x0000076C System.Void Utf8Json.Resolvers.Internal.AllowPrivateExcludeNullCamelCaseStandardResolver_InnerResolver::.cctor()
 extern void InnerResolver__cctor_mE89E18304381EFE6FAAD0DB960EB40634A6FF6B9 ();
-// 0x00000767 System.Void Utf8Json.Resolvers.Internal.AllowPrivateExcludeNullSnakeCaseStandardResolver_FormatterCache`1::.cctor()
-// 0x00000768 System.Void Utf8Json.Resolvers.Internal.AllowPrivateExcludeNullSnakeCaseStandardResolver_InnerResolver::.ctor()
+// 0x0000076D System.Void Utf8Json.Resolvers.Internal.AllowPrivateExcludeNullSnakeCaseStandardResolver_FormatterCache`1::.cctor()
+// 0x0000076E System.Void Utf8Json.Resolvers.Internal.AllowPrivateExcludeNullSnakeCaseStandardResolver_InnerResolver::.ctor()
 extern void InnerResolver__ctor_mBD5833184D570956E94012FFF7D5388EE42CC146 ();
-// 0x00000769 Utf8Json.IJsonFormatter`1<T> Utf8Json.Resolvers.Internal.AllowPrivateExcludeNullSnakeCaseStandardResolver_InnerResolver::GetFormatter()
-// 0x0000076A System.Void Utf8Json.Resolvers.Internal.AllowPrivateExcludeNullSnakeCaseStandardResolver_InnerResolver::.cctor()
+// 0x0000076F Utf8Json.IJsonFormatter`1<T> Utf8Json.Resolvers.Internal.AllowPrivateExcludeNullSnakeCaseStandardResolver_InnerResolver::GetFormatter()
+// 0x00000770 System.Void Utf8Json.Resolvers.Internal.AllowPrivateExcludeNullSnakeCaseStandardResolver_InnerResolver::.cctor()
 extern void InnerResolver__cctor_m28E495C417B024F3DB795224DFFF5536FC2CD4A3 ();
-// 0x0000076B System.Boolean Utf8Json.Internal.AutomataDictionary_AutomataNode::get_HasChildren()
+// 0x00000771 System.Boolean Utf8Json.Internal.AutomataDictionary_AutomataNode::get_HasChildren()
 extern void AutomataNode_get_HasChildren_mF49CC72CA8A0D020FB82016D2B869DE8D775F197 ();
-// 0x0000076C System.Void Utf8Json.Internal.AutomataDictionary_AutomataNode::.ctor(System.UInt64)
+// 0x00000772 System.Void Utf8Json.Internal.AutomataDictionary_AutomataNode::.ctor(System.UInt64)
 extern void AutomataNode__ctor_m1826FE623D1189AA4F53AF8C7CDA2FD171F3E254 ();
-// 0x0000076D Utf8Json.Internal.AutomataDictionary_AutomataNode Utf8Json.Internal.AutomataDictionary_AutomataNode::Add(System.UInt64)
+// 0x00000773 Utf8Json.Internal.AutomataDictionary_AutomataNode Utf8Json.Internal.AutomataDictionary_AutomataNode::Add(System.UInt64)
 extern void AutomataNode_Add_mBA1B9640B7C81375E28B3ACAD2802B2A51252F04 ();
-// 0x0000076E Utf8Json.Internal.AutomataDictionary_AutomataNode Utf8Json.Internal.AutomataDictionary_AutomataNode::Add(System.UInt64,System.Int32,System.String)
+// 0x00000774 Utf8Json.Internal.AutomataDictionary_AutomataNode Utf8Json.Internal.AutomataDictionary_AutomataNode::Add(System.UInt64,System.Int32,System.String)
 extern void AutomataNode_Add_mA48725B3A4A74AB67CB75969EA1864020156EAF0 ();
-// 0x0000076F Utf8Json.Internal.AutomataDictionary_AutomataNode Utf8Json.Internal.AutomataDictionary_AutomataNode::SearchNext(System.Byte*&,System.Int32&)
+// 0x00000775 Utf8Json.Internal.AutomataDictionary_AutomataNode Utf8Json.Internal.AutomataDictionary_AutomataNode::SearchNext(System.Byte*&,System.Int32&)
 extern void AutomataNode_SearchNext_mADF14539B7572909184CD44B4C96FA81B3BCFD9A ();
-// 0x00000770 Utf8Json.Internal.AutomataDictionary_AutomataNode Utf8Json.Internal.AutomataDictionary_AutomataNode::SearchNextSafe(System.Byte[],System.Int32&,System.Int32&)
+// 0x00000776 Utf8Json.Internal.AutomataDictionary_AutomataNode Utf8Json.Internal.AutomataDictionary_AutomataNode::SearchNextSafe(System.Byte[],System.Int32&,System.Int32&)
 extern void AutomataNode_SearchNextSafe_m23911EDD2785C069B65EC9329AB7198455F0D36F ();
-// 0x00000771 System.Int32 Utf8Json.Internal.AutomataDictionary_AutomataNode::BinarySearch(System.UInt64[],System.Int32,System.Int32,System.UInt64)
+// 0x00000777 System.Int32 Utf8Json.Internal.AutomataDictionary_AutomataNode::BinarySearch(System.UInt64[],System.Int32,System.Int32,System.UInt64)
 extern void AutomataNode_BinarySearch_mB7B01AC1A5ED370E2DE92FF0D2F756A50D53BE26 ();
-// 0x00000772 System.Int32 Utf8Json.Internal.AutomataDictionary_AutomataNode::CompareTo(Utf8Json.Internal.AutomataDictionary_AutomataNode)
+// 0x00000778 System.Int32 Utf8Json.Internal.AutomataDictionary_AutomataNode::CompareTo(Utf8Json.Internal.AutomataDictionary_AutomataNode)
 extern void AutomataNode_CompareTo_m152ECA6D7A8E788E1C6D4B4DAB4AB50271F26CED ();
-// 0x00000773 System.Collections.Generic.IEnumerable`1<Utf8Json.Internal.AutomataDictionary_AutomataNode> Utf8Json.Internal.AutomataDictionary_AutomataNode::YieldChildren()
+// 0x00000779 System.Collections.Generic.IEnumerable`1<Utf8Json.Internal.AutomataDictionary_AutomataNode> Utf8Json.Internal.AutomataDictionary_AutomataNode::YieldChildren()
 extern void AutomataNode_YieldChildren_m7CFFC0F2E9B5350354BD00123309E1B06DF0CB30 ();
-// 0x00000774 System.Void Utf8Json.Internal.AutomataDictionary_AutomataNode::EmitSearchNext(System.Reflection.Emit.ILGenerator,System.Reflection.Emit.LocalBuilder,System.Reflection.Emit.LocalBuilder,System.Reflection.Emit.LocalBuilder,System.Action`1<System.Collections.Generic.KeyValuePair`2<System.String,System.Int32>>,System.Action)
+// 0x0000077A System.Void Utf8Json.Internal.AutomataDictionary_AutomataNode::EmitSearchNext(System.Reflection.Emit.ILGenerator,System.Reflection.Emit.LocalBuilder,System.Reflection.Emit.LocalBuilder,System.Reflection.Emit.LocalBuilder,System.Action`1<System.Collections.Generic.KeyValuePair`2<System.String,System.Int32>>,System.Action)
 extern void AutomataNode_EmitSearchNext_mB04E1589F7F98040B3D3537D7659B424C3B057AB ();
-// 0x00000775 System.Void Utf8Json.Internal.AutomataDictionary_AutomataNode::EmitSearchNextCore(System.Reflection.Emit.ILGenerator,System.Reflection.Emit.LocalBuilder,System.Reflection.Emit.LocalBuilder,System.Reflection.Emit.LocalBuilder,System.Action`1<System.Collections.Generic.KeyValuePair`2<System.String,System.Int32>>,System.Action,Utf8Json.Internal.AutomataDictionary_AutomataNode[],System.Int32)
+// 0x0000077B System.Void Utf8Json.Internal.AutomataDictionary_AutomataNode::EmitSearchNextCore(System.Reflection.Emit.ILGenerator,System.Reflection.Emit.LocalBuilder,System.Reflection.Emit.LocalBuilder,System.Reflection.Emit.LocalBuilder,System.Action`1<System.Collections.Generic.KeyValuePair`2<System.String,System.Int32>>,System.Action,Utf8Json.Internal.AutomataDictionary_AutomataNode[],System.Int32)
 extern void AutomataNode_EmitSearchNextCore_m903F152466060B11E193343543B2201994A37A93 ();
-// 0x00000776 System.Void Utf8Json.Internal.AutomataDictionary_AutomataNode::.cctor()
+// 0x0000077C System.Void Utf8Json.Internal.AutomataDictionary_AutomataNode::.cctor()
 extern void AutomataNode__cctor_m89D946F409E974F5DD4BEFB2F34713517F184DD2 ();
-// 0x00000777 System.Void Utf8Json.Internal.AutomataDictionary_<YieldCore>d__9::.ctor(System.Int32)
+// 0x0000077D System.Void Utf8Json.Internal.AutomataDictionary_<YieldCore>d__9::.ctor(System.Int32)
 extern void U3CYieldCoreU3Ed__9__ctor_mC1116900FBF6D1A747D65E23AF4CA64015D0E852 ();
-// 0x00000778 System.Void Utf8Json.Internal.AutomataDictionary_<YieldCore>d__9::System.IDisposable.Dispose()
+// 0x0000077E System.Void Utf8Json.Internal.AutomataDictionary_<YieldCore>d__9::System.IDisposable.Dispose()
 extern void U3CYieldCoreU3Ed__9_System_IDisposable_Dispose_mB699C44C80E969CD1FBED39D3D0BD3C9B3F57E58 ();
-// 0x00000779 System.Boolean Utf8Json.Internal.AutomataDictionary_<YieldCore>d__9::MoveNext()
+// 0x0000077F System.Boolean Utf8Json.Internal.AutomataDictionary_<YieldCore>d__9::MoveNext()
 extern void U3CYieldCoreU3Ed__9_MoveNext_m27B65C3123646906102C972B72544FACBEAB7067 ();
-// 0x0000077A System.Void Utf8Json.Internal.AutomataDictionary_<YieldCore>d__9::<>m__Finally1()
+// 0x00000780 System.Void Utf8Json.Internal.AutomataDictionary_<YieldCore>d__9::<>m__Finally1()
 extern void U3CYieldCoreU3Ed__9_U3CU3Em__Finally1_m9A3FCEA97F0D615E8C1E82BF96DC40BDC5045ADB ();
-// 0x0000077B System.Void Utf8Json.Internal.AutomataDictionary_<YieldCore>d__9::<>m__Finally2()
+// 0x00000781 System.Void Utf8Json.Internal.AutomataDictionary_<YieldCore>d__9::<>m__Finally2()
 extern void U3CYieldCoreU3Ed__9_U3CU3Em__Finally2_mCE560A8D6AE8E475092852F3D74D4AD000CD666A ();
-// 0x0000077C System.Collections.Generic.KeyValuePair`2<System.String,System.Int32> Utf8Json.Internal.AutomataDictionary_<YieldCore>d__9::System.Collections.Generic.IEnumerator<System.Collections.Generic.KeyValuePair<System.String,System.Int32>>.get_Current()
+// 0x00000782 System.Collections.Generic.KeyValuePair`2<System.String,System.Int32> Utf8Json.Internal.AutomataDictionary_<YieldCore>d__9::System.Collections.Generic.IEnumerator<System.Collections.Generic.KeyValuePair<System.String,System.Int32>>.get_Current()
 extern void U3CYieldCoreU3Ed__9_System_Collections_Generic_IEnumeratorU3CSystem_Collections_Generic_KeyValuePairU3CSystem_StringU2CSystem_Int32U3EU3E_get_Current_mB9310BD5DF7A229735E79E325470A2956A956C80 ();
-// 0x0000077D System.Void Utf8Json.Internal.AutomataDictionary_<YieldCore>d__9::System.Collections.IEnumerator.Reset()
+// 0x00000783 System.Void Utf8Json.Internal.AutomataDictionary_<YieldCore>d__9::System.Collections.IEnumerator.Reset()
 extern void U3CYieldCoreU3Ed__9_System_Collections_IEnumerator_Reset_m876EB27421D92327BC6B4C0CB4C0891DE776BFE5 ();
-// 0x0000077E System.Object Utf8Json.Internal.AutomataDictionary_<YieldCore>d__9::System.Collections.IEnumerator.get_Current()
+// 0x00000784 System.Object Utf8Json.Internal.AutomataDictionary_<YieldCore>d__9::System.Collections.IEnumerator.get_Current()
 extern void U3CYieldCoreU3Ed__9_System_Collections_IEnumerator_get_Current_mE50C1B7D5C2449F1699DF5A98F798E9C6B76D0A1 ();
-// 0x0000077F System.Collections.Generic.IEnumerator`1<System.Collections.Generic.KeyValuePair`2<System.String,System.Int32>> Utf8Json.Internal.AutomataDictionary_<YieldCore>d__9::System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<System.String,System.Int32>>.GetEnumerator()
+// 0x00000785 System.Collections.Generic.IEnumerator`1<System.Collections.Generic.KeyValuePair`2<System.String,System.Int32>> Utf8Json.Internal.AutomataDictionary_<YieldCore>d__9::System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<System.String,System.Int32>>.GetEnumerator()
 extern void U3CYieldCoreU3Ed__9_System_Collections_Generic_IEnumerableU3CSystem_Collections_Generic_KeyValuePairU3CSystem_StringU2CSystem_Int32U3EU3E_GetEnumerator_m78FEAC9F16E7B894D731C81CF44A5343171C63A4 ();
-// 0x00000780 System.Collections.IEnumerator Utf8Json.Internal.AutomataDictionary_<YieldCore>d__9::System.Collections.IEnumerable.GetEnumerator()
+// 0x00000786 System.Collections.IEnumerator Utf8Json.Internal.AutomataDictionary_<YieldCore>d__9::System.Collections.IEnumerable.GetEnumerator()
 extern void U3CYieldCoreU3Ed__9_System_Collections_IEnumerable_GetEnumerator_m664C604B7DD0C33DE50EA8872C7066CB238505E8 ();
-// 0x00000781 System.String Utf8Json.Internal.ByteArrayStringHashTable`1_Entry::ToString()
-// 0x00000782 System.Void Utf8Json.Internal.ByteArrayStringHashTable`1_<GetEnumerator>d__10::.ctor(System.Int32)
-// 0x00000783 System.Void Utf8Json.Internal.ByteArrayStringHashTable`1_<GetEnumerator>d__10::System.IDisposable.Dispose()
-// 0x00000784 System.Boolean Utf8Json.Internal.ByteArrayStringHashTable`1_<GetEnumerator>d__10::MoveNext()
-// 0x00000785 System.Collections.Generic.KeyValuePair`2<System.String,T> Utf8Json.Internal.ByteArrayStringHashTable`1_<GetEnumerator>d__10::System.Collections.Generic.IEnumerator<System.Collections.Generic.KeyValuePair<System.String,T>>.get_Current()
-// 0x00000786 System.Void Utf8Json.Internal.ByteArrayStringHashTable`1_<GetEnumerator>d__10::System.Collections.IEnumerator.Reset()
-// 0x00000787 System.Object Utf8Json.Internal.ByteArrayStringHashTable`1_<GetEnumerator>d__10::System.Collections.IEnumerator.get_Current()
-// 0x00000788 System.Void Utf8Json.Internal.ReflectionExtensions_<GetAllPropertiesCore>d__4::.ctor(System.Int32)
+// 0x00000787 System.String Utf8Json.Internal.ByteArrayStringHashTable`1_Entry::ToString()
+// 0x00000788 System.Void Utf8Json.Internal.ByteArrayStringHashTable`1_<GetEnumerator>d__10::.ctor(System.Int32)
+// 0x00000789 System.Void Utf8Json.Internal.ByteArrayStringHashTable`1_<GetEnumerator>d__10::System.IDisposable.Dispose()
+// 0x0000078A System.Boolean Utf8Json.Internal.ByteArrayStringHashTable`1_<GetEnumerator>d__10::MoveNext()
+// 0x0000078B System.Collections.Generic.KeyValuePair`2<System.String,T> Utf8Json.Internal.ByteArrayStringHashTable`1_<GetEnumerator>d__10::System.Collections.Generic.IEnumerator<System.Collections.Generic.KeyValuePair<System.String,T>>.get_Current()
+// 0x0000078C System.Void Utf8Json.Internal.ByteArrayStringHashTable`1_<GetEnumerator>d__10::System.Collections.IEnumerator.Reset()
+// 0x0000078D System.Object Utf8Json.Internal.ByteArrayStringHashTable`1_<GetEnumerator>d__10::System.Collections.IEnumerator.get_Current()
+// 0x0000078E System.Void Utf8Json.Internal.ReflectionExtensions_<GetAllPropertiesCore>d__4::.ctor(System.Int32)
 extern void U3CGetAllPropertiesCoreU3Ed__4__ctor_mAA06A30F96F03E612E1ADD30E20DCE97FF32B0AF ();
-// 0x00000789 System.Void Utf8Json.Internal.ReflectionExtensions_<GetAllPropertiesCore>d__4::System.IDisposable.Dispose()
+// 0x0000078F System.Void Utf8Json.Internal.ReflectionExtensions_<GetAllPropertiesCore>d__4::System.IDisposable.Dispose()
 extern void U3CGetAllPropertiesCoreU3Ed__4_System_IDisposable_Dispose_m6D25FE226C0B1A8CB0D480A376D86235EED5EFB5 ();
-// 0x0000078A System.Boolean Utf8Json.Internal.ReflectionExtensions_<GetAllPropertiesCore>d__4::MoveNext()
+// 0x00000790 System.Boolean Utf8Json.Internal.ReflectionExtensions_<GetAllPropertiesCore>d__4::MoveNext()
 extern void U3CGetAllPropertiesCoreU3Ed__4_MoveNext_m43089AD002EAEEA4D9B4083E3174BE33A5961518 ();
-// 0x0000078B System.Void Utf8Json.Internal.ReflectionExtensions_<GetAllPropertiesCore>d__4::<>m__Finally1()
+// 0x00000791 System.Void Utf8Json.Internal.ReflectionExtensions_<GetAllPropertiesCore>d__4::<>m__Finally1()
 extern void U3CGetAllPropertiesCoreU3Ed__4_U3CU3Em__Finally1_m01DD1FF03435A5CAEF434D6020FE05A4E1020979 ();
-// 0x0000078C System.Void Utf8Json.Internal.ReflectionExtensions_<GetAllPropertiesCore>d__4::<>m__Finally2()
+// 0x00000792 System.Void Utf8Json.Internal.ReflectionExtensions_<GetAllPropertiesCore>d__4::<>m__Finally2()
 extern void U3CGetAllPropertiesCoreU3Ed__4_U3CU3Em__Finally2_mEDBA1B6D12D96E0A5B8C3AF771D0BA761B10D25A ();
-// 0x0000078D System.Reflection.PropertyInfo Utf8Json.Internal.ReflectionExtensions_<GetAllPropertiesCore>d__4::System.Collections.Generic.IEnumerator<System.Reflection.PropertyInfo>.get_Current()
+// 0x00000793 System.Reflection.PropertyInfo Utf8Json.Internal.ReflectionExtensions_<GetAllPropertiesCore>d__4::System.Collections.Generic.IEnumerator<System.Reflection.PropertyInfo>.get_Current()
 extern void U3CGetAllPropertiesCoreU3Ed__4_System_Collections_Generic_IEnumeratorU3CSystem_Reflection_PropertyInfoU3E_get_Current_mD08040E728868628101473FB9467431AE600E88D ();
-// 0x0000078E System.Void Utf8Json.Internal.ReflectionExtensions_<GetAllPropertiesCore>d__4::System.Collections.IEnumerator.Reset()
+// 0x00000794 System.Void Utf8Json.Internal.ReflectionExtensions_<GetAllPropertiesCore>d__4::System.Collections.IEnumerator.Reset()
 extern void U3CGetAllPropertiesCoreU3Ed__4_System_Collections_IEnumerator_Reset_mC5268B304A9F947BD9E5D88AD3DBCA44CF79C903 ();
-// 0x0000078F System.Object Utf8Json.Internal.ReflectionExtensions_<GetAllPropertiesCore>d__4::System.Collections.IEnumerator.get_Current()
+// 0x00000795 System.Object Utf8Json.Internal.ReflectionExtensions_<GetAllPropertiesCore>d__4::System.Collections.IEnumerator.get_Current()
 extern void U3CGetAllPropertiesCoreU3Ed__4_System_Collections_IEnumerator_get_Current_m790DFC3C614204B7E2AB02E93CA8513291E78C44 ();
-// 0x00000790 System.Collections.Generic.IEnumerator`1<System.Reflection.PropertyInfo> Utf8Json.Internal.ReflectionExtensions_<GetAllPropertiesCore>d__4::System.Collections.Generic.IEnumerable<System.Reflection.PropertyInfo>.GetEnumerator()
+// 0x00000796 System.Collections.Generic.IEnumerator`1<System.Reflection.PropertyInfo> Utf8Json.Internal.ReflectionExtensions_<GetAllPropertiesCore>d__4::System.Collections.Generic.IEnumerable<System.Reflection.PropertyInfo>.GetEnumerator()
 extern void U3CGetAllPropertiesCoreU3Ed__4_System_Collections_Generic_IEnumerableU3CSystem_Reflection_PropertyInfoU3E_GetEnumerator_m93797A8EC73505F1D77F1006F56B2B0E6F2982BA ();
-// 0x00000791 System.Collections.IEnumerator Utf8Json.Internal.ReflectionExtensions_<GetAllPropertiesCore>d__4::System.Collections.IEnumerable.GetEnumerator()
+// 0x00000797 System.Collections.IEnumerator Utf8Json.Internal.ReflectionExtensions_<GetAllPropertiesCore>d__4::System.Collections.IEnumerable.GetEnumerator()
 extern void U3CGetAllPropertiesCoreU3Ed__4_System_Collections_IEnumerable_GetEnumerator_m1734B229F11CBF7EEF7FC0EDCA597B5FB62FFEAA ();
-// 0x00000792 System.Void Utf8Json.Internal.ReflectionExtensions_<GetAllFieldsCore>d__6::.ctor(System.Int32)
+// 0x00000798 System.Void Utf8Json.Internal.ReflectionExtensions_<GetAllFieldsCore>d__6::.ctor(System.Int32)
 extern void U3CGetAllFieldsCoreU3Ed__6__ctor_m5F1A86FF0753D53702C636857C24C5EB298615FB ();
-// 0x00000793 System.Void Utf8Json.Internal.ReflectionExtensions_<GetAllFieldsCore>d__6::System.IDisposable.Dispose()
+// 0x00000799 System.Void Utf8Json.Internal.ReflectionExtensions_<GetAllFieldsCore>d__6::System.IDisposable.Dispose()
 extern void U3CGetAllFieldsCoreU3Ed__6_System_IDisposable_Dispose_mF89E33C00C689DF94AE42776BECDABB5688952E9 ();
-// 0x00000794 System.Boolean Utf8Json.Internal.ReflectionExtensions_<GetAllFieldsCore>d__6::MoveNext()
+// 0x0000079A System.Boolean Utf8Json.Internal.ReflectionExtensions_<GetAllFieldsCore>d__6::MoveNext()
 extern void U3CGetAllFieldsCoreU3Ed__6_MoveNext_mF0EDC122F5BBD4302E606654B7B2A5CD2453E781 ();
-// 0x00000795 System.Void Utf8Json.Internal.ReflectionExtensions_<GetAllFieldsCore>d__6::<>m__Finally1()
+// 0x0000079B System.Void Utf8Json.Internal.ReflectionExtensions_<GetAllFieldsCore>d__6::<>m__Finally1()
 extern void U3CGetAllFieldsCoreU3Ed__6_U3CU3Em__Finally1_mFBEE7EE4D7766E6E9D43FD719359F5BA592E8BE4 ();
-// 0x00000796 System.Void Utf8Json.Internal.ReflectionExtensions_<GetAllFieldsCore>d__6::<>m__Finally2()
+// 0x0000079C System.Void Utf8Json.Internal.ReflectionExtensions_<GetAllFieldsCore>d__6::<>m__Finally2()
 extern void U3CGetAllFieldsCoreU3Ed__6_U3CU3Em__Finally2_m3E20C38B1A99B62AF3F4D672D8DDF7CAD5E6E3E1 ();
-// 0x00000797 System.Reflection.FieldInfo Utf8Json.Internal.ReflectionExtensions_<GetAllFieldsCore>d__6::System.Collections.Generic.IEnumerator<System.Reflection.FieldInfo>.get_Current()
+// 0x0000079D System.Reflection.FieldInfo Utf8Json.Internal.ReflectionExtensions_<GetAllFieldsCore>d__6::System.Collections.Generic.IEnumerator<System.Reflection.FieldInfo>.get_Current()
 extern void U3CGetAllFieldsCoreU3Ed__6_System_Collections_Generic_IEnumeratorU3CSystem_Reflection_FieldInfoU3E_get_Current_m2877218CD08A8A6BBFB9536C9A90C340A6FE03CC ();
-// 0x00000798 System.Void Utf8Json.Internal.ReflectionExtensions_<GetAllFieldsCore>d__6::System.Collections.IEnumerator.Reset()
+// 0x0000079E System.Void Utf8Json.Internal.ReflectionExtensions_<GetAllFieldsCore>d__6::System.Collections.IEnumerator.Reset()
 extern void U3CGetAllFieldsCoreU3Ed__6_System_Collections_IEnumerator_Reset_m90A0B45E571B7DFC3CE7DF6734976EDD4982AF29 ();
-// 0x00000799 System.Object Utf8Json.Internal.ReflectionExtensions_<GetAllFieldsCore>d__6::System.Collections.IEnumerator.get_Current()
+// 0x0000079F System.Object Utf8Json.Internal.ReflectionExtensions_<GetAllFieldsCore>d__6::System.Collections.IEnumerator.get_Current()
 extern void U3CGetAllFieldsCoreU3Ed__6_System_Collections_IEnumerator_get_Current_mFAE9565A2504BC56B6039D44502C69661E84FAC8 ();
-// 0x0000079A System.Collections.Generic.IEnumerator`1<System.Reflection.FieldInfo> Utf8Json.Internal.ReflectionExtensions_<GetAllFieldsCore>d__6::System.Collections.Generic.IEnumerable<System.Reflection.FieldInfo>.GetEnumerator()
+// 0x000007A0 System.Collections.Generic.IEnumerator`1<System.Reflection.FieldInfo> Utf8Json.Internal.ReflectionExtensions_<GetAllFieldsCore>d__6::System.Collections.Generic.IEnumerable<System.Reflection.FieldInfo>.GetEnumerator()
 extern void U3CGetAllFieldsCoreU3Ed__6_System_Collections_Generic_IEnumerableU3CSystem_Reflection_FieldInfoU3E_GetEnumerator_m987F1B572B26A58E7F7AC16BCDFCA83D0321D09E ();
-// 0x0000079B System.Collections.IEnumerator Utf8Json.Internal.ReflectionExtensions_<GetAllFieldsCore>d__6::System.Collections.IEnumerable.GetEnumerator()
+// 0x000007A1 System.Collections.IEnumerator Utf8Json.Internal.ReflectionExtensions_<GetAllFieldsCore>d__6::System.Collections.IEnumerable.GetEnumerator()
 extern void U3CGetAllFieldsCoreU3Ed__6_System_Collections_IEnumerable_GetEnumerator_mEB5C89503B180AA549E1DBDA151840417149785D ();
-// 0x0000079C System.String Utf8Json.Internal.ThreadsafeTypeKeyHashTable`1_Entry::ToString()
-// 0x0000079D System.Int32 Utf8Json.Internal.ThreadsafeTypeKeyHashTable`1_Entry::Count()
-// 0x0000079E System.Void Utf8Json.Internal.ThreadsafeTypeKeyHashTable`1_Entry::.ctor()
-// 0x0000079F System.Void Utf8Json.Internal.ThreadsafeTypeKeyHashTable`1_<>c__DisplayClass5_0::.ctor()
-// 0x000007A0 TValue Utf8Json.Internal.ThreadsafeTypeKeyHashTable`1_<>c__DisplayClass5_0::<TryAdd>b__0(System.Type)
-// 0x000007A1 System.Void Utf8Json.Internal.Emit.ILGeneratorExtensions_<>c::.cctor()
+// 0x000007A2 System.String Utf8Json.Internal.ThreadsafeTypeKeyHashTable`1_Entry::ToString()
+// 0x000007A3 System.Int32 Utf8Json.Internal.ThreadsafeTypeKeyHashTable`1_Entry::Count()
+// 0x000007A4 System.Void Utf8Json.Internal.ThreadsafeTypeKeyHashTable`1_Entry::.ctor()
+// 0x000007A5 System.Void Utf8Json.Internal.ThreadsafeTypeKeyHashTable`1_<>c__DisplayClass5_0::.ctor()
+// 0x000007A6 TValue Utf8Json.Internal.ThreadsafeTypeKeyHashTable`1_<>c__DisplayClass5_0::<TryAdd>b__0(System.Type)
+// 0x000007A7 System.Void Utf8Json.Internal.Emit.ILGeneratorExtensions_<>c::.cctor()
 extern void U3CU3Ec__cctor_mCD1BB2E05EA6D98D9D9BDCA29A3655F2DDA30365 ();
-// 0x000007A2 System.Void Utf8Json.Internal.Emit.ILGeneratorExtensions_<>c::.ctor()
+// 0x000007A8 System.Void Utf8Json.Internal.Emit.ILGeneratorExtensions_<>c::.ctor()
 extern void U3CU3Ec__ctor_m9D7ECC4E7983DAB8BBED1FAD7751A413C9CD41B5 ();
-// 0x000007A3 System.Boolean Utf8Json.Internal.Emit.ILGeneratorExtensions_<>c::<EmitThrowNotimplemented>b__24_0(System.Reflection.ConstructorInfo)
+// 0x000007A9 System.Boolean Utf8Json.Internal.Emit.ILGeneratorExtensions_<>c::<EmitThrowNotimplemented>b__24_0(System.Reflection.ConstructorInfo)
 extern void U3CU3Ec_U3CEmitThrowNotimplementedU3Eb__24_0_mD3D94BCAFDB151810DA57D2E754B55DD0178E939 ();
-// 0x000007A4 System.Void Utf8Json.Internal.Emit.MetaMember_<>c__DisplayClass41_0::.ctor()
+// 0x000007AA System.Void Utf8Json.Internal.Emit.MetaMember_<>c__DisplayClass41_0::.ctor()
 extern void U3CU3Ec__DisplayClass41_0__ctor_m93EBBC0EFD09127C15F0741FE77A9B823414557C ();
-// 0x000007A5 System.Boolean Utf8Json.Internal.Emit.MetaMember_<>c__DisplayClass41_0::<GetShouldSerialize>b__0(System.Reflection.MethodInfo)
+// 0x000007AB System.Boolean Utf8Json.Internal.Emit.MetaMember_<>c__DisplayClass41_0::<GetShouldSerialize>b__0(System.Reflection.MethodInfo)
 extern void U3CU3Ec__DisplayClass41_0_U3CGetShouldSerializeU3Eb__0_mD3CC82FC99B5A357931C4C1801BB1357E5791F5D ();
-// 0x000007A6 System.Void Utf8Json.Internal.Emit.InnerExceptionMetaMember_<>c::.cctor()
+// 0x000007AC System.Void Utf8Json.Internal.Emit.InnerExceptionMetaMember_<>c::.cctor()
 extern void U3CU3Ec__cctor_m3E956DA962A0A46AB81826053F5F4F06A9EA392C ();
-// 0x000007A7 System.Void Utf8Json.Internal.Emit.InnerExceptionMetaMember_<>c::.ctor()
+// 0x000007AD System.Void Utf8Json.Internal.Emit.InnerExceptionMetaMember_<>c::.ctor()
 extern void U3CU3Ec__ctor_mF6B796F3CAE1F00C09A6C56C4F4FE2693F8765B5 ();
-// 0x000007A8 System.Void Utf8Json.Internal.Emit.MetaType_<>c::.cctor()
+// 0x000007AE System.Void Utf8Json.Internal.Emit.MetaType_<>c::.cctor()
 extern void U3CU3Ec__cctor_mB20CDD4DB97545B1B922A399452951DE9C2D5514 ();
-// 0x000007A9 System.Void Utf8Json.Internal.Emit.MetaType_<>c::.ctor()
+// 0x000007AF System.Void Utf8Json.Internal.Emit.MetaType_<>c::.ctor()
 extern void U3CU3Ec__ctor_mF9FDE8399E5F97E75B19EFD54A8940E94FFDC674 ();
-// 0x000007AA System.Boolean Utf8Json.Internal.Emit.MetaType_<>c::<.ctor>b__26_0(System.Reflection.ConstructorInfo)
+// 0x000007B0 System.Boolean Utf8Json.Internal.Emit.MetaType_<>c::<.ctor>b__26_0(System.Reflection.ConstructorInfo)
 extern void U3CU3Ec_U3C_ctorU3Eb__26_0_mC4732DA3F6B824EBB80B62A5BFFB9EC555D24EA2 ();
-// 0x000007AB System.Boolean Utf8Json.Internal.Emit.MetaType_<>c::<.ctor>b__26_1(System.Reflection.ConstructorInfo)
+// 0x000007B1 System.Boolean Utf8Json.Internal.Emit.MetaType_<>c::<.ctor>b__26_1(System.Reflection.ConstructorInfo)
 extern void U3CU3Ec_U3C_ctorU3Eb__26_1_m89E1A0184C988A9F18DDF1C1D32B4F3AE7F36507 ();
-// 0x000007AC System.Boolean Utf8Json.Internal.Emit.MetaType_<>c::<.ctor>b__26_2(System.Reflection.ConstructorInfo)
+// 0x000007B2 System.Boolean Utf8Json.Internal.Emit.MetaType_<>c::<.ctor>b__26_2(System.Reflection.ConstructorInfo)
 extern void U3CU3Ec_U3C_ctorU3Eb__26_2_m13DEBA95C4DCF9B5A6477CF21A5CBCACA8F03F87 ();
-// 0x000007AD System.Int32 Utf8Json.Internal.Emit.MetaType_<>c::<.ctor>b__26_3(System.Reflection.ConstructorInfo)
+// 0x000007B3 System.Int32 Utf8Json.Internal.Emit.MetaType_<>c::<.ctor>b__26_3(System.Reflection.ConstructorInfo)
 extern void U3CU3Ec_U3C_ctorU3Eb__26_3_mF10E07ABBD395A16B72921B0B90893C79C731F90 ();
-// 0x000007AE System.String Utf8Json.Internal.Emit.MetaType_<>c::<.ctor>b__26_4(System.Collections.Generic.KeyValuePair`2<System.String,Utf8Json.Internal.Emit.MetaMember>)
+// 0x000007B4 System.String Utf8Json.Internal.Emit.MetaType_<>c::<.ctor>b__26_4(System.Collections.Generic.KeyValuePair`2<System.String,Utf8Json.Internal.Emit.MetaMember>)
 extern void U3CU3Ec_U3C_ctorU3Eb__26_4_m16E0D94B98DB5749148726643AE65B74CFC1BD54 ();
-// 0x000007AF System.Collections.Generic.KeyValuePair`2<System.String,Utf8Json.Internal.Emit.MetaMember> Utf8Json.Internal.Emit.MetaType_<>c::<.ctor>b__26_5(System.Collections.Generic.KeyValuePair`2<System.String,Utf8Json.Internal.Emit.MetaMember>)
+// 0x000007B5 System.Collections.Generic.KeyValuePair`2<System.String,Utf8Json.Internal.Emit.MetaMember> Utf8Json.Internal.Emit.MetaType_<>c::<.ctor>b__26_5(System.Collections.Generic.KeyValuePair`2<System.String,Utf8Json.Internal.Emit.MetaMember>)
 extern void U3CU3Ec_U3C_ctorU3Eb__26_5_m9F05D861AE7D7C22DF1537FAEF433184E65CE98B ();
-// 0x000007B0 System.Void Utf8Json.Formatters.DynamicObjectTypeFallbackFormatter_SerializeMethod::.ctor(System.Object,System.IntPtr)
+// 0x000007B6 System.Void Utf8Json.Formatters.DynamicObjectTypeFallbackFormatter_SerializeMethod::.ctor(System.Object,System.IntPtr)
 extern void SerializeMethod__ctor_mA6D3D94232AA27D5B8463FED91F2F4EDC6BBFD11 ();
-// 0x000007B1 System.Void Utf8Json.Formatters.DynamicObjectTypeFallbackFormatter_SerializeMethod::Invoke(System.Object,Utf8Json.JsonWriter&,System.Object,Utf8Json.IJsonFormatterResolver)
+// 0x000007B7 System.Void Utf8Json.Formatters.DynamicObjectTypeFallbackFormatter_SerializeMethod::Invoke(System.Object,Utf8Json.JsonWriter&,System.Object,Utf8Json.IJsonFormatterResolver)
 extern void SerializeMethod_Invoke_m09997C1A0CF8B2BE9CB298DBB4B77BC0CF41BA14 ();
-// 0x000007B2 System.IAsyncResult Utf8Json.Formatters.DynamicObjectTypeFallbackFormatter_SerializeMethod::BeginInvoke(System.Object,Utf8Json.JsonWriter&,System.Object,Utf8Json.IJsonFormatterResolver,System.AsyncCallback,System.Object)
+// 0x000007B8 System.IAsyncResult Utf8Json.Formatters.DynamicObjectTypeFallbackFormatter_SerializeMethod::BeginInvoke(System.Object,Utf8Json.JsonWriter&,System.Object,Utf8Json.IJsonFormatterResolver,System.AsyncCallback,System.Object)
 extern void SerializeMethod_BeginInvoke_m7B0BEF52F93DC69732CDF6087D622A1C7A8AA995 ();
-// 0x000007B3 System.Void Utf8Json.Formatters.DynamicObjectTypeFallbackFormatter_SerializeMethod::EndInvoke(Utf8Json.JsonWriter&,System.IAsyncResult)
+// 0x000007B9 System.Void Utf8Json.Formatters.DynamicObjectTypeFallbackFormatter_SerializeMethod::EndInvoke(Utf8Json.JsonWriter&,System.IAsyncResult)
 extern void SerializeMethod_EndInvoke_mF12CF40A5B00EB1ED4D1BAF07DFBBC39AABD1655 ();
-// 0x000007B4 System.Void Utf8Json.Formatters.DynamicObjectTypeFallbackFormatter_<>c::.cctor()
+// 0x000007BA System.Void Utf8Json.Formatters.DynamicObjectTypeFallbackFormatter_<>c::.cctor()
 extern void U3CU3Ec__cctor_m0F4A10A528044ADD74F9EAAC5F3D333E7424504F ();
-// 0x000007B5 System.Void Utf8Json.Formatters.DynamicObjectTypeFallbackFormatter_<>c::.ctor()
+// 0x000007BB System.Void Utf8Json.Formatters.DynamicObjectTypeFallbackFormatter_<>c::.ctor()
 extern void U3CU3Ec__ctor_m9D184D180D972E9C7CEE478A9CF09A3CC462E362 ();
-// 0x000007B6 System.String Utf8Json.Formatters.DynamicObjectTypeFallbackFormatter_<>c::<Serialize>b__4_0(Utf8Json.IJsonFormatterResolver)
+// 0x000007BC System.String Utf8Json.Formatters.DynamicObjectTypeFallbackFormatter_<>c::<Serialize>b__4_0(Utf8Json.IJsonFormatterResolver)
 extern void U3CU3Ec_U3CSerializeU3Eb__4_0_mE9D92061771273F6A84474B771D17FB5964C4824 ();
-// 0x000007B7 System.Void Utf8Json.Formatters.EnumFormatterHelper_<>c::.cctor()
+// 0x000007BD System.Void Utf8Json.Formatters.EnumFormatterHelper_<>c::.cctor()
 extern void U3CU3Ec__cctor_m178A9CD5AA33AED204CF3EF635B3315394384F47 ();
-// 0x000007B8 System.Void Utf8Json.Formatters.EnumFormatterHelper_<>c::.ctor()
+// 0x000007BE System.Void Utf8Json.Formatters.EnumFormatterHelper_<>c::.ctor()
 extern void U3CU3Ec__ctor_m35F280DB4225A63DFA1FEC967D1DD6D77A835B9C ();
-// 0x000007B9 System.Void Utf8Json.Formatters.EnumFormatterHelper_<>c::<GetSerializeDelegate>b__0_0(Utf8Json.JsonWriter&,System.Object,Utf8Json.IJsonFormatterResolver)
+// 0x000007BF System.Void Utf8Json.Formatters.EnumFormatterHelper_<>c::<GetSerializeDelegate>b__0_0(Utf8Json.JsonWriter&,System.Object,Utf8Json.IJsonFormatterResolver)
 extern void U3CU3Ec_U3CGetSerializeDelegateU3Eb__0_0_m63829F2657029AB6D9201C7A8DB0E8816E0A21F1 ();
-// 0x000007BA System.Void Utf8Json.Formatters.EnumFormatterHelper_<>c::<GetSerializeDelegate>b__0_1(Utf8Json.JsonWriter&,System.Object,Utf8Json.IJsonFormatterResolver)
+// 0x000007C0 System.Void Utf8Json.Formatters.EnumFormatterHelper_<>c::<GetSerializeDelegate>b__0_1(Utf8Json.JsonWriter&,System.Object,Utf8Json.IJsonFormatterResolver)
 extern void U3CU3Ec_U3CGetSerializeDelegateU3Eb__0_1_m6D2528393465E0BEB3CFA803CD536B4C42C22A00 ();
-// 0x000007BB System.Void Utf8Json.Formatters.EnumFormatterHelper_<>c::<GetSerializeDelegate>b__0_2(Utf8Json.JsonWriter&,System.Object,Utf8Json.IJsonFormatterResolver)
+// 0x000007C1 System.Void Utf8Json.Formatters.EnumFormatterHelper_<>c::<GetSerializeDelegate>b__0_2(Utf8Json.JsonWriter&,System.Object,Utf8Json.IJsonFormatterResolver)
 extern void U3CU3Ec_U3CGetSerializeDelegateU3Eb__0_2_mA1C5D75CAB847DFE7BA662E155F3A42D64EA3702 ();
-// 0x000007BC System.Void Utf8Json.Formatters.EnumFormatterHelper_<>c::<GetSerializeDelegate>b__0_3(Utf8Json.JsonWriter&,System.Object,Utf8Json.IJsonFormatterResolver)
+// 0x000007C2 System.Void Utf8Json.Formatters.EnumFormatterHelper_<>c::<GetSerializeDelegate>b__0_3(Utf8Json.JsonWriter&,System.Object,Utf8Json.IJsonFormatterResolver)
 extern void U3CU3Ec_U3CGetSerializeDelegateU3Eb__0_3_m3E285D63167F280D035247EBD1EB970188915884 ();
-// 0x000007BD System.Void Utf8Json.Formatters.EnumFormatterHelper_<>c::<GetSerializeDelegate>b__0_4(Utf8Json.JsonWriter&,System.Object,Utf8Json.IJsonFormatterResolver)
+// 0x000007C3 System.Void Utf8Json.Formatters.EnumFormatterHelper_<>c::<GetSerializeDelegate>b__0_4(Utf8Json.JsonWriter&,System.Object,Utf8Json.IJsonFormatterResolver)
 extern void U3CU3Ec_U3CGetSerializeDelegateU3Eb__0_4_m195D8A17B4CF78B16C01D5C453A053513CEBFDE2 ();
-// 0x000007BE System.Void Utf8Json.Formatters.EnumFormatterHelper_<>c::<GetSerializeDelegate>b__0_5(Utf8Json.JsonWriter&,System.Object,Utf8Json.IJsonFormatterResolver)
+// 0x000007C4 System.Void Utf8Json.Formatters.EnumFormatterHelper_<>c::<GetSerializeDelegate>b__0_5(Utf8Json.JsonWriter&,System.Object,Utf8Json.IJsonFormatterResolver)
 extern void U3CU3Ec_U3CGetSerializeDelegateU3Eb__0_5_mE89512CCDDFE57BF48C1711E065736F7E65240F2 ();
-// 0x000007BF System.Void Utf8Json.Formatters.EnumFormatterHelper_<>c::<GetSerializeDelegate>b__0_6(Utf8Json.JsonWriter&,System.Object,Utf8Json.IJsonFormatterResolver)
+// 0x000007C5 System.Void Utf8Json.Formatters.EnumFormatterHelper_<>c::<GetSerializeDelegate>b__0_6(Utf8Json.JsonWriter&,System.Object,Utf8Json.IJsonFormatterResolver)
 extern void U3CU3Ec_U3CGetSerializeDelegateU3Eb__0_6_m12DB2AB9C695A8CA957CAC9E82C5C851C5543D1E ();
-// 0x000007C0 System.Void Utf8Json.Formatters.EnumFormatterHelper_<>c::<GetSerializeDelegate>b__0_7(Utf8Json.JsonWriter&,System.Object,Utf8Json.IJsonFormatterResolver)
+// 0x000007C6 System.Void Utf8Json.Formatters.EnumFormatterHelper_<>c::<GetSerializeDelegate>b__0_7(Utf8Json.JsonWriter&,System.Object,Utf8Json.IJsonFormatterResolver)
 extern void U3CU3Ec_U3CGetSerializeDelegateU3Eb__0_7_m51DCCAE9E1601FBED32C826692684E5B0B3AABE6 ();
-// 0x000007C1 System.Object Utf8Json.Formatters.EnumFormatterHelper_<>c::<GetDeserializeDelegate>b__1_0(Utf8Json.JsonReader&,Utf8Json.IJsonFormatterResolver)
+// 0x000007C7 System.Object Utf8Json.Formatters.EnumFormatterHelper_<>c::<GetDeserializeDelegate>b__1_0(Utf8Json.JsonReader&,Utf8Json.IJsonFormatterResolver)
 extern void U3CU3Ec_U3CGetDeserializeDelegateU3Eb__1_0_m0607F0E38AD44DFAB21A5707FAB970D62D923826 ();
-// 0x000007C2 System.Object Utf8Json.Formatters.EnumFormatterHelper_<>c::<GetDeserializeDelegate>b__1_1(Utf8Json.JsonReader&,Utf8Json.IJsonFormatterResolver)
+// 0x000007C8 System.Object Utf8Json.Formatters.EnumFormatterHelper_<>c::<GetDeserializeDelegate>b__1_1(Utf8Json.JsonReader&,Utf8Json.IJsonFormatterResolver)
 extern void U3CU3Ec_U3CGetDeserializeDelegateU3Eb__1_1_m1C337C4A1462EA508FF36BBC411EAA00F5CD043B ();
-// 0x000007C3 System.Object Utf8Json.Formatters.EnumFormatterHelper_<>c::<GetDeserializeDelegate>b__1_2(Utf8Json.JsonReader&,Utf8Json.IJsonFormatterResolver)
+// 0x000007C9 System.Object Utf8Json.Formatters.EnumFormatterHelper_<>c::<GetDeserializeDelegate>b__1_2(Utf8Json.JsonReader&,Utf8Json.IJsonFormatterResolver)
 extern void U3CU3Ec_U3CGetDeserializeDelegateU3Eb__1_2_mBCBDE9E284FFF143858690ECF641DCB75DFF2843 ();
-// 0x000007C4 System.Object Utf8Json.Formatters.EnumFormatterHelper_<>c::<GetDeserializeDelegate>b__1_3(Utf8Json.JsonReader&,Utf8Json.IJsonFormatterResolver)
+// 0x000007CA System.Object Utf8Json.Formatters.EnumFormatterHelper_<>c::<GetDeserializeDelegate>b__1_3(Utf8Json.JsonReader&,Utf8Json.IJsonFormatterResolver)
 extern void U3CU3Ec_U3CGetDeserializeDelegateU3Eb__1_3_m1C3249A78FE126B31C5D823DF68175231C417172 ();
-// 0x000007C5 System.Object Utf8Json.Formatters.EnumFormatterHelper_<>c::<GetDeserializeDelegate>b__1_4(Utf8Json.JsonReader&,Utf8Json.IJsonFormatterResolver)
+// 0x000007CB System.Object Utf8Json.Formatters.EnumFormatterHelper_<>c::<GetDeserializeDelegate>b__1_4(Utf8Json.JsonReader&,Utf8Json.IJsonFormatterResolver)
 extern void U3CU3Ec_U3CGetDeserializeDelegateU3Eb__1_4_mD6677962121697117DBE3FDD5301DF9C32FD09DD ();
-// 0x000007C6 System.Object Utf8Json.Formatters.EnumFormatterHelper_<>c::<GetDeserializeDelegate>b__1_5(Utf8Json.JsonReader&,Utf8Json.IJsonFormatterResolver)
+// 0x000007CC System.Object Utf8Json.Formatters.EnumFormatterHelper_<>c::<GetDeserializeDelegate>b__1_5(Utf8Json.JsonReader&,Utf8Json.IJsonFormatterResolver)
 extern void U3CU3Ec_U3CGetDeserializeDelegateU3Eb__1_5_m5C0972A7E96DFE211DE1B1A7E68E56FD1EFA3E03 ();
-// 0x000007C7 System.Object Utf8Json.Formatters.EnumFormatterHelper_<>c::<GetDeserializeDelegate>b__1_6(Utf8Json.JsonReader&,Utf8Json.IJsonFormatterResolver)
+// 0x000007CD System.Object Utf8Json.Formatters.EnumFormatterHelper_<>c::<GetDeserializeDelegate>b__1_6(Utf8Json.JsonReader&,Utf8Json.IJsonFormatterResolver)
 extern void U3CU3Ec_U3CGetDeserializeDelegateU3Eb__1_6_mA732BE55917D27CD7F73E0E3A27B04FE272A4715 ();
-// 0x000007C8 System.Object Utf8Json.Formatters.EnumFormatterHelper_<>c::<GetDeserializeDelegate>b__1_7(Utf8Json.JsonReader&,Utf8Json.IJsonFormatterResolver)
+// 0x000007CE System.Object Utf8Json.Formatters.EnumFormatterHelper_<>c::<GetDeserializeDelegate>b__1_7(Utf8Json.JsonReader&,Utf8Json.IJsonFormatterResolver)
 extern void U3CU3Ec_U3CGetDeserializeDelegateU3Eb__1_7_m64265A3AF29AD713BE45B151F65C328F12257FD8 ();
-// 0x000007C9 System.Void Utf8Json.Formatters.EnumFormatter`1_<>c__DisplayClass4_0::.ctor()
-// 0x000007CA System.Boolean Utf8Json.Formatters.EnumFormatter`1_<>c__DisplayClass4_0::<.cctor>b__0(System.Reflection.FieldInfo)
-// 0x000007CB System.Void Utf8Json.Formatters.EnumFormatter`1_<>c__DisplayClass4_1::.ctor()
-// 0x000007CC System.Void Utf8Json.Formatters.EnumFormatter`1_<>c__DisplayClass4_1::<.cctor>b__1(Utf8Json.JsonWriter&,T,Utf8Json.IJsonFormatterResolver)
-// 0x000007CD System.Void Utf8Json.Formatters.EnumFormatter`1_<>c__DisplayClass4_2::.ctor()
-// 0x000007CE T Utf8Json.Formatters.EnumFormatter`1_<>c__DisplayClass4_2::<.cctor>b__2(Utf8Json.JsonReader&,Utf8Json.IJsonFormatterResolver)
-// 0x000007CF System.Void Extensions.DebugExtensions_<DelayedLogRoutine>d__6::.ctor(System.Int32)
+// 0x000007CF System.Void Utf8Json.Formatters.EnumFormatter`1_<>c__DisplayClass4_0::.ctor()
+// 0x000007D0 System.Boolean Utf8Json.Formatters.EnumFormatter`1_<>c__DisplayClass4_0::<.cctor>b__0(System.Reflection.FieldInfo)
+// 0x000007D1 System.Void Utf8Json.Formatters.EnumFormatter`1_<>c__DisplayClass4_1::.ctor()
+// 0x000007D2 System.Void Utf8Json.Formatters.EnumFormatter`1_<>c__DisplayClass4_1::<.cctor>b__1(Utf8Json.JsonWriter&,T,Utf8Json.IJsonFormatterResolver)
+// 0x000007D3 System.Void Utf8Json.Formatters.EnumFormatter`1_<>c__DisplayClass4_2::.ctor()
+// 0x000007D4 T Utf8Json.Formatters.EnumFormatter`1_<>c__DisplayClass4_2::<.cctor>b__2(Utf8Json.JsonReader&,Utf8Json.IJsonFormatterResolver)
+// 0x000007D5 System.Void Extensions.DebugExtensions_<DelayedLogRoutine>d__6::.ctor(System.Int32)
 extern void U3CDelayedLogRoutineU3Ed__6__ctor_m82E217528DE336E6C47F68702DFF3400F77F83BB ();
-// 0x000007D0 System.Void Extensions.DebugExtensions_<DelayedLogRoutine>d__6::System.IDisposable.Dispose()
+// 0x000007D6 System.Void Extensions.DebugExtensions_<DelayedLogRoutine>d__6::System.IDisposable.Dispose()
 extern void U3CDelayedLogRoutineU3Ed__6_System_IDisposable_Dispose_m2DECEA3BF68434EB2CFC950DDD03EFFFE216E8F4 ();
-// 0x000007D1 System.Boolean Extensions.DebugExtensions_<DelayedLogRoutine>d__6::MoveNext()
+// 0x000007D7 System.Boolean Extensions.DebugExtensions_<DelayedLogRoutine>d__6::MoveNext()
 extern void U3CDelayedLogRoutineU3Ed__6_MoveNext_mD79E1B17F9C985DDC8378F88B12C332874B0CBE6 ();
-// 0x000007D2 System.Object Extensions.DebugExtensions_<DelayedLogRoutine>d__6::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+// 0x000007D8 System.Object Extensions.DebugExtensions_<DelayedLogRoutine>d__6::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
 extern void U3CDelayedLogRoutineU3Ed__6_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m6269ACC20920310F062C76EDB895F5DB7EEC420A ();
-// 0x000007D3 System.Void Extensions.DebugExtensions_<DelayedLogRoutine>d__6::System.Collections.IEnumerator.Reset()
+// 0x000007D9 System.Void Extensions.DebugExtensions_<DelayedLogRoutine>d__6::System.Collections.IEnumerator.Reset()
 extern void U3CDelayedLogRoutineU3Ed__6_System_Collections_IEnumerator_Reset_m084DC7E8E1313930FD409D8AB93B2EEBF763B535 ();
-// 0x000007D4 System.Object Extensions.DebugExtensions_<DelayedLogRoutine>d__6::System.Collections.IEnumerator.get_Current()
+// 0x000007DA System.Object Extensions.DebugExtensions_<DelayedLogRoutine>d__6::System.Collections.IEnumerator.get_Current()
 extern void U3CDelayedLogRoutineU3Ed__6_System_Collections_IEnumerator_get_Current_m1C65CA42C49534B5F1C53089C3C1848FDC129114 ();
-// 0x000007D5 System.Void Extensions.DebugExtensions_<DelayedLogRoutine>d__8`1::.ctor(System.Int32)
-// 0x000007D6 System.Void Extensions.DebugExtensions_<DelayedLogRoutine>d__8`1::System.IDisposable.Dispose()
-// 0x000007D7 System.Boolean Extensions.DebugExtensions_<DelayedLogRoutine>d__8`1::MoveNext()
-// 0x000007D8 System.Object Extensions.DebugExtensions_<DelayedLogRoutine>d__8`1::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-// 0x000007D9 System.Void Extensions.DebugExtensions_<DelayedLogRoutine>d__8`1::System.Collections.IEnumerator.Reset()
-// 0x000007DA System.Object Extensions.DebugExtensions_<DelayedLogRoutine>d__8`1::System.Collections.IEnumerator.get_Current()
-// 0x000007DB System.Void MatchingCardGame.IslandsLevelsData_IslandsLevelEntry::.ctor(MatchingCardGame.IslandsLevelsData_IslandsLevelEntry)
+// 0x000007DB System.Void Extensions.DebugExtensions_<DelayedLogRoutine>d__8`1::.ctor(System.Int32)
+// 0x000007DC System.Void Extensions.DebugExtensions_<DelayedLogRoutine>d__8`1::System.IDisposable.Dispose()
+// 0x000007DD System.Boolean Extensions.DebugExtensions_<DelayedLogRoutine>d__8`1::MoveNext()
+// 0x000007DE System.Object Extensions.DebugExtensions_<DelayedLogRoutine>d__8`1::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+// 0x000007DF System.Void Extensions.DebugExtensions_<DelayedLogRoutine>d__8`1::System.Collections.IEnumerator.Reset()
+// 0x000007E0 System.Object Extensions.DebugExtensions_<DelayedLogRoutine>d__8`1::System.Collections.IEnumerator.get_Current()
+// 0x000007E1 System.Void MatchingCardGame.IslandsLevelsData_IslandsLevelEntry::.ctor(MatchingCardGame.IslandsLevelsData_IslandsLevelEntry)
 extern void IslandsLevelEntry__ctor_m6E1BEA53B80DD638662853AD9F95F4AF8D3BE2B7 ();
-// 0x000007DC MatchingCardGame.IslandsLevel MatchingCardGame.IslandsLevelsData_IslandsLevelEntry::MakeLevel()
+// 0x000007E2 MatchingCardGame.IslandsLevel MatchingCardGame.IslandsLevelsData_IslandsLevelEntry::MakeLevel()
 extern void IslandsLevelEntry_MakeLevel_m17B3C3F63E6718A551DDCCCD95C22B19008D5AC6 ();
-// 0x000007DD System.Void MatchingCardGame.IslandsLevelsData_IslandsLevelZone::.ctor()
+// 0x000007E3 System.Void MatchingCardGame.IslandsLevelsData_IslandsLevelZone::.ctor()
 extern void IslandsLevelZone__ctor_m8AF3508261B1F060538B2B1F6A0B39BA2883ACBB ();
-// 0x000007DE System.Void MatchingCardGame.AnimatedBackground_Pixel::.ctor()
+// 0x000007E4 System.Void MatchingCardGame.AnimatedBackground_Pixel::.ctor()
 extern void Pixel__ctor_m6BF4AB6926E377D57FCA2AF449B02BE6E4F796D9 ();
-// 0x000007DF System.Void MatchingCardGame.GameOverScreen_<ShowMenuOptionsRoutine>d__6::.ctor(System.Int32)
+// 0x000007E5 System.Void MatchingCardGame.GameOverScreen_<ShowMenuOptionsRoutine>d__6::.ctor(System.Int32)
 extern void U3CShowMenuOptionsRoutineU3Ed__6__ctor_mE6E215011B729E48C424119F9A786F5B8F75E639 ();
-// 0x000007E0 System.Void MatchingCardGame.GameOverScreen_<ShowMenuOptionsRoutine>d__6::System.IDisposable.Dispose()
+// 0x000007E6 System.Void MatchingCardGame.GameOverScreen_<ShowMenuOptionsRoutine>d__6::System.IDisposable.Dispose()
 extern void U3CShowMenuOptionsRoutineU3Ed__6_System_IDisposable_Dispose_m0A53551AA7297136893FD37B7C23EC18783A4E70 ();
-// 0x000007E1 System.Boolean MatchingCardGame.GameOverScreen_<ShowMenuOptionsRoutine>d__6::MoveNext()
+// 0x000007E7 System.Boolean MatchingCardGame.GameOverScreen_<ShowMenuOptionsRoutine>d__6::MoveNext()
 extern void U3CShowMenuOptionsRoutineU3Ed__6_MoveNext_m88A078A35537D02D5E0B215AE96FC7A4FDA792BB ();
-// 0x000007E2 System.Object MatchingCardGame.GameOverScreen_<ShowMenuOptionsRoutine>d__6::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+// 0x000007E8 System.Object MatchingCardGame.GameOverScreen_<ShowMenuOptionsRoutine>d__6::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
 extern void U3CShowMenuOptionsRoutineU3Ed__6_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m67FA66C3E86CBE304503001A6573042ADB7FD402 ();
-// 0x000007E3 System.Void MatchingCardGame.GameOverScreen_<ShowMenuOptionsRoutine>d__6::System.Collections.IEnumerator.Reset()
+// 0x000007E9 System.Void MatchingCardGame.GameOverScreen_<ShowMenuOptionsRoutine>d__6::System.Collections.IEnumerator.Reset()
 extern void U3CShowMenuOptionsRoutineU3Ed__6_System_Collections_IEnumerator_Reset_mC3FFE575845CF6BA73F56D5816F25BAB01A2B312 ();
-// 0x000007E4 System.Object MatchingCardGame.GameOverScreen_<ShowMenuOptionsRoutine>d__6::System.Collections.IEnumerator.get_Current()
+// 0x000007EA System.Object MatchingCardGame.GameOverScreen_<ShowMenuOptionsRoutine>d__6::System.Collections.IEnumerator.get_Current()
 extern void U3CShowMenuOptionsRoutineU3Ed__6_System_Collections_IEnumerator_get_Current_mB14932FA3D5F4CFEE25BF411F87C3411BBFAD53C ();
-// 0x000007E5 System.Void MatchingCardGame.IslandsLevelsMinigame_<Start>d__28::.ctor(System.Int32)
+// 0x000007EB System.Void MatchingCardGame.IslandsLevelsMinigame_<Start>d__28::.ctor(System.Int32)
 extern void U3CStartU3Ed__28__ctor_m482A10809F3719179AB0F94464BB52663604309E ();
-// 0x000007E6 System.Void MatchingCardGame.IslandsLevelsMinigame_<Start>d__28::System.IDisposable.Dispose()
+// 0x000007EC System.Void MatchingCardGame.IslandsLevelsMinigame_<Start>d__28::System.IDisposable.Dispose()
 extern void U3CStartU3Ed__28_System_IDisposable_Dispose_mFB3E18DA0F6A38332CAD5F5F41D12D6E8FCB904C ();
-// 0x000007E7 System.Boolean MatchingCardGame.IslandsLevelsMinigame_<Start>d__28::MoveNext()
+// 0x000007ED System.Boolean MatchingCardGame.IslandsLevelsMinigame_<Start>d__28::MoveNext()
 extern void U3CStartU3Ed__28_MoveNext_mA9F9EAA1D26C9DD4743E336AECF74A5D58EC5A2A ();
-// 0x000007E8 System.Object MatchingCardGame.IslandsLevelsMinigame_<Start>d__28::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+// 0x000007EE System.Object MatchingCardGame.IslandsLevelsMinigame_<Start>d__28::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
 extern void U3CStartU3Ed__28_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mC57B3882FDD4B93DEEE014BDF9A10622C6AFCE78 ();
-// 0x000007E9 System.Void MatchingCardGame.IslandsLevelsMinigame_<Start>d__28::System.Collections.IEnumerator.Reset()
+// 0x000007EF System.Void MatchingCardGame.IslandsLevelsMinigame_<Start>d__28::System.Collections.IEnumerator.Reset()
 extern void U3CStartU3Ed__28_System_Collections_IEnumerator_Reset_mDCB684D8E569406CC789A55E628A2B24BA1DB2CF ();
-// 0x000007EA System.Object MatchingCardGame.IslandsLevelsMinigame_<Start>d__28::System.Collections.IEnumerator.get_Current()
+// 0x000007F0 System.Object MatchingCardGame.IslandsLevelsMinigame_<Start>d__28::System.Collections.IEnumerator.get_Current()
 extern void U3CStartU3Ed__28_System_Collections_IEnumerator_get_Current_m3FAAC485A80389BB5CB1CCBB84E6E1F7DE5B4715 ();
-// 0x000007EB System.Void MatchingCardGame.IslandsLevelsMinigame_<MakeLevelsRoutine>d__30::.ctor(System.Int32)
+// 0x000007F1 System.Void MatchingCardGame.IslandsLevelsMinigame_<MakeLevelsRoutine>d__30::.ctor(System.Int32)
 extern void U3CMakeLevelsRoutineU3Ed__30__ctor_mD185725109BACEB7D1C705163DCABA46C7C36BDD ();
-// 0x000007EC System.Void MatchingCardGame.IslandsLevelsMinigame_<MakeLevelsRoutine>d__30::System.IDisposable.Dispose()
+// 0x000007F2 System.Void MatchingCardGame.IslandsLevelsMinigame_<MakeLevelsRoutine>d__30::System.IDisposable.Dispose()
 extern void U3CMakeLevelsRoutineU3Ed__30_System_IDisposable_Dispose_m5330421B9CD43438AAAC078CAECA3D1CA628E97B ();
-// 0x000007ED System.Boolean MatchingCardGame.IslandsLevelsMinigame_<MakeLevelsRoutine>d__30::MoveNext()
+// 0x000007F3 System.Boolean MatchingCardGame.IslandsLevelsMinigame_<MakeLevelsRoutine>d__30::MoveNext()
 extern void U3CMakeLevelsRoutineU3Ed__30_MoveNext_m74418D67A0DD38CB5FE08F2B29D2D59A90A304C7 ();
-// 0x000007EE System.Object MatchingCardGame.IslandsLevelsMinigame_<MakeLevelsRoutine>d__30::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+// 0x000007F4 System.Object MatchingCardGame.IslandsLevelsMinigame_<MakeLevelsRoutine>d__30::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
 extern void U3CMakeLevelsRoutineU3Ed__30_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mE41D82D025F06EA41C18FD9125471C7B892ADB0A ();
-// 0x000007EF System.Void MatchingCardGame.IslandsLevelsMinigame_<MakeLevelsRoutine>d__30::System.Collections.IEnumerator.Reset()
+// 0x000007F5 System.Void MatchingCardGame.IslandsLevelsMinigame_<MakeLevelsRoutine>d__30::System.Collections.IEnumerator.Reset()
 extern void U3CMakeLevelsRoutineU3Ed__30_System_Collections_IEnumerator_Reset_m234A9A740FF975D392FE040860B0F3888A6D2ECD ();
-// 0x000007F0 System.Object MatchingCardGame.IslandsLevelsMinigame_<MakeLevelsRoutine>d__30::System.Collections.IEnumerator.get_Current()
+// 0x000007F6 System.Object MatchingCardGame.IslandsLevelsMinigame_<MakeLevelsRoutine>d__30::System.Collections.IEnumerator.get_Current()
 extern void U3CMakeLevelsRoutineU3Ed__30_System_Collections_IEnumerator_get_Current_m7EB2BEFECA2F49CB252F1C428F401BEFA0184917 ();
-// 0x000007F1 System.Void MatchingCardGame.IslandsLevelsMinigame_<MakeNextLevelRoutine>d__31::.ctor(System.Int32)
+// 0x000007F7 System.Void MatchingCardGame.IslandsLevelsMinigame_<MakeNextLevelRoutine>d__31::.ctor(System.Int32)
 extern void U3CMakeNextLevelRoutineU3Ed__31__ctor_m65CB093FAF5DAC67B305E7DA8F72584988B6B3EA ();
-// 0x000007F2 System.Void MatchingCardGame.IslandsLevelsMinigame_<MakeNextLevelRoutine>d__31::System.IDisposable.Dispose()
+// 0x000007F8 System.Void MatchingCardGame.IslandsLevelsMinigame_<MakeNextLevelRoutine>d__31::System.IDisposable.Dispose()
 extern void U3CMakeNextLevelRoutineU3Ed__31_System_IDisposable_Dispose_m8C71A53F6B02B29B94391B8C851C79DC404029AD ();
-// 0x000007F3 System.Boolean MatchingCardGame.IslandsLevelsMinigame_<MakeNextLevelRoutine>d__31::MoveNext()
+// 0x000007F9 System.Boolean MatchingCardGame.IslandsLevelsMinigame_<MakeNextLevelRoutine>d__31::MoveNext()
 extern void U3CMakeNextLevelRoutineU3Ed__31_MoveNext_m49C1143E3437E6EC7D8A30F42B10051F8DEE0521 ();
-// 0x000007F4 System.Object MatchingCardGame.IslandsLevelsMinigame_<MakeNextLevelRoutine>d__31::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+// 0x000007FA System.Object MatchingCardGame.IslandsLevelsMinigame_<MakeNextLevelRoutine>d__31::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
 extern void U3CMakeNextLevelRoutineU3Ed__31_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m4B5B9B3B224D83180EC0C7258201C33F47DDA847 ();
-// 0x000007F5 System.Void MatchingCardGame.IslandsLevelsMinigame_<MakeNextLevelRoutine>d__31::System.Collections.IEnumerator.Reset()
+// 0x000007FB System.Void MatchingCardGame.IslandsLevelsMinigame_<MakeNextLevelRoutine>d__31::System.Collections.IEnumerator.Reset()
 extern void U3CMakeNextLevelRoutineU3Ed__31_System_Collections_IEnumerator_Reset_m4B5CE1D13D09076FDAFA16C25C1997880B04ACA4 ();
-// 0x000007F6 System.Object MatchingCardGame.IslandsLevelsMinigame_<MakeNextLevelRoutine>d__31::System.Collections.IEnumerator.get_Current()
+// 0x000007FC System.Object MatchingCardGame.IslandsLevelsMinigame_<MakeNextLevelRoutine>d__31::System.Collections.IEnumerator.get_Current()
 extern void U3CMakeNextLevelRoutineU3Ed__31_System_Collections_IEnumerator_get_Current_m3DEE759D9A72BC1C0FBFCA8CF3E530BE2691DE0F ();
-// 0x000007F7 System.Void MatchingCardGame.LevelSelectMenu_<>c__DisplayClass5_0::.ctor()
+// 0x000007FD System.Void MatchingCardGame.IslandsLevelsMinigameTutorial_<Start>d__1::.ctor(System.Int32)
+extern void U3CStartU3Ed__1__ctor_m7D73F1124596486F36C18B4F80DFF9B3CDD20354 ();
+// 0x000007FE System.Void MatchingCardGame.IslandsLevelsMinigameTutorial_<Start>d__1::System.IDisposable.Dispose()
+extern void U3CStartU3Ed__1_System_IDisposable_Dispose_m14DDECAAF3526635EC3966F42E9255998FC35D77 ();
+// 0x000007FF System.Boolean MatchingCardGame.IslandsLevelsMinigameTutorial_<Start>d__1::MoveNext()
+extern void U3CStartU3Ed__1_MoveNext_m6F3F6678339E56F23172E3C6D6EBC44CD3C7FBAC ();
+// 0x00000800 System.Object MatchingCardGame.IslandsLevelsMinigameTutorial_<Start>d__1::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3CStartU3Ed__1_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mC997C0DA0EEE87EA7FAFFDF4EBE7CC6A28DF6EF7 ();
+// 0x00000801 System.Void MatchingCardGame.IslandsLevelsMinigameTutorial_<Start>d__1::System.Collections.IEnumerator.Reset()
+extern void U3CStartU3Ed__1_System_Collections_IEnumerator_Reset_m632D9BA353B59B7E885E340B1DEB0333D645A939 ();
+// 0x00000802 System.Object MatchingCardGame.IslandsLevelsMinigameTutorial_<Start>d__1::System.Collections.IEnumerator.get_Current()
+extern void U3CStartU3Ed__1_System_Collections_IEnumerator_get_Current_m9B8C6F6F7C2124D0FC01DF7DDAD055A43C4BABD5 ();
+// 0x00000803 System.Void MatchingCardGame.LevelSelectMenu_<>c__DisplayClass5_0::.ctor()
 extern void U3CU3Ec__DisplayClass5_0__ctor_mE80E9F995B8435632C16F3F22994C56A4BD9CA7F ();
-// 0x000007F8 System.Void MatchingCardGame.LevelSelectMenu_<>c__DisplayClass5_0::<OnEnable>b__0()
+// 0x00000804 System.Void MatchingCardGame.LevelSelectMenu_<>c__DisplayClass5_0::<OnEnable>b__0()
 extern void U3CU3Ec__DisplayClass5_0_U3COnEnableU3Eb__0_mEC6D4DEE99E15B3100A9957298631563679B46E5 ();
-// 0x000007F9 System.Void MatchingCardGame.IslandsLevel_CardModifierEntry::.ctor()
+// 0x00000805 System.Void MatchingCardGame.IslandsLevel_CardModifierEntry::.ctor()
 extern void CardModifierEntry__ctor_m91ED3F051831913486E83E6BF3B11301D1C8B770 ();
-// 0x000007FA System.Void MatchingCardGame.ObjectPool_ObjectPoolEntry::.ctor()
+// 0x00000806 System.Void MatchingCardGame.ObjectPool_ObjectPoolEntry::.ctor()
 extern void ObjectPoolEntry__ctor_mF66F52FDC27E962B4915F4083AA510E680483215 ();
-// 0x000007FB System.Void MatchingCardGame.ObjectPool_ObjectPoolEntry::.ctor(UnityEngine.GameObject,UnityEngine.Transform,System.Int32)
+// 0x00000807 System.Void MatchingCardGame.ObjectPool_ObjectPoolEntry::.ctor(UnityEngine.GameObject,UnityEngine.Transform,System.Int32)
 extern void ObjectPoolEntry__ctor_m11B30985B71187D192B4C6B304CBE623216CF4D6 ();
-// 0x000007FC System.Void MatchingCardGame.ObjectPool_SpawnEntry::.ctor()
+// 0x00000808 System.Void MatchingCardGame.ObjectPool_SpawnEntry::.ctor()
 extern void SpawnEntry__ctor_mC77A5688E50AD095062871628E93EA752C4EC29E ();
-// 0x000007FD System.Void MatchingCardGame.ObjectPool_SpawnEntry::.ctor(System.Int32,System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.GameObject,UnityEngine.Transform>>)
+// 0x00000809 System.Void MatchingCardGame.ObjectPool_SpawnEntry::.ctor(System.Int32,System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.GameObject,UnityEngine.Transform>>)
 extern void SpawnEntry__ctor_m3F83B82990CE0A9A013FF298A8039B14D5FB5D5B ();
-// 0x000007FE System.Void MatchingCardGame.ObjectPool_SpawnedEntry::.ctor()
+// 0x0000080A System.Void MatchingCardGame.ObjectPool_SpawnedEntry::.ctor()
 extern void SpawnedEntry__ctor_m7B26AE28DF45C00181AF66BFA58F182CE9284706 ();
-// 0x000007FF System.Void MatchingCardGame.ObjectPool_SpawnedEntry::.ctor(UnityEngine.GameObject,UnityEngine.Transform)
+// 0x0000080B System.Void MatchingCardGame.ObjectPool_SpawnedEntry::.ctor(UnityEngine.GameObject,UnityEngine.Transform)
 extern void SpawnedEntry__ctor_m30D62785F7BB69C10B6BA8B940C994F19A3A9955 ();
-// 0x00000800 System.Void MatchingCardGame.ObjectPool_DelayedDespawn::.ctor()
+// 0x0000080C System.Void MatchingCardGame.ObjectPool_DelayedDespawn::.ctor()
 extern void DelayedDespawn__ctor_mCBB536814546EA7520F6610B963D3F2460ACF7FB ();
-// 0x00000801 System.Void MatchingCardGame.ObjectPool_DelayedDespawn::.ctor(System.Single)
+// 0x0000080D System.Void MatchingCardGame.ObjectPool_DelayedDespawn::.ctor(System.Single)
 extern void DelayedDespawn__ctor_m0687A9BFE9D24B79BBB30EDEA250C404BB236206 ();
-// 0x00000802 System.Void MatchingCardGame.ObjectPool_RangedDespawn::.ctor()
+// 0x0000080E System.Void MatchingCardGame.ObjectPool_RangedDespawn::.ctor()
 extern void RangedDespawn__ctor_mD191410DB4DD9058631E8ECB9E544B20EF2787D3 ();
-// 0x00000803 System.Void MatchingCardGame.ObjectPool_RangedDespawn::.ctor(UnityEngine.Vector3,System.Single)
+// 0x0000080F System.Void MatchingCardGame.ObjectPool_RangedDespawn::.ctor(UnityEngine.Vector3,System.Single)
 extern void RangedDespawn__ctor_m61CB9DF775E49C637AFDC95B3D735AA87CAF74C0 ();
-// 0x00000804 System.Void MatchingCardGame.WorldMap_Zone::.ctor()
+// 0x00000810 System.Void MatchingCardGame.WorldMap_Zone::.ctor()
 extern void Zone__ctor_mAB64557BB553ADF6824A0E93C2B8E573AF536085 ();
-// 0x00000805 System.Void MatchingCardGame.SoundEffect_Settings::.ctor()
+// 0x00000811 System.Void MatchingCardGame.SoundEffect_Settings::.ctor()
 extern void Settings__ctor_m0F69A2D2442602EEB3E0A4B1BB0518E3D9A761C2 ();
-// 0x00000806 System.Void MatchingCardGame.SoundEffect_Settings::.ctor(UnityEngine.AudioClip)
+// 0x00000812 System.Void MatchingCardGame.SoundEffect_Settings::.ctor(UnityEngine.AudioClip)
 extern void Settings__ctor_m34A2E1F10482F0657F04E59C2A940DF2B07440A7 ();
-// 0x00000807 System.Void MatchingCardGame.SoundEffect_Settings::.ctor(UnityEngine.AudioClip,System.Single,System.Single)
+// 0x00000813 System.Void MatchingCardGame.SoundEffect_Settings::.ctor(UnityEngine.AudioClip,System.Single,System.Single)
 extern void Settings__ctor_mF10C1D0BD43B763B1AB02AB988254B20C4563043 ();
-// 0x00000808 System.Void MatchingCardGame.TemporaryActiveText_<DoRoutine>d__2::.ctor(System.Int32)
+// 0x00000814 System.Void MatchingCardGame.TemporaryActiveText_<DoRoutine>d__2::.ctor(System.Int32)
 extern void U3CDoRoutineU3Ed__2__ctor_mE003EA36DCEF886686438C09A5789365868EE3D3 ();
-// 0x00000809 System.Void MatchingCardGame.TemporaryActiveText_<DoRoutine>d__2::System.IDisposable.Dispose()
+// 0x00000815 System.Void MatchingCardGame.TemporaryActiveText_<DoRoutine>d__2::System.IDisposable.Dispose()
 extern void U3CDoRoutineU3Ed__2_System_IDisposable_Dispose_m641B4148E80BD0FD9138EDFDEC89BB619F705799 ();
-// 0x0000080A System.Boolean MatchingCardGame.TemporaryActiveText_<DoRoutine>d__2::MoveNext()
+// 0x00000816 System.Boolean MatchingCardGame.TemporaryActiveText_<DoRoutine>d__2::MoveNext()
 extern void U3CDoRoutineU3Ed__2_MoveNext_m9A69D6CD9D333E753E5549B68BE11D028BB8EBA2 ();
-// 0x0000080B System.Object MatchingCardGame.TemporaryActiveText_<DoRoutine>d__2::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+// 0x00000817 System.Object MatchingCardGame.TemporaryActiveText_<DoRoutine>d__2::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
 extern void U3CDoRoutineU3Ed__2_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m5E69CA2255DBDC409867B49B781749C46FD3AF18 ();
-// 0x0000080C System.Void MatchingCardGame.TemporaryActiveText_<DoRoutine>d__2::System.Collections.IEnumerator.Reset()
+// 0x00000818 System.Void MatchingCardGame.TemporaryActiveText_<DoRoutine>d__2::System.Collections.IEnumerator.Reset()
 extern void U3CDoRoutineU3Ed__2_System_Collections_IEnumerator_Reset_mE1AC39E896D68EA23756D176B80E052E68A5391D ();
-// 0x0000080D System.Object MatchingCardGame.TemporaryActiveText_<DoRoutine>d__2::System.Collections.IEnumerator.get_Current()
+// 0x00000819 System.Object MatchingCardGame.TemporaryActiveText_<DoRoutine>d__2::System.Collections.IEnumerator.get_Current()
 extern void U3CDoRoutineU3Ed__2_System_Collections_IEnumerator_get_Current_mDEE345CD5F8B54801CEA86981452086B155F9478 ();
-// 0x0000080E System.Void MatchingCardGame.TemporaryActiveGameObject_<DoRoutine>d__6::.ctor(System.Int32)
+// 0x0000081A System.Void MatchingCardGame.TemporaryActiveGameObject_<DoRoutine>d__6::.ctor(System.Int32)
 extern void U3CDoRoutineU3Ed__6__ctor_m35ED1FC18C4FA1F2352B2D4F2C3191B2D8B31374 ();
-// 0x0000080F System.Void MatchingCardGame.TemporaryActiveGameObject_<DoRoutine>d__6::System.IDisposable.Dispose()
+// 0x0000081B System.Void MatchingCardGame.TemporaryActiveGameObject_<DoRoutine>d__6::System.IDisposable.Dispose()
 extern void U3CDoRoutineU3Ed__6_System_IDisposable_Dispose_m172093E99CDD2702EB1A0BB4B8A8650566B814A4 ();
-// 0x00000810 System.Boolean MatchingCardGame.TemporaryActiveGameObject_<DoRoutine>d__6::MoveNext()
+// 0x0000081C System.Boolean MatchingCardGame.TemporaryActiveGameObject_<DoRoutine>d__6::MoveNext()
 extern void U3CDoRoutineU3Ed__6_MoveNext_m56B1F2C4B9FEE34206C6FF57FF04729A7DD61BD8 ();
-// 0x00000811 System.Object MatchingCardGame.TemporaryActiveGameObject_<DoRoutine>d__6::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+// 0x0000081D System.Object MatchingCardGame.TemporaryActiveGameObject_<DoRoutine>d__6::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
 extern void U3CDoRoutineU3Ed__6_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mD4D1049BC18E99925AA5723CB7AA35282860128F ();
-// 0x00000812 System.Void MatchingCardGame.TemporaryActiveGameObject_<DoRoutine>d__6::System.Collections.IEnumerator.Reset()
+// 0x0000081E System.Void MatchingCardGame.TemporaryActiveGameObject_<DoRoutine>d__6::System.Collections.IEnumerator.Reset()
 extern void U3CDoRoutineU3Ed__6_System_Collections_IEnumerator_Reset_m932857FEDBA5D2D8B6BF872353E89680C4EB87AE ();
-// 0x00000813 System.Object MatchingCardGame.TemporaryActiveGameObject_<DoRoutine>d__6::System.Collections.IEnumerator.get_Current()
+// 0x0000081F System.Object MatchingCardGame.TemporaryActiveGameObject_<DoRoutine>d__6::System.Collections.IEnumerator.get_Current()
 extern void U3CDoRoutineU3Ed__6_System_Collections_IEnumerator_get_Current_m1E516A0B67FC8756AB3788FE6F3D3BC3368B686A ();
-// 0x00000814 System.Void MatchingCardGame.EventManager_Event::.ctor(System.Action,System.Single)
+// 0x00000820 System.Void MatchingCardGame.EventManager_Event::.ctor(System.Action,System.Single)
 extern void Event__ctor_m514C6A52388EDE194F64715A9171C8B10E40DC90 ();
-// 0x00000815 System.Void MatchingCardGame.EventManager_Event::Remove()
+// 0x00000821 System.Void MatchingCardGame.EventManager_Event::Remove()
 extern void Event_Remove_mCC87385D095376D7638615E17A453528FCE570A0 ();
-// 0x00000816 System.Void MatchingCardGame.EventManager_Event`1::.ctor(System.Action,T,System.Single)
-// 0x00000817 System.Void MatchingCardGame.GameManager_OnGameScenesLoaded::.ctor(System.Object,System.IntPtr)
+// 0x00000822 System.Void MatchingCardGame.EventManager_Event`1::.ctor(System.Action,T,System.Single)
+// 0x00000823 System.Void MatchingCardGame.GameManager_OnGameScenesLoaded::.ctor(System.Object,System.IntPtr)
 extern void OnGameScenesLoaded__ctor_mDF39D24634B75EC725FB40235EFC749757088207 ();
-// 0x00000818 System.Void MatchingCardGame.GameManager_OnGameScenesLoaded::Invoke()
+// 0x00000824 System.Void MatchingCardGame.GameManager_OnGameScenesLoaded::Invoke()
 extern void OnGameScenesLoaded_Invoke_mD0EAB3EE86FE10AB7CC4A0517F0D8A5BECDEB238 ();
-// 0x00000819 System.IAsyncResult MatchingCardGame.GameManager_OnGameScenesLoaded::BeginInvoke(System.AsyncCallback,System.Object)
+// 0x00000825 System.IAsyncResult MatchingCardGame.GameManager_OnGameScenesLoaded::BeginInvoke(System.AsyncCallback,System.Object)
 extern void OnGameScenesLoaded_BeginInvoke_mC6B4CE7D8CF262F02C647A83B0719BBA19B2B52B ();
-// 0x0000081A System.Void MatchingCardGame.GameManager_OnGameScenesLoaded::EndInvoke(System.IAsyncResult)
+// 0x00000826 System.Void MatchingCardGame.GameManager_OnGameScenesLoaded::EndInvoke(System.IAsyncResult)
 extern void OnGameScenesLoaded_EndInvoke_m48B2BC89A3E2CF247B8C3116C04F95396E7F08E9 ();
-// 0x0000081B System.Void MatchingCardGame.GameManager_CursorEntry::SetAsActive()
+// 0x00000827 System.Void MatchingCardGame.GameManager_CursorEntry::SetAsActive()
 extern void CursorEntry_SetAsActive_mC4D295FA0325DE5A23012B313F658290A033CA34 ();
-// 0x0000081C System.Void MatchingCardGame.GameManager_CursorEntry::.ctor()
+// 0x00000828 System.Void MatchingCardGame.GameManager_CursorEntry::.ctor()
 extern void CursorEntry__ctor_m07C68274F12355F0557E7E07216B57E19BAFC368 ();
-// 0x0000081D System.Void MatchingCardGame.GameManager_GameModifier::.ctor()
+// 0x00000829 System.Void MatchingCardGame.GameManager_GameModifier::.ctor()
 extern void GameModifier__ctor_mEF5C28FB5342F0CF5F06BA58D337B76FC2529747 ();
-// 0x0000081E System.Void MatchingCardGame.GameManager_GameScene::.ctor()
+// 0x0000082A System.Void MatchingCardGame.GameManager_GameScene::.ctor()
 extern void GameScene__ctor_mE6A9D961168FE8119AF53F138CAFD735F148F2A6 ();
-// 0x0000081F System.Void MatchingCardGame.GameManager_<OnGameSceneLoadedRoutine>d__54::.ctor(System.Int32)
-extern void U3COnGameSceneLoadedRoutineU3Ed__54__ctor_mD62098A63B5EE19ADF71EDD1D490C74403EC0CC9 ();
-// 0x00000820 System.Void MatchingCardGame.GameManager_<OnGameSceneLoadedRoutine>d__54::System.IDisposable.Dispose()
-extern void U3COnGameSceneLoadedRoutineU3Ed__54_System_IDisposable_Dispose_m1A4DB46924ACF929BF70B6520985AD6FBA147103 ();
-// 0x00000821 System.Boolean MatchingCardGame.GameManager_<OnGameSceneLoadedRoutine>d__54::MoveNext()
-extern void U3COnGameSceneLoadedRoutineU3Ed__54_MoveNext_m2CA13B7B3FF9E162DC310BF9409A38AAED65C8E6 ();
-// 0x00000822 System.Object MatchingCardGame.GameManager_<OnGameSceneLoadedRoutine>d__54::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-extern void U3COnGameSceneLoadedRoutineU3Ed__54_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m8DF4A1ABE0643A7FB390973C0009CE2FB837415B ();
-// 0x00000823 System.Void MatchingCardGame.GameManager_<OnGameSceneLoadedRoutine>d__54::System.Collections.IEnumerator.Reset()
-extern void U3COnGameSceneLoadedRoutineU3Ed__54_System_Collections_IEnumerator_Reset_m4566FAFA58C917B058A53FF338A4CBE89E269832 ();
-// 0x00000824 System.Object MatchingCardGame.GameManager_<OnGameSceneLoadedRoutine>d__54::System.Collections.IEnumerator.get_Current()
-extern void U3COnGameSceneLoadedRoutineU3Ed__54_System_Collections_IEnumerator_get_Current_m92D2432D8602A56D614D288783FFB9258EF1B66E ();
-// 0x00000825 System.Void MatchingCardGame.GameManager_<LoadRoutine>d__57::.ctor(System.Int32)
-extern void U3CLoadRoutineU3Ed__57__ctor_m250A8FEEADAD654C3B4741EEAD09BC841738CA8E ();
-// 0x00000826 System.Void MatchingCardGame.GameManager_<LoadRoutine>d__57::System.IDisposable.Dispose()
-extern void U3CLoadRoutineU3Ed__57_System_IDisposable_Dispose_m9B83E56786618BAD90A4D4D0030911D329779A17 ();
-// 0x00000827 System.Boolean MatchingCardGame.GameManager_<LoadRoutine>d__57::MoveNext()
-extern void U3CLoadRoutineU3Ed__57_MoveNext_m5387D494E5CA0CE0FC9999DA83C855339CE05E2C ();
-// 0x00000828 System.Object MatchingCardGame.GameManager_<LoadRoutine>d__57::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-extern void U3CLoadRoutineU3Ed__57_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mE095EF8A776118B04E34BA2F4C8D6A285E67107E ();
-// 0x00000829 System.Void MatchingCardGame.GameManager_<LoadRoutine>d__57::System.Collections.IEnumerator.Reset()
-extern void U3CLoadRoutineU3Ed__57_System_Collections_IEnumerator_Reset_m97944ED118FA63633C191CFD12D52028A7AD6170 ();
-// 0x0000082A System.Object MatchingCardGame.GameManager_<LoadRoutine>d__57::System.Collections.IEnumerator.get_Current()
-extern void U3CLoadRoutineU3Ed__57_System_Collections_IEnumerator_get_Current_m35388EF82B01E7ABAF23DCC493766A9A1D640BFE ();
-// 0x0000082B System.Void MatchingCardGame.SaveAndLoadManager_SaveEntry::.ctor()
+// 0x0000082B System.Void MatchingCardGame.GameManager_<OnGameSceneLoadedRoutine>d__53::.ctor(System.Int32)
+extern void U3COnGameSceneLoadedRoutineU3Ed__53__ctor_m587E078F152413069420B33968E99504BE4E49E3 ();
+// 0x0000082C System.Void MatchingCardGame.GameManager_<OnGameSceneLoadedRoutine>d__53::System.IDisposable.Dispose()
+extern void U3COnGameSceneLoadedRoutineU3Ed__53_System_IDisposable_Dispose_m399B62B1CA9E3D0FE91E5AEFC98DFE41DFD856E6 ();
+// 0x0000082D System.Boolean MatchingCardGame.GameManager_<OnGameSceneLoadedRoutine>d__53::MoveNext()
+extern void U3COnGameSceneLoadedRoutineU3Ed__53_MoveNext_m299C8F17A9B1EA618BB7DA69E2B1CF5172025642 ();
+// 0x0000082E System.Object MatchingCardGame.GameManager_<OnGameSceneLoadedRoutine>d__53::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3COnGameSceneLoadedRoutineU3Ed__53_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m19E58154A9D58FAB2F4CDE88013B616871501C0C ();
+// 0x0000082F System.Void MatchingCardGame.GameManager_<OnGameSceneLoadedRoutine>d__53::System.Collections.IEnumerator.Reset()
+extern void U3COnGameSceneLoadedRoutineU3Ed__53_System_Collections_IEnumerator_Reset_m84A88B3ECF68134AE99F3648D94CA4BD51D616C7 ();
+// 0x00000830 System.Object MatchingCardGame.GameManager_<OnGameSceneLoadedRoutine>d__53::System.Collections.IEnumerator.get_Current()
+extern void U3COnGameSceneLoadedRoutineU3Ed__53_System_Collections_IEnumerator_get_Current_mBA3A1D05858E306483D80CFBE00E8934E169BDA2 ();
+// 0x00000831 System.Void MatchingCardGame.GameManager_<LoadRoutine>d__56::.ctor(System.Int32)
+extern void U3CLoadRoutineU3Ed__56__ctor_m2264956F6D3CAC2FC159CC451C0D2773A0702831 ();
+// 0x00000832 System.Void MatchingCardGame.GameManager_<LoadRoutine>d__56::System.IDisposable.Dispose()
+extern void U3CLoadRoutineU3Ed__56_System_IDisposable_Dispose_m04CF0438CAFF51E7C07E7C0103347DD577C3238E ();
+// 0x00000833 System.Boolean MatchingCardGame.GameManager_<LoadRoutine>d__56::MoveNext()
+extern void U3CLoadRoutineU3Ed__56_MoveNext_m9FA16928988E03F667CDA91CA0A68EC89742F577 ();
+// 0x00000834 System.Object MatchingCardGame.GameManager_<LoadRoutine>d__56::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3CLoadRoutineU3Ed__56_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m941ACA34BE992B08F75E70A03720E2CD3F1616FD ();
+// 0x00000835 System.Void MatchingCardGame.GameManager_<LoadRoutine>d__56::System.Collections.IEnumerator.Reset()
+extern void U3CLoadRoutineU3Ed__56_System_Collections_IEnumerator_Reset_m4DECE982399759988EA7D57F997762F75DED4B9B ();
+// 0x00000836 System.Object MatchingCardGame.GameManager_<LoadRoutine>d__56::System.Collections.IEnumerator.get_Current()
+extern void U3CLoadRoutineU3Ed__56_System_Collections_IEnumerator_get_Current_m2048A94716D8D40C1C2B057DC28F32D02786A379 ();
+// 0x00000837 System.Void MatchingCardGame.SaveAndLoadManager_SaveEntry::.ctor()
 extern void SaveEntry__ctor_mE973C1D17AFCC6CB907B9FBAF0D2C02A325DBA5B ();
-// 0x0000082C System.Void MatchingCardGame.SaveAndLoadManager_SaveEntry::Save(System.Int32,System.Int32)
+// 0x00000838 System.Void MatchingCardGame.SaveAndLoadManager_SaveEntry::Save(System.Int32,System.Int32)
 extern void SaveEntry_Save_m6543FB362C2374CB06B438393D00620FC742437E ();
-// 0x0000082D System.Void MatchingCardGame.SaveAndLoadManager_SaveEntry::Load(System.Int32,System.Int32)
+// 0x00000839 System.Void MatchingCardGame.SaveAndLoadManager_SaveEntry::Load(System.Int32,System.Int32)
 extern void SaveEntry_Load_m6360578E8D8DF2B7D14BF625DF2945AE5E1601FA ();
-// 0x0000082E System.Void MatchingCardGame.SaveAndLoadManager_SaveEntry::Delete(System.Int32,System.Int32)
+// 0x0000083A System.Void MatchingCardGame.SaveAndLoadManager_SaveEntry::Delete(System.Int32,System.Int32)
 extern void SaveEntry_Delete_mBF5097B06A15F865D31876A30412423F077A2F4C ();
-// 0x0000082F System.String MatchingCardGame.SaveAndLoadManager_SaveEntry::GetKeyNameForMemberEntry(System.Int32,System.Int32,MatchingCardGame.SaveAndLoadManager_SaveEntry_MemberEntry)
+// 0x0000083B System.String MatchingCardGame.SaveAndLoadManager_SaveEntry::GetKeyNameForMemberEntry(System.Int32,System.Int32,MatchingCardGame.SaveAndLoadManager_SaveEntry_MemberEntry)
 extern void SaveEntry_GetKeyNameForMemberEntry_m62D7ED3429300AD62B4304E9D02A21789FF0421A ();
-// 0x00000830 System.Void Utf8Json.JsonSerializer_NonGeneric_SerializeJsonWriter::.ctor(System.Object,System.IntPtr)
+// 0x0000083C System.Void Utf8Json.JsonSerializer_NonGeneric_SerializeJsonWriter::.ctor(System.Object,System.IntPtr)
 extern void SerializeJsonWriter__ctor_mD83266EDAD5ED0DD9BF2A8082B140FE34E10D851 ();
-// 0x00000831 System.Void Utf8Json.JsonSerializer_NonGeneric_SerializeJsonWriter::Invoke(Utf8Json.JsonWriter&,System.Object,Utf8Json.IJsonFormatterResolver)
+// 0x0000083D System.Void Utf8Json.JsonSerializer_NonGeneric_SerializeJsonWriter::Invoke(Utf8Json.JsonWriter&,System.Object,Utf8Json.IJsonFormatterResolver)
 extern void SerializeJsonWriter_Invoke_m77556AC2E0D19E8F57264417EDD183F7A7F09766 ();
-// 0x00000832 System.IAsyncResult Utf8Json.JsonSerializer_NonGeneric_SerializeJsonWriter::BeginInvoke(Utf8Json.JsonWriter&,System.Object,Utf8Json.IJsonFormatterResolver,System.AsyncCallback,System.Object)
+// 0x0000083E System.IAsyncResult Utf8Json.JsonSerializer_NonGeneric_SerializeJsonWriter::BeginInvoke(Utf8Json.JsonWriter&,System.Object,Utf8Json.IJsonFormatterResolver,System.AsyncCallback,System.Object)
 extern void SerializeJsonWriter_BeginInvoke_m34D3BAAFAD584F7B666DAEB305CA9457651806F0 ();
-// 0x00000833 System.Void Utf8Json.JsonSerializer_NonGeneric_SerializeJsonWriter::EndInvoke(Utf8Json.JsonWriter&,System.IAsyncResult)
+// 0x0000083F System.Void Utf8Json.JsonSerializer_NonGeneric_SerializeJsonWriter::EndInvoke(Utf8Json.JsonWriter&,System.IAsyncResult)
 extern void SerializeJsonWriter_EndInvoke_mDA3F8D4DF6EB1DD0DDC3410A9165BB613E94BE24 ();
-// 0x00000834 System.Void Utf8Json.JsonSerializer_NonGeneric_DeserializeJsonReader::.ctor(System.Object,System.IntPtr)
+// 0x00000840 System.Void Utf8Json.JsonSerializer_NonGeneric_DeserializeJsonReader::.ctor(System.Object,System.IntPtr)
 extern void DeserializeJsonReader__ctor_m9DA54A0899728E643E439CB4A4503A80E84D14FC ();
-// 0x00000835 System.Object Utf8Json.JsonSerializer_NonGeneric_DeserializeJsonReader::Invoke(Utf8Json.JsonReader&,Utf8Json.IJsonFormatterResolver)
+// 0x00000841 System.Object Utf8Json.JsonSerializer_NonGeneric_DeserializeJsonReader::Invoke(Utf8Json.JsonReader&,Utf8Json.IJsonFormatterResolver)
 extern void DeserializeJsonReader_Invoke_mBF6BA41E2CBBDC17CE4B41D0A5718985131A1FBE ();
-// 0x00000836 System.IAsyncResult Utf8Json.JsonSerializer_NonGeneric_DeserializeJsonReader::BeginInvoke(Utf8Json.JsonReader&,Utf8Json.IJsonFormatterResolver,System.AsyncCallback,System.Object)
+// 0x00000842 System.IAsyncResult Utf8Json.JsonSerializer_NonGeneric_DeserializeJsonReader::BeginInvoke(Utf8Json.JsonReader&,Utf8Json.IJsonFormatterResolver,System.AsyncCallback,System.Object)
 extern void DeserializeJsonReader_BeginInvoke_m642890985A497A2FCABEE786DD265BBE0019815A ();
-// 0x00000837 System.Object Utf8Json.JsonSerializer_NonGeneric_DeserializeJsonReader::EndInvoke(Utf8Json.JsonReader&,System.IAsyncResult)
+// 0x00000843 System.Object Utf8Json.JsonSerializer_NonGeneric_DeserializeJsonReader::EndInvoke(Utf8Json.JsonReader&,System.IAsyncResult)
 extern void DeserializeJsonReader_EndInvoke_m8F56A029118670D236E4990188981DEFCC4C06EF ();
-// 0x00000838 System.Void Utf8Json.JsonSerializer_NonGeneric_CompiledMethods::.ctor(System.Type)
+// 0x00000844 System.Void Utf8Json.JsonSerializer_NonGeneric_CompiledMethods::.ctor(System.Type)
 extern void CompiledMethods__ctor_m3C5CD303985E1DE49D5337A4898E0D8CA4729364 ();
-// 0x00000839 T Utf8Json.JsonSerializer_NonGeneric_CompiledMethods::CreateDelegate(System.Reflection.Emit.DynamicMethod)
-// 0x0000083A System.Reflection.MethodInfo Utf8Json.JsonSerializer_NonGeneric_CompiledMethods::GetMethod(System.Type,System.String,System.Type[])
+// 0x00000845 T Utf8Json.JsonSerializer_NonGeneric_CompiledMethods::CreateDelegate(System.Reflection.Emit.DynamicMethod)
+// 0x00000846 System.Reflection.MethodInfo Utf8Json.JsonSerializer_NonGeneric_CompiledMethods::GetMethod(System.Type,System.String,System.Type[])
 extern void CompiledMethods_GetMethod_mB0E24AC0A58D5A42F17A6A20884343C71A22C4F3 ();
-// 0x0000083B System.Void Utf8Json.JsonSerializer_NonGeneric_<>c::.cctor()
+// 0x00000847 System.Void Utf8Json.JsonSerializer_NonGeneric_<>c::.cctor()
 extern void U3CU3Ec__cctor_m64B329147EF99633CC9DBA85F4E8466A9E1A7680 ();
-// 0x0000083C System.Void Utf8Json.JsonSerializer_NonGeneric_<>c::.ctor()
+// 0x00000848 System.Void Utf8Json.JsonSerializer_NonGeneric_<>c::.ctor()
 extern void U3CU3Ec__ctor_m685491CF04F96E5586B7FDFA5256186505ADBFD1 ();
-// 0x0000083D Utf8Json.JsonSerializer_NonGeneric_CompiledMethods Utf8Json.JsonSerializer_NonGeneric_<>c::<.cctor>b__4_0(System.Type)
+// 0x00000849 Utf8Json.JsonSerializer_NonGeneric_CompiledMethods Utf8Json.JsonSerializer_NonGeneric_<>c::<.cctor>b__4_0(System.Type)
 extern void U3CU3Ec_U3C_cctorU3Eb__4_0_m042B2E1AAB354ACE6A4F3C26272957C30AAFDAF9 ();
-// 0x0000083E System.Void Utf8Json.Resolvers.Internal.DynamicObjectTypeBuilder_EmitInfo_JsonWriter::.cctor()
+// 0x0000084A System.Void Utf8Json.Resolvers.Internal.DynamicObjectTypeBuilder_EmitInfo_JsonWriter::.cctor()
 extern void JsonWriter__cctor_m762F92EB9688A37F9EFA76D66DC66A7764A74186 ();
-// 0x0000083F System.Void Utf8Json.Resolvers.Internal.DynamicObjectTypeBuilder_EmitInfo_JsonReader::.cctor()
+// 0x0000084B System.Void Utf8Json.Resolvers.Internal.DynamicObjectTypeBuilder_EmitInfo_JsonReader::.cctor()
 extern void JsonReader__cctor_mE901ED9E01B2D0B632997B8C534461C1DFA34881 ();
-// 0x00000840 System.Void Utf8Json.Resolvers.Internal.DynamicObjectTypeBuilder_EmitInfo_JsonFormatterAttr::.cctor()
+// 0x0000084C System.Void Utf8Json.Resolvers.Internal.DynamicObjectTypeBuilder_EmitInfo_JsonFormatterAttr::.cctor()
 extern void JsonFormatterAttr__cctor_m4C707B5E030BB1313094E17084A1321E2DB885E6 ();
-// 0x00000841 System.Void Utf8Json.Resolvers.Internal.DynamicObjectTypeBuilder_EmitInfo_<>c::.cctor()
+// 0x0000084D System.Void Utf8Json.Resolvers.Internal.DynamicObjectTypeBuilder_EmitInfo_<>c::.cctor()
 extern void U3CU3Ec__cctor_m7E22BEAD72A88157827035964B9C93011F50845A ();
-// 0x00000842 System.Void Utf8Json.Resolvers.Internal.DynamicObjectTypeBuilder_EmitInfo_<>c::.ctor()
+// 0x0000084E System.Void Utf8Json.Resolvers.Internal.DynamicObjectTypeBuilder_EmitInfo_<>c::.ctor()
 extern void U3CU3Ec__ctor_m9920FA948238B2C3D600500FDB5865AFC79F675E ();
-// 0x00000843 System.Boolean Utf8Json.Resolvers.Internal.DynamicObjectTypeBuilder_EmitInfo_<>c::<.cctor>b__18_0(System.Reflection.ConstructorInfo)
+// 0x0000084F System.Boolean Utf8Json.Resolvers.Internal.DynamicObjectTypeBuilder_EmitInfo_<>c::<.cctor>b__18_0(System.Reflection.ConstructorInfo)
 extern void U3CU3Ec_U3C_cctorU3Eb__18_0_m0F0F370EE2C908B5794F78AAC076C151ABC15A96 ();
-// 0x00000844 System.Boolean Utf8Json.Resolvers.Internal.DynamicObjectTypeBuilder_EmitInfo_<>c::<.cctor>b__18_1(System.Reflection.ConstructorInfo)
+// 0x00000850 System.Boolean Utf8Json.Resolvers.Internal.DynamicObjectTypeBuilder_EmitInfo_<>c::<.cctor>b__18_1(System.Reflection.ConstructorInfo)
 extern void U3CU3Ec_U3C_cctorU3Eb__18_1_m43CF76D8C06699A896CF64A6BB771FF0F7542FF7 ();
-// 0x00000845 System.Void Utf8Json.Resolvers.Internal.DefaultStandardResolver_InnerResolver_FormatterCache`1::.cctor()
-// 0x00000846 System.Void Utf8Json.Resolvers.Internal.CamelCaseStandardResolver_InnerResolver_FormatterCache`1::.cctor()
-// 0x00000847 System.Void Utf8Json.Resolvers.Internal.SnakeCaseStandardResolver_InnerResolver_FormatterCache`1::.cctor()
-// 0x00000848 System.Void Utf8Json.Resolvers.Internal.ExcludeNullStandardResolver_InnerResolver_FormatterCache`1::.cctor()
-// 0x00000849 System.Void Utf8Json.Resolvers.Internal.ExcludeNullCamelCaseStandardResolver_InnerResolver_FormatterCache`1::.cctor()
-// 0x0000084A System.Void Utf8Json.Resolvers.Internal.ExcludeNullSnakeCaseStandardResolver_InnerResolver_FormatterCache`1::.cctor()
-// 0x0000084B System.Void Utf8Json.Resolvers.Internal.AllowPrivateStandardResolver_InnerResolver_FormatterCache`1::.cctor()
-// 0x0000084C System.Void Utf8Json.Resolvers.Internal.AllowPrivateCamelCaseStandardResolver_InnerResolver_FormatterCache`1::.cctor()
-// 0x0000084D System.Void Utf8Json.Resolvers.Internal.AllowPrivateSnakeCaseStandardResolver_InnerResolver_FormatterCache`1::.cctor()
-// 0x0000084E System.Void Utf8Json.Resolvers.Internal.AllowPrivateExcludeNullStandardResolver_InnerResolver_FormatterCache`1::.cctor()
-// 0x0000084F System.Void Utf8Json.Resolvers.Internal.AllowPrivateExcludeNullCamelCaseStandardResolver_InnerResolver_FormatterCache`1::.cctor()
-// 0x00000850 System.Void Utf8Json.Resolvers.Internal.AllowPrivateExcludeNullSnakeCaseStandardResolver_InnerResolver_FormatterCache`1::.cctor()
-// 0x00000851 System.Void Utf8Json.Internal.AutomataDictionary_AutomataNode_<YieldChildren>d__17::.ctor(System.Int32)
+// 0x00000851 System.Void Utf8Json.Resolvers.Internal.DefaultStandardResolver_InnerResolver_FormatterCache`1::.cctor()
+// 0x00000852 System.Void Utf8Json.Resolvers.Internal.CamelCaseStandardResolver_InnerResolver_FormatterCache`1::.cctor()
+// 0x00000853 System.Void Utf8Json.Resolvers.Internal.SnakeCaseStandardResolver_InnerResolver_FormatterCache`1::.cctor()
+// 0x00000854 System.Void Utf8Json.Resolvers.Internal.ExcludeNullStandardResolver_InnerResolver_FormatterCache`1::.cctor()
+// 0x00000855 System.Void Utf8Json.Resolvers.Internal.ExcludeNullCamelCaseStandardResolver_InnerResolver_FormatterCache`1::.cctor()
+// 0x00000856 System.Void Utf8Json.Resolvers.Internal.ExcludeNullSnakeCaseStandardResolver_InnerResolver_FormatterCache`1::.cctor()
+// 0x00000857 System.Void Utf8Json.Resolvers.Internal.AllowPrivateStandardResolver_InnerResolver_FormatterCache`1::.cctor()
+// 0x00000858 System.Void Utf8Json.Resolvers.Internal.AllowPrivateCamelCaseStandardResolver_InnerResolver_FormatterCache`1::.cctor()
+// 0x00000859 System.Void Utf8Json.Resolvers.Internal.AllowPrivateSnakeCaseStandardResolver_InnerResolver_FormatterCache`1::.cctor()
+// 0x0000085A System.Void Utf8Json.Resolvers.Internal.AllowPrivateExcludeNullStandardResolver_InnerResolver_FormatterCache`1::.cctor()
+// 0x0000085B System.Void Utf8Json.Resolvers.Internal.AllowPrivateExcludeNullCamelCaseStandardResolver_InnerResolver_FormatterCache`1::.cctor()
+// 0x0000085C System.Void Utf8Json.Resolvers.Internal.AllowPrivateExcludeNullSnakeCaseStandardResolver_InnerResolver_FormatterCache`1::.cctor()
+// 0x0000085D System.Void Utf8Json.Internal.AutomataDictionary_AutomataNode_<YieldChildren>d__17::.ctor(System.Int32)
 extern void U3CYieldChildrenU3Ed__17__ctor_mD6475FC7638221F1BA006AF7F934E5705D9A5768 ();
-// 0x00000852 System.Void Utf8Json.Internal.AutomataDictionary_AutomataNode_<YieldChildren>d__17::System.IDisposable.Dispose()
+// 0x0000085E System.Void Utf8Json.Internal.AutomataDictionary_AutomataNode_<YieldChildren>d__17::System.IDisposable.Dispose()
 extern void U3CYieldChildrenU3Ed__17_System_IDisposable_Dispose_mDB7AD742BD9CA3DF6B29CDA7F34049093040DE65 ();
-// 0x00000853 System.Boolean Utf8Json.Internal.AutomataDictionary_AutomataNode_<YieldChildren>d__17::MoveNext()
+// 0x0000085F System.Boolean Utf8Json.Internal.AutomataDictionary_AutomataNode_<YieldChildren>d__17::MoveNext()
 extern void U3CYieldChildrenU3Ed__17_MoveNext_m9FFC5CA05ED39516BD0D75F0B8D48734A85EC3EC ();
-// 0x00000854 Utf8Json.Internal.AutomataDictionary_AutomataNode Utf8Json.Internal.AutomataDictionary_AutomataNode_<YieldChildren>d__17::System.Collections.Generic.IEnumerator<Utf8Json.Internal.AutomataDictionary.AutomataNode>.get_Current()
+// 0x00000860 Utf8Json.Internal.AutomataDictionary_AutomataNode Utf8Json.Internal.AutomataDictionary_AutomataNode_<YieldChildren>d__17::System.Collections.Generic.IEnumerator<Utf8Json.Internal.AutomataDictionary.AutomataNode>.get_Current()
 extern void U3CYieldChildrenU3Ed__17_System_Collections_Generic_IEnumeratorU3CUtf8Json_Internal_AutomataDictionary_AutomataNodeU3E_get_Current_mABB67FBDA48B34E17CC0498A2106A65AA1807215 ();
-// 0x00000855 System.Void Utf8Json.Internal.AutomataDictionary_AutomataNode_<YieldChildren>d__17::System.Collections.IEnumerator.Reset()
+// 0x00000861 System.Void Utf8Json.Internal.AutomataDictionary_AutomataNode_<YieldChildren>d__17::System.Collections.IEnumerator.Reset()
 extern void U3CYieldChildrenU3Ed__17_System_Collections_IEnumerator_Reset_m069FF64381A2DCA419928B5ADC33B731FF286DD9 ();
-// 0x00000856 System.Object Utf8Json.Internal.AutomataDictionary_AutomataNode_<YieldChildren>d__17::System.Collections.IEnumerator.get_Current()
+// 0x00000862 System.Object Utf8Json.Internal.AutomataDictionary_AutomataNode_<YieldChildren>d__17::System.Collections.IEnumerator.get_Current()
 extern void U3CYieldChildrenU3Ed__17_System_Collections_IEnumerator_get_Current_mEBB66653A3EEA70EE8DF30A395D18A2A69780375 ();
-// 0x00000857 System.Collections.Generic.IEnumerator`1<Utf8Json.Internal.AutomataDictionary_AutomataNode> Utf8Json.Internal.AutomataDictionary_AutomataNode_<YieldChildren>d__17::System.Collections.Generic.IEnumerable<Utf8Json.Internal.AutomataDictionary.AutomataNode>.GetEnumerator()
+// 0x00000863 System.Collections.Generic.IEnumerator`1<Utf8Json.Internal.AutomataDictionary_AutomataNode> Utf8Json.Internal.AutomataDictionary_AutomataNode_<YieldChildren>d__17::System.Collections.Generic.IEnumerable<Utf8Json.Internal.AutomataDictionary.AutomataNode>.GetEnumerator()
 extern void U3CYieldChildrenU3Ed__17_System_Collections_Generic_IEnumerableU3CUtf8Json_Internal_AutomataDictionary_AutomataNodeU3E_GetEnumerator_mF12016F6846DE45200E3A29924598724E0AF8780 ();
-// 0x00000858 System.Collections.IEnumerator Utf8Json.Internal.AutomataDictionary_AutomataNode_<YieldChildren>d__17::System.Collections.IEnumerable.GetEnumerator()
+// 0x00000864 System.Collections.IEnumerator Utf8Json.Internal.AutomataDictionary_AutomataNode_<YieldChildren>d__17::System.Collections.IEnumerable.GetEnumerator()
 extern void U3CYieldChildrenU3Ed__17_System_Collections_IEnumerable_GetEnumerator_m95EA984FB44B4ED81EC1388750AAC9F0A991FAFB ();
-// 0x00000859 System.Void Utf8Json.Internal.AutomataDictionary_AutomataNode_<>c__DisplayClass19_0::.ctor()
+// 0x00000865 System.Void Utf8Json.Internal.AutomataDictionary_AutomataNode_<>c__DisplayClass19_0::.ctor()
 extern void U3CU3Ec__DisplayClass19_0__ctor_mF5AFFF536E9D0843B5015E1195C264D3069E7DD7 ();
-// 0x0000085A System.Reflection.Emit.Label Utf8Json.Internal.AutomataDictionary_AutomataNode_<>c__DisplayClass19_0::<EmitSearchNextCore>b__3(System.Int32)
+// 0x00000866 System.Reflection.Emit.Label Utf8Json.Internal.AutomataDictionary_AutomataNode_<>c__DisplayClass19_0::<EmitSearchNextCore>b__3(System.Int32)
 extern void U3CU3Ec__DisplayClass19_0_U3CEmitSearchNextCoreU3Eb__3_m830932A57D214D1E7F587360D0CFA72FCB00DA4B ();
-// 0x0000085B System.Reflection.Emit.Label Utf8Json.Internal.AutomataDictionary_AutomataNode_<>c__DisplayClass19_0::<EmitSearchNextCore>b__2(System.Int32)
+// 0x00000867 System.Reflection.Emit.Label Utf8Json.Internal.AutomataDictionary_AutomataNode_<>c__DisplayClass19_0::<EmitSearchNextCore>b__2(System.Int32)
 extern void U3CU3Ec__DisplayClass19_0_U3CEmitSearchNextCoreU3Eb__2_mEA630F6911CEC5A87175398764722554A8A54B8E ();
-// 0x0000085C System.Void Utf8Json.Internal.AutomataDictionary_AutomataNode_<>c::.cctor()
+// 0x00000868 System.Void Utf8Json.Internal.AutomataDictionary_AutomataNode_<>c::.cctor()
 extern void U3CU3Ec__cctor_mA28B99CCA6A30B73071E0040EAD5233714C89C46 ();
-// 0x0000085D System.Void Utf8Json.Internal.AutomataDictionary_AutomataNode_<>c::.ctor()
+// 0x00000869 System.Void Utf8Json.Internal.AutomataDictionary_AutomataNode_<>c::.ctor()
 extern void U3CU3Ec__ctor_mC33FF433AC3F92784D03BFCFFF5FEE4AA71277E2 ();
-// 0x0000085E System.Boolean Utf8Json.Internal.AutomataDictionary_AutomataNode_<>c::<EmitSearchNextCore>b__19_0(Utf8Json.Internal.AutomataDictionary_AutomataNode)
+// 0x0000086A System.Boolean Utf8Json.Internal.AutomataDictionary_AutomataNode_<>c::<EmitSearchNextCore>b__19_0(Utf8Json.Internal.AutomataDictionary_AutomataNode)
 extern void U3CU3Ec_U3CEmitSearchNextCoreU3Eb__19_0_mF178FB207D761CAB0B48B60EAA0639E0D6440BC2 ();
-// 0x0000085F System.Boolean Utf8Json.Internal.AutomataDictionary_AutomataNode_<>c::<EmitSearchNextCore>b__19_1(Utf8Json.Internal.AutomataDictionary_AutomataNode)
+// 0x0000086B System.Boolean Utf8Json.Internal.AutomataDictionary_AutomataNode_<>c::<EmitSearchNextCore>b__19_1(Utf8Json.Internal.AutomataDictionary_AutomataNode)
 extern void U3CU3Ec_U3CEmitSearchNextCoreU3Eb__19_1_m829E039F50BFC50490FDA82B8955F8FB26F39670 ();
-// 0x00000860 System.Void MatchingCardGame.SaveAndLoadManager_SaveEntry_MemberEntry::.ctor()
+// 0x0000086C System.Void MatchingCardGame.SaveAndLoadManager_SaveEntry_MemberEntry::.ctor()
 extern void MemberEntry__ctor_m8B10EF5CA665DD2B19E2C8F3230A907B48D039B8 ();
-// 0x00000861 System.Void Utf8Json.JsonSerializer_NonGeneric_CompiledMethods_<>c__DisplayClass11_0::.ctor()
+// 0x0000086D System.Void Utf8Json.JsonSerializer_NonGeneric_CompiledMethods_<>c__DisplayClass11_0::.ctor()
 extern void U3CU3Ec__DisplayClass11_0__ctor_mEF52A3546259982A3E32D424D38EB1CC12BD737F ();
-// 0x00000862 System.Boolean Utf8Json.JsonSerializer_NonGeneric_CompiledMethods_<>c__DisplayClass11_0::<GetMethod>b__0(System.Reflection.MethodInfo)
+// 0x0000086E System.Boolean Utf8Json.JsonSerializer_NonGeneric_CompiledMethods_<>c__DisplayClass11_0::<GetMethod>b__0(System.Reflection.MethodInfo)
 extern void U3CU3Ec__DisplayClass11_0_U3CGetMethodU3Eb__0_mCB84428717A8340C0C48FAC3292540667EE460AF ();
-// 0x00000863 System.Boolean Utf8Json.JsonSerializer_NonGeneric_CompiledMethods_<>c__DisplayClass11_0::<GetMethod>b__1(System.Reflection.MethodInfo)
+// 0x0000086F System.Boolean Utf8Json.JsonSerializer_NonGeneric_CompiledMethods_<>c__DisplayClass11_0::<GetMethod>b__1(System.Reflection.MethodInfo)
 extern void U3CU3Ec__DisplayClass11_0_U3CGetMethodU3Eb__1_mB0FF81F6404F087CB3C4B906A1C96DA0A6294785 ();
-// 0x00000864 System.Void Utf8Json.Resolvers.Internal.DynamicObjectTypeBuilder_EmitInfo_JsonWriter_<>c::.cctor()
+// 0x00000870 System.Void Utf8Json.Resolvers.Internal.DynamicObjectTypeBuilder_EmitInfo_JsonWriter_<>c::.cctor()
 extern void U3CU3Ec__cctor_m77750856FDE1D08F788E89C3F4204806026063AD ();
-// 0x00000865 System.Void Utf8Json.Resolvers.Internal.DynamicObjectTypeBuilder_EmitInfo_JsonWriter_<>c::.ctor()
+// 0x00000871 System.Void Utf8Json.Resolvers.Internal.DynamicObjectTypeBuilder_EmitInfo_JsonWriter_<>c::.ctor()
 extern void U3CU3Ec__ctor_m69B2699D29EE3A7F8D3410F98ABDC6D5F6BB7F2F ();
-// 0x00000866 System.Void Utf8Json.Resolvers.Internal.DynamicObjectTypeBuilder_EmitInfo_JsonReader_<>c::.cctor()
+// 0x00000872 System.Void Utf8Json.Resolvers.Internal.DynamicObjectTypeBuilder_EmitInfo_JsonReader_<>c::.cctor()
 extern void U3CU3Ec__cctor_m6CC1C5960DD4752DE24FFB2412D20D4108C95080 ();
-// 0x00000867 System.Void Utf8Json.Resolvers.Internal.DynamicObjectTypeBuilder_EmitInfo_JsonReader_<>c::.ctor()
+// 0x00000873 System.Void Utf8Json.Resolvers.Internal.DynamicObjectTypeBuilder_EmitInfo_JsonReader_<>c::.ctor()
 extern void U3CU3Ec__ctor_m6D48AD2BAC4647CBC08A2A8730740B298DC480DB ();
-// 0x00000868 System.Void Utf8Json.Resolvers.Internal.DynamicObjectTypeBuilder_EmitInfo_JsonFormatterAttr_<>c::.cctor()
+// 0x00000874 System.Void Utf8Json.Resolvers.Internal.DynamicObjectTypeBuilder_EmitInfo_JsonFormatterAttr_<>c::.cctor()
 extern void U3CU3Ec__cctor_mB1FA58B463B717D6511993B0B1ADB37983E4C075 ();
-// 0x00000869 System.Void Utf8Json.Resolvers.Internal.DynamicObjectTypeBuilder_EmitInfo_JsonFormatterAttr_<>c::.ctor()
+// 0x00000875 System.Void Utf8Json.Resolvers.Internal.DynamicObjectTypeBuilder_EmitInfo_JsonFormatterAttr_<>c::.ctor()
 extern void U3CU3Ec__ctor_m40D8EF62F3BD756DCF64563B11352D26483B2658 ();
-static Il2CppMethodPointer s_methodPointers[2153] = 
+static Il2CppMethodPointer s_methodPointers[2165] = 
 {
 	MakeConfigurable__ctor_mA531FBFDAE8DE0F4A5EFB02F1F7C0546FAC07EF9,
 	SaveAndLoadValue__ctor_m9449BD1C69280414D2061EC1428C750636979747,
@@ -5400,6 +5424,10 @@ static Il2CppMethodPointer s_methodPointers[2153] =
 	IslandsLevelsMinigame_SetLevelStars_m7D0E1E102BB35D378A0C0501B6FFD3DE9D85F164,
 	IslandsLevelsMinigame__ctor_m001BAAA93530E71D190DDD87A7019245F464F4A3,
 	IslandsLevelsMinigame__cctor_m7503389A88A3011951255968FA80366FDA5B8CD1,
+	IslandsLevelsMinigameTutorial_Start_m50ED8A3962331DB533AB05054CBBFBA5EDC19A0E,
+	IslandsLevelsMinigameTutorial_GoToNextLevel_m27072C0E114434AEC6A9FA93C045711760672239,
+	IslandsLevelsMinigameTutorial__ctor_m61B33397AF7AEE521A2A691C5557DF788732C4F2,
+	IslandsLevelsMinigameTutorial_U3CU3En__0_m94C41CE2364068B934F16E584C7835899C8F0BD5,
 	Level_get_PauseWhileUnfocused_m9831389C70A1B0398E169BE501061162BCCC35F9,
 	Level_OnEnable_m1B6FB2CF2B6BEF5FE9A69B69E218A29EA49E2886,
 	Level_DoUpdate_m16471EFC97444B0592A1DDC3660F61198A1BDDBF,
@@ -5504,6 +5532,8 @@ static Il2CppMethodPointer s_methodPointers[2153] =
 	GameManager_set_HasPlayedBefore_m166848049E851B3315E518594150F0368CDE4171,
 	GameManager_add_onGameScenesLoaded_m9BC94C4CDC886445373BAF5B3A5A6ACD005C1676,
 	GameManager_remove_onGameScenesLoaded_m45CE5A9E21AC6D0D86129C2FDE2193C1A1473415,
+	GameManager_get_Stars_mACC503DF098D08A22C7BED3E1AC85709395C32F2,
+	GameManager_set_Stars_mFE0610ED50742C1364A751E6D514BFF546AAF626,
 	GameManager_Awake_m972C086CAB4069935C2506FC2C36AF16EEF8EDE4,
 	GameManager_Init_m160386259887AECD61A8EA4E07927A4F2416ACC2,
 	GameManager_OnGameSceneLoadedRoutine_mF451CC4DD6E62F34CDFCDD59031362AC47F80512,
@@ -5924,6 +5954,12 @@ static Il2CppMethodPointer s_methodPointers[2153] =
 	U3CMakeNextLevelRoutineU3Ed__31_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m4B5B9B3B224D83180EC0C7258201C33F47DDA847,
 	U3CMakeNextLevelRoutineU3Ed__31_System_Collections_IEnumerator_Reset_m4B5CE1D13D09076FDAFA16C25C1997880B04ACA4,
 	U3CMakeNextLevelRoutineU3Ed__31_System_Collections_IEnumerator_get_Current_m3DEE759D9A72BC1C0FBFCA8CF3E530BE2691DE0F,
+	U3CStartU3Ed__1__ctor_m7D73F1124596486F36C18B4F80DFF9B3CDD20354,
+	U3CStartU3Ed__1_System_IDisposable_Dispose_m14DDECAAF3526635EC3966F42E9255998FC35D77,
+	U3CStartU3Ed__1_MoveNext_m6F3F6678339E56F23172E3C6D6EBC44CD3C7FBAC,
+	U3CStartU3Ed__1_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mC997C0DA0EEE87EA7FAFFDF4EBE7CC6A28DF6EF7,
+	U3CStartU3Ed__1_System_Collections_IEnumerator_Reset_m632D9BA353B59B7E885E340B1DEB0333D645A939,
+	U3CStartU3Ed__1_System_Collections_IEnumerator_get_Current_m9B8C6F6F7C2124D0FC01DF7DDAD055A43C4BABD5,
 	U3CU3Ec__DisplayClass5_0__ctor_mE80E9F995B8435632C16F3F22994C56A4BD9CA7F,
 	U3CU3Ec__DisplayClass5_0_U3COnEnableU3Eb__0_mEC6D4DEE99E15B3100A9957298631563679B46E5,
 	CardModifierEntry__ctor_m91ED3F051831913486E83E6BF3B11301D1C8B770,
@@ -5964,18 +6000,18 @@ static Il2CppMethodPointer s_methodPointers[2153] =
 	CursorEntry__ctor_m07C68274F12355F0557E7E07216B57E19BAFC368,
 	GameModifier__ctor_mEF5C28FB5342F0CF5F06BA58D337B76FC2529747,
 	GameScene__ctor_mE6A9D961168FE8119AF53F138CAFD735F148F2A6,
-	U3COnGameSceneLoadedRoutineU3Ed__54__ctor_mD62098A63B5EE19ADF71EDD1D490C74403EC0CC9,
-	U3COnGameSceneLoadedRoutineU3Ed__54_System_IDisposable_Dispose_m1A4DB46924ACF929BF70B6520985AD6FBA147103,
-	U3COnGameSceneLoadedRoutineU3Ed__54_MoveNext_m2CA13B7B3FF9E162DC310BF9409A38AAED65C8E6,
-	U3COnGameSceneLoadedRoutineU3Ed__54_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m8DF4A1ABE0643A7FB390973C0009CE2FB837415B,
-	U3COnGameSceneLoadedRoutineU3Ed__54_System_Collections_IEnumerator_Reset_m4566FAFA58C917B058A53FF338A4CBE89E269832,
-	U3COnGameSceneLoadedRoutineU3Ed__54_System_Collections_IEnumerator_get_Current_m92D2432D8602A56D614D288783FFB9258EF1B66E,
-	U3CLoadRoutineU3Ed__57__ctor_m250A8FEEADAD654C3B4741EEAD09BC841738CA8E,
-	U3CLoadRoutineU3Ed__57_System_IDisposable_Dispose_m9B83E56786618BAD90A4D4D0030911D329779A17,
-	U3CLoadRoutineU3Ed__57_MoveNext_m5387D494E5CA0CE0FC9999DA83C855339CE05E2C,
-	U3CLoadRoutineU3Ed__57_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mE095EF8A776118B04E34BA2F4C8D6A285E67107E,
-	U3CLoadRoutineU3Ed__57_System_Collections_IEnumerator_Reset_m97944ED118FA63633C191CFD12D52028A7AD6170,
-	U3CLoadRoutineU3Ed__57_System_Collections_IEnumerator_get_Current_m35388EF82B01E7ABAF23DCC493766A9A1D640BFE,
+	U3COnGameSceneLoadedRoutineU3Ed__53__ctor_m587E078F152413069420B33968E99504BE4E49E3,
+	U3COnGameSceneLoadedRoutineU3Ed__53_System_IDisposable_Dispose_m399B62B1CA9E3D0FE91E5AEFC98DFE41DFD856E6,
+	U3COnGameSceneLoadedRoutineU3Ed__53_MoveNext_m299C8F17A9B1EA618BB7DA69E2B1CF5172025642,
+	U3COnGameSceneLoadedRoutineU3Ed__53_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m19E58154A9D58FAB2F4CDE88013B616871501C0C,
+	U3COnGameSceneLoadedRoutineU3Ed__53_System_Collections_IEnumerator_Reset_m84A88B3ECF68134AE99F3648D94CA4BD51D616C7,
+	U3COnGameSceneLoadedRoutineU3Ed__53_System_Collections_IEnumerator_get_Current_mBA3A1D05858E306483D80CFBE00E8934E169BDA2,
+	U3CLoadRoutineU3Ed__56__ctor_m2264956F6D3CAC2FC159CC451C0D2773A0702831,
+	U3CLoadRoutineU3Ed__56_System_IDisposable_Dispose_m04CF0438CAFF51E7C07E7C0103347DD577C3238E,
+	U3CLoadRoutineU3Ed__56_MoveNext_m9FA16928988E03F667CDA91CA0A68EC89742F577,
+	U3CLoadRoutineU3Ed__56_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m941ACA34BE992B08F75E70A03720E2CD3F1616FD,
+	U3CLoadRoutineU3Ed__56_System_Collections_IEnumerator_Reset_m4DECE982399759988EA7D57F997762F75DED4B9B,
+	U3CLoadRoutineU3Ed__56_System_Collections_IEnumerator_get_Current_m2048A94716D8D40C1C2B057DC28F32D02786A379,
 	SaveEntry__ctor_mE973C1D17AFCC6CB907B9FBAF0D2C02A325DBA5B,
 	SaveEntry_Save_m6543FB362C2374CB06B438393D00620FC742437E,
 	SaveEntry_Load_m6360578E8D8DF2B7D14BF625DF2945AE5E1601FA,
@@ -6040,39 +6076,39 @@ static Il2CppMethodPointer s_methodPointers[2153] =
 	U3CU3Ec__cctor_mB1FA58B463B717D6511993B0B1ADB37983E4C075,
 	U3CU3Ec__ctor_m40D8EF62F3BD756DCF64563B11352D26483B2658,
 };
-static const int32_t s_InvokerIndices[2153] = 
+static const int32_t s_InvokerIndices[2165] = 
 {
 	23,
 	31,
-	713,
-	302,
-	713,
-	302,
+	723,
+	307,
+	723,
+	307,
 	23,
-	302,
-	446,
+	307,
+	455,
 	14,
-	2368,
-	713,
+	2519,
+	723,
 	3,
-	713,
-	302,
-	713,
-	302,
+	723,
+	307,
+	723,
+	307,
 	23,
-	1645,
-	2369,
-	2370,
-	1194,
-	713,
-	302,
+	1816,
+	2523,
+	2600,
+	1248,
+	723,
+	307,
 	23,
 	114,
-	713,
+	723,
 	23,
 	23,
 	23,
-	302,
+	307,
 	114,
 	114,
 	23,
@@ -6084,25 +6120,25 @@ static const int32_t s_InvokerIndices[2153] =
 	-1,
 	-1,
 	23,
-	1186,
+	1242,
 	14,
-	713,
-	713,
-	446,
+	723,
+	723,
+	455,
 	9,
-	1191,
-	2314,
-	2371,
-	1610,
-	331,
-	1189,
-	2225,
-	2370,
-	2370,
-	713,
-	1189,
+	1245,
+	1700,
+	2601,
+	1782,
+	341,
+	1240,
+	2442,
+	2600,
+	2600,
+	723,
+	1240,
 	14,
-	2372,
+	2602,
 	3,
 	-1,
 	-1,
@@ -6119,23 +6155,23 @@ static const int32_t s_InvokerIndices[2153] =
 	-1,
 	-1,
 	-1,
-	713,
-	302,
+	723,
+	307,
 	27,
-	446,
-	446,
-	3,
-	1267,
-	446,
-	2372,
-	1657,
-	3,
-	169,
-	446,
-	2372,
+	455,
 	455,
 	3,
-	713,
+	1208,
+	455,
+	2602,
+	1828,
+	3,
+	169,
+	455,
+	2602,
+	464,
+	3,
+	723,
 	26,
 	26,
 	23,
@@ -6163,9 +6199,9 @@ static const int32_t s_InvokerIndices[2153] =
 	-1,
 	-1,
 	-1,
-	713,
-	713,
-	2373,
+	723,
+	723,
+	2603,
 	23,
 	23,
 	23,
@@ -6200,9 +6236,9 @@ static const int32_t s_InvokerIndices[2153] =
 	-1,
 	10,
 	32,
-	713,
-	302,
-	302,
+	723,
+	307,
+	307,
 	23,
 	10,
 	32,
@@ -6211,10 +6247,10 @@ static const int32_t s_InvokerIndices[2153] =
 	10,
 	32,
 	23,
-	713,
-	302,
-	713,
-	302,
+	723,
+	307,
+	723,
+	307,
 	114,
 	23,
 	23,
@@ -6259,51 +6295,51 @@ static const int32_t s_InvokerIndices[2153] =
 	23,
 	114,
 	23,
-	830,
-	830,
+	844,
+	844,
 	114,
 	23,
 	114,
 	23,
-	830,
-	830,
+	844,
+	844,
 	114,
 	23,
 	114,
 	23,
-	696,
-	2374,
-	203,
-	2375,
+	706,
+	2604,
+	205,
+	2605,
 	14,
 	14,
-	2375,
-	2375,
+	2605,
+	2605,
 	114,
 	5,
 	23,
 	31,
 	23,
-	2375,
+	2605,
 	114,
-	212,
+	213,
 	10,
 	142,
 	114,
-	212,
+	213,
 	10,
 	142,
-	713,
-	428,
-	2375,
-	182,
+	723,
+	437,
+	2605,
+	183,
 	3,
 	10,
 	32,
 	14,
 	26,
 	26,
-	2376,
+	2606,
 	14,
 	14,
 	4,
@@ -6335,8 +6371,8 @@ static const int32_t s_InvokerIndices[2153] =
 	0,
 	164,
 	0,
-	200,
-	610,
+	201,
+	620,
 	3,
 	10,
 	32,
@@ -6345,7 +6381,7 @@ static const int32_t s_InvokerIndices[2153] =
 	0,
 	0,
 	26,
-	2375,
+	2605,
 	14,
 	14,
 	32,
@@ -6364,14 +6400,14 @@ static const int32_t s_InvokerIndices[2153] =
 	31,
 	23,
 	23,
-	302,
-	303,
+	307,
+	308,
 	31,
-	577,
+	587,
 	32,
 	172,
 	31,
-	577,
+	587,
 	32,
 	172,
 	26,
@@ -6382,26 +6418,26 @@ static const int32_t s_InvokerIndices[2153] =
 	3,
 	0,
 	23,
-	2383,
-	2384,
+	2612,
+	2613,
 	23,
-	2385,
-	2386,
+	2614,
+	2615,
 	23,
-	2387,
-	2388,
+	2616,
+	2617,
 	23,
-	2389,
-	2390,
+	2618,
+	2619,
 	23,
-	2391,
-	2392,
+	2620,
+	2621,
 	23,
-	2393,
-	2394,
+	2622,
+	2623,
 	23,
-	2395,
-	2396,
+	2624,
+	2625,
 	23,
 	-1,
 	3,
@@ -6472,17 +6508,17 @@ static const int32_t s_InvokerIndices[2153] =
 	3,
 	-1,
 	-1,
-	539,
-	2397,
-	2398,
+	548,
+	2626,
+	2627,
 	2,
-	2399,
-	2400,
-	2401,
-	2402,
-	2403,
+	2628,
+	2629,
+	2630,
+	2631,
+	2632,
 	94,
-	189,
+	190,
 	3,
 	-1,
 	-1,
@@ -6549,21 +6585,21 @@ static const int32_t s_InvokerIndices[2153] =
 	23,
 	136,
 	136,
-	2409,
+	2638,
 	14,
 	166,
 	14,
 	14,
 	0,
-	937,
-	2416,
-	2417,
+	951,
+	2645,
+	2646,
 	3,
-	485,
-	314,
+	494,
+	324,
 	164,
-	434,
-	2418,
+	443,
+	2647,
 	-1,
 	-1,
 	-1,
@@ -6578,37 +6614,37 @@ static const int32_t s_InvokerIndices[2153] =
 	114,
 	3,
 	26,
-	2419,
+	2648,
 	10,
 	6,
 	6,
-	209,
+	202,
 	5,
 	136,
 	3,
 	5,
 	5,
-	390,
-	2420,
-	2421,
-	2422,
-	390,
-	2420,
-	2421,
-	2422,
-	2423,
-	2424,
-	2425,
-	2426,
-	845,
-	2427,
-	2425,
-	2426,
-	845,
-	2427,
-	2428,
-	2429,
-	390,
+	399,
+	2649,
+	2650,
+	2651,
+	399,
+	2649,
+	2650,
+	2651,
+	2652,
+	2653,
+	2654,
+	2655,
+	860,
+	2656,
+	2654,
+	2655,
+	860,
+	2656,
+	2657,
+	2658,
+	399,
 	94,
 	94,
 	94,
@@ -6631,8 +6667,8 @@ static const int32_t s_InvokerIndices[2153] =
 	-1,
 	-1,
 	58,
-	454,
-	710,
+	463,
+	720,
 	26,
 	0,
 	-1,
@@ -6644,27 +6680,27 @@ static const int32_t s_InvokerIndices[2153] =
 	-1,
 	-1,
 	-1,
-	322,
-	716,
+	332,
+	726,
 	23,
 	23,
-	335,
+	345,
 	134,
-	335,
+	345,
 	134,
-	335,
+	345,
 	134,
 	122,
 	122,
-	585,
-	335,
+	595,
+	345,
 	134,
 	134,
-	335,
+	345,
 	122,
-	335,
-	335,
-	335,
+	345,
+	345,
+	345,
 	134,
 	134,
 	134,
@@ -6692,7 +6728,7 @@ static const int32_t s_InvokerIndices[2153] =
 	26,
 	14,
 	26,
-	2430,
+	2659,
 	110,
 	110,
 	0,
@@ -6721,46 +6757,46 @@ static const int32_t s_InvokerIndices[2153] =
 	14,
 	26,
 	110,
-	189,
-	267,
+	190,
+	271,
 	6,
-	2433,
-	2434,
+	2662,
+	2663,
 	6,
-	2433,
-	2434,
+	2662,
+	2663,
 	23,
-	2435,
+	2664,
 	136,
 	31,
 	26,
 	136,
 	35,
-	806,
+	820,
 	26,
 	43,
 	43,
 	4,
-	2428,
-	2429,
-	2436,
-	2437,
-	2438,
-	2439,
-	2439,
-	2440,
-	2441,
-	2442,
-	2443,
-	2444,
+	2657,
+	2658,
+	2665,
+	2666,
+	2667,
+	2668,
+	2668,
+	2669,
+	2670,
+	2671,
+	2672,
+	2673,
 	3,
-	303,
-	2445,
-	2446,
-	2446,
+	308,
+	2674,
+	2675,
+	2675,
 	142,
-	428,
-	428,
+	437,
+	437,
 	10,
 	142,
 	114,
@@ -6768,16 +6804,16 @@ static const int32_t s_InvokerIndices[2153] =
 	114,
 	114,
 	10,
-	2446,
-	542,
+	2675,
+	552,
 	114,
-	428,
+	437,
 	21,
-	1576,
-	1576,
-	2447,
-	302,
-	2446,
+	1660,
+	1660,
+	2676,
+	307,
+	2675,
 	10,
 	10,
 	10,
@@ -6786,63 +6822,63 @@ static const int32_t s_InvokerIndices[2153] =
 	114,
 	114,
 	10,
-	542,
-	2446,
+	552,
+	2675,
 	114,
-	713,
-	1204,
-	1204,
-	2448,
-	2437,
-	875,
+	723,
+	1258,
+	1258,
+	2677,
+	2666,
+	890,
 	3,
 	35,
 	30,
-	608,
+	618,
 	10,
 	114,
 	114,
 	114,
-	2449,
+	2678,
 	4,
-	2450,
-	2450,
-	2451,
-	2452,
-	2453,
-	2454,
-	2455,
-	2456,
-	2455,
-	2455,
-	2457,
-	2458,
+	2679,
+	2679,
+	2680,
+	2681,
+	2682,
+	2683,
+	2684,
+	2685,
+	2684,
+	2684,
+	2686,
+	2687,
 	3,
 	136,
 	114,
-	2459,
-	2460,
-	2461,
-	2462,
-	2462,
-	2463,
-	2463,
-	2464,
-	2464,
-	2463,
-	2463,
-	2463,
-	2463,
+	2688,
+	2689,
+	2690,
+	2691,
+	2691,
+	2692,
+	2692,
+	2693,
+	2693,
+	2692,
+	2692,
+	2692,
+	2692,
 	4,
 	4,
-	2424,
-	2423,
+	2653,
+	2652,
 	46,
-	2465,
-	2466,
-	2467,
-	248,
-	2468,
+	2694,
+	2695,
+	2696,
+	249,
+	2697,
 	3,
 	-1,
 	-1,
@@ -6927,54 +6963,54 @@ static const int32_t s_InvokerIndices[2153] =
 	-1,
 	-1,
 	-1,
-	2381,
-	2037,
+	2611,
+	1918,
 	23,
 	3,
-	2381,
-	2037,
+	2611,
+	1918,
 	23,
 	3,
-	2381,
-	2037,
-	23,
-	3,
-	23,
-	26,
-	2469,
-	2470,
-	23,
-	26,
-	2471,
-	2472,
-	2469,
-	2470,
-	23,
-	3,
-	2469,
-	2470,
+	2611,
+	1918,
 	23,
 	3,
 	23,
 	26,
-	2473,
-	2474,
+	2698,
+	2699,
 	23,
 	26,
-	2475,
-	2476,
-	2473,
-	2474,
+	2700,
+	2701,
+	2698,
+	2699,
 	23,
 	3,
-	2477,
-	2478,
+	2698,
+	2699,
+	23,
+	3,
+	23,
+	26,
+	2702,
+	2703,
+	23,
+	26,
+	2704,
+	2705,
+	2702,
+	2703,
+	23,
+	3,
+	2706,
+	2707,
 	23,
 	23,
-	2479,
-	2480,
-	2477,
-	2478,
+	2708,
+	2709,
+	2706,
+	2707,
 	23,
 	3,
 	-1,
@@ -7011,15 +7047,15 @@ static const int32_t s_InvokerIndices[2153] =
 	-1,
 	-1,
 	-1,
-	2381,
-	2037,
+	2611,
+	1918,
 	23,
 	3,
 	26,
-	2381,
-	2037,
-	657,
-	657,
+	2611,
+	1918,
+	667,
+	667,
 	-1,
 	-1,
 	-1,
@@ -7046,253 +7082,253 @@ static const int32_t s_InvokerIndices[2153] =
 	-1,
 	-1,
 	-1,
-	2483,
-	1665,
-	2483,
-	1665,
+	2711,
+	1835,
+	2711,
+	1835,
 	23,
 	3,
-	2484,
-	2485,
-	2484,
-	2485,
+	2712,
+	2713,
+	2712,
+	2713,
 	23,
 	3,
-	2381,
-	2037,
+	2611,
+	1918,
 	23,
 	3,
-	2486,
-	2487,
-	2486,
-	2487,
+	2714,
+	2715,
+	2714,
+	2715,
 	23,
 	3,
-	2488,
-	2489,
-	2488,
-	2489,
+	2716,
+	2717,
+	2716,
+	2717,
 	23,
 	3,
-	2381,
-	2037,
+	2611,
+	1918,
 	23,
 	3,
-	1790,
-	2490,
-	1790,
-	2490,
+	2019,
+	2718,
+	2019,
+	2718,
 	23,
 	3,
-	2491,
-	2492,
-	2491,
-	2492,
+	2719,
+	2720,
+	2719,
+	2720,
 	23,
 	3,
-	2381,
-	2037,
+	2611,
+	1918,
 	23,
 	3,
-	678,
-	1953,
-	678,
-	1953,
+	688,
+	2179,
+	688,
+	2179,
 	23,
 	3,
-	2493,
-	2494,
-	2493,
-	2494,
+	2721,
+	2722,
+	2721,
+	2722,
 	23,
 	3,
-	2381,
-	2037,
+	2611,
+	1918,
 	23,
 	3,
-	2483,
-	1665,
-	2483,
-	1665,
+	2711,
+	1835,
+	2711,
+	1835,
 	23,
 	3,
-	2495,
-	2496,
-	2495,
-	2496,
+	2723,
+	2724,
+	2723,
+	2724,
 	23,
 	3,
-	2486,
-	2487,
-	2486,
-	2487,
+	2714,
+	2715,
+	2714,
+	2715,
 	23,
 	3,
-	2497,
-	2498,
-	2497,
-	2498,
+	2725,
+	2726,
+	2725,
+	2726,
 	23,
 	3,
-	2381,
-	2037,
+	2611,
+	1918,
 	23,
 	3,
-	1790,
-	2490,
-	1790,
-	2490,
+	2019,
+	2718,
+	2019,
+	2718,
 	23,
 	3,
-	2499,
-	2500,
-	2499,
-	2500,
+	2727,
+	2728,
+	2727,
+	2728,
 	23,
 	3,
-	2381,
-	2037,
+	2611,
+	1918,
 	23,
 	3,
-	678,
-	1953,
-	678,
-	1953,
+	688,
+	2179,
+	688,
+	2179,
 	23,
 	3,
-	2501,
-	2502,
-	2501,
-	2502,
+	2729,
+	2730,
+	2729,
+	2730,
 	23,
 	3,
-	2381,
-	2037,
+	2611,
+	1918,
 	23,
 	3,
-	2503,
-	2504,
-	2503,
-	2504,
+	2731,
+	2732,
+	2731,
+	2732,
 	23,
 	3,
-	2505,
-	2506,
-	2505,
-	2506,
+	2733,
+	2734,
+	2733,
+	2734,
 	23,
 	3,
-	2381,
-	2037,
+	2611,
+	1918,
 	23,
 	3,
-	2507,
-	2508,
-	2507,
-	2508,
+	2735,
+	2736,
+	2735,
+	2736,
 	23,
 	3,
-	2509,
-	2510,
-	2509,
-	2510,
+	2737,
+	2738,
+	2737,
+	2738,
 	23,
 	3,
-	2381,
-	2037,
+	2611,
+	1918,
 	23,
 	3,
-	2483,
-	1665,
-	2483,
-	1665,
+	2711,
+	1835,
+	2711,
+	1835,
 	23,
 	3,
-	2511,
-	2512,
-	2511,
-	2512,
+	2739,
+	2740,
+	2739,
+	2740,
 	23,
 	3,
-	2381,
-	2037,
+	2611,
+	1918,
 	23,
 	3,
-	2381,
-	2037,
+	2611,
+	1918,
 	23,
 	3,
-	2381,
-	2037,
+	2611,
+	1918,
 	23,
 	3,
-	2513,
-	2514,
+	2741,
+	2742,
 	23,
 	3,
-	2381,
-	2037,
-	2381,
-	2037,
+	2611,
+	1918,
+	2611,
+	1918,
 	23,
 	3,
-	2381,
-	2037,
+	2611,
+	1918,
 	23,
 	3,
-	2486,
-	2487,
+	2714,
+	2715,
 	23,
 	3,
-	2515,
-	2516,
+	2743,
+	2744,
 	23,
 	3,
-	2381,
-	2037,
+	2611,
+	1918,
 	23,
 	3,
-	2517,
-	2518,
-	2517,
-	2518,
+	2745,
+	2746,
+	2745,
+	2746,
 	23,
 	3,
 	23,
 	31,
-	2519,
-	2520,
+	2747,
+	2748,
 	3,
-	2381,
-	2037,
+	2611,
+	1918,
 	23,
 	3,
-	2381,
-	2037,
+	2611,
+	1918,
 	23,
 	3,
 	-1,
 	-1,
 	-1,
-	2381,
-	2037,
+	2611,
+	1918,
 	23,
 	3,
-	2381,
-	2037,
+	2611,
+	1918,
 	23,
 	3,
 	23,
-	646,
-	2381,
-	2037,
+	656,
+	2611,
+	1918,
 	3,
 	3,
 	3,
-	227,
-	2521,
-	2522,
-	2523,
+	228,
+	2749,
+	2750,
+	2751,
 	3,
 	-1,
 	-1,
@@ -7307,98 +7343,98 @@ static const int32_t s_InvokerIndices[2153] =
 	-1,
 	95,
 	-1,
-	238,
-	238,
+	239,
+	239,
 	-1,
-	2524,
-	1549,
-	1342,
-	2525,
-	1342,
-	2525,
-	1246,
-	1246,
-	1246,
-	1246,
-	1245,
-	1245,
-	1246,
-	1246,
-	1246,
-	1250,
-	2526,
-	2526,
-	2527,
+	2752,
+	1754,
+	1397,
+	2753,
+	1397,
+	2753,
+	1299,
+	1299,
+	1299,
+	1299,
+	1298,
+	1298,
+	1299,
+	1299,
+	1299,
+	1303,
+	2754,
+	2754,
+	2755,
 	3,
-	2528,
-	2529,
-	464,
+	2756,
+	2757,
+	473,
 	-1,
-	314,
-	2530,
-	2531,
+	324,
+	2758,
+	2759,
 	-1,
 	-1,
 	1,
 	1,
-	2532,
-	2532,
-	2532,
-	2532,
-	2533,
-	2534,
-	2534,
-	2535,
-	2535,
-	2536,
-	2537,
+	2760,
+	2760,
+	2760,
+	2760,
+	2761,
+	2762,
+	2762,
+	2763,
+	2763,
+	2764,
+	2765,
 	53,
-	410,
-	410,
-	228,
-	1287,
-	2538,
-	2539,
-	408,
-	1286,
-	408,
-	1528,
-	2540,
-	2541,
-	2541,
-	2540,
+	419,
+	419,
+	229,
+	1339,
+	2766,
+	2767,
+	417,
+	1338,
+	417,
+	1576,
+	2768,
+	2769,
+	2769,
+	2768,
 	3,
-	2542,
-	2543,
-	1193,
-	2544,
-	2544,
-	2545,
-	2544,
-	2546,
-	2524,
-	2524,
-	2542,
-	2547,
-	2548,
-	1196,
-	1196,
-	2549,
-	1193,
-	2545,
-	2550,
-	2545,
-	2551,
-	2552,
-	2553,
-	2542,
-	2542,
-	2542,
-	2554,
+	2770,
+	2771,
+	1247,
+	2772,
+	2772,
+	2773,
+	2772,
+	2774,
+	2752,
+	2752,
+	2770,
+	2775,
+	2776,
+	1250,
+	1250,
+	2777,
+	1247,
+	2773,
+	2778,
+	2773,
+	2779,
+	2780,
+	2781,
+	2770,
+	2770,
+	2770,
+	2782,
 	3,
-	2524,
-	2525,
-	1549,
+	2752,
+	2753,
+	1754,
 	122,
 	163,
 	1,
@@ -7410,69 +7446,69 @@ static const int32_t s_InvokerIndices[2153] =
 	2,
 	1,
 	1,
-	2524,
+	2752,
 	111,
 	2,
 	0,
-	2555,
+	2783,
 	1,
-	2178,
-	1268,
-	1289,
-	1268,
-	1289,
-	2556,
-	1290,
-	1290,
-	1268,
-	1289,
-	1291,
-	2557,
-	2558,
-	2559,
-	2560,
-	1270,
-	2557,
-	2559,
-	2561,
-	2562,
-	2563,
-	2564,
-	2565,
-	2566,
-	1311,
-	2567,
-	1298,
-	2568,
-	2569,
-	2570,
-	2571,
-	1272,
-	1272,
-	1272,
-	1291,
-	1291,
-	2572,
-	2573,
-	1289,
-	1289,
-	1299,
-	1299,
-	2574,
-	2575,
-	2576,
-	2577,
-	2578,
-	2579,
+	2398,
+	1320,
+	1341,
+	1320,
+	1341,
+	2784,
 	1342,
-	2580,
-	2581,
-	1294,
+	1342,
+	1320,
+	1341,
+	1343,
+	2785,
+	2786,
+	2787,
+	2788,
+	1322,
+	2785,
+	2787,
+	2789,
+	2790,
+	2791,
+	2792,
+	2793,
+	2794,
+	1364,
+	2795,
+	1350,
+	2796,
+	2797,
+	2798,
+	2799,
+	1324,
+	1324,
+	1324,
+	1343,
+	1343,
+	2800,
+	2801,
+	1341,
+	1341,
+	1351,
+	1351,
+	2802,
+	2803,
+	2804,
+	2805,
+	2806,
+	2807,
+	1397,
+	2808,
+	2809,
+	1346,
 	3,
 	14,
 	26,
-	713,
-	302,
+	723,
+	307,
 	10,
 	32,
 	10,
@@ -7486,7 +7522,7 @@ static const int32_t s_InvokerIndices[2153] =
 	14,
 	23,
 	23,
-	2297,
+	1683,
 	23,
 	23,
 	114,
@@ -7518,15 +7554,15 @@ static const int32_t s_InvokerIndices[2153] =
 	114,
 	10,
 	32,
-	713,
-	302,
+	723,
+	307,
 	23,
 	26,
 	23,
 	23,
-	1191,
+	1245,
 	23,
-	302,
+	307,
 	23,
 	23,
 	23,
@@ -7551,11 +7587,15 @@ static const int32_t s_InvokerIndices[2153] =
 	23,
 	23,
 	94,
-	585,
+	595,
 	95,
-	335,
+	345,
 	23,
 	3,
+	14,
+	23,
+	23,
+	14,
 	114,
 	23,
 	23,
@@ -7572,23 +7612,23 @@ static const int32_t s_InvokerIndices[2153] =
 	114,
 	23,
 	9,
-	2582,
-	2583,
-	209,
+	2810,
+	2811,
+	202,
 	94,
 	23,
 	23,
 	23,
-	2584,
+	2812,
 	26,
-	2584,
+	2812,
 	26,
 	-1,
 	-1,
 	-1,
-	2585,
-	2586,
-	2587,
+	2813,
+	2814,
+	2815,
 	23,
 	114,
 	23,
@@ -7639,10 +7679,10 @@ static const int32_t s_InvokerIndices[2153] =
 	32,
 	23,
 	23,
-	302,
+	307,
 	31,
 	23,
-	2589,
+	2817,
 	23,
 	3,
 	114,
@@ -7655,11 +7695,13 @@ static const int32_t s_InvokerIndices[2153] =
 	26,
 	10,
 	32,
-	1204,
+	1258,
 	49,
-	837,
+	852,
 	122,
 	122,
+	131,
+	133,
 	23,
 	23,
 	14,
@@ -7690,7 +7732,7 @@ static const int32_t s_InvokerIndices[2153] =
 	122,
 	0,
 	1,
-	1328,
+	1383,
 	122,
 	122,
 	26,
@@ -7711,24 +7753,24 @@ static const int32_t s_InvokerIndices[2153] =
 	10,
 	49,
 	114,
-	1204,
-	713,
+	1258,
+	723,
 	49,
 	114,
 	131,
 	10,
-	1296,
-	1189,
-	1296,
-	1177,
+	1348,
+	1240,
+	1348,
+	1232,
 	49,
 	114,
 	49,
 	114,
 	49,
 	114,
-	1296,
-	1189,
+	1348,
+	1240,
 	49,
 	114,
 	23,
@@ -7789,14 +7831,14 @@ static const int32_t s_InvokerIndices[2153] =
 	134,
 	156,
 	156,
-	1717,
-	2046,
-	2085,
-	1147,
-	2377,
-	2378,
-	2378,
-	2379,
+	1897,
+	2270,
+	1167,
+	1172,
+	2607,
+	2608,
+	2608,
+	2609,
 	0,
 	1,
 	1,
@@ -7805,12 +7847,12 @@ static const int32_t s_InvokerIndices[2153] =
 	2,
 	1,
 	2,
-	524,
-	2005,
+	533,
+	2231,
 	1,
 	2,
-	657,
-	2380,
+	667,
+	2610,
 	4,
 	3,
 	3,
@@ -7851,9 +7893,9 @@ static const int32_t s_InvokerIndices[2153] =
 	23,
 	23,
 	23,
-	2404,
+	2633,
 	23,
-	2404,
+	2633,
 	3,
 	23,
 	9,
@@ -7868,28 +7910,28 @@ static const int32_t s_InvokerIndices[2153] =
 	116,
 	9,
 	116,
-	2405,
-	2405,
+	2634,
+	2634,
 	23,
 	28,
 	23,
 	9,
 	23,
 	23,
-	2404,
+	2633,
 	23,
-	2404,
+	2633,
 	23,
-	2406,
+	2635,
 	23,
-	2407,
+	2636,
 	23,
-	2408,
+	2637,
 	23,
 	23,
-	2405,
+	2634,
 	23,
-	2405,
+	2634,
 	-1,
 	-1,
 	-1,
@@ -7943,21 +7985,21 @@ static const int32_t s_InvokerIndices[2153] =
 	114,
 	172,
 	144,
-	2410,
-	913,
-	2411,
-	2412,
+	2639,
+	927,
+	2640,
+	2641,
 	116,
 	14,
-	937,
-	2413,
+	951,
+	2642,
 	3,
 	32,
 	23,
 	114,
 	23,
 	23,
-	2415,
+	2644,
 	23,
 	14,
 	14,
@@ -8007,33 +8049,33 @@ static const int32_t s_InvokerIndices[2153] =
 	9,
 	9,
 	116,
-	2431,
-	2432,
+	2660,
+	2661,
 	102,
-	2481,
-	2482,
+	2474,
+	2710,
 	105,
 	3,
 	23,
 	28,
 	3,
 	23,
-	2381,
-	2381,
-	2381,
-	2381,
-	2381,
-	2381,
-	2381,
-	2381,
-	2037,
-	2037,
-	2037,
-	2037,
-	2037,
-	2037,
-	2037,
-	2037,
+	2611,
+	2611,
+	2611,
+	2611,
+	2611,
+	2611,
+	2611,
+	2611,
+	1918,
+	1918,
+	1918,
+	1918,
+	1918,
+	1918,
+	1918,
+	1918,
 	-1,
 	-1,
 	-1,
@@ -8080,23 +8122,29 @@ static const int32_t s_InvokerIndices[2153] =
 	14,
 	23,
 	14,
+	32,
+	23,
+	114,
+	14,
+	23,
+	14,
 	23,
 	23,
 	23,
 	23,
-	622,
+	632,
 	23,
 	62,
 	23,
 	27,
 	23,
-	302,
+	307,
 	23,
-	2588,
+	2816,
 	23,
 	23,
 	26,
-	1326,
+	1381,
 	32,
 	23,
 	114,
@@ -8109,7 +8157,7 @@ static const int32_t s_InvokerIndices[2153] =
 	14,
 	23,
 	14,
-	900,
+	914,
 	23,
 	-1,
 	102,
@@ -8136,15 +8184,15 @@ static const int32_t s_InvokerIndices[2153] =
 	169,
 	169,
 	169,
-	712,
+	722,
 	102,
-	2381,
-	2036,
+	2611,
+	2261,
 	105,
 	102,
-	2037,
-	2382,
-	2037,
+	1918,
+	1919,
+	1918,
 	26,
 	-1,
 	2,
@@ -8179,8 +8227,8 @@ static const int32_t s_InvokerIndices[2153] =
 	14,
 	14,
 	23,
-	2414,
-	2414,
+	2643,
+	2643,
 	3,
 	23,
 	9,
@@ -8243,58 +8291,58 @@ static const Il2CppTokenRangePair s_rgctxIndices[191] =
 	{ 0x020000CC, { 579, 6 } },
 	{ 0x020000CD, { 585, 5 } },
 	{ 0x020000FA, { 590, 8 } },
-	{ 0x0200013C, { 7, 1 } },
-	{ 0x02000141, { 56, 4 } },
-	{ 0x02000142, { 60, 7 } },
-	{ 0x02000147, { 99, 3 } },
-	{ 0x02000148, { 103, 3 } },
-	{ 0x02000149, { 107, 3 } },
-	{ 0x0200014B, { 111, 4 } },
-	{ 0x0200014C, { 119, 3 } },
-	{ 0x0200014E, { 123, 3 } },
-	{ 0x0200014F, { 127, 3 } },
-	{ 0x02000150, { 131, 3 } },
-	{ 0x02000151, { 135, 3 } },
-	{ 0x02000152, { 139, 3 } },
-	{ 0x02000153, { 143, 3 } },
-	{ 0x02000154, { 147, 3 } },
-	{ 0x02000155, { 151, 3 } },
-	{ 0x02000156, { 155, 3 } },
-	{ 0x02000157, { 159, 3 } },
-	{ 0x02000158, { 163, 3 } },
-	{ 0x02000159, { 167, 3 } },
-	{ 0x0200016A, { 177, 5 } },
-	{ 0x0200016B, { 183, 5 } },
-	{ 0x0200016C, { 189, 4 } },
-	{ 0x0200016E, { 197, 4 } },
-	{ 0x02000170, { 205, 4 } },
-	{ 0x02000172, { 213, 4 } },
-	{ 0x02000174, { 221, 4 } },
-	{ 0x02000176, { 229, 4 } },
-	{ 0x02000178, { 237, 4 } },
-	{ 0x0200017A, { 245, 4 } },
-	{ 0x0200017C, { 253, 4 } },
-	{ 0x0200017E, { 261, 4 } },
-	{ 0x02000180, { 269, 4 } },
-	{ 0x02000182, { 277, 4 } },
-	{ 0x02000186, { 299, 1 } },
-	{ 0x02000187, { 300, 2 } },
-	{ 0x0200018A, { 319, 1 } },
-	{ 0x02000198, { 550, 1 } },
-	{ 0x02000199, { 551, 1 } },
-	{ 0x0200019C, { 637, 1 } },
-	{ 0x020001C6, { 194, 2 } },
-	{ 0x020001C7, { 202, 2 } },
-	{ 0x020001C8, { 210, 2 } },
-	{ 0x020001C9, { 218, 2 } },
-	{ 0x020001CA, { 226, 2 } },
-	{ 0x020001CB, { 234, 2 } },
-	{ 0x020001CC, { 242, 2 } },
-	{ 0x020001CD, { 250, 2 } },
-	{ 0x020001CE, { 258, 2 } },
-	{ 0x020001CF, { 266, 2 } },
-	{ 0x020001D0, { 274, 2 } },
-	{ 0x020001D1, { 282, 2 } },
+	{ 0x0200013D, { 7, 1 } },
+	{ 0x02000142, { 56, 4 } },
+	{ 0x02000143, { 60, 7 } },
+	{ 0x02000148, { 99, 3 } },
+	{ 0x02000149, { 103, 3 } },
+	{ 0x0200014A, { 107, 3 } },
+	{ 0x0200014C, { 111, 4 } },
+	{ 0x0200014D, { 119, 3 } },
+	{ 0x0200014F, { 123, 3 } },
+	{ 0x02000150, { 127, 3 } },
+	{ 0x02000151, { 131, 3 } },
+	{ 0x02000152, { 135, 3 } },
+	{ 0x02000153, { 139, 3 } },
+	{ 0x02000154, { 143, 3 } },
+	{ 0x02000155, { 147, 3 } },
+	{ 0x02000156, { 151, 3 } },
+	{ 0x02000157, { 155, 3 } },
+	{ 0x02000158, { 159, 3 } },
+	{ 0x02000159, { 163, 3 } },
+	{ 0x0200015A, { 167, 3 } },
+	{ 0x0200016B, { 177, 5 } },
+	{ 0x0200016C, { 183, 5 } },
+	{ 0x0200016D, { 189, 4 } },
+	{ 0x0200016F, { 197, 4 } },
+	{ 0x02000171, { 205, 4 } },
+	{ 0x02000173, { 213, 4 } },
+	{ 0x02000175, { 221, 4 } },
+	{ 0x02000177, { 229, 4 } },
+	{ 0x02000179, { 237, 4 } },
+	{ 0x0200017B, { 245, 4 } },
+	{ 0x0200017D, { 253, 4 } },
+	{ 0x0200017F, { 261, 4 } },
+	{ 0x02000181, { 269, 4 } },
+	{ 0x02000183, { 277, 4 } },
+	{ 0x02000187, { 299, 1 } },
+	{ 0x02000188, { 300, 2 } },
+	{ 0x0200018B, { 319, 1 } },
+	{ 0x02000199, { 550, 1 } },
+	{ 0x0200019A, { 551, 1 } },
+	{ 0x0200019D, { 637, 1 } },
+	{ 0x020001C8, { 194, 2 } },
+	{ 0x020001C9, { 202, 2 } },
+	{ 0x020001CA, { 210, 2 } },
+	{ 0x020001CB, { 218, 2 } },
+	{ 0x020001CC, { 226, 2 } },
+	{ 0x020001CD, { 234, 2 } },
+	{ 0x020001CE, { 242, 2 } },
+	{ 0x020001CF, { 250, 2 } },
+	{ 0x020001D0, { 258, 2 } },
+	{ 0x020001D1, { 266, 2 } },
+	{ 0x020001D2, { 274, 2 } },
+	{ 0x020001D3, { 282, 2 } },
 	{ 0x06000041, { 2, 5 } },
 	{ 0x060000C6, { 67, 1 } },
 	{ 0x060000C8, { 68, 2 } },
@@ -8371,681 +8419,680 @@ static const Il2CppTokenRangePair s_rgctxIndices[191] =
 	{ 0x0600050C, { 633, 1 } },
 	{ 0x06000510, { 634, 1 } },
 	{ 0x06000511, { 635, 2 } },
-	{ 0x06000606, { 638, 1 } },
-	{ 0x06000607, { 639, 1 } },
-	{ 0x06000608, { 640, 2 } },
-	{ 0x06000676, { 642, 3 } },
-	{ 0x06000677, { 645, 2 } },
-	{ 0x0600073D, { 193, 1 } },
-	{ 0x06000741, { 201, 1 } },
-	{ 0x06000745, { 209, 1 } },
-	{ 0x06000749, { 217, 1 } },
-	{ 0x0600074D, { 225, 1 } },
-	{ 0x06000751, { 233, 1 } },
-	{ 0x06000755, { 241, 1 } },
-	{ 0x06000759, { 249, 1 } },
-	{ 0x0600075D, { 257, 1 } },
-	{ 0x06000761, { 265, 1 } },
-	{ 0x06000765, { 273, 1 } },
-	{ 0x06000769, { 281, 1 } },
-	{ 0x06000839, { 96, 2 } },
+	{ 0x0600060A, { 638, 1 } },
+	{ 0x0600060B, { 639, 1 } },
+	{ 0x0600060C, { 640, 2 } },
+	{ 0x0600067C, { 642, 3 } },
+	{ 0x0600067D, { 645, 2 } },
+	{ 0x06000743, { 193, 1 } },
+	{ 0x06000747, { 201, 1 } },
+	{ 0x0600074B, { 209, 1 } },
+	{ 0x0600074F, { 217, 1 } },
+	{ 0x06000753, { 225, 1 } },
+	{ 0x06000757, { 233, 1 } },
+	{ 0x0600075B, { 241, 1 } },
+	{ 0x0600075F, { 249, 1 } },
+	{ 0x06000763, { 257, 1 } },
+	{ 0x06000767, { 265, 1 } },
+	{ 0x0600076B, { 273, 1 } },
+	{ 0x0600076F, { 281, 1 } },
+	{ 0x06000845, { 96, 2 } },
 };
 static const Il2CppRGCTXDefinition s_rgctxValues[647] = 
 {
-	{ (Il2CppRGCTXDataType)2, 32392 },
-	{ (Il2CppRGCTXDataType)3, 32943 },
-	{ (Il2CppRGCTXDataType)2, 631 },
-	{ (Il2CppRGCTXDataType)3, 32944 },
-	{ (Il2CppRGCTXDataType)3, 32945 },
-	{ (Il2CppRGCTXDataType)3, 32946 },
-	{ (Il2CppRGCTXDataType)3, 32947 },
-	{ (Il2CppRGCTXDataType)2, 30514 },
-	{ (Il2CppRGCTXDataType)3, 32948 },
-	{ (Il2CppRGCTXDataType)2, 30524 },
-	{ (Il2CppRGCTXDataType)2, 32393 },
-	{ (Il2CppRGCTXDataType)3, 32949 },
-	{ (Il2CppRGCTXDataType)3, 32950 },
-	{ (Il2CppRGCTXDataType)3, 32951 },
-	{ (Il2CppRGCTXDataType)2, 638 },
-	{ (Il2CppRGCTXDataType)3, 32952 },
-	{ (Il2CppRGCTXDataType)3, 32953 },
-	{ (Il2CppRGCTXDataType)3, 32954 },
-	{ (Il2CppRGCTXDataType)3, 32955 },
-	{ (Il2CppRGCTXDataType)2, 32394 },
-	{ (Il2CppRGCTXDataType)3, 32956 },
-	{ (Il2CppRGCTXDataType)3, 32957 },
-	{ (Il2CppRGCTXDataType)3, 32958 },
-	{ (Il2CppRGCTXDataType)3, 32959 },
-	{ (Il2CppRGCTXDataType)3, 32960 },
-	{ (Il2CppRGCTXDataType)3, 32961 },
-	{ (Il2CppRGCTXDataType)3, 32962 },
-	{ (Il2CppRGCTXDataType)3, 32963 },
-	{ (Il2CppRGCTXDataType)3, 32964 },
-	{ (Il2CppRGCTXDataType)3, 32965 },
-	{ (Il2CppRGCTXDataType)2, 32395 },
-	{ (Il2CppRGCTXDataType)2, 30554 },
-	{ (Il2CppRGCTXDataType)2, 32396 },
-	{ (Il2CppRGCTXDataType)3, 32966 },
-	{ (Il2CppRGCTXDataType)2, 32397 },
-	{ (Il2CppRGCTXDataType)3, 32967 },
-	{ (Il2CppRGCTXDataType)3, 32968 },
-	{ (Il2CppRGCTXDataType)3, 32969 },
-	{ (Il2CppRGCTXDataType)3, 32970 },
-	{ (Il2CppRGCTXDataType)2, 32398 },
-	{ (Il2CppRGCTXDataType)3, 32971 },
-	{ (Il2CppRGCTXDataType)3, 32972 },
-	{ (Il2CppRGCTXDataType)2, 639 },
-	{ (Il2CppRGCTXDataType)2, 641 },
-	{ (Il2CppRGCTXDataType)3, 32973 },
-	{ (Il2CppRGCTXDataType)2, 642 },
-	{ (Il2CppRGCTXDataType)3, 32974 },
-	{ (Il2CppRGCTXDataType)3, 32975 },
-	{ (Il2CppRGCTXDataType)3, 32976 },
-	{ (Il2CppRGCTXDataType)3, 32977 },
-	{ (Il2CppRGCTXDataType)3, 32978 },
-	{ (Il2CppRGCTXDataType)3, 32979 },
-	{ (Il2CppRGCTXDataType)3, 32980 },
-	{ (Il2CppRGCTXDataType)3, 32981 },
-	{ (Il2CppRGCTXDataType)3, 32982 },
-	{ (Il2CppRGCTXDataType)3, 32983 },
-	{ (Il2CppRGCTXDataType)2, 32399 },
-	{ (Il2CppRGCTXDataType)3, 32984 },
-	{ (Il2CppRGCTXDataType)2, 32399 },
-	{ (Il2CppRGCTXDataType)3, 32985 },
-	{ (Il2CppRGCTXDataType)3, 32986 },
-	{ (Il2CppRGCTXDataType)3, 32987 },
-	{ (Il2CppRGCTXDataType)3, 32988 },
-	{ (Il2CppRGCTXDataType)3, 32989 },
-	{ (Il2CppRGCTXDataType)2, 30574 },
-	{ (Il2CppRGCTXDataType)3, 32990 },
-	{ (Il2CppRGCTXDataType)3, 32991 },
-	{ (Il2CppRGCTXDataType)2, 30653 },
-	{ (Il2CppRGCTXDataType)3, 32992 },
-	{ (Il2CppRGCTXDataType)1, 645 },
-	{ (Il2CppRGCTXDataType)3, 32993 },
-	{ (Il2CppRGCTXDataType)3, 32994 },
-	{ (Il2CppRGCTXDataType)2, 649 },
-	{ (Il2CppRGCTXDataType)3, 32995 },
-	{ (Il2CppRGCTXDataType)3, 32996 },
-	{ (Il2CppRGCTXDataType)2, 651 },
-	{ (Il2CppRGCTXDataType)3, 32997 },
-	{ (Il2CppRGCTXDataType)3, 32998 },
-	{ (Il2CppRGCTXDataType)3, 32999 },
-	{ (Il2CppRGCTXDataType)3, 33000 },
-	{ (Il2CppRGCTXDataType)2, 653 },
-	{ (Il2CppRGCTXDataType)3, 33001 },
-	{ (Il2CppRGCTXDataType)3, 33002 },
-	{ (Il2CppRGCTXDataType)2, 655 },
-	{ (Il2CppRGCTXDataType)3, 33003 },
-	{ (Il2CppRGCTXDataType)3, 33004 },
-	{ (Il2CppRGCTXDataType)3, 33005 },
-	{ (Il2CppRGCTXDataType)3, 33006 },
-	{ (Il2CppRGCTXDataType)3, 33007 },
-	{ (Il2CppRGCTXDataType)3, 33008 },
-	{ (Il2CppRGCTXDataType)2, 658 },
-	{ (Il2CppRGCTXDataType)3, 33009 },
-	{ (Il2CppRGCTXDataType)3, 33010 },
-	{ (Il2CppRGCTXDataType)2, 660 },
-	{ (Il2CppRGCTXDataType)3, 33011 },
-	{ (Il2CppRGCTXDataType)3, 33012 },
-	{ (Il2CppRGCTXDataType)1, 30688 },
-	{ (Il2CppRGCTXDataType)2, 30688 },
-	{ (Il2CppRGCTXDataType)2, 32400 },
-	{ (Il2CppRGCTXDataType)1, 30715 },
-	{ (Il2CppRGCTXDataType)2, 32401 },
-	{ (Il2CppRGCTXDataType)2, 32402 },
-	{ (Il2CppRGCTXDataType)2, 32403 },
-	{ (Il2CppRGCTXDataType)1, 30736 },
-	{ (Il2CppRGCTXDataType)2, 32404 },
-	{ (Il2CppRGCTXDataType)2, 32405 },
-	{ (Il2CppRGCTXDataType)2, 32406 },
-	{ (Il2CppRGCTXDataType)1, 30743 },
-	{ (Il2CppRGCTXDataType)2, 32407 },
-	{ (Il2CppRGCTXDataType)2, 32408 },
-	{ (Il2CppRGCTXDataType)2, 32409 },
-	{ (Il2CppRGCTXDataType)1, 672 },
-	{ (Il2CppRGCTXDataType)2, 671 },
-	{ (Il2CppRGCTXDataType)2, 32410 },
-	{ (Il2CppRGCTXDataType)3, 33013 },
-	{ (Il2CppRGCTXDataType)1, 679 },
-	{ (Il2CppRGCTXDataType)2, 678 },
-	{ (Il2CppRGCTXDataType)3, 33014 },
-	{ (Il2CppRGCTXDataType)2, 32411 },
-	{ (Il2CppRGCTXDataType)1, 30768 },
-	{ (Il2CppRGCTXDataType)2, 32412 },
-	{ (Il2CppRGCTXDataType)2, 32413 },
-	{ (Il2CppRGCTXDataType)2, 32414 },
-	{ (Il2CppRGCTXDataType)3, 33015 },
-	{ (Il2CppRGCTXDataType)2, 32415 },
-	{ (Il2CppRGCTXDataType)2, 32416 },
-	{ (Il2CppRGCTXDataType)2, 32417 },
-	{ (Il2CppRGCTXDataType)3, 33016 },
-	{ (Il2CppRGCTXDataType)2, 32418 },
-	{ (Il2CppRGCTXDataType)2, 32419 },
-	{ (Il2CppRGCTXDataType)2, 32420 },
-	{ (Il2CppRGCTXDataType)3, 33017 },
-	{ (Il2CppRGCTXDataType)2, 32421 },
-	{ (Il2CppRGCTXDataType)2, 32422 },
-	{ (Il2CppRGCTXDataType)2, 32423 },
-	{ (Il2CppRGCTXDataType)3, 33018 },
-	{ (Il2CppRGCTXDataType)2, 32424 },
-	{ (Il2CppRGCTXDataType)2, 32425 },
-	{ (Il2CppRGCTXDataType)2, 32426 },
-	{ (Il2CppRGCTXDataType)3, 33019 },
-	{ (Il2CppRGCTXDataType)2, 32427 },
-	{ (Il2CppRGCTXDataType)2, 32428 },
-	{ (Il2CppRGCTXDataType)2, 32429 },
-	{ (Il2CppRGCTXDataType)3, 33020 },
-	{ (Il2CppRGCTXDataType)2, 32430 },
-	{ (Il2CppRGCTXDataType)2, 32431 },
-	{ (Il2CppRGCTXDataType)2, 32432 },
-	{ (Il2CppRGCTXDataType)3, 33021 },
-	{ (Il2CppRGCTXDataType)2, 32433 },
-	{ (Il2CppRGCTXDataType)2, 32434 },
-	{ (Il2CppRGCTXDataType)2, 32435 },
-	{ (Il2CppRGCTXDataType)3, 33022 },
-	{ (Il2CppRGCTXDataType)2, 32436 },
-	{ (Il2CppRGCTXDataType)2, 32437 },
-	{ (Il2CppRGCTXDataType)2, 32438 },
-	{ (Il2CppRGCTXDataType)3, 33023 },
-	{ (Il2CppRGCTXDataType)2, 32439 },
-	{ (Il2CppRGCTXDataType)2, 32440 },
-	{ (Il2CppRGCTXDataType)2, 32441 },
-	{ (Il2CppRGCTXDataType)3, 33024 },
-	{ (Il2CppRGCTXDataType)2, 32442 },
-	{ (Il2CppRGCTXDataType)2, 32443 },
-	{ (Il2CppRGCTXDataType)2, 32444 },
-	{ (Il2CppRGCTXDataType)3, 33025 },
-	{ (Il2CppRGCTXDataType)2, 32445 },
-	{ (Il2CppRGCTXDataType)2, 32446 },
-	{ (Il2CppRGCTXDataType)2, 32447 },
-	{ (Il2CppRGCTXDataType)3, 33026 },
-	{ (Il2CppRGCTXDataType)2, 32448 },
-	{ (Il2CppRGCTXDataType)2, 32449 },
-	{ (Il2CppRGCTXDataType)1, 32450 },
-	{ (Il2CppRGCTXDataType)2, 32451 },
-	{ (Il2CppRGCTXDataType)1, 32452 },
-	{ (Il2CppRGCTXDataType)2, 32453 },
-	{ (Il2CppRGCTXDataType)3, 33027 },
-	{ (Il2CppRGCTXDataType)3, 33028 },
-	{ (Il2CppRGCTXDataType)2, 32454 },
-	{ (Il2CppRGCTXDataType)1, 30945 },
-	{ (Il2CppRGCTXDataType)2, 32455 },
-	{ (Il2CppRGCTXDataType)2, 32456 },
-	{ (Il2CppRGCTXDataType)2, 32457 },
-	{ (Il2CppRGCTXDataType)3, 33029 },
-	{ (Il2CppRGCTXDataType)2, 32458 },
-	{ (Il2CppRGCTXDataType)1, 30952 },
-	{ (Il2CppRGCTXDataType)2, 32459 },
-	{ (Il2CppRGCTXDataType)2, 32460 },
-	{ (Il2CppRGCTXDataType)2, 32461 },
-	{ (Il2CppRGCTXDataType)3, 33030 },
-	{ (Il2CppRGCTXDataType)2, 32462 },
-	{ (Il2CppRGCTXDataType)1, 30963 },
-	{ (Il2CppRGCTXDataType)2, 32463 },
-	{ (Il2CppRGCTXDataType)2, 32464 },
-	{ (Il2CppRGCTXDataType)3, 33031 },
-	{ (Il2CppRGCTXDataType)2, 32465 },
-	{ (Il2CppRGCTXDataType)3, 33032 },
-	{ (Il2CppRGCTXDataType)2, 32466 },
-	{ (Il2CppRGCTXDataType)2, 32467 },
-	{ (Il2CppRGCTXDataType)1, 30977 },
-	{ (Il2CppRGCTXDataType)2, 32468 },
-	{ (Il2CppRGCTXDataType)2, 32469 },
-	{ (Il2CppRGCTXDataType)3, 33033 },
-	{ (Il2CppRGCTXDataType)2, 32470 },
-	{ (Il2CppRGCTXDataType)3, 33034 },
-	{ (Il2CppRGCTXDataType)2, 32471 },
-	{ (Il2CppRGCTXDataType)2, 32472 },
-	{ (Il2CppRGCTXDataType)1, 30990 },
-	{ (Il2CppRGCTXDataType)2, 32473 },
-	{ (Il2CppRGCTXDataType)2, 32474 },
-	{ (Il2CppRGCTXDataType)3, 33035 },
-	{ (Il2CppRGCTXDataType)2, 32475 },
-	{ (Il2CppRGCTXDataType)3, 33036 },
-	{ (Il2CppRGCTXDataType)2, 32476 },
-	{ (Il2CppRGCTXDataType)2, 32477 },
-	{ (Il2CppRGCTXDataType)1, 31003 },
-	{ (Il2CppRGCTXDataType)2, 32478 },
-	{ (Il2CppRGCTXDataType)2, 32479 },
-	{ (Il2CppRGCTXDataType)3, 33037 },
-	{ (Il2CppRGCTXDataType)2, 32480 },
-	{ (Il2CppRGCTXDataType)3, 33038 },
-	{ (Il2CppRGCTXDataType)2, 32481 },
-	{ (Il2CppRGCTXDataType)2, 32482 },
-	{ (Il2CppRGCTXDataType)1, 31016 },
-	{ (Il2CppRGCTXDataType)2, 32483 },
-	{ (Il2CppRGCTXDataType)2, 32484 },
-	{ (Il2CppRGCTXDataType)3, 33039 },
-	{ (Il2CppRGCTXDataType)2, 32485 },
-	{ (Il2CppRGCTXDataType)3, 33040 },
-	{ (Il2CppRGCTXDataType)2, 32486 },
-	{ (Il2CppRGCTXDataType)2, 32487 },
-	{ (Il2CppRGCTXDataType)1, 31029 },
-	{ (Il2CppRGCTXDataType)2, 32488 },
-	{ (Il2CppRGCTXDataType)2, 32489 },
-	{ (Il2CppRGCTXDataType)3, 33041 },
-	{ (Il2CppRGCTXDataType)2, 32490 },
-	{ (Il2CppRGCTXDataType)3, 33042 },
-	{ (Il2CppRGCTXDataType)2, 32491 },
-	{ (Il2CppRGCTXDataType)2, 32492 },
-	{ (Il2CppRGCTXDataType)1, 31042 },
-	{ (Il2CppRGCTXDataType)2, 32493 },
-	{ (Il2CppRGCTXDataType)2, 32494 },
-	{ (Il2CppRGCTXDataType)3, 33043 },
-	{ (Il2CppRGCTXDataType)2, 32495 },
-	{ (Il2CppRGCTXDataType)3, 33044 },
-	{ (Il2CppRGCTXDataType)2, 32496 },
-	{ (Il2CppRGCTXDataType)2, 32497 },
-	{ (Il2CppRGCTXDataType)1, 31055 },
-	{ (Il2CppRGCTXDataType)2, 32498 },
-	{ (Il2CppRGCTXDataType)2, 32499 },
-	{ (Il2CppRGCTXDataType)3, 33045 },
-	{ (Il2CppRGCTXDataType)2, 32500 },
-	{ (Il2CppRGCTXDataType)3, 33046 },
-	{ (Il2CppRGCTXDataType)2, 32501 },
-	{ (Il2CppRGCTXDataType)2, 32502 },
-	{ (Il2CppRGCTXDataType)1, 31068 },
-	{ (Il2CppRGCTXDataType)2, 32503 },
-	{ (Il2CppRGCTXDataType)2, 32504 },
-	{ (Il2CppRGCTXDataType)3, 33047 },
-	{ (Il2CppRGCTXDataType)2, 32505 },
-	{ (Il2CppRGCTXDataType)3, 33048 },
-	{ (Il2CppRGCTXDataType)2, 32506 },
-	{ (Il2CppRGCTXDataType)2, 32507 },
-	{ (Il2CppRGCTXDataType)1, 31081 },
-	{ (Il2CppRGCTXDataType)2, 32508 },
-	{ (Il2CppRGCTXDataType)2, 32509 },
-	{ (Il2CppRGCTXDataType)3, 33049 },
-	{ (Il2CppRGCTXDataType)2, 32510 },
-	{ (Il2CppRGCTXDataType)3, 33050 },
-	{ (Il2CppRGCTXDataType)2, 32511 },
-	{ (Il2CppRGCTXDataType)2, 32512 },
-	{ (Il2CppRGCTXDataType)1, 31094 },
-	{ (Il2CppRGCTXDataType)2, 32513 },
-	{ (Il2CppRGCTXDataType)2, 32514 },
-	{ (Il2CppRGCTXDataType)3, 33051 },
-	{ (Il2CppRGCTXDataType)2, 32515 },
-	{ (Il2CppRGCTXDataType)3, 33052 },
-	{ (Il2CppRGCTXDataType)2, 32516 },
-	{ (Il2CppRGCTXDataType)2, 32517 },
-	{ (Il2CppRGCTXDataType)1, 31107 },
-	{ (Il2CppRGCTXDataType)2, 32518 },
-	{ (Il2CppRGCTXDataType)2, 32519 },
-	{ (Il2CppRGCTXDataType)3, 33053 },
-	{ (Il2CppRGCTXDataType)2, 32520 },
-	{ (Il2CppRGCTXDataType)3, 33054 },
-	{ (Il2CppRGCTXDataType)2, 32521 },
-	{ (Il2CppRGCTXDataType)2, 732 },
-	{ (Il2CppRGCTXDataType)3, 33055 },
-	{ (Il2CppRGCTXDataType)2, 32522 },
-	{ (Il2CppRGCTXDataType)3, 33056 },
-	{ (Il2CppRGCTXDataType)2, 734 },
-	{ (Il2CppRGCTXDataType)3, 33057 },
-	{ (Il2CppRGCTXDataType)3, 33058 },
-	{ (Il2CppRGCTXDataType)2, 32523 },
-	{ (Il2CppRGCTXDataType)2, 742 },
-	{ (Il2CppRGCTXDataType)3, 33059 },
-	{ (Il2CppRGCTXDataType)3, 33060 },
-	{ (Il2CppRGCTXDataType)2, 741 },
-	{ (Il2CppRGCTXDataType)2, 32524 },
-	{ (Il2CppRGCTXDataType)3, 33061 },
-	{ (Il2CppRGCTXDataType)3, 33062 },
-	{ (Il2CppRGCTXDataType)2, 32525 },
-	{ (Il2CppRGCTXDataType)2, 31155 },
-	{ (Il2CppRGCTXDataType)3, 33063 },
-	{ (Il2CppRGCTXDataType)3, 33064 },
-	{ (Il2CppRGCTXDataType)2, 32526 },
-	{ (Il2CppRGCTXDataType)2, 745 },
-	{ (Il2CppRGCTXDataType)2, 743 },
-	{ (Il2CppRGCTXDataType)3, 33065 },
-	{ (Il2CppRGCTXDataType)3, 33066 },
-	{ (Il2CppRGCTXDataType)2, 31190 },
-	{ (Il2CppRGCTXDataType)3, 33067 },
-	{ (Il2CppRGCTXDataType)3, 33068 },
-	{ (Il2CppRGCTXDataType)3, 33069 },
-	{ (Il2CppRGCTXDataType)2, 746 },
-	{ (Il2CppRGCTXDataType)3, 33070 },
-	{ (Il2CppRGCTXDataType)3, 33071 },
-	{ (Il2CppRGCTXDataType)3, 33072 },
-	{ (Il2CppRGCTXDataType)3, 33073 },
-	{ (Il2CppRGCTXDataType)3, 33074 },
-	{ (Il2CppRGCTXDataType)3, 33075 },
-	{ (Il2CppRGCTXDataType)3, 33076 },
-	{ (Il2CppRGCTXDataType)3, 33077 },
-	{ (Il2CppRGCTXDataType)3, 33078 },
-	{ (Il2CppRGCTXDataType)3, 33079 },
-	{ (Il2CppRGCTXDataType)3, 33080 },
-	{ (Il2CppRGCTXDataType)3, 33081 },
-	{ (Il2CppRGCTXDataType)3, 33082 },
-	{ (Il2CppRGCTXDataType)2, 765 },
-	{ (Il2CppRGCTXDataType)2, 32527 },
-	{ (Il2CppRGCTXDataType)3, 33083 },
-	{ (Il2CppRGCTXDataType)3, 33084 },
-	{ (Il2CppRGCTXDataType)2, 767 },
-	{ (Il2CppRGCTXDataType)3, 33085 },
-	{ (Il2CppRGCTXDataType)2, 32528 },
-	{ (Il2CppRGCTXDataType)3, 33086 },
-	{ (Il2CppRGCTXDataType)3, 33087 },
-	{ (Il2CppRGCTXDataType)3, 33088 },
-	{ (Il2CppRGCTXDataType)3, 33089 },
-	{ (Il2CppRGCTXDataType)3, 33090 },
-	{ (Il2CppRGCTXDataType)2, 770 },
-	{ (Il2CppRGCTXDataType)2, 32529 },
-	{ (Il2CppRGCTXDataType)3, 33091 },
-	{ (Il2CppRGCTXDataType)3, 33092 },
-	{ (Il2CppRGCTXDataType)2, 768 },
-	{ (Il2CppRGCTXDataType)2, 31306 },
-	{ (Il2CppRGCTXDataType)3, 33093 },
-	{ (Il2CppRGCTXDataType)3, 33094 },
-	{ (Il2CppRGCTXDataType)2, 32530 },
-	{ (Il2CppRGCTXDataType)3, 33095 },
-	{ (Il2CppRGCTXDataType)3, 33096 },
-	{ (Il2CppRGCTXDataType)3, 33097 },
-	{ (Il2CppRGCTXDataType)3, 33098 },
-	{ (Il2CppRGCTXDataType)2, 771 },
-	{ (Il2CppRGCTXDataType)2, 773 },
-	{ (Il2CppRGCTXDataType)3, 33099 },
-	{ (Il2CppRGCTXDataType)3, 33100 },
-	{ (Il2CppRGCTXDataType)2, 31312 },
-	{ (Il2CppRGCTXDataType)3, 33101 },
-	{ (Il2CppRGCTXDataType)3, 33102 },
-	{ (Il2CppRGCTXDataType)2, 776 },
-	{ (Il2CppRGCTXDataType)2, 31315 },
-	{ (Il2CppRGCTXDataType)3, 33103 },
-	{ (Il2CppRGCTXDataType)2, 774 },
-	{ (Il2CppRGCTXDataType)3, 33104 },
-	{ (Il2CppRGCTXDataType)3, 33105 },
-	{ (Il2CppRGCTXDataType)3, 33106 },
-	{ (Il2CppRGCTXDataType)2, 31322 },
-	{ (Il2CppRGCTXDataType)2, 31323 },
-	{ (Il2CppRGCTXDataType)3, 33107 },
-	{ (Il2CppRGCTXDataType)2, 31318 },
-	{ (Il2CppRGCTXDataType)3, 33108 },
-	{ (Il2CppRGCTXDataType)2, 31325 },
-	{ (Il2CppRGCTXDataType)2, 32531 },
-	{ (Il2CppRGCTXDataType)3, 33109 },
-	{ (Il2CppRGCTXDataType)2, 31333 },
-	{ (Il2CppRGCTXDataType)2, 31335 },
-	{ (Il2CppRGCTXDataType)3, 33110 },
-	{ (Il2CppRGCTXDataType)3, 33111 },
-	{ (Il2CppRGCTXDataType)2, 31331 },
-	{ (Il2CppRGCTXDataType)2, 32532 },
-	{ (Il2CppRGCTXDataType)2, 32533 },
-	{ (Il2CppRGCTXDataType)3, 33112 },
-	{ (Il2CppRGCTXDataType)2, 31339 },
-	{ (Il2CppRGCTXDataType)3, 33113 },
-	{ (Il2CppRGCTXDataType)3, 33114 },
-	{ (Il2CppRGCTXDataType)3, 33115 },
-	{ (Il2CppRGCTXDataType)2, 31337 },
-	{ (Il2CppRGCTXDataType)3, 33116 },
-	{ (Il2CppRGCTXDataType)2, 31345 },
-	{ (Il2CppRGCTXDataType)3, 33117 },
-	{ (Il2CppRGCTXDataType)3, 33118 },
-	{ (Il2CppRGCTXDataType)3, 33119 },
-	{ (Il2CppRGCTXDataType)2, 31343 },
-	{ (Il2CppRGCTXDataType)3, 33120 },
-	{ (Il2CppRGCTXDataType)2, 31350 },
-	{ (Il2CppRGCTXDataType)3, 33121 },
-	{ (Il2CppRGCTXDataType)3, 33122 },
-	{ (Il2CppRGCTXDataType)2, 780 },
-	{ (Il2CppRGCTXDataType)3, 33123 },
-	{ (Il2CppRGCTXDataType)3, 33124 },
-	{ (Il2CppRGCTXDataType)3, 33125 },
-	{ (Il2CppRGCTXDataType)2, 31349 },
-	{ (Il2CppRGCTXDataType)3, 33126 },
-	{ (Il2CppRGCTXDataType)2, 31356 },
-	{ (Il2CppRGCTXDataType)3, 33127 },
-	{ (Il2CppRGCTXDataType)3, 33128 },
-	{ (Il2CppRGCTXDataType)3, 33129 },
-	{ (Il2CppRGCTXDataType)2, 31354 },
-	{ (Il2CppRGCTXDataType)3, 33130 },
-	{ (Il2CppRGCTXDataType)3, 33131 },
-	{ (Il2CppRGCTXDataType)2, 31363 },
-	{ (Il2CppRGCTXDataType)3, 33132 },
-	{ (Il2CppRGCTXDataType)2, 31362 },
-	{ (Il2CppRGCTXDataType)3, 33133 },
-	{ (Il2CppRGCTXDataType)3, 33134 },
-	{ (Il2CppRGCTXDataType)2, 31360 },
-	{ (Il2CppRGCTXDataType)2, 32534 },
-	{ (Il2CppRGCTXDataType)3, 33135 },
-	{ (Il2CppRGCTXDataType)2, 31368 },
-	{ (Il2CppRGCTXDataType)3, 33136 },
-	{ (Il2CppRGCTXDataType)3, 33137 },
-	{ (Il2CppRGCTXDataType)2, 31366 },
-	{ (Il2CppRGCTXDataType)2, 32535 },
-	{ (Il2CppRGCTXDataType)3, 33138 },
-	{ (Il2CppRGCTXDataType)2, 31374 },
-	{ (Il2CppRGCTXDataType)3, 33139 },
-	{ (Il2CppRGCTXDataType)3, 33140 },
-	{ (Il2CppRGCTXDataType)2, 31372 },
-	{ (Il2CppRGCTXDataType)2, 32536 },
-	{ (Il2CppRGCTXDataType)3, 33141 },
-	{ (Il2CppRGCTXDataType)2, 31380 },
-	{ (Il2CppRGCTXDataType)3, 33142 },
-	{ (Il2CppRGCTXDataType)3, 33143 },
-	{ (Il2CppRGCTXDataType)3, 33144 },
-	{ (Il2CppRGCTXDataType)2, 31378 },
-	{ (Il2CppRGCTXDataType)2, 32537 },
-	{ (Il2CppRGCTXDataType)3, 33145 },
-	{ (Il2CppRGCTXDataType)2, 31384 },
-	{ (Il2CppRGCTXDataType)2, 32538 },
-	{ (Il2CppRGCTXDataType)3, 33146 },
-	{ (Il2CppRGCTXDataType)3, 33147 },
-	{ (Il2CppRGCTXDataType)2, 32539 },
-	{ (Il2CppRGCTXDataType)2, 32540 },
-	{ (Il2CppRGCTXDataType)3, 33148 },
-	{ (Il2CppRGCTXDataType)3, 33149 },
-	{ (Il2CppRGCTXDataType)3, 33150 },
-	{ (Il2CppRGCTXDataType)2, 32542 },
-	{ (Il2CppRGCTXDataType)3, 33151 },
-	{ (Il2CppRGCTXDataType)2, 788 },
-	{ (Il2CppRGCTXDataType)3, 33152 },
-	{ (Il2CppRGCTXDataType)2, 784 },
-	{ (Il2CppRGCTXDataType)2, 785 },
-	{ (Il2CppRGCTXDataType)3, 33153 },
-	{ (Il2CppRGCTXDataType)2, 32543 },
-	{ (Il2CppRGCTXDataType)3, 33154 },
-	{ (Il2CppRGCTXDataType)2, 31391 },
-	{ (Il2CppRGCTXDataType)3, 33155 },
-	{ (Il2CppRGCTXDataType)3, 33156 },
-	{ (Il2CppRGCTXDataType)3, 33157 },
-	{ (Il2CppRGCTXDataType)3, 33158 },
-	{ (Il2CppRGCTXDataType)3, 33159 },
-	{ (Il2CppRGCTXDataType)3, 33160 },
-	{ (Il2CppRGCTXDataType)2, 32544 },
-	{ (Il2CppRGCTXDataType)2, 790 },
-	{ (Il2CppRGCTXDataType)3, 33161 },
-	{ (Il2CppRGCTXDataType)2, 31434 },
-	{ (Il2CppRGCTXDataType)3, 33162 },
-	{ (Il2CppRGCTXDataType)2, 795 },
-	{ (Il2CppRGCTXDataType)3, 33163 },
-	{ (Il2CppRGCTXDataType)3, 33164 },
-	{ (Il2CppRGCTXDataType)2, 799 },
-	{ (Il2CppRGCTXDataType)2, 31437 },
-	{ (Il2CppRGCTXDataType)3, 33165 },
-	{ (Il2CppRGCTXDataType)3, 33166 },
-	{ (Il2CppRGCTXDataType)3, 33167 },
-	{ (Il2CppRGCTXDataType)2, 797 },
-	{ (Il2CppRGCTXDataType)2, 796 },
-	{ (Il2CppRGCTXDataType)1, 796 },
-	{ (Il2CppRGCTXDataType)3, 33168 },
-	{ (Il2CppRGCTXDataType)3, 33169 },
-	{ (Il2CppRGCTXDataType)3, 33170 },
-	{ (Il2CppRGCTXDataType)2, 31446 },
-	{ (Il2CppRGCTXDataType)2, 31447 },
-	{ (Il2CppRGCTXDataType)3, 33171 },
-	{ (Il2CppRGCTXDataType)2, 31440 },
-	{ (Il2CppRGCTXDataType)3, 33172 },
-	{ (Il2CppRGCTXDataType)2, 31449 },
-	{ (Il2CppRGCTXDataType)2, 32545 },
-	{ (Il2CppRGCTXDataType)3, 33173 },
-	{ (Il2CppRGCTXDataType)2, 31459 },
-	{ (Il2CppRGCTXDataType)3, 33174 },
-	{ (Il2CppRGCTXDataType)3, 33175 },
-	{ (Il2CppRGCTXDataType)3, 33176 },
-	{ (Il2CppRGCTXDataType)2, 31456 },
-	{ (Il2CppRGCTXDataType)2, 31466 },
-	{ (Il2CppRGCTXDataType)2, 31468 },
-	{ (Il2CppRGCTXDataType)3, 33177 },
-	{ (Il2CppRGCTXDataType)3, 33178 },
-	{ (Il2CppRGCTXDataType)3, 33179 },
-	{ (Il2CppRGCTXDataType)2, 31463 },
-	{ (Il2CppRGCTXDataType)2, 32546 },
-	{ (Il2CppRGCTXDataType)2, 32547 },
-	{ (Il2CppRGCTXDataType)3, 33180 },
-	{ (Il2CppRGCTXDataType)2, 31473 },
-	{ (Il2CppRGCTXDataType)3, 33181 },
-	{ (Il2CppRGCTXDataType)3, 33182 },
-	{ (Il2CppRGCTXDataType)2, 31470 },
-	{ (Il2CppRGCTXDataType)2, 32548 },
-	{ (Il2CppRGCTXDataType)3, 33183 },
-	{ (Il2CppRGCTXDataType)2, 31480 },
-	{ (Il2CppRGCTXDataType)3, 33184 },
-	{ (Il2CppRGCTXDataType)3, 33185 },
-	{ (Il2CppRGCTXDataType)2, 31477 },
-	{ (Il2CppRGCTXDataType)2, 32549 },
-	{ (Il2CppRGCTXDataType)2, 32550 },
-	{ (Il2CppRGCTXDataType)3, 33186 },
-	{ (Il2CppRGCTXDataType)2, 31486 },
-	{ (Il2CppRGCTXDataType)3, 33187 },
-	{ (Il2CppRGCTXDataType)3, 33188 },
-	{ (Il2CppRGCTXDataType)3, 33189 },
-	{ (Il2CppRGCTXDataType)2, 31483 },
-	{ (Il2CppRGCTXDataType)2, 804 },
-	{ (Il2CppRGCTXDataType)3, 33190 },
-	{ (Il2CppRGCTXDataType)2, 810 },
-	{ (Il2CppRGCTXDataType)3, 33191 },
-	{ (Il2CppRGCTXDataType)1, 811 },
-	{ (Il2CppRGCTXDataType)3, 33192 },
-	{ (Il2CppRGCTXDataType)2, 32551 },
-	{ (Il2CppRGCTXDataType)3, 33193 },
-	{ (Il2CppRGCTXDataType)2, 32552 },
-	{ (Il2CppRGCTXDataType)2, 32553 },
-	{ (Il2CppRGCTXDataType)3, 33194 },
-	{ (Il2CppRGCTXDataType)2, 811 },
-	{ (Il2CppRGCTXDataType)3, 33195 },
-	{ (Il2CppRGCTXDataType)3, 33196 },
-	{ (Il2CppRGCTXDataType)2, 813 },
-	{ (Il2CppRGCTXDataType)3, 33197 },
-	{ (Il2CppRGCTXDataType)3, 33198 },
-	{ (Il2CppRGCTXDataType)2, 31507 },
-	{ (Il2CppRGCTXDataType)3, 33199 },
-	{ (Il2CppRGCTXDataType)2, 814 },
-	{ (Il2CppRGCTXDataType)3, 33200 },
-	{ (Il2CppRGCTXDataType)3, 33201 },
-	{ (Il2CppRGCTXDataType)2, 31508 },
-	{ (Il2CppRGCTXDataType)3, 33202 },
-	{ (Il2CppRGCTXDataType)3, 33203 },
-	{ (Il2CppRGCTXDataType)3, 33204 },
-	{ (Il2CppRGCTXDataType)3, 33205 },
-	{ (Il2CppRGCTXDataType)3, 33206 },
-	{ (Il2CppRGCTXDataType)3, 33207 },
-	{ (Il2CppRGCTXDataType)3, 33208 },
-	{ (Il2CppRGCTXDataType)2, 31518 },
-	{ (Il2CppRGCTXDataType)2, 31521 },
-	{ (Il2CppRGCTXDataType)3, 33209 },
-	{ (Il2CppRGCTXDataType)2, 815 },
-	{ (Il2CppRGCTXDataType)3, 33210 },
-	{ (Il2CppRGCTXDataType)3, 33211 },
-	{ (Il2CppRGCTXDataType)3, 33212 },
-	{ (Il2CppRGCTXDataType)3, 33213 },
-	{ (Il2CppRGCTXDataType)2, 819 },
-	{ (Il2CppRGCTXDataType)3, 33214 },
-	{ (Il2CppRGCTXDataType)2, 820 },
-	{ (Il2CppRGCTXDataType)3, 33215 },
-	{ (Il2CppRGCTXDataType)3, 33216 },
-	{ (Il2CppRGCTXDataType)3, 33217 },
-	{ (Il2CppRGCTXDataType)3, 33218 },
-	{ (Il2CppRGCTXDataType)3, 33219 },
-	{ (Il2CppRGCTXDataType)3, 33220 },
-	{ (Il2CppRGCTXDataType)2, 825 },
-	{ (Il2CppRGCTXDataType)3, 33221 },
-	{ (Il2CppRGCTXDataType)2, 826 },
-	{ (Il2CppRGCTXDataType)3, 33222 },
-	{ (Il2CppRGCTXDataType)3, 33223 },
-	{ (Il2CppRGCTXDataType)3, 33224 },
-	{ (Il2CppRGCTXDataType)3, 33225 },
-	{ (Il2CppRGCTXDataType)3, 33226 },
-	{ (Il2CppRGCTXDataType)3, 33227 },
-	{ (Il2CppRGCTXDataType)3, 33228 },
-	{ (Il2CppRGCTXDataType)3, 33229 },
-	{ (Il2CppRGCTXDataType)2, 832 },
-	{ (Il2CppRGCTXDataType)3, 33230 },
-	{ (Il2CppRGCTXDataType)3, 33231 },
-	{ (Il2CppRGCTXDataType)3, 33232 },
-	{ (Il2CppRGCTXDataType)2, 32554 },
-	{ (Il2CppRGCTXDataType)2, 31535 },
-	{ (Il2CppRGCTXDataType)3, 33233 },
-	{ (Il2CppRGCTXDataType)2, 31539 },
-	{ (Il2CppRGCTXDataType)3, 33234 },
-	{ (Il2CppRGCTXDataType)3, 33235 },
-	{ (Il2CppRGCTXDataType)2, 31541 },
-	{ (Il2CppRGCTXDataType)3, 33236 },
-	{ (Il2CppRGCTXDataType)3, 33237 },
-	{ (Il2CppRGCTXDataType)3, 33238 },
-	{ (Il2CppRGCTXDataType)2, 32555 },
-	{ (Il2CppRGCTXDataType)3, 33239 },
-	{ (Il2CppRGCTXDataType)3, 33240 },
-	{ (Il2CppRGCTXDataType)2, 32556 },
-	{ (Il2CppRGCTXDataType)2, 31657 },
-	{ (Il2CppRGCTXDataType)3, 33241 },
-	{ (Il2CppRGCTXDataType)2, 846 },
-	{ (Il2CppRGCTXDataType)3, 33242 },
-	{ (Il2CppRGCTXDataType)3, 33243 },
-	{ (Il2CppRGCTXDataType)3, 33244 },
-	{ (Il2CppRGCTXDataType)3, 33245 },
-	{ (Il2CppRGCTXDataType)3, 33246 },
-	{ (Il2CppRGCTXDataType)3, 33247 },
-	{ (Il2CppRGCTXDataType)3, 33248 },
-	{ (Il2CppRGCTXDataType)3, 33249 },
-	{ (Il2CppRGCTXDataType)3, 33250 },
-	{ (Il2CppRGCTXDataType)3, 33251 },
-	{ (Il2CppRGCTXDataType)3, 33252 },
-	{ (Il2CppRGCTXDataType)3, 33253 },
-	{ (Il2CppRGCTXDataType)3, 33254 },
-	{ (Il2CppRGCTXDataType)3, 33255 },
-	{ (Il2CppRGCTXDataType)2, 856 },
-	{ (Il2CppRGCTXDataType)2, 31687 },
-	{ (Il2CppRGCTXDataType)3, 33256 },
-	{ (Il2CppRGCTXDataType)3, 33257 },
-	{ (Il2CppRGCTXDataType)3, 33258 },
-	{ (Il2CppRGCTXDataType)3, 33259 },
-	{ (Il2CppRGCTXDataType)2, 860 },
-	{ (Il2CppRGCTXDataType)3, 33260 },
-	{ (Il2CppRGCTXDataType)3, 33261 },
-	{ (Il2CppRGCTXDataType)2, 861 },
-	{ (Il2CppRGCTXDataType)3, 33262 },
-	{ (Il2CppRGCTXDataType)2, 31692 },
-	{ (Il2CppRGCTXDataType)2, 32557 },
-	{ (Il2CppRGCTXDataType)3, 33263 },
-	{ (Il2CppRGCTXDataType)3, 33264 },
-	{ (Il2CppRGCTXDataType)2, 31693 },
-	{ (Il2CppRGCTXDataType)2, 31694 },
-	{ (Il2CppRGCTXDataType)3, 33265 },
-	{ (Il2CppRGCTXDataType)2, 32558 },
-	{ (Il2CppRGCTXDataType)2, 864 },
-	{ (Il2CppRGCTXDataType)2, 866 },
-	{ (Il2CppRGCTXDataType)3, 33266 },
-	{ (Il2CppRGCTXDataType)2, 32559 },
-	{ (Il2CppRGCTXDataType)3, 33267 },
-	{ (Il2CppRGCTXDataType)3, 33268 },
-	{ (Il2CppRGCTXDataType)3, 33269 },
-	{ (Il2CppRGCTXDataType)3, 33270 },
-	{ (Il2CppRGCTXDataType)2, 31831 },
-	{ (Il2CppRGCTXDataType)3, 33271 },
-	{ (Il2CppRGCTXDataType)1, 909 },
-	{ (Il2CppRGCTXDataType)3, 33272 },
-	{ (Il2CppRGCTXDataType)2, 909 },
-	{ (Il2CppRGCTXDataType)1, 31892 },
-	{ (Il2CppRGCTXDataType)2, 31892 },
+	{ (Il2CppRGCTXDataType)2, 44170 },
+	{ (Il2CppRGCTXDataType)3, 43113 },
+	{ (Il2CppRGCTXDataType)2, 44171 },
+	{ (Il2CppRGCTXDataType)3, 43114 },
+	{ (Il2CppRGCTXDataType)3, 43115 },
+	{ (Il2CppRGCTXDataType)3, 43116 },
+	{ (Il2CppRGCTXDataType)3, 43117 },
+	{ (Il2CppRGCTXDataType)2, 41483 },
+	{ (Il2CppRGCTXDataType)3, 43118 },
+	{ (Il2CppRGCTXDataType)2, 41495 },
+	{ (Il2CppRGCTXDataType)2, 44172 },
+	{ (Il2CppRGCTXDataType)3, 43119 },
+	{ (Il2CppRGCTXDataType)3, 43120 },
+	{ (Il2CppRGCTXDataType)3, 43121 },
+	{ (Il2CppRGCTXDataType)2, 41530 },
+	{ (Il2CppRGCTXDataType)3, 43122 },
+	{ (Il2CppRGCTXDataType)3, 43123 },
+	{ (Il2CppRGCTXDataType)3, 43124 },
+	{ (Il2CppRGCTXDataType)3, 43125 },
+	{ (Il2CppRGCTXDataType)2, 44173 },
+	{ (Il2CppRGCTXDataType)3, 43126 },
+	{ (Il2CppRGCTXDataType)3, 43127 },
+	{ (Il2CppRGCTXDataType)3, 43128 },
+	{ (Il2CppRGCTXDataType)3, 43129 },
+	{ (Il2CppRGCTXDataType)3, 43130 },
+	{ (Il2CppRGCTXDataType)3, 43131 },
+	{ (Il2CppRGCTXDataType)3, 43132 },
+	{ (Il2CppRGCTXDataType)3, 43133 },
+	{ (Il2CppRGCTXDataType)3, 43134 },
+	{ (Il2CppRGCTXDataType)3, 43135 },
+	{ (Il2CppRGCTXDataType)2, 44174 },
+	{ (Il2CppRGCTXDataType)2, 41532 },
+	{ (Il2CppRGCTXDataType)2, 44175 },
+	{ (Il2CppRGCTXDataType)3, 43136 },
+	{ (Il2CppRGCTXDataType)2, 44176 },
+	{ (Il2CppRGCTXDataType)3, 43137 },
+	{ (Il2CppRGCTXDataType)3, 43138 },
+	{ (Il2CppRGCTXDataType)3, 43139 },
+	{ (Il2CppRGCTXDataType)3, 43140 },
+	{ (Il2CppRGCTXDataType)2, 44177 },
+	{ (Il2CppRGCTXDataType)3, 43141 },
+	{ (Il2CppRGCTXDataType)3, 43142 },
+	{ (Il2CppRGCTXDataType)2, 41529 },
+	{ (Il2CppRGCTXDataType)2, 44178 },
+	{ (Il2CppRGCTXDataType)3, 43143 },
+	{ (Il2CppRGCTXDataType)2, 44179 },
+	{ (Il2CppRGCTXDataType)3, 43144 },
+	{ (Il2CppRGCTXDataType)3, 43145 },
+	{ (Il2CppRGCTXDataType)3, 43146 },
+	{ (Il2CppRGCTXDataType)3, 43147 },
+	{ (Il2CppRGCTXDataType)3, 43148 },
+	{ (Il2CppRGCTXDataType)3, 43149 },
+	{ (Il2CppRGCTXDataType)3, 43150 },
+	{ (Il2CppRGCTXDataType)3, 43151 },
+	{ (Il2CppRGCTXDataType)3, 43152 },
+	{ (Il2CppRGCTXDataType)3, 43153 },
+	{ (Il2CppRGCTXDataType)2, 44180 },
+	{ (Il2CppRGCTXDataType)3, 43154 },
+	{ (Il2CppRGCTXDataType)2, 44180 },
+	{ (Il2CppRGCTXDataType)3, 43155 },
+	{ (Il2CppRGCTXDataType)3, 43156 },
+	{ (Il2CppRGCTXDataType)3, 43157 },
+	{ (Il2CppRGCTXDataType)3, 43158 },
+	{ (Il2CppRGCTXDataType)3, 43159 },
+	{ (Il2CppRGCTXDataType)2, 41554 },
+	{ (Il2CppRGCTXDataType)3, 43160 },
+	{ (Il2CppRGCTXDataType)3, 43161 },
+	{ (Il2CppRGCTXDataType)2, 41635 },
+	{ (Il2CppRGCTXDataType)3, 43162 },
+	{ (Il2CppRGCTXDataType)1, 41642 },
+	{ (Il2CppRGCTXDataType)3, 43163 },
+	{ (Il2CppRGCTXDataType)3, 43164 },
+	{ (Il2CppRGCTXDataType)2, 44181 },
+	{ (Il2CppRGCTXDataType)3, 43165 },
+	{ (Il2CppRGCTXDataType)3, 43166 },
+	{ (Il2CppRGCTXDataType)2, 44182 },
+	{ (Il2CppRGCTXDataType)3, 43167 },
+	{ (Il2CppRGCTXDataType)3, 43168 },
+	{ (Il2CppRGCTXDataType)3, 43169 },
+	{ (Il2CppRGCTXDataType)3, 43170 },
+	{ (Il2CppRGCTXDataType)2, 44183 },
+	{ (Il2CppRGCTXDataType)3, 43171 },
+	{ (Il2CppRGCTXDataType)3, 43172 },
+	{ (Il2CppRGCTXDataType)2, 44184 },
+	{ (Il2CppRGCTXDataType)3, 43173 },
+	{ (Il2CppRGCTXDataType)3, 43174 },
+	{ (Il2CppRGCTXDataType)3, 43175 },
+	{ (Il2CppRGCTXDataType)3, 43176 },
+	{ (Il2CppRGCTXDataType)3, 43177 },
+	{ (Il2CppRGCTXDataType)3, 43178 },
+	{ (Il2CppRGCTXDataType)2, 44185 },
+	{ (Il2CppRGCTXDataType)3, 43179 },
+	{ (Il2CppRGCTXDataType)3, 43180 },
+	{ (Il2CppRGCTXDataType)2, 44186 },
+	{ (Il2CppRGCTXDataType)3, 43181 },
+	{ (Il2CppRGCTXDataType)3, 43182 },
+	{ (Il2CppRGCTXDataType)1, 41681 },
+	{ (Il2CppRGCTXDataType)2, 41681 },
+	{ (Il2CppRGCTXDataType)2, 44187 },
+	{ (Il2CppRGCTXDataType)1, 41711 },
+	{ (Il2CppRGCTXDataType)2, 44188 },
+	{ (Il2CppRGCTXDataType)2, 44189 },
+	{ (Il2CppRGCTXDataType)2, 44190 },
+	{ (Il2CppRGCTXDataType)1, 41739 },
+	{ (Il2CppRGCTXDataType)2, 44191 },
+	{ (Il2CppRGCTXDataType)2, 44192 },
+	{ (Il2CppRGCTXDataType)2, 44193 },
+	{ (Il2CppRGCTXDataType)1, 41747 },
+	{ (Il2CppRGCTXDataType)2, 44194 },
+	{ (Il2CppRGCTXDataType)2, 44195 },
+	{ (Il2CppRGCTXDataType)2, 44196 },
+	{ (Il2CppRGCTXDataType)1, 41760 },
+	{ (Il2CppRGCTXDataType)2, 44197 },
+	{ (Il2CppRGCTXDataType)2, 44198 },
+	{ (Il2CppRGCTXDataType)3, 43183 },
+	{ (Il2CppRGCTXDataType)1, 41763 },
+	{ (Il2CppRGCTXDataType)2, 41762 },
+	{ (Il2CppRGCTXDataType)3, 43184 },
+	{ (Il2CppRGCTXDataType)2, 44199 },
+	{ (Il2CppRGCTXDataType)1, 41776 },
+	{ (Il2CppRGCTXDataType)2, 44200 },
+	{ (Il2CppRGCTXDataType)2, 44201 },
+	{ (Il2CppRGCTXDataType)2, 44202 },
+	{ (Il2CppRGCTXDataType)3, 43185 },
+	{ (Il2CppRGCTXDataType)2, 44203 },
+	{ (Il2CppRGCTXDataType)2, 44204 },
+	{ (Il2CppRGCTXDataType)2, 44205 },
+	{ (Il2CppRGCTXDataType)3, 43186 },
+	{ (Il2CppRGCTXDataType)2, 44206 },
+	{ (Il2CppRGCTXDataType)2, 44207 },
+	{ (Il2CppRGCTXDataType)2, 44208 },
+	{ (Il2CppRGCTXDataType)3, 43187 },
+	{ (Il2CppRGCTXDataType)2, 44209 },
+	{ (Il2CppRGCTXDataType)2, 44210 },
+	{ (Il2CppRGCTXDataType)2, 44211 },
+	{ (Il2CppRGCTXDataType)3, 43188 },
+	{ (Il2CppRGCTXDataType)2, 44212 },
+	{ (Il2CppRGCTXDataType)2, 44213 },
+	{ (Il2CppRGCTXDataType)2, 44214 },
+	{ (Il2CppRGCTXDataType)3, 43189 },
+	{ (Il2CppRGCTXDataType)2, 44215 },
+	{ (Il2CppRGCTXDataType)2, 44216 },
+	{ (Il2CppRGCTXDataType)2, 44217 },
+	{ (Il2CppRGCTXDataType)3, 43190 },
+	{ (Il2CppRGCTXDataType)2, 44218 },
+	{ (Il2CppRGCTXDataType)2, 44219 },
+	{ (Il2CppRGCTXDataType)2, 44220 },
+	{ (Il2CppRGCTXDataType)3, 43191 },
+	{ (Il2CppRGCTXDataType)2, 44221 },
+	{ (Il2CppRGCTXDataType)2, 44222 },
+	{ (Il2CppRGCTXDataType)2, 44223 },
+	{ (Il2CppRGCTXDataType)3, 43192 },
+	{ (Il2CppRGCTXDataType)2, 44224 },
+	{ (Il2CppRGCTXDataType)2, 44225 },
+	{ (Il2CppRGCTXDataType)2, 44226 },
+	{ (Il2CppRGCTXDataType)3, 43193 },
+	{ (Il2CppRGCTXDataType)2, 44227 },
+	{ (Il2CppRGCTXDataType)2, 44228 },
+	{ (Il2CppRGCTXDataType)2, 44229 },
+	{ (Il2CppRGCTXDataType)3, 43194 },
+	{ (Il2CppRGCTXDataType)2, 44230 },
+	{ (Il2CppRGCTXDataType)2, 44231 },
+	{ (Il2CppRGCTXDataType)2, 44232 },
+	{ (Il2CppRGCTXDataType)3, 43195 },
+	{ (Il2CppRGCTXDataType)2, 44233 },
+	{ (Il2CppRGCTXDataType)2, 44234 },
+	{ (Il2CppRGCTXDataType)2, 44235 },
+	{ (Il2CppRGCTXDataType)3, 43196 },
+	{ (Il2CppRGCTXDataType)2, 44236 },
+	{ (Il2CppRGCTXDataType)2, 44237 },
+	{ (Il2CppRGCTXDataType)1, 44238 },
+	{ (Il2CppRGCTXDataType)2, 44239 },
+	{ (Il2CppRGCTXDataType)1, 44240 },
+	{ (Il2CppRGCTXDataType)2, 44241 },
+	{ (Il2CppRGCTXDataType)3, 43197 },
+	{ (Il2CppRGCTXDataType)3, 43198 },
+	{ (Il2CppRGCTXDataType)2, 44242 },
+	{ (Il2CppRGCTXDataType)1, 41981 },
+	{ (Il2CppRGCTXDataType)2, 44243 },
+	{ (Il2CppRGCTXDataType)2, 44244 },
+	{ (Il2CppRGCTXDataType)2, 44245 },
+	{ (Il2CppRGCTXDataType)3, 43199 },
+	{ (Il2CppRGCTXDataType)2, 44246 },
+	{ (Il2CppRGCTXDataType)1, 41989 },
+	{ (Il2CppRGCTXDataType)2, 44247 },
+	{ (Il2CppRGCTXDataType)2, 44248 },
+	{ (Il2CppRGCTXDataType)2, 44249 },
+	{ (Il2CppRGCTXDataType)3, 43200 },
+	{ (Il2CppRGCTXDataType)2, 44250 },
+	{ (Il2CppRGCTXDataType)1, 42001 },
+	{ (Il2CppRGCTXDataType)2, 44251 },
+	{ (Il2CppRGCTXDataType)2, 44252 },
+	{ (Il2CppRGCTXDataType)3, 43201 },
+	{ (Il2CppRGCTXDataType)2, 44253 },
+	{ (Il2CppRGCTXDataType)3, 43202 },
+	{ (Il2CppRGCTXDataType)2, 44254 },
+	{ (Il2CppRGCTXDataType)2, 44255 },
+	{ (Il2CppRGCTXDataType)1, 42018 },
+	{ (Il2CppRGCTXDataType)2, 44256 },
+	{ (Il2CppRGCTXDataType)2, 44257 },
+	{ (Il2CppRGCTXDataType)3, 43203 },
+	{ (Il2CppRGCTXDataType)2, 44258 },
+	{ (Il2CppRGCTXDataType)3, 43204 },
+	{ (Il2CppRGCTXDataType)2, 44259 },
+	{ (Il2CppRGCTXDataType)2, 44260 },
+	{ (Il2CppRGCTXDataType)1, 42034 },
+	{ (Il2CppRGCTXDataType)2, 44261 },
+	{ (Il2CppRGCTXDataType)2, 44262 },
+	{ (Il2CppRGCTXDataType)3, 43205 },
+	{ (Il2CppRGCTXDataType)2, 44263 },
+	{ (Il2CppRGCTXDataType)3, 43206 },
+	{ (Il2CppRGCTXDataType)2, 44264 },
+	{ (Il2CppRGCTXDataType)2, 44265 },
+	{ (Il2CppRGCTXDataType)1, 42050 },
+	{ (Il2CppRGCTXDataType)2, 44266 },
+	{ (Il2CppRGCTXDataType)2, 44267 },
+	{ (Il2CppRGCTXDataType)3, 43207 },
+	{ (Il2CppRGCTXDataType)2, 44268 },
+	{ (Il2CppRGCTXDataType)3, 43208 },
+	{ (Il2CppRGCTXDataType)2, 44269 },
+	{ (Il2CppRGCTXDataType)2, 44270 },
+	{ (Il2CppRGCTXDataType)1, 42066 },
+	{ (Il2CppRGCTXDataType)2, 44271 },
+	{ (Il2CppRGCTXDataType)2, 44272 },
+	{ (Il2CppRGCTXDataType)3, 43209 },
+	{ (Il2CppRGCTXDataType)2, 44273 },
+	{ (Il2CppRGCTXDataType)3, 43210 },
+	{ (Il2CppRGCTXDataType)2, 44274 },
+	{ (Il2CppRGCTXDataType)2, 44275 },
+	{ (Il2CppRGCTXDataType)1, 42082 },
+	{ (Il2CppRGCTXDataType)2, 44276 },
+	{ (Il2CppRGCTXDataType)2, 44277 },
+	{ (Il2CppRGCTXDataType)3, 43211 },
+	{ (Il2CppRGCTXDataType)2, 44278 },
+	{ (Il2CppRGCTXDataType)3, 43212 },
+	{ (Il2CppRGCTXDataType)2, 44279 },
+	{ (Il2CppRGCTXDataType)2, 44280 },
+	{ (Il2CppRGCTXDataType)1, 42098 },
+	{ (Il2CppRGCTXDataType)2, 44281 },
+	{ (Il2CppRGCTXDataType)2, 44282 },
+	{ (Il2CppRGCTXDataType)3, 43213 },
+	{ (Il2CppRGCTXDataType)2, 44283 },
+	{ (Il2CppRGCTXDataType)3, 43214 },
+	{ (Il2CppRGCTXDataType)2, 44284 },
+	{ (Il2CppRGCTXDataType)2, 44285 },
+	{ (Il2CppRGCTXDataType)1, 42114 },
+	{ (Il2CppRGCTXDataType)2, 44286 },
+	{ (Il2CppRGCTXDataType)2, 44287 },
+	{ (Il2CppRGCTXDataType)3, 43215 },
+	{ (Il2CppRGCTXDataType)2, 44288 },
+	{ (Il2CppRGCTXDataType)3, 43216 },
+	{ (Il2CppRGCTXDataType)2, 44289 },
+	{ (Il2CppRGCTXDataType)2, 44290 },
+	{ (Il2CppRGCTXDataType)1, 42130 },
+	{ (Il2CppRGCTXDataType)2, 44291 },
+	{ (Il2CppRGCTXDataType)2, 44292 },
+	{ (Il2CppRGCTXDataType)3, 43217 },
+	{ (Il2CppRGCTXDataType)2, 44293 },
+	{ (Il2CppRGCTXDataType)3, 43218 },
+	{ (Il2CppRGCTXDataType)2, 44294 },
+	{ (Il2CppRGCTXDataType)2, 44295 },
+	{ (Il2CppRGCTXDataType)1, 42146 },
+	{ (Il2CppRGCTXDataType)2, 44296 },
+	{ (Il2CppRGCTXDataType)2, 44297 },
+	{ (Il2CppRGCTXDataType)3, 43219 },
+	{ (Il2CppRGCTXDataType)2, 44298 },
+	{ (Il2CppRGCTXDataType)3, 43220 },
+	{ (Il2CppRGCTXDataType)2, 44299 },
+	{ (Il2CppRGCTXDataType)2, 44300 },
+	{ (Il2CppRGCTXDataType)1, 42162 },
+	{ (Il2CppRGCTXDataType)2, 44301 },
+	{ (Il2CppRGCTXDataType)2, 44302 },
+	{ (Il2CppRGCTXDataType)3, 43221 },
+	{ (Il2CppRGCTXDataType)2, 44303 },
+	{ (Il2CppRGCTXDataType)3, 43222 },
+	{ (Il2CppRGCTXDataType)2, 44304 },
+	{ (Il2CppRGCTXDataType)2, 44305 },
+	{ (Il2CppRGCTXDataType)1, 42178 },
+	{ (Il2CppRGCTXDataType)2, 44306 },
+	{ (Il2CppRGCTXDataType)2, 44307 },
+	{ (Il2CppRGCTXDataType)3, 43223 },
+	{ (Il2CppRGCTXDataType)2, 44308 },
+	{ (Il2CppRGCTXDataType)3, 43224 },
+	{ (Il2CppRGCTXDataType)2, 44309 },
+	{ (Il2CppRGCTXDataType)2, 42190 },
+	{ (Il2CppRGCTXDataType)3, 43225 },
+	{ (Il2CppRGCTXDataType)2, 44310 },
+	{ (Il2CppRGCTXDataType)3, 43226 },
+	{ (Il2CppRGCTXDataType)2, 42197 },
+	{ (Il2CppRGCTXDataType)3, 43227 },
+	{ (Il2CppRGCTXDataType)3, 43228 },
+	{ (Il2CppRGCTXDataType)2, 44311 },
+	{ (Il2CppRGCTXDataType)2, 44312 },
+	{ (Il2CppRGCTXDataType)3, 43229 },
+	{ (Il2CppRGCTXDataType)3, 43230 },
+	{ (Il2CppRGCTXDataType)2, 42239 },
+	{ (Il2CppRGCTXDataType)2, 44313 },
+	{ (Il2CppRGCTXDataType)3, 43231 },
+	{ (Il2CppRGCTXDataType)3, 43232 },
+	{ (Il2CppRGCTXDataType)2, 44314 },
+	{ (Il2CppRGCTXDataType)2, 42247 },
+	{ (Il2CppRGCTXDataType)3, 43233 },
+	{ (Il2CppRGCTXDataType)3, 43234 },
+	{ (Il2CppRGCTXDataType)2, 44315 },
+	{ (Il2CppRGCTXDataType)2, 42289 },
+	{ (Il2CppRGCTXDataType)2, 44316 },
+	{ (Il2CppRGCTXDataType)3, 43235 },
+	{ (Il2CppRGCTXDataType)3, 43236 },
+	{ (Il2CppRGCTXDataType)2, 42287 },
+	{ (Il2CppRGCTXDataType)3, 43237 },
+	{ (Il2CppRGCTXDataType)3, 43238 },
+	{ (Il2CppRGCTXDataType)3, 43239 },
+	{ (Il2CppRGCTXDataType)2, 42290 },
+	{ (Il2CppRGCTXDataType)3, 43240 },
+	{ (Il2CppRGCTXDataType)3, 43241 },
+	{ (Il2CppRGCTXDataType)3, 43242 },
+	{ (Il2CppRGCTXDataType)3, 43243 },
+	{ (Il2CppRGCTXDataType)3, 43244 },
+	{ (Il2CppRGCTXDataType)3, 43245 },
+	{ (Il2CppRGCTXDataType)3, 43246 },
+	{ (Il2CppRGCTXDataType)3, 43247 },
+	{ (Il2CppRGCTXDataType)3, 43248 },
+	{ (Il2CppRGCTXDataType)3, 43249 },
+	{ (Il2CppRGCTXDataType)3, 43250 },
+	{ (Il2CppRGCTXDataType)3, 43251 },
+	{ (Il2CppRGCTXDataType)3, 43252 },
+	{ (Il2CppRGCTXDataType)2, 44317 },
+	{ (Il2CppRGCTXDataType)2, 44318 },
+	{ (Il2CppRGCTXDataType)3, 43253 },
+	{ (Il2CppRGCTXDataType)3, 43254 },
+	{ (Il2CppRGCTXDataType)2, 42419 },
+	{ (Il2CppRGCTXDataType)3, 43255 },
+	{ (Il2CppRGCTXDataType)2, 44319 },
+	{ (Il2CppRGCTXDataType)3, 43256 },
+	{ (Il2CppRGCTXDataType)3, 43257 },
+	{ (Il2CppRGCTXDataType)3, 43258 },
+	{ (Il2CppRGCTXDataType)3, 43259 },
+	{ (Il2CppRGCTXDataType)3, 43260 },
+	{ (Il2CppRGCTXDataType)2, 44320 },
+	{ (Il2CppRGCTXDataType)2, 44321 },
+	{ (Il2CppRGCTXDataType)3, 43261 },
+	{ (Il2CppRGCTXDataType)3, 43262 },
+	{ (Il2CppRGCTXDataType)2, 44322 },
+	{ (Il2CppRGCTXDataType)2, 42424 },
+	{ (Il2CppRGCTXDataType)3, 43263 },
+	{ (Il2CppRGCTXDataType)3, 43264 },
+	{ (Il2CppRGCTXDataType)2, 44323 },
+	{ (Il2CppRGCTXDataType)3, 43265 },
+	{ (Il2CppRGCTXDataType)3, 43266 },
+	{ (Il2CppRGCTXDataType)3, 43267 },
+	{ (Il2CppRGCTXDataType)3, 43268 },
+	{ (Il2CppRGCTXDataType)2, 44324 },
+	{ (Il2CppRGCTXDataType)2, 42429 },
+	{ (Il2CppRGCTXDataType)3, 43269 },
+	{ (Il2CppRGCTXDataType)3, 43270 },
+	{ (Il2CppRGCTXDataType)2, 42434 },
+	{ (Il2CppRGCTXDataType)3, 43271 },
+	{ (Il2CppRGCTXDataType)3, 43272 },
+	{ (Il2CppRGCTXDataType)2, 42435 },
+	{ (Il2CppRGCTXDataType)2, 42440 },
+	{ (Il2CppRGCTXDataType)3, 43273 },
+	{ (Il2CppRGCTXDataType)2, 44325 },
+	{ (Il2CppRGCTXDataType)3, 43274 },
+	{ (Il2CppRGCTXDataType)3, 43275 },
+	{ (Il2CppRGCTXDataType)3, 43276 },
+	{ (Il2CppRGCTXDataType)2, 42448 },
+	{ (Il2CppRGCTXDataType)2, 42449 },
+	{ (Il2CppRGCTXDataType)3, 43277 },
+	{ (Il2CppRGCTXDataType)2, 42444 },
+	{ (Il2CppRGCTXDataType)3, 43278 },
+	{ (Il2CppRGCTXDataType)2, 42452 },
+	{ (Il2CppRGCTXDataType)2, 44326 },
+	{ (Il2CppRGCTXDataType)3, 43279 },
+	{ (Il2CppRGCTXDataType)2, 42460 },
+	{ (Il2CppRGCTXDataType)2, 42462 },
+	{ (Il2CppRGCTXDataType)3, 43280 },
+	{ (Il2CppRGCTXDataType)3, 43281 },
+	{ (Il2CppRGCTXDataType)2, 42458 },
+	{ (Il2CppRGCTXDataType)2, 44327 },
+	{ (Il2CppRGCTXDataType)2, 44328 },
+	{ (Il2CppRGCTXDataType)3, 43282 },
+	{ (Il2CppRGCTXDataType)2, 42466 },
+	{ (Il2CppRGCTXDataType)3, 43283 },
+	{ (Il2CppRGCTXDataType)3, 43284 },
+	{ (Il2CppRGCTXDataType)3, 43285 },
+	{ (Il2CppRGCTXDataType)2, 42464 },
+	{ (Il2CppRGCTXDataType)3, 43286 },
+	{ (Il2CppRGCTXDataType)2, 42472 },
+	{ (Il2CppRGCTXDataType)3, 43287 },
+	{ (Il2CppRGCTXDataType)3, 43288 },
+	{ (Il2CppRGCTXDataType)3, 43289 },
+	{ (Il2CppRGCTXDataType)2, 42470 },
+	{ (Il2CppRGCTXDataType)3, 43290 },
+	{ (Il2CppRGCTXDataType)2, 42478 },
+	{ (Il2CppRGCTXDataType)3, 43291 },
+	{ (Il2CppRGCTXDataType)3, 43292 },
+	{ (Il2CppRGCTXDataType)2, 42480 },
+	{ (Il2CppRGCTXDataType)3, 43293 },
+	{ (Il2CppRGCTXDataType)3, 43294 },
+	{ (Il2CppRGCTXDataType)3, 43295 },
+	{ (Il2CppRGCTXDataType)2, 42476 },
+	{ (Il2CppRGCTXDataType)3, 43296 },
+	{ (Il2CppRGCTXDataType)2, 42485 },
+	{ (Il2CppRGCTXDataType)3, 43297 },
+	{ (Il2CppRGCTXDataType)3, 43298 },
+	{ (Il2CppRGCTXDataType)3, 43299 },
+	{ (Il2CppRGCTXDataType)2, 42483 },
+	{ (Il2CppRGCTXDataType)3, 43300 },
+	{ (Il2CppRGCTXDataType)3, 43301 },
+	{ (Il2CppRGCTXDataType)2, 42492 },
+	{ (Il2CppRGCTXDataType)3, 43302 },
+	{ (Il2CppRGCTXDataType)2, 42491 },
+	{ (Il2CppRGCTXDataType)3, 43303 },
+	{ (Il2CppRGCTXDataType)3, 43304 },
+	{ (Il2CppRGCTXDataType)2, 42489 },
+	{ (Il2CppRGCTXDataType)2, 44329 },
+	{ (Il2CppRGCTXDataType)3, 43305 },
+	{ (Il2CppRGCTXDataType)2, 42497 },
+	{ (Il2CppRGCTXDataType)3, 43306 },
+	{ (Il2CppRGCTXDataType)3, 43307 },
+	{ (Il2CppRGCTXDataType)2, 42495 },
+	{ (Il2CppRGCTXDataType)2, 44330 },
+	{ (Il2CppRGCTXDataType)3, 43308 },
+	{ (Il2CppRGCTXDataType)2, 42503 },
+	{ (Il2CppRGCTXDataType)3, 43309 },
+	{ (Il2CppRGCTXDataType)3, 43310 },
+	{ (Il2CppRGCTXDataType)2, 42501 },
+	{ (Il2CppRGCTXDataType)2, 44331 },
+	{ (Il2CppRGCTXDataType)3, 43311 },
+	{ (Il2CppRGCTXDataType)2, 42509 },
+	{ (Il2CppRGCTXDataType)3, 43312 },
+	{ (Il2CppRGCTXDataType)3, 43313 },
+	{ (Il2CppRGCTXDataType)3, 43314 },
+	{ (Il2CppRGCTXDataType)2, 42507 },
+	{ (Il2CppRGCTXDataType)2, 44332 },
+	{ (Il2CppRGCTXDataType)3, 43315 },
+	{ (Il2CppRGCTXDataType)2, 42513 },
+	{ (Il2CppRGCTXDataType)2, 44333 },
+	{ (Il2CppRGCTXDataType)3, 43316 },
+	{ (Il2CppRGCTXDataType)3, 43317 },
+	{ (Il2CppRGCTXDataType)2, 44335 },
+	{ (Il2CppRGCTXDataType)2, 44336 },
+	{ (Il2CppRGCTXDataType)3, 43318 },
+	{ (Il2CppRGCTXDataType)3, 43319 },
+	{ (Il2CppRGCTXDataType)3, 43320 },
+	{ (Il2CppRGCTXDataType)2, 44339 },
+	{ (Il2CppRGCTXDataType)3, 43321 },
+	{ (Il2CppRGCTXDataType)2, 44340 },
+	{ (Il2CppRGCTXDataType)3, 43322 },
+	{ (Il2CppRGCTXDataType)2, 44341 },
+	{ (Il2CppRGCTXDataType)2, 44338 },
+	{ (Il2CppRGCTXDataType)3, 43323 },
+	{ (Il2CppRGCTXDataType)2, 44342 },
+	{ (Il2CppRGCTXDataType)3, 43324 },
+	{ (Il2CppRGCTXDataType)2, 42525 },
+	{ (Il2CppRGCTXDataType)3, 43325 },
+	{ (Il2CppRGCTXDataType)3, 43326 },
+	{ (Il2CppRGCTXDataType)3, 43327 },
+	{ (Il2CppRGCTXDataType)3, 43328 },
+	{ (Il2CppRGCTXDataType)3, 43329 },
+	{ (Il2CppRGCTXDataType)3, 43330 },
+	{ (Il2CppRGCTXDataType)2, 44343 },
+	{ (Il2CppRGCTXDataType)2, 42544 },
+	{ (Il2CppRGCTXDataType)3, 43331 },
+	{ (Il2CppRGCTXDataType)2, 42584 },
+	{ (Il2CppRGCTXDataType)3, 43332 },
+	{ (Il2CppRGCTXDataType)2, 44344 },
+	{ (Il2CppRGCTXDataType)3, 43333 },
+	{ (Il2CppRGCTXDataType)3, 43334 },
+	{ (Il2CppRGCTXDataType)2, 42585 },
+	{ (Il2CppRGCTXDataType)2, 42591 },
+	{ (Il2CppRGCTXDataType)3, 43335 },
+	{ (Il2CppRGCTXDataType)3, 43336 },
+	{ (Il2CppRGCTXDataType)3, 43337 },
+	{ (Il2CppRGCTXDataType)2, 44345 },
+	{ (Il2CppRGCTXDataType)2, 42588 },
+	{ (Il2CppRGCTXDataType)1, 42588 },
+	{ (Il2CppRGCTXDataType)3, 43338 },
+	{ (Il2CppRGCTXDataType)3, 43339 },
+	{ (Il2CppRGCTXDataType)3, 43340 },
+	{ (Il2CppRGCTXDataType)2, 42602 },
+	{ (Il2CppRGCTXDataType)2, 42603 },
+	{ (Il2CppRGCTXDataType)3, 43341 },
+	{ (Il2CppRGCTXDataType)2, 42596 },
+	{ (Il2CppRGCTXDataType)3, 43342 },
+	{ (Il2CppRGCTXDataType)2, 42606 },
+	{ (Il2CppRGCTXDataType)2, 44346 },
+	{ (Il2CppRGCTXDataType)3, 43343 },
+	{ (Il2CppRGCTXDataType)2, 42616 },
+	{ (Il2CppRGCTXDataType)3, 43344 },
+	{ (Il2CppRGCTXDataType)3, 43345 },
+	{ (Il2CppRGCTXDataType)3, 43346 },
+	{ (Il2CppRGCTXDataType)2, 42613 },
+	{ (Il2CppRGCTXDataType)2, 42623 },
+	{ (Il2CppRGCTXDataType)2, 42625 },
+	{ (Il2CppRGCTXDataType)3, 43347 },
+	{ (Il2CppRGCTXDataType)3, 43348 },
+	{ (Il2CppRGCTXDataType)3, 43349 },
+	{ (Il2CppRGCTXDataType)2, 42620 },
+	{ (Il2CppRGCTXDataType)2, 44347 },
+	{ (Il2CppRGCTXDataType)2, 44348 },
+	{ (Il2CppRGCTXDataType)3, 43350 },
+	{ (Il2CppRGCTXDataType)2, 42630 },
+	{ (Il2CppRGCTXDataType)3, 43351 },
+	{ (Il2CppRGCTXDataType)3, 43352 },
+	{ (Il2CppRGCTXDataType)2, 42627 },
+	{ (Il2CppRGCTXDataType)2, 44349 },
+	{ (Il2CppRGCTXDataType)3, 43353 },
+	{ (Il2CppRGCTXDataType)2, 42637 },
+	{ (Il2CppRGCTXDataType)3, 43354 },
+	{ (Il2CppRGCTXDataType)3, 43355 },
+	{ (Il2CppRGCTXDataType)2, 42634 },
+	{ (Il2CppRGCTXDataType)2, 44350 },
+	{ (Il2CppRGCTXDataType)2, 44351 },
+	{ (Il2CppRGCTXDataType)3, 43356 },
+	{ (Il2CppRGCTXDataType)2, 42643 },
+	{ (Il2CppRGCTXDataType)3, 43357 },
+	{ (Il2CppRGCTXDataType)3, 43358 },
+	{ (Il2CppRGCTXDataType)3, 43359 },
+	{ (Il2CppRGCTXDataType)2, 42640 },
+	{ (Il2CppRGCTXDataType)2, 42647 },
+	{ (Il2CppRGCTXDataType)3, 43360 },
+	{ (Il2CppRGCTXDataType)2, 44352 },
+	{ (Il2CppRGCTXDataType)3, 43361 },
+	{ (Il2CppRGCTXDataType)1, 42671 },
+	{ (Il2CppRGCTXDataType)3, 43362 },
+	{ (Il2CppRGCTXDataType)2, 44353 },
+	{ (Il2CppRGCTXDataType)3, 43363 },
+	{ (Il2CppRGCTXDataType)2, 44354 },
+	{ (Il2CppRGCTXDataType)2, 44355 },
+	{ (Il2CppRGCTXDataType)3, 43364 },
+	{ (Il2CppRGCTXDataType)2, 42671 },
+	{ (Il2CppRGCTXDataType)3, 43365 },
+	{ (Il2CppRGCTXDataType)3, 43366 },
+	{ (Il2CppRGCTXDataType)2, 44356 },
+	{ (Il2CppRGCTXDataType)3, 43367 },
+	{ (Il2CppRGCTXDataType)3, 43368 },
+	{ (Il2CppRGCTXDataType)2, 42670 },
+	{ (Il2CppRGCTXDataType)3, 43369 },
+	{ (Il2CppRGCTXDataType)2, 44357 },
+	{ (Il2CppRGCTXDataType)3, 43370 },
+	{ (Il2CppRGCTXDataType)3, 43371 },
+	{ (Il2CppRGCTXDataType)2, 42672 },
+	{ (Il2CppRGCTXDataType)3, 43372 },
+	{ (Il2CppRGCTXDataType)3, 43373 },
+	{ (Il2CppRGCTXDataType)3, 43374 },
+	{ (Il2CppRGCTXDataType)3, 43375 },
+	{ (Il2CppRGCTXDataType)3, 43376 },
+	{ (Il2CppRGCTXDataType)3, 43377 },
+	{ (Il2CppRGCTXDataType)3, 43378 },
+	{ (Il2CppRGCTXDataType)2, 42684 },
+	{ (Il2CppRGCTXDataType)2, 42688 },
+	{ (Il2CppRGCTXDataType)3, 43379 },
+	{ (Il2CppRGCTXDataType)2, 44358 },
+	{ (Il2CppRGCTXDataType)3, 43380 },
+	{ (Il2CppRGCTXDataType)3, 43381 },
+	{ (Il2CppRGCTXDataType)3, 43382 },
+	{ (Il2CppRGCTXDataType)3, 43383 },
+	{ (Il2CppRGCTXDataType)2, 42697 },
+	{ (Il2CppRGCTXDataType)3, 43384 },
+	{ (Il2CppRGCTXDataType)2, 44360 },
+	{ (Il2CppRGCTXDataType)3, 43385 },
+	{ (Il2CppRGCTXDataType)3, 43386 },
+	{ (Il2CppRGCTXDataType)3, 43387 },
+	{ (Il2CppRGCTXDataType)3, 43388 },
+	{ (Il2CppRGCTXDataType)3, 43389 },
+	{ (Il2CppRGCTXDataType)3, 43390 },
+	{ (Il2CppRGCTXDataType)2, 42701 },
+	{ (Il2CppRGCTXDataType)3, 43391 },
+	{ (Il2CppRGCTXDataType)2, 44363 },
+	{ (Il2CppRGCTXDataType)3, 43392 },
+	{ (Il2CppRGCTXDataType)3, 43393 },
+	{ (Il2CppRGCTXDataType)3, 43394 },
+	{ (Il2CppRGCTXDataType)3, 43395 },
+	{ (Il2CppRGCTXDataType)3, 43396 },
+	{ (Il2CppRGCTXDataType)3, 43397 },
+	{ (Il2CppRGCTXDataType)3, 43398 },
+	{ (Il2CppRGCTXDataType)3, 43399 },
+	{ (Il2CppRGCTXDataType)2, 42705 },
+	{ (Il2CppRGCTXDataType)3, 43400 },
+	{ (Il2CppRGCTXDataType)3, 43401 },
+	{ (Il2CppRGCTXDataType)3, 43402 },
+	{ (Il2CppRGCTXDataType)2, 44367 },
+	{ (Il2CppRGCTXDataType)2, 42709 },
+	{ (Il2CppRGCTXDataType)3, 43403 },
+	{ (Il2CppRGCTXDataType)2, 42713 },
+	{ (Il2CppRGCTXDataType)3, 43404 },
+	{ (Il2CppRGCTXDataType)3, 43405 },
+	{ (Il2CppRGCTXDataType)2, 42715 },
+	{ (Il2CppRGCTXDataType)3, 43406 },
+	{ (Il2CppRGCTXDataType)3, 43407 },
+	{ (Il2CppRGCTXDataType)3, 43408 },
+	{ (Il2CppRGCTXDataType)2, 44368 },
+	{ (Il2CppRGCTXDataType)3, 43409 },
+	{ (Il2CppRGCTXDataType)3, 43410 },
+	{ (Il2CppRGCTXDataType)2, 44369 },
+	{ (Il2CppRGCTXDataType)2, 42875 },
+	{ (Il2CppRGCTXDataType)3, 43411 },
+	{ (Il2CppRGCTXDataType)2, 42904 },
+	{ (Il2CppRGCTXDataType)3, 43412 },
+	{ (Il2CppRGCTXDataType)3, 43413 },
+	{ (Il2CppRGCTXDataType)3, 43414 },
+	{ (Il2CppRGCTXDataType)3, 43415 },
+	{ (Il2CppRGCTXDataType)3, 43416 },
+	{ (Il2CppRGCTXDataType)3, 43417 },
+	{ (Il2CppRGCTXDataType)3, 43418 },
+	{ (Il2CppRGCTXDataType)3, 43419 },
+	{ (Il2CppRGCTXDataType)3, 43420 },
+	{ (Il2CppRGCTXDataType)3, 43421 },
+	{ (Il2CppRGCTXDataType)3, 43422 },
+	{ (Il2CppRGCTXDataType)3, 43423 },
+	{ (Il2CppRGCTXDataType)3, 43424 },
+	{ (Il2CppRGCTXDataType)3, 43425 },
+	{ (Il2CppRGCTXDataType)2, 42915 },
+	{ (Il2CppRGCTXDataType)2, 42917 },
+	{ (Il2CppRGCTXDataType)3, 43426 },
+	{ (Il2CppRGCTXDataType)3, 43427 },
+	{ (Il2CppRGCTXDataType)3, 43428 },
+	{ (Il2CppRGCTXDataType)3, 43429 },
+	{ (Il2CppRGCTXDataType)2, 42921 },
+	{ (Il2CppRGCTXDataType)3, 43430 },
+	{ (Il2CppRGCTXDataType)3, 43431 },
+	{ (Il2CppRGCTXDataType)2, 42923 },
+	{ (Il2CppRGCTXDataType)3, 43432 },
+	{ (Il2CppRGCTXDataType)2, 42926 },
+	{ (Il2CppRGCTXDataType)2, 44370 },
+	{ (Il2CppRGCTXDataType)3, 43433 },
+	{ (Il2CppRGCTXDataType)3, 43434 },
+	{ (Il2CppRGCTXDataType)2, 42927 },
+	{ (Il2CppRGCTXDataType)2, 42928 },
+	{ (Il2CppRGCTXDataType)3, 43435 },
+	{ (Il2CppRGCTXDataType)2, 44371 },
+	{ (Il2CppRGCTXDataType)2, 42930 },
+	{ (Il2CppRGCTXDataType)2, 42942 },
+	{ (Il2CppRGCTXDataType)3, 43436 },
+	{ (Il2CppRGCTXDataType)2, 44372 },
+	{ (Il2CppRGCTXDataType)3, 43437 },
+	{ (Il2CppRGCTXDataType)3, 43438 },
+	{ (Il2CppRGCTXDataType)3, 43439 },
+	{ (Il2CppRGCTXDataType)3, 43440 },
+	{ (Il2CppRGCTXDataType)2, 43090 },
+	{ (Il2CppRGCTXDataType)3, 43441 },
+	{ (Il2CppRGCTXDataType)1, 43160 },
+	{ (Il2CppRGCTXDataType)3, 43442 },
+	{ (Il2CppRGCTXDataType)2, 43160 },
+	{ (Il2CppRGCTXDataType)1, 43161 },
+	{ (Il2CppRGCTXDataType)2, 43161 },
 };
-extern const Il2CppDebuggerMetadataRegistration g_DebuggerMetadataRegistrationAssemblyU2DCSharpU2Dfirstpass;
 extern const Il2CppCodeGenModule g_AssemblyU2DCSharpU2DfirstpassCodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharpU2DfirstpassCodeGenModule = 
 {
 	"Assembly-CSharp-firstpass.dll",
-	2153,
+	2165,
 	s_methodPointers,
 	s_InvokerIndices,
 	0,
@@ -9054,5 +9101,5 @@ const Il2CppCodeGenModule g_AssemblyU2DCSharpU2DfirstpassCodeGenModule =
 	s_rgctxIndices,
 	647,
 	s_rgctxValues,
-	&g_DebuggerMetadataRegistrationAssemblyU2DCSharpU2Dfirstpass,
+	NULL,
 };

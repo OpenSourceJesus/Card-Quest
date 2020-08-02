@@ -130,14 +130,13 @@ static const int32_t s_InvokerIndices[30] =
 	14,
 	4,
 	3,
-	585,
+	595,
 	26,
-	1053,
+	1071,
 	0,
 	3,
 	28,
 };
-extern const Il2CppDebuggerMetadataRegistration g_DebuggerMetadataRegistrationSystem_Xml;
 extern const Il2CppCodeGenModule g_System_XmlCodeGenModule;
 const Il2CppCodeGenModule g_System_XmlCodeGenModule = 
 {
@@ -151,5 +150,5 @@ const Il2CppCodeGenModule g_System_XmlCodeGenModule =
 	NULL,
 	0,
 	NULL,
-	&g_DebuggerMetadataRegistrationSystem_Xml,
+	NULL,
 };

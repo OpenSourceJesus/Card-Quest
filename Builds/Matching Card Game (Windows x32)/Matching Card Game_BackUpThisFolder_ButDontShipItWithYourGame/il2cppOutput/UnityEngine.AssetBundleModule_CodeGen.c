@@ -20,7 +20,6 @@ IL2CPP_EXTERN_C_END
 
 
 
-extern const Il2CppDebuggerMetadataRegistration g_DebuggerMetadataRegistrationUnityEngine_AssetBundleModule;
 extern const Il2CppCodeGenModule g_UnityEngine_AssetBundleModuleCodeGenModule;
 const Il2CppCodeGenModule g_UnityEngine_AssetBundleModuleCodeGenModule = 
 {
@@ -34,5 +33,5 @@ const Il2CppCodeGenModule g_UnityEngine_AssetBundleModuleCodeGenModule =
 	NULL,
 	0,
 	NULL,
-	&g_DebuggerMetadataRegistrationUnityEngine_AssetBundleModule,
+	NULL,
 };

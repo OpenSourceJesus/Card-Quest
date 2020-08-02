@@ -184,8 +184,8 @@ namespace MatchingCardGame
 
 		public static void ResetPersistantValues ()
 		{
-			GameManager.enabledGosString = "";
-			GameManager.disabledGosString = "";
+			// GameManager.enabledGosString = "";
+			// GameManager.disabledGosString = "";
 		}
 
 		public virtual void DeleteAll ()

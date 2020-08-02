@@ -31,7 +31,7 @@ static const char* g_methodExecutionContextInfoStrings[1] = { NULL };
 static const char* g_methodExecutionContextInfoStrings[1] = { NULL };
 #endif
 #if IL2CPP_MONO_DEBUGGER
-static const Il2CppMethodExecutionContextInfoIndex g_methodExecutionContextInfoIndexes[47] = 
+static const Il2CppMethodExecutionContextInfoIndex g_methodExecutionContextInfoIndexes[49] = 
 {
 	{ 0, 0 } /* 0x06000001 System.Boolean UnityEngine.TextGenerationSettings::CompareColors(UnityEngine.Color,UnityEngine.Color) */,
 	{ 0, 0 } /* 0x06000002 System.Boolean UnityEngine.TextGenerationSettings::CompareVector2(UnityEngine.Vector2,UnityEngine.Vector2) */,
@@ -73,13 +73,15 @@ static const Il2CppMethodExecutionContextInfoIndex g_methodExecutionContextInfoI
 	{ 0, 0 } /* 0x06000026 UnityEngine.Material UnityEngine.Font::get_material() */,
 	{ 0, 0 } /* 0x06000027 System.Boolean UnityEngine.Font::get_dynamic() */,
 	{ 0, 0 } /* 0x06000028 System.Int32 UnityEngine.Font::get_fontSize() */,
-	{ 0, 0 } /* 0x06000029 System.Void UnityEngine.Font::InvokeTextureRebuilt_Internal(UnityEngine.Font) */,
-	{ 0, 0 } /* 0x0600002A System.Boolean UnityEngine.Font::HasCharacter(System.Char) */,
-	{ 0, 0 } /* 0x0600002B System.Boolean UnityEngine.Font::HasCharacter(System.Int32) */,
-	{ 0, 0 } /* 0x0600002C System.Void UnityEngine.Font/FontTextureRebuildCallback::.ctor(System.Object,System.IntPtr) */,
-	{ 0, 0 } /* 0x0600002D System.Void UnityEngine.Font/FontTextureRebuildCallback::Invoke() */,
-	{ 0, 0 } /* 0x0600002E System.IAsyncResult UnityEngine.Font/FontTextureRebuildCallback::BeginInvoke(System.AsyncCallback,System.Object) */,
-	{ 0, 0 } /* 0x0600002F System.Void UnityEngine.Font/FontTextureRebuildCallback::EndInvoke(System.IAsyncResult) */,
+	{ 0, 0 } /* 0x06000029 System.Void UnityEngine.Font::.ctor() */,
+	{ 0, 0 } /* 0x0600002A System.Void UnityEngine.Font::InvokeTextureRebuilt_Internal(UnityEngine.Font) */,
+	{ 0, 0 } /* 0x0600002B System.Boolean UnityEngine.Font::HasCharacter(System.Char) */,
+	{ 0, 0 } /* 0x0600002C System.Boolean UnityEngine.Font::HasCharacter(System.Int32) */,
+	{ 0, 0 } /* 0x0600002D System.Void UnityEngine.Font::Internal_CreateFont(UnityEngine.Font,System.String) */,
+	{ 0, 0 } /* 0x0600002E System.Void UnityEngine.Font/FontTextureRebuildCallback::.ctor(System.Object,System.IntPtr) */,
+	{ 0, 0 } /* 0x0600002F System.Void UnityEngine.Font/FontTextureRebuildCallback::Invoke() */,
+	{ 0, 0 } /* 0x06000030 System.IAsyncResult UnityEngine.Font/FontTextureRebuildCallback::BeginInvoke(System.AsyncCallback,System.Object) */,
+	{ 0, 0 } /* 0x06000031 System.Void UnityEngine.Font/FontTextureRebuildCallback::EndInvoke(System.IAsyncResult) */,
 };
 #else
 static const Il2CppMethodExecutionContextInfoIndex g_methodExecutionContextInfoIndexes[1] = { { 0, 0} };
@@ -112,7 +114,7 @@ static const Il2CppMethodScope g_methodScopes[1] = { { 0, 0 } };
 static const Il2CppMethodScope g_methodScopes[1] = { { 0, 0 } };
 #endif
 #if IL2CPP_MONO_DEBUGGER
-static const Il2CppMethodHeaderInfo g_methodHeaderInfos[47] = 
+static const Il2CppMethodHeaderInfo g_methodHeaderInfos[49] = 
 {
 	{ 0, 0, 0 } /* System.Boolean UnityEngine.TextGenerationSettings::CompareColors(UnityEngine.Color,UnityEngine.Color) */,
 	{ 0, 0, 0 } /* System.Boolean UnityEngine.TextGenerationSettings::CompareVector2(UnityEngine.Vector2,UnityEngine.Vector2) */,
@@ -154,9 +156,11 @@ static const Il2CppMethodHeaderInfo g_methodHeaderInfos[47] =
 	{ 0, 0, 0 } /* UnityEngine.Material UnityEngine.Font::get_material() */,
 	{ 0, 0, 0 } /* System.Boolean UnityEngine.Font::get_dynamic() */,
 	{ 0, 0, 0 } /* System.Int32 UnityEngine.Font::get_fontSize() */,
+	{ 0, 0, 0 } /* System.Void UnityEngine.Font::.ctor() */,
 	{ 0, 0, 0 } /* System.Void UnityEngine.Font::InvokeTextureRebuilt_Internal(UnityEngine.Font) */,
 	{ 0, 0, 0 } /* System.Boolean UnityEngine.Font::HasCharacter(System.Char) */,
 	{ 0, 0, 0 } /* System.Boolean UnityEngine.Font::HasCharacter(System.Int32) */,
+	{ 0, 0, 0 } /* System.Void UnityEngine.Font::Internal_CreateFont(UnityEngine.Font,System.String) */,
 	{ 0, 0, 0 } /* System.Void UnityEngine.Font/FontTextureRebuildCallback::.ctor(System.Object,System.IntPtr) */,
 	{ 0, 0, 0 } /* System.Void UnityEngine.Font/FontTextureRebuildCallback::Invoke() */,
 	{ 0, 0, 0 } /* System.IAsyncResult UnityEngine.Font/FontTextureRebuildCallback::BeginInvoke(System.AsyncCallback,System.Object) */,

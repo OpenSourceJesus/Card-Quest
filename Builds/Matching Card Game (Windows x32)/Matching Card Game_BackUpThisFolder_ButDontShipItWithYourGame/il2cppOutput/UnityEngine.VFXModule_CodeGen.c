@@ -79,7 +79,6 @@ static const int32_t s_InvokerIndices[14] =
 	25,
 	3,
 };
-extern const Il2CppDebuggerMetadataRegistration g_DebuggerMetadataRegistrationUnityEngine_VFXModule;
 extern const Il2CppCodeGenModule g_UnityEngine_VFXModuleCodeGenModule;
 const Il2CppCodeGenModule g_UnityEngine_VFXModuleCodeGenModule = 
 {
@@ -93,5 +92,5 @@ const Il2CppCodeGenModule g_UnityEngine_VFXModuleCodeGenModule =
 	NULL,
 	0,
 	NULL,
-	&g_DebuggerMetadataRegistrationUnityEngine_VFXModule,
+	NULL,
 };

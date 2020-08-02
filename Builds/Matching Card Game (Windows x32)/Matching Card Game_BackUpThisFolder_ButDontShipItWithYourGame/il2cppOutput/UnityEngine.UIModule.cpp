@@ -142,49 +142,12 @@ IL2CPP_EXTERN_C RuntimeClass* Vector2_tA85D2DD88578276CA8A8796756458277E72D073D_
 IL2CPP_EXTERN_C RuntimeClass* Vector3U5BU5D_tB9EC3346CC4A0EA5447D968E84A9AC1F6F372C28_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* WillRenderCanvases_tBD5AD090B5938021DEAA679A5AEEA790F60A8BEE_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C const RuntimeMethod* CanvasGroup_IsRaycastLocationValid_m21C6A4F645CDD52E57D6CDBD0963E3594081782A_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* CanvasRenderer_AddUIVertexStream_m58722DF8AED39532C201A0A79A84F10BEC9C7EAB_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* CanvasRenderer_CreateUIVertexStream_m1826F08D237884FD9817F2E0251FF0F813A2C1CA_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* CanvasRenderer_EnableRectClipping_m7C409436632B57EEC761606E22408355D8197397_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* CanvasRenderer_GetColor_m841EC074805A87FBD6D3EF7A17BEA2476AEBA31D_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* CanvasRenderer_GetMaterial_m7B757917B67B57B55EEE2E0451935B4B139E06F3_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* CanvasRenderer_SetColor_mD19F4B2314FD9820902AF6ED1F0392FC78447C06_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* CanvasRenderer_SetMaterial_mD407C670DBA743283F32581586B5DD51272B08C7_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* CanvasRenderer_SplitUIVertexStreams_m6398634C55BA494F2D2AE13FC3878E698330AB9F_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Canvas_ForceUpdateCanvases_mB23FF44265E49BE388A79267533EA482F08C0755_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Canvas_SendWillRenderCanvases_mD38081FE3172AC7A884B8ED459E90633167B2D10_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Canvas__ctor_m83621E7EFCEFA5A0EDC886CB878FE10E7281B951_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Canvas_add_willRenderCanvases_mACABFF4EAFB7DCFF4B9A33357D496EC3010D7E6B_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Canvas_remove_willRenderCanvases_m9A5F0E946B4549D576EDAD5618FEA2D532377831_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* RectTransformUtility_FlipLayoutAxes_mF5D9BF9F0EACBC972A22C937FD21B610410EB956_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* RectTransformUtility_FlipLayoutOnAxis_mFECCA330C80845D0B75829C7DD242688911006AE_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* RectTransformUtility_GetTransposed_m405847E48935C6439CFADED4188B6F3BEE55FC14_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* RectTransformUtility_PixelAdjustPoint_m9B5E7F4F2EB55A49670316CBE4D8923154054573_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* RectTransformUtility_PixelAdjustRect_m320399756E1AD411CFECB3E11867806E73A0DE49_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* RectTransformUtility_PointInRectangle_m31A8C0A3CFCC0B584A33C3A3F2692EF09D303CEE_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* RectTransformUtility_RectangleContainsScreenPoint_mDED32A2F3CD5C623FBA3FFE2C49AEB861D33DE14_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* RectTransformUtility_ScreenPointToLocalPointInRectangle_m2C389D4DCBB3CADB51A793702F13DF7CE837E153_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* RectTransformUtility_ScreenPointToRay_mB74CED011944E1E7CE3A24C433B9B660C5BADC73_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* RectTransformUtility_ScreenPointToWorldPointInRectangle_m821FF925C5B70477F153B4C053AE9E36A04A774F_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* RectTransformUtility_WorldToScreenPoint_m114DFD961456722DED0FFB2F8DCB46A04C2CCA20_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* RectTransformUtility__cctor_m1DCF0D49797698D7D4FBF3EF83B5DEC9A5F42851_RuntimeMethod_var;
-IL2CPP_EXTERN_C const uint32_t CanvasGroup_IsRaycastLocationValid_m21C6A4F645CDD52E57D6CDBD0963E3594081782A_MetadataUsageId;
-IL2CPP_EXTERN_C const uint32_t CanvasRenderer_AddUIVertexStream_m58722DF8AED39532C201A0A79A84F10BEC9C7EAB_MetadataUsageId;
-IL2CPP_EXTERN_C const uint32_t CanvasRenderer_CreateUIVertexStream_m1826F08D237884FD9817F2E0251FF0F813A2C1CA_MetadataUsageId;
-IL2CPP_EXTERN_C const uint32_t CanvasRenderer_EnableRectClipping_m7C409436632B57EEC761606E22408355D8197397_MetadataUsageId;
-IL2CPP_EXTERN_C const uint32_t CanvasRenderer_GetColor_m841EC074805A87FBD6D3EF7A17BEA2476AEBA31D_MetadataUsageId;
-IL2CPP_EXTERN_C const uint32_t CanvasRenderer_GetMaterial_m7B757917B67B57B55EEE2E0451935B4B139E06F3_MetadataUsageId;
-IL2CPP_EXTERN_C const uint32_t CanvasRenderer_SetColor_mD19F4B2314FD9820902AF6ED1F0392FC78447C06_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t CanvasRenderer_SetMaterial_mD407C670DBA743283F32581586B5DD51272B08C7_MetadataUsageId;
-IL2CPP_EXTERN_C const uint32_t CanvasRenderer_SplitUIVertexStreams_m6398634C55BA494F2D2AE13FC3878E698330AB9F_MetadataUsageId;
-IL2CPP_EXTERN_C const uint32_t Canvas_ForceUpdateCanvases_mB23FF44265E49BE388A79267533EA482F08C0755_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t Canvas_SendWillRenderCanvases_mD38081FE3172AC7A884B8ED459E90633167B2D10_MetadataUsageId;
-IL2CPP_EXTERN_C const uint32_t Canvas__ctor_m83621E7EFCEFA5A0EDC886CB878FE10E7281B951_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t Canvas_add_willRenderCanvases_mACABFF4EAFB7DCFF4B9A33357D496EC3010D7E6B_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t Canvas_remove_willRenderCanvases_m9A5F0E946B4549D576EDAD5618FEA2D532377831_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t RectTransformUtility_FlipLayoutAxes_mF5D9BF9F0EACBC972A22C937FD21B610410EB956_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t RectTransformUtility_FlipLayoutOnAxis_mFECCA330C80845D0B75829C7DD242688911006AE_MetadataUsageId;
-IL2CPP_EXTERN_C const uint32_t RectTransformUtility_GetTransposed_m405847E48935C6439CFADED4188B6F3BEE55FC14_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t RectTransformUtility_PixelAdjustPoint_m9B5E7F4F2EB55A49670316CBE4D8923154054573_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t RectTransformUtility_PixelAdjustRect_m320399756E1AD411CFECB3E11867806E73A0DE49_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t RectTransformUtility_PointInRectangle_m31A8C0A3CFCC0B584A33C3A3F2692EF09D303CEE_MetadataUsageId;
@@ -2086,8 +2049,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Canvas_add_willRenderCanvases_mACABFF4EA
 	WillRenderCanvases_tBD5AD090B5938021DEAA679A5AEEA790F60A8BEE * V_0 = NULL;
 	WillRenderCanvases_tBD5AD090B5938021DEAA679A5AEEA790F60A8BEE * V_1 = NULL;
 	WillRenderCanvases_tBD5AD090B5938021DEAA679A5AEEA790F60A8BEE * V_2 = NULL;
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Canvas_add_willRenderCanvases_mACABFF4EAFB7DCFF4B9A33357D496EC3010D7E6B_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		WillRenderCanvases_tBD5AD090B5938021DEAA679A5AEEA790F60A8BEE * L_0 = ((Canvas_tBC28BF1DD8D8499A89B5781505833D3728CF8591_StaticFields*)il2cpp_codegen_static_fields_for(Canvas_tBC28BF1DD8D8499A89B5781505833D3728CF8591_il2cpp_TypeInfo_var))->get_willRenderCanvases_4();
 		V_0 = L_0;
@@ -2095,7 +2056,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Canvas_add_willRenderCanvases_mACABFF4EA
 
 IL_0006:
 	{
-		CHECK_PAUSE_POINT;
 		WillRenderCanvases_tBD5AD090B5938021DEAA679A5AEEA790F60A8BEE * L_1 = V_0;
 		V_1 = L_1;
 		WillRenderCanvases_tBD5AD090B5938021DEAA679A5AEEA790F60A8BEE * L_2 = V_1;
@@ -2129,8 +2089,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Canvas_remove_willRenderCanvases_m9A5F0E
 	WillRenderCanvases_tBD5AD090B5938021DEAA679A5AEEA790F60A8BEE * V_0 = NULL;
 	WillRenderCanvases_tBD5AD090B5938021DEAA679A5AEEA790F60A8BEE * V_1 = NULL;
 	WillRenderCanvases_tBD5AD090B5938021DEAA679A5AEEA790F60A8BEE * V_2 = NULL;
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Canvas_remove_willRenderCanvases_m9A5F0E946B4549D576EDAD5618FEA2D532377831_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		WillRenderCanvases_tBD5AD090B5938021DEAA679A5AEEA790F60A8BEE * L_0 = ((Canvas_tBC28BF1DD8D8499A89B5781505833D3728CF8591_StaticFields*)il2cpp_codegen_static_fields_for(Canvas_tBC28BF1DD8D8499A89B5781505833D3728CF8591_il2cpp_TypeInfo_var))->get_willRenderCanvases_4();
 		V_0 = L_0;
@@ -2138,7 +2096,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Canvas_remove_willRenderCanvases_m9A5F0E
 
 IL_0006:
 	{
-		CHECK_PAUSE_POINT;
 		WillRenderCanvases_tBD5AD090B5938021DEAA679A5AEEA790F60A8BEE * L_1 = V_0;
 		V_1 = L_1;
 		WillRenderCanvases_tBD5AD090B5938021DEAA679A5AEEA790F60A8BEE * L_2 = V_1;
@@ -2376,14 +2333,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Material_tF7DB3BF0C24DEC2FE0CB51E5DF5053D5223
 // System.Void UnityEngine.Canvas::ForceUpdateCanvases()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Canvas_ForceUpdateCanvases_mB23FF44265E49BE388A79267533EA482F08C0755 (const RuntimeMethod* method)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (Canvas_ForceUpdateCanvases_mB23FF44265E49BE388A79267533EA482F08C0755_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Canvas_ForceUpdateCanvases_mB23FF44265E49BE388A79267533EA482F08C0755_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		Canvas_SendWillRenderCanvases_mD38081FE3172AC7A884B8ED459E90633167B2D10(/*hidden argument*/NULL);
 		return;
@@ -2398,8 +2347,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Canvas_SendWillRenderCanvases_mD38081FE3
 		il2cpp_codegen_initialize_method (Canvas_SendWillRenderCanvases_mD38081FE3172AC7A884B8ED459E90633167B2D10_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Canvas_SendWillRenderCanvases_mD38081FE3172AC7A884B8ED459E90633167B2D10_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	WillRenderCanvases_tBD5AD090B5938021DEAA679A5AEEA790F60A8BEE * G_B2_0 = NULL;
 	WillRenderCanvases_tBD5AD090B5938021DEAA679A5AEEA790F60A8BEE * G_B1_0 = NULL;
 	{
@@ -2430,14 +2377,6 @@ IL_0012:
 // System.Void UnityEngine.Canvas::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Canvas__ctor_m83621E7EFCEFA5A0EDC886CB878FE10E7281B951 (Canvas_tBC28BF1DD8D8499A89B5781505833D3728CF8591 * __this, const RuntimeMethod* method)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (Canvas__ctor_m83621E7EFCEFA5A0EDC886CB878FE10E7281B951_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, Canvas__ctor_m83621E7EFCEFA5A0EDC886CB878FE10E7281B951_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		Behaviour__ctor_m409AEC21511ACF9A4CC0654DF4B8253E0D81D22C(__this, /*hidden argument*/NULL);
 		return;
@@ -2610,15 +2549,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CanvasGroup_get_ignoreParentGroups_mD37D
 // System.Boolean UnityEngine.CanvasGroup::IsRaycastLocationValid(UnityEngine.Vector2,UnityEngine.Camera)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CanvasGroup_IsRaycastLocationValid_m21C6A4F645CDD52E57D6CDBD0963E3594081782A (CanvasGroup_tE2C664C60990D1DCCEE0CC6545CC3E80369C7F90 * __this, Vector2_tA85D2DD88578276CA8A8796756458277E72D073D  ___sp0, Camera_t48B2B9ECB3CE6108A98BF949A1CECF0FE3421F34 * ___eventCamera1, const RuntimeMethod* method)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (CanvasGroup_IsRaycastLocationValid_m21C6A4F645CDD52E57D6CDBD0963E3594081782A_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
 	bool V_0 = false;
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, CanvasGroup_IsRaycastLocationValid_m21C6A4F645CDD52E57D6CDBD0963E3594081782A_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		bool L_0 = CanvasGroup_get_blocksRaycasts_m3792CE490F35260A673C28FD29BF4B2814833DDA(__this, /*hidden argument*/NULL);
 		V_0 = L_0;
@@ -2718,14 +2649,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CanvasRenderer_set_cull_m71618AE8E7F24B7
 // System.Void UnityEngine.CanvasRenderer::SetColor(UnityEngine.Color)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CanvasRenderer_SetColor_mD19F4B2314FD9820902AF6ED1F0392FC78447C06 (CanvasRenderer_tB4D9C9FE77FD5C9C4546FC022D6E956960BC2B72 * __this, Color_t119BCA590009762C7223FDD3AF9706653AC84ED2  ___color0, const RuntimeMethod* method)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (CanvasRenderer_SetColor_mD19F4B2314FD9820902AF6ED1F0392FC78447C06_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, CanvasRenderer_SetColor_mD19F4B2314FD9820902AF6ED1F0392FC78447C06_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		CanvasRenderer_SetColor_Injected_mA64D7935C130EDFCB8D9C1DF27F67C8EF6F36CCE(__this, (Color_t119BCA590009762C7223FDD3AF9706653AC84ED2 *)(&___color0), /*hidden argument*/NULL);
 		return;
@@ -2734,16 +2657,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CanvasRenderer_SetColor_mD19F4B2314FD982
 // UnityEngine.Color UnityEngine.CanvasRenderer::GetColor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Color_t119BCA590009762C7223FDD3AF9706653AC84ED2  CanvasRenderer_GetColor_m841EC074805A87FBD6D3EF7A17BEA2476AEBA31D (CanvasRenderer_tB4D9C9FE77FD5C9C4546FC022D6E956960BC2B72 * __this, const RuntimeMethod* method)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (CanvasRenderer_GetColor_m841EC074805A87FBD6D3EF7A17BEA2476AEBA31D_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
 	Color_t119BCA590009762C7223FDD3AF9706653AC84ED2  V_0;
 	memset((&V_0), 0, sizeof(V_0));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, CanvasRenderer_GetColor_m841EC074805A87FBD6D3EF7A17BEA2476AEBA31D_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		CanvasRenderer_GetColor_Injected_mD90AE649D248DA886C8DB085FC27B7134399F68A(__this, (Color_t119BCA590009762C7223FDD3AF9706653AC84ED2 *)(&V_0), /*hidden argument*/NULL);
 		Color_t119BCA590009762C7223FDD3AF9706653AC84ED2  L_0 = V_0;
@@ -2753,14 +2668,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Color_t119BCA590009762C7223FDD3AF9706653AC84E
 // System.Void UnityEngine.CanvasRenderer::EnableRectClipping(UnityEngine.Rect)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CanvasRenderer_EnableRectClipping_m7C409436632B57EEC761606E22408355D8197397 (CanvasRenderer_tB4D9C9FE77FD5C9C4546FC022D6E956960BC2B72 * __this, Rect_t35B976DE901B5423C11705E156938EA27AB402CE  ___rect0, const RuntimeMethod* method)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (CanvasRenderer_EnableRectClipping_m7C409436632B57EEC761606E22408355D8197397_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, CanvasRenderer_EnableRectClipping_m7C409436632B57EEC761606E22408355D8197397_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		CanvasRenderer_EnableRectClipping_Injected_mB430FAA285D77D2EA776CA90D3B1179DE637B20D(__this, (Rect_t35B976DE901B5423C11705E156938EA27AB402CE *)(&___rect0), /*hidden argument*/NULL);
 		return;
@@ -2848,8 +2755,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CanvasRenderer_SetMaterial_mD407C670DBA7
 		il2cpp_codegen_initialize_method (CanvasRenderer_SetMaterial_mD407C670DBA743283F32581586B5DD51272B08C7_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, CanvasRenderer_SetMaterial_mD407C670DBA743283F32581586B5DD51272B08C7_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		int32_t L_0 = CanvasRenderer_get_materialCount_m5C0C1E7CC3DAE4B14E29A36E9890F92C0DACC3F5(__this, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Math_tFB388E53C7FDC6FCCF9A19ABF5A4E521FBD52E19_il2cpp_TypeInfo_var);
@@ -2865,15 +2770,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CanvasRenderer_SetMaterial_mD407C670DBA7
 // UnityEngine.Material UnityEngine.CanvasRenderer::GetMaterial()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Material_tF7DB3BF0C24DEC2FE0CB51E5DF5053D5223C8598 * CanvasRenderer_GetMaterial_m7B757917B67B57B55EEE2E0451935B4B139E06F3 (CanvasRenderer_tB4D9C9FE77FD5C9C4546FC022D6E956960BC2B72 * __this, const RuntimeMethod* method)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (CanvasRenderer_GetMaterial_m7B757917B67B57B55EEE2E0451935B4B139E06F3_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
 	Material_tF7DB3BF0C24DEC2FE0CB51E5DF5053D5223C8598 * V_0 = NULL;
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, CanvasRenderer_GetMaterial_m7B757917B67B57B55EEE2E0451935B4B139E06F3_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		Material_tF7DB3BF0C24DEC2FE0CB51E5DF5053D5223C8598 * L_0 = CanvasRenderer_GetMaterial_m86FB9F04CBD33AD7FC3FCE1B55CB8C79FAEFC7CC(__this, 0, /*hidden argument*/NULL);
 		V_0 = L_0;
@@ -2889,14 +2786,6 @@ IL_000b:
 // System.Void UnityEngine.CanvasRenderer::SplitUIVertexStreams(System.Collections.Generic.List`1<UnityEngine.UIVertex>,System.Collections.Generic.List`1<UnityEngine.Vector3>,System.Collections.Generic.List`1<UnityEngine.Color32>,System.Collections.Generic.List`1<UnityEngine.Vector2>,System.Collections.Generic.List`1<UnityEngine.Vector2>,System.Collections.Generic.List`1<UnityEngine.Vector2>,System.Collections.Generic.List`1<UnityEngine.Vector2>,System.Collections.Generic.List`1<UnityEngine.Vector3>,System.Collections.Generic.List`1<UnityEngine.Vector4>,System.Collections.Generic.List`1<System.Int32>)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CanvasRenderer_SplitUIVertexStreams_m6398634C55BA494F2D2AE13FC3878E698330AB9F (List_1_t4CE16E1B496C9FE941554BB47727DFDD7C3D9554 * ___verts0, List_1_tFCCBEDAA56D8F7598520FB136A9F8D713033D6B5 * ___positions1, List_1_t749ADA5233D9B421293A000DCB83608A24C3D5D5 * ___colors2, List_1_t0737D51EB43DAAA1BDC9C2B83B393A4B9B9BE8EB * ___uv0S3, List_1_t0737D51EB43DAAA1BDC9C2B83B393A4B9B9BE8EB * ___uv1S4, List_1_t0737D51EB43DAAA1BDC9C2B83B393A4B9B9BE8EB * ___uv2S5, List_1_t0737D51EB43DAAA1BDC9C2B83B393A4B9B9BE8EB * ___uv3S6, List_1_tFCCBEDAA56D8F7598520FB136A9F8D713033D6B5 * ___normals7, List_1_tFF4005B40E5BA433006DA11C56DB086B1E2FC955 * ___tangents8, List_1_tE1526161A558A17A39A8B69D8EEF3801393B6226 * ___indices9, const RuntimeMethod* method)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (CanvasRenderer_SplitUIVertexStreams_m6398634C55BA494F2D2AE13FC3878E698330AB9F_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, CanvasRenderer_SplitUIVertexStreams_m6398634C55BA494F2D2AE13FC3878E698330AB9F_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		List_1_t4CE16E1B496C9FE941554BB47727DFDD7C3D9554 * L_0 = ___verts0;
 		List_1_tFCCBEDAA56D8F7598520FB136A9F8D713033D6B5 * L_1 = ___positions1;
@@ -2917,14 +2806,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CanvasRenderer_SplitUIVertexStreams_m639
 // System.Void UnityEngine.CanvasRenderer::CreateUIVertexStream(System.Collections.Generic.List`1<UnityEngine.UIVertex>,System.Collections.Generic.List`1<UnityEngine.Vector3>,System.Collections.Generic.List`1<UnityEngine.Color32>,System.Collections.Generic.List`1<UnityEngine.Vector2>,System.Collections.Generic.List`1<UnityEngine.Vector2>,System.Collections.Generic.List`1<UnityEngine.Vector2>,System.Collections.Generic.List`1<UnityEngine.Vector2>,System.Collections.Generic.List`1<UnityEngine.Vector3>,System.Collections.Generic.List`1<UnityEngine.Vector4>,System.Collections.Generic.List`1<System.Int32>)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CanvasRenderer_CreateUIVertexStream_m1826F08D237884FD9817F2E0251FF0F813A2C1CA (List_1_t4CE16E1B496C9FE941554BB47727DFDD7C3D9554 * ___verts0, List_1_tFCCBEDAA56D8F7598520FB136A9F8D713033D6B5 * ___positions1, List_1_t749ADA5233D9B421293A000DCB83608A24C3D5D5 * ___colors2, List_1_t0737D51EB43DAAA1BDC9C2B83B393A4B9B9BE8EB * ___uv0S3, List_1_t0737D51EB43DAAA1BDC9C2B83B393A4B9B9BE8EB * ___uv1S4, List_1_t0737D51EB43DAAA1BDC9C2B83B393A4B9B9BE8EB * ___uv2S5, List_1_t0737D51EB43DAAA1BDC9C2B83B393A4B9B9BE8EB * ___uv3S6, List_1_tFCCBEDAA56D8F7598520FB136A9F8D713033D6B5 * ___normals7, List_1_tFF4005B40E5BA433006DA11C56DB086B1E2FC955 * ___tangents8, List_1_tE1526161A558A17A39A8B69D8EEF3801393B6226 * ___indices9, const RuntimeMethod* method)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (CanvasRenderer_CreateUIVertexStream_m1826F08D237884FD9817F2E0251FF0F813A2C1CA_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, CanvasRenderer_CreateUIVertexStream_m1826F08D237884FD9817F2E0251FF0F813A2C1CA_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		List_1_t4CE16E1B496C9FE941554BB47727DFDD7C3D9554 * L_0 = ___verts0;
 		List_1_tFCCBEDAA56D8F7598520FB136A9F8D713033D6B5 * L_1 = ___positions1;
@@ -2943,14 +2824,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CanvasRenderer_CreateUIVertexStream_m182
 // System.Void UnityEngine.CanvasRenderer::AddUIVertexStream(System.Collections.Generic.List`1<UnityEngine.UIVertex>,System.Collections.Generic.List`1<UnityEngine.Vector3>,System.Collections.Generic.List`1<UnityEngine.Color32>,System.Collections.Generic.List`1<UnityEngine.Vector2>,System.Collections.Generic.List`1<UnityEngine.Vector2>,System.Collections.Generic.List`1<UnityEngine.Vector2>,System.Collections.Generic.List`1<UnityEngine.Vector2>,System.Collections.Generic.List`1<UnityEngine.Vector3>,System.Collections.Generic.List`1<UnityEngine.Vector4>)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CanvasRenderer_AddUIVertexStream_m58722DF8AED39532C201A0A79A84F10BEC9C7EAB (List_1_t4CE16E1B496C9FE941554BB47727DFDD7C3D9554 * ___verts0, List_1_tFCCBEDAA56D8F7598520FB136A9F8D713033D6B5 * ___positions1, List_1_t749ADA5233D9B421293A000DCB83608A24C3D5D5 * ___colors2, List_1_t0737D51EB43DAAA1BDC9C2B83B393A4B9B9BE8EB * ___uv0S3, List_1_t0737D51EB43DAAA1BDC9C2B83B393A4B9B9BE8EB * ___uv1S4, List_1_t0737D51EB43DAAA1BDC9C2B83B393A4B9B9BE8EB * ___uv2S5, List_1_t0737D51EB43DAAA1BDC9C2B83B393A4B9B9BE8EB * ___uv3S6, List_1_tFCCBEDAA56D8F7598520FB136A9F8D713033D6B5 * ___normals7, List_1_tFF4005B40E5BA433006DA11C56DB086B1E2FC955 * ___tangents8, const RuntimeMethod* method)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (CanvasRenderer_AddUIVertexStream_m58722DF8AED39532C201A0A79A84F10BEC9C7EAB_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, CanvasRenderer_AddUIVertexStream_m58722DF8AED39532C201A0A79A84F10BEC9C7EAB_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		List_1_t4CE16E1B496C9FE941554BB47727DFDD7C3D9554 * L_0 = ___verts0;
 		List_1_tFCCBEDAA56D8F7598520FB136A9F8D713033D6B5 * L_1 = ___positions1;
@@ -3038,8 +2911,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_tA85D2DD88578276CA8A8796756458277E72D
 	}
 	Vector2_tA85D2DD88578276CA8A8796756458277E72D073D  V_0;
 	memset((&V_0), 0, sizeof(V_0));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, RectTransformUtility_PixelAdjustPoint_m9B5E7F4F2EB55A49670316CBE4D8923154054573_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		Transform_tBB9E78A2766C3C83599A8F66EDE7D1FCAFC66EDA * L_0 = ___elementTransform1;
 		Canvas_tBC28BF1DD8D8499A89B5781505833D3728CF8591 * L_1 = ___canvas2;
@@ -3060,8 +2931,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Rect_t35B976DE901B5423C11705E156938EA27AB402C
 	}
 	Rect_t35B976DE901B5423C11705E156938EA27AB402CE  V_0;
 	memset((&V_0), 0, sizeof(V_0));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, RectTransformUtility_PixelAdjustRect_m320399756E1AD411CFECB3E11867806E73A0DE49_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		RectTransform_t285CBD8775B25174B75164F10618F8B9728E1B20 * L_0 = ___rectTransform0;
 		Canvas_tBC28BF1DD8D8499A89B5781505833D3728CF8591 * L_1 = ___canvas1;
@@ -3080,8 +2949,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool RectTransformUtility_PointInRectangle_m3
 		il2cpp_codegen_initialize_method (RectTransformUtility_PointInRectangle_m31A8C0A3CFCC0B584A33C3A3F2692EF09D303CEE_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, RectTransformUtility_PointInRectangle_m31A8C0A3CFCC0B584A33C3A3F2692EF09D303CEE_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		RectTransform_t285CBD8775B25174B75164F10618F8B9728E1B20 * L_0 = ___rect1;
 		Camera_t48B2B9ECB3CE6108A98BF949A1CECF0FE3421F34 * L_1 = ___cam2;
@@ -3100,8 +2967,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool RectTransformUtility_RectangleContainsSc
 		s_Il2CppMethodInitialized = true;
 	}
 	bool V_0 = false;
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, RectTransformUtility_RectangleContainsScreenPoint_mDED32A2F3CD5C623FBA3FFE2C49AEB861D33DE14_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		Vector2_tA85D2DD88578276CA8A8796756458277E72D073D  L_0 = ___screenPoint1;
 		RectTransform_t285CBD8775B25174B75164F10618F8B9728E1B20 * L_1 = ___rect0;
@@ -3134,8 +2999,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool RectTransformUtility_ScreenPointToWorldP
 	float V_2 = 0.0f;
 	bool V_3 = false;
 	bool V_4 = false;
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, RectTransformUtility_ScreenPointToWorldPointInRectangle_m821FF925C5B70477F153B4C053AE9E36A04A774F_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720 * L_0 = ___worldPoint3;
 		IL2CPP_RUNTIME_CLASS_INIT(Vector2_tA85D2DD88578276CA8A8796756458277E72D073D_il2cpp_TypeInfo_var);
@@ -3201,8 +3064,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool RectTransformUtility_ScreenPointToLocalP
 	memset((&V_0), 0, sizeof(V_0));
 	bool V_1 = false;
 	bool V_2 = false;
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, RectTransformUtility_ScreenPointToLocalPointInRectangle_m2C389D4DCBB3CADB51A793702F13DF7CE837E153_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		Vector2_tA85D2DD88578276CA8A8796756458277E72D073D * L_0 = ___localPoint3;
 		IL2CPP_RUNTIME_CLASS_INIT(Vector2_tA85D2DD88578276CA8A8796756458277E72D073D_il2cpp_TypeInfo_var);
@@ -3259,8 +3120,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Ray_tE2163D4CB3E6B267E29F8ABE41684490E4A614B2
 	bool V_1 = false;
 	Ray_tE2163D4CB3E6B267E29F8ABE41684490E4A614B2  V_2;
 	memset((&V_2), 0, sizeof(V_2));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, RectTransformUtility_ScreenPointToRay_mB74CED011944E1E7CE3A24C433B9B660C5BADC73_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		Camera_t48B2B9ECB3CE6108A98BF949A1CECF0FE3421F34 * L_0 = ___cam0;
 		IL2CPP_RUNTIME_CLASS_INIT(Object_tAE11E5E46CD5C37C9F3E8950C00CD8B45666A2D0_il2cpp_TypeInfo_var);
@@ -3321,8 +3180,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_tA85D2DD88578276CA8A8796756458277E72D
 	bool V_0 = false;
 	Vector2_tA85D2DD88578276CA8A8796756458277E72D073D  V_1;
 	memset((&V_1), 0, sizeof(V_1));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, RectTransformUtility_WorldToScreenPoint_m114DFD961456722DED0FFB2F8DCB46A04C2CCA20_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		Camera_t48B2B9ECB3CE6108A98BF949A1CECF0FE3421F34 * L_0 = ___cam0;
 		IL2CPP_RUNTIME_CLASS_INIT(Object_tAE11E5E46CD5C37C9F3E8950C00CD8B45666A2D0_il2cpp_TypeInfo_var);
@@ -3389,8 +3246,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RectTransformUtility_FlipLayoutOnAxis_mF
 	bool V_9 = false;
 	bool V_10 = false;
 	bool V_11 = false;
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, RectTransformUtility_FlipLayoutOnAxis_mFECCA330C80845D0B75829C7DD242688911006AE_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		RectTransform_t285CBD8775B25174B75164F10618F8B9728E1B20 * L_0 = ___rect0;
 		IL2CPP_RUNTIME_CLASS_INIT(Object_tAE11E5E46CD5C37C9F3E8950C00CD8B45666A2D0_il2cpp_TypeInfo_var);
@@ -3423,7 +3278,6 @@ IL_0013:
 
 IL_0020:
 	{
-		CHECK_PAUSE_POINT;
 		RectTransform_t285CBD8775B25174B75164F10618F8B9728E1B20 * L_5 = ___rect0;
 		int32_t L_6 = V_7;
 		NullCheck(L_5);
@@ -3557,8 +3411,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RectTransformUtility_FlipLayoutAxes_mF5D
 	bool V_4 = false;
 	bool V_5 = false;
 	bool V_6 = false;
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, RectTransformUtility_FlipLayoutAxes_mF5D9BF9F0EACBC972A22C937FD21B610410EB956_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		RectTransform_t285CBD8775B25174B75164F10618F8B9728E1B20 * L_0 = ___rect0;
 		IL2CPP_RUNTIME_CLASS_INIT(Object_tAE11E5E46CD5C37C9F3E8950C00CD8B45666A2D0_il2cpp_TypeInfo_var);
@@ -3591,7 +3443,6 @@ IL_0011:
 
 IL_001b:
 	{
-		CHECK_PAUSE_POINT;
 		RectTransform_t285CBD8775B25174B75164F10618F8B9728E1B20 * L_5 = ___rect0;
 		int32_t L_6 = V_2;
 		NullCheck(L_5);
@@ -3698,16 +3549,8 @@ IL_00b7:
 // UnityEngine.Vector2 UnityEngine.RectTransformUtility::GetTransposed(UnityEngine.Vector2)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_tA85D2DD88578276CA8A8796756458277E72D073D  RectTransformUtility_GetTransposed_m405847E48935C6439CFADED4188B6F3BEE55FC14 (Vector2_tA85D2DD88578276CA8A8796756458277E72D073D  ___input0, const RuntimeMethod* method)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (RectTransformUtility_GetTransposed_m405847E48935C6439CFADED4188B6F3BEE55FC14_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
 	Vector2_tA85D2DD88578276CA8A8796756458277E72D073D  V_0;
 	memset((&V_0), 0, sizeof(V_0));
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, RectTransformUtility_GetTransposed_m405847E48935C6439CFADED4188B6F3BEE55FC14_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		Vector2_tA85D2DD88578276CA8A8796756458277E72D073D  L_0 = ___input0;
 		float L_1 = L_0.get_y_1();
@@ -3735,8 +3578,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RectTransformUtility__cctor_m1DCF0D49797
 		il2cpp_codegen_initialize_method (RectTransformUtility__cctor_m1DCF0D49797698D7D4FBF3EF83B5DEC9A5F42851_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
-	DECLARE_METHOD_EXEC_CTX(methodExecutionContext, RectTransformUtility__cctor_m1DCF0D49797698D7D4FBF3EF83B5DEC9A5F42851_RuntimeMethod_var, NULL, NULL, NULL);
-	CHECK_PAUSE_POINT;
 	{
 		Vector3U5BU5D_tB9EC3346CC4A0EA5447D968E84A9AC1F6F372C28* L_0 = (Vector3U5BU5D_tB9EC3346CC4A0EA5447D968E84A9AC1F6F372C28*)(Vector3U5BU5D_tB9EC3346CC4A0EA5447D968E84A9AC1F6F372C28*)SZArrayNew(Vector3U5BU5D_tB9EC3346CC4A0EA5447D968E84A9AC1F6F372C28_il2cpp_TypeInfo_var, (uint32_t)4);
 		((RectTransformUtility_t9B90669A72B05A33DD88BEBB817BC9CDBB614BBA_StaticFields*)il2cpp_codegen_static_fields_for(RectTransformUtility_t9B90669A72B05A33DD88BEBB817BC9CDBB614BBA_il2cpp_TypeInfo_var))->set_s_Corners_0(L_0);
