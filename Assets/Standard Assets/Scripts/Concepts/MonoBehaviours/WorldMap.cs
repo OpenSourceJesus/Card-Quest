@@ -21,6 +21,7 @@ namespace MatchingCardGame
 		public static Zone selectedZone;
 		public IslandsLevelsData islandsLevelsData;
 		public Zone[] zones = new Zone[0];
+		public _Text starsText;
 
 		void OnEnable ()
 		{
@@ -36,7 +37,8 @@ namespace MatchingCardGame
 				return;
 			}
 #endif
-			GameManager.GetSingleton<SaveAndLoadManager>().LoadMostRecent ();
+			// GameManager.GetSingleton<SaveAndLoadManager>().LoadMostRecent ();
+			starsText.text.text = "" + GameManager.Stars;
 			Zone previousZone = zones[0];
 			for (int i = 1; i < zones.Length; i ++)
 			{

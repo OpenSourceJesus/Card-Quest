@@ -5,7 +5,7 @@ using Extensions;
 using System;
 using Random = UnityEngine.Random;
 using System.IO;
-using Utf8Json;
+// using Utf8Json;
 
 namespace MatchingCardGame
 {
@@ -209,12 +209,14 @@ namespace MatchingCardGame
 
 		public static string Serialize (object value, Type type)
 		{
-			return JsonSerializer.NonGeneric.ToJsonString(type, value);
+			return null;
+			// return JsonSerializer.NonGeneric.ToJsonString(type, value);
 		}
 
 		public static object Deserialize (string serializedState, Type type)
 		{
-			return JsonSerializer.NonGeneric.Deserialize(type, serializedState);
+			return null;
+			// return JsonSerializer.NonGeneric.Deserialize(type, serializedState);
 		}
 		
 		public class SaveEntry
