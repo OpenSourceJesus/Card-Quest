@@ -80,7 +80,6 @@ namespace MatchingCardGame
 						LevelSelectMenu.currentZoneIndex = zone.trs.GetSiblingIndex();
 						if (zone.FirstTimeEntering)
 						{
-							print(2);
 							zone.FirstTimeEntering = false;
 							if (!string.IsNullOrEmpty(zone.activateGoNameForeverOnFirstTimeEntered))
 								GameManager.GetSingleton<GameManager>().ActivateGoForever (zone.activateGoNameForeverOnFirstTimeEntered);
