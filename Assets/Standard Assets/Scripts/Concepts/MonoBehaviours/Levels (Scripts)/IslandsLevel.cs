@@ -312,59 +312,72 @@ namespace MatchingCardGame
 			return island;
 		}
 
-		static bool MakeMoves (IslandsLevel islandsLevel, int moveCount = 1)
+		static bool MakeMoves (IslandsLevel islandsLevel, int moveCount = 1, int maxRetries = 50)
 		{
-			int previousMatchCount = islandsLevel.GetMatchCount();
+			int matchCount = islandsLevel.GetMatchCount();
+			int previousMatchCount = matchCount;
 			for (int i = 0; i < moveCount; i ++)
 			{
-				Card cardToMove;
-				List<CardGroup> remainingCardGroups = new List<CardGroup>();
-				remainingCardGroups.AddRange(islandsLevel.cardGroups);
-				int selectedIslandIndex = Random.Range(0, remainingCardGroups.Count);
-				Island selectedIsland = (Island) remainingCardGroups[selectedIslandIndex];
-				remainingCardGroups.RemoveAt(selectedIslandIndex);
-				List<Card> possibleCardsToMove = new List<Card>();
-				possibleCardsToMove.AddRange(selectedIsland.cards);
-				do
+				for (int i2 = 0; i2 < maxRetries; i2 ++)
 				{
-					int indexOfCardToMove = Random.Range(0, possibleCardsToMove.Count);
-					cardToMove = possibleCardsToMove[indexOfCardToMove];
-					possibleCardsToMove.RemoveAt(indexOfCardToMove);
-					if (IsCardNextToSameType(cardToMove))
-						break;
-					else if (possibleCardsToMove.Count == 0)
+					Card cardToMove;
+					List<CardGroup> remainingCardGroups = new List<CardGroup>();
+					remainingCardGroups.AddRange(islandsLevel.cardGroups);
+					int selectedIslandIndex = Random.Range(0, remainingCardGroups.Count);
+					Island selectedIsland = (Island) remainingCardGroups[selectedIslandIndex];
+					remainingCardGroups.RemoveAt(selectedIslandIndex);
+					List<Card> possibleCardsToMove = new List<Card>();
+					possibleCardsToMove.AddRange(selectedIsland.cards);
+					do
 					{
-						if (remainingCardGroups.Count == 0)
-							return false;
-						selectedIslandIndex = Random.Range(0, remainingCardGroups.Count);
-						selectedIsland = (Island) remainingCardGroups[selectedIslandIndex];
-						remainingCardGroups.RemoveAt(selectedIslandIndex);
-						possibleCardsToMove.Clear();
-						possibleCardsToMove.AddRange(selectedIsland.cards);
+						int indexOfCardToMove = Random.Range(0, possibleCardsToMove.Count);
+						cardToMove = possibleCardsToMove[indexOfCardToMove];
+						possibleCardsToMove.RemoveAt(indexOfCardToMove);
+						if (IsCardNextToSameType(cardToMove))
+							break;
+						else if (possibleCardsToMove.Count == 0)
+						{
+							if (remainingCardGroups.Count == 0)
+								return false;
+							selectedIslandIndex = Random.Range(0, remainingCardGroups.Count);
+							selectedIsland = (Island) remainingCardGroups[selectedIslandIndex];
+							remainingCardGroups.RemoveAt(selectedIslandIndex);
+							possibleCardsToMove.Clear();
+							possibleCardsToMove.AddRange(selectedIsland.cards);
+						}
+					} while (true);
+					remainingCardGroups.Clear();
+					remainingCardGroups.AddRange(islandsLevel.cardGroups);
+					remainingCardGroups.Remove(selectedIsland);
+					int highlightedCardIndex = Random.Range(0, remainingCardGroups.Count);
+					Island highlightedIsland = (Island) remainingCardGroups[highlightedCardIndex];
+					List<CardSlot> possibleCardSlotsToMoveTo = new List<CardSlot>();
+					possibleCardSlotsToMoveTo.AddRange(highlightedIsland.cardSlots);
+					foreach (Card card in highlightedIsland.cards)
+						possibleCardSlotsToMoveTo.Remove(card.cardSlotUnderMe);
+					int indexOfCardSlotToMoveTo = Random.Range(0, possibleCardSlotsToMoveTo.Count);
+					CardSlot cardSlotToMoveFrom = cardToMove.cardSlotUnderMe;
+					CardSlot cardSlotToMoveTo = possibleCardSlotsToMoveTo[indexOfCardSlotToMoveTo];
+					islandsLevel.selectedCard = cardToMove;
+					islandsLevel.highlightedCard = cardSlotToMoveTo;
+					islandsLevel.MoveSelectedCardToHighlightedPosition();
+					matchCount = islandsLevel.GetMatchCount();
+					if (matchCount == 0)
+					{
+						islandsLevel.movesRequiredToWin = i + 1;
+						return true;
 					}
-				} while (true);
-				remainingCardGroups.Clear();
-				remainingCardGroups.AddRange(islandsLevel.cardGroups);
-				remainingCardGroups.Remove(selectedIsland);
-				int highlightedCardIndex = Random.Range(0, remainingCardGroups.Count);
-				Island highlightedIsland = (Island) remainingCardGroups[highlightedCardIndex];
-				List<CardSlot> possibleCardSlotsToMoveTo = new List<CardSlot>();
-				possibleCardSlotsToMoveTo.AddRange(highlightedIsland.cardSlots);
-				foreach (Card card in highlightedIsland.cards)
-					possibleCardSlotsToMoveTo.Remove(card.cardSlotUnderMe);
-				int indexOfCardSlotToMoveTo = Random.Range(0, possibleCardSlotsToMoveTo.Count);
-				CardSlot cardSlotToMoveTo = possibleCardSlotsToMoveTo[indexOfCardSlotToMoveTo];
-				islandsLevel.selectedCard = cardToMove;
-				islandsLevel.highlightedCard = cardSlotToMoveTo;
-				islandsLevel.MoveSelectedCardToHighlightedPosition();
-				int matchCount = islandsLevel.GetMatchCount();
-				if (matchCount == 0)
-				{
-					islandsLevel.movesRequiredToWin = i + 1;
-					return true;
+					else if (matchCount >= previousMatchCount)
+					{
+						islandsLevel.selectedCard = cardToMove;
+						islandsLevel.highlightedCard = cardSlotToMoveFrom;
+						islandsLevel.MoveSelectedCardToHighlightedPosition();
+						if (i2 == maxRetries - 1)
+							return false;
+					}
+					else
+						break;
 				}
-				else if (matchCount >= previousMatchCount)
-					return false;
 				previousMatchCount = matchCount;
 			}
 			islandsLevel.movesRequiredToWin = moveCount;

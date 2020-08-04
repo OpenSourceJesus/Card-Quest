@@ -704,7 +704,7 @@ MonoBehaviour:
       width: 3.09518
       height: 3.0850596
     cameraOffset: {x: 0.08, y: 0.14}
-    timePerMove: 6
+    timePerMove: 6.5
   - name: Desert 2
     dimensions: {x: 3, y: 4}
     cardCount: 12
