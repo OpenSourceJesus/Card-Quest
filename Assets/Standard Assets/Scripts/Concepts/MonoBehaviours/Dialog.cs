@@ -18,6 +18,10 @@ namespace DialogAndStory
 			{
 				return gameObject.activeSelf;
 			}
+			set
+			{
+				gameObject.SetActive(value);
+			}
 		}
 		public Canvas canvas;
 		public TMP_Text text;

@@ -52,7 +52,7 @@ MonoBehaviour:
   canvas: {fileID: 0}
   text: {fileID: 4958350346697771529}
   conversation: {fileID: 0}
-  textString: Regan Rat has arrived on Toon island to look for his friend Elise{wait:3}
+  textString: Regan Rat has arrived on Toon island to look for his friend Elise{wait}
   maxCharacters: 99999
   writeSpeed: 15
   waitEvents:
@@ -60,8 +60,8 @@ MonoBehaviour:
     duration: 1
   - indicator: '{wait:2}'
     duration: 2
-  - indicator: '{wait:3}'
-    duration: 3
+  - indicator: '{wait}'
+    duration: Infinity
   customDialogEvents: []
   isFinished: 0
   onStartedEvent:

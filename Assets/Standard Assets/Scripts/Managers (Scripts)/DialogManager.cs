@@ -9,14 +9,14 @@ namespace DialogAndStory
 		public virtual void StartDialog (Dialog dialog)
 		{
 			dialog.onStartedEvent.Do ();
-			dialog.gameObject.SetActive(true);
+			dialog.IsActive = true;
 		}
 		
 		public virtual void EndDialog (Dialog dialog)
 		{
 			if (!dialog.isFinished)
 				dialog.onLeftWhileTalkingEvent.Do ();
-			dialog.gameObject.SetActive(false);
+			dialog.IsActive = false;
 		}
 		
 		public virtual void StartConversation (Conversation conversation)

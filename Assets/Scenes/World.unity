@@ -846,10 +846,10 @@ MonoBehaviour:
     lockGo: {fileID: 992833167}
     lineRenderer: {fileID: 1199103269}
     polygonCollider: {fileID: 1199103267}
-  - activateGoNameForeverOnFirstTimeUnlocked: 
-    deactivateGoNameForeverOnFirstTimeUnlocked: 
+  - activateGoNameForeverOnFirstTimeUnlocked: Cutscene 3
+    deactivateGoNameForeverOnFirstTimeUnlocked: Cutscene 2
     activateGoNameForeverOnFirstTimeEntered: 
-    deactivateGoNameForeverOnFirstTimeEntered: 
+    deactivateGoNameForeverOnFirstTimeEntered: Cutscene 3
     trs: {fileID: 309726448}
     lockGo: {fileID: 396269001}
     lineRenderer: {fileID: 309726449}

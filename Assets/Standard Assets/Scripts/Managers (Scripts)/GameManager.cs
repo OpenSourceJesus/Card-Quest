@@ -200,13 +200,11 @@ namespace MatchingCardGame
 			AccountManager.lastUsedAccountIndex = 0;
 			if (SceneManager.GetActiveScene().name == "Init")
 				LoadGameScenes ();
-			// else if (GetSingleton<CameraScript>() != null)
-				StartCoroutine(OnGameSceneLoadedRoutine ());
+			StartCoroutine(OnGameSceneLoadedRoutine ());
 		}
 
 		void Init ()
 		{
-			// GetSingleton<Player>().OnMove ();
 			initialized = true;
 		}
 		
@@ -428,9 +426,6 @@ namespace MatchingCardGame
 				GetSingleton<GameManager>().SetGosActive ();
 				return;
 			}
-			print(SceneManager.GetActiveScene().name);
-			print("Enabled = " + GameManager.EnabledGosString);
-			print("Disabled = " + GameManager.DisabledGosString);
 			string[] stringSeperators = { STRING_SEPERATOR };
 			if (EnabledGosString == null)
 				EnabledGosString = "";
