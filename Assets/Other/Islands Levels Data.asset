@@ -117,6 +117,21 @@ MonoBehaviour:
       timePerMove: 0
     starsRequiredToUnlockMe: 80
     levelCount: 25
+  - firstLevelEntry:
+      name: Ending
+      dimensions: {x: 0, y: 0}
+      cardCount: 0
+      cardTypeCount: 0
+      islandCount: 0
+      moveCount: 0
+      cardModifierEntries: []
+      backgroundSprite: {fileID: 0}
+      islandOrientationColliders: []
+      islandRects: []
+      cameraOffset: {x: 0, y: 0}
+      timePerMove: 0
+    starsRequiredToUnlockMe: 120
+    levelCount: 0
   islandsLevelEntries:
   - name: Beach 1
     dimensions: {x: 2, y: 3}
