@@ -195,6 +195,7 @@ namespace MatchingCardGame
 			currentLevelEntry = islandsLevelsData.islandsLevelEntries[levelIndex];
 			backgroundImage.sprite = currentLevelEntry.backgroundSprite;
 			backgroundImage.enabled = true;
+			moveCount = 0;
 			movesText.text.text = "0 / " + currentLevel.movesRequiredToWin;
 			levelNameText.text.text = currentLevel.name;
 			foreach (CardGroup cardGroup in currentLevel.cardGroups)
@@ -205,6 +206,7 @@ namespace MatchingCardGame
 				foreach (Card card in island.cards)
 					card.collider.isTrigger = false;
 			}
+			indexOfNextStarToLose = 0;
 			foreach (GameObject starIconGo in statusMenuStarIconGos)
 				starIconGo.SetActive(true);
 			foreach (GameObject starIconGo in nextLevelScreenStarIconGos)
