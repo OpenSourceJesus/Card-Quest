@@ -726,7 +726,7 @@ MonoBehaviour:
       width: 3.09518
       height: 3.0850596
     cameraOffset: {x: 0.08, y: 0.14}
-    timePerMove: 0
+    timePerMove: 6.4
   - name: Desert 3
     dimensions: {x: 3, y: 4}
     cardCount: 12
@@ -748,7 +748,7 @@ MonoBehaviour:
       width: 3.09518
       height: 3.0850596
     cameraOffset: {x: 0.08, y: 0.14}
-    timePerMove: 0
+    timePerMove: 6.3
   - name: Desert 4
     dimensions: {x: 3, y: 4}
     cardCount: 12
@@ -770,7 +770,7 @@ MonoBehaviour:
       width: 3.09518
       height: 3.0850596
     cameraOffset: {x: 0.08, y: 0.14}
-    timePerMove: 0
+    timePerMove: 6.2
   - name: Desert 5
     dimensions: {x: 3, y: 4}
     cardCount: 12
@@ -792,7 +792,7 @@ MonoBehaviour:
       width: 3.09518
       height: 3.0850596
     cameraOffset: {x: 0.08, y: 0.14}
-    timePerMove: 0
+    timePerMove: 6.1
   - name: Desert 6
     dimensions: {x: 3, y: 4}
     cardCount: 12
@@ -814,7 +814,7 @@ MonoBehaviour:
       width: 3.09518
       height: 3.0850596
     cameraOffset: {x: 0.08, y: 0.14}
-    timePerMove: 0
+    timePerMove: 6
   - name: Desert 7
     dimensions: {x: 3, y: 4}
     cardCount: 12
@@ -836,7 +836,7 @@ MonoBehaviour:
       width: 3.09518
       height: 3.0850596
     cameraOffset: {x: 0.08, y: 0.14}
-    timePerMove: 0
+    timePerMove: 5.9
   - name: Desert 8
     dimensions: {x: 3, y: 4}
     cardCount: 12
@@ -858,7 +858,7 @@ MonoBehaviour:
       width: 3.09518
       height: 3.0850596
     cameraOffset: {x: 0.08, y: 0.14}
-    timePerMove: 0
+    timePerMove: 5.8
   - name: Desert 9
     dimensions: {x: 3, y: 4}
     cardCount: 12
@@ -880,7 +880,7 @@ MonoBehaviour:
       width: 3.09518
       height: 3.0850596
     cameraOffset: {x: 0.08, y: 0.14}
-    timePerMove: 0
+    timePerMove: 5.7
   - name: Desert 10
     dimensions: {x: 3, y: 4}
     cardCount: 12
@@ -902,7 +902,7 @@ MonoBehaviour:
       width: 3.09518
       height: 3.0850596
     cameraOffset: {x: 0.08, y: 0.14}
-    timePerMove: 0
+    timePerMove: 5.6
   - name: Desert 11
     dimensions: {x: 3, y: 4}
     cardCount: 12
@@ -924,7 +924,7 @@ MonoBehaviour:
       width: 3.09518
       height: 3.0850596
     cameraOffset: {x: 0.08, y: 0.14}
-    timePerMove: 0
+    timePerMove: 5.5
   - name: Desert 12
     dimensions: {x: 3, y: 4}
     cardCount: 12
@@ -946,7 +946,7 @@ MonoBehaviour:
       width: 3.09518
       height: 3.0850596
     cameraOffset: {x: 0.08, y: 0.14}
-    timePerMove: 0
+    timePerMove: 5.4
   - name: Desert 13
     dimensions: {x: 3, y: 4}
     cardCount: 12
@@ -968,7 +968,7 @@ MonoBehaviour:
       width: 3.09518
       height: 3.0850596
     cameraOffset: {x: 0.08, y: 0.14}
-    timePerMove: 0
+    timePerMove: 5.3
   - name: Desert 14
     dimensions: {x: 3, y: 4}
     cardCount: 12
@@ -990,7 +990,7 @@ MonoBehaviour:
       width: 3.09518
       height: 3.0850596
     cameraOffset: {x: 0.08, y: 0.14}
-    timePerMove: 0
+    timePerMove: 5.2
   - name: Desert 15
     dimensions: {x: 3, y: 4}
     cardCount: 12
@@ -1012,7 +1012,7 @@ MonoBehaviour:
       width: 3.09518
       height: 3.0850596
     cameraOffset: {x: 0.08, y: 0.14}
-    timePerMove: 0
+    timePerMove: 5.1
   - name: Desert 16
     dimensions: {x: 3, y: 4}
     cardCount: 12
@@ -1034,7 +1034,7 @@ MonoBehaviour:
       width: 3.09518
       height: 3.0850596
     cameraOffset: {x: 0.08, y: 0.14}
-    timePerMove: 0
+    timePerMove: 5
   - name: Desert 17
     dimensions: {x: 3, y: 4}
     cardCount: 12
@@ -1056,7 +1056,7 @@ MonoBehaviour:
       width: 3.09518
       height: 3.0850596
     cameraOffset: {x: 0.08, y: 0.14}
-    timePerMove: 0
+    timePerMove: 4.9
   - name: Desert 18
     dimensions: {x: 3, y: 4}
     cardCount: 12
@@ -1078,7 +1078,7 @@ MonoBehaviour:
       width: 3.09518
       height: 3.0850596
     cameraOffset: {x: 0.08, y: 0.14}
-    timePerMove: 0
+    timePerMove: 4.8
   - name: Desert 19
     dimensions: {x: 3, y: 4}
     cardCount: 12
@@ -1100,7 +1100,7 @@ MonoBehaviour:
       width: 3.09518
       height: 3.0850596
     cameraOffset: {x: 0.08, y: 0.14}
-    timePerMove: 0
+    timePerMove: 4.7
   - name: Desert 20
     dimensions: {x: 3, y: 4}
     cardCount: 12
@@ -1122,7 +1122,7 @@ MonoBehaviour:
       width: 3.09518
       height: 3.0850596
     cameraOffset: {x: 0.08, y: 0.14}
-    timePerMove: 0
+    timePerMove: 4.6
   - name: Fortress 1
     dimensions: {x: 3, y: 5}
     cardCount: 16
@@ -1144,7 +1144,7 @@ MonoBehaviour:
       width: 2.9258509
       height: 2.9321165
     cameraOffset: {x: 0, y: 0}
-    timePerMove: 0
+    timePerMove: 7.5
   - name: Fortress 2
     dimensions: {x: 3, y: 5}
     cardCount: 16
@@ -1166,7 +1166,7 @@ MonoBehaviour:
       width: 2.9258509
       height: 2.9321165
     cameraOffset: {x: 0, y: 0}
-    timePerMove: 0
+    timePerMove: 7.4
   - name: Fortress 3
     dimensions: {x: 3, y: 5}
     cardCount: 16
@@ -1188,7 +1188,7 @@ MonoBehaviour:
       width: 2.9258509
       height: 2.9321165
     cameraOffset: {x: 0, y: 0}
-    timePerMove: 0
+    timePerMove: 7.3
   - name: Fortress 4
     dimensions: {x: 3, y: 5}
     cardCount: 16
@@ -1210,7 +1210,7 @@ MonoBehaviour:
       width: 2.9258509
       height: 2.9321165
     cameraOffset: {x: 0, y: 0}
-    timePerMove: 0
+    timePerMove: 7.2
   - name: Fortress 5
     dimensions: {x: 3, y: 5}
     cardCount: 16
@@ -1232,7 +1232,7 @@ MonoBehaviour:
       width: 2.9258509
       height: 2.9321165
     cameraOffset: {x: 0, y: 0}
-    timePerMove: 0
+    timePerMove: 7.1
   - name: Fortress 6
     dimensions: {x: 3, y: 5}
     cardCount: 16
@@ -1254,7 +1254,7 @@ MonoBehaviour:
       width: 2.9258509
       height: 2.9321165
     cameraOffset: {x: 0, y: 0}
-    timePerMove: 0
+    timePerMove: 7
   - name: Fortress 7
     dimensions: {x: 3, y: 5}
     cardCount: 16
@@ -1276,7 +1276,7 @@ MonoBehaviour:
       width: 2.9258509
       height: 2.9321165
     cameraOffset: {x: 0, y: 0}
-    timePerMove: 0
+    timePerMove: 6.9
   - name: Fortress 8
     dimensions: {x: 3, y: 5}
     cardCount: 16
@@ -1298,7 +1298,7 @@ MonoBehaviour:
       width: 2.9258509
       height: 2.9321165
     cameraOffset: {x: 0, y: 0}
-    timePerMove: 0
+    timePerMove: 6.8
   - name: Fortress 9
     dimensions: {x: 3, y: 5}
     cardCount: 16
@@ -1320,7 +1320,7 @@ MonoBehaviour:
       width: 2.9258509
       height: 2.9321165
     cameraOffset: {x: 0, y: 0}
-    timePerMove: 0
+    timePerMove: 6.7
   - name: Fortress 10
     dimensions: {x: 3, y: 5}
     cardCount: 16
@@ -1342,7 +1342,7 @@ MonoBehaviour:
       width: 2.9258509
       height: 2.9321165
     cameraOffset: {x: 0, y: 0}
-    timePerMove: 0
+    timePerMove: 6.6
   - name: Fortress 11
     dimensions: {x: 3, y: 5}
     cardCount: 16
@@ -1364,7 +1364,7 @@ MonoBehaviour:
       width: 2.9258509
       height: 2.9321165
     cameraOffset: {x: 0, y: 0}
-    timePerMove: 0
+    timePerMove: 6.5
   - name: Fortress 12
     dimensions: {x: 3, y: 5}
     cardCount: 16
@@ -1386,7 +1386,7 @@ MonoBehaviour:
       width: 2.9258509
       height: 2.9321165
     cameraOffset: {x: 0, y: 0}
-    timePerMove: 0
+    timePerMove: 6.4
   - name: Fortress 13
     dimensions: {x: 3, y: 5}
     cardCount: 16
@@ -1408,7 +1408,7 @@ MonoBehaviour:
       width: 2.9258509
       height: 2.9321165
     cameraOffset: {x: 0, y: 0}
-    timePerMove: 0
+    timePerMove: 6.3
   - name: Fortress 14
     dimensions: {x: 3, y: 5}
     cardCount: 16
@@ -1430,7 +1430,7 @@ MonoBehaviour:
       width: 2.9258509
       height: 2.9321165
     cameraOffset: {x: 0, y: 0}
-    timePerMove: 0
+    timePerMove: 6.2
   - name: Fortress 15
     dimensions: {x: 3, y: 5}
     cardCount: 16
@@ -1452,7 +1452,7 @@ MonoBehaviour:
       width: 2.9258509
       height: 2.9321165
     cameraOffset: {x: 0, y: 0}
-    timePerMove: 0
+    timePerMove: 6.1
   - name: Fortress 16
     dimensions: {x: 3, y: 5}
     cardCount: 16
@@ -1474,7 +1474,7 @@ MonoBehaviour:
       width: 2.9258509
       height: 2.9321165
     cameraOffset: {x: 0, y: 0}
-    timePerMove: 0
+    timePerMove: 6
   - name: Fortress 17
     dimensions: {x: 3, y: 5}
     cardCount: 16
@@ -1496,7 +1496,7 @@ MonoBehaviour:
       width: 2.9258509
       height: 2.9321165
     cameraOffset: {x: 0, y: 0}
-    timePerMove: 0
+    timePerMove: 5.9
   - name: Fortress 18
     dimensions: {x: 3, y: 5}
     cardCount: 16
@@ -1518,7 +1518,7 @@ MonoBehaviour:
       width: 2.9258509
       height: 2.9321165
     cameraOffset: {x: 0, y: 0}
-    timePerMove: 0
+    timePerMove: 5.8
   - name: Fortress 19
     dimensions: {x: 3, y: 5}
     cardCount: 16
@@ -1540,7 +1540,7 @@ MonoBehaviour:
       width: 2.9258509
       height: 2.9321165
     cameraOffset: {x: 0, y: 0}
-    timePerMove: 0
+    timePerMove: 5.7
   - name: Fortress 20
     dimensions: {x: 3, y: 5}
     cardCount: 16
@@ -1562,7 +1562,7 @@ MonoBehaviour:
       width: 2.9258509
       height: 2.9321165
     cameraOffset: {x: 0, y: 0}
-    timePerMove: 0
+    timePerMove: 5.6
   - name: Fortress 21
     dimensions: {x: 3, y: 5}
     cardCount: 16
@@ -1584,7 +1584,7 @@ MonoBehaviour:
       width: 2.9258509
       height: 2.9321165
     cameraOffset: {x: 0, y: 0}
-    timePerMove: 0
+    timePerMove: 5.5
   - name: Fortress 22
     dimensions: {x: 3, y: 5}
     cardCount: 16
@@ -1606,7 +1606,7 @@ MonoBehaviour:
       width: 2.9258509
       height: 2.9321165
     cameraOffset: {x: 0, y: 0}
-    timePerMove: 0
+    timePerMove: 5.4
   - name: Fortress 23
     dimensions: {x: 3, y: 5}
     cardCount: 16
@@ -1628,7 +1628,7 @@ MonoBehaviour:
       width: 2.9258509
       height: 2.9321165
     cameraOffset: {x: 0, y: 0}
-    timePerMove: 0
+    timePerMove: 5.3
   - name: Fortress 24
     dimensions: {x: 3, y: 5}
     cardCount: 16
@@ -1650,7 +1650,7 @@ MonoBehaviour:
       width: 2.9258509
       height: 2.9321165
     cameraOffset: {x: 0, y: 0}
-    timePerMove: 0
+    timePerMove: 5.2
   - name: Fortress 25
     dimensions: {x: 3, y: 5}
     cardCount: 16
@@ -1672,4 +1672,4 @@ MonoBehaviour:
       width: 2.9258509
       height: 2.9321165
     cameraOffset: {x: 0, y: 0}
-    timePerMove: 0
+    timePerMove: 5.1
