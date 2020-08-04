@@ -89,7 +89,7 @@ MonoBehaviour:
         height: 3.0850596
       cameraOffset: {x: 0.08, y: 0.14}
       timePerMove: 0
-    starsRequiredToUnlockMe: 50
+    starsRequiredToUnlockMe: 45
     levelCount: 20
   - firstLevelEntry:
       name: Fortress
@@ -115,7 +115,7 @@ MonoBehaviour:
         height: 2.9321165
       cameraOffset: {x: 0, y: 0}
       timePerMove: 0
-    starsRequiredToUnlockMe: 90
+    starsRequiredToUnlockMe: 80
     levelCount: 25
   islandsLevelEntries:
   - name: Beach 1

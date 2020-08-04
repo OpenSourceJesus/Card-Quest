@@ -89,6 +89,28 @@ namespace MatchingCardGame
 		// public static string enabledGosString = "";
 		// [SaveAndLoadValue(false)]
 		// public static string disabledGosString = "";
+		public static string EnabledGosString
+		{
+			get
+			{
+				return PlayerPrefs.GetString("Enabled gos", "");
+			}
+			set
+			{
+				PlayerPrefs.SetString("Enabled gos", value);
+			}
+		}
+		public static string DisabledGosString
+		{
+			get
+			{
+				return PlayerPrefs.GetString("Disabled gos", "");
+			}
+			set
+			{
+				PlayerPrefs.SetString("Disabled gos", value);
+			}
+		}
 		public const string STRING_SEPERATOR = "|";
 		public const char UNIQUE_ID_SEPERATOR = ',';
 		public const int LAG_FRAMES_AFTER_LOAD_SCENE = 2;
@@ -178,7 +200,7 @@ namespace MatchingCardGame
 			AccountManager.lastUsedAccountIndex = 0;
 			if (SceneManager.GetActiveScene().name == "Init")
 				LoadGameScenes ();
-			else if (GetSingleton<CameraScript>() != null)
+			// else if (GetSingleton<CameraScript>() != null)
 				StartCoroutine(OnGameSceneLoadedRoutine ());
 		}
 
@@ -228,6 +250,7 @@ namespace MatchingCardGame
 				foreach (IUpdatable updatable in updatables)
 					updatable.DoUpdate ();
 				Physics2D.Simulate(Time.deltaTime);
+				GetSingleton<CameraScript>().DoUpdate ();
 				// GetSingleton<ObjectPool>().DoUpdate ();
 				// GetSingleton<GameCamera>().DoUpdate ();
 				// acceleration = InputManager.Acceleration;
@@ -269,6 +292,7 @@ namespace MatchingCardGame
 			else
 				GetSingleton<SaveAndLoadManager>().LoadMostRecent ();
 			// GetSingleton<AdsManager>().ShowAd ();
+			SetGosActive ();
 			Init ();
 			yield break;
 		}
@@ -399,35 +423,39 @@ namespace MatchingCardGame
 
 		public virtual void SetGosActive ()
 		{
-			// if (GetSingleton<GameManager>() != this)
-			// {
-			// 	GetSingleton<GameManager>().SetGosActive ();
-			// 	return;
-			// }
-			// string[] stringSeperators = { STRING_SEPERATOR };
-			// if (enabledGosString == null)
-			// 	enabledGosString = "";
-			// string[] enabledGos = enabledGosString.Split(stringSeperators, StringSplitOptions.None);
-			// foreach (string goName in enabledGos)
-			// {
-			// 	for (int i = 0; i < registeredGos.Length; i ++)
-			// 	{
-			// 		if (goName == registeredGos[i].name)
-			// 		{
-			// 			registeredGos[i].SetActive(true);
-			// 			break;
-			// 		}
-			// 	}
-			// }
-			// if (disabledGosString == null)
-			// 	disabledGosString = "";
-			// string[] disabledGos = disabledGosString.Split(stringSeperators, StringSplitOptions.None);
-			// foreach (string goName in disabledGos)
-			// {
-			// 	GameObject go = GameObject.Find(goName);
-			// 	if (go != null)
-			// 		go.SetActive(false);
-			// }
+			if (GetSingleton<GameManager>() != this)
+			{
+				GetSingleton<GameManager>().SetGosActive ();
+				return;
+			}
+			print(SceneManager.GetActiveScene().name);
+			print("Enabled = " + GameManager.EnabledGosString);
+			print("Disabled = " + GameManager.DisabledGosString);
+			string[] stringSeperators = { STRING_SEPERATOR };
+			if (EnabledGosString == null)
+				EnabledGosString = "";
+			string[] enabledGos = EnabledGosString.Split(stringSeperators, StringSplitOptions.None);
+			foreach (string goName in enabledGos)
+			{
+				for (int i = 0; i < registeredGos.Length; i ++)
+				{
+					GameObject registeredGo = registeredGos[i];
+					if (goName == registeredGo.name)
+					{
+						registeredGo.SetActive(true);
+						break;
+					}
+				}
+			}
+			if (DisabledGosString == null)
+				DisabledGosString = "";
+			string[] disabledGos = DisabledGosString.Split(stringSeperators, StringSplitOptions.None);
+			foreach (string goName in disabledGos)
+			{
+				GameObject go = GameObject.Find(goName);
+				if (go != null)
+					go.SetActive(false);
+			}
 		}
 		
 		public virtual void ActivateGoForever (GameObject go)
@@ -444,16 +472,16 @@ namespace MatchingCardGame
 		
 		public virtual void ActivateGoForever (string goName)
 		{
-			// disabledGosString = disabledGosString.Replace(STRING_SEPERATOR + goName, "");
-			// if (!enabledGosString.Contains(goName))
-			// 	enabledGosString += STRING_SEPERATOR + goName;
+			DisabledGosString = DisabledGosString.Replace(STRING_SEPERATOR + goName, "");
+			if (!EnabledGosString.Contains(goName))
+				EnabledGosString += STRING_SEPERATOR + goName;
 		}
 		
 		public virtual void DeactivateGoForever (string goName)
 		{
-			// enabledGosString = enabledGosString.Replace(STRING_SEPERATOR + goName, "");
-			// if (!disabledGosString.Contains(goName))
-			// 	disabledGosString += STRING_SEPERATOR + goName;
+			EnabledGosString = EnabledGosString.Replace(STRING_SEPERATOR + goName, "");
+			if (!DisabledGosString.Contains(goName))
+				DisabledGosString += STRING_SEPERATOR + goName;
 		}
 
 		public virtual void SetGameObjectActive (string name)

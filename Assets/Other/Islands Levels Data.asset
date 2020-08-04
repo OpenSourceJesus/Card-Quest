@@ -89,7 +89,7 @@ MonoBehaviour:
         height: 3.0850596
       cameraOffset: {x: 0.08, y: 0.14}
       timePerMove: 0
-    starsRequiredToUnlockMe: 50
+    starsRequiredToUnlockMe: 45
     levelCount: 20
   - firstLevelEntry:
       name: Fortress
@@ -115,7 +115,7 @@ MonoBehaviour:
         height: 2.9321165
       cameraOffset: {x: 0, y: 0}
       timePerMove: 0
-    starsRequiredToUnlockMe: 90
+    starsRequiredToUnlockMe: 80
     levelCount: 25
   islandsLevelEntries:
   - name: Beach 1
@@ -359,7 +359,7 @@ MonoBehaviour:
       width: 2.8464773
       height: 2.8422806
     cameraOffset: {x: 0.01, y: 0.35}
-    timePerMove: 5.2
+    timePerMove: 5.7
   - name: Urban 2
     dimensions: {x: 3, y: 3}
     cardCount: 6
@@ -381,7 +381,7 @@ MonoBehaviour:
       width: 2.8464773
       height: 2.8422806
     cameraOffset: {x: 0.01, y: 0.35}
-    timePerMove: 5.1
+    timePerMove: 5.5
   - name: Urban 3
     dimensions: {x: 3, y: 3}
     cardCount: 6
@@ -403,7 +403,7 @@ MonoBehaviour:
       width: 2.8464773
       height: 2.8422806
     cameraOffset: {x: 0.01, y: 0.35}
-    timePerMove: 5
+    timePerMove: 5.3
   - name: Urban 4
     dimensions: {x: 3, y: 3}
     cardCount: 6
@@ -425,7 +425,7 @@ MonoBehaviour:
       width: 2.8464773
       height: 2.8422806
     cameraOffset: {x: 0.01, y: 0.35}
-    timePerMove: 4.7
+    timePerMove: 5.1
   - name: Urban 5
     dimensions: {x: 3, y: 3}
     cardCount: 6
@@ -447,7 +447,7 @@ MonoBehaviour:
       width: 2.8464773
       height: 2.8422806
     cameraOffset: {x: 0.01, y: 0.35}
-    timePerMove: 4.5
+    timePerMove: 4.9
   - name: Urban 6
     dimensions: {x: 3, y: 3}
     cardCount: 6
@@ -469,7 +469,7 @@ MonoBehaviour:
       width: 2.8464773
       height: 2.8422806
     cameraOffset: {x: 0.01, y: 0.35}
-    timePerMove: 4.3
+    timePerMove: 4.7
   - name: Urban 7
     dimensions: {x: 3, y: 3}
     cardCount: 6
@@ -491,7 +491,7 @@ MonoBehaviour:
       width: 2.8464773
       height: 2.8422806
     cameraOffset: {x: 0.01, y: 0.35}
-    timePerMove: 4.1
+    timePerMove: 4.5
   - name: Urban 8
     dimensions: {x: 3, y: 3}
     cardCount: 6
@@ -513,7 +513,7 @@ MonoBehaviour:
       width: 2.8464773
       height: 2.8422806
     cameraOffset: {x: 0.01, y: 0.35}
-    timePerMove: 3.9
+    timePerMove: 4.3
   - name: Urban 9
     dimensions: {x: 3, y: 3}
     cardCount: 6
@@ -535,7 +535,7 @@ MonoBehaviour:
       width: 2.8464773
       height: 2.8422806
     cameraOffset: {x: 0.01, y: 0.35}
-    timePerMove: 3.7
+    timePerMove: 4.1
   - name: Urban 10
     dimensions: {x: 3, y: 3}
     cardCount: 6
@@ -557,7 +557,7 @@ MonoBehaviour:
       width: 2.8464773
       height: 2.8422806
     cameraOffset: {x: 0.01, y: 0.35}
-    timePerMove: 3.5
+    timePerMove: 3.9
   - name: Urban 11
     dimensions: {x: 3, y: 3}
     cardCount: 6
@@ -579,7 +579,7 @@ MonoBehaviour:
       width: 2.8464773
       height: 2.8422806
     cameraOffset: {x: 0.01, y: 0.35}
-    timePerMove: 3.3
+    timePerMove: 3.7
   - name: Urban 12
     dimensions: {x: 3, y: 3}
     cardCount: 6
@@ -601,7 +601,7 @@ MonoBehaviour:
       width: 2.8464773
       height: 2.8422806
     cameraOffset: {x: 0.01, y: 0.35}
-    timePerMove: 3.1
+    timePerMove: 3.5
   - name: Urban 13
     dimensions: {x: 3, y: 3}
     cardCount: 6
@@ -623,7 +623,7 @@ MonoBehaviour:
       width: 2.8464773
       height: 2.8422806
     cameraOffset: {x: 0.01, y: 0.35}
-    timePerMove: 2.9
+    timePerMove: 3.3
   - name: Urban 14
     dimensions: {x: 3, y: 3}
     cardCount: 6
@@ -645,7 +645,7 @@ MonoBehaviour:
       width: 2.8464773
       height: 2.8422806
     cameraOffset: {x: 0.01, y: 0.35}
-    timePerMove: 2.7
+    timePerMove: 3.1
   - name: Urban 15
     dimensions: {x: 3, y: 3}
     cardCount: 6
@@ -667,7 +667,7 @@ MonoBehaviour:
       width: 2.8464773
       height: 2.8422806
     cameraOffset: {x: 0.01, y: 0.35}
-    timePerMove: 2.5
+    timePerMove: 2.9
   - name: Desert 1
     dimensions: {x: 3, y: 4}
     cardCount: 12
@@ -689,7 +689,7 @@ MonoBehaviour:
       width: 3.09518
       height: 3.0850596
     cameraOffset: {x: 0.08, y: 0.14}
-    timePerMove: 0
+    timePerMove: 6
   - name: Desert 2
     dimensions: {x: 3, y: 4}
     cardCount: 12

@@ -838,19 +838,35 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   islandsLevelsData: {fileID: 11400000, guid: 31290e9d5b7379a41a60022024dbd6ff, type: 2}
   zones:
-  - trs: {fileID: 1199103268}
+  - activateGoNameForeverOnFirstTimeUnlocked: Cutscene 1
+    deactivateGoNameForeverOnFirstTimeUnlocked: 
+    activateGoNameForeverOnFirstTimeEntered: Cutscene 2
+    deactivateGoNameForeverOnFirstTimeEntered: Cutscene 1
+    trs: {fileID: 1199103268}
     lockGo: {fileID: 992833167}
     lineRenderer: {fileID: 1199103269}
     polygonCollider: {fileID: 1199103267}
-  - trs: {fileID: 309726448}
+  - activateGoNameForeverOnFirstTimeUnlocked: 
+    deactivateGoNameForeverOnFirstTimeUnlocked: 
+    activateGoNameForeverOnFirstTimeEntered: 
+    deactivateGoNameForeverOnFirstTimeEntered: 
+    trs: {fileID: 309726448}
     lockGo: {fileID: 396269001}
     lineRenderer: {fileID: 309726449}
     polygonCollider: {fileID: 309726451}
-  - trs: {fileID: 615116470}
+  - activateGoNameForeverOnFirstTimeUnlocked: 
+    deactivateGoNameForeverOnFirstTimeUnlocked: 
+    activateGoNameForeverOnFirstTimeEntered: 
+    deactivateGoNameForeverOnFirstTimeEntered: 
+    trs: {fileID: 615116470}
     lockGo: {fileID: 1123224145}
     lineRenderer: {fileID: 615116468}
     polygonCollider: {fileID: 615116469}
-  - trs: {fileID: 1246716862}
+  - activateGoNameForeverOnFirstTimeUnlocked: 
+    deactivateGoNameForeverOnFirstTimeUnlocked: 
+    activateGoNameForeverOnFirstTimeEntered: 
+    deactivateGoNameForeverOnFirstTimeEntered: 
+    trs: {fileID: 1246716862}
     lockGo: {fileID: 911478976}
     lineRenderer: {fileID: 1246716860}
     polygonCollider: {fileID: 1246716861}
@@ -2629,7 +2645,7 @@ PrefabInstance:
     - target: {fileID: 4089637062285174814, guid: dd6e4d10ebe3523469812c42dc0d92bf,
         type: 3}
       propertyPath: m_text
-      value: 90
+      value: 80
       objectReference: {fileID: 0}
     - target: {fileID: 4089637062285174814, guid: dd6e4d10ebe3523469812c42dc0d92bf,
         type: 3}
@@ -2809,7 +2825,7 @@ PrefabInstance:
     - target: {fileID: 4089637062285174814, guid: dd6e4d10ebe3523469812c42dc0d92bf,
         type: 3}
       propertyPath: m_text
-      value: 50
+      value: 45
       objectReference: {fileID: 0}
     - target: {fileID: 4089637062285174814, guid: dd6e4d10ebe3523469812c42dc0d92bf,
         type: 3}
@@ -3127,10 +3143,10 @@ Camera:
   m_FocalLength: 50
   m_NormalizedViewPortRect:
     serializedVersion: 2
-    x: -1.757649
-    y: 0.38926533
-    width: 4.515298
-    height: 0.22146933
+    x: -3.1283524
+    y: 0.43109822
+    width: 7.256705
+    height: 0.13780358
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60

@@ -145,7 +145,7 @@ namespace MatchingCardGame
 
 		public virtual void OnLoaded ()
 		{
-			GameManager.GetSingleton<GameManager>().SetGosActive ();
+			// GameManager.GetSingleton<GameManager>().SetGosActive ();
 			// GameManager.GetSingleton<AudioManager>().Awake ();
 			// GameManager.GetSingleton<Player>().trs.position = GameManager.GetSingleton<Player>().SpawnPosition;
 			// GameManager.GetSingleton<GameCamera>().Awake ();

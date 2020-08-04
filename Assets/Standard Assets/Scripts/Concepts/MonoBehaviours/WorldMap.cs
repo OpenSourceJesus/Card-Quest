@@ -39,13 +39,24 @@ namespace MatchingCardGame
 #endif
 			// GameManager.GetSingleton<SaveAndLoadManager>().LoadMostRecent ();
 			starsText.text.text = "" + GameManager.Stars;
-			Zone previousZone = zones[0];
-			for (int i = 1; i < zones.Length; i ++)
+			for (int i = 0; i < zones.Length; i ++)
 			{
 				Zone zone = zones[i];
 				if (GameManager.Stars >= islandsLevelsData.levelZones[i].starsRequiredToUnlockMe)
+				{
+					if (zone.FirstTimeUnlocking)
+					{
+						zone.FirstTimeUnlocking = false;
+						if (!string.IsNullOrEmpty(zone.activateGoNameForeverOnFirstTimeUnlocked))
+							GameManager.GetSingleton<GameManager>().ActivateGoForever (zone.activateGoNameForeverOnFirstTimeUnlocked);
+						if (!string.IsNullOrEmpty(zone.deactivateGoNameForeverOnFirstTimeUnlocked))
+							GameManager.GetSingleton<GameManager>().DeactivateGoForever (zone.deactivateGoNameForeverOnFirstTimeUnlocked);
+						// GameManager.GetSingleton<SaveAndLoadManager>().Save ();
+						GameManager.GetSingleton<GameManager>().LoadScene ("Cutscenes");
+						return;
+					}
 					zone.lockGo.SetActive(false);
-				previousZone = zone;
+				}
 			}
 			selectedZone = null;
 			GameManager.updatables = GameManager.updatables.Add(this);
@@ -67,6 +78,18 @@ namespace MatchingCardGame
 					if (InputManager.LeftClickInput && !zone.lockGo.activeSelf)
 					{
 						LevelSelectMenu.currentZoneIndex = zone.trs.GetSiblingIndex();
+						if (zone.FirstTimeEntering)
+						{
+							print(2);
+							zone.FirstTimeEntering = false;
+							if (!string.IsNullOrEmpty(zone.activateGoNameForeverOnFirstTimeEntered))
+								GameManager.GetSingleton<GameManager>().ActivateGoForever (zone.activateGoNameForeverOnFirstTimeEntered);
+							if (!string.IsNullOrEmpty(zone.deactivateGoNameForeverOnFirstTimeEntered))
+								GameManager.GetSingleton<GameManager>().DeactivateGoForever (zone.deactivateGoNameForeverOnFirstTimeEntered);
+							// GameManager.GetSingleton<SaveAndLoadManager>().Save ();
+							GameManager.GetSingleton<GameManager>().LoadScene ("Cutscenes");
+							return;
+						}
 						GameManager.GetSingleton<GameManager>().LoadScene ("Level Select");
 					}
 					return;
@@ -82,6 +105,32 @@ namespace MatchingCardGame
 		[Serializable]
 		public class Zone
 		{
+			public bool FirstTimeUnlocking
+			{
+				get
+				{
+					return PlayerPrefs.GetInt(trs.name + " first time unlocking", 1) == 1;
+				}
+				set
+				{
+					PlayerPrefs.SetInt(trs.name + " first time unlocking", value.GetHashCode());
+				}
+			}
+			public bool FirstTimeEntering
+			{
+				get
+				{
+					return PlayerPrefs.GetInt(trs.name + " first time entering", 1) == 1;
+				}
+				set
+				{
+					PlayerPrefs.SetInt(trs.name + " first time entering", value.GetHashCode());
+				}
+			}
+			public string activateGoNameForeverOnFirstTimeUnlocked;
+			public string deactivateGoNameForeverOnFirstTimeUnlocked;
+			public string activateGoNameForeverOnFirstTimeEntered;
+			public string deactivateGoNameForeverOnFirstTimeEntered;
 			public Transform trs;
 			public GameObject lockGo;
 			public LineRenderer lineRenderer;
