@@ -25,6 +25,7 @@ namespace MatchingCardGame
 			public Rect[] islandRects = new Rect[0];
 			public Vector2 cameraOffset;
 			public float timePerMove;
+			public AudioClip[] musics = new AudioClip[0];
 
 			public IslandsLevelEntry (IslandsLevelEntry islandsLevelEntry)
 			{
@@ -33,12 +34,13 @@ namespace MatchingCardGame
 				cardCount = islandsLevelEntry.cardCount;
 				cardTypeCount = islandsLevelEntry.cardTypeCount;
 				moveCount = islandsLevelEntry.moveCount;
+				cardModifierEntries = islandsLevelEntry.cardModifierEntries;
 				backgroundSprite = islandsLevelEntry.backgroundSprite;
 				islandOrientationColliders = islandsLevelEntry.islandOrientationColliders;
 				islandRects = islandsLevelEntry.islandRects;
 				cameraOffset = islandsLevelEntry.cameraOffset;
 				timePerMove = islandsLevelEntry.timePerMove;
-				islandsLevelEntry.cardModifierEntries.CopyTo(cardModifierEntries, 0);
+				musics = islandsLevelEntry.musics;
 			}
 
 			public IslandsLevel MakeLevel ()

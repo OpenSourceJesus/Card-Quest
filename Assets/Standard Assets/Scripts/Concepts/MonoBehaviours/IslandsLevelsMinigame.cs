@@ -32,6 +32,7 @@ namespace MatchingCardGame
 		public Image backgroundImage;
 		public GameObject[] statusMenuStarIconGos = new GameObject[0];
 		public GameObject[] nextLevelScreenStarIconGos = new GameObject[0];
+		public AudioSource musicSource;
 		[HideInInspector]
 		protected int currentLevelIndex = -1;
 		[HideInInspector]
@@ -94,6 +95,7 @@ namespace MatchingCardGame
 			yield return StartCoroutine(MakeNextLevelRoutine (islandsLevelsData.islandsLevelEntries[startingLevelIndex]));
 			GoToNextLevel ();
 			StartCoroutine(MakeLevelsRoutine ());
+			StartCoroutine(PlayMusics ());
 		}
 
 		public void DoUpdate ()
@@ -281,6 +283,21 @@ namespace MatchingCardGame
 				nextLevelScreenStarIconGos[indexOfNextStarToLose].SetActive(false);
 				indexOfNextStarToLose ++;
 			}
+		}
+
+		IEnumerator PlayMusics ()
+		{
+			do
+			{
+				AudioClip music;
+				do
+				{
+					music = currentLevelEntry.musics[Random.Range(0, currentLevelEntry.musics.Length)];
+				} while (musicSource.clip == music);
+				musicSource.clip = music;
+				musicSource.Play();
+				yield return new WaitUntil(() => (!musicSource.isPlaying));
+			} while (true);
 		}
 
 		public static bool GetLevelCompleted (string levelName)

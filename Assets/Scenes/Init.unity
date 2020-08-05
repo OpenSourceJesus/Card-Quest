@@ -147,7 +147,8 @@ AudioSource:
   m_GameObject: {fileID: 90835733}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 24300002, guid: 625c54f5036335135a680c6799ba9ee2,
+    type: 2}
   m_audioClip: {fileID: 8300000, guid: 5a9744cbb293c99409cc14666a856998, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
@@ -762,10 +763,10 @@ Camera:
   m_FocalLength: 50
   m_NormalizedViewPortRect:
     serializedVersion: 2
-    x: -2.9393756
-    y: 0.42731237
-    width: 6.8787513
-    height: 0.14537522
+    x: -0.13194442
+    y: 0.1043956
+    width: 1.2638888
+    height: 0.7912088
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
