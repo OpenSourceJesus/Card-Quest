@@ -248,8 +248,8 @@ namespace MatchingCardGame
 				foreach (IUpdatable updatable in updatables)
 					updatable.DoUpdate ();
 				Physics2D.Simulate(Time.deltaTime);
+				GetSingleton<ObjectPool>().DoUpdate ();
 				GetSingleton<CameraScript>().DoUpdate ();
-				// GetSingleton<ObjectPool>().DoUpdate ();
 				// GetSingleton<GameCamera>().DoUpdate ();
 				// acceleration = InputManager.Acceleration;
 				// lowPassValue = Vector3.Lerp(lowPassValue, acceleration, lowPassFilterFactor);

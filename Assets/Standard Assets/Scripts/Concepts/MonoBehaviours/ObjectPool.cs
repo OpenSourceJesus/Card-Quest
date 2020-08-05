@@ -7,7 +7,7 @@ using Object = UnityEngine.Object;
 
 namespace MatchingCardGame
 {
-	public class ObjectPool : MonoBehaviour
+	public class ObjectPool : SingletonMonoBehaviour<ObjectPool>
 	{
 		public bool preloadOnAwake = true;
 		public Transform trs;
@@ -15,8 +15,9 @@ namespace MatchingCardGame
 		public DelayedDespawn[] delayedDespawns = new DelayedDespawn[0];
 		public RangedDespawn[] rangedDespawns = new RangedDespawn[0];
 		
-		public virtual void Awake ()
+		public override void Awake ()
 		{
+			base.Awake ();
 			GameManager.singletons.Remove(GetType());
 			GameManager.singletons.Add(GetType(), this);
 			enabled = false;
@@ -30,7 +31,7 @@ namespace MatchingCardGame
 			}
 		}
 		
-		public virtual void DoUpdate ()
+		public void DoUpdate ()
 		{
 			for (int i = 0; i < delayedDespawns.Length; i ++)
 			{
@@ -67,7 +68,7 @@ namespace MatchingCardGame
 			}
 		}
 		
-		public virtual DelayedDespawn DelayDespawn (int prefabIndex, GameObject clone, Transform trs, float delay)
+		public DelayedDespawn DelayDespawn (int prefabIndex, GameObject clone, Transform trs, float delay)
 		{
 			DelayedDespawn delayedDespawn = new DelayedDespawn(delay);
 			delayedDespawn.go = clone;
@@ -79,7 +80,7 @@ namespace MatchingCardGame
 			return delayedDespawn;
 		}
 
-		public virtual void CancelDelayedDespawn (DelayedDespawn delayedDespawn)
+		public void CancelDelayedDespawn (DelayedDespawn delayedDespawn)
 		{
 			int indexOfDelayedDespawn = delayedDespawns.IndexOf(delayedDespawn);
 			if (indexOfDelayedDespawn != -1)
@@ -90,7 +91,7 @@ namespace MatchingCardGame
 			}
 		}
 		
-		public virtual RangedDespawn RangeDespawn (int prefabIndex, GameObject clone, Transform trs, float range)
+		public RangedDespawn RangeDespawn (int prefabIndex, GameObject clone, Transform trs, float range)
 		{
 			RangedDespawn rangedDespawn = new RangedDespawn(trs.position, range);
 			rangedDespawn.go = clone;
@@ -103,7 +104,7 @@ namespace MatchingCardGame
 			return rangedDespawn;
 		}
 
-		public virtual void CancelRangedDespawn (RangedDespawn rangedDespawn)
+		public void CancelRangedDespawn (RangedDespawn rangedDespawn)
 		{
 			int indexOfRangedDespawn = rangedDespawns.IndexOf(rangedDespawn);
 			if (indexOfRangedDespawn != -1)
@@ -114,7 +115,7 @@ namespace MatchingCardGame
 			}
 		}
 		
-		public virtual T SpawnComponent<T> (int prefabIndex, Vector3 position = new Vector3(), Quaternion rotation = new Quaternion(), Transform parent = null)
+		public T SpawnComponent<T> (int prefabIndex, Vector3 position = new Vector3(), Quaternion rotation = new Quaternion(), Transform parent = null)
 		{
 			SpawnEntry spawnEntry = spawnEntries[prefabIndex];
 			if (spawnEntry.cache.Count == 0)
@@ -135,22 +136,22 @@ namespace MatchingCardGame
 			return cacheEntry.Key.GetComponent<T>();
 		}
 
-		public virtual T SpawnComponent<T> (T component, Vector3 position = new Vector3(), Quaternion rotation = new Quaternion(), Transform parent = null) where T : Object
+		public T SpawnComponent<T> (T component, Vector3 position = new Vector3(), Quaternion rotation = new Quaternion(), Transform parent = null) where T : Object
 		{
 			return (T) Instantiate(component, position, rotation, parent);
 		}
 		
-		public virtual T Spawn<T> (T prefab, Vector3 position = new Vector3(), Quaternion rotation = new Quaternion(), Transform parent = null)
+		public T Spawn<T> (T prefab, Vector3 position = new Vector3(), Quaternion rotation = new Quaternion(), Transform parent = null)
 		{
 			return SpawnComponent<T>((prefab as ISpawnable).PrefabIndex, position, rotation, parent);
 		}
 		
-		public virtual KeyValuePair<GameObject, Transform> Despawn (SpawnedEntry spawnedEntry)
+		public KeyValuePair<GameObject, Transform> Despawn (SpawnedEntry spawnedEntry)
 		{
 			return Despawn (spawnedEntry.prefabIndex, spawnedEntry.go, spawnedEntry.trs);
 		}
 		
-		public virtual KeyValuePair<GameObject, Transform> Despawn (int prefabIndex, GameObject go, Transform trs)
+		public KeyValuePair<GameObject, Transform> Despawn (int prefabIndex, GameObject go, Transform trs)
 		{
 			// if (go == null)
 			// 	return new KeyValuePair<GameObject, Transform>();
@@ -161,7 +162,7 @@ namespace MatchingCardGame
 			return output;
 		}
 		
-		public virtual KeyValuePair<GameObject, Transform> Preload (int prefabIndex)
+		public KeyValuePair<GameObject, Transform> Preload (int prefabIndex)
 		{
 			KeyValuePair<GameObject, Transform> output;
 			SpawnEntry spawnEntry = spawnEntries[prefabIndex];

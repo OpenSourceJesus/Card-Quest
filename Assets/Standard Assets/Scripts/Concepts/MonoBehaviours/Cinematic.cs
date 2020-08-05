@@ -14,6 +14,11 @@ namespace MatchingCardGame
 			goToNextPartButton.onClick.AddListener(delegate { GoToNextPart (); });
 		}
 
+		void OnDisable ()
+		{
+			goToNextPartButton.onClick.RemoveListener(delegate { GoToNextPart (); });
+		}
+
 		void GoToNextPart ()
 		{
 			conversation.currentDialog.isFinished = true;

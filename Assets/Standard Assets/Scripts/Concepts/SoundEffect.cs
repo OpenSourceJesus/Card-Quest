@@ -11,11 +11,6 @@ namespace MatchingCardGame
 	{
 		public AudioSource audioSource;
 
-		public virtual void OnDisable ()
-		{
-			AudioManager.soundEffects.Remove(this);
-		}
-
 		[Serializable]
 		public class Settings
 		{

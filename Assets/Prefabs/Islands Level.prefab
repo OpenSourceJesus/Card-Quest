@@ -52,6 +52,13 @@ MonoBehaviour:
   selectedCardIndicatorTrs: {fileID: 2985442856047151608}
   highlightedCardIndicatorTrs: {fileID: 1404506791127950691}
   trs: {fileID: 4081238305326944116}
+  movesRequiredToWin: 0
+  winLevelSounds:
+  - {fileID: 8300000, guid: e28b2d5c52d5d1c4181057262382b010, type: 3}
+  - {fileID: 8300000, guid: f5637a81a62c8b84cb724407de04edb7, type: 3}
+  moveCardSounds:
+  - {fileID: 8300000, guid: ec2e4b56549bc31449a7fc2df8655847, type: 3}
+  - {fileID: 8300000, guid: 9dcf22465b3141544b8242e13621a217, type: 3}
 --- !u!1001 &2022597073991453063
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -8,13 +8,15 @@ namespace MatchingCardGame
 {
 	public class IslandsLevel : Level
 	{
+		public static Vector2 cardSize;
 		public Card selectedCard;
 		public Card highlightedCard;
 		public Transform selectedCardIndicatorTrs;
 		public Transform highlightedCardIndicatorTrs;
 		public Transform trs;
 		public int movesRequiredToWin;
-		public static Vector2 cardSize;
+		public AudioClip[] winLevelSounds = new AudioClip[0];
+		public AudioClip[] moveCardSounds = new AudioClip[0];
 		CardModifier[] cardModifiers = new CardModifier[0];
 		bool previousLeftMouseButtonInput;
 		bool leftMouseButtonInput;
@@ -52,7 +54,11 @@ namespace MatchingCardGame
 							selectedCardIndicatorTrs.gameObject.SetActive(true);
 						}
 						if (IsLevelCompleted())
+						{
+							AudioClip winLevelSound = winLevelSounds[Random.Range(0, winLevelSounds.Length)];
+							GameManager.GetSingleton<AudioManager>().PlaySoundEffect (null, new SoundEffect.Settings(winLevelSound));
 							GameManager.GetSingleton<IslandsLevelsMinigame>().OnLevelComplete (this);
+						}
 					}
 					else
 					{
@@ -162,6 +168,8 @@ namespace MatchingCardGame
 			if (!isNextToSameType)
 				return false;
 			MoveSelectedCardToHighlightedPosition ();
+			AudioClip moveCardSound = moveCardSounds[Random.Range(0, moveCardSounds.Length)];
+			GameManager.GetSingleton<AudioManager>().PlaySoundEffect (null, new SoundEffect.Settings(moveCardSound));
 			return true;
 		}
 
@@ -223,8 +231,6 @@ namespace MatchingCardGame
 			cardTypePositions = _cardTypePositions.ToList();
 			List<Vector2Int>[] _otherCardTypePositions = new List<Vector2Int>[otherCardTypePositionsDict.Count];
 			otherCardTypePositionsDict.Values.CopyTo(_otherCardTypePositions, 0);
-			List<List<Vector2Int>> otherCardTypePositions = new List<List<Vector2Int>>();
-			otherCardTypePositions = _otherCardTypePositions.ToList();
 			return false;
 		}
 		

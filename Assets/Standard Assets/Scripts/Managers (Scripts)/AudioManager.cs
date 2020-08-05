@@ -35,12 +35,11 @@ namespace MatchingCardGame
 		[SaveAndLoadValue(false)]
 		public bool mute;
 		public SoundEffect soundEffectPrefab;
-		public static List<SoundEffect> soundEffects = new List<SoundEffect>();
+		public SoundEffect.Settings defaultSettings;
 
 		void Awake ()
 		{
 			UpdateAudioListener ();
-			soundEffects.Clear();
 		}
 
 		void UpdateAudioListener ()
@@ -79,15 +78,18 @@ namespace MatchingCardGame
 			SetMute (!mute);
 		}
 		
-		public SoundEffect PlaySoundEffect (SoundEffect soundEffectPrefab, SoundEffect.Settings settings, Vector2 position = default(Vector2), Quaternion rotation = default(Quaternion), Transform parent = null)
+		public SoundEffect PlaySoundEffect (SoundEffect soundEffectPrefab = null, SoundEffect.Settings settings = null, Vector2 position = default(Vector2), Quaternion rotation = default(Quaternion), Transform parent = null)
 		{
+			if (soundEffectPrefab == null)
+				soundEffectPrefab = this.soundEffectPrefab;
 			SoundEffect output = GameManager.GetSingleton<ObjectPool>().SpawnComponent<SoundEffect>(soundEffectPrefab.prefabIndex, position, rotation, parent);
+			if (settings == null)
+				settings = defaultSettings;
 			output.audioSource.clip = settings.clip;
 			output.audioSource.volume = settings.volume;
 			output.audioSource.pitch = settings.pitch;
 			output.audioSource.Play();
 			GameManager.GetSingleton<ObjectPool>().DelayDespawn (output.prefabIndex, output.gameObject, output.trs, settings.clip.length);
-			soundEffects.Add(output);
 			return output;
 		}
 	}

@@ -5,6 +5,7 @@ using Extensions;
 using System;
 using IslandsLevelEntry = MatchingCardGame.IslandsLevelsData.IslandsLevelEntry;
 using IslandsLevelZone = MatchingCardGame.IslandsLevelsData.IslandsLevelZone;
+using Random = UnityEngine.Random;
 
 namespace MatchingCardGame
 {
@@ -22,7 +23,10 @@ namespace MatchingCardGame
 		public IslandsLevelsData islandsLevelsData;
 		public Zone[] zones = new Zone[0];
 		public _Text starsText;
-
+		public AudioClip[] unlockSounds = new AudioClip[0];
+		public AudioClip[] cantGoToZoneSounds = new AudioClip[0];
+		bool hasPlayedUnlockSound;
+		
 		void OnEnable ()
 		{
 #if UNITY_EDITOR
@@ -66,6 +70,12 @@ namespace MatchingCardGame
 		{
 			foreach (Zone zone in zones)
 			{
+				if (!hasPlayedUnlockSound && !zone.FirstTimeUnlocking && zone.FirstTimeEntering)
+				{
+					AudioClip unlockSound = unlockSounds[Random.Range(0, unlockSounds.Length)];
+					GameManager.GetSingleton<AudioManager>().PlaySoundEffect (null, new SoundEffect.Settings(unlockSound));
+					hasPlayedUnlockSound = true;
+				}
 				if (zone.polygonCollider.OverlapPoint(GameManager.GetSingleton<CameraScript>().camera.ScreenToWorldPoint(InputManager.MousePosition)))
 				{
 					if (zone != selectedZone)
@@ -75,21 +85,30 @@ namespace MatchingCardGame
 							selectedZone.lineRenderer.enabled = false;
 						selectedZone = zone;
 					}
-					if (InputManager.LeftClickInput && !zone.lockGo.activeSelf)
+					if (InputManager.LeftClickInput)
 					{
-						LevelSelectMenu.currentZoneIndex = zone.trs.GetSiblingIndex();
-						if (zone.FirstTimeEntering)
+						if (!zone.lockGo.activeSelf)
 						{
-							zone.FirstTimeEntering = false;
-							if (!string.IsNullOrEmpty(zone.activateGoNameForeverOnFirstTimeEntered))
-								GameManager.GetSingleton<GameManager>().ActivateGoForever (zone.activateGoNameForeverOnFirstTimeEntered);
-							if (!string.IsNullOrEmpty(zone.deactivateGoNameForeverOnFirstTimeEntered))
-								GameManager.GetSingleton<GameManager>().DeactivateGoForever (zone.deactivateGoNameForeverOnFirstTimeEntered);
-							// GameManager.GetSingleton<SaveAndLoadManager>().Save ();
-							GameManager.GetSingleton<GameManager>().LoadScene ("Cutscenes");
-							return;
+							GameManager.GetSingleton<AudioManager>().PlaySoundEffect ();
+							LevelSelectMenu.currentZoneIndex = zone.trs.GetSiblingIndex();
+							if (zone.FirstTimeEntering)
+							{
+								zone.FirstTimeEntering = false;
+								if (!string.IsNullOrEmpty(zone.activateGoNameForeverOnFirstTimeEntered))
+									GameManager.GetSingleton<GameManager>().ActivateGoForever (zone.activateGoNameForeverOnFirstTimeEntered);
+								if (!string.IsNullOrEmpty(zone.deactivateGoNameForeverOnFirstTimeEntered))
+									GameManager.GetSingleton<GameManager>().DeactivateGoForever (zone.deactivateGoNameForeverOnFirstTimeEntered);
+								// GameManager.GetSingleton<SaveAndLoadManager>().Save ();
+								GameManager.GetSingleton<GameManager>().LoadScene ("Cutscenes");
+								return;
+							}
+							GameManager.GetSingleton<GameManager>().LoadScene ("Level Select");
 						}
-						GameManager.GetSingleton<GameManager>().LoadScene ("Level Select");
+						else
+						{
+							AudioClip cantGoToZoneSound = cantGoToZoneSounds[Random.Range(0, cantGoToZoneSounds.Length)];
+							GameManager.GetSingleton<AudioManager>().PlaySoundEffect (null, new SoundEffect.Settings(cantGoToZoneSound));
+						}
 					}
 					return;
 				}

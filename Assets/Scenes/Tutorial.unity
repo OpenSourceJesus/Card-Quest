@@ -5527,10 +5527,10 @@ Camera:
   m_FocalLength: 50
   m_NormalizedViewPortRect:
     serializedVersion: 2
-    x: 0.027604163
-    y: 0
-    width: 0.9447917
-    height: 1
+    x: -3.5818963
+    y: 0.43875396
+    width: 8.163793
+    height: 0.12249208
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
@@ -5640,6 +5640,9 @@ MonoBehaviour:
   - {fileID: 1546056901}
   - {fileID: 608296180}
   - {fileID: 1744812534}
+  winLevelSounds:
+  - {fileID: 8300000, guid: e28b2d5c52d5d1c4181057262382b010, type: 3}
+  - {fileID: 8300000, guid: f5637a81a62c8b84cb724407de04edb7, type: 3}
   endPanel: {fileID: 412228032}
 --- !u!4 &1434416086
 Transform:

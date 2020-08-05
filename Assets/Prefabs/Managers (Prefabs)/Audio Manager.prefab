@@ -44,9 +44,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   uniqueId: 0
-  volume: 0
+  volume: 1
   mute: 0
-  soundEffectPrefab: {fileID: 0}
-  deathSoundEffectPrefab: {fileID: 0}
-  deathSounds: []
-  deathResponses: []
+  soundEffectPrefab: {fileID: 7055108892608329271, guid: 09b865957df65f046ab03be60beb993f,
+    type: 3}
+  defaultSettings:
+    clip: {fileID: 8300000, guid: e7b9ac2b6bbace94c8f137a9df6b11a4, type: 3}
+    volume: 1
+    pitch: 1

@@ -6216,6 +6216,9 @@ MonoBehaviour:
   - {fileID: 1961683295}
   - {fileID: 1347471334}
   - {fileID: 1950598583}
+  winLevelSounds:
+  - {fileID: 8300000, guid: e28b2d5c52d5d1c4181057262382b010, type: 3}
+  - {fileID: 8300000, guid: f5637a81a62c8b84cb724407de04edb7, type: 3}
 --- !u!4 &2144318788
 Transform:
   m_ObjectHideFlags: 0
@@ -6354,10 +6357,10 @@ Camera:
   m_FocalLength: 50
   m_NormalizedViewPortRect:
     serializedVersion: 2
-    x: -2.039855
-    y: 0.4015692
-    width: 5.07971
-    height: 0.19686162
+    x: -0.25
+    y: 0.16666666
+    width: 1.5
+    height: 0.6666667
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
